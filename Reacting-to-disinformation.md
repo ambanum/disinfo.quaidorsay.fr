@@ -5,12 +5,12 @@ permalink: /reacting-to-disinformation/
 nav_order: 10
 ---
 
-* [1. NewsGuard Tech](https://github.com/ambanum/desinfo.quaidorsay.fr-wiki/wiki/Reacting-to-disinformation#newsguard-technologies)
-* [2. Elves](https://github.com/ambanum/desinfo.quaidorsay.fr-wiki/wiki/Reacting-to-disinformation#elves)
-* [3. Correct the record](https://github.com/ambanum/desinfo.quaidorsay.fr-wiki/wiki/Reacting-to-disinformation#correct-the-record)
-* [4. Judiciary](https://github.com/ambanum/desinfo.quaidorsay.fr-wiki/wiki/Reacting-to-disinformation#judiciary)
-* [5. Denial](https://github.com/ambanum/desinfo.quaidorsay.fr-wiki/wiki/Reacting-to-disinformation#denial)
-* [6. 3PFCT](https://github.com/ambanum/desinfo.quaidorsay.fr-wiki/wiki/Reacting-to-disinformation#3PFCT)
+* [1. NewsGuard Tech](#newsguard-technologies)
+* [2. Elves](#elves)
+* [3. Correct the record](#correct-the-record)
+* [4. Judiciary](#judiciary)
+* [5. Denial](#denial)
+* [6. 3PFCT](#3PFCT)
 
 
 ## NewsGuard Technologies
@@ -31,7 +31,7 @@ Ratings are periodically updated. Before being rated, suspicious websites are di
 
 ## Elves
 
-[Elves](https://ambanum.github.io/disinformation-encyclopedia/definitions/vocabulary/#elves) is a term born in the Baltic states (Lithuania, Latvia and Estonia), which later spread south in eastern and later western Europe. Hunting and fighting trolls, they usually work in self-organized networks to counter disinformation. Their activities include debunking, the spreading of fact-checks, and the finding of fake accounts - among others.
+[Elves](https://desinfo.quaidorsay.fr/encyclopedia/definitions/vocabulary/#elves) is a term born in the Baltic states (Lithuania, Latvia and Estonia), which later spread south in eastern and later western Europe. Hunting and fighting trolls, they usually work in self-organized networks to counter disinformation. Their activities include debunking, the spreading of fact-checks, and the finding of fake accounts - among others.
 
 It is difficult to assess the level of influence exerted by their actions. However, especially in the Baltic states and more particularly Lithuania, elves have gained significant media attention in their digital warfare against pro-Kremlin trolls.
 
