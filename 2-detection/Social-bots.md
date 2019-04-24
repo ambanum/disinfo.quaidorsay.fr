@@ -12,15 +12,15 @@ Almost every available and open detection tool to be found relies on Twitter's A
 
 ## Twitter
 
-* [1. Botometer](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#1-botometer)
-* [2. TruthNest](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#2-truthnest) 
-* [3.@probabot_](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#3-probabot_)
-* [4. @StattoBot](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#4-stattobot)
-* [5. Spottingbot (by PegaBot)](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#5-spottingbot-by-pegabot)
-* [6. Botson](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#6-botson)
-* [7. tweetbotornot](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#7-tweetbotornot)
-* [8. DeBot](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#8-debot)
-* [Student projects and others](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Social-bots#student-projects-and-others) 
+* [1. Botometer](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#1-botometer)
+* [2. TruthNest](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#2-truthnest) 
+* [3.@probabot_](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#3-probabot_)
+* [4. @StattoBot](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#4-stattobot)
+* [5. Spottingbot (by PegaBot)](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#5-spottingbot-by-pegabot)
+* [6. Botson](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#6-botson)
+* [7. tweetbotornot](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#7-tweetbotornot)
+* [8. DeBot](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#8-debot)
+* [Student projects and others](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots#student-projects-and-others) 
 
 ### 1. Botometer
 
