@@ -13,3 +13,6 @@ defaults:
       path: "" # means "all files"
     values:
       layout: page
+
+exclude:
+  - .circleci
