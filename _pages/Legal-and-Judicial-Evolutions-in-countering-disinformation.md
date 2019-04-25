@@ -14,8 +14,8 @@ During said times, the law compels platforms to be more transparent by, for inst
 
 "Fake news" are also formally defined in order to allow for judiciary action. This definition includes massive and artificial diffusion, capacity of disturbance (of public peace or elections), and undeniability of the falsehood of the information being spread.
 
-Outside of election times, platforms ought to cooperate, as well as build and implement open measures to fight disinformation. 
-The French Superior Council of the Audiovisual (CSA) has been given the authority to hinder or interrupt the broadcasting of foreign state-owned (or state-influenced) TV-services in cases where fundamental national interests are at stake. 
+Outside of election times, platforms ought to cooperate, as well as build and implement open measures to fight disinformation.
+The French Superior Council of the Audiovisual (CSA) has been given the authority to hinder or interrupt the broadcasting of foreign state-owned (or state-influenced) TV-services in cases where fundamental national interests are at stake.
 
 ## In the EU: The Code of Practice on Disinformation
 

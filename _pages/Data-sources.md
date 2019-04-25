@@ -25,6 +25,3 @@ Through a datajournalism website, the Agence France Presse (AFP), the ANSA (Ital
 In the future, EDNH will open to other media outlets and will allow users (citizens) to answer surveys on salient European issues, which will then be translated into readable data.
 
 EDNH is independent and funded by the European Commission.
-
-
-
