@@ -8,6 +8,9 @@ nav_order: 6
 
 # Fact-checkers
 
+1. [In the EU](https://github.com/BerylBogui/disinformation-encyclopedia/blob/patch-8/_pages/encyclopedia/Fact-checkers.md#in-the-eu)
+2. [In France](https://github.com/BerylBogui/disinformation-encyclopedia/blob/patch-8/_pages/encyclopedia/Fact-checkers.md#in-france)
+
 ## In the EU
 
 1. [EUvsDisinfo](#1-euvsdisinfo)
