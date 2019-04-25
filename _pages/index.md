@@ -27,7 +27,7 @@ nav_exclude: true
 						<p>
 							We believe that in the fight against disinformation, many actors are already doing their part to prevent fake news and information manipulation from having an impact on our elections and collective decision processes: investigative journalists, fact-checkers, public open data providers, NGOs, OSINT researchers, concerned citizens…
 						</p>
-						<a href="/collaborate" class="btn btn-purple fs-5 mt-4">
+						<a href="/collaborate" class="btn btn-purple fs-5 mt-4" data-proofer-ignore>
 							Collaborate
 						</a>
 					</div>
