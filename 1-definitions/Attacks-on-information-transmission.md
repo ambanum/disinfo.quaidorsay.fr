@@ -6,11 +6,11 @@ parent: Definitions
 
 # Attacks on information transmission
 
-## To... Prevent and hinder communication 
+## To... Prevent and hinder communication
 
 - **Flood hashtags**
 
-To disrupt or suppress speech, one can use bots to "**flood**" a hashtag used by a group of people to communicate, that is to say to massively publish tweets including the hashtag along with irrelevant or worthless content, random characters and symbols or even no content at all. This makes it very difficult for people to actually share information and communicate through this hashtag, which is usually abandoned shortly after. 
+To disrupt or suppress speech, one can use bots to "**flood**" a hashtag used by a group of people to communicate, that is to say to massively publish tweets including the hashtag along with irrelevant or worthless content, random characters and symbols or even no content at all. This makes it very difficult for people to actually share information and communicate through this hashtag, which is usually abandoned shortly after.
 
 This was the case at the end of 2014, beginning of 2015 during popular uprisings in Mexico following the disappearance, in September 2014, of forty-six students headed to a protest. The governmental sphere was blamed by some media outlets. After the scandal, activists launched the hashtag #YaMeCanse (I am tired) to share information on the subject and organize protests. The trending hashtag was soon flooded by spambots, making it unusable.
 
@@ -22,7 +22,7 @@ Another effective method can be the creations of fake hashtags similar to the on
 
 - **Capture influential attention**
 
-Some bots reply to, tag or mention an influential user in tweets with a link to a disinformation article in a synchronized and repeated way until she or he takes an interest in the content and either reads it (and perhaps believe it) or shares it - without necessarily (proof-)reading it. 
+Some bots reply to, tag or mention an influential user in tweets with a link to a disinformation article in a synchronized and repeated way until she or he takes an interest in the content and either reads it (and perhaps believe it) or shares it - without necessarily (proof-)reading it.
 
 - **Immediate sharing**
 
