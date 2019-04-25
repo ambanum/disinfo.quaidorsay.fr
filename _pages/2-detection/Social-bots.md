@@ -284,4 +284,3 @@ The first mission of the tool is basic bot detection upon user request.
 BotDetection is free and its code is open source.
 
 However, to use this tool, one needs to have previously installed softwares like PRAW (Python Reddit API Wrapper), NLTK (Natural Language Toolkit) and [SciPy](https://www.scipy.org/), and also needs to know a little bit about code (especially Python).
-

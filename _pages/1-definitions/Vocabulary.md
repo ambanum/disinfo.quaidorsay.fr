@@ -65,4 +65,3 @@ Source: J.-B. Jeangène Vilmer, A. Escorcia, M. Guillaume, J. Herrera, _Informat
 
 ### (2)
 Source: https://debunk.eu/about-elves/
-
