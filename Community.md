@@ -16,16 +16,16 @@ nav_order: 6
 
 ### 1. **The Rapid Alert System (RAS)**
 
-The EEAS has set up a Rapid Alert System enabling all Member States to share information and notify one another of disinformation campaigns. 
+The EEAS has set up a Rapid Alert System enabling all Member States to share information and notify one another of disinformation campaigns.
 
 #### By whom ?
 
 The Rapid Alert System was officially created in December 2018 as part of the European External Action Service's (EEAS) Action Plan against Disinformation, and was launched in March 2019. Commission services such as DG DIGIT, DG COMM, DG CNECT are active contributors to its building.
 
-#### What ? 
+#### What ?
 
-The RAS mechanism is based on collaboration. 
-Through a secure digital platform, EU Member States (as each Member State has an official national contact point) and relevant national representatives or experts can discuss, share information on past and ongoing foreign disinformation campaigns with one another, share useful tools and efficient pratices and ultimately coordinate responses. 
+The RAS mechanism is based on collaboration.
+Through a secure digital platform, EU Member States (as each Member State has an official national contact point) and relevant national representatives or experts can discuss, share information on past and ongoing foreign disinformation campaigns with one another, share useful tools and efficient pratices and ultimately coordinate responses.
 
 Moreover, the RAS allows its members to warn other members of ongoing information manipulation. Today, the main topic at hand are the upcoming European elections, national elections withtin the EU, disinformation campaigns and solutions to be implemented.
 
@@ -33,7 +33,7 @@ The RAS is no security hazard since what is shared through it is crucial yet not
 
 It is providing immediate and centralized access to various information from reliable, heterogeneous agents, information that would have been rather complex to obtain and classify at a merely national level.
 
-#### What for ? 
+#### What for ?
 
 The main goal of the RAS is to ease and increase the speed of information (trends, reports, analyses, etc.) sharing among relevant actors, thus allowing more efficient and direct communication around common stakes. Ultimately, quicker, more efficient and possibly synchronized responses should emerge.
 
@@ -49,7 +49,7 @@ The RAS is open to EU Member States as well as relevant european and national re
 
 #### Additional information
 
-No classified information is shared on the RAS, which works on the basis of  open source intelligence (OSINT), an information collection and analysis method based on data coming from public, open sources. 
+No classified information is shared on the RAS, which works on the basis of  open source intelligence (OSINT), an information collection and analysis method based on data coming from public, open sources.
 
 Data is stored on a secure, encrypted server and access to RAS domains is limited to its members and requires two-factor authentication.
 
@@ -59,7 +59,7 @@ Data is stored on a secure, encrypted server and access to RAS domains is limite
 
 In 2018 was created the European Commission’s High Level Expert Group on Digital Disinformation and Fake News to advise and offer lasting solutions to online disinformation and find out "_how to tackle the spread and socio-economic impact of disinformation_". [Lie Detectors](https://lie-detectors.org/) is one of its 39 members. It was created by journalist Juliane von Reppert-Bismarck.
 
-#### What ? 
+#### What ?
 
 Lie Detectors works by offering free, interactive 90-minute classroom sessions by working journalists and media experts, in Europe, to school pupils aged ten to fifteen. "_Sessions include an overview of fake news, methods of testing for misinformation, and analysis of drivers of the fake-news phenomenon_". As a media literacy initiative, goals of the initiative include the education to news media, an increase in the awareness of misinformation and the information and empowerment of students.
 
@@ -67,7 +67,7 @@ Lie Detectors works by offering free, interactive 90-minute classroom sessions b
 
 The ultimate goal of Lie Detectors is to increase media and news literacy Europe-wide in order to empower people to make free, informed choices.
 
-#### For whom ?  
+#### For whom ?
 
 This initiative is addressed to ten to fifteen years old schoolchildren in Europe.
 
@@ -78,7 +78,7 @@ This project won the 2018 EU Digital skills award of the European Commission.
 
 ### 3. [**EU DisinfoLab**](https://www.disinfo.eu/)
 
-#### What ? 
+#### What ?
 
 The EU DisinfoLab is a non-governmental organisation (NGO) based in Brussels, which _"provides innovation and scientific support to civil society actors fighting disinformation_". It studies and exposes online communities by mapping social media clusters and monitor and source disinformation. Its methodology is based on Social Network Analysis (SNA).
 
@@ -86,11 +86,11 @@ The Lab also publishes studies and organizes conferences to initiate and facilit
 
 It also intents to develop a legal framework "_preserving our freedoms while offering a sustainable solution to the disinformation threat_".
 
-#### What for ? 
+#### What for ?
 
 The broad goal of the NGO is to "_fight disinformation with innovative methodology and scientific support to the counter-disinformation community_" and comprehends raising awareness within the civil society.
 
-#### For whom ?  
+#### For whom ?
 
 The NGO's work is transparent and open to all. It especially targets actors and organizations actively fighting disinformation.
 
