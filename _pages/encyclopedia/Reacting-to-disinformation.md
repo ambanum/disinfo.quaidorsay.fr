@@ -1,6 +1,6 @@
 ---
 title: Reacting-to-disinformation
-permalink: /reacting-to-disinformation/
+permalink: /encyclopedia/reacting-to-disinformation/
 nav_order: 10
 ---
 

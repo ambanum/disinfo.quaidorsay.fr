@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /
+permalink: /encyclopedia
 ---
 
 # Home
