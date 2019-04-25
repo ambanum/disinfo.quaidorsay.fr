@@ -30,7 +30,7 @@ Ratings are periodically updated. Before being rated, suspicious websites are di
 
 ## Elves
 
-[Elves](https://desinfo.quaidorsay.fr/encyclopedia/definitions/vocabulary/#elves) is a term born in the Baltic states (Lithuania, Latvia and Estonia), which later spread south in eastern and later western Europe. Hunting and fighting trolls, they usually work in self-organized networks to counter disinformation. Their activities include debunking, the spreading of fact-checks, and the finding of fake accounts - among others.
+[Elves](/definitions/vocabulary/#elves) is a term born in the Baltic states (Lithuania, Latvia and Estonia), which later spread south in eastern and later western Europe. Hunting and fighting trolls, they usually work in self-organized networks to counter disinformation. Their activities include debunking, the spreading of fact-checks, and the finding of fake accounts - among others.
 
 It is difficult to assess the level of influence exerted by their actions. However, especially in the Baltic states and more particularly Lithuania, elves have gained significant media attention in their digital warfare against pro-Kremlin trolls.
 
