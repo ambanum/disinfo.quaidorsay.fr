@@ -9,7 +9,7 @@ nav_order: 10
 * [3. Correct the record](#correct-the-record)
 * [4. Judiciary](#judiciary)
 * [5. Denial](#denial)
-* [6. 3PFCT](#facebooks-3pfct)
+* [6. 3PFCT](#facebooks-third-party-fact-checking-tool)
 
 
 ## NewsGuard Technologies
