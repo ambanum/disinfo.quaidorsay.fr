@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Attacks-on-information-transmission
 permalink: /definitions/Attacks-on-information-transmission/
 parent: Definitions

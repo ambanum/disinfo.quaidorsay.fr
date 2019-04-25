@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Verification
 permalink: /analysis/verification/
 parent: Analysis

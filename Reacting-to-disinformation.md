@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Reacting-to-disinformation
 permalink: /reacting-to-disinformation/
 nav_order: 10

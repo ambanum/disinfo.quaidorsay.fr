@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Vocabulary
 permalink: /definitions/vocabulary/
 parent: Definitions

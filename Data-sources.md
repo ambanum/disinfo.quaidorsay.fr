@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Data-sources
 permalink: /data-sources/
 nav_order: 7

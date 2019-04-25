@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Fiche produit
 permalink: /fiche-produit/
 nav_exclude: true

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Takedown
 permalink: /reaction/Takedown/
 parent: Reaction
