@@ -11,6 +11,10 @@ jobs:
           key: dependency-cache-{{ checksum "Gemfile" }}
 
       - run:
+          name: Update bundler
+          command: gem install bundle
+
+      - run:
           name: Install Ruby dependencies
           command: bundle install --jobs=4 --retry=3 --path vendor/bundle
 
