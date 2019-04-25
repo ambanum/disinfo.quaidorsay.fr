@@ -4,7 +4,7 @@ permalink: /Legal-and-Judicial-Evolutions-in-countering-disinformation/
 nav_order: 11
 ---
 
-## In France: a law against intentional information manipulation
+## 1. In France: a law against intentional information manipulation
 
 In France, a law against information manipulation and the **intentional** spread of disinformation was officially adopted on November 20, 2018, nine months after its proposal.
 
