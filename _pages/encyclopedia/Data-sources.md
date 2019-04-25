@@ -1,6 +1,6 @@
 ---
 title: Data-sources
-permalink: /data-sources/
+permalink: /encyclopedia/data-sources/
 nav_order: 7
 ---
 

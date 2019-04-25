@@ -1,6 +1,6 @@
 ---
 title: Disinformation-datasets
-permalink: /disinformation-datasets/
+permalink: /encyclopedia/disinformation-datasets/
 nav_order: 8
 ---
 

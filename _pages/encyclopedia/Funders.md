@@ -1,6 +1,6 @@
 ---
 title: Funders
-permalink: /funders/
+permalink: /encyclopedia/funders/
 nav_order: 9
 ---
 

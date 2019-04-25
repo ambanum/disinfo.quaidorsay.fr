@@ -1,6 +1,6 @@
 ---
 title: Crowdsourcing
-permalink: /detection/crowdsourcing/
+permalink: /encyclopedia/detection/crowdsourcing/
 parent: Detection
 ---
 

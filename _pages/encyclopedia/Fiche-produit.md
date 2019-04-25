@@ -1,6 +1,6 @@
 ---
 title: Fiche produit
-permalink: /fiche-produit/
+permalink: /encyclopedia/fiche-produit/
 nav_exclude: true
 ---
 **I - La désinformation : un enjeu d'urgence**

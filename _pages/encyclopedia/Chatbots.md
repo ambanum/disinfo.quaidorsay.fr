@@ -1,6 +1,6 @@
 ---
 title: Chatbots
-permalink: /chatbots/
+permalink: /encyclopedia/chatbots/
 nav_order: 5
 ---
 

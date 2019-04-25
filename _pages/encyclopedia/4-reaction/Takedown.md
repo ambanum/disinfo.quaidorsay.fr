@@ -1,6 +1,6 @@
 ---
 title: Takedown
-permalink: /reaction/Takedown/
+permalink: /encyclopedia/reaction/Takedown/
 parent: Reaction
 ---
 
