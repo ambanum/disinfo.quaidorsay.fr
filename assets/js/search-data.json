@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 {
   {% for page in site.html_pages %}{% if page.search_exclude != true %}"{{ forloop.index0 }}": {

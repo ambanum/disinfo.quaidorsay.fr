@@ -8,7 +8,7 @@ baseurl: "/encyclopedia"
 url: https://desinfo.quaidorsay.fr
 
 remote_theme: pmarsceill/just-the-docs
-
+search_enabled: true
 
 defaults:
   -
