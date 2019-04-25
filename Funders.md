@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Funders
 permalink: /funders/
 nav_order: 9

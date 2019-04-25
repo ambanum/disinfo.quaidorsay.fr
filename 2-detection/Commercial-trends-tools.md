@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Commercial-trends-tools
 permalink: /detection/Commercial-trends-tools/
 parent: Detection

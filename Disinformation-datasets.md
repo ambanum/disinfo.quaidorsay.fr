@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Disinformation-datasets
 permalink: /disinformation-datasets/
 nav_order: 8

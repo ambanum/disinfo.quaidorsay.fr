@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Hate and troll detection
 permalink: /hate-and-troll-detection/
 nav_order: 11

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Media-forgery
 permalink: /analysis/media-forgery/
 parent: Analysis

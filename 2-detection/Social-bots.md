@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Social-bots
 permalink: /detection/social-bots/
 parent: Detection

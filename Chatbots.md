@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Chatbots
 permalink: /chatbots/
 nav_order: 5

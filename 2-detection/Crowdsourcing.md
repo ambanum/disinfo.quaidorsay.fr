@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Crowdsourcing
 permalink: /detection/crowdsourcing/
 parent: Detection
