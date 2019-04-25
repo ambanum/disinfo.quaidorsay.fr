@@ -1,0 +1,51 @@
+html,body {
+  font-family: 'Open Sans', serif;
+}
+.hero.is-info {
+  /* background: linear-gradient(
+	  rgba(0, 0, 0, 0.5),
+	  rgba(0, 0, 0, 0.5)
+	), url('https://unsplash.com/photos/a-qsFZimp1M') no-repeat center center fixed; */
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #4e54c8;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #673AB7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #512DA8, #673AB7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+
+
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.value-proposition .subtitle {
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+.hero.is-info .box {
+	border-radius: 3px;
+}
+
+.hero.is-info .box .title {
+	color: #363641;
+}
+
+.hero.is-info .box .subtitle {
+	color: #4a4a4a;
+}
+
+
+.card-header {
+	flex-direction: column;
+}
+
+.btn-purple {
+	color: #FFF !important;
+}

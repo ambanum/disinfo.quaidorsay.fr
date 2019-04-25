@@ -1,6 +1,6 @@
 ---
 title: Legal and Judicial Evolutions
-permalink: /Legal-and-Judicial-Evolutions-in-countering-disinformation/
+permalink: /encyclopedia/Legal-and-Judicial-Evolutions-in-countering-disinformation/
 nav_order: 11
 ---
 

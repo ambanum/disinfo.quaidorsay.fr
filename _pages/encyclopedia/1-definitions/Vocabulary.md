@@ -1,6 +1,6 @@
 ---
 title: Vocabulary
-permalink: /definitions/vocabulary/
+permalink: /encyclopedia/definitions/vocabulary/
 parent: Definitions
 ---
 

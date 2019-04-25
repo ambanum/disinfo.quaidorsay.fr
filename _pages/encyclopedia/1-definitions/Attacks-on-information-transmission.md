@@ -1,6 +1,6 @@
 ---
 title: Attacks-on-information-transmission
-permalink: /definitions/Attacks-on-information-transmission/
+permalink: /encyclopedia/definitions/Attacks-on-information-transmission/
 parent: Definitions
 ---
 

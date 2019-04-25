@@ -1,6 +1,6 @@
 ---
 title: Community
-permalink: /community/
+permalink: /encyclopedia/community/
 nav_order: 6
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Commercial-trends-tools
-permalink: /detection/Commercial-trends-tools/
+permalink: /encyclopedia/detection/Commercial-trends-tools/
 parent: Detection
 ---
 

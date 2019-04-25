@@ -1,6 +1,6 @@
 ---
 title: Hate and troll detection
-permalink: /hate-and-troll-detection/
+permalink: /encyclopedia/hate-and-troll-detection/
 nav_order: 11
 ---
 

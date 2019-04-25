@@ -1,6 +1,6 @@
 ---
 title: Social-bots
-permalink: /detection/social-bots/
+permalink: /encyclopedia/detection/social-bots/
 parent: Detection
 ---
 

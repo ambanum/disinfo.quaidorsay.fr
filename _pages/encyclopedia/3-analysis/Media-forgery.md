@@ -1,6 +1,6 @@
 ---
 title: Media-forgery
-permalink: /analysis/media-forgery/
+permalink: /encyclopedia/analysis/media-forgery/
 parent: Analysis
 ---
 

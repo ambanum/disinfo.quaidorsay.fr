@@ -1,6 +1,6 @@
 ---
 title: Verification
-permalink: /analysis/verification/
+permalink: /encyclopedia/analysis/verification/
 parent: Analysis
 ---
 
