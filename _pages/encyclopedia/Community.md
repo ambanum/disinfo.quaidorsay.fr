@@ -96,26 +96,4 @@ The NGO's work is transparent and open to all. It especially targets actors and 
 
 #### Additional information
 
-<<<<<<< HEAD:Community.md
 Among partner projects of the EU DisinfoLab are WeVerify and [Open Your Eyes](https://www.disinfo.eu/projects/). 
-=======
-Among partner projects of the EU DisinfoLab are [WeVerify](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Community#8-weverify) and [Open Your Eyes](https://www.disinfo.eu/projects/).
-
-## In France
-
-1. [Les Décodeurs](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Community#1-les-d%C3%A9codeurs)
-2. [AFP Factuel](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Community#2-afp-factuel)
-3. [Vrai Ou Fake](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Community#3-vrai-ou-fake)
-
-
-### 1. [**Les Décodeurs**](https://www.lemonde.fr/les-decodeurs/)
-
-Les Décodeurs is a team of journalists from _Le Monde_ who fact-chek, explain and give context to current news in almost-real time. They rank the news they check from "true" to "false" on a scale that also comprehends "rather true", "questionable", "exaggerated" or "simplistic". They developed a tool, [**Decodex**](https://www.lemonde.fr/verification/), which works as an interface for readers. The user just has to type in the address or the name of a website or a page to know whether the source (_i.e._ the diffuser of the news) is deemed reliable or not.  It also works as a plug-in. Decodex also offers information in a media literacy effort. For instance, one can find on their webpage open questions such as "What is information?" or "How to check that a rumour spreading on social networks is true?" and their detailed answers.
-
-### 2. [**AFP Factuel**](https://factuel.afp.com/)
-
-This website of the French Press Agency simply provides fact-checks of articles and current news. It is open to everyone.
-
-### 3. [**Vrai Ou Fake**](https://www.francetvinfo.fr/vrai-ou-fake/)
-
-This is a factchecking and debunking platform for all of the French broadcasting audience. It gathers content produced by various media such as Arte, France Médias Monde, France Télévisions, Radio France and TV5 MONDE.
