@@ -6,7 +6,7 @@ nav_order: 5
 
 In order to support works against disinformation, we have wrapped the most used and useful tools as chatbots.
 
-## 1. Analysis bot (using [Botometer](hhttps://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots/#1-botometer))
+## 1. Analysis bot (using [Botometer](/detection/social-bots/#1-botometer))
 
 This tool gives users the probability that Twitter accounts that have tweeted a specific content are authentic.
 
@@ -26,7 +26,7 @@ As well as the percentage of these **accounts** themselves that are:
 
 The overall goal of the bot is to determine as accurately as possible the artificial quality of the spread of specific (for instance, detected) content.
 
-## 2. Detection bot (using [Buzzsumo](https://desinfo.quaidorsay.fr/encyclopedia/detection/Commercial-trends-tools#3-buzzsumo))
+## 2. Detection bot (using [Buzzsumo](/detection/Commercial-trends-tools#3-buzzsumo))
 
 This detection bot uses results provided by Buzzsumo to notify users of suspicious content, _i.e._ possibly disinformation.
 
