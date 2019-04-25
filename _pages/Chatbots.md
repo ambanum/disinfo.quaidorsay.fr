@@ -6,7 +6,7 @@ nav_order: 5
 
 In order to support works against disinformation, we have wrapped the most used and useful tools as chatbots.
 
-## 1. Analysis bot (using [Botometer](hhttps://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots/#1-botometer))
+## 1. Analysis bot (using [Botometer](https://desinfo.quaidorsay.fr/encyclopedia/detection/social-bots/#1-botometer))
 
 This tool gives users the probability that Twitter accounts that have tweeted a specific content are authentic.
 
