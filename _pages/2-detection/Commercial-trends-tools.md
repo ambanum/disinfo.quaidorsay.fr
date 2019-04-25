@@ -1,14 +1,13 @@
 ---
-layout: page
 title: Commercial-trends-tools
 permalink: /detection/Commercial-trends-tools/
 parent: Detection
 ---
 
-# Tools to detect and follow trends on social networks 
+# Tools to detect and follow trends on social networks
 
-Some actors still consider creating their own detection tools. 
-While this can lead to innovation, it is most certainly not the fastest way to detect disinformation. 
+Some actors still consider creating their own detection tools.
+While this can lead to innovation, it is most certainly not the fastest way to detect disinformation.
 
 Moreover, these tools entirely depend on access to social networks data - which is not easily  provided - and need regular maintenance to be kept functional.
 
@@ -16,9 +15,9 @@ Moreover, these tools entirely depend on access to social networks data - which 
 
 ### 1. [Crowdtangle](https://www.crowdtangle.com/)
 
-Crowdtangle was created in 2011 and acquired by Facebook in 2016. Although it is a Facebook partner, relying mostly on Facebook data, it is also available accross Twitter, Instagram and Reddit. 
+Crowdtangle was created in 2011 and acquired by Facebook in 2016. Although it is a Facebook partner, relying mostly on Facebook data, it is also available accross Twitter, Instagram and Reddit.
 
-It has both an online social analytic platform with an API, and a Chrome extension. 
+It has both an online social analytic platform with an API, and a Chrome extension.
 
 The extension can track accounts who shared a specific link, offers interaction data on them, including commentaries, and monitors "_over two million influential social accounts_".
 
@@ -37,11 +36,11 @@ Crowdtangle is used mostly by journalists and professionals. As described on the
 
 ### 2. [Ezyinsights](https://ezyinsights.com/)
 
-Ezyinsights offers services to professionals through two main online platforms available in 4 languages (English, French, German and Italian) and several tools. 
+Ezyinsights offers services to professionals through two main online platforms available in 4 languages (English, French, German and Italian) and several tools.
 
 The Ezyinsights **Realtime** online platform allows subscribers to gather news in a faster and more efficient way than traditional methods. Indeed, the platform monitors millions of stories daily, all of which can be filtered according to criteria such as source, time table, keywords, topics, categories, etc.
 
-It is also possible to see how a story is covered and the number engagements it receives using Ezyinsights. Both websites and social platforms are monitored "_to deliver real-time metrics on engagement_". The Ezyinsights **Intelligence** platform can track subscribers overall social performance as well as the performances of competitors. 
+It is also possible to see how a story is covered and the number engagements it receives using Ezyinsights. Both websites and social platforms are monitored "_to deliver real-time metrics on engagement_". The Ezyinsights **Intelligence** platform can track subscribers overall social performance as well as the performances of competitors.
 
 Moreover, timetable of best posting times (heatmaps) are available and a "Traﬃc Light" functionality relying on engagement acceleration warns subscribers to post or hold off a post to "_reach maximum potential engagement_".
 
@@ -52,41 +51,41 @@ Ezyinsights functions are also partially available through a **Chrome extension*
 
 ### 3. [BuzzSumo](https://buzzsumo.com/)
 
-Buzzsumo is a social analytics tool destined to professionals. 
+Buzzsumo is a social analytics tool destined to professionals.
 
-It provides insight on content shared accross major social networks such as Twitter, Facebook, LinkedIn, Google Plus and Pinterest, including activity around said content. 
+It provides insight on content shared accross major social networks such as Twitter, Facebook, LinkedIn, Google Plus and Pinterest, including activity around said content.
 
 Its search engine allows users to find "_the most shared content for a topic, author or a domain_" on these networks. The search is customizable and searchable data goes back up to 12 months. Trending topics and news, sortable by domains and types, are displayed on Buzzsumo's website.
 
 Its Facebook analyzer can track and process posts performance. In addition, a Question Analyzer is open to subscribers to search "_millions of real questions asked on forums and e-commerce sites, including Amazon Q&A, Reddit, and Quora_".
 
-Buzzsumo users can run detailed analysis reports for specific topics (based on data such as the number and network of shares, content length and format, date, etc.) including  domain comparison reports, find influencers, identify and track backlinks, and set content alerts. 
+Buzzsumo users can run detailed analysis reports for specific topics (based on data such as the number and network of shares, content length and format, date, etc.) including  domain comparison reports, find influencers, identify and track backlinks, and set content alerts.
 
 One of several monitoring tools available through Buzzsumo, alerts are sent by e-mail and can be daily digests or instant notifications, and rely on a filter system with at least two criteria, _i.e._ the minimum number of shares and keywords.
 
 
 ### 4. [TrendsMap](https://www.trendsmap.com/)
 
-TrendsMap's name is completely transparent. Although access requires a social media account (Twitter, Facebook or Instagram), TrendsMap focuses exclusively on **Twitter** activity, showing the latest Twitter trending hashtags and topics on a world map. 
+TrendsMap's name is completely transparent. Although access requires a social media account (Twitter, Facebook or Instagram), TrendsMap focuses exclusively on **Twitter** activity, showing the latest Twitter trending hashtags and topics on a world map.
 
 More information is available when clicking on the keywords displayed on the map. Then, trend graphs show users the activity related to the keyword both locally and globally, based on the number of tweets in the last day, and the interface directly displays these tweets starting with the most popular ones.
 
 It is also possible to choose a geographical area on the map and zoom in to find what is trending there. Search can go backwards, allowing users to find out where specific top tweets come from.
 
-Analyses can be launched based on hashtags, keywords or phrases, among others. Search results can be filtered by region or language, for instance. 
+Analyses can be launched based on hashtags, keywords or phrases, among others. Search results can be filtered by region or language, for instance.
 
 TrendsMap also provides subscribers with several **analytics** and **visualization** tools, such as interactive heatmaps showing areas where a topic is trending (most tweets about it, within or without a conversation) as well as sentiment (positive or negative) towards a topic.
 
-TrendsMap can produce **detailed statistics on chosen topics** (such as the number of tweets and engagements regarding said topic, the gender repartition of the Twitter users who engaged, their bot activity score, etc.). 
+TrendsMap can produce **detailed statistics on chosen topics** (such as the number of tweets and engagements regarding said topic, the gender repartition of the Twitter users who engaged, their bot activity score, etc.).
 
 It offers **exhaustive account analytics**, among which are the number of followers and tweets over time, the location of followers and followees (through an interactive map), the accounts with whom interactions are frequent and common, top hashtags and words used in tweets, detailed and time-framed tweet activity, etc.
 
 Subcribers can set detailed alerts for any topic, _"anywhere in the world, and in any language_".
 
 
-### 5. [Trendolizer](http://www.trendolizer.com/) 
+### 5. [Trendolizer](http://www.trendolizer.com/)
 
-Trendolizer's main functionality is the display in real time of the **highest trending topics** on the web. 
+Trendolizer's main functionality is the display in real time of the **highest trending topics** on the web.
 
 Its dashboard shows respectively top trending articles, videos, images, tweets and rising topics across online social platforms. It supports various source types ("_SS feeds, HTML scraping, Facebook pages, Twitter searches and subreddits_").
 
@@ -98,6 +97,6 @@ Users can receive by e-mail alerts of the "biggest Internet trends" or customize
 
 Trendolizer also provides visualizations (graphs) of trends and their rates.
 
-Trendolizer's API allows subscribers to extract all information into JSON-formatted data "_for easy use with a variety of programming/scripting languages_". 
+Trendolizer's API allows subscribers to extract all information into JSON-formatted data "_for easy use with a variety of programming/scripting languages_".
 
 The creator of Trendolizer, Maarten Schenk, is also the co-founder of Lead Stories, a online fact-checking and debunking media outlet which uses the Trendolizer engine to detect and further analyze trending news. A sample of their work can be found [here](https://hoax-alert.leadstories.com/3470102-how-a-tattoo-led-us-to-the-macedonian-trucker-delivering-loads-of-fake-news-to-the-internet.html). It shows how Trendolizer can actually be used in fighting disinformation.

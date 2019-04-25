@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Takedown
 permalink: /reaction/Takedown/
 parent: Reaction
@@ -22,19 +21,19 @@ However, there are cases where disinformation goes beyond being misleading, and 
 
 - [PointDeContact.net](https://www.pointdecontact.net/cliquez-signalez/)
 
-Point de Contact is an association partially funded by EU Member States and institutions. The association was created in 1998 and is supported by French public and private actors, as well as by the **European Commission**. 
+Point de Contact is an association partially funded by EU Member States and institutions. The association was created in 1998 and is supported by French public and private actors, as well as by the **European Commission**.
 
-Its online platform allows webizens to **report (potentially) illicit digital content online** through a form, by first selecting the nature of the offense in a list, then describing it and ultimately sending the URL of the content through the website's portal. 
+Its online platform allows webizens to **report (potentially) illicit digital content online** through a form, by first selecting the nature of the offense in a list, then describing it and ultimately sending the URL of the content through the website's portal.
 It deals with pedopornography ; terrorism or bomb-making incitement ; suicide incitement ; violence, discrimination and hate speech ; and procuring. PdC offers a detailed explanation of each category, thus participating in an education effort for the civil society on Internet content.
 
-PdC directly analyzes reports received through its platform. The latter belongs to the « Safer Internet Centre Français» (French Center for a Safer Internet) alongside "e-enfance" (another association, with a hotline) and "Internet Sans Crainte" (an awareness service).  
+PdC directly analyzes reports received through its platform. The latter belongs to the « Safer Internet Centre Français» (French Center for a Safer Internet) alongside "e-enfance" (another association, with a hotline) and "Internet Sans Crainte" (an awareness service).
 
-PdC co-founded the Inhope network, a hotline services network operating worldwide. 
+PdC co-founded the Inhope network, a hotline services network operating worldwide.
 
-PdC members, like Google and the French Ministry of Interior, are also its operatives. 
+PdC members, like Google and the French Ministry of Interior, are also its operatives.
 
 - [PHAROS](https://internet-signalement.gouv.fr)
 
-Pharos is the **official portal of the French Ministry of Interior** for online illicit content reports. Webizens can anonymously (or not) report shocking content through a form. The website also displays advice and information, and offers a Q&A section. 
+Pharos is the **official portal of the French Ministry of Interior** for online illicit content reports. Webizens can anonymously (or not) report shocking content through a form. The website also displays advice and information, and offers a Q&A section.
 
-Reports are stored for ten years in the Pharos database before being erased.  It is possible to send a report at any time, however they are not processed at night, on week-ends or during holidays, which means that **content that requires immediate intervention shouldn't be reported through Pharos**. 
+Reports are stored for ten years in the Pharos database before being erased.  It is possible to send a report at any time, however they are not processed at night, on week-ends or during holidays, which means that **content that requires immediate intervention shouldn't be reported through Pharos**.

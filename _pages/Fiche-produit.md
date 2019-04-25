@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Fiche produit
 permalink: /fiche-produit/
 nav_exclude: true
@@ -20,20 +19,20 @@ Cependant, elle a besoin d'être complémentée par l' **effort humain** d'agent
 
 Notre initiative comprend donc:
 
-* Des **outils purement informatiques et numériques**, permettant d'identifier rapidement les comptes inauthentiques et les campagnes de désinformation - en particulier sur les réseaux sociaux. Dans ce processus, seules des données agrégées seront traitées, dans le respect et la promotion des libertés individuelles et de la transparence. 
+* Des **outils purement informatiques et numériques**, permettant d'identifier rapidement les comptes inauthentiques et les campagnes de désinformation - en particulier sur les réseaux sociaux. Dans ce processus, seules des données agrégées seront traitées, dans le respect et la promotion des libertés individuelles et de la transparence.
 * La création d’une “**encyclopédie**” collaborative des bonnes pratiques et outils de lutte contre la désinformation, accessible et intuitive.
 * La mise en place d’une **plateforme d’échange direct** (chat) d’informations pour les acteurs activement impliqués dans cette lutte.
 * Le volet essentiel dans la lutte contre la désinformation qu'est l'éducation aux médias via une **campagne de sensibilisation**. Nous visons à la capacitation et l’autonomisation de l'entièreté de l'écosystème, dont la société civile est un acteur essentiel.
 
 Notre action dans le développement et la réalisation du projet sera guidée par nos **valeurs**:
 * Transparence
-* Intérêt général 
+* Intérêt général
 * Collaboration
-* Agilité 
+* Agilité
 * Bienveillance
 
 **III - Définition de la métrique d'impact**
 
 Il est difficile d'évaluer précisément la **quantité** de nouvelles (authentiques, altérées ou tout simplement fausses) à laquelle un individu est quotidiennement exposé. La récente multiplication de l'information va de pair avec celle de la diffusion massive de nouvelles manipulées, dont l'impact sociétal va croissant avec le degré d'importance de la nouvelle en question, ainsi qu'avec sa capacité à convaincre - et donc à fédérer.
 
-Le succès de notre initiative pourra donc se mesurer par la **réduction de la proportion moyenne quotidienne de désinformation** à laquelle un individu est **confronté**; et qu'il juge à la fois **crédible** et **importante**. 
+Le succès de notre initiative pourra donc se mesurer par la **réduction de la proportion moyenne quotidienne de désinformation** à laquelle un individu est **confronté**; et qu'il juge à la fois **crédible** et **importante**.

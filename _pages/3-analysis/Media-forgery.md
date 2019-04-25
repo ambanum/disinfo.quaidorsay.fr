@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Media-forgery
 permalink: /analysis/media-forgery/
 parent: Analysis
@@ -11,7 +10,7 @@ parent: Analysis
 
 "_The InVID innovation action develops a knowledge verification platform to detect emerging stories and assess the reliability of newsworthy video files and content spread via social media._"
 
-Find out more about InVID and similar projects [here](https://desinfo.quaidorsay.fr/encyclopedia/community#7-invid).
+Find out more about InVID and similar projects [here](/community#7-invid).
 
 ## [Forensically](https://29a.ch/photo-forensics/#forensic-magnifier)
 
