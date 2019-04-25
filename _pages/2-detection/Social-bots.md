@@ -136,7 +136,7 @@ This tool is open to any Twitter user. Since it uses Botometer, an activated Twi
 
 * **By whom ?**
 
-Spottingbot is a project based in Rio, Brazil, relying on and inspired by Botometer. Along with a media literacy campaign, it is the second main part of the [PegaBot](www.pegabot.com.br)(Portuguese for Bot Buster) initiative, launched by the [Institute of Technology and Society of Rio de Janeiro](https://itsrio.org/pt/home/) (ITS Rio), the [Instituto Equidade & Tecnologia](https://tecnologiaequidade.org.br/) and [AppCívico](https://appcivico.com/pt/), a tech company focused on human rights and the use of technology to impulse social change that works with civil society organizations, private actors, politicians and governmental agents on solving social issues.
+Spottingbot is a project based in Rio, Brazil, relying on and inspired by Botometer. Along with a media literacy campaign, it is the second main part of the [PegaBot](https://pegabot.com.br/)(Portuguese for Bot Buster) initiative, launched by the [Institute of Technology and Society of Rio de Janeiro](https://itsrio.org/pt/home/) (ITS Rio), the [Instituto Equidade & Tecnologia](https://tecnologiaequidade.org.br/) and [AppCívico](https://appcivico.com/pt/), a tech company focused on human rights and the use of technology to impulse social change that works with civil society organizations, private actors, politicians and governmental agents on solving social issues.
 
 * **What ?**
 
