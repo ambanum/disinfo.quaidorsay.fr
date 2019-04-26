@@ -1,8 +1,7 @@
 ---
-layout: page
 title: Fact checking tools
-permalink: /fact-checking-tools/
-nav_order: 6
+permalink: /encyclopedia/community/fact-checking-tools/
+parent: Community
 ---
 
 ##### 1. [**In the EU**](#in-the-eu)

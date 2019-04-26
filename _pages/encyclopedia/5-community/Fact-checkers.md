@@ -1,7 +1,7 @@
 ---
 title: Fact-checkers
-permalink: /encyclopedia/fact-checkers/
-nav_order: 6
+permalink: /encyclopedia/community/fact-checkers/
+parent: Community
 ---
 
 
