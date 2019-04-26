@@ -13,6 +13,9 @@ parent: Community
 1. [The Rapid Alert System (RAS)](#1-the-rapid-alert-system-ras)
 2. [Lie Detectors](#2-lie-detectors)
 3. [EU DisinfoLab](#3-eu-disinfolab)
+4. [RevealEU](#4-revealeu)
+5. [WeVerify](#5-weverify)
+
 
 ### 1. **The Rapid Alert System (RAS)**
 
@@ -98,3 +101,48 @@ The NGO's work is transparent and open to all. It especially targets actors and 
 #### Additional information
 
 Among partner projects of the EU DisinfoLab are WeVerify and [Open Your Eyes](https://www.disinfo.eu/projects/).
+
+### 4. [**RevealEU**](https://revealproject.eu/)
+
+#### By whom?
+
+[REVEAL](https://revealproject.eu/) was one of the first projects of the European Commission dealing with verification of digital content. It started in 2013 and formally ended on 31 December 2016.
+
+#### What?
+
+The REVEAL project aimed at developing tools (technologies) and services (methodologies) helpful for social media analysis, especially content verification. Its missions were to help analyze and organize information, protray it intuitively and provide context all the while protecting personal data. Its consortium produced open publications available on the REVEAL website.
+
+#### What for?
+
+Through REVEAL, EU actors seeked to determine the level of trustworthiness of an information, "_predict contributor impact and how much or to what extent all this affects [hidden modalities such as] reputation or influence_", with the overall goal of a "_better understanding and utilization of the social media world_".
+
+#### For whom?
+
+This project could provide journalists with content, content analysis, tools and services described above. But it also could help companies improving their processes and products through the providing of "_organised, summarised and evaluated_" data.
+
+#### Additional information
+
+REVEAL was funded by the European Union’s Seventh Framework Programme for research, technological development and demonstration.
+
+
+### 5. [**WeVerify**](https://weverify.eu/)
+
+#### By whom?
+
+[We Verify](https://weverify.eu/) is an EU co-funded horizon 2020 research and innovation project started in December 2018 and planned to end at the end of November 2021.
+
+#### What ?
+
+WeVerify focuses on social network analysis and algorithm-supported verification of digital content.
+It will provide analysis of social media and web content to detect disinformation and ultimately expose misleading and fabricated content "_through micro-targeted debunking and a blockchain-based public database of known fakes_".
+To do so, it will use machine learning, participatory verification and open source algorithms, among other tools and methods.
+
+WeVerify will also provide an open source platform for "_collaborative, decentralised content verification, tracking, and debunking_" as well as a "_digital companion to assist with verification tasks_", datasets and documentation.
+
+#### What for?
+
+The main goal of the project is "_to address the advanced content verification challenges_".
+
+#### For whom?
+
+Although data and perhaps tools should be open and accessible to all, this project is mainly aimed at journalists.
