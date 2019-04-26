@@ -4,6 +4,10 @@ permalink: /encyclopedia/Legal-and-Judicial-Evolutions-in-countering-disinformat
 nav_order: 12
 ---
 
+1. In France: a law against intentional information manipulation 
+2. In the EU: The Code of Practice on Disinformation
+3. In the U.S. : Stanford's Global Digital Policy Incubator
+
 ## In France: a law against intentional information manipulation
 
 In France, a law against information manipulation and the **intentional** spread of disinformation was officially adopted on November 20, 2018, nine months after its proposal.
@@ -50,3 +54,18 @@ Said measures include the **scrutiny of advertising placements** (for instance, 
 Moreover, signatories commit to make efforts to **empower consumers and the research community**. Most also engage themselves to putting in place and enforce "_clear policies regarding identity and the misuse of automated bots on their services_".
 
 To help signatories do so, best practices are detailed in the annex of the Code. However, considering the diverse nature of the signatories' operations, purposes, technologies and audiences, the Code is open to various other approaches "_accomplishing the spirit of [its] provisions_".
+
+
+## In the U.S. : Stanford's Global Digital Policy Incubator
+
+The **Global Digital Policy Incubator**  is a program of the **Center on Democracy, Development and the Rule of Law** (CDDRL), a research center at the **Freeman Spogli Institute for International Studies**, which is a research institute for the study of international affairs at **Stanford University**.
+
+The GDPI was created "_to inspire policy and governance innovations that **reinforce democratic values, universal human rights, and the rule of law in the digital realm**_". It is meant to be a _"**collaboration hub for the development of norms, guidelines, and laws that enhance freedom, security, and trust** in the global digital ecosystem_".
+
+It thus promotes collaboration among various actors, from civil society actors to governments and diplomats to private sector companies, international organizations, technologists and academics.
+
+However, it is aimed at producing solutions and advice specifically for governments and private tech companies in the drafting and making of **policies, norms and processes** which would be beneficial to scoiety as a whole, including citizens. 
+
+As explained on the GDPI website, such policies should "_allow **citizens and society to reap the upside benefits of technology** for economic development and the exercise of **universal human rights**, while **protecting** against the downside risks for personal, national and international **security**_".
+
+In addition to inspiring policies and providing a platform, the GDPI also considers the best ways to **apply** "_these norms and values in a global digital context_" in order to facilitate their development and operability.
