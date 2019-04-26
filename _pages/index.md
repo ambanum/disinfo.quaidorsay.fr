@@ -13,7 +13,7 @@ nav_exclude: true
 					</div>
 					<div class="navbar-menu">
 						<div class="navbar-end">
-							<a href="/collaborate" class="navbar-item">
+							<a href="/collaborate" class="navbar-item" data-proofer-ignore>
 								Collaboration
 							</a>
 							<a href="/encyclopedia" class="navbar-item">
