@@ -35,6 +35,8 @@ En France, une photo authentique de l'incendie, à l'origine publiée sans lége
 
 Une vidéo[^11] a été publiée le 15 avril 2019 sur Twitter par un militant identitaire français. Elle montre les réactions par l’emoji « rire » à un live Facebook de plusieurs utilisateurs, dont la plupart ont des noms à connotation d’Afrique du Nord ou du Moyen-Orient. La légende, « Et devinez qui se réjouit de l'incendie de #NotreDamedeParis », est trompeuse puisque seules les réactions sont clairement affichées sur la vidéo partagée, qui ne montre qu’une image partielle et non-titrée de la vidéo diffusée en live. On ne sait pas non plus quel média partage le live vidéo ni son origine ; rien n’indique qu’il s’agit d’un média français destiné à un public français. Surtout, il est difficile d’interpréter cette réaction (sens, renvoi), tout comme il est difficile d’interpréter une mention « j’aime ». De plus, il ne s’agit que d’environ 200 noms affichés sur plus de 1 300 « rires ». On pourrait aisément trouver autant de patronymes typiquement « français » associés à la réaction « rire », tout comme des noms à consonance similaire à ceux relevés par Rieu se trouvent parmi les réactions « tristes ».  Au 25 avril[^12], la vidéo a reçu près de dix fois plus de likes que la moyenne des autres publications de l’auteur.
 
+- - -
+
 [^1]: Source : https://www.infowars.com/watch/?video=5cbfa2f6150d41002687bf1b
 
 [^2]: Source :  https://www.mimikama.at/allgemein/notre-dame-fakes/
