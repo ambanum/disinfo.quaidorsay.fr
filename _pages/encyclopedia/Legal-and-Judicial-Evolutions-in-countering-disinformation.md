@@ -1,7 +1,7 @@
 ---
 title: Legal and Judicial Evolutions
 permalink: /encyclopedia/Legal-and-Judicial-Evolutions-in-countering-disinformation/
-nav_order: 11
+nav_order: 12
 ---
 
 ## In France: a law against intentional information manipulation
