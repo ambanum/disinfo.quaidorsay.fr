@@ -16,7 +16,6 @@ parent: Community
 1. [EUvsDisinfo](#1-euvsdisinfo)
 2. [FactCheckEU](#2-factcheck-eu)
 3. [Debunk](#3-debunkeu-lt--httpsdemaskuoklt)
-4. [RevealEU](#4-revealeu)
 
 
 ### 1. [**EUvsDisinfo**](https://euvsdisinfo.eu/)
@@ -95,29 +94,6 @@ Debunk.eu is open to various types of actors, including within the civil society
 #### Additional information
 
 Debunk was funded by the DELFI Group (the biggest online media company in the Baltic States) and the Google Digital News Initiative.
-
-### 4. [**RevealEU**](https://revealproject.eu/)
-
-#### By whom?
-
-[REVEAL](https://revealproject.eu/) was one of the first projects of the European Commission dealing with verification of digital content. It started in 2013 and formally ended on 31 December 2016.
-
-#### What?
-
-The REVEAL project aimed at developing tools (technologies) and services (methodologies) helpful for social media analysis, especially content verification. Its missions were to help analyze and organize information, protray it intuitively and provide context all the while protecting personal data. Its consortium produced open publications available on the REVEAL website.
-
-#### What for?
-
-Through REVEAL, EU actors seeked to determine the level of trustworthiness of an information, "_predict contributor impact and how much or to what extent all this affects [hidden modalities such as] reputation or influence_", with the overall goal of a "_better understanding and utilization of the social media world_".
-
-#### For whom?
-
-This project could provide journalists with content, content analysis, tools and services described above. But it also could help companies improving their processes and products through the providing of "_organised, summarised and evaluated_" data.
-
-#### Additional information
-
-REVEAL was funded by the European Union’s Seventh Framework Programme for research, technological development and demonstration.
-
 
 
 ## In France
