@@ -1,7 +1,7 @@
 ---
-title: Community
-permalink: /encyclopedia/community/
-nav_order: 6
+title: Other actors fighting disinformation
+permalink: /encyclopedia/community/other-actors
+parent: Community
 ---
 
 # Other actors fighting disinformation
