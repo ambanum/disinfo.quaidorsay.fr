@@ -142,9 +142,9 @@ Although data and perhaps tools should be open and accessible to all, this proje
 
 ## In France
 
-1. [Les Décodeurs](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Community#1-les-d%C3%A9codeurs)
-2. [AFP Factuel](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Community#2-afp-factuel)
-3. [Vrai Ou Fake](https://github.com/Ndpnt/desinfo.quaidorsay.fr-wiki/wiki/Community#3-vrai-ou-fake)
+1. [Les Décodeurs](#1-les-d%C3%A9codeurs)
+2. [AFP Factuel](#2-afp-factuel)
+3. [Vrai Ou Fake](#3-vrai-ou-fake)
 
 
 ### 1. [**Les Décodeurs**](https://www.lemonde.fr/les-decodeurs/)
