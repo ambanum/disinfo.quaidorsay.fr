@@ -17,7 +17,7 @@ parent: Community
 2. [FactCheckEU](#2-factcheck-eu)
 3. [Debunk](#3-debunkeu-lt--httpsdemaskuoklt)
 4. [RevealEU](#4-revealeu)
-5. [WeVerify](#5-weverify)
+
 
 ### 1. [**EUvsDisinfo**](https://euvsdisinfo.eu/)
 
@@ -118,27 +118,7 @@ This project could provide journalists with content, content analysis, tools and
 
 REVEAL was funded by the European Union’s Seventh Framework Programme for research, technological development and demonstration.
 
-### 5. [**WeVerify**](https://weverify.eu/)
 
-#### By whom?
-
-[We Verify](https://weverify.eu/) is an EU co-funded horizon 2020 research and innovation project started in December 2018 and planned to end at the end of November 2021.
-
-#### What ?
-
-WeVerify focuses on social network analysis and algorithm-supported verification of digital content.
-It will provide analysis of social media and web content to detect disinformation and ultimately expose misleading and fabricated content "_through micro-targeted debunking and a blockchain-based public database of known fakes_".
-To do so, it will use machine learning, participatory verification and open source algorithms, among other tools and methods.
-
-WeVerify will also provide an open source platform for "_collaborative, decentralised content verification, tracking, and debunking_" as well as a "_digital companion to assist with verification tasks_", datasets and documentation.
-
-#### What for?
-
-The main goal of the project is "_to address the advanced content verification challenges_".
-
-#### For whom?
-
-Although data and perhaps tools should be open and accessible to all, this project is mainly aimed at journalists.
 
 ## In France
 
