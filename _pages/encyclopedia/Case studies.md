@@ -37,25 +37,25 @@ Une vidéo[^11] a été publiée le 15 avril 2019 sur Twitter par un militant id
 
 - - -
 
-[^1]: Source : https://www.infowars.com/watch/?video=5cbfa2f6150d41002687bf1b
+[^1]: Source : [www.infowars.com/watch/?video=5cbfa2f6150d41002687bf1b](https://www.infowars.com/watch/?video=5cbfa2f6150d41002687bf1b)
 
-[^2]: Source :  https://www.mimikama.at/allgemein/notre-dame-fakes/
+[^2]: Source :  [www.mimikama.at/allgemein/notre-dame-fakes/](https://www.mimikama.at/allgemein/notre-dame-fakes/)
 
-[^3]: Source : https://konkret24.tvn24.pl/swiat,109/gdy-notre-dame-ogarnal-ogien-zwolennicy-teorii-spiskowych-szybko-wzieli-sie-do-roboty,927872.html
+[^3]: Source : [konkret24.tvn24.pl/swiat,109/gdy-notre-dame-ogarnal-ogien-zwolennicy-teorii-spiskowych-szybko-wzieli-sie-do-roboty,927872.html](https://konkret24.tvn24.pl/swiat,109/gdy-notre-dame-ogarnal-ogien-zwolennicy-teorii-spiskowych-szybko-wzieli-sie-do-roboty,927872.html)
 
-[^4]: Statuts : https://twitter.com/DeltahJuliet/status/1117896815867621378 et https://twitter.com/search?q=%40CNNpolitics2020&src=typd&lang=fr
+[^4]: Statuts : [twitter.com/DeltahJuliet/status/1117896815867621378](https://twitter.com/DeltahJuliet/status/1117896815867621378) et [twitter.com/search?q=%40CNNpolitics2020&src=typd&lang=fr](https://twitter.com/search?q=%40CNNpolitics2020&src=typd&lang=fr)
 
-[^5]: Source : https://www.mimikama.at/allgemein/notre-dame-fakes/
+[^5]: Source : [www.mimikama.at/allgemein/notre-dame-fakes/](https://www.mimikama.at/allgemein/notre-dame-fakes/)
 
-[^6]: Source : https://euvsdisinfo.eu/disinformation-cases/?text=notre+dame&disinfo_issue=&date=
+[^6]: Source : [euvsdisinfo.eu/disinformation-cases/?text=notre+dame&disinfo_issue=&date=](https://euvsdisinfo.eu/disinformation-cases/?text=notre+dame&disinfo_issue=&date=)
 
-[^7]: Source : https://euvsdisinfo.eu/building-blocks-of-disinformation-case-notre-dame/
+[^7]: Source : [euvsdisinfo.eu/building-blocks-of-disinformation-case-notre-dame/](https://euvsdisinfo.eu/building-blocks-of-disinformation-case-notre-dame/)
 
-[^8]: Source : https://www.liberation.fr/checknews/2019/04/18/est-il-vrai-que-875-eglises-ont-ete-vandalisees-en-france-en-un-an_1721930
+[^8]: Source : [www.liberation.fr/checknews/2019/04/18/est-il-vrai-que-875-eglises-ont-ete-vandalisees-en-france-en-un-an_1721930](https://www.liberation.fr/checknews/2019/04/18/est-il-vrai-que-875-eglises-ont-ete-vandalisees-en-france-en-un-an_1721930)
 
-[^9]: Source : https://euvsdisinfo.eu/building-blocks-of-disinformation-case-notre-dame/
+[^9]: Source : [euvsdisinfo.eu/building-blocks-of-disinformation-case-notre-dame/](https://euvsdisinfo.eu/building-blocks-of-disinformation-case-notre-dame/)
 
-[^10]: Source : Der Volksverpetzer, "Feuer in Notre-Dame : Rechte wünschen sich Terroranschlag", 16 avril 2019. (https://www.volksverpetzer.de/social-media/notre-dame/)
+[^10]: Source : [volksverpetzer.de/social-media/notre-dame/](https://www.volksverpetzer.de/social-media/notre-dame/)
 
 [^11]: [Vidéo](https://twitter.com/DamienRieu/status/1117852138531479552)
 
