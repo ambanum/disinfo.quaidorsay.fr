@@ -4,9 +4,9 @@ permalink: /encyclopedia/Legal-and-Judicial-Evolutions-in-countering-disinformat
 nav_order: 12
 ---
 
-1. In France: a law against intentional information manipulation 
-2. In the EU: The Code of Practice on Disinformation
-3. In the U.S. : Stanford's Global Digital Policy Incubator
+1. [In France: a law against intentional information manipulation](#in-france-a-law-against-intentional-information-manipulation)
+2. [In the EU: The Code of Practice on Disinformation](#in-the-eu-the-code-of-practice-on-disinformation)
+3. [In the U.S. : Stanford's Global Digital Policy Incubator](#in-the-us--stanfords-global-digital-policy-incubator)
 
 ## In France: a law against intentional information manipulation
 
