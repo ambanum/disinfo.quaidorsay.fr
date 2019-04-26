@@ -1,7 +1,7 @@
 ---
 title: Case studies
 permalink: /encyclopedia/case-studies/
-nav_order: 6
+nav_order: 13
 ---
 
 
