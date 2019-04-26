@@ -5,7 +5,6 @@ parent: Community
 ---
 
 ##### 1. [**In the EU**](#in-the-eu)
-##### 2. [**In France**](#in-france)
 
 ## In the EU
 

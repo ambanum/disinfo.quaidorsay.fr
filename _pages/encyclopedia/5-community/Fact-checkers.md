@@ -8,8 +8,8 @@ parent: Community
 
 # Fact-checkers
 
-1. [In the EU](https://github.com/BerylBogui/disinformation-encyclopedia/blob/patch-8/_pages/encyclopedia/Fact-checkers.md#in-the-eu)
-2. [In France](https://github.com/BerylBogui/disinformation-encyclopedia/blob/patch-8/_pages/encyclopedia/Fact-checkers.md#in-france)
+1. [In the EU](#in-the-eu)
+2. [In France](#in-france)
 
 ## In the EU
 
