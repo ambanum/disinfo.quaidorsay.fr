@@ -1,5 +1,5 @@
 ---
-title: Fact checking tools
+title: Fact-checking tools
 permalink: /encyclopedia/community/fact-checking-tools/
 parent: Community
 ---
