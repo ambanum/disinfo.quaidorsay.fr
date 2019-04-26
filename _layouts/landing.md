@@ -8,7 +8,6 @@
 		{% endif %}
 
 		<title>{{ page.title }} - {{ site.title }}</title>
-		<link rel="stylesheet" href="{{ "/assets/css/just-the-docs.css" | absolute_url }}">
 		<link rel="stylesheet" href="{{ "/assets/css/landing.css" | absolute_url }}">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
 		
