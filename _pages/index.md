@@ -9,7 +9,7 @@ nav_exclude: true
 			<header class="navbar">
 				<div class="container">
 					<div class="navbar-brand">
-						<img class="logo" src="https://avatars3.githubusercontent.com/u/7874148?s=400&v=4" alt="Logo">
+						<img class="logo" src="https://avatars3.githubusercontent.com/u/7874148?s=400&v=4" alt="">
 					</div>
 					<div class="navbar-menu">
 						<div class="navbar-end">
