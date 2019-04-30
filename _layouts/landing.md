@@ -7,7 +7,7 @@
 			<meta name="Description" content="{{ page.description }}">
 		{% endif %}
 
-		<title>{{ page.title }} - {{ site.title }}</title>
+		<title>Fight against disinformation</title>
 		<link rel="stylesheet" href="{{ "/assets/css/landing.css" | absolute_url }}">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
 		
