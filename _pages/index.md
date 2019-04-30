@@ -15,10 +15,10 @@ nav_exclude: true
 						<div class="navbar-end">
 							<!-- Use data-proofer-ignore for `/collaborate` as we assume redirection to the chat app will be done on the server level -->
 							<a href="/collaborate" class="navbar-item" data-proofer-ignore>
-								Collaboration
+								Collaboration Chat
 							</a>
 							<a href="/encyclopedia" class="navbar-item">
-								Encyclopedia
+								Disencyclopedia
 							</a>
 						</div>
 					</div>
@@ -31,8 +31,7 @@ nav_exclude: true
 					Fight against disinformation
 				</h1>
 				<h2 class="subtitle">
-					We aim at reinforcing the democratic antibodies that are present in our societies.<br/>
-					We are building the place where those who work towards coherence and authenticity gather.
+					We aim at reinforcing the democratic antibodies that are present in our societies.
 				</h2>
 			</div>
 		</div>
@@ -48,12 +47,17 @@ nav_exclude: true
 						<h2 class="title is-spaced">
 							<span class="thin">Collaboration</span>chat
 						</h2>
+						<h4 class="subtitle is-spaced">
+							Identify, analyse and combat disinformation collaboratively and in real time
+						</h4>
 						<p>
-							Our main focus at the moment is a chat on steroids: a real-time communication channel where all detection, analysis and reaction can happen in a shared fashion with mutualized tools. You’ll find more about the chatbots we have built <a href="/encyclopedia/chatbots/">here</a>. If you’re reading this we’d probably like to have you on board. <a href="mailto:matti.schneider@diplomatie.gouv.fr">Send us an email!</a>
+							Our main focus at the moment is a chat on steroids: a real-time communication channel where all detection, analysis and reaction can happen in a shared fashion with mutualized tools.<br />
+							You’ll find more about the chatbots we have built <a href="/encyclopedia/chatbots/">here</a>.<br />
+							If you’re reading this we’d probably like to have you on board. <a href="mailto:matti.schneider@diplomatie.gouv.fr">Send us an email!</a>
 						</p>
 						<!-- Use data-proofer-ignore for `/collaborate` as we assume redirection to the chat app will be done on the server level -->
 						<a href="/collaborate" class="button is-white is-medium" data-proofer-ignore>
-							Collaborate
+							Join us
 						</a>
 					</div>
 				</div>
@@ -62,12 +66,16 @@ nav_exclude: true
 						<h2 class="title is-spaced">
 							<span class="thin">Dis</span>Encyclopedia
 						</h2>
+						<h4 class="subtitle is-spaced">
+							Open and evolving documentation of tools, actors and practices.
+						</h4>
 						<p>
-							We are documenting their practices and equipping them with the best tools available, with the intention that they will share their results with each other while keeping their independence. 
+							We are building the place where those who work towards coherence and authenticity gather.
+							We are documenting their practices and equipping them with the best tools available, with the intention that they will share their results with each other while keeping their independence.
 							We provide them with opportunities to improve and grow, and identify the most effective ways to decrease the impact of disinformation.
 						</p>
 						<a href="/encyclopedia" class="button is-white is-medium">
-							Learn
+							Explore
 						</a>
 					</div>
 				</div>
