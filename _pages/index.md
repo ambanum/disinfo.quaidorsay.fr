@@ -20,9 +20,6 @@ nav_exclude: true
 							<a href="/encyclopedia" class="navbar-item">
 								Encyclopedia
 							</a>
-							<a href="/encyclopedia" class="navbar-item">
-								About
-							</a>
 						</div>
 					</div>
 				</div>
@@ -81,8 +78,6 @@ nav_exclude: true
 		<div class="container has-text-centered">
 			<div class="columns">
 				<div class="column is-full">
-					<a href="/encyclopedia">About</a>
-					&nbsp;|&nbsp;
 					<a href="https://github.com/ambanum/disinformation-encyclopedia">Source Code</a>
 					&nbsp;|&nbsp;
 					<a href="mailto:matti.schneider@diplomatie.gouv.fr">Contact us</a>
