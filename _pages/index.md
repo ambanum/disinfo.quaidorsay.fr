@@ -13,6 +13,7 @@ nav_exclude: true
 					</div>
 					<div class="navbar-menu">
 						<div class="navbar-end">
+							<!-- Use data-proofer-ignore for `/collaborate` as we assume redirection to the chat app will be done on the server level -->
 							<a href="/collaborate" class="navbar-item" data-proofer-ignore>
 								Collaboration
 							</a>
@@ -53,6 +54,7 @@ nav_exclude: true
 						<p>
 							Our main focus at the moment is a chat on steroids: a real-time communication channel where all detection, analysis and reaction can happen in a shared fashion with mutualized tools. You’ll find more about the chatbots we have built <a href="/encyclopedia/chatbots/">here</a>. If you’re reading this we’d probably like to have you on board. <a href="mailto:matti.schneider@diplomatie.gouv.fr">Send us an email!</a>
 						</p>
+						<!-- Use data-proofer-ignore for `/collaborate` as we assume redirection to the chat app will be done on the server level -->
 						<a href="/collaborate" class="button is-white is-medium" data-proofer-ignore>
 							Collaborate
 						</a>
