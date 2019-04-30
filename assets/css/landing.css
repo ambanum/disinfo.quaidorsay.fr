@@ -23,8 +23,8 @@ body {
 
 .landing .hero-head .logo {
 	position: absolute;
-    height: 60px;
-    width: auto;
+	height: 60px;
+	width: auto;
 	top: 15px;
 	border-radius: 2px;
 }
@@ -76,7 +76,7 @@ body {
 
 .our-work .work-item .subtitle {
 	color: #FFF;
-    font-variant: all-small-caps;
+	font-variant: all-small-caps;
 }
 
 .our-work .work-item a,
@@ -93,8 +93,8 @@ body {
 	margin-top: 1.5em;
 	min-width: 10em;
 	color: #4934A2;
-    font-weight: 400;
-    text-transform: uppercase;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
 .landing .footer {
