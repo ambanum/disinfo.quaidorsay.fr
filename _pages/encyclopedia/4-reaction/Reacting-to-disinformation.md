@@ -1,7 +1,7 @@
 ---
 title: Reacting-to-disinformation
-permalink: /encyclopedia/reacting-to-disinformation/
-nav_order: 10
+permalink: /encyclopedia/reaction/reacting-to-disinformation
+parent: Reaction
 ---
 
 # Reacting to disinformation
