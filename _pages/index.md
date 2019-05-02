@@ -4,7 +4,7 @@ permalink: /
 nav_exclude: true
 ---
 <div>
-	<section class="hero is-medium is-bold">
+	<section class="hero is-medium">
 		<div class="hero-head">
 			<header class="navbar">
 				<div class="container">
@@ -27,12 +27,19 @@ nav_exclude: true
 		</div>
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<h1 class="title is-spaced">
-					Fight against disinformation
-				</h1>
-				<h2 class="subtitle">
-					We aim at reinforcing the democratic antibodies that are present in our societies. Under the ageis of the French Ambassador for Digital Affairs, our team focuses on collecting best practices and developing tools to counter disinformation, its spread and its consequences. We believe that collaboration, cooperation and mutualisation are the key towards effective action against disinformation.
-				</h2>
+				<div class="columns">
+					<div class="column is-8 is-offset-2">
+					<h1 class="title is-spaced">
+						Fight against disinformation
+					</h1>
+					<h2 class="subtitle">
+						We aim at reinforcing the democratic antibodies that are present in our societies.
+					</h2>
+					<p class="description">
+						Under the ageis of the French Ambassador for Digital Affairs, our team focuses on collecting best practices and developing tools to counter disinformation, its spread and its consequences. We believe that collaboration, cooperation and mutualisation are the key towards effective action against disinformation.
+					</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -93,7 +100,7 @@ nav_exclude: true
 			</div>
 			<div class="columns">
 				<div class="column is-full">
-					<p>Made with <b>transparency</b>, <b>general interest</b>, <b>collaboration</b>, <b>agility</b> and <b>care</b> in mind by the team of the French Ambassador for Digital Affairs</p>
+					<p>Made with <b>transparency</b>, <b>general interest</b>, <b>collaboration</b>, <b>agility</b> and <b>care</b> in mind <br />by the team of the French Ambassador for Digital Affairs</p>
 				</div>
 			</div>
 		</div>
