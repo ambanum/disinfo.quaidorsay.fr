@@ -3,7 +3,13 @@ layout: home
 permalink: /encyclopedia
 ---
 
-# Home
+# Disinformation
+
+## Information manipulation space
+
+![Information manipulation space](/assets/img/disinformation-space.png)
+
+Focusing on disinformation as we do means taking into account a significant yet very specific part of information manipulation. For instance, disinformation is not to be mistaken for misinformation, which is unintentional, nor with propaganda, which does not necessarily aims to disrupt. At least five aspects of information manipulation have to be met in order to identify - and later counter - disinformation campaigns, which constitute in the foreign massive and artificial sharing of false content with the intent to harm.
 
 ## We aim at reinforcing the democratic antibodies that are present in our societies
 
