@@ -4,6 +4,11 @@ permalink: /encyclopedia/reacting-to-disinformation/
 nav_order: 10
 ---
 
+# Reacting to disinformation
+
+Ways to react to and further counter disinformation are as various as the actors involved in fighting it. Judiciary measures, cooperative fact-checking initiatives, political statements, civil society spontaneous organizations are only a few examples of the many techniques developed in reaction to disinformation campaigns.
+
+
 * [1. NewsGuard Tech](#newsguard-technologies)
 * [2. Elves](#elves)
 * [3. Correct the record](#correct-the-record)
