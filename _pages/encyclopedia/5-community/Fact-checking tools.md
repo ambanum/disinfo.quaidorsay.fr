@@ -5,6 +5,7 @@ parent: Community
 ---
 
 ##### 1. [**In the EU**](#in-the-eu)
+##### 2. [**Globally**](#globally)
 
 ## In the EU
 
@@ -60,3 +61,41 @@ The main targets of the project are journalists and human rights workers and inv
 #### Additional information
 
 On 8 April 2019, Truly Media officially announced its collaboration with the European Science Media Hub (ESMH). 
+
+## Globally
+
+1. [ClaimReview markup](#1---claimreview-markup)
+2. [The Fact-Check Markup Tool (FCMT)](#2---the-fact-check-markup-tool)
+3. [Fact-Check Explorer](#3---fact-check-explorer)
+
+### 1 - ClaimReview markup
+
+[ClaimReview](https://schema.org/ClaimReview) can be described as a specific type or format of **fact-checking review**. It focuses on **claims made or reported in creative work**. Among properties of a ClaimReview are the claim reviewed, its rating and its aspect (part of the claim to which the review is relevant), along with the review itself. It was developed by the collaborative entity [Schema.org](https://schema.org/docs/about.html), of whom companies such as **Google** and Microsoft are founders.
+
+A ClaimReview markup is thus a sort of beacon, a tag, which recognizes the ClaimReview format. It indicates to machines what humans can see, which is whether an item is a fact-checking article or not- and therefore whether a claim has been verified.
+
+Such reviews, _i.e._ ClaimReview structured data, can be **included in one's fact-checking web page** or site **independently**, or through Google's [**Fact Check Markup Tool**](https://toolbox.google.com/factcheck/markuptool).
+
+### 2 - The [Fact-Check Markup Tool](https://toolbox.google.com/factcheck/markuptool)
+
+#### Description
+
+The [FCMT](https://toolbox.google.com/factcheck/about#fcmt) was specifically developed by Google. It allows fact-checkers, journalists and publishers to **easily add a ClaimReview markup to their fact-checking articles**. This is also possible without using the tool, however the structured review has to be embedded in the code of the article, which can be too technical a process for some actors.
+
+With the FCMT, a summarized version of a fact-check can be displayed in Google Search  results along with the fact-checker's page. Indeed, search engines will be able to recognize said page as (hosting) a fact-checking article. In this summary are included the nature and author of the claim and a brief assessment of its truthfulness, among other data.
+
+#### Use
+
+Any fact-checker can add and edit ClaimReview markup to its articles, however one cannot review its own claim.
+To create markup, one has to be registered with a Google account email address and use the [Google Search Console](https://search.google.com/search-console/about). The account must be listed as a restricted user or full user of the site it wishes to create markup for.
+
+In order to use the FCMT, publishers have to indicate, on top of the ClaimReview itself, a link to their fact-checking article on their site or page, a summary of the assessed claim and their rating.
+
+PolitiFact, Snopes, Le Monde, France Info, FactCheck.org, The Washington Post and AFP Factuel all use the FCMT. Therefore, their reviews are displayed on Google's FCE.
+
+## 3 - [Fact-Check Explorer](https://toolbox.google.com/factcheck/explorer)
+
+[Fact-Check Explorer](https://toolbox.google.com/factcheck/about#fce) is another Google fact-checking tool. Both the FCMT and FCE "_aim to facilitate the work of **fact checkers, journalists and researchers**_".
+
+FCE is a **search engine** specifically designed to **browse and search for fact-checks**.  It allows users to search topics or statements by keywords and displays "_a list of matching claims and the corresponding fact checks_" sortable by languages.
+It also offers an overview of recent fact-checks, accesible through a button on the main search page.
