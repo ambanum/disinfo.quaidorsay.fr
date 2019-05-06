@@ -64,9 +64,9 @@ On 8 April 2019, Truly Media officially announced its collaboration with the Eur
 
 ## Globally
 
-1. [ClaimReview markup](#1-claimreview-markup)
-2. [The Fact-Check Markup Tool (FCMT)](#2-fact-check-markup-tool)
-3. [Fact-Check Explorer](#3-fact-check-explorer)
+1. [ClaimReview markup](#1---claimreview-markup)
+2. [The Fact-Check Markup Tool (FCMT)](#2---the-fact-check-markup-tool)
+3. [Fact-Check Explorer](#3---fact-check-explorer)
 
 ### 1 - ClaimReview markup
 
