@@ -4,7 +4,7 @@ permalink: /
 nav_exclude: true
 ---
 <div>
-	<section class="hero is-medium is-bold">
+	<section class="hero is-medium">
 		<div class="hero-head">
 			<header class="navbar">
 				<div class="container">
@@ -27,19 +27,26 @@ nav_exclude: true
 		</div>
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<h1 class="title is-spaced">
-					Fight against disinformation
-				</h1>
-				<h2 class="subtitle">
-					We aim at reinforcing the democratic antibodies that are present in our societies.
-				</h2>
+				<div class="columns">
+					<div class="column is-8 is-offset-2">
+					<h1 class="title is-spaced">
+						Fight against disinformation
+					</h1>
+					<h2 class="subtitle">
+						We aim at reinforcing the democratic antibodies that are present in our societies.
+					</h2>
+					<p class="description">
+						Under the ageis of the French Ambassador for Digital Affairs, our team focuses on collecting best practices and developing tools to counter disinformation, its spread and its consequences. We believe that collaboration, cooperation and mutualisation are the key towards effective action against disinformation.
+					</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	<section class="section our-work">
 		<div class="container">
 			<h1 class="our-work-title title has-text-centered">
-				What we're currently working on…
+				What we are currently working on…
 			</h1>
 			<div class="columns">
 				<div class="column is-5 is-offset-1">
@@ -52,8 +59,8 @@ nav_exclude: true
 						</h4>
 						<p>
 							Our main focus at the moment is a chat on steroids: a real-time communication channel where all detection, analysis and reaction can happen in a shared fashion with mutualized tools.<br />
-							You’ll find more about the chatbots we have built <a href="/encyclopedia/chatbots/">here</a>.<br />
-							If you’re reading this we’d probably like to have you on board. <a href="mailto:matti.schneider@diplomatie.gouv.fr">Send us an email!</a>
+							You will find more about the chatbots we have built <a href="/encyclopedia/chatbots/">here</a>.<br />
+							If you are reading this, then we would probably like to have you on board. <a href="mailto:matti.schneider@diplomatie.gouv.fr">Send us an email!</a>
 						</p>
 						<!-- Use data-proofer-ignore for `/collaborate` as we assume redirection to the chat app will be done on the server level -->
 						<a href="/collaborate" class="button is-white is-medium" data-proofer-ignore>
@@ -71,8 +78,8 @@ nav_exclude: true
 						</h4>
 						<p>
 							We are building the place where those who work towards coherence and authenticity gather.
-							We are documenting their practices and equipping them with the best tools available, with the intention that they will share their results with each other while keeping their independence.
-							We provide them with opportunities to improve and grow, and identify the most effective ways to decrease the impact of disinformation.
+							We are documenting best practices and equipping actors with the best tools available, in the aim that they will share their results with one another while safeguarding their independence.
+							We provide opportunities to improve and grow, and identify the most effective ways to decrease the impact of disinformation.
 						</p>
 						<a href="/encyclopedia" class="button is-white is-medium">
 							Explore
@@ -93,7 +100,7 @@ nav_exclude: true
 			</div>
 			<div class="columns">
 				<div class="column is-full">
-					<p>Made with <b>transparency</b>, <b>general interest</b>, <b>collaboration</b>, <b>agility</b> and <b>care</b> in mind by the team of the French Ambassador for Digital Affairs</p>
+					<p>Made with <b>transparency</b>, <b>general interest</b>, <b>collaboration</b>, <b>agility</b> and <b>care</b> in mind <br />by the team of the French Ambassador for Digital Affairs</p>
 				</div>
 			</div>
 		</div>

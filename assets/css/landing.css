@@ -36,22 +36,29 @@ body {
 
 .landing .hero-body .title {
 	font-size: 3em;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .landing .hero-body .subtitle {
-	font-weight: 300;
+	font-weight: 400;
+}
+
+.landing .hero-body .description {
+	line-height: 1.5;
 }
 
 .our-work {
-	background-color: #FAFAFA;
+	background-color: #F7F7F7;
 	border-bottom: 1px solid rgba(0,0,0,0.05);
 	padding: 0 2em;
 }
 
 .our-work .our-work-title.title {
-	font-weight: 200;
+	font-weight: 300;
 	margin-bottom: 1.5em;
+	color:  #8776CA;
+	font-variant: all-petite-caps;
+    font-size: 1.5rem;
 }
 
 .our-work .work-item .title {
