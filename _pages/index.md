@@ -52,7 +52,7 @@ nav_exclude: true
 				<div class="column is-5 is-offset-1">
 					<div class="work-item">
 						<h2 class="title is-spaced">
-							<span class="thin">Collaboration</span>chat
+							<span class="thin">Collaboration</span><wbr>chat
 						</h2>
 						<h4 class="subtitle is-spaced">
 							Identify, analyse and combat disinformation collaboratively and in real time
@@ -71,7 +71,7 @@ nav_exclude: true
 				<div class="column is-5">
 					<div class="work-item">
 						<h2 class="title is-spaced">
-							<span class="thin">Dis</span>Encyclopedia
+							<span class="thin">Dis</span><wbr>Encyclopedia
 						</h2>
 						<h4 class="subtitle is-spaced">
 							Open and evolving documentation of tools, actors and practices.

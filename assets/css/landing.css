@@ -27,6 +27,7 @@ body {
 	height: 60px;
 	width: auto;
 	top: 15px;
+	left: 15px;
 	border-radius: 2px;
 }
 
@@ -38,6 +39,7 @@ body {
 .landing .hero-body .title {
 	font-size: 3em;
 	font-weight: 600;
+	hyphens: auto;
 }
 
 .landing .hero-body .subtitle {
@@ -65,6 +67,7 @@ body {
 .our-work .work-item .title {
 	font-weight: 700;
 	text-transform: uppercase;
+	hyphens: auto;
 }
 
 .our-work .work-item .title .thin {
@@ -99,7 +102,7 @@ body {
 
 .our-work .work-item .button {
 	margin-top: 1.5em;
-	min-width: 10em;
+	min-width: 50%;
 	color: #4934A2;
 	font-weight: 400;
 	text-transform: uppercase;
