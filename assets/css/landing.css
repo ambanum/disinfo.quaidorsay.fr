@@ -1,5 +1,6 @@
-html,body {
-  font-family: 'Open Sans', serif;
+html,
+body {
+	font-family: 'Open Sans', serif;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .landing .hero {
-	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	min-height: 75vh;
 }
 
@@ -26,6 +27,7 @@ body {
 	height: 60px;
 	width: auto;
 	top: 15px;
+	left: 15px;
 	border-radius: 2px;
 }
 
@@ -37,6 +39,7 @@ body {
 .landing .hero-body .title {
 	font-size: 3em;
 	font-weight: 600;
+	hyphens: auto;
 }
 
 .landing .hero-body .subtitle {
@@ -49,21 +52,22 @@ body {
 
 .our-work {
 	background-color: #F7F7F7;
-	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	padding: 0 2em;
 }
 
 .our-work .our-work-title.title {
 	font-weight: 300;
 	margin-bottom: 1.5em;
-	color:  #8776CA;
+	color: #8776CA;
 	font-variant: all-petite-caps;
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .our-work .work-item .title {
 	font-weight: 700;
 	text-transform: uppercase;
+	hyphens: auto;
 }
 
 .our-work .work-item .title .thin {
@@ -98,7 +102,7 @@ body {
 
 .our-work .work-item .button {
 	margin-top: 1.5em;
-	min-width: 10em;
+	min-width: 50%;
 	color: #4934A2;
 	font-weight: 400;
 	text-transform: uppercase;
