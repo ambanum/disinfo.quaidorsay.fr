@@ -1,7 +1,7 @@
 
 # Characterizing the fight against disinformation
 
-An temporal approach of the fight against disinformation, with moments of reaction to disinformation thought as phases (similar to those of an epidemic), allows for an overview gathering three main, overlapping processes: prevention, research and treatment of disinformation.
+A temporal approach of the fight against disinformation, with moments of reaction to disinformation thought as phases (similar to those of an epidemic), allows for an overview gathering three main, overlapping processes: prevention, research and treatment of disinformation.
 
 ## Prevention
 
