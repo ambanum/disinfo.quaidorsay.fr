@@ -3,7 +3,7 @@
 
 The fight against disinformation is incremental. Each step deals with a specific aspect in the tackling of information, from its creation to its dissemination and spread. An epidemiological view of the issue allows for the drafting of a model which gathers the processes of prevention, research and treatment of disinformation.
 
-![An epidemiological model of disinformation](/assets/img/PREVENTION.png)
+![An epidemiological model of disinformation](/assets/img/epidemiological-model.png)
 
 ## Prevention
 
