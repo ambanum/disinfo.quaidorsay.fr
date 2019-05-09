@@ -3,8 +3,6 @@
 
 The fight against disinformation is incremental. Each step deals with a specific aspect in the tackling of information, from its creation to its dissemination and spread. An epidemiological view of the issue allows for the drafting of a model which gathers the processes of prevention, research and treatment of disinformation.
 
-![An epidemiological model of disinformation](/assets/img/epidemiological-model.png)
-
 ## Prevention
 
 Ahead of the propagation of false, misleading and/or harmful information, some actors fighting disinformation dedicate themselves to **sensitization** endeavours, among which can be found **media literacy** initiatives aimed at the civil society, or local **proactive measures** (prevention campaigns, deterrent laws, report mechanisms, etc.), for most of which efficiency remains to be assessed.
@@ -15,7 +13,9 @@ A field of **academic research** regarding disinformation and its elimination (i
 
 ## Treatment
 
-Various actors operate withing the context of the fight against disinformation, each using its own tools and practices. One can however distinguish **three key-steps in the treatment process of information**: its **Detection**, its **Qualification** as disinformation or problematic information and lastly the **Reaction** to this kind of content.
+Various actors operate withing the context of the fight against disinformation, each using its own tools and practices. One can however distinguish **three key-steps in the treatment process of information**: its **Detection**, its **Qualification** as disinformation or problematic information and lastly the **Reaction** to this kind of content. 
+Potentially, an **Attribution** phase can be added within the Reaction process, which would consist in the definition of the origin of treated disinformation.
+
 Each actor determines the **threshold** after which information goes from the Detection phase to the Qualification phase.  **Criteria** used to Qualify a Detected information are defined independently by each actor. When the **sum of the probabilities that one or more of these criteria is filled goes above said threshold**, information is upgraded from Detection to Qualification.
 
 This threshold is delimited according to the **resources** an actor has and is willing to allocate towards the treatment of an information. The bigger the resources, the higher the **reactivity** of the actor to this information.  The threshold thus depends on the "importance" of the information as measured by the agent, _i.e._ **according to specific criteria**.
