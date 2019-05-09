@@ -1,8 +1,12 @@
+abbr[title] {
+	text-decoration: none;
+}
+
 .error-page {
 	margin: 10px auto;
 	max-width: 600px;
 	text-align: center;
-	
+
 	h1 {
 		margin: 30px 0;
 		font-size: 4em;
@@ -17,4 +21,9 @@
 
 .site-footer {
 	display: none;
+}
+
+iframe {
+	width: 100%;
+	border: none;
 }

@@ -96,6 +96,8 @@ nav_exclude: true
 					<a href="https://github.com/ambanum/disinformation-encyclopedia">Source Code</a>
 					&nbsp;|&nbsp;
 					<a href="mailto:matti.schneider@diplomatie.gouv.fr">Contact us</a>
+					&nbsp;|&nbsp;
+					<a href="/tracking.html">Analytics and privacy</a>
 				</div>
 			</div>
 			<div class="columns">
