@@ -5,7 +5,7 @@ include: ['_pages']
 
 title: Disencyclopedia
 baseurl: ""
-url: https://desinfo.quaidorsay.fr
+url: https://disinfo.quaidorsay.fr
 
 remote_theme: ambanum/just-the-docs
 search_enabled: true
