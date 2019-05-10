@@ -22,4 +22,4 @@ Our first deliverable is this wiki containing most of what we’ve learned. This
 
 We have also prototyped a [social bot detector](http://sismo.quaidorsay.fr) for Twitter and intend to work with other vendors to unite our efforts behind a single open source project.
 
-Our main focus at the moment is a chat on steroids: a real-time communication channel where all detection, analysis and reaction can happen in a shared fashion with mutualized tools. You’ll find more about the chatbots we have built [here](https://desinfo.quaidorsay.fr/encyclopedia/chatbots/). If you’re reading this we’d probably like to have you on board. [Send us an email](mailto:matti.schneider@diplomatie.gouv.fr)!
+Our main focus at the moment is a chat on steroids: a [real-time communication channel](/collaborate) where all detection, analysis and reaction can happen in a shared fashion with mutualized tools. We have built chatbots that implement the best practices we have identified in the encyclopedia.
