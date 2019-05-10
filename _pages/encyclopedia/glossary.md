@@ -7,7 +7,7 @@ nav_order: 11
 
 ## Bot
 
-Fully automated, software-operated [inauthentic](#inauthentic) social media account.
+Fully automated, software-operated [inauthentic](#inauthentic-account) social media account.
 See also: [cyborg](#cyborg).
 
 ## Campaign _(disinformation campaign)_
@@ -21,7 +21,7 @@ See also: [cyborg](#cyborg).
 
 ## Cyborg
 
-Partly automated, software-assisted [inauthentic](#inauthentic) social media account managed by humans.
+Partly automated, software-assisted [inauthentic](#inauthentic-account) social media account managed by humans.
 See also: [bot](#bot).
 
 
