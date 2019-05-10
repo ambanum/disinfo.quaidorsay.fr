@@ -1,30 +1,23 @@
 ---
 layout: home
+title: Disencyclopædia
 permalink: /encyclopedia
+nav_order: 1
 ---
 
-# Disinformation
+# Information manipulation encyclopædia
 
-## Information manipulation space
+This collaborative documentation aims at empowering all actors countering information manipulation to grow and improve.
 
-![Information manipulation space](/assets/img/disinformation-space.png)
+In order to foster collaboration and increase impact, this resource:
 
-Focusing on disinformation as we do means taking into account a significant yet very specific part of information manipulation. For instance, disinformation is not to be mistaken for misinformation, which is unintentional, nor with propaganda, which does not necessarily aims to disrupt. At least five aspects of information manipulation have to be met in order to identify - and later counter - disinformation campaigns, which constitute in the foreign massive and artificial sharing of false content with the intent to harm.
+1. Provides concepts and unifies vocabulary.
+2. Documents exemplary, sharable case studies.
+3. Describes best practices, tools and actors.
+4. Consolidates opportunities such as funding and events.
 
-## We aim at reinforcing the democratic antibodies that are present in our societies
+[Your contributions](/encyclopedia/contribute) are more than welcome.
 
-We believe that in the fight against disinformation, many actors are already doing their part to prevent fake news and information manipulation from having an impact on our elections and collective decision processes: investigative journalists, fact-checkers, public open data providers, NGOs, OSINT researchers, concerned citizens…
+## How to navigate this resource
 
-However, in the current setup, disinformation sources possess a major advantage: they have just a select narratives to boost in order to split our societies apart along their ethnical, philosophical and historical fracture lines; and they certainly have resources to throw at that. On the other side, most of our defenses are atomized, feeling alone in a fight bigger than themselves. Yet, if we unite, we can be much stronger than any other would want us to be, in a shared reality where dissent is expressed through debate and discussion rather than through lies and division.
-
-## We are building the place where those who work towards coherence and authenticity gather
-
-We are documenting their practices and equipping them with the best tools available, with the intention that they will share their results with each other while keeping their independence. We provide them with opportunities to improve and grow, and identify the most effective ways to decrease the impact of disinformation.
-
-Our first deliverable is this wiki containing most of what we’ve learned. This is an open and evolving documentation of tools, actors and practices that you are most welcome to contribute to.
-
-We have also prototyped a [social bot detector](https://sismo.quaidorsay.fr) for Twitter and intend to work with other vendors to unite our efforts behind a single open source project.
-
-Our main focus at the moment is a chat on steroids: a real-time communication channel where all detection, analysis and reaction can happen in a shared fashion with mutualized tools. You’ll find more about the chatbots we have built [here](https://desinfo.quaidorsay.fr/encyclopedia/chatbots/). If you’re reading this we’d probably like to have you on board. [Send us an email](mailto:matti.schneider@diplomatie.gouv.fr)!
-
-> We are the innovation team of the French Ambassador for Digital Affairs and it was thus only normal that we would believe in the power of structured and transparent discussion to counter deception 😉
+We describe the countering of information manipulation along [three dimensions](/encyclopedia/concepts). We first define these concepts we'll be using throughout, but you can also dive right in to the parts that are most relevant to your use case. Feel free to go back to this part whenever it is useful.
