@@ -13,6 +13,31 @@ permalink: /encyclopedia/qualification/tools
 
 - - -
 
+## Criterion: Massive
+
+Almost every available and open detection tool to be found relies on Twitter's API or uses Twitter data. In the rather recent field of bot detection, it seems that social media platforms other than Twitter have been left aside.
+
+### Media Scale
+
+Reports often use simplistic ways to count impact, simply summing the number of followers of known bad accounts on social media, or the count of views when available, such as on video media. Raw numbers then generate anxiety (“30k views! 13k shares!”), but don't help prioritizing efforts.
+
+The French Ambassador for Digital Affairs’ team offers a way to compensate that tendency: [Media Scale](https://github.com/ambanum/media-scale). Rather than focusing on the quantitative aspect, it offers a scale of relevance by putting the number of shares in perspective with reference articles shares for the cultural context.
+
+![Media Scale chatbot works by typing in a region code and a share count](/assets/img/3-qualification/3-tools/media-scale-chatbot-help.png)
+![For example, share fr 1004](/assets/img/3-qualification/3-tools/media-scale-chatbot-request.png)
+![1004 shares for an article in France is equivalent to “Le bassin de la Villette temporairement fermé à la baignade” by Le Monde in June 2017](/assets/img/3-qualification/3-tools/media-scale-chatbot-result.png)
+
+This more qualitative approach helps give perspective to readers of threat notices that might be further away from the topics, and prioritise your own qualification work.
+
+This resource is open-source and can be used as:
+
+1. A [dataset](https://github.com/ambanum/media-scale/tree/master/data).
+2. A live hosted API: [`https://disinfo.quaidorsay.fr/api/media-scale/1.0/around?region=fr&shares=150000`](https://disinfo.quaidorsay.fr/api/media-scale/1.0/around?region=fr&shares=150000).
+3. A chatbot that is already available in our [collaboration chat](/collaborate).
+
+Data is currently available for a limited number of countries, but contributions and requests are welcome.
+
+
 ## Criterion: Artificial
 
 Almost every available and open detection tool to be found relies on Twitter's API or uses Twitter data. In the rather recent field of bot detection, it seems that social media platforms other than Twitter have been left aside.
