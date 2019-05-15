@@ -494,180 +494,156 @@ EDNH is independent and funded by the European Commission.
 
 ## Criterion: Illegal
 
-### 1 - Publicité politique en période électorale
+### In France
 
-#### Description
+The various criteria detailed below allow for the qualification of a political ad or an issue ad as illegal. However they are **only valid in France**, as they rely **exclusively** on French jurisdiction. Therefore, the following content is in French.
 
-Il est interdit d'utiliser "**à des fins de propagande électorale [...] tout procédé de publicité commerciale** par la voie de la presse ou par tout moyen de communication audiovisuelle" en période électorale, c'est-à-dire la période allant des "six mois précédant le premier jour du mois d'une élection et jusqu'à la date du tour de scrutin où celle-ci est acquise".
+#### Publicité politique en période électorale
 
-> _Référence de l’article de loi_
+##### Description
+{: .no_toc}
+
+Il est interdit d'utiliser des procédés de publicité commerciale à des fins de **propagande électorale** en période électorale, c'est-à-dire la période allant des « six mois précédant le premier jour du mois d'une élection et jusqu'à la date du tour de scrutin où celle-ci est acquise » .
 
 [Article L52-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353102&dateTexte=&categorieLien=cid), tel que modifié par la loi n°2011-412 du 14 avril 2011 - art. 6.
 
-#### Peines encourues
-
-Depuis 2016, toute infraction à l'article L52-1 exposait à une amende de 75 000 euros. 
+##### Peines encourues
+{: .no_toc}
 
 Depuis 2017, tout candidat (ou tête de liste) ayant demandé ou donné son accord pour de la publicité commerciale ou de l'affichage en période électorale encourt un an d'emprisonnement et 15 000 € d'amende.
 
-> _Référence de l’article de loi_
+- [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771), tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique. 
 
-1) [Article L90-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353212&dateTexte=&categorieLien=cid) tel que modifié par la loi n°2016-508 du 25 avril 2016 - art. 4. 
+#### Utilisation des outils publicitaires des plateformes en période électorale
 
-2) [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771), tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique. 
+##### Description
+{: .no_toc}
 
-### 1 bis - Utilisation des outils publicitaires des plateformes en période électorale
+Durant la période électorale, l'interdiction de l'utilisation de publicité commerciale à des fins de propagande électorale comprend la diffusion de ce type de publicité par **tout moyen de communication audiovisuelle**. Cela implique l'interdiction d’utiliser les outils publicitaires des plateformes à cette période pour diffuser de la propagande électorale. 
 
-#### Description
+De plus, « les interdictions et restrictions prévues [par le code de l'électorat] en matière de propagande électorale sont applicables à tout message ayant le caractère de propagande électorale diffusé par **tout moyen de communication au public par voie électronique**.» 
 
-Il est interdit d'utiliser "à des fins de propagande électorale [...] tout procédé de publicité commerciale par la voie de la presse ou par **tout moyen de communication audiovisuelle**" en période électorale (cf 3). Cela implique l'interdiction d’utiliser les outils publicitaires des plateformes à cette période pour diffuser de la propagande électorale. 
+- [Article L52-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353102&dateTexte=&categorieLien=cid), tel que modifié par la loi n°2011-412 du 14 avril 2011 - art. 6.
 
->_Référence de l’article de loi_
+- [Article L48-1.-V- 2 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000023878437).
 
-[Article L52-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353102&dateTexte=&categorieLien=cid), tel que modifié par la loi n°2011-412 du 14 avril 2011 - art. 6.
-
-#### Peines encourues
+##### Peines encourues
+{: .no_toc}
 
 Comme explicité à la section 3, tout candidat (ou tête de liste) ayant volontairement et sciemment diffusé des publicités politiques via les réseaux sociaux en période électorale encourt un an d'emprisonnement et 15 000 € d'amende.
 
-> _Référence de l’article de loi_
-
 [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771), tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.  
 
-**Nota Bene:**
+#### Violation de la période de silence
 
-"Les interdictions et restrictions prévues [par le code de l'électorat] en matière de propagande électorale sont applicables à tout message ayant le caractère de propagande électorale diffusé par **tout moyen de communication au public par voie électronique**."
+##### Description
+{: .no_toc}
 
-> _Référence de l’article de loi_
+Une période de silence est observée à partir de la veille du scrutin à minuit (c'est-à-dire durant le samedi précédant les élections, qui ont lieu le dimanche En outre-mer, c'est-à-dire en Guadeloupe, Guyane, Martinique, Polynésie française, à Saint-Barthélemy, Saint-Martin et Saint-Pierre et Miquelon, les élections ayant lieu le samedi, la période de silence est instaurée avec  heures d'avance).
 
-[Article L48-1.-V- 2 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000023878437).
-
-### 2 - Violation de la période de silence
-
-#### Description
-
-Une période de silence est observée à partir de la veille du scrutin à minuit (c'est-à-dire durant le samedi précédant les élections, qui ont lieu le dimanche). Toute communication politique est interdite durant cette période, y compris des commentaires, des sondages ou tout autre document. La diffusion au public par voie électronique de communication politique caractérisée comme de la propagande électorale entre dans ce cadre.
-
-> _Référence de l’article de loi_
+Toute communication politique est interdite durant cette période, y compris des commentaires, des sondages ou tout autre document. La diffusion au public par voie électronique de communication politique caractérisée comme de la propagande électorale entre dans ce cadre.
 
 [Article L49 - 4 du Code électoral](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=79E5ACC204BC0F2F68D4ABFE97D36A49.tplgfr41s_1?idSectionTA=LEGISCTA000006148458&cidTexte=LEGITEXT000006070239&dateTexte=20190514).
 
-#### Peines encourues
+##### Peines encourues
+{: .no_toc}
 
 Toute personne enfreignant les dispositions de l'article L. 49 encourt une amende de 3 750 euros.
-
-> _Référence de l’article de loi_
 
 [Article L89](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=E9453AC1030D9ACC4E1AC088A6B5526A.tplgfr41s_1?idSectionTA=LEGISCTA000006148461&cidTexte=LEGITEXT000006070239&dateTexte=20190514) du Code électoral, tel que modifié par l'article 4 de la loi n°2016-508 du 25 avril 2016.
 
 #### 3 - Introduction d'un élément polémique nouveau
 
-#### Description
+##### Description
+{: .no_toc}
 
-Il est interdit aux candidats de révéler "un élément nouveau de polémique électorale" à un moment trop proche de la fin de la campagne électorale, si cela implique que le(s) candidat(s) touché(s) ne pourront pas y répondre utilement.
+Il est interdit aux candidats de révéler « un élément nouveau de polémique électorale » à un moment trop proche de la fin de la campagne électorale, si cela implique que les candidat‧e‧s touché‧e‧s ne pourront pas y répondre « utilement » .
 
-> _Référence de l’article de loi_
 [Article L48-2 - art. 3 du Code électoral.](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=79E5ACC204BC0F2F68D4ABFE97D36A49.tplgfr41s_1?idSectionTA=LEGISCTA000006148458&cidTexte=LEGITEXT000006070239&dateTexte=20190514).
 
-### 4 - Sondages non conformes
+#### 4 - Sondages non conformes
 
-#### Description
+##### Description
+{: .no_toc}
 
-En dehors de la période électorale, il est interdit de publier des sondages d'opinion si leur objectivité, leur qualité et leur authenticité n'a pas été garantie par la Commission des Sondages. En effet, l'entité publiant ou diffusant les résultats d'un sondage doit avoir soumis une déclaration à la Commission, et que celle-ci y ait souscrit.
+Il est interdit de publier des sondages d'opinion si leur objectivité, leur qualité et leur authenticité n'a pas été garantie par la [Commission des Sondages](http://www.commission-des-sondages.fr/). En effet, l'entité publiant ou diffusant les résultats d'un sondage doit avoir soumis une déclaration à la Commission, et que celle-ci y ait souscrit.
 
-> _Référence de l’article de loi_
+- [Article 2 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, tel que modifié par l'article 6 de la loi n°2016-508 du 25 avril 2016.
 
-[Article 2 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, telle que modifiée par l'article 6 de la loi n°2016-508 du 25 avril 2016.
+- [Article 7 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, tel que modifié par l'article 24 de la loi n°2017-55 du 20 janvier 2017.
 
-[Article 7 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, telle que modifié par l'article 24 de la loi n°2017-55 du 20 janvier 2017.
-
-#### Peines encourues
+##### Peines encourues
+{: .no_toc}
 
 La réalisation, la publication ou la diffusion d'un sondage non-conforme est punie d'une amende de 75 000€.
 
-> _Référence de l’article de loi_
-
-[Article 12 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, telle que modifiée par l'article 6 de la loi n°2016-508 du 25 avril 2016.
+[Article 12 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, tel que modifié par l'article 6 de la loi n°2016-508 du 25 avril 2016.
 
 
-### 5 - Publicité politique au financement étranger
+#### 5 - Publicité politique au financement étranger
 
-#### Description
+##### Description
+{: .no_toc}
 
-En France, les dons faits à un parti politique ou à une campagne et provenant d'un pays étranger ou de personnes morales basées à l'étranger sont interdits. 
-
-Une personne physique ne peut verser de don ou de cotisation à un parti ou groupement politique que si elle est de nationalité française ou si elle réside en France.
-
-> _Référence de l’article de loi_
+En France, les dons faits à un parti politique ou à une campagne de provenance étangère sont interdits. Seules les personnes physiques françaises ou résidant en France peuvent faire ce type de don.
 
 [Article 11-4 de la loi n° 88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) du 11 mars 1988 relative à la transparence financière de la vie politique, tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017.
 
-#### Peines encourues
+##### Peines encourues
+{: .no_toc}
 
-Les personnes qui ont versé un don ou consenti un prêt à un ou plusieurs partis ou groupements politiques en violation des articles 11-3-1 et 11-4 sont punies de trois ans d'emprisonnement et de 45 000 € d'amende.
-
-Les même peines sont applicables au bénéficiaire du don ou du prêt consenti par une personne physique ou morale, y compris de droit étranger.
-
-> _Référence de l’article de loi_
+Les bénéficiaires et les donateurs risquent trois ans de prison et 45 000 € d'amende. 
 
 [Article 11-5 de la loi n° 88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) du 11 mars 1988 relative à la transparence financière de la vie politique, tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.
 
-### 6 - Publicité politique financée par une personne morale 
+#### 6 - Publicité politique financée par une personne morale 
 
-#### Description
+##### Description
+{: .no_toc}
 
-Les personnes morales, même françaises, à l'exception des partis ou groupements politiques ne peuvent pas contribuer au financement des partis ou groupements politiques ou leur faire des dons **sous quelque forme que ce soit**. 
-
-> _Référence de l’article de loi_
+Les seules personnes morales pouvant  contribuer au financement des partis ou groupements politiques ou leur faire des dons sous quelque forme que ce soit (donc y compris une publicité) sont des partis ou groupements politiques français.
 
 [Article 11-4 de la loi n° 88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) du 11 mars 1988 relative à la transparence financière de la vie politique, tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.
 
-#### Peines encourues
+##### Peines encourues
+{: .no_toc}
 
-Les personnes qui ont versé un don ou consenti un prêt à un ou plusieurs partis ou groupements politiques en violation des articles 11-3-1 et 11-4 sont punies de trois ans d'emprisonnement et de 45 000 € d'amende.
-
-Les même peines sont applicables au bénéficiaire du don ou du prêt consenti par une personne physique ou morale, y compris de droit étranger.
-
-> _Référence de l’article de loi_
+Les bénéficiaires et les donateurs risquent trois ans de prison et 45 000 € d'amende. 
 
 [Article 11-5 de la loi n° 88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) du 11 mars 1988 relative à la transparence financière de la vie politique, tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.
 
-### 7 - Publicité politique fausse ou trompeuse
+#### 7 - Publicité politique fausse ou trompeuse
 
-#### Description
+##### Description
+{: .no_toc}
 
 L'interdiction des pratiques commerciales déloyales, parmi lesquelles sont comprises les pratiques commerciales trompeuses, inclut l'interdiction des publicités fausses ou trompeuses. 
 
 Le Code de la Consommation précise que ce type de pratique peut viser "une catégorie particulière de consommateurs [...] vulnérables en raison [...] de leur crédulité". Il définit comme pratique commerciale trompeuse une pratique qui "crée une confusion avec un [...] signe distinctif d'un concurrent" et qui "repose sur des **allégations, indications ou présentations fausses ou de nature à induire en erreur**" concernant la **nature** du service promu, le **motif** de la prestation, la **portée des engagements** de l'annonceur et **l'identité, les qualités, les aptitudes et les droits du professionnel**, entre autres critères.
 
-> _Référence de l’article de loi_
+- [Article L121-1](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227303&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation. 
 
-1) [Article L121-1](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227303&cidTexte=LEGITEXT000006069565&dateTexte=20190514)
+- [Article L121-2](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227299&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation, tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
 
-2) [Article L121-2](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227299&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation, tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
-
-#### Peines encourues
+##### Peines encourues
+{: .no_toc}
 
 Les pratiques commerciales trompeuses sont punies de deux ans de prison et d'une amende de 300 000 euros. 
-
-> _Référence de l’article de loi_
 
 [Article L132-2 du Code de la Consommation](https://www.legifrance.gouv.fr/affichCode.do?idArticle=LEGIARTI000032227122&idSectionTA=LEGISCTA000032227124&cidTexte=LEGITEXT000006069565&dateTexte=20190514) tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
 
-### 7 bis - Publicité portant sur un débat d'intérêt général fausse ou trompeuse 
+#### 7 bis - Publicité portant sur un débat d'intérêt général fausse ou trompeuse 
 
-#### Description
+##### Description
+{: .no_toc}
 
 Comme indiqué à la section 7, le Code de la Consommation donne une liste exhaustive de critères de définition de pratiques commerciales trompeuses, y compris de publicités. Notamment, est inclus comme critère le **manque d'identification claire de la personne pour le compte de laquelle elle est mise en œuvre**.
 
-> _Référence de l’article de loi_
+[Article L121-2](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227299&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation, tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
 
-2) [Article L121-2](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227299&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation, tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
-
-#### Peines encourues
+##### Peines encourues
+{: .no_toc}
 
 Les pratiques commerciales trompeuses sont punies de deux ans de prison et d'une amende de 300 000 euros. 
-
-> _Référence de l’article de loi_
 
 [Article L132-2 du Code de la Consommation](https://www.legifrance.gouv.fr/affichCode.do?idArticle=LEGIARTI000032227122&idSectionTA=LEGISCTA000032227124&cidTexte=LEGITEXT000006069565&dateTexte=20190514) tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
