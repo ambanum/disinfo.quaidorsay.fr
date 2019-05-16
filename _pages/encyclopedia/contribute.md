@@ -16,10 +16,8 @@ For all content to be included in the disencyclopedia, we use basic [**kramdown*
 ## Organization
 
 When writing content, **titles** should be organized by size. To do so, you just need to add a hash (#) in front of the title. The smaller the title, the more hashes you add. 
-Ex: 
-[# Main title]
-[## Title]
-[### Subtitle]
+
+Ex: # Main title ; ## Title ; ### Subtitle ...
 
 To avoid any confusion, we prefer **bullet points or #titles** to numbered lists (1. ,  2. , 3. etc).
 Also, rather than footnotes, we believe **direct links** included in the text are easier for users. 
