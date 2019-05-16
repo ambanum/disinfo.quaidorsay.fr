@@ -496,27 +496,25 @@ EDNH is independent and funded by the European Commission.
 
 ### In France
 
-The various criteria detailed below allow for the qualification of a political ad or an issue ad as illegal. However they are **only valid in France**, as they rely **exclusively** on French jurisdiction. Therefore, the following content is in French.
+The various criteria detailed below allow for the qualification of a political ad or an issue ad as illegal. However they are only valid in France, as they rely exclusively on French jurisdiction. Therefore, the following content is in French.
 
 #### Publicité politique en période électorale
-
-##### Description
 {: .no_toc}
 
-Il est interdit d'utiliser des procédés de publicité commerciale à des fins de **propagande électorale** en période électorale, c'est-à-dire la période allant des « six mois précédant le premier jour du mois d'une élection et jusqu'à la date du tour de scrutin où celle-ci est acquise » .
+Il est interdit d'utiliser des procédés de publicité commerciale à des fins de propagande électorale en période électorale, _i.e_ jusqu'au jour de l’élection et dans les six mois pleins qui la précèdent.
+
+Par exemple, si le premier tour a lieu le 28 août et le second tour le 2 septembre, toute publicité à but électoral est interdite du 1<sup>er</sup> février au 2 septembre, inclus.
 
 [Article L52-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353102&dateTexte=&categorieLien=cid), tel que modifié par la loi n°2011-412 du 14 avril 2011 - art. 6.
 
 ##### Peines encourues
 {: .no_toc}
 
-Depuis 2017, tout candidat (ou tête de liste) ayant demandé ou donné son accord pour de la publicité commerciale ou de l'affichage en période électorale encourt un an d'emprisonnement et 15 000 € d'amende.
+Tout candidat (ou tête de liste) ayant demandé ou donné son accord pour de la publicité commerciale ou de l'affichage en période électorale encourt un an d'emprisonnement et 15 000 € d'amende.
 
 - [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771), tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique. 
 
 #### Utilisation des outils publicitaires des plateformes en période électorale
-
-##### Description
 {: .no_toc}
 
 Durant la période électorale, l'interdiction de l'utilisation de publicité commerciale à des fins de propagande électorale comprend la diffusion de ce type de publicité par **tout moyen de communication audiovisuelle**. Cela implique l'interdiction d’utiliser les outils publicitaires des plateformes à cette période pour diffuser de la propagande électorale. 
@@ -535,11 +533,9 @@ Comme explicité à la section 3, tout candidat (ou tête de liste) ayant volont
 [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771), tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.  
 
 #### Violation de la période de silence
-
-##### Description
 {: .no_toc}
 
-Une période de silence est observée à partir de la veille du scrutin à minuit (c'est-à-dire durant le samedi précédant les élections, qui ont lieu le dimanche En outre-mer, c'est-à-dire en Guadeloupe, Guyane, Martinique, Polynésie française, à Saint-Barthélemy, Saint-Martin et Saint-Pierre et Miquelon, les élections ayant lieu le samedi, la période de silence est instaurée avec  heures d'avance).
+Une période de silence est observée à partir de la veille du scrutin à minuit.
 
 Toute communication politique est interdite durant cette période, y compris des commentaires, des sondages ou tout autre document. La diffusion au public par voie électronique de communication politique caractérisée comme de la propagande électorale entre dans ce cadre.
 
@@ -552,18 +548,14 @@ Toute personne enfreignant les dispositions de l'article L. 49 encourt une amend
 
 [Article L89](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=E9453AC1030D9ACC4E1AC088A6B5526A.tplgfr41s_1?idSectionTA=LEGISCTA000006148461&cidTexte=LEGITEXT000006070239&dateTexte=20190514) du Code électoral, tel que modifié par l'article 4 de la loi n°2016-508 du 25 avril 2016.
 
-#### 3 - Introduction d'un élément polémique nouveau
-
-##### Description
+#### Introduction d'un élément polémique nouveau
 {: .no_toc}
 
 Il est interdit aux candidats de révéler « un élément nouveau de polémique électorale » à un moment trop proche de la fin de la campagne électorale, si cela implique que les candidat‧e‧s touché‧e‧s ne pourront pas y répondre « utilement » .
 
 [Article L48-2 - art. 3 du Code électoral.](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=79E5ACC204BC0F2F68D4ABFE97D36A49.tplgfr41s_1?idSectionTA=LEGISCTA000006148458&cidTexte=LEGITEXT000006070239&dateTexte=20190514).
 
-#### 4 - Sondages non conformes
-
-##### Description
+#### Sondages non conformes
 {: .no_toc}
 
 Il est interdit de publier des sondages d'opinion si leur objectivité, leur qualité et leur authenticité n'a pas été garantie par la [Commission des Sondages](http://www.commission-des-sondages.fr/). En effet, l'entité publiant ou diffusant les résultats d'un sondage doit avoir soumis une déclaration à la Commission, et que celle-ci y ait souscrit.
@@ -580,9 +572,7 @@ La réalisation, la publication ou la diffusion d'un sondage non-conforme est pu
 [Article 12 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, tel que modifié par l'article 6 de la loi n°2016-508 du 25 avril 2016.
 
 
-#### 5 - Publicité politique au financement étranger
-
-##### Description
+#### Publicité politique au financement étranger
 {: .no_toc}
 
 En France, les dons faits à un parti politique ou à une campagne de provenance étangère sont interdits. Seules les personnes physiques françaises ou résidant en France peuvent faire ce type de don.
@@ -596,9 +586,7 @@ Les bénéficiaires et les donateurs risquent trois ans de prison et 45 000 € 
 
 [Article 11-5 de la loi n° 88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) du 11 mars 1988 relative à la transparence financière de la vie politique, tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.
 
-#### 6 - Publicité politique financée par une personne morale 
-
-##### Description
+#### Publicité politique financée par une personne morale 
 {: .no_toc}
 
 Les seules personnes morales pouvant  contribuer au financement des partis ou groupements politiques ou leur faire des dons sous quelque forme que ce soit (donc y compris une publicité) sont des partis ou groupements politiques français.
@@ -612,9 +600,7 @@ Les bénéficiaires et les donateurs risquent trois ans de prison et 45 000 € 
 
 [Article 11-5 de la loi n° 88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) du 11 mars 1988 relative à la transparence financière de la vie politique, tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.
 
-#### 7 - Publicité politique fausse ou trompeuse
-
-##### Description
+#### Publicité politique fausse ou trompeuse
 {: .no_toc}
 
 L'interdiction des pratiques commerciales déloyales, parmi lesquelles sont comprises les pratiques commerciales trompeuses, inclut l'interdiction des publicités fausses ou trompeuses. 
@@ -632,9 +618,7 @@ Les pratiques commerciales trompeuses sont punies de deux ans de prison et d'une
 
 [Article L132-2 du Code de la Consommation](https://www.legifrance.gouv.fr/affichCode.do?idArticle=LEGIARTI000032227122&idSectionTA=LEGISCTA000032227124&cidTexte=LEGITEXT000006069565&dateTexte=20190514) tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
 
-#### 7 bis - Publicité portant sur un débat d'intérêt général fausse ou trompeuse 
-
-##### Description
+#### Publicité portant sur un débat d'intérêt général fausse ou trompeuse 
 {: .no_toc}
 
 Comme indiqué à la section 7, le Code de la Consommation donne une liste exhaustive de critères de définition de pratiques commerciales trompeuses, y compris de publicités. Notamment, est inclus comme critère le **manque d'identification claire de la personne pour le compte de laquelle elle est mise en œuvre**.
