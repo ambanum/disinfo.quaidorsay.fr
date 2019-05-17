@@ -516,3 +516,94 @@ Through a datajournalism website, the Agence France Presse (AFP), the ANSA (Ital
 In the future, EDNH will open to other media outlets and will allow users (citizens) to answer surveys on salient European issues, which will then be translated into readable data.
 
 EDNH is independent and funded by the European Commission.
+
+## Criterion: Illegal
+
+### In France
+
+Each of these characteristics can qualify a political ad or an issue-based ad as illegal. Since they are only valid within French jurisdiction, they are described in French.
+
+#### Publicité politique en période électorale
+
+La publicité commerciale à des fins de propagande électorale est interdite en période électorale, c'est-à-dire jusqu'au jour de l’élection et dans les six mois pleins qui la précèdent, par tout moyen de communication audiovisuelle ou électronique.
+
+Par exemple, si le premier tour a lieu le 28 août et le second tour le 2 septembre, il est interdit de payer pour mettre en avant un parti, une candidate ou en critiquer d'autres du 1<sup>er</sup> février au 2 septembre, inclus.
+
+- [Article L52-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353102&dateTexte=&categorieLien=cid).
+- [Article L48-1.-V- 2 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000023878437).
+
+##### Peines encourues
+{: .no_toc}
+
+Un an de prison et 15 000 € d'amende pour un‧e candidat‧e ayant demandé ou autorisé de la publicité commerciale. Si une liste électorale a été constituée, seule la tête de liste est concernée.
+
+- [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771).
+
+#### Violation de la période de silence
+
+Toute communication politique est interdite en période de silence, c'est-à-dire à partir de la veille du scrutin à minuit, par tout moyen de communication. Cela inclut notamment les commentaires et sondages.
+
+Par exemple, si le scrutin a lieu le samedi en outre-mer et le dimanche en métropole, il est interdit de communiquer des sondages à destination de la Guyane à partir du vendredi à minuit heure locale, et d'émettre un commentaire sur les opposants en métropole à partir du samedi à minuit heure d'Europe centrale.
+
+- [Article L49-4 du Code électoral](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=79E5ACC204BC0F2F68D4ABFE97D36A49.tplgfr41s_1?idSectionTA=LEGISCTA000006148458&cidTexte=LEGITEXT000006070239&dateTexte=20190514).
+
+##### Peines encourues
+{: .no_toc}
+
+3 750 € d'amende pour toute infraction.
+
+- [Article L89](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=E9453AC1030D9ACC4E1AC088A6B5526A.tplgfr41s_1?idSectionTA=LEGISCTA000006148461&cidTexte=LEGITEXT000006070239&dateTexte=20190514) du Code électoral.
+
+#### Introduction d'un élément polémique nouveau
+
+Il est interdit aux candidats de révéler « un élément nouveau de polémique électorale » à un moment trop proche de la fin de la campagne électorale si cela implique que les candidat‧e‧s touché‧e‧s ne pourront pas « y répondre utilement ».
+
+- [Article L48-2 - art. 3 du Code électoral](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=79E5ACC204BC0F2F68D4ABFE97D36A49.tplgfr41s_1?idSectionTA=LEGISCTA000006148458&cidTexte=LEGITEXT000006070239&dateTexte=20190514).
+
+##### Peines encourues
+{: .no_toc}
+
+Aucune peine spécifique n’est prévue pour ce cas.
+
+#### Sondages [non conformes](http://www.commission-des-sondages.fr/oblig/obligations.htm)
+
+Il est interdit de publier des sondages d'opinion si leur objectivité, leur qualité et leur authenticité n'a pas été garantie par la [Commission des Sondages](http://www.commission-des-sondages.fr/). L’entité publiant ou diffusant les résultats d'un sondage doit avoir soumis une déclaration à la Commission, et que celle-ci y ait souscrit. Ces déclarations sont [accessibles en ligne](http://www.commission-des-sondages.fr/notices/).
+
+- [Article 2 de la loi n°77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) relative à la publication et à la diffusion de certains sondages d'opinion.
+- [Article 7 de la loi n°77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) relative à la publication et à la diffusion de certains sondages d'opinion.
+
+##### Peines encourues
+{: .no_toc}
+
+75 000 € d'amende pour la réalisation, la publication ou la diffusion d'un sondage non-conforme.
+
+- [Article 12 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) relative à la publication et à la diffusion de certains sondages d'opinion.
+
+
+#### Financement étranger
+
+Seules les personnes physiques françaises ou résidant en France peuvent faire des dons à un parti politique ou à une campagne.
+
+- [Article 11-4 de la loi n°88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) relative à la transparence financière de la vie politique.
+
+##### Peines encourues
+{: .no_toc}
+
+Trois 3 ans de prison et 45 000 € d'amende pour bénéficiaires et donateurs.
+
+- [Article 11-5 de la loi n°88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) relative à la transparence financière de la vie politique.
+
+#### Financement par une personne morale
+
+Les seules personnes morales pouvant financer ou donner à des partis ou groupements politiques sous quelque forme que ce soit (donc y compris une publicité) sont des partis ou groupements politiques français.
+
+Par exemple, le paiement de publicités sur les réseaux sociaux mettant en avant une candidate française par un parti britannique est illégal.
+
+- [Article 11-4 de la loi n°88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) relative à la transparence financière de la vie politique.
+
+##### Peines encourues
+{: .no_toc}
+
+Les bénéficiaires et les donateurs risquent trois ans de prison et 45 000 € d'amende.
+
+- [Article 11-5 de la loi n°88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) relative à la transparence financière de la vie politique.
