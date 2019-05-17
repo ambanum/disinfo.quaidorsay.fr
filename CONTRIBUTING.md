@@ -1,11 +1,12 @@
 ---
 permalink: /encyclopedia/contribute
 nav_order: 15
+layout: page
 ---
 
-# How can I contribute?
+# How to contribute
 
-All contributions are welcome! We are grateful for all additions to the project. Here, you will find a few easy tips and rules to help you navigate the edition process.
+All contributions are welcome! We are grateful for all additions to this open resource that help advance the state of the art and shared understanding in fighting information manipulations. Here, you will find a few tips and guidelines to help you navigate the edition process.
 
 You can edit all pages on the [GitHub repository](https://github.com/ambanum/disinformation-encyclopedia) hosting the content. You can learn more about this process on the [GitHub help](https://help.github.com/en/articles/editing-files-in-your-repository).
 
