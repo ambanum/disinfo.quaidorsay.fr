@@ -503,32 +503,18 @@ The various criteria detailed below allow for the qualification of a political a
 
 Il est interdit d'utiliser des procédés de publicité commerciale à des fins de propagande électorale en période électorale, _i.e_ jusqu'au jour de l’élection et dans les six mois pleins qui la précèdent.
 
+La diffusion de ce type de publicité à cette période par tout moyen de communication audiovisuelle ou électronique, y compris les outils publicitaires des plateformes, est donc interdite.
+
 Par exemple, si le premier tour a lieu le 28 août et le second tour le 2 septembre, toute publicité à but électoral est interdite du 1<sup>er</sup> février au 2 septembre, inclus.
 
 [Article L52-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353102&dateTexte=&categorieLien=cid), tel que modifié par la loi n°2011-412 du 14 avril 2011 - art. 6.
-
-##### Peines encourues
-{: .no_toc}
-
-Tout candidat (ou tête de liste) ayant demandé ou donné son accord pour de la publicité commerciale ou de l'affichage en période électorale encourt un an d'emprisonnement et 15 000 € d'amende.
-
-- [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771), tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique. 
-
-#### Utilisation des outils publicitaires des plateformes en période électorale
-{: .no_toc}
-
-Durant la période électorale, l'interdiction de l'utilisation de publicité commerciale à des fins de propagande électorale comprend la diffusion de ce type de publicité par **tout moyen de communication audiovisuelle**. Cela implique l'interdiction d’utiliser les outils publicitaires des plateformes à cette période pour diffuser de la propagande électorale. 
-
-De plus, « les interdictions et restrictions prévues [par le code de l'électorat] en matière de propagande électorale sont applicables à tout message ayant le caractère de propagande électorale diffusé par **tout moyen de communication au public par voie électronique**.» 
-
-- [Article L52-1 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000006353102&dateTexte=&categorieLien=cid), tel que modifié par la loi n°2011-412 du 14 avril 2011 - art. 6.
 
 - [Article L48-1.-V- 2 du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000023878437).
 
 ##### Peines encourues
 {: .no_toc}
 
-Comme explicité à la section 3, tout candidat (ou tête de liste) ayant volontairement et sciemment diffusé des publicités politiques via les réseaux sociaux en période électorale encourt un an d'emprisonnement et 15 000 € d'amende.
+Tout candidat ayant demandé ou donné son accord pour de la publicité commerciale ou de l'affichage en période électorale encourt un an d'emprisonnement et 15 000 € d'amende. Si une liste électorale a été constituée, seul le candidat en tête de liste est concerné.
 
 [Article L. 113-1.-II du Code électoral](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000027477771), tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.  
 
@@ -555,10 +541,10 @@ Il est interdit aux candidats de révéler « un élément nouveau de polémique
 
 [Article L48-2 - art. 3 du Code électoral.](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=79E5ACC204BC0F2F68D4ABFE97D36A49.tplgfr41s_1?idSectionTA=LEGISCTA000006148458&cidTexte=LEGITEXT000006070239&dateTexte=20190514).
 
-#### Sondages non conformes
+#### Sondages non [conformes](http://www.commission-des-sondages.fr/oblig/obligations.htm)
 {: .no_toc}
 
-Il est interdit de publier des sondages d'opinion si leur objectivité, leur qualité et leur authenticité n'a pas été garantie par la [Commission des Sondages](http://www.commission-des-sondages.fr/). En effet, l'entité publiant ou diffusant les résultats d'un sondage doit avoir soumis une déclaration à la Commission, et que celle-ci y ait souscrit.
+Il est interdit de publier des sondages d'opinion si leur objectivité, leur qualité et leur authenticité n'a pas été garantie par la [Commission des Sondages](http://www.commission-des-sondages.fr/). En effet, l'entité publiant ou diffusant les résultats d'un sondage doit avoir soumis une déclaration à la Commission, et que celle-ci y ait souscrit. Ces déclarations sont [accessibles](http://www.commission-des-sondages.fr/notices/).
 
 - [Article 2 de la loi n° 77-808](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000522846) du 19 juillet 1977 relative à la publication et à la diffusion de certains sondages d'opinion, tel que modifié par l'article 6 de la loi n°2016-508 du 25 avril 2016.
 
@@ -599,35 +585,3 @@ Les seules personnes morales pouvant  contribuer au financement des partis ou gr
 Les bénéficiaires et les donateurs risquent trois ans de prison et 45 000 € d'amende. 
 
 [Article 11-5 de la loi n° 88-227](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000321646#LEGIARTI000035588686) du 11 mars 1988 relative à la transparence financière de la vie politique, tel que modifié par l'article 25 de la loi n°2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique.
-
-#### Publicité politique fausse ou trompeuse
-{: .no_toc}
-
-L'interdiction des pratiques commerciales déloyales, parmi lesquelles sont comprises les pratiques commerciales trompeuses, inclut l'interdiction des publicités fausses ou trompeuses. 
-
-Le Code de la Consommation précise que ce type de pratique peut viser "une catégorie particulière de consommateurs [...] vulnérables en raison [...] de leur crédulité". Il définit comme pratique commerciale trompeuse une pratique qui "crée une confusion avec un [...] signe distinctif d'un concurrent" et qui "repose sur des **allégations, indications ou présentations fausses ou de nature à induire en erreur**" concernant la **nature** du service promu, le **motif** de la prestation, la **portée des engagements** de l'annonceur et **l'identité, les qualités, les aptitudes et les droits du professionnel**, entre autres critères.
-
-- [Article L121-1](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227303&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation. 
-
-- [Article L121-2](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227299&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation, tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
-
-##### Peines encourues
-{: .no_toc}
-
-Les pratiques commerciales trompeuses sont punies de deux ans de prison et d'une amende de 300 000 euros. 
-
-[Article L132-2 du Code de la Consommation](https://www.legifrance.gouv.fr/affichCode.do?idArticle=LEGIARTI000032227122&idSectionTA=LEGISCTA000032227124&cidTexte=LEGITEXT000006069565&dateTexte=20190514) tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
-
-#### Publicité portant sur un débat d'intérêt général fausse ou trompeuse 
-{: .no_toc}
-
-Comme indiqué à la section 7, le Code de la Consommation donne une liste exhaustive de critères de définition de pratiques commerciales trompeuses, y compris de publicités. Notamment, est inclus comme critère le **manque d'identification claire de la personne pour le compte de laquelle elle est mise en œuvre**.
-
-[Article L121-2](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=20EBEEDA22270E17E80033E172B61B4E.tplgfr41s_1?idSectionTA=LEGISCTA000032227299&cidTexte=LEGITEXT000006069565&dateTexte=20190514) du Code de la Consommation, tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
-
-##### Peines encourues
-{: .no_toc}
-
-Les pratiques commerciales trompeuses sont punies de deux ans de prison et d'une amende de 300 000 euros. 
-
-[Article L132-2 du Code de la Consommation](https://www.legifrance.gouv.fr/affichCode.do?idArticle=LEGIARTI000032227122&idSectionTA=LEGISCTA000032227124&cidTexte=LEGITEXT000006069565&dateTexte=20190514) tel que créé par l'ordonnance n°2016-301 du 14 mars 2016.
