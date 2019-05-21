@@ -24,7 +24,7 @@ body {
 
 .landing .hero-head .logo {
 	position: absolute;
-	height: 60px;
+	height: 5em;
 	width: auto;
 	top: 15px;
 	left: 15px;
@@ -120,4 +120,9 @@ body {
 .landing .footer {
 	background-color: #FFF;
 	font-size: 80%;
+}
+
+.logo-footer {
+	height: 5em;
+	margin-top: 2em;
 }
