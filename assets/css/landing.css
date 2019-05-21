@@ -74,11 +74,19 @@ body {
 	font-weight: 200;
 }
 
+.our-work .work-item-column {
+	display: flex;
+}
+
 .our-work .work-item {
 	background: #512DA8;
 	color: #FFF;
 	padding: 3em;
 	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: baseline;
 }
 
 .our-work .work-item .title {
