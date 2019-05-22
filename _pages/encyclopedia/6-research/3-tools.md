@@ -13,6 +13,11 @@ permalink: /encyclopedia/research/tools
 
 - - -
 
+## Collaborative bibliography
+
+The Mozilla Misinformation Initiative maintains an [open database of research articles](https://airtable.com/universe/expPeddCpX0wOeNNE/misinformation-research?explore=true) relating to information manipulation.
+
+
 ## Facebook Social Science One
 
 <!-- à rédiger -->
