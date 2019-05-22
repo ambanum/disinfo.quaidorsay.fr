@@ -22,7 +22,7 @@ The RESIST toolkit is a 50-pager full of insights and actionable tools for publi
 While focused on a UK context, many of its recommendations are valid across jurisdictions.
 
 
-## Before elections
+## For political candidates and activists
 
 ### [The Pledge for Election Integrity](https://electionpledge.org/)
 
