@@ -13,6 +13,15 @@ permalink: /encyclopedia/prevention/tools
 
 - - -
 
+## For public institutions
+
+### [UK Government Communication Service RESIST toolkit](https://gcs.civilservice.gov.uk/wp-content/uploads/2019/03/RESIST_Toolkit.pdf)
+
+The RESIST toolkit is a 50-pager full of insights and actionable tools for public service officials to enable understanding and preparation for disinformation campaigns. It also contains thorough descriptions of tactics used by attackers.
+
+While focused on a UK context, many of its recommendations are valid across jurisdictions.
+
+
 ## Before elections
 
 ### [The Pledge for Election Integrity](https://electionpledge.org/)
