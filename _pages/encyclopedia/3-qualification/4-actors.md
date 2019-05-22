@@ -5,7 +5,7 @@ nav_order: 4
 permalink: /encyclopedia/qualification/actors
 ---
 
-# Actors
+# Qualification actors
 {: .no_toc}
 
 1. Table of contents

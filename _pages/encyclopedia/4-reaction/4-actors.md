@@ -5,7 +5,7 @@ nav_order: 4
 permalink: /encyclopedia/reaction/actors
 ---
 
-# Actors
+# Reaction actors
 {: .no_toc}
 
 1. Table of contents

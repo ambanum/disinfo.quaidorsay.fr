@@ -5,6 +5,6 @@ nav_order: 4
 permalink: /encyclopedia/detection/actors
 ---
 
-# Actors
+# Detection actors
 
 _No content yet, please contribute your own experience!_
