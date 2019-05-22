@@ -120,3 +120,12 @@ Trendolizer's API allows subscribers to extract all information into JSON-format
 
 The creator of Trendolizer, Maarten Schenk, is also the co-founder of Lead Stories, a online fact-checking and debunking media outlet which uses the Trendolizer engine to detect and further analyze trending news. A sample of their work can be found [here](https://hoax-alert.leadstories.com/3470102-how-a-tattoo-led-us-to-the-macedonian-trucker-delivering-loads-of-fake-news-to-the-internet.html). It shows how Trendolizer can actually be used in fighting disinformation.
 
+
+## Criterion: Harmful
+
+### Automatic video transcription and annotation
+
+For video content, the first difficulty is in making content discoverable without relying on watching the entirety of all streams. Two initiatives supported by the [EU Media Hub](http://www.europarl.europa.eu/stoa/en/media-hub) transcribe audio streams and annotate the video streams with object and personalities recognition.
+
+- Belgian company [SensifAI](https://sensifai.com).
+- French company [NewsBridge](https://www.newsbridge.io).
