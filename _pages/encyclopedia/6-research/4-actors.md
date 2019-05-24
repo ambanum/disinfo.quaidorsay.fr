@@ -5,7 +5,7 @@ nav_order: 4
 permalink: /encyclopedia/research/actors
 ---
 
-# Actors
+# Research actors
 {: .no_toc}
 
 1. Table of contents

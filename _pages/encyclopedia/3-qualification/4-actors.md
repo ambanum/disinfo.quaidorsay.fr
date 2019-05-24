@@ -5,7 +5,7 @@ nav_order: 4
 permalink: /encyclopedia/qualification/actors
 ---
 
-# Actors
+# Qualification actors
 {: .no_toc}
 
 1. Table of contents
@@ -125,3 +125,10 @@ This website of the French Press Agency simply provides fact-checks of articles 
 #### [Vrai ou Fake](https://www.francetvinfo.fr/vrai-ou-fake/)
 
 This is a factchecking and debunking platform for all of the French broadcasting audience. It gathers content produced by various media such as Arte, France Médias Monde, France Télévisions, Radio France and TV5 Monde.
+
+
+### In Belgium
+
+#### [Hoax-Net.be](https://hoax-net.be)
+
+Community-based fact-checking.
