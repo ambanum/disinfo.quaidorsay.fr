@@ -20,7 +20,15 @@ The Mozilla Misinformation Initiative maintains an [open database of research ar
 
 ## Facebook Social Science One
 
-<!-- à rédiger -->
+[Social Science One](https://socialscience.one/) is an organization of academics created by Harvard Professor and Director of the Harvard Institute for Quantitative Social Science Gary King and Stanford Law School Professor Nathaniel Persily.
+
+It implements **partnerships between academic researchers and private industry actors**, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_". 
+
+The structure of the partnerships enables a **commission of trusted academics** to obtain "_relevant company information and systems_" and to **invite other independent scholars** to do "_research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company_". 
+
+The process aims to "_understand and ameliorate society’s greatest challenges_" through social research based on useful yet too often held back data, all the while **ensuring customer privacy**_". 
+
+Their first partnership is with Facebook. 
 
 ## Twitter Health Metrics
 
