@@ -125,7 +125,7 @@ The creator of Trendolizer, Maarten Schenk, is also the co-founder of Lead Stori
 
 ### Automatic video transcription and annotation
 
-For video content, the first difficulty is in making content discoverable without relying on watching the entirety of all streams. Two initiatives supported by the [EU Media Hub](http://www.europarl.europa.eu/stoa/en/media-hub) transcribe audio streams and annotate the video streams with object and personalities recognition.
+For video content, the first difficulty is to make content discoverable without relying on the viewing of all streams in their entirety. Two initiatives supported by the [EU Media Hub](http://www.europarl.europa.eu/stoa/en/media-hub) transcribe audio streams and annotate the video streams with object and personalities recognition.
 
 - Belgian company [SensifAI](https://sensifai.com).
 - French company [NewsBridge](https://www.newsbridge.io).
