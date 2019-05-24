@@ -19,7 +19,7 @@ It is difficult to assess the efficiency of such denials but direct reactions ca
 
 ### Chatbots
 
-In Taiwan, a developer created [Aunt Meiyu](https://g0v.news/auntmeiyu-70294724df57), a bot that can be included in private chats and that will flag fake news and rumors as they are shared within family and friends groups. Over a hundred thousand users have set up this bot, with about 3% block rate.
+In Taiwan, a developer created [Aunt Meiyu](https://g0v.news/auntmeiyu-70294724df57), a bot that can be included in private chats and that will flag fake news and rumors as they are shared within family and friends groups. Over a hundred thousand users have set up this bot, with a block rate of circa 3%.
 
 
 ## Criterion: Intent to harm
