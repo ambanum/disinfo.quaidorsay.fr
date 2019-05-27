@@ -20,15 +20,21 @@ The Mozilla Misinformation Initiative maintains an [open database of research ar
 
 ## Facebook Social Science One
 
-[Social Science One](https://socialscience.one/) is an organization of academics created by Harvard Professor and Director of the Harvard Institute for Quantitative Social Science Gary King and Stanford Law School Professor Nathaniel Persily.
+[Social Science One](https://socialscience.one/) is a non-profit limited liability company (LLC) based on the [work](http://garyking.org/partnerships) of academics Gary King (Harvard Professor and Director of the Harvard Institute for Quantitative Social Science) and Nathaniel Persily (Stanford Law School Professor).
 
-It implements **partnerships between academic researchers and private industry actors**, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_". 
+It implements **partnerships between academic researchers and private industry actors** in a unique fashion, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_". T
 
-The structure of the partnerships enables a **commission of trusted academics** to obtain "_relevant company information and systems_" and to **invite other independent scholars** to do "_research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company_". 
+he structure of the partnerships enables a **commission of trusted academics** to obtain "_relevant company information and systems_" and to **invite other independent scholars** to do "_research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company_". In addition to access to datasets, academics can benefit from funding.
+
+[Companies](https://socialscience.one/faq/how-can-my-company-work-social-science-one) collecting informative social data can apply by directly [contacting](https://gking.harvard.edu/pages/contact) the co-founders.
+
+These independent scholars must go through and pass a rigorous peer review process before being allowed to access data and [funding](https://socialscience.one/grant-process). Academics can **apply** for grants by answering formal Requests for Proposals (RFPs) issued by the [Social Science Research Council](https://www.ssrc.org/) and whose criteria are defined by SS1. Funding originates from several charitable foundations but is for now independently administered by the SSRC. The SSRC also leads the peer review process and manages the research along with SS1.
+
+Updates are regularly posted on SS1's [blog](https://socialscience.one/blog).
 
 The process aims to "_understand and ameliorate society’s greatest challenges_" through social research based on useful yet too often held back data, all the while **ensuring customer privacy**_". 
 
-Their first partnership is with Facebook. 
+Their [first partnership](https://socialscience.one/our-facebook-partnership) is with Facebook. 
 
 ## Twitter Health Metrics
 
