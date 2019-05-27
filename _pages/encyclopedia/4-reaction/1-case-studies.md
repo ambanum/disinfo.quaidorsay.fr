@@ -17,36 +17,34 @@ permalink: /encyclopedia/reaction/case-studies
 
 ### The French law against information manipulation
 
-In France, a law against information manipulation and the **intentional** spread of disinformation was officially adopted on November 20, 2018, nine months after its proposal and the start of the accelereated procedure on 26 March 2018.
+In France, a law against information manipulation and the **intentional** spread of disinformation was officially adopted on November 20, 2018, nine months after its proposal and enacted on December 22, 2018.
 
 It focuses on massive and rapid spreads of disinformation on social media and more widely digital tools, including foreign state-owned media outlets, and was meant to be especially efficient in electoral contexts.
 
 During said times, the law compels platforms to be more transparent by, for instance, reporting sponsored content as well as the name and invested resources of sponsors. The biggest, most used platforms are to have a legal representative in France and publish their algorithms as open data.
 
-"Fake news" are also formally defined in order to allow for judiciary action. This definition includes massive and artificial diffusion, capacity of disturbance (of public peace or elections), and undeniability of the falsehood of the information being spread.
+"Fake news" are also formally defined in order to allow for judiciary action. This definition includes deliberate, massive and artificial public diffusion, capacity of disturbance (of public peace or elections), and undeniability of the falsehood or misleading nature of the information being spread.
 
 Outside of election times, platforms ought to cooperate, as well as build and implement open measures to fight disinformation.
 The French Superior Council of the Audiovisual (CSA) has been given the authority to hinder or interrupt the broadcasting of foreign state-owned (or state-influenced) TV-services in cases where fundamental national interests are at stake.
 
-#### Jurisprudence
+#### [Jurisprudence](https://www.dalloz-actualite.fr/flash/loi-fake-news-premiere-application-du-refere)
 
-On May 10, 2019 two French politicians (a European deputy and a senator) have asked for the **takedown of a Tweet** from the Minister of Interior claiming that a hospital in Paris was attacked during a demonstration on May 1 by a group Yellow Vests. However, it has been proven that these people were seeking refuge and had no intent to harm the hospital whatsoever.
+On May 10, 2019 two French elected representatives have asked for the takedown of a [tweet](https://twitter.com/ccastaner/status/1123664392011304961) from the Minister of Interior claiming that a hospital in Paris was attacked during a demonstration on May 1 by a group Yellow Vests. However, it has been proven that these people were [only seeking refuge](https://www.lemonde.fr/politique/article/2019/05/02/incidents-a-la-pitie-salpetriere-castaner-contredit-par-une-video-l-opposition-demande-des-explications_5457544_823448.html).
 
-Based on the 2018 law against information manipulation, they went to court on May 16 but  the **decision to clear both the Minister and Twitter** was given on May 17. 
+Based on the 2018 law against information manipulation, they brought the case to court on May 10 and obtained a hearing on the 16th, but  the decision to clear both the Minister and Twitter was given on May 17. 
 
-It was judged that said law was to restrictive to comprehend the case within its scope, as **not [all criteria](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000037850595&dateTexte=&categorieLien=cid) were met**. 
+According to the judgement, the law does not comprehend the case within its scope, as **not [all criteria](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000037850595&dateTexte=&categorieLien=cid) were met**. 
 
 The content should be:
-- **false or misleading allegations or attributions** - however the content of the Tweet relied on actual events (an intrusion in the hospital) and deemed only an exaggeration;
-- of a nature **able to alter the sincerity of the next election** - but the strong negative reactions to the Tweet were said to be enough to allow citizens to build their own enlightend opinion without being influenced. 
+- **"false or misleading allegations or attributions"** - however the content of the tweet relied on actual events (an intrusion in the hospital) and deemed only an exaggeration;
+- of a nature **"able to alter the sincerity of the next election"** - but the strong negative reactions to the Tweet were said to be enough to allow citizens to build their own opinion. 
 Its dissemination should be:
-- **deliberate, artificial or automated** - but no third party was paid to so accentuate the dissemination ;
-- **massive** ;
-- **public through an online communication service**.
+- **"deliberate, artificial or automated"** - but this was not demonstrated ;
+- **"massive"** ;
+- **"public through an online communication service"**.
 
-Also, Twitter France was acquitted as it claimed that it only monetized the information network of Twitter International, who thus was actually responsible for data use and processing. 
-
-Moreover, the two initiators were ordered to bear the costs of the proceedings.
+Also, Twitter France was not held responsible as it claimed that it only monetized the information network of Twitter International, who thus was actually responsible for data use and processing. 
 
 ### The EU Code of Practice on Disinformation
 
