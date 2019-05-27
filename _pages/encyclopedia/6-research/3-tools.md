@@ -22,9 +22,9 @@ The Mozilla Misinformation Initiative maintains an [open database of research ar
 
 [Social Science One](https://socialscience.one/) is a non-profit limited liability company (LLC) based on the [work](http://garyking.org/partnerships) of academics Gary King (Harvard Professor and Director of the Harvard Institute for Quantitative Social Science) and Nathaniel Persily (Stanford Law School Professor).
 
-It implements **partnerships between academic researchers and private industry actors** in a unique fashion, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_". T
+It implements **partnerships between academic researchers and private industry actors** in a unique fashion, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_". 
 
-he structure of the partnerships enables a **commission of trusted academics** to obtain "_relevant company information and systems_" and to **invite other independent scholars** to do "_research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company_". In addition to access to datasets, academics can benefit from funding.
+The structure of the partnerships enables a **[commission](https://socialscience.one/faq/whats-commission) of trusted academics** to obtain "_relevant company information and systems_" and to **invite other independent scholars** to do "_research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company_". In addition to access to datasets, academics can benefit from funding.
 
 [Companies](https://socialscience.one/faq/how-can-my-company-work-social-science-one) collecting informative social data can apply by directly [contacting](https://gking.harvard.edu/pages/contact) the co-founders.
 
