@@ -89,26 +89,24 @@ Manual classification        | Estimated Botometer score range
 undoubtedly inauthentic      | 4.2–5.0 score
 apparently inauthentic       | 3.8–4.2 score
 probably inauthentic         | 3.2–3.8 score
-perhaps                      | 2.0–3.2 score
+perhaps *                    | 2.0–3.2 score
 probably authentic           | 1.4–2.0 score
 apparently authentic         | 1.0–1.4 score
 undoubtedly authentic        | 0.0–1.0 score
 
-Botometer scores of the classified accounts were then calculated on May 22nd, 2019.
-
-This original dataset is largely unbalanced in favour of suspicious accounts, so we added a hundred of accounts that we know are authentic (friends and celebrities).
+This original dataset was largely unbalanced in favour of suspicious accounts, so we added a hundred of accounts that we know are authentic (friends and celebrities).
 
 ###### Limitations
 
-This time difference in computation is a human error and problematic, as some accounts were not available anymore and differences in assessment can also be induced by the time gap (a seemingly inauthentic account in February might become more human-like two months later, and the other way around). In order to mitigate this issue, we provided the Botometer API with timelines and mentions as close as possible to their value on March 1st, 2019. In particular, we discarded tweets newer than March 1st, 2019.
+Botometer scores of the classified accounts were then calculated on May 22nd, 2019. This time difference in computation is a human error and problematic, as some accounts were not available anymore and differences in assessment can also be induced by the time gap (a seemingly inauthentic account in February might become more human-like two months later, and the other way around). In order to mitigate this issue, we provided the Botometer API with timelines and mentions as close as possible to their value on March 1st, 2019. In particular, we discarded tweets newer than March 1st, 2019.
 
-This evaluation was made on a dataset that we built to be highly varied, however it cannot capture the diversity of both authentic and inauthetic accounts that can be found in the tweeter community.
+This evaluation was made on a dataset that we built to be highly varied, however it cannot capture the full diversity of both authentic and inauthentic accounts that can be found in the Twitter community.
 
 ###### Results
 
 ![Botometer assessment](/assets/img/botometer-scatterplot.png)
 
-The two main clusters of accounts that were evaluated both as authentic or both as inauthentic by humans and Botometer, indicated that Botometer generally makes correct guesses.
+The two main clusters of accounts that were evaluated both as authentic or both as inauthentic by humans and Botometer, indicates that Botometer generally makes guesses similar to humans’, even in a non-English context.
 
 ##### Chatbot wrapper
 
