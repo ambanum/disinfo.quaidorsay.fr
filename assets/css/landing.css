@@ -51,6 +51,12 @@ body {
 	border-radius: 2px;
 }
 
+@media screen and (max-width: 1088px) {
+	.landing .hero-head .logo {
+		height: calc(3.25rem - 15px);
+	}
+}
+
 .landing .hero-body {
 	display: flex;
 	align-items: center;
