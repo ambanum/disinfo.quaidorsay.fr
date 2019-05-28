@@ -1,0 +1,15 @@
+---
+layout: landing
+permalink: /
+nav_exclude: true
+---
+
+<script>
+	const lang = navigator.language || navigator.userLanguage;
+
+	if (lang.includes('fr')) {
+		window.location = '/fr';
+	} else {
+		window.location = '/en';
+	}
+</script>
