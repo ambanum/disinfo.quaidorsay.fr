@@ -88,4 +88,3 @@ Ultimately, all platforms users exposed to disinformation would receive independ
 Through this initiative, Avaaz's goal is to "_restore the public’s trust_" and "_ensure the integrity_" of the upcoming European elections.
 
 More information as to the usefulness and effectiveness of correction in hindering the effects of disinformation can be found [here](https://g8fip1kplyr33r3krz5b97d1-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/AVAAZ_YellowVests_100miofake.pdf.pdf.pdf) (p.14/28), [here](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/112200/jcom12164.pdf?sequence=1&isAllowed=y) and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5383823/).
-
