@@ -17,6 +17,26 @@ body {
 	color: #da0087;
 }
 
+.separator {
+	position: relative;
+	display: inline-block;
+	margin: 0 0.5em;
+}
+
+.separator:before {
+	content: ' ';
+	position: absolute;
+	width: 1px;
+	height: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0,0,0, 0.2);
+}
+
+.flag {
+	height: 1em;
+}
+
 .landing .hero {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	min-height: 75vh;
@@ -29,6 +49,12 @@ body {
 	top: 15px;
 	left: 15px;
 	border-radius: 2px;
+}
+
+@media screen and (max-width: 1088px) {
+	.landing .hero-head .logo {
+		height: calc(3.25rem - 15px);
+	}
 }
 
 .landing .hero-body {
@@ -111,7 +137,7 @@ body {
 
 .our-work .work-item .button {
 	margin-top: 1.5em;
-	min-width: 50%;
+	min-width: 75%;
 	color: #4934A2;
 	font-weight: 400;
 	text-transform: uppercase;
