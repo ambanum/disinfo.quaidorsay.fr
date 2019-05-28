@@ -1,34 +1,33 @@
 <!DOCTYPE HTML>
 <html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	{% if page.description %}
+		<title>{{ page.title }}</title>
+		{% if page.description %}
 		<meta name="description" content="{{ page.description }}">
-	{% endif %}
+		{% endif %}
 
-	<title>Fight against disinformation</title>
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<noscript>
-		<meta http-equiv="refresh" content="0; URL=/fr">
-	</noscript>
-</head>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<noscript>
+			<meta http-equiv="refresh" content="0; URL=/fr">
+		</noscript>
+	</head>
 
-<body class="landing">
-	<script>
-		const lang = navigator.language || navigator.userLanguage;
+	<body class="landing">
+		<script>
+			const lang = navigator.language || navigator.userLanguage;
 
-		if (lang.includes('fr')) {
-			window.location = '/fr';
-		} else {
-			window.location = '/en';
-		}
-	</script>
-	{{ content }}
+			if (lang.includes('fr')) {
+				window.location = '/fr';
+			} else {
+				window.location = '/en';
+			}
+		</script>
+		{{ content }}
 
-	{% include tracking.html %}
-</body>
-
+		{% include tracking.html %}
+	</body>
 </html>
