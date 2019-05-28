@@ -142,6 +142,14 @@ As well as the percentage of these **accounts** themselves that are:
 
 <!-- add a screenshot -->
 
+
+#### [x0rz/tweets_analyzer](https://github.com/x0rz/tweets_analyzer)
+
+An open-source Python library created by an OSINT researcher that scrapes tweets metadata and analyses the activity of an account. It can output a diagram straight in the terminal, but also provides a base for finer analysis by collecting data.
+
+![Graph in the terminal](https://camo.githubusercontent.com/81a2090387f63d4fd1559912501e30c6cb58fef9/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a4b75686644725f32624f4a3743504f7a56586e774c412e706e67)
+
+
 #### TruthNest
 
 ##### By whom?
