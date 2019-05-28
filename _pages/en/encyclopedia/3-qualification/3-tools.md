@@ -460,6 +460,14 @@ Mainly, InVID is useful for "_broadcasters, news agencies, web pure-players, new
 
 InVID is a follow-up project of RevealEU. WeVerify is a follow-up project of both InVID and RevealEU.
 
+
+#### [Montage](https://montage.meedan.com)
+
+Montage is a web app allowing for collaborative viewing and timecoded annotation of YouTube footage.
+
+Montage is [open-source software](https://github.com/meedan/montage) by [Meedan](https://meedan.com/) and [Google Jigsaw](https://jigsaw.google.com).
+
+
 ### Social media content
 
 #### [Truly Media](http://www.truly.media/)
