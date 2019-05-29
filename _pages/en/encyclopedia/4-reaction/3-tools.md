@@ -86,7 +86,7 @@ PolitiFact, Snopes, Le Monde, France Info, FactCheck.org, The Washington Post an
 
 ### [Share the Facts](https://www.sharethefacts.org)
 
-Share the Facts is a widget that makes it easy to share fact-checks on social network by providing a standard user interface summing up claims and rating by partner fact-checkers, and embeds of the analysis.
+Share the Facts is a widget that makes it easy to share fact-checks on social networks by providing an embeddable, standard user interface summing up claims and ratings by partner fact-checkers.
 
 ![Rating by fact-checking organization and link to fact-check article](https://static1.squarespace.com/static/571fcfd2044262a0b4714533/t/5727fc0d8a65e2a723f07a51/1462238233191/30.png?format=500w)
 
