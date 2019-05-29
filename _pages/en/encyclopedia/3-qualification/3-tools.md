@@ -473,7 +473,7 @@ InVID is a follow-up project of RevealEU. WeVerify is a follow-up project of bot
 
 Montage is a web app allowing for collaborative viewing and timecoded annotation of YouTube footage.
 
-Montage is [open-source software](https://github.com/meedan/montage) by [Meedan](https://meedan.com/) and [Google Jigsaw](https://jigsaw.google.com).
+Montage is an [open-source app](https://github.com/meedan/montage) by [Meedan](https://meedan.com/) and [Google Jigsaw](https://jigsaw.google.com).
 
 
 ### Social media content
