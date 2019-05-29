@@ -1,5 +1,5 @@
 ---
-permalink: /ads
+permalink: /political-ads
 title: Error
 nav_exclude: true
 ---
