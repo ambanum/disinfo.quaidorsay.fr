@@ -28,12 +28,7 @@ The Mozilla Misinformation Initiative maintains an [open database of research ar
 
 ## Disinformation datasets
 
-Several Twitter and Reddit open datasets can be found online [here](https://www.io-archive.org/).
-
-### Facebook
-
-- [Ad Library](https://www.facebook.com/ads/archive/) : archives of political advertising (in January 2019: U.S., U.K., B.R.) [Indexation Conditions](https://www.facebook.com/facebookmedia/blog/indexing-news-pages-on-facebook-for-the-ad-archive).
-- [Third Party Fact Checking Tool](https://www.facebook.com/help/publisher/182222309230722)
+Several Twitter and Reddit datasets are searchable online on [io-archive.org](https://www.io-archive.org/).
 
 ### Twitter
 
@@ -41,7 +36,7 @@ Several Twitter and Reddit open datasets can be found online [here](https://www.
 Interesting training can be found [here](https://github.com/warproxxx/Twitter-Bot-or-Not).
 - [Elections Integrity official dataset](https://about.twitter.com/en_us/values/elections-integrity.html#data): IRA, Iran.
 - [200 000 Russian troll tweets](https://www.nbcnews.com/tech/social-media/now-available-more-200-000-deleted-russian-troll-tweets-n844731) by NBC.
-- [OSoMe](https://botometer.iuni.iu.edu/bot-repository/datasets.html).
+- [OSoMe datasets](https://botometer.iuni.iu.edu/bot-repository/datasets.html).
 - https://github.com/eldinsahbaz/TwitterBotDetection/tree/master/DataSet
 
 #### Classification student projects
