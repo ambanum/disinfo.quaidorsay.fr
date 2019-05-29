@@ -7,6 +7,15 @@ permalink: /encyclopedia/reaction/practices
 
 # Reaction practices
 
+## For public institutions
+
+### [Swedish Civil Contingencies Agency’s Communicators handbook](https://www.msb.se/RibData/Filer/pdf/28698.pdf)
+
+The handbook for communicators is a 40-pager focused on helping communicators identify and react against information influence campaigns. It also contains thorough descriptions of information spread online and inauthentic behaviours.
+
+It is not focused on the Swedish context. Most of the limitations to reaction are specific to public actors.
+
+
 ## Criterion: False or misleading
 
 ### Denial
