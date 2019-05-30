@@ -7,7 +7,6 @@ title: Disencyclopedia
 baseurl: ""
 url: https://disinfo.quaidorsay.fr
 
-remote_theme: ambanum/just-the-docs
 search_enabled: true
 
 defaults:
