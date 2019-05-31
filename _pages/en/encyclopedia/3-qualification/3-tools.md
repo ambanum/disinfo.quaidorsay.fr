@@ -94,7 +94,7 @@ probably authentic           | 1.4–2.0 score
 apparently authentic         | 1.0–1.4 score
 undoubtedly authentic        | 0.0–1.0 score
 
-This original dataset was largely unbalanced in favour of suspicious accounts, so we added a hundred of accounts that we know are authentic (friends and celebrities).
+This original dataset was largely unbalanced in favour of suspicious accounts, so we added a hundred of accounts that we know are authentic (friends and celebrities) on May 27th, 2019.
 
 ###### Limitations
 
@@ -106,7 +106,7 @@ This evaluation was made on a dataset that we built to be highly varied, however
 
 ![Botometer assessment](/assets/img/botometer-scatterplot.png)
 
-The two main clusters of accounts that were evaluated both as authentic or both as inauthentic by humans and Botometer, indicates that Botometer generally makes guesses similar to humans’, even in a non-English context.
+The two main clusters of accounts that were evaluated both as authentic or both as inauthentic by humans and Botometer, indicates that Botometer generally makes guesses similar to humans, even in a non-English context.
 
 ##### Chatbot wrapper
 
