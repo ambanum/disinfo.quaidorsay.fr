@@ -11,58 +11,6 @@
     text-overflow: ellipsis;
   }
 
-  ul,
-  ol {
-    padding-left: 1.5em;
-  }
-
-  ol {
-    list-style-type: none;
-    counter-reset: step-counter;
-
-    > li {
-      position: relative;
-
-      &::before {
-        position: absolute;
-        top: 0.2em;
-        left: -1.6em;
-        color: $grey-dk-000;
-        content: counter(step-counter);
-        counter-increment: step-counter;
-        @include fs-3;
-
-        @include mq(sm) {
-          top: 0.11em;
-        }
-      }
-
-      ol {
-        counter-reset: sub-counter;
-
-        li {
-          &::before {
-            content: counter(sub-counter, lower-alpha);
-            counter-increment: sub-counter;
-          }
-        }
-      }
-    }
-  }
-
-  ul {
-    list-style: none;
-
-    > li {
-      &::before {
-        position: absolute;
-        margin-left: -1.4em;
-        color: $grey-dk-000;
-        content: "•";
-      }
-    }
-  }
-
   .task-list {
     padding-left: 0;
   }
@@ -105,5 +53,41 @@
   dd {
     margin-left: 1em;
     font-weight: 500;
+  }
+
+  > ol,
+  > ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li:before {
+    color: $grey-dk-000;
+    display: inline-block;
+  }
+
+  > ul li:before {
+    content: "-";
+    width: 0.8em;
+    margin-left: -0.8em;
+  }
+
+  > ol:not(#markdown-toc) {
+    counter-reset: li;
+
+    li {
+      counter-increment: li;
+    }
+
+    li:before {
+      content: counter(li) '.';
+      width: 2em;
+      margin-left: -2em;
+      text-align: right;
+      padding-right: 0.25em;
+      box-sizing: border-box;
+      font-size: 0.85rem;
+      line-height: 1;
+    }
   }
 }
