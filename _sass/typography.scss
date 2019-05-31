@@ -47,9 +47,14 @@
     margin-bottom: 0.84375rem;
   }
 
-  h1:first-of-type {
+  h1:first-child {
     margin-top: 0;
     font-weight: 300;
+
+    & + h3 {
+      margin-top: -1rem;
+      font-weight: 200;
+    }
   }
 
   h2,
