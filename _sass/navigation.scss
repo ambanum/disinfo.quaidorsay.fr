@@ -31,7 +31,8 @@
 }
 
 .navigation-list-child-list {
-  padding-left: $sp-3;
+  padding-left: $sp-4;
+  margin-bottom: 0.5rem;
   list-style: none;
 
   .navigation-list-link {
@@ -44,9 +45,9 @@
     &::before {
       position: absolute;
       margin-top: 0.3em;
-      margin-left: -0.8em;
+      margin-left: -1em;
       color: rgba($body-text-color, 0.3);
-      content: "- ";
+      content: "・ ";
     }
 
     &.active {
