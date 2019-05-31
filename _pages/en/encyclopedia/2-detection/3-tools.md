@@ -6,13 +6,11 @@ permalink: /encyclopedia/detection/tools
 ---
 
 # Detection tools
-{: .no_toc}
 
 1. Table of contents
 {:toc}
 
 - - -
-
 
 ## Criterion: Massive
 
@@ -74,7 +72,6 @@ Buzzsumo users can run detailed analysis reports for specific topics (based on d
 One of several monitoring tools available through Buzzsumo, alerts are sent by e-mail and can be daily digests or instant notifications, and rely on a filter system with at least two criteria, _i.e._ the minimum number of shares and keywords.
 
 #### Chatbot wrapper
-{: .no_toc}
 
 This detection bot uses results provided by Buzzsumo to notify users of suspicious content.
 

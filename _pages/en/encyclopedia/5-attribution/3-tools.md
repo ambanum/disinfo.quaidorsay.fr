@@ -6,7 +6,6 @@ permalink: /encyclopedia/Attribution/tools
 ---
 
 # Attribution tools
-{: .no_toc}
 
 1. Table of contents
 {:toc}

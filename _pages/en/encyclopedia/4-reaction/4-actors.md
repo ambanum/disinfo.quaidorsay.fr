@@ -6,7 +6,6 @@ permalink: /encyclopedia/reaction/actors
 ---
 
 # Reaction actors
-{: .no_toc}
 
 1. Table of contents
 {:toc}
@@ -41,12 +40,10 @@ Ratings are periodically updated. Before being rated, suspicious websites are di
 The EEAS has set up a Rapid Alert System enabling all Member States to share information and notify one another of disinformation campaigns.
 
 #### By whom?
-{: .no_toc}
 
 The Rapid Alert System was officially created in December 2018 as part of the European External Action Service's (EEAS) Action Plan against Disinformation, and was launched in March 2019. Commission services such as DG DIGIT, DG COMM, DG CNECT are active contributors to its building.
 
 #### What?
-{: .no_toc}
 
 The RAS mechanism is based on collaboration.
 Through a secure digital platform, EU Member States (as each Member State has an official national contact point) and relevant national representatives or experts can discuss, share information on past and ongoing foreign disinformation campaigns with one another, share useful tools and efficient pratices and ultimately coordinate responses.
@@ -58,7 +55,6 @@ The RAS is no security hazard since what is shared through it is crucial yet not
 It is providing immediate and centralized access to various information from reliable, heterogeneous agents, information that would have been rather complex to obtain and classify at a merely national level.
 
 #### What for?
-{: .no_toc}
 
 The main goal of the RAS is to ease and increase the speed of information (trends, reports, analyses, etc.) sharing among relevant actors, thus allowing more efficient and direct communication around common stakes. Ultimately, quicker, more efficient and possibly synchronized responses should emerge.
 
@@ -69,12 +65,10 @@ This not only improves the quality of the shared information, it also improves t
 Step by step, the mechanism aims at creating resilience within governments as well as within civil society.
 
 #### For whom?
-{: .no_toc}
 
 The RAS is open to EU Member States as well as relevant european and national representatives or experts. It is destined to help all actors (state or non-state) who actively fight disinformation.
 
 #### Additional information
-{: .no_toc}
 
 No classified information is shared on the RAS, which works on the basis of  open source intelligence (OSINT), an information collection and analysis method based on data coming from public, open sources.
 

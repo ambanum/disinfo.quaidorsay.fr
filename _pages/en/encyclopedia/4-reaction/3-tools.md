@@ -6,7 +6,6 @@ permalink: /encyclopedia/reaction/tools
 ---
 
 # Reaction tools
-{: .no_toc}
 
 1. Table of contents
 {:toc}
@@ -25,7 +24,6 @@ It developed several partnerships with **third-party fact-checking organizations
 These fact-checkers are independent and certified through the non-partisan International Fact-Checking Network (IFCN). They can review **public or media content including links to articles, photos and videos**.
 
 #### Detection
-{: .no_toc}
 
 Detection relies heavily on users. It can either be based on **reports** ( _i.e._ when Facebook users submit feedback on a story,
 claiming that it is false) or on **comments** (_i.e._ "_when users comment on an article expressing disbelief_").
@@ -34,7 +32,6 @@ In the US, machine-learning is developed by using already fact-checked and revie
 Detection can also be **proactive**, that is to say fact-checkers can identify stories to rate before being notified.
 
 #### Qualification
-{: .no_toc}
 
 Fact-checkers review and rate stories, then provide reference articles detailing their fact-check and reasons for the rating. Articles are shown in a "_Related Articles_" section just below the story reviewed in a user's news feeds.
 
@@ -51,7 +48,6 @@ The rating offers on 9 options:
 - Not evaluated : when the content has not been reviewed yet or cannot be evaluated. It can also be used when fact-checkers deem that no measure ought to be implemented.
 
 #### Reaction
-{: .no_toc}
 
 **Fake accounts**, tools often used to spread disinformation, can be removed.
 
@@ -71,7 +67,6 @@ A ClaimReview markup is thus a sort of beacon, a tag, which recognizes the Claim
 Such reviews, _i.e._ ClaimReview structured data, can be **included in one's fact-checking web page** or site **independently**, or through Google's [**Fact Check Markup Tool**](https://toolbox.google.com/factcheck/markuptool).
 
 #### The [Fact-Check Markup Tool](https://toolbox.google.com/factcheck/markuptool)
-{: .no_toc}
 
 This Google tool allows fact-checkers, journalists and publishers to easily add a ClaimReview markup to their fact-checking articles. This is also possible without using the tool, however the structured review has to be embedded in the code of the article, which can be too technical a process for some actors.
 
