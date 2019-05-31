@@ -20,3 +20,6 @@ exclude:
   - README.md
   - .circleci
   - vendor
+
+kramdown:
+  toc_levels: 2..4
