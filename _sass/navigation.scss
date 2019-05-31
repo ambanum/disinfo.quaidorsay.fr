@@ -3,7 +3,6 @@
 //
 
 .site-title {
-  display: block;
   flex: 1 1 auto;
   color: $body-heading-color;
   background-color: $sidebar-color;
@@ -13,8 +12,7 @@
     top: 0;
     right: 0;
     z-index: 101;
-    height: 60px;
-    padding-top: $sp-4;
+    height: $page-header-height;
     border-bottom: $border $border-color;
   }
 }

@@ -2,6 +2,7 @@
 // The basic two column layout
 //
 
+$side-bar-width: $nav-width * 1.75;
 .page-wrap {
   @include mq(md) {
     position: absolute;
@@ -19,16 +20,17 @@
   z-index: 100;
   display: flex;
   flex-wrap: wrap;
-  padding-top: $gutter-spacing-sm;
-  padding-bottom: $gutter-spacing-sm;
+  padding-top: $gutter-spacing-sm / 2;
+  padding-bottom: $gutter-spacing-sm / 2;
   background-color: $sidebar-color;
 
   @include mq(md) {
     flex-wrap: nowrap;
     position: absolute;
-    width: $nav-width + 16px;
+    width: 20vw;
+    max-width: $side-bar-width;
     height: 100%;
-    padding-top: $gutter-spacing * 2;
+    padding-top: $page-header-height;
     padding-bottom: 0;
     flex-direction: column;
     border-right: $border $border-color;
@@ -36,8 +38,9 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
-    min-width: $nav-width;
+    width: 25vw;
+    max-width: $side-bar-width;
+    min-width: calc(#{$nav-width} + 2 * 1.5rem);
   }
 }
 
@@ -64,13 +67,14 @@
     max-width: $content-width;
     padding-top: $gutter-spacing;
     padding-bottom: $gutter-spacing;
-    padding-left: $gutter-spacing * 1.5;
-    margin-left: $nav-width;
+    padding-left: $gutter-spacing * 1.75;
+    margin-left: calc((100vw / 2) - (#{$content-width} / 2));
   }
 
   @include mq(lg) {
-    padding-left: $gutter-spacing;
-    margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    padding-left: $gutter-spacing * 1.75;
+    // ensure content is always centered
+    margin-left: calc((100vw / 2) - (#{$content-width} / 2));
   }
 }
 
@@ -80,6 +84,7 @@
 
 .page-header {
   background-color: $sidebar-color;
+  box-shadow: inset 0px -1px 0px $border-color;
 
   @include mq(md) {
     background-color: $body-background-color;
@@ -91,10 +96,10 @@
     @include mq(md) {
       display: flex;
       justify-content: flex-end;
-      height: 60px;
+      align-items: center;
+      height: $page-header-height;
       padding-top: $sp-4;
       padding-bottom: $sp-4;
-      border-bottom: $border $border-color;
     }
   }
 }
@@ -103,7 +108,7 @@
 .site-title,
 .site-footer {
 
-  @include container;
+  @include container-small;
 
   width: 100%;
 
@@ -112,9 +117,20 @@
   }
 }
 
+.site-title {
+  display: flex;
+  align-items: center;
+
+  .logo {
+    max-height: 65%;
+    height: auto;
+    width: 120px;
+  }
+}
+
 .navigation {
   @include mq(md) {
-    padding-top: $sp-8;
+    padding-top: $gutter-spacing;
     overflow-y: auto;
     flex: 1 1 auto;
   }

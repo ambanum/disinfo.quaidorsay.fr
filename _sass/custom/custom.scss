@@ -2,11 +2,10 @@
 // // Typography
 // //
 //
-// $body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+$body-font-family: "Avenir Next", "Open Sans", "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
 // $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
 // $root-font-size: 16px;         // Base font-size for rems
 $body-line-height: 1.6875rem;
-$content-max-width: 35rem;
 $page-header-height: 80px;
 // $body-heading-line-height: 1.15;
 //
@@ -49,6 +48,8 @@ $page-header-height: 80px;
 $body-text-color: #333;
 $body-heading-color: #444;
 
+$gutter-spacing: $sp-8;
+$gutter-spacing-sm: $sp-6;
 // $nav-child-link-color: $grey-dk-100 !default;
 // $link-color: $purple-000 !default;
 // $btn-primary-color: $purple-100 !default;
@@ -111,16 +112,16 @@ $body-heading-color: #444;
 //
 // $gutter-spacing: $sp-6;
 // $gutter-spacing-sm: $sp-4;
-// $nav-width: 232px;
-// $content-width: 800px;
+$nav-width: 232px;
+$content-width: 600px;
 //
-// $media-queries: (
-//   xs: 320px,
-//   sm: 500px,
-//   md: 740px,
-//   lg: 800px,
-//   xl: 1316px
-// );
+$media-queries: (
+  xs: 320px,
+  sm: 500px,
+  md: 960px,
+  lg: 1280px,
+  xl: 1400px
+);
 
 .error-page {
 	margin: 10px auto;
@@ -133,14 +134,6 @@ $body-heading-color: #444;
 		line-height: 1;
 		letter-spacing: -1px;
 	}
-}
-
-.side-bar .site-title {
-	font-variant: all-small-caps;
-}
-
-.site-footer {
-	display: none;
 }
 
 iframe {
