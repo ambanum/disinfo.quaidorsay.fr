@@ -7,6 +7,16 @@ permalink: /encyclopedia/reaction/practices
 
 # Reaction practices
 
+- - -
+
+### Table of contents
+{: .no_toc.no-numbering.toc-title}
+
+1. Table of contents
+{:toc}
+
+- - -
+
 ## For public institutions
 
 ### [Swedish Civil Contingencies Agency’s Communicators handbook](https://www.msb.se/RibData/Filer/pdf/28698.pdf)

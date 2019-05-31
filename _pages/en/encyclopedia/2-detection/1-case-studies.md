@@ -7,6 +7,16 @@ permalink: /encyclopedia/detection/case-studies
 
 # Detection case studies
 
+- - -
+
+### Table of contents
+{: .no_toc.no-numbering.toc-title}
+
+1. Table of contents
+{:toc}
+
+- - -
+
 ## Attacks on information transmission
 
 ### Communication disruption

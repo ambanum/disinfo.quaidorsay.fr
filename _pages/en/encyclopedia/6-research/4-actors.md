@@ -7,6 +7,11 @@ permalink: /encyclopedia/research/actors
 
 # Research actors
 
+- - -
+
+### Table of contents
+{: .no_toc.no-numbering.toc-title}
+
 1. Table of contents
 {:toc}
 
