@@ -1,6 +1,7 @@
 ---
 permalink: /encyclopedia/agenda
 nav_order: 10
+no_headings_numbering: true
 ---
 
 # Agenda

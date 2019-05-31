@@ -1,6 +1,7 @@
 ---
 permalink: /encyclopedia/glossary
 nav_order: 11
+no_headings_numbering: true
 ---
 
 # Glossary

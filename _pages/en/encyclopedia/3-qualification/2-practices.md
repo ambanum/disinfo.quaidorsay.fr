@@ -3,6 +3,7 @@ parent: Qualification
 title: Practices
 nav_order: 2
 permalink: /encyclopedia/qualification/practices
+no_headings_numbering: true
 ---
 
 # Qualification practices
