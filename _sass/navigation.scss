@@ -73,6 +73,22 @@
       display: block;
     }
   }
+
+  &.has_separation_before {
+    position: relative;
+    margin-top: 1.5rem;
+
+    &:before {
+      content: " ";
+      height: 1px;
+      width: 200%;
+      position: absolute;
+      background: #EEE;
+      top: 0;
+      margin-top: calc(-1.5rem / 2);
+      margin-left: -1.5rem;
+    }
+  }
 }
 
 .navigation-list-link {
