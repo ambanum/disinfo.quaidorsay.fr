@@ -7,15 +7,7 @@ permalink: /encyclopedia/reaction/practices
 
 # Reaction practices
 
-- - -
-
-### Table of contents
-{: .no_toc.no-numbering.toc-title}
-
-1. Table of contents
-{:toc}
-
-- - -
+{% include toc.md %}
 
 ## For public institutions
 

@@ -7,15 +7,7 @@ permalink: /encyclopedia/reaction/case-studies
 
 # Reaction case studies
 
-- - -
-
-### Table of contents
-{: .no_toc.no-numbering.toc-title}
-
-1. Table of contents
-{:toc}
-
-- - -
+{% include toc.md %}
 
 ## Legislation
 
