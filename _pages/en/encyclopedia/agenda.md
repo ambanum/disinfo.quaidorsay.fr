@@ -13,4 +13,4 @@ Upcoming events related to information manipulation.
 
 ### 20-21 June, London: OS/360
 
-### 27-28 June, Paris: after the elections
+### [27-28 June, Paris: Unconference](/unconference-27-28-june-2019/)
