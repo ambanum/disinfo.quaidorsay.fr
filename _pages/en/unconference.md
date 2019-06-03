@@ -5,7 +5,19 @@ nav_order: 20
 ---
 
 # June 2019 Unconference
+{: .no_toc }
 ### Join us in Paris for two days at the edge of the fight against information manipulation
+{: .no_toc }
+
+- - -
+
+### Table of contents
+{: .no_toc}
+
+1. Table of contents
+{:toc}
+
+- - -
 
 - After EU parliamentary elections that did not show major signs of disinformation campaigns, but before many other major elections in EU countries…
 - After new platform rules for political ads transparency, but before any fine-grained data is shared with researchers…
