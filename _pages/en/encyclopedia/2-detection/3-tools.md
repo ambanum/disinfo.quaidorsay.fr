@@ -129,3 +129,15 @@ For video content, the first difficulty is to make content discoverable without 
 
 - Belgian company [SensifAI](https://sensifai.com).
 - French company [NewsBridge](https://www.newsbridge.io).
+
+## Criterion: Artificial
+
+### AlgoTransparency 
+
+[AlgoTransparency](https://algotransparency.org/?date=01-06-2019&keyword=) is a platform with a search engine which allow users to find the most recommended videos on YouTube. When a video is recommended, it will appear as the next video to be played and its title and thumbnail will be displayed on the right of a user’s screen.
+
+The aim of the platform is to show which information surface through the YouTube algorithm.
+
+AlgoTransparency’s program gathers all recommended videos among the last videos from over 1 000 US-based channels. (It is also available for France.) Then, the channels with the most recommended videos are computed. The process is repeated until recommendations from 2000 channels are gathered. Moreover, it displays the number of channels that recommended each video.
+
+Users can search for the most recommended videos depending on themes or search terms. The [code](https://github.com/pnbt/youtube-explore) of the program is open source.
