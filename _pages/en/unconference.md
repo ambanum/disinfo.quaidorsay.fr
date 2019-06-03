@@ -4,7 +4,20 @@ permalink: /unconference-27-28-june-2019/
 nav_order: 20
 ---
 
-# Join us in Paris for two days at the edge of the fight against information manipulation
+# June 2019 Unconference
+{: .no_toc }
+### Join us in Paris for two days at the edge of the fight against information manipulation
+{: .no_toc }
+
+- - -
+
+### Table of contents
+{: .no_toc}
+
+1. Table of contents
+{:toc}
+
+- - -
 
 - After EU parliamentary elections that did not show major signs of disinformation campaigns, but before many other major elections in EU countries…
 - After new platform rules for political ads transparency, but before any fine-grained data is shared with researchers…
@@ -17,9 +30,8 @@ We want to create a specific space for practitioners to share their practices, t
 
 **The Office of the French Ambassador for Digital Affairs, building [open tools against information manipulation](https://disinfo.quaidorsay.fr), invites you for two days focused on the ways in which we can _actually_ decrease the amount of disinformation citizens are confronted to on a daily basis, today and the day after.**
 
-[Join us!](#registration)
-{:.btn}
-
+[Join us!](#registration){: .btn .btn-purple .px-10}
+{: .text-center}
 
 ![The Hotel du Ministre is an official, beautiful old building](/assets/img/unconference/hotel-interieur.jpg)
 
@@ -41,8 +53,8 @@ On this first day, we want participants to share their experience and best pract
 
 The format for this first day will be [Open Space Technology](https://en.wikipedia.org/wiki/Open_Space_Technology): there will be no presenters and attendees, only participants. This format supports much deeper interactions, shaping the conversations around sharing knowledge rather than making assumptions on the audience. You do not need any prior experience with “unconferences” to participate.
 
-[Share and learn!](#registration)
-{:.btn}
+[Share and learn!](#registration){: .btn .btn-purple .px-10}
+{: .text-center}
 
 
 ### June 28<sup>th</sup>: Research Hackathon
@@ -69,8 +81,8 @@ By hosting Facebook Social Science One’s first EU technical training on this o
 - The [CrowdTangle](https://www.crowdtangle.com) API.
 - A preview of the [URLs dataset](https://socialscience.one/rfps), fine-grained data on the diffusion of links on Facebook. _You will have access to a live system, but the URLs data will be fake: only accredited researchers will have access to it. However, your usage of the tool will enable to improve its API and help researchers define the boundaries of what they could do with it._
 
-[Build something awesome!](#registration)
-{:.btn}
+[Build something awesome!](#registration){: .btn .btn-purple .px-10}
+{: .text-center}
 
 
 ## Logistics
