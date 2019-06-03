@@ -13,7 +13,7 @@ nav_order: 20
 
 There have been many great transatlantic conferences for showcasing studies, trying to quantify the impact of disinformation, and discussing whether “fake news” were dealt with and what the next stages of manipulation were.
 
-We want to create a specific space for practitioners to share their practices, tools and experiences in _reacting to_ disinformation campaigns, _attributing_ their source, and _preventing_ their impact on the public. We will also be hosting the first EU technical training workshop for Facebook’s [Social Science One](https://socialscience.one) privileged data access, which we’ll make as an open hackathon.
+We want to create a specific space for practitioners to share their practices, tools and experiences in _reacting to_ disinformation campaigns, _attributing_ their source, and _preventing_ their impact on the public. We will also host an open hackathon, during which the first EU technical training workshop for Facebook’s [Social Science One](https://socialscience.one) will offer privileged data access.
 
 **The Office of the French Ambassador for Digital Affairs, building [open tools against information manipulation](https://disinfo.quaidorsay.fr), invites you for two days focused on the ways in which we can _actually_ decrease the amount of disinformation citizens are confronted to on a daily basis, today and the day after.**
 
