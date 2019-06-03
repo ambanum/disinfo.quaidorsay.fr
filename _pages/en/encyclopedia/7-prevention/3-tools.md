@@ -64,3 +64,15 @@ It allows players to virtually manipulate information and spread disinformation,
 A junior version of the game exist for 8-to-10-year-old players.
 
 As  of June 2019, it has been translated from Dutch into several languages including English, Bosnian, Czech, German, Greek, Polish, Romanian (including a Moldovan version), Serbian and Slovenian.
+
+### Open Your Eyes
+
+The [Open Your Eyes](https://www.openyoureyes.info/about) - Fake News for Dummies - project is a two-year initiative co-funded by the Erasmus+ programme and supported (although not endorsed) by the European Commission.
+
+Its goal is the improvement of digital media literacy for adults, by  developing their critical and digital skills as well as raising and spreading awareness on the topic of disinformation.
+
+They plan to provide [educational resources and tools](https://www.openyoureyes.info/resources) on online disinformation and ways to fight it to both learners and educators. 
+
+They will thus develop a [database](https://www.openyoureyes.info/database) comprehending sortable information about European best educational practices, scientific data and initiatives regarding disinformation, among other resources.
+
+Afterwards, the seven European [partners](https://www.openyoureyes.info/partners) of the project will be in charge of training educators, who will deliver classes. These “Check IT Out” Labs will welcome small groups of European adult learners.
