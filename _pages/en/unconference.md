@@ -81,7 +81,7 @@ These two days will take place in the _Hôtel du Ministre_ of the French Ministr
 
 ![The Hotel du Ministre is an official, beautiful old building](/assets/img/unconference/hotel-exterieur.jpg)
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3101544380187993%2C48.85997166258356%2C2.3221278190612797%2C48.86455948888583&amp;layer=mapnik&amp;marker=48.86226562830378%2C2.316141128540039" style="border: 1px solid black"></iframe>
+<iframe width="425" height="350" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3101544380187993%2C48.85997166258356%2C2.3221278190612797%2C48.86455948888583&amp;layer=mapnik&amp;marker=48.86226562830378%2C2.316141128540039" style="border: none"></iframe>
 
 ### Dates, time and food
 
