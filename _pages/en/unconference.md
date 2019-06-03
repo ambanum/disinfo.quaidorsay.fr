@@ -1,5 +1,5 @@
 ---
-title: June 2019 Unconference
+title: Unconference on fighting disinformation
 permalink: /unconference-27-28-june-2019/
 nav_order: 20
 ---
@@ -11,18 +11,17 @@ nav_order: 20
 
 - - -
 
-### Table of contents
-{: .no_toc}
-
 1. Table of contents
 {:toc}
 
 - - -
 
+## It is the right time to share, learn, improve and build
+
 - After EU parliamentary elections that did not show major signs of disinformation campaigns, but before many other major elections in EU countries…
 - After new platform rules for political ads transparency, but before any fine-grained data is shared with researchers…
 - After dozens of awareness raising articles and political discourse, but before any large-scale education campaign has reached the public…
-- After laws in some member states, but before the first impact assessment of the European Code of practice…
+- After initial laws in some member states, but before the first impact assessment of the European Code of practice…
 
 There have been many great transatlantic conferences for showcasing studies, trying to quantify the impact of disinformation, and discussing whether “fake news” were dealt with and what the next stages of manipulation were.
 
@@ -95,7 +94,7 @@ These two days will take place in the _Hôtel du Ministre_ of the French Ministr
 
 <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3101544380187993%2C48.85997166258356%2C2.3221278190612797%2C48.86455948888583&amp;layer=mapnik&amp;marker=48.86226562830378%2C2.316141128540039" style="border: none"></iframe>
 
-### Dates, time and food
+### Dates, time, food
 
 On Thursday the 27<sup>th</sup> of June, doors will open at 9:30 with coffee, and the day will start at 10:15. We will close at 18:30. **Lunch will be provided**.
 
@@ -113,6 +112,6 @@ These trains reach Gare du Nord, from which you can reach the Invalides metro st
 
 For those participants who would not be able to reach Paris on the same day without flying, we will offer a pre-event dinner on Wednesday the 26<sup>th</sup>.
 
-### Registration
+## Registration
 
 <div class="typeform-widget" data-url="https://mattischneider.typeform.com/to/uJuA0y" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
