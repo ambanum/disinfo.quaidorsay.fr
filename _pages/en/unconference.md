@@ -4,7 +4,8 @@ permalink: /unconference-27-28-june-2019/
 nav_order: 20
 ---
 
-# Join us in Paris for two days at the edge of the fight against information manipulation
+# June 2019 Unconference
+### Join us in Paris for two days at the edge of the fight against information manipulation
 
 - After EU parliamentary elections that did not show major signs of disinformation campaigns, but before many other major elections in EU countries…
 - After new platform rules for political ads transparency, but before any fine-grained data is shared with researchers…
