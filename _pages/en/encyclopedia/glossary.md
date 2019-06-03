@@ -1,6 +1,7 @@
 ---
 permalink: /encyclopedia/glossary
 nav_order: 11
+has_separation_before_in_menu: true
 no_headings_numbering: true
 ---
 

@@ -2,6 +2,7 @@
 nav_order: 3
 has_children: true
 permalink: /encyclopedia/detection
+has_separation_before_in_menu: true
 ---
 
 # Detection
