@@ -89,8 +89,40 @@
     font-weight: 600;
   }
 
+  blockquote {
+    margin: 0;
+    position: relative;
+    font-style: italic;
+    color:  $grey-dk-100;
+
+    &:before {
+      content: "“";
+      position: absolute;
+      transform: translateX(-100%);
+      color:  $grey-dk-000;
+    }
+
+    &:after {
+      content: "”";
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      transform: translateX(100%);
+      color:  $grey-dk-000;
+    }
+
+    cite {
+      display: block;
+      text-align: right;
+
+      &:before {
+        content: '— ';
+      }
+    }
+  }
 }
 
 abbr[title] {
   text-decoration: none;
 }
+
