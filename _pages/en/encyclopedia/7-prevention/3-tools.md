@@ -50,3 +50,17 @@ This Campaign was itself launched by the [**Alliance of Democracies Foundation**
 Whether they be political parties or candidates seeking office, “_anyone that is or intends to run as a candidate for the European Parliament elections in May 2019, the U.S. elections in November 2020, or the Canadian parliamentary in October 2019 may take the pledge._”
 
 As of May 09th, 2019, 10 candidates have taken the pledge in the European Union, from Germany, the Netherlands, Czech Republic, Belgium, Romania and the U.K. (Scotland).
+
+## For the civil society
+
+### Bad News
+
+[BadNews](https://getbadnews.com/#intro) is an online browser game developed by [Drog](https://aboutbadnews.com/) in collaboration with the University of Cambridge. 
+
+It is based on the inoculation theory, therefore exposing people to weakened versions of disinformation so that they can recognize it in the future and counter its effects. 
+
+It allows players to virtually manipulate information and spread disinformation, in order to better understand its impact - especially in regard to how easily it can be done. 
+
+A junior version of the game exist for 8-to-10-year-old players.
+
+As  of June 2019, it has been translated from Dutch into several languages including English, Bosnian, Czech, German, Greek, Polish, Romanian (including a Moldovan version), Serbian and Slovenian.
