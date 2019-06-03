@@ -41,3 +41,9 @@ This initiative is addressed to ten to fifteen years old schoolchildren in Europ
 {: .no_toc}
 
 This project won the 2018 EU Digital skills award of the European Commission.
+
+### [Drog](https://aboutbadnews.com/)
+
+[Drog](https://twitter.com/wijzijndrog) is a Dutch media group based in The Hague whose European members are either academics, journalists or media-experts. It is supported by the Dutch Journalism Fund ([Stimuleringsfonds voor de Journalistiek](https://www.svdj.nl/)).
+
+IIn addition to developing games like [BadNews](https://getbadnews.com/#intro), Drog provides public lectures (in schools and businesses as well as for public actors), workshops, research and consulting on disinformation and ways to build resistance to it.
