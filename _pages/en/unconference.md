@@ -69,16 +69,17 @@ On the second day, we will host a hackathon pairing social science researchers w
 - Articles that scare people or articles that reassure people.
 - Good, hard questions.
 
-We will use open data sources such as:
+Since this hackathon will be host to Facebook Social Science One’s first EU technical training, you will have access to:
+
+- The [CrowdTangle](https://www.crowdtangle.com) API.
+- A preview of the [URLs dataset](https://socialscience.one/rfps), fine-grained data on the diffusion of links on Facebook. _You will have access to a live system, but the URLs data will be fake: only accredited researchers will have access to it. However, your usage of the tool will enable to improve its API and help researchers define the boundaries of what they could do with it._
+
+You can also use open data sources such as:
 
 - Facebook’s [Ads Library](https://www.facebook.com/ads/library/).
 - Twitter’s [political advertisers](https://ads.twitter.com/transparency/i/political_advertisers).
 - [Several millions](https://disinfo.quaidorsay.fr/encyclopedia/research/tools#disinformation-datasets) of troll tweets and accounts.
 
-By hosting Facebook Social Science One’s first EU technical training on this occasion, we are able to also provide you with have access to:
-
-- The [CrowdTangle](https://www.crowdtangle.com) API.
-- A preview of the [URLs dataset](https://socialscience.one/rfps), fine-grained data on the diffusion of links on Facebook. _You will have access to a live system, but the URLs data will be fake: only accredited researchers will have access to it. However, your usage of the tool will enable to improve its API and help researchers define the boundaries of what they could do with it._
 
 [Build something awesome!](#registration){: .btn .btn-purple .px-10}
 {: .text-center}
