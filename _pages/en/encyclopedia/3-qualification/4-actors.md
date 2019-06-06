@@ -126,6 +126,19 @@ This website of the French Press Agency simply provides fact-checks of articles 
 
 This is a factchecking and debunking platform for all of the French broadcasting audience. It gathers content produced by various media such as Arte, France Médias Monde, France Télévisions, Radio France and TV5 Monde.
 
+### In Ukraine
+
+#### [StopFake5](https://www.stopfake.org/) 
+
+[Stop Fake 5](https://www.stopfake.org/en/about-us/) is a fact-checking website focusing on fake informations regarding Ukraine, most of which involve Russia. 
+
+It was launched in 2014, around the time of the annexation of Crimea, by the Kyiv Mohyla Journalism School and the "Digital Future of Journalism" project of the [Kyiv Mohyla Academy](https://www.ukma.edu.ua/eng/).
+
+Fostered by journalists and IT people, among others, the website fact-cheks disinformation and propaganda about events in Ukraine, but also more widely provides analyses on "Kremlin propaganda", in the shape of video digests, radio podcasts and articles.
+
+Various content of theirs is available in 11 languages (Russian, Bulgarian, Czech, Dutch, English, French, German, Italian, Polish, Romanian and Spanish).
+
+
 
 ### In Belgium
 
