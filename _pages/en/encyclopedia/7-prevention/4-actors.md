@@ -7,7 +7,7 @@ permalink: /encyclopedia/prevention/actors
 
 # Prevention actors
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Criterion: False or misleading
 

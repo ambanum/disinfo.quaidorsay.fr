@@ -7,7 +7,7 @@ permalink: /encyclopedia/qualification/actors
 
 # Qualification actors
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Criterion: False or misleading
 

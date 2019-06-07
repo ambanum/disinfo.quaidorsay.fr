@@ -7,7 +7,7 @@ permalink: /encyclopedia/qualification/tools
 
 # Qualification tools
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 
 ## Criterion: Massive

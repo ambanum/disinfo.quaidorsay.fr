@@ -7,7 +7,7 @@ permalink: /encyclopedia/research/actors
 
 # Research actors
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## In the EU
 

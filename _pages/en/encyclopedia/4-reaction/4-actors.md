@@ -7,7 +7,7 @@ permalink: /encyclopedia/reaction/actors
 
 # Reaction actors
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Criterion: False or misleading
 

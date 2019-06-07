@@ -7,7 +7,7 @@ permalink: /encyclopedia/reaction/tools
 
 # Reaction tools
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Criterion: False or misleading
 

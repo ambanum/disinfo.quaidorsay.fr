@@ -7,7 +7,7 @@ permalink: /encyclopedia/research/tools
 
 # Research tools
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Collaborative bibliography
 

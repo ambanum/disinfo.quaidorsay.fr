@@ -7,7 +7,7 @@ permalink: /encyclopedia/reaction/case-studies
 
 # Reaction case studies
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Legislation
 

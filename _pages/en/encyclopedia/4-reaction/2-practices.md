@@ -7,7 +7,7 @@ permalink: /encyclopedia/reaction/practices
 
 # Reaction practices
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## For public institutions
 

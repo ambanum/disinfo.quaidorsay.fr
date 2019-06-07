@@ -7,7 +7,7 @@ permalink: /encyclopedia/Attribution/tools
 
 # Attribution tools
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Individuals tracking
 

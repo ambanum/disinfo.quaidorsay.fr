@@ -7,7 +7,7 @@ permalink: /encyclopedia/prevention/tools
 
 # Prevention tools
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## For public institutions
 

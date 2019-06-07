@@ -7,7 +7,7 @@ permalink: /encyclopedia/detection/tools
 
 # Detection tools
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Criterion: Massive
 

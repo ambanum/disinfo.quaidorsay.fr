@@ -7,7 +7,7 @@ permalink: /encyclopedia/detection/case-studies
 
 # Detection case studies
 
-{% include toc.md %}
+{% include table-of-contents.md %}
 
 ## Attacks on information transmission
 
