@@ -81,6 +81,6 @@ While useful to inform the best course of action, this phase is not needed to re
 #### This collaborative resource aims at empowering all actors countering information manipulation to grow and improve.
 {: .thin}
 
-To do so, it unifies vocabulary, for instance by providing concepts like the ones you just read about. It also gathers exemplary, sharable case studies and describes the best **[practices](/encyclopedia/detection/practices)**, **[tools](/encyclopedia/detection/tools)** and **[actors](/encyclopedia/detection/actors)** in the field. Furthermore, it consolidates opportunities such as [funding](/encyclopedia/funders) and [events](/encyclopedia/agenda).
+To do so, it unifies vocabulary and provides concepts like the ones you just read. It also gathers exemplary, sharable case studies and describes the best **[practices](/encyclopedia/detection/practices)**, **[tools](/encyclopedia/detection/tools)** and **[actors](/encyclopedia/detection/actors)** in the field. Furthermore, it consolidates opportunities such as [funding](/encyclopedia/funders) and [events](/encyclopedia/agenda).
 
 Your [contributions](/encyclopedia/contribute) are more than welcome.
