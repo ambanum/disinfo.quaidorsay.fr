@@ -2,7 +2,7 @@
 parent: Attribution
 title: Tools
 nav_order: 3
-permalink: /encyclopedia/Attribution/tools
+permalink: /encyclopedia/attribution/tools
 ---
 
 # Attribution tools
