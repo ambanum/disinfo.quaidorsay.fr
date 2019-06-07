@@ -2,7 +2,7 @@
 permalink: /encyclopedia/contribute
 nav_order: 15
 layout: page
-no_headings_numbering: true
+numbered_headers: false
 ---
 
 # How to contribute

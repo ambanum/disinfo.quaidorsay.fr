@@ -3,7 +3,7 @@ parent: Detection
 title: Practices
 nav_order: 2
 permalink: /encyclopedia/detection/practices
-no_headings_numbering: true
+numbered_headers: false
 ---
 
 # Detection practices

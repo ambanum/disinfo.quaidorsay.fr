@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="main-content">
-        <div id="main-content" class="page-content{% if page.no_headings_numbering %} no-headings-numbering{% endif %}" role="main">
+        <div id="main-content" class="page-content{% if page.numbered_headers == false %} no-headings-numbering{% endif %}" role="main">
           {{ content }}
 
           {% if page.has_children == true and page.has_toc != false %}

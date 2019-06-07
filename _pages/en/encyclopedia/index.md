@@ -3,7 +3,7 @@ layout: home
 title: Disencyclopædia
 permalink: /encyclopedia
 nav_order: 1
-no_headings_numbering: true
+numbered_headers: false
 ---
 
 # Information manipulation encyclopædia

@@ -1,7 +1,7 @@
 ---
 permalink: /encyclopedia/funders/
 nav_order: 9
-has_separation_before_in_menu: true
+begins_new_menu_section: true
 ---
 
 # Funding

@@ -4,7 +4,7 @@
     {% for node in pages_list %}
       {% unless node.nav_exclude %}
         {% if node.parent == nil %}
-          <li class="navigation-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %} {% if node.has_separation_before_in_menu %} has_separation_before{% endif %}">
+          <li class="navigation-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %} {% if node.begins_new_menu_section %} has_separation_before{% endif %}">
             {% if page.parent == node.title or page.grand_parent == node.title %}
               {% assign first_level_url = node.url | absolute_url %}
             {% endif %}
