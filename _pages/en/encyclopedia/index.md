@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Disencyclopædia
+title: Introduction
 permalink: /encyclopedia
 nav_order: 1
 no_headings_numbering: true
