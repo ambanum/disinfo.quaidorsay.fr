@@ -28,6 +28,19 @@
   }
 }
 
+.navigation-list-icon {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.2rem;
+}
+
+.navigation-list-link {
+  position: relative;
+}
+
 .navigation-list-child-list {
   padding-left: $sp-4;
   margin-bottom: 0.5rem;
