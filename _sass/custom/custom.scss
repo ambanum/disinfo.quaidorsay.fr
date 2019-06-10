@@ -149,32 +149,12 @@ iframe {
 	box-shadow: none;
 }
 
-.floatright {
-	float: right;
-
-	+ p {
-		clear: left;
-	}
+.right {
+  float: right;
 }
 
-.floatleft {
-	float: left;
-
-	+ p {
-		clear: right;
-	}
-}
-
-.clear {
-	clear: both;
-}
-
-.clearfix:after {
-   content: ".";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+.left {
+  float: left;
 }
 
 .center-image {
