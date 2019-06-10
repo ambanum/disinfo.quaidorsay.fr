@@ -47,9 +47,15 @@
     margin-bottom: 0.84375rem;
   }
 
-  h1:first-of-type {
+  h1:first-child {
     margin-top: 0;
     font-weight: 300;
+
+    // header subtitle styling
+    & + h3 {
+      margin-top: -1rem;
+      font-weight: 200;
+    }
   }
 
   h2,
@@ -58,6 +64,10 @@
   h5,
   h6 {
     font-weight: 600;
+
+    &.thin {
+      font-weight: 300;
+    }
   }
 
   h1 + h2 {
@@ -84,8 +94,40 @@
     font-weight: 600;
   }
 
+  blockquote {
+    margin: 0;
+    position: relative;
+    font-style: italic;
+    color:  $grey-dk-100;
+
+    &:before {
+      content: "“";
+      position: absolute;
+      transform: translateX(-100%);
+      color:  $grey-dk-000;
+    }
+
+    &:after {
+      content: "”";
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      transform: translateX(100%);
+      color:  $grey-dk-000;
+    }
+
+    cite {
+      display: block;
+      text-align: right;
+
+      &:before {
+        content: '— ';
+      }
+    }
+  }
 }
 
 abbr[title] {
   text-decoration: none;
 }
+

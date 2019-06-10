@@ -102,9 +102,10 @@ img {
 }
 
 hr {
-  height: 1px;
+  height: 4px;
   padding: 0;
-  margin: $sp-6 0;
-  background-color: $border-color;
+  margin: 2rem auto;
+  background-color: #eeebee;
   border: 0;
+  width: 20%;
 }

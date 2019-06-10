@@ -6,12 +6,8 @@ permalink: /encyclopedia/prevention/tools
 ---
 
 # Prevention tools
-{: .no_toc}
 
-1. Table of contents
-{:toc}
-
-- - -
+{% include table-of-contents.md %}
 
 ## For public institutions
 
@@ -27,14 +23,12 @@ While focused on a UK context, many of its recommendations are valid across juri
 ### [The Pledge for Election Integrity](https://electionpledge.org/)
 
 #### What is the Pledge?
-{: .no_toc}
 
 The Pledge for Election Integrity is a call from the  **Transatlantic Commission on Election Integrity** (TCEI) to candidates for the upcoming European elections in May 2019. They urge candidates “_to take a stand against election interference by increasing transparency and fight the use of disinformation in campaigns_”.
 
 The Pledge was intentionally launched in a tense, heavy electoral context. Indeed, in the next year or so (2019-2020), major elections will take place in the European Union, the US and Canada.
 
 #### Origins
-{: .no_toc}
 
 The **Pledge for Election Integrity** was launched by the **Transatlantic Commission on Election Integrity** (TCEI), which was created to prevent election interference, alongside activities regarding democratic awareness, media engagement and education. Overall, the TCEI is a “_bi-partisan group of political, tech, business and media leaders that seeks to foster a more collective approach to preventing the next wave of foreign election interference_”.
 
@@ -45,7 +39,6 @@ This Campaign was itself launched by the [**Alliance of Democracies Foundation**
 [Here](https://electionpledge.org/#) are listed the five core engagements of the pledge.
 
 #### Who signs the Pledge?
-{: .no_toc}
 
 Whether they be political parties or candidates seeking office, “_anyone that is or intends to run as a candidate for the European Parliament elections in May 2019, the U.S. elections in November 2020, or the Canadian parliamentary in October 2019 may take the pledge._”
 

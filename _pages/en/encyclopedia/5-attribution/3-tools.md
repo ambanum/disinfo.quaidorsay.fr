@@ -2,16 +2,12 @@
 parent: Attribution
 title: Tools
 nav_order: 3
-permalink: /encyclopedia/Attribution/tools
+permalink: /encyclopedia/attribution/tools
 ---
 
 # Attribution tools
-{: .no_toc}
 
-1. Table of contents
-{:toc}
-
-- - -
+{% include table-of-contents.md %}
 
 ## Individuals tracking
 

@@ -6,12 +6,8 @@ permalink: /encyclopedia/reaction/case-studies
 ---
 
 # Reaction case studies
-{: .no_toc}
 
-1. Table of contents
-{:toc}
-
-- - -
+{% include table-of-contents.md %}
 
 ## Legislation
 
@@ -38,29 +34,24 @@ The Code of Practice was impulsed by the **European Commission**. Signed in Sept
 Commitment to and implementation of the code work on a **voluntary basis** with **self-regulatory standards**.
 
 #### Signatories
-{: .no_toc}
 
 Singatories include platforms such as Facebook, Twitter, YouTube, but also Google & Mozilla. Beside representatives of online platforms and prominent social networks are advertising industry actors.
 
 #### Scope
-{: .no_toc}
 
 The application of the Code of Practices is limited for each signatory to services provided within the European Economic Area (EEA).
 
 #### Goal
-{: .no_toc}
 
 Overall, signatories must contribute to solutions to challenges raised by disinformation. As explained in the text itself, "_the purpose of this Code is to identify the actions that Signatories could put in place in order to address the challenges related to "Disinformation"_".
 
 Among these actions are efforts towards more transparency, safeguards, scrutiny, a reduced visibility of fake information, an improvement of  the findability of trustworthy content, among others.
 
 #### Defining disinformation
-{: .no_toc}
 
 The Code offers a rather complete definition of disinformation, on which all signatories agree. Excluding "_misleading advertising, reporting errors, satire and parody, or clearly identified partisan news and commentary_", disinformation is defined as "**_verifiably false or misleading information_**" that is "_created, presented and disseminated for **economic gain** or to **intentionally deceive** the public_" ; and that "_may cause **public harm**_" and threatens "_**democratic political and policymaking processes** as well as **public goods** such as the protection of EU citizens' health, the environment or security_".
 
 #### Commitments
-{: .no_toc}
 
 The Code lists a variety of detailed measures to which signatories commit, according to their technical capabilities, the services they provide, their liability regime and "_the role they play in the creation and dissemination of the content at stake_", among other criteria.
 

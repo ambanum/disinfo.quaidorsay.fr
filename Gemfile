@@ -41,8 +41,6 @@ rescue => standard_error
   gem 'github-pages'
 end
 
-gem 'just-the-docs'
-
 group :test do
   gem 'html-proofer'
 end

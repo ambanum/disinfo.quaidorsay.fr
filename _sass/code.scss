@@ -27,6 +27,7 @@ pre.highlight {
   margin-bottom: $sp-3;
   overflow: hidden;
   border-radius: $border-radius;
+  white-space: normal;
 }
 
 .highlight .c { color: #586e75; } // comment //
