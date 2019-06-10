@@ -1,6 +1,127 @@
-abbr[title] {
-	text-decoration: none;
-}
+// //
+// // Typography
+// //
+//
+$body-font-family: "Avenir Next", "Open Sans", "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+// $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+// $root-font-size: 16px;         // Base font-size for rems
+$body-line-height: 1.6875rem;
+$page-header-height: 80px;
+// $body-heading-line-height: 1.15;
+//
+// //
+// // Colors
+// //
+//
+// $white: #fff;
+//
+// $grey-dk-000: #959396;
+// $grey-dk-100: #5c5962;
+// $grey-dk-200: #44434d;
+// $grey-dk-250: #302d36 !default;
+// $grey-dk-300: #27262b;
+//
+// $grey-lt-000: #f5f6fa;
+// $grey-lt-100: #eeebee;
+// $grey-lt-200: #ecebed;
+// $grey-lt-300: #e6e1e8;
+//
+// $purple-000: #7253ed;
+// $purple-100: #5e41d0;
+// $purple-200: #4e26af;
+// $purple-300: #381885;
+//
+// $blue-000: #2c84fa;
+// $blue-100: #2869e6;
+// $blue-200: #264caf;
+// $blue-300: #183385;
+//
+// $green-000: #41d693;
+// $green-100: #11b584;
+// $green-200: #009c7b;
+// $green-300: #026e57;
+//
+// $body-background-color: $white !default;
+// $sidebar-color: $grey-lt-000 !default;
+// $code-background-color: $grey-lt-000 !default;
+
+$body-text-color: #333;
+$body-heading-color: #444;
+
+$gutter-spacing: $sp-8;
+$gutter-spacing-sm: $sp-6;
+// $nav-child-link-color: $grey-dk-100 !default;
+// $link-color: $purple-000 !default;
+// $btn-primary-color: $purple-100 !default;
+// $base-button-color: #f7f7f7 !default;
+//
+// //
+// // Media queries in pixels
+// //
+//
+// $media-queries: (
+//   xs: 320px,
+//   sm: 500px,
+//   md: 740px,
+//   lg: 1120px,
+//   xl: 1400px
+// );
+//
+// //
+// // Spacing
+// //
+//
+// $spacing-unit: 1rem; // 1rem == 16px
+//
+// $spacers: (
+//   sp-0: 0,
+//   sp-1: $spacing-unit * 0.25,
+//   sp-2: $spacing-unit * 0.5,
+//   sp-3: $spacing-unit * 0.75,
+//   sp-4: $spacing-unit,
+//   sp-5: $spacing-unit * 1.5,
+//   sp-6: $spacing-unit * 2,
+//   sp-7: $spacing-unit * 2.5,
+//   sp-8: $spacing-unit * 3,
+//   sp-9: $spacing-unit * 3.5,
+//   sp-10: $spacing-unit * 4
+// );
+//
+// $sp-1: map-get($spacers, sp-1); // 0.25 rem == 4px
+// $sp-2: map-get($spacers, sp-2); // 0.5  rem == 8px
+// $sp-3: map-get($spacers, sp-3); // 0.75 rem == 12px
+// $sp-4: map-get($spacers, sp-4); // 1    rem == 16px
+// $sp-5: map-get($spacers, sp-5); // 1.5  rem == 24px
+// $sp-6: map-get($spacers, sp-6); // 2    rem == 32px
+// $sp-7: map-get($spacers, sp-7); // 2.5  rem == 40px
+// $sp-8: map-get($spacers, sp-8); // 3    rem == 48px
+// $sp-9: map-get($spacers, sp-9); // 4    rem == 48px
+// $sp-10: map-get($spacers, sp-10); // 4.5  rem == 48px
+//
+// //
+// // Borders
+// //
+//
+// $border: 1px solid;
+// $border-radius: 4px;
+// $border-color: $grey-lt-100;
+//
+// //
+// // Grid system
+// //
+//
+// $gutter-spacing: $sp-6;
+// $gutter-spacing-sm: $sp-4;
+$nav-width: 232px;
+$content-width: 600px;
+//
+$media-queries: (
+  xs: 320px,
+  sm: 500px,
+  md: 960px,
+  lg: 1280px,
+  xl: 1400px
+);
 
 .error-page {
 	margin: 10px auto;
@@ -13,14 +134,6 @@ abbr[title] {
 		line-height: 1;
 		letter-spacing: -1px;
 	}
-}
-
-.side-bar .site-title {
-	font-variant: all-small-caps;
-}
-
-.site-footer {
-	display: none;
 }
 
 iframe {
@@ -36,106 +149,47 @@ iframe {
 	box-shadow: none;
 }
 
-.main-content {
-	padding-left: 3rem !important;
-	padding-right: 3rem !important;
-	color: #313131;
+.right {
+  float: right;
 }
 
-.page-content {
-	padding-top: 1.5rem;
+.left {
+  float: left;
 }
 
-.page-content * {
-	line-height: 1.6875rem;
-	max-width: 35rem;
+.center-image {
+  margin: auto;
+  display: block;
 }
 
-.page-content h1 {
-  font-size: 2.5rem !important;
-  line-height: 3.375rem !important;
-  margin-top: 6.75rem !important;
-  margin-bottom: 1.6875rem !important;
-}
-.page-content h2 {
-  font-size: 1.6875rem !important;
-  line-height: 2.53125rem !important;
-  margin-top: 4.21875rem !important;
-  margin-bottom: 0.84375rem !important;
-}
-.page-content h3 {
-  font-size: 1.375rem !important;
-  line-height: 1.6875rem !important;
-  margin-top: 3.375rem !important;
-  margin-bottom: 0.84375rem !important;
-}
-.page-content h4 {
-  font-size: 1.2rem !important;
-  line-height: 1.6875rem !important;
-  margin-top: 2.53125rem !important;
-  margin-bottom: 0.84375rem !important;
-}
-.page-content h5 {
-  font-size: 1rem !important;
-  line-height: 1.6875rem !important;
-  margin-top: 2.53125rem !important;
-  margin-bottom: 0.84375rem !important;
-}
-.page-content h6 {
-  font-size: 1rem !important;
-  line-height: 1.6875rem !important;
-  margin-top: 2.53125rem !important;
-  margin-bottom: 0.84375rem !important;
+.shape-outside-ellipse {
+  shape-outside: ellipse();
 }
 
-.page-content h1:first-of-type {
-	margin-top: 0.5rem !important;
+.shape-detection {
+  shape-outside: polygon(7% 1%, 49% 0, 100% 18%, 100% 39%, 44% 100%, 33% 100%, 0 82%, 1% 38%);
 }
 
-.page-content h1,
-.page-content h2,
-.page-content h3,
-.page-content h4,
-.page-content h5,
-.page-content h6 {
-	color: #444;
+.shape-qualification {
+  shape-outside: polygon(0 63%, 0 0, 100% 0, 100% 100%, 31% 100%, 31% 89%, 25% 83%, 22% 77%, 20% 68%, 20% 63%);
 }
 
-.page-content h2,
-.page-content h3,
-.page-content h4,
-.page-content h5,
-.page-content h6 {
-	font-weight: 600;
+.shape-reaction {
+  shape-outside: polygon(100% 0, 100% 100%, 32% 100%, 8% 93%, 9% 55%, 0 8%, 0 0);
 }
 
-.page-content h1 + h2 {
-  margin-top: 1.6875rem !important;
-}
-.page-content h2 + h3,
-.page-content h3 + h4,
-.page-content h4 + h5 {
-  margin-top: 0.84375rem !important;
-}
-.page-content h5 + h6 {
-  margin-top: -0.84375rem !important;
-}
-.page-content h6 {
-  font-style: italic;
-  font-weight: normal;
+.shape-attribution {
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 70% 100%, 0% 38%);
 }
 
-.page-content b,
-.page-content strong {
-	font-weight: 600;
+.shape-research {
+  shape-outside: polygon(12% 19%, 31% 21%, 41% 0, 100% 0, 100% 99%, 17% 100%, 0 94%, 1% 32%);
 }
 
-.page-content h4 {
-	text-transform: none;
-	letter-spacing: normal;
+.shape-prevention  {
+  shape-outside: polygon(38% 22%, 39% 0, 100% 0, 100% 70%, 25% 99%, 9% 100%, 0 90%, 1% 72%, 6% 62%, 6% 27%);
 }
 
-.page-content table {
-	box-shadow: none;
-	border: 1px solid #EEE;
+.fix-height-with-floated-element {
+  overflow: hidden;
 }

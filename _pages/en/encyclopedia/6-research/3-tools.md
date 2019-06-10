@@ -6,12 +6,8 @@ permalink: /encyclopedia/research/tools
 ---
 
 # Research tools
-{: .no_toc}
 
-1. Table of contents
-{:toc}
-
-- - -
+{% include table-of-contents.md %}
 
 ## Collaborative bibliography
 
@@ -40,7 +36,6 @@ Interesting training can be found [here](https://github.com/warproxxx/Twitter-Bo
 - https://github.com/eldinsahbaz/TwitterBotDetection/tree/master/DataSet
 
 #### Classification student projects
-{: .no_toc}
 
 - Best-documented [training attempt](https://github.com/Ares513/DetectingTrolls) of a neural network.
 - [Training attempt](https://github.com/sid-devic/RuTroll) of a neural network with a Chrome plug-in.

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+//
+// Styles for rendered markdown in the .main-content container
+//
+// stylelint-disable selector-no-type, max-nesting-depth, selector-max-compound-selectors, selector-max-type
+
+.page-content {
+  a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .task-list {
+    padding-left: 0;
+  }
+
+  .task-list-item {
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+    }
+  }
+
+  .task-list-item-checkbox {
+    margin-right: 0.6em;
+  }
+
+  hr + * {
+    margin-top: 0;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+  }
+
+  dt,
+  dd {
+    margin: 0.25em 0;
+  }
+
+  dt {
+    text-align: right;
+
+    &::after {
+      content: ":";
+    }
+  }
+
+  dd {
+    margin-left: 1em;
+    font-weight: 500;
+  }
+
+  > ol,
+  > ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li:before {
+    color: $grey-dk-000;
+    display: inline-block;
+  }
+
+  > ul li:before {
+    content: "-";
+    width: 0.8em;
+    margin-left: -0.8em;
+  }
+
+  > ol:not(#markdown-toc) {
+    counter-reset: li;
+
+    li {
+      counter-increment: li;
+    }
+
+    li:before {
+      content: counter(li) '.';
+      width: 2em;
+      margin-left: -2em;
+      text-align: right;
+      padding-right: 0.25em;
+      box-sizing: border-box;
+      font-size: 0.85rem;
+      line-height: 1;
+    }
+  }
+}

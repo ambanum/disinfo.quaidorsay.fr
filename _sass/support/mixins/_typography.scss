@@ -1,0 +1,81 @@
+// Font size
+
+@mixin fs-1 {
+  font-size: 9px;
+
+  @include mq(sm) {
+    font-size: 10px;
+  }
+}
+
+@mixin fs-2 {
+  font-size: 11px;
+
+  @include mq(sm) {
+    font-size: 12px;
+  }
+}
+
+@mixin fs-3 {
+  font-size: 12px;
+
+  @include mq(sm) {
+    font-size: 14px;
+  }
+}
+
+@mixin fs-4 {
+  font-size: 14px;
+
+  @include mq(sm) {
+    font-size: 16px;
+  }
+}
+
+@mixin fs-5 {
+  font-size: 16px;
+
+  @include mq(sm) {
+    font-size: 18px;
+  }
+}
+
+@mixin fs-6 {
+  font-size: 18px;
+
+  @include mq(sm) {
+    font-size: 24px;
+  }
+}
+
+@mixin fs-7 {
+  font-size: 24px;
+
+  @include mq(sm) {
+    font-size: 32px;
+  }
+}
+
+@mixin fs-8 {
+  font-size: 32px;
+
+  @include mq(sm) {
+    font-size: 36px;
+  }
+}
+
+@mixin fs-9 {
+  font-size: 36px;
+
+  @include mq(sm) {
+    font-size: 42px;
+  }
+}
+
+@mixin fs-10 {
+  font-size: 42px;
+
+  @include mq(sm) {
+    font-size: 48px;
+  }
+}

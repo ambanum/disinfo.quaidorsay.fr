@@ -1,0 +1,133 @@
+//
+// Typography
+//
+// stylelint-disable primer/selector-no-utility, primer/no-override, selector-no-type, selector-max-type
+
+.page-content {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+    margin-top: 6.75rem;
+    margin-bottom: 1.6875rem;
+  }
+
+  h2 {
+    font-size: 1.6875rem;
+    line-height: 2.53125rem;
+    margin-top: 4.21875rem;
+    // margin-bottom: 0.84375rem;
+    margin-bottom: 1.6875rem;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+    line-height: 1.6875rem;
+    margin-top: 3.375rem;
+    margin-bottom: 0.84375rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    line-height: 1.6875rem;
+    margin-top: 2.53125rem;
+    margin-bottom: 0.84375rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    margin-top: 2.53125rem;
+    margin-bottom: 0.84375rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    margin-top: 2.53125rem;
+    margin-bottom: 0.84375rem;
+  }
+
+  h1:first-child {
+    margin-top: 0;
+    font-weight: 300;
+
+    // header subtitle styling
+    & + h3 {
+      margin-top: -1rem;
+      font-weight: 200;
+    }
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+
+    &.thin {
+      font-weight: 300;
+    }
+  }
+
+  h1 + h2 {
+    margin-top: 1.6875rem;
+  }
+
+  // h2 + h3,
+  h3 + h4,
+  h4 + h5 {
+    margin-top: 0.84375rem;
+  }
+
+  h5 + h6 {
+    margin-top: -0.84375rem;
+  }
+
+  h6 {
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  b,
+  strong {
+    font-weight: 600;
+  }
+
+  blockquote {
+    margin: 0;
+    position: relative;
+    font-style: italic;
+    color:  $grey-dk-100;
+
+    &:before {
+      content: "“";
+      position: absolute;
+      transform: translateX(-100%);
+      color:  $grey-dk-000;
+    }
+
+    &:after {
+      content: "”";
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      transform: translateX(100%);
+      color:  $grey-dk-000;
+    }
+
+    cite {
+      display: block;
+      text-align: right;
+
+      &:before {
+        content: '— ';
+      }
+    }
+  }
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+

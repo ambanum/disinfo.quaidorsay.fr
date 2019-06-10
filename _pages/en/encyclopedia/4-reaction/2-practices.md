@@ -7,6 +7,8 @@ permalink: /encyclopedia/reaction/practices
 
 # Reaction practices
 
+{% include table-of-contents.md %}
+
 ## For public institutions
 
 ### [Swedish Civil Contingencies Agency’s Communicators handbook](https://www.msb.se/RibData/Filer/pdf/28698.pdf)

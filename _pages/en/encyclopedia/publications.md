@@ -1,7 +1,7 @@
 ---
 title: Publications
 permalink: /encyclopedia/publications/
-nav_order: 18
+nav_order: 11
 ---
 
 

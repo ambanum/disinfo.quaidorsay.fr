@@ -2,12 +2,12 @@
 title: Unconference on fighting disinformation
 permalink: /unconference-27-28-june-2019/
 nav_order: 20
+begins_new_menu_section: true
 ---
 
 # June 2019 Unconference
-{: .no_toc }
 ### Join us in Paris for two days at the edge of the fight against information manipulation
-{: .no_toc }
+{: .no_toc .no-numbering }
 
 - - -
 
@@ -115,4 +115,4 @@ For those participants who would not be able to reach Paris on the same day with
 
 ## Registration
 
-<div class="typeform-widget" data-url="https://mattischneider.typeform.com/to/uJuA0y" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<div class="typeform-widget" data-url="https://mattischneider.typeform.com/to/uJuA0y" style="width: 100%; height: 520px; box-shadow: 0 0 0 1px #E5E5E5"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
