@@ -44,7 +44,7 @@ There is no unique definition for information manipulation and what kind warrant
 #### Indeed, human intervention is necessary to [qualify](/encyclopedia/qualification) content according to your criteria.
 {: .thin}
 
-![](/assets/img/home/qualification.png){:style="width: 50%" .right .ml-2 .pt-2 .shape-qualification } You need to strike a balance between obtaining enough certainty that a possible reaction is appropriate, and being fast enough for it to be impactful.
+![](/assets/img/home/qualification.png){:style="width: 50%" .right .ml-2 .pt-2 .shape-qualification } You need to strike a balance between [obtaining](/encyclopedia/qualification/tools) enough certainty that a possible reaction is appropriate, and being fast enough for it to be impactful.
 Very often, what was detected as suspicious does not qualify as actually harmful, hence the importance of this phase.
 
 ### Reaction
@@ -70,7 +70,7 @@ While useful to inform the best course of action, this phase is not needed to re
 #### [Prevention](/encyclopedia/prevention) raises awareness and increases media literacy and societal cohesion.
 {: .thin}
 
-![](/assets/img/home/prevention.png){:style="width: 46%" .right .ml-4 .py-2 .shape-prevention } Disinformation targets human societies. While research can help us understand how attacks work, and the detection-qualification-reaction sequence can defuse many of them, the most viable long-term solution is to immunize the entire social body.
+![](/assets/img/home/prevention.png){:style="width: 46%" .right .ml-4 .py-2 .shape-prevention } Disinformation targets human societies. While research can help us understand how attacks work, and the detection-qualification-reaction sequence can defuse many of them, the most viable [long-term solution](/encyclopedia/prevention/tools) is to immunize the entire social body.
 {: .fix-height-with-floated-element }
 
 - - -
