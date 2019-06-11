@@ -19,11 +19,11 @@ numbered_headers: false
 #### ![](/assets/img/home/criteria.png){:style="width: 14%" .right .ml-4 .pt-1 } To make it easier to share and collaborate with others who share your aim, you first have to determine the **criteria** that guide your action.
 {: .thin}
 
-There is indeed no single definition for information manipulation. Each organization has its own mandate and along with it, its specific criteria to distinguish valid information from disinformation.
+There is no unique definition for information manipulation and what kind warrants a reaction. Each organization has its own mandate and along with it, specific criteria to distinguish “legit” information from disinformation.
 
-![](/assets/img/home/subjectivity.png){:style="width: 30%" .right .ml-6 .mb-4 .pt-1 } For instance, a Foreign Affairs Ministry will deem crucial the criterion of "foreign source". Or a europhile association will only target eurosceptic content, making europhobia a decisive criteria.
+![](/assets/img/home/subjectivity.png){:style="width: 30%" .right .ml-6 .mb-4 .pt-1 } For instance, a Foreign Affairs Ministry will deem crucial the criterion of “foreign source”. Or, a europhile association will only target eurosceptic content, making europhobia a decisive criteria, whereas a nationalist group will focus on fact-checking EU-supportive content.
 
-![](/assets/img/home/convergence.png){:style="width: 30%" .right .ml-6 .pt-1 } Spelling out your criteria means clarifying your mandate. This allows you to mutualize means with other actors while preserving their mandate… and your own!
+![](/assets/img/home/convergence.png){:style="width: 30%" .right .ml-6 .pt-1 } Spelling out your criteria allows you to mutualise means with other actors while preserving their mandate… and your own, by making it explicit!
 
 #### The intersection of each actor’s criteria defines what disinformation is to them.
 {: .thin}
@@ -58,7 +58,7 @@ Very often, what was detected as suspicious does not qualify as actually harmful
 {: .thin}
 
 ![](/assets/img/home/attribution.png){:style="width: 50%" .right .ml-2 .pt-4 .shape-attribution }
-While useful to inform the best course of action, this phase is not needed to react. Besides, attribution does not share the urgency that an impactful reaction depends on. Related [practices](/encyclopedia/attribution/case-studies) and [tools](/encyclopedia/attribution/tools) are part of forensics and open-source intelligence (OSINT). Attribution brings the most value by linking together seemingly independent campaigns, thus allowing to refine detection and reaction means throught the unveiling of patterns.
+While useful to inform the best course of action, this phase is not needed to react. Besides, attribution does not share the urgency that an impactful reaction depends on. Related [practices](/encyclopedia/attribution/case-studies) and [tools](/encyclopedia/attribution/tools) are part of the forensics and open-source intelligence (OSINT) fields. Attribution brings the most value by linking together seemingly independent campaigns, allowing to refine detection and reaction means through the unveiling of patterns.
 
 ### Research
 #### Going beyond specific campaigns, [research](/encyclopedia/research) adds to the knowledge of information manipulation.
