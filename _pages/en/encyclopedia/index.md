@@ -8,14 +8,14 @@ numbered_headers: false
 
 ## If you’re reading this, you’re probably trying to counter disinformation.
 
-![](/assets/img/home/not-alone.png){:style="width: 35%" .right .ml-6 .pt-2 }
+![](/assets/img/home/not-alone.png){:style="width: 35%" .right .ml-6 .pt-2 .mb-2 }
 
 ## Good news!<br />You’re not alone.
 {: .mt-0 .thin }
 
 - - -
 
-#### ![](/assets/img/home/criteria.png){:style="width: 14%" .right .ml-4 .pt-1 } To make it easier to share and collaborate with others who share your aim, you first have to determine the **criteria** that guide your action.
+#### ![](/assets/img/home/criteria.png){:style="width: 14%" .right .ml-4 .pt-1 .mb-2 } To make it easier to share and collaborate with others who share your aim, you first have to determine the **criteria** that guide your action.
 {: .thin}
 
 There is no unique definition for information manipulation and what kind warrants a reaction. Each organization has its own mandate and along with it, specific criteria to distinguish “legit” information from disinformation.
@@ -37,7 +37,7 @@ There is no unique definition for information manipulation and what kind warrant
 #### First, you need to [detect](/encyclopedia/detection) suspicious content on the Internet.
 {: .thin}
 
-![](/assets/img/home/detection.png){:style="width: 50%" .right .ml-6 .pt-3 .shape-detection } This can be done with [human intelligence](/encyclopedia/detection/practices), or more likely with [software](/encyclopedia/detection/tools) that scans through specific sources to highlight suspicious content. At this stage, what you want is only to identify which content deserves investing more resources.
+![](/assets/img/home/detection.png){:style="width: 50%" .right .ml-6 .pt-3 .mb-2 .shape-detection } This can be done with [human intelligence](/encyclopedia/detection/practices), or more likely with [software](/encyclopedia/detection/tools) that scans through specific sources to highlight suspicious content. At this stage, what you want is only to identify which content deserves investing more resources.
 
 ### Qualification
 #### Indeed, human intervention is necessary to [qualify](/encyclopedia/qualification) content according to your criteria.
@@ -50,7 +50,7 @@ Very often, what was detected as suspicious does not qualify as actually harmful
 #### For these pieces of content that actually qualify as disinformation, your organisation will have some [reaction](/encyclopedia/reaction) mechanism to activate.
 {: .thin}
 
-![](/assets/img/home/reaction.png){:style="width: 47%" .right .ml-2 .pt-2 .shape-reaction } It might be issuing a [public rebuttal](/encyclopedia/reaction/practices#denial), a [takedown](/encyclopedia/reaction/practices#content-takedown) notice, exposing the mischief, activating [elves](/encyclopedia/reaction/practices#elves) networks… or simply doing nothing because the risk of backfire always exists!
+![](/assets/img/home/reaction.png){:style="width: 47%" .right .ml-2 .pt-2 .mb-2 .shape-reaction } It might be issuing a [public rebuttal](/encyclopedia/reaction/practices#denial), a [takedown](/encyclopedia/reaction/practices#content-takedown) notice, exposing the mischief, activating [elves](/encyclopedia/reaction/practices#elves) networks… or simply doing nothing because the risk of backfire always exists!
 
 ### Attribution
 #### Another resource consuming activity is [attributing](/encyclopedia/attribution) the origin of disinformation to specific agents.
@@ -63,7 +63,7 @@ While useful to inform the best course of action, this phase is not needed to re
 #### Going beyond specific campaigns, [research](/encyclopedia/research) adds to the knowledge of information manipulation.
 {: .thin}
 
-![](/assets/img/home/research.png){:style="width: 50%" .right .ml-4 .pt-4 .shape-research } [Studying](/encyclopedia/research/practices) past disinformation efforts allows to more easily identify and assess future ones. It can also be used to [evaluate](/encyclopedia/research/tools) the effectiveness of tools and practices that counter them. Information manipulation has no dedicated academic field, most of the [current research](/encyclopedia/research/actors) on the topic happens at the intersection of social and computer sciences.
+![](/assets/img/home/research.png){:style="width: 50%" .right .ml-4 .pt-4 .mb-2 .shape-research } [Studying](/encyclopedia/research/practices) past disinformation efforts allows to more easily identify and assess future ones. It can also be used to [evaluate](/encyclopedia/research/tools) the effectiveness of tools and practices that counter them. Information manipulation has no dedicated academic field, most of the [current research](/encyclopedia/research/actors) on the topic happens at the intersection of social and computer sciences.
 
 ### Prevention
 #### [Prevention](/encyclopedia/prevention) raises awareness and increases media literacy and societal cohesion.
