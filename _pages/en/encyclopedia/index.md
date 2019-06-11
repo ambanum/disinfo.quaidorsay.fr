@@ -6,12 +6,12 @@ nav_order: 1
 numbered_headers: false
 ---
 
-## If you're reading this, you're probably trying to counter disinformation.
+## If you’re reading this, you’re probably trying to counter disinformation.
 {: .thin}
 
 ![](/assets/img/home/not-alone.png){:style="width: 35%" .right .ml-6 .pt-2 }
 
-## Good news!<br />You're not alone.
+## Good news!<br />You’re not alone.
 {: .mt-0}
 
 - - -
@@ -25,13 +25,13 @@ There is indeed no single definition for information manipulation. Each organiza
 
 ![](/assets/img/home/convergence.png){:style="width: 30%" .right .ml-6 .pt-1 } Spelling out your criteria means clarifying your mandate. This allows you to mutualize means with other actors while preserving their mandate… and your own!
 
-#### The intersection of each actor's criteria defines what disinformation is to them.
+#### The intersection of each actor’s criteria defines what disinformation is to them.
 {: .thin}
 ![](/assets/img/home/disinformation.png){:style="width: 40%" .center-image .pt-2 .mb-4 }
 
 - - -
 
-#### Now that we know how to differentiate legitimate content from manipulated information, let's clarify the process through which actors go to counter it.
+#### Now that we know how to differentiate legitimate content from manipulated information, let’s clarify the process through which actors go to counter it.
 {: .thin}
 
 ### Detection
