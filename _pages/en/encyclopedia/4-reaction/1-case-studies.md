@@ -13,21 +13,41 @@ permalink: /encyclopedia/reaction/case-studies
 
 ### The French law against information manipulation
 
-In France, a law against information manipulation and the **intentional** spread of disinformation was officially adopted on November 20, 2018, nine months after its proposal.
+In France, a law against information manipulation and the intentional spread of disinformation was officially adopted on November 20, 2018, nine months after its proposal and the implementing decree was published on [April 12, 2019](https://www.legifrance.gouv.fr/affichLoiPubliee.do?idDocument=JORFDOLE000037151987&type=echeancier&typeLoi=&legislature=15).
 
-<!-- add decree publication date -->
+It focuses on massive and rapid spreads of disinformation through social media in electoral contexts, and through foreign state-owned media outlets at all times.
 
-It focuses on massive and rapid spreads of disinformation on social media and more widely digital tools, including foreign state-owned media outlets, and was meant to be especially efficient in electoral contexts.
+#### Social media
 
-During said times, the law compels platforms to be more transparent by, for instance, reporting sponsored content as well as the name and invested resources of sponsors. The biggest, most used platforms are to have a legal representative in France and publish their algorithms as open data.
+The law compels social media operators to be more transparent by adding name and cost of sponsored political and issue-based content. The largest platforms must have a legal representative in France [(article 13)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847577) and publish the distribution of organic vs algorithmically recommended views for all political and issue-based content [(article 14)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847578).
 
-"Fake news" are also formally defined in order to allow for judiciary action. This definition includes massive and artificial diffusion, capacity of disturbance (of public peace or elections), and undeniability of the falsehood of the information being spread.
+For the three months before an election, content that is “inexact or misleading” and that has an “ability to alter the sincerity of the vote” can be ordered to be taken down by a judge. In order to be targeted, the content also has to be spread “deliberately, artificially or automatically” and massively”. Both ruling and appeal have to take at most 48 hours ([article 1](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847565), creating [article L163-2](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000037850595&dateTexte=&categorieLien=cid) of the Electoral code)
 
-Outside of election times, platforms ought to cooperate, as well as build and implement open measures to fight disinformation.
-The French Superior Council of the Audiovisual (CSA) has been given the authority to hinder or interrupt the broadcasting of foreign state-owned (or state-influenced) TV-services in cases where fundamental national interests are at stake.
+Beyond election times, platforms ought to cooperate, as well as build and implement open measures to fight disinformation. They must give a yearly report of their actions to the French Superior Council of the Audiovisual (CSA) [(article 11)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847575). This reminds of the [EU Code of practice](#eu-code-of-practice-on-disinformation).
 
+#### Foreign controlled publishers
 
-### The EU Code of Practice on Disinformation
+The CSA has been given authority to hinder or interrupt the broadcasting of foreign state-owned (or state-influenced) broadcasting services when there is “a grave risk” to human dignity, freedom, property, pluralism, public order, defence needs, fundamental national interests [(article 5)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847569).
+
+#### Media education
+
+The law adds to the duties of the national educational system to train pupils in media literacy and recognising information manipulation [(articles 16 to 19)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847580).
+
+#### [Jurisprudence](https://www.dalloz-actualite.fr/flash/loi-fake-news-premiere-application-du-refere)
+
+On May 10, 2019 two French elected representatives asked for the takedown of a [tweet](https://twitter.com/ccastaner/status/1123664392011304961) by the minister of Interior claiming that a hospital in Paris had been “attacked” during a demonstration on May 1. It was indeed [proven](https://www.lemonde.fr/politique/article/2019/05/02/incidents-a-la-pitie-salpetriere-castaner-contredit-par-une-video-l-opposition-demande-des-explications_5457544_823448.html) shortly after the tweet was sent that these people were only seeking refuge.
+
+Based on the 2018 law against information manipulation, the content having been published within 3 months of an election (the EU parliamentary elections), they brought the case to court on May 10 and obtained a hearing on the 16th. The ruling was given on May 17 and rejected the case.
+
+According to the ruling, the case was out of the scope of the law, as not [all criteria](#social-media) were met:
+
+- The content was not deemed “false or misleading” as it “relied on actual events” (an intrusion in the hospital), as demonstrated by press articles, and deemed only an “exaggeration”.
+- It was not deemed “able to alter the sincerity of the next election” as it was “immediately challenged”, “allowing citizens to make their mind without manifest risks of manipulation”.
+- It was not demonstrated by the plaintiffs that the spread was “deliberate, massive, artificial or automated”.
+
+As a side note, Twitter France was granted not to be cited, as it claimed that it only monetized the information network of Twitter International, who thus was actually responsible for data use and processing. Twitter International was not cited either but made a “[voluntary intervention](https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006135873&cidTexte=LEGITEXT000006070716&dateTexte=20091130)” in the case, adding details to the debate.
+
+### EU Code of Practice on Disinformation
 
 The Code of Practice was impulsed by the **European Commission**. Signed in September 2018 and entered into force one month later, the Code was developed to achieve objectives already laid out in April of the same year regarding the **spread of disinformation online**, especially on social media platforms ahead of the European elections in May 2019.
 
