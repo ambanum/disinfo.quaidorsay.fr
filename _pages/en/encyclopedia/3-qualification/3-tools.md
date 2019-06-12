@@ -114,6 +114,8 @@ This tool gives users the probability that Twitter accounts that have tweeted a 
 
 All that a user has to do is send a link to one piece of content to the bot via the "Analysis" channel of our [collaboration chat](/collaborate).
 
+![On the latest 94 retweets of “some tweet”, 7% have a high probablity to be made by bots, 57% have a high probability to be made by humans, for the remaining 36% it’s hard to tell](/assets/img/3-qualification/3-tools/botometer-chatbot.png)
+
 The bot assesses the probability that the accounts that have tweeted said content (up to 100 accounts) during the last seven days are robots.
 
 It displays respectively the percentage of **shares** by these accounts:
@@ -125,8 +127,6 @@ As well as the percentage of these **accounts** themselves that are:
 - very likely to be bots
 - very likely to be humans
 - unclear in nature
-
-<!-- add a screenshot -->
 
 
 #### [x0rz/tweets_analyzer](https://github.com/x0rz/tweets_analyzer)
