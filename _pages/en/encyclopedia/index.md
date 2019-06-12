@@ -7,12 +7,11 @@ numbered_headers: false
 ---
 
 ## If you’re reading this, you’re probably trying to counter disinformation.
-{: .thin}
 
 ![](/assets/img/home/not-alone.png){:style="width: 35%" .right .ml-6 .pt-2 }
 
 ## Good news!<br />You’re not alone.
-{: .mt-0}
+{: .mt-0 .thin }
 
 - - -
 
