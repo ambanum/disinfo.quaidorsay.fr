@@ -104,7 +104,7 @@ This evaluation was made on a dataset that we built to be highly varied, however
 
 ###### Results
 
-![Botometer assessment](/assets/img/botometer-scatterplot.png)
+[![Botometer assessment](/assets/img/3-qualification/3-tools/botometer-scatterplot.png)](/assets/img/3-qualification/3-tools/botometer-scatterplot.png)
 
 The two main clusters of accounts that were evaluated both as authentic or both as inauthentic by humans and Botometer, indicates that Botometer generally makes guesses similar to humans, even in a non-English context.
 
