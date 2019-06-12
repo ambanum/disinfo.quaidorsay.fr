@@ -1,0 +1,133 @@
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  overflow: hidden;
+}
+
+p {
+  clear: both;
+  overflow: hidden;
+}
+
+#not-alone-illustration {
+  width: 35%;
+  float: right;
+  margin: 0.5rem 0 0.5rem 2rem;
+}
+
+#criteria-illustration {
+  width: 14%;
+  float: right;
+  margin: 0.25rem 0 0.5rem 1.5rem;
+}
+
+#subjectivity-illustration {
+  width: 30%;
+  float: right;
+  margin: 0.25rem 0 0.5rem 2rem;
+}
+
+#convergence-illustration {
+  width: 30%;
+  float: right;
+  margin: 0.25rem 0 0.5rem 2rem;
+}
+
+#disinformation-illustration {
+  width: 40%;
+  margin: 0.25rem auto 0.5rem auto;
+  display: block;
+}
+
+#detection-illustration {
+  width: 50%;
+  float: right;
+  margin: 0.75rem 0 0.5rem 2rem;
+  shape-outside: polygon(
+    7% 1%,
+    49% 0,
+    100% 18%,
+    100% 39%,
+    44% 100%,
+    33% 100%,
+    0 82%,
+    1% 38%
+  );
+}
+
+#qualification-illustration {
+  width: 50%;
+  float: right;
+  margin: 0.5rem 0 0 0.5rem;
+  shape-outside: polygon(
+    0 63%,
+    0 0,
+    100% 0,
+    100% 100%,
+    31% 100%,
+    31% 89%,
+    25% 83%,
+    22% 77%,
+    20% 68%,
+    20% 63%
+  );
+}
+
+
+#reaction-illustration {
+  width: 47%;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  float: right;
+  shape-outside: polygon(
+    100% 0,
+    100% 100%,
+    32% 100%,
+    8% 93%,
+    9% 55%,
+    0 8%,
+    0 0
+  );
+}
+
+#attribution-illustration {
+  width: 50%;
+  margin: 1rem 0 0rem 0.5rem;
+  float: right;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 70% 100%, 0% 38%);
+}
+
+#research-illustration {
+  width: 50%;
+  margin: 1rem 0 0.5rem 1rem;
+  float: right;
+  shape-outside: polygon(
+    12% 19%,
+    31% 21%,
+    41% 0,
+    100% 0,
+    100% 99%,
+    17% 100%,
+    0 94%,
+    1% 32%
+  );
+}
+#prevention-illustration {
+  width: 46%;
+  margin: 0.5rem 0 0.5rem 1rem;
+  float: right;
+  shape-outside: polygon(
+    38% 22%,
+    39% 0,
+    100% 0,
+    100% 70%,
+    25% 99%,
+    9% 100%,
+    0 90%,
+    1% 72%,
+    6% 62%,
+    6% 27%
+  );
+}
