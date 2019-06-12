@@ -1,7 +1,6 @@
 ---
 permalink: /political-ads
 title: Error
-nav_exclude: true
 ---
 
 # The political ads explorer is apparently unavailable 😰

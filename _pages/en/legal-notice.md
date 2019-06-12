@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /legal-notice
-nav_exclude: true
 ---
 
 # Legal notice

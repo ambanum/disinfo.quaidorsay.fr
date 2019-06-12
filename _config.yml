@@ -14,7 +14,13 @@ defaults:
     scope:
       path: "" # means "all files"
     values:
-      layout: page
+      nav_exclude: true
+  -
+    scope:
+      path: _pages/en/encyclopedia
+    values:
+      layout: encyclopedia
+      nav_exclude: false
 
 exclude:
   - README.md
