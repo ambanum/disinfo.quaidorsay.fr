@@ -5,20 +5,12 @@
   <link rel="shortcut icon" href="{{ "favicon.ico" | absolute_url }}" type="image/x-icon">
   <link rel="stylesheet" href="{{ "/assets/css/just-the-docs.css" | absolute_url }}">
 
-  {% if page.css %}
-    {% for stylesheet in page.css %}
+  {% for stylesheet in page.css %}
   <link rel="stylesheet" href="/assets/css/{{ stylesheet }}.css" media="screen" type="text/css">
-    {% endfor %}
-  {% endif %}
+  {% endfor %}
 
   <script type="text/javascript" src="{{ "/assets/js/vendor/lunr.min.js" | absolute_url }}"></script>
   <script type="text/javascript" src="{{ "/assets/js/just-the-docs.js" | absolute_url }}"></script>
-
-  {% if page.js %}
-    {% for js_file in page.js %}
-  <script src='/assets/js/{{ js_file }}.js' type="text/javascript"></script>
-    {% endfor %}
-  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% seo %}
