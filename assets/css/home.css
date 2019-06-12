@@ -1,17 +1,3 @@
-
-.right {
-  float: right;
-}
-
-.left {
-  float: left;
-}
-
-.center-image {
-  margin: auto;
-  display: block;
-}
-
 h2,
 h3,
 h4,
@@ -26,7 +12,40 @@ p {
   overflow: hidden;
 }
 
-.shape-detection {
+#not-alone-illustration {
+  width: 35%;
+  float: right;
+  margin: 0.5rem 0 0.5rem 2rem;
+}
+
+#criteria-illustration {
+  width: 14%;
+  float: right;
+  margin: 0.25rem 0 0.5rem 1.5rem;
+}
+
+#subjectivity-illustration {
+  width: 30%;
+  float: right;
+  margin: 0.25rem 0 0.5rem 2rem;
+}
+
+#convergence-illustration {
+  width: 30%;
+  float: right;
+  margin: 0.25rem 0 0.5rem 2rem;
+}
+
+#disinformation-illustration {
+  width: 40%;
+  margin: 0.25rem auto 0.5rem auto;
+  display: block;
+}
+
+#detection-illustration {
+  width: 50%;
+  float: right;
+  margin: 0.75rem 0 0.5rem 2rem;
   shape-outside: polygon(
     7% 1%,
     49% 0,
@@ -39,7 +58,10 @@ p {
   );
 }
 
-.shape-qualification {
+#qualification-illustration {
+  width: 50%;
+  float: right;
+  margin: 0.5rem 0 0 0.5rem;
   shape-outside: polygon(
     0 63%,
     0 0,
@@ -54,7 +76,11 @@ p {
   );
 }
 
-.shape-reaction {
+
+#reaction-illustration {
+  width: 47%;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  float: right;
   shape-outside: polygon(
     100% 0,
     100% 100%,
@@ -66,11 +92,17 @@ p {
   );
 }
 
-.shape-attribution {
+#attribution-illustration {
+  width: 50%;
+  margin: 1rem 0 0rem 0.5rem;
+  float: right;
   shape-outside: polygon(0 0, 100% 0, 100% 100%, 70% 100%, 0% 38%);
 }
 
-.shape-research {
+#research-illustration {
+  width: 50%;
+  margin: 1rem 0 0.5rem 1rem;
+  float: right;
   shape-outside: polygon(
     12% 19%,
     31% 21%,
@@ -82,8 +114,10 @@ p {
     1% 32%
   );
 }
-
-.shape-prevention {
+#prevention-illustration {
+  width: 46%;
+  margin: 0.5rem 0 0.5rem 1rem;
+  float: right;
   shape-outside: polygon(
     38% 22%,
     39% 0,
