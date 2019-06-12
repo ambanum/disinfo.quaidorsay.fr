@@ -1,7 +1,6 @@
 ---
 permalink: /encyclopedia/contribute
 nav_order: 15
-layout: page
 numbered_headers: false
 nav_exclude: false
 ---
