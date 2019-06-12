@@ -32,7 +32,24 @@ Also, rather than footnotes, we believe direct links included in the text are be
 
 ## Architecture
 
-The content of the encyclopedia is organized along three dimensions: **phase, type and criterion**. When contributing, please add your content in the relevant section. You can learn more about this architecture on our [Concepts](https://disinfo.quaidorsay.fr/encyclopedia/concepts) page.
+The content of the encyclopedia is organized along three dimensions: _phase_, _type_ and _criterion_. When contributing, please add your content in the relevant section.
+
+Phases and criteria are documented on the [homepage](https://disinfo.quaidorsay.fr/encyclopedia/). We do not provide an exhaustive list of criteria as they depend on each organisation. However, we ask that you have a look at the existing ones before introducing a new one.
+
+The four types are:
+
+Case studies
+: real-life examples of applications of the phase.
+
+Practices
+: abstract, generic and applicable methods, methodologies and documentation.
+
+Tools
+: concrete, immediately reusable tools, be they digital or analog.
+
+Actors
+: organisations that are prominent in their field, and could be considered for reaching out to or inviting to an event.
+
 
 ## Content guidelines
 
