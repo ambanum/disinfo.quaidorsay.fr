@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Introduction
 permalink: /encyclopedia
 nav_order: 1
