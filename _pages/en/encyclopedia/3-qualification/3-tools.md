@@ -89,18 +89,18 @@ Manual classification        | Estimated Botometer score range
 undoubtedly inauthentic      | 4.2–5.0 score
 apparently inauthentic       | 3.8–4.2 score
 probably inauthentic         | 3.2–3.8 score
-perhaps *                    | 2.0–3.2 score
+perhaps _either_             | 2.0–3.2 score
 probably authentic           | 1.4–2.0 score
 apparently authentic         | 1.0–1.4 score
 undoubtedly authentic        | 0.0–1.0 score
 
-This original dataset was largely unbalanced in favour of suspicious accounts, so we added a hundred of accounts that we know are authentic (friends and celebrities) on May 27th, 2019.
+This original dataset was largely unbalanced in favour of suspicious accounts, so we added another group of 100 accounts that we know are authentic (friends and celebrities) on May 27th, 2019.
 
 ###### Limitations
 
-Botometer scores of the classified accounts were then calculated on May 22nd, 2019. This time difference in computation is a human error and problematic, as some accounts were not available anymore and differences in assessment can also be induced by the time gap (a seemingly inauthentic account in February might become more human-like two months later, and the other way around). In order to mitigate this issue, we provided the Botometer API with timelines and mentions as close as possible to their value on March 1st, 2019. In particular, we discarded tweets newer than March 1st, 2019.
+Botometer scores of the classified accounts were calculated at a later stage, on May 22nd, 2019. This time difference in computation is a human error. A few accounts were not available anymore, and we excluded them from the analysis, resulting in a slightly lower number. Differences in assessment could also be induced by the time gap (a seemingly inauthentic account in February might become more human-like two months later, and the other way around). In order to mitigate this issue, we ran the Botometer API on timelines and mentions reconstructed for March 1st, 2019, through data scraping. The only limitation to this approach is that some mentions might have been deleted by their authors.
 
-This evaluation was made on a dataset that we built to be highly varied, however it cannot capture the full diversity of both authentic and inauthentic accounts that can be found in the Twitter community.
+This evaluation was made on a dataset that we built to be highly varied, however it cannot capture the full diversity of both authentic and inauthentic accounts that can be found in the Twitter community. This work does not claim to assess all contexts on which Botometer can be used, but we believe it is the largest third-party assessment available to date.
 
 ###### Results
 
