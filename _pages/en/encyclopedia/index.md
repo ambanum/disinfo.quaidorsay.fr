@@ -1,9 +1,9 @@
 ---
-layout: home
 title: Introduction
 permalink: /encyclopedia
 nav_order: 1
 numbered_headers: false
+css: home
 ---
 
 ## If you’re reading this, you’re probably trying to counter disinformation.
