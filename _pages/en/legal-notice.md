@@ -1,4 +1,5 @@
 ---
+layout: encyclopedia
 permalink: /legal-notice
 ---
 
