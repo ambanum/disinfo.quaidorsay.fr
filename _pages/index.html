@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /
+title: Tools to counter disinformation
+description: The Office of the French Ambassador for Digital Affairs builds tools to counter information manipulations that aim to disrupt social cohesion and electoral processes.
+---
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+		<title>{{ page.title }}</title>
+		<meta name="description" content="{{ page.description }}">
+
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<noscript>
+			<meta http-equiv="refresh" content="0; URL=/fr">
+		</noscript>
+	</head>
+
+	<body class="landing">
+		<script>
+			const lang = navigator.language || navigator.userLanguage;
+
+			if (lang.includes('fr')) {
+				window.location = '/fr';
+			} else {
+				window.location = '/en';
+			}
+		</script>
+
+		<h2>You should be redirected to the page with the most appropriate language given by your browser.</h2>
+
+		<p>If this does not happen automatically, you can go to the <a href="/en">English version</a> directly.</p>
+
+		<hr/>
+
+		<h2>Vous devriez être redirigé‧e vers une page dans la langue la plus appropriée d'après votre navigateur.</h2>
+
+		<p>Si cela n’a pas lieu automatiquement, vous pouvez aller à la <a href="/fr">version française</a> directement.</p>
+
+		{% include tracking.html %}
+	</body>
+</html>

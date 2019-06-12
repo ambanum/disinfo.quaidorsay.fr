@@ -1,7 +1,6 @@
 ---
 permalink: /about
 title: About
-nav_exclude: true
 ---
 
 # About the authors of this content

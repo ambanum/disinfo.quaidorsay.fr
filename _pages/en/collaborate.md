@@ -1,7 +1,7 @@
 ---
+layout: encyclopedia
 permalink: /collaborate
 title: Error
-nav_exclude: true
 ---
 
 # The collaboration chat is apparently unavailable 😰

@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: encyclopedia
 permalink: /legal-notice
-nav_exclude: true
 ---
 
 # Legal notice
