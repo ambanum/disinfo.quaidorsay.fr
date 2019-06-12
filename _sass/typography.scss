@@ -63,8 +63,6 @@
   h4,
   h5,
   h6 {
-    clear: both;
-    overflow: hidden;
     font-weight: 600;
 
     &.thin {
@@ -130,10 +128,5 @@
 
   abbr[title] {
     text-decoration: none;
-  }
-
-  p {
-    clear: both;
-    overflow: hidden;
   }
 }
