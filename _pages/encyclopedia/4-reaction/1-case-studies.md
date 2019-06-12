@@ -23,19 +23,19 @@ It focuses on massive and rapid spreads of disinformation through social media i
 
 #### Social media
 
-The law compels social media operators to be more transparent by adding name and cost of sponsored political and issue-based content. The largest platforms must have a legal representative in France (article 13) and publish the distribution of organic vs algorithmically recommended views for all political and issue-based content (article 14).
+The law compels social media operators to be more transparent by adding name and cost of sponsored political and issue-based content. The largest platforms must have a legal representative in France [(article 13)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847577) and publish the distribution of organic vs algorithmically recommended views for all political and issue-based content [(article 14)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847578).
 
-For the three months before an election, content that is “inexact or misleading” and that has an “ability to alter the sincerity of the vote” can be ordered to be taken down by a judge. In order to be targeted, the content also has to be spread “deliberately, artificially or automatically” and massively”. Both ruling and appeal have to take at most 48 hours (article 1, creating [article L163-2](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000037850595&dateTexte=&categorieLien=cid) of the Electoral code)
+For the three months before an election, content that is “inexact or misleading” and that has an “ability to alter the sincerity of the vote” can be ordered to be taken down by a judge. In order to be targeted, the content also has to be spread “deliberately, artificially or automatically” and massively”. Both ruling and appeal have to take at most 48 hours ([article 1](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847565), creating [article L163-2](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000037850595&dateTexte=&categorieLien=cid) of the Electoral code)
 
-Beyond election times, platforms ought to cooperate, as well as build and implement open measures to fight disinformation. They must give a yearly report of their actions to the French Superior Council of the Audiovisual (CSA) (article 11). This reminds of the [EU Code of practice](#eu-code-of-practice-on-disinformation).
+Beyond election times, platforms ought to cooperate, as well as build and implement open measures to fight disinformation. They must give a yearly report of their actions to the French Superior Council of the Audiovisual (CSA) [(article 11)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847575). This reminds of the [EU Code of practice](#eu-code-of-practice-on-disinformation).
 
 #### Foreign controlled publishers
 
-The CSA has been given authority to hinder or interrupt the broadcasting of foreign state-owned (or state-influenced) broadcasting services when there is “a grave risk” to human dignity, freedom, property, pluralism, public order, defence needs, fundamental national interests (article 5).
+The CSA has been given authority to hinder or interrupt the broadcasting of foreign state-owned (or state-influenced) broadcasting services when there is “a grave risk” to human dignity, freedom, property, pluralism, public order, defence needs, fundamental national interests [(article 5)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847569).
 
 #### Media education
 
-The law adds to the duties of the national educational system to train pupils in media literacy and recognising information manipulation (articles 16 to 19).
+The law adds to the duties of the national educational system to train pupils in media literacy and recognising information manipulation [(articles 16 to 19)](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037847559&categorieLien=id#JORFARTI000037847580).
 
 #### [Jurisprudence](https://www.dalloz-actualite.fr/flash/loi-fake-news-premiere-application-du-refere)
 
