@@ -10,7 +10,7 @@ Facebook lauched the “[Ads Library](https://www.facebook.com/ads/library/)” 
 
 The Facebook Ads Library can be explored online through a web interface, and queried by an [API](https://www.facebook.com/ads/library/api/). For each country, aggregated data is published in the form of “[reports](https://www.facebook.com/ads/library/report/)”: a web page containing dynamic tables and a downloadable CSV file.
 
-The Ads Library initially covered the USA, was extended to the UK, Brazil, India, Ukraine and Israel in June 2018 and to the European Union members in May 2019. All of these coutries have a report, except Brazil.
+The Ads Library initially covered the USA, was extended to the UK and Brazil in June 2018, in India on [February 21](https://newsroom.fb.com/news/2018/12/ad-transparency-in-india/), Israel on [March 17](https://www.timesofisrael.com/facebook-rolls-out-political-ad-transparency-less-than-a-month-before-polls/) and [leading up to the presidential elections](https://newsroom.fb.com/news/2019/03/a-better-way-to-learn-about-ads/) of March 31 in Ukraine, as well as to the European Union members in May 2019. All of these coutries have a report, except Brazil.
 
 ## Limitations
 
