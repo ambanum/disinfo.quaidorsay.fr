@@ -15,7 +15,7 @@ The Ads Library initially covered the USA, was extended to the UK, Brazil, India
 
 ## Limitations
 
-### Reports are sketchy
+### Reports do not contain ad content
 
 The data of the reports is aggregated by Facebook page or by geographic area, and it contains only the following fields:
 
@@ -54,7 +54,7 @@ This pagination system is brittle when the number of results is high compared to
 
 The poor availability of the API, combined with the pagination system that requires numerous requests, makes it hard to download the entirety of the Ads Library for every country and impossible for some. The USA, for instance, counts 3.8 million ads and we observed that requests cannot ask for more that 2000 ads each. To reach the last page, one has to successfully execute about 1900 requests in order, which we found **impossible to achieve in the two weeks we tried**. Furthermore, we observed that such a request takes 11 seconds on average to complete. The download is expected to take about 6 hours, independently of the equipment used by the API client since parallelization is impossible.
 
-Despite the aforementioned challenges, the Ads Library can be downloaded exhaustively for countries that were recently added (like the members of the European Union as of June 2019) with enough time and retries. However, this becomes increasingly difficult as the stock of ads grows.
+Despite the aforementioned challenges, the Ads Library can be downloaded exhaustively for countries that were recently added (like the members of the European Union as of June 2019) given enough time and retries. However, **this will become increasingly difficult as the stock of ads grows**, preventing thorough analysis of the impact of political ads on society in a matter of months.
 
 ### Authentication
 
@@ -62,9 +62,13 @@ The Facebook authentication mechanism used to provide access to the Ads Library 
 
 Access to the Ads Library API requires a “User Access Token”, which is one of the 4 types of tokens provided by the Facebook Graph API (User Access Token, App Access Token, Page Access Token, Client Token). A User Access Token is associated with a Facebook user account and a Facebook app. In order to get a User Access Token for a given app, a Facebook User has to manually log into their Facebook account (usually through a web form, using a web browser), then query the Facebook Graph API endpoint `dialog/oauth`. This endpoint is missing in the Facebook Graph API reference, and we found no other official documentation of this authentication workflow than a [tutorial](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/).
 
-Both the creator of the app and the user querying the Ads Library API on behalf of the app (they can be the same user) must both go though the same certification process needed to publish ads. This certification process confirms the identity and the location of the user to Facebook by providing a copy of an identity document with a photograph. This certification is not automated as it invoves a manual review of the document by a Facebook agent. We observed that our certification requests were processed within hours.
+Both the creator of the app and the user querying the Ads Library API on behalf of the app (they can be the same user) must both go though the certification process needed to _publish_ ads. This certification process confirms the identity and the location of the user to Facebook by providing a copy of an official identity document with a photograph. This certification is not automated as it involves a manual review of the document by a Facebook agent. We observed that our certification requests were processed within hours, which is satisfactory.
 
 However, a User Access Token requires frequent renewals, as it is valid for only one to two hours. Additionally, Facebook implements several technical measures that prevent automation of this renewal process. Particularly, the Facebook login form depends upon complex management of cookies and form parameters. Certified accounts must also comply to multi-factor authentication during the login process, making it even harder to automate the process.
+
+This means that any research done on the Ads Library is expected by Facebook to be made in chunks of two hours, after which a new token is to be obtained.
+
+This also means that Facebook can trace any access to a political ad through their API, be it by a researcher or a citizen, to a physical person.
 
 ### Media are hard to fetch
 
@@ -72,9 +76,13 @@ The Facebook Ads Library gives access to the URL of a snapshot of any given ad. 
 
 Here again, the technical solutions chosen by Facebook hinder the automatic download of these resources. The display of the snapshot involves a React application and API calls made using JavaScript, rather than a downloadable bundle.
 
+This means that ad media, such as images and videos, which make most of the time the most important part of the content, is made very hard to access to researchers.
+
+This also means that Facebook can trace any access to a political ad, be it by a researcher or a citizen, both to the physical person providing access, and to the person consulting the ad, even if they do not use the API to do so.
+
 ### Poor data integrity
 
-We [download regularly](https://desinfo.quaidorsay.fr/ads/dumps/) the content of the Ads Library [using its API](https://github.com/ambanum/political-ads-scraper). We observed that some ads get regularly removed from the library, in contradiction with Facebook's pledge to keep the data during seven years:
+In order to conduct research despite the aforementioned limitations, we [download regularly](https://desinfo.quaidorsay.fr/ads/dumps/) the content of the Ads Library using its API through [open-source code](https://github.com/ambanum/political-ads-scraper). We observed that some ads get removed from the library, in contradiction with Facebook's pledge:
 
 > "The Library contains data on every active and inactive ad about social issues, elections or politics that's run since March 2019. We'll keep each of these ads in the Library for seven years."
 
@@ -88,7 +96,9 @@ Date    | Number of ads | New ads | Removed ads
 2019-05-27 16-23-19 | 9277 | 2 | 13
 2019-05-27 16-30-54 | 9277 | 0 | 0
 
-For example, we can count 13 ads on May 16th and 14 ads on May 20th promoting or criticizing a French MEP candidate for the EU elections. On May 27th, only 2 of these ads are still visible through both the search engine and the API.
+For example, we can count 13 ads on May 16th and 14 ads on May 20th promoting or criticizing a French MEP candidate for the EU elections. Such advertisements are [illegal in France](https://disinfo.quaidorsay.fr/encyclopedia/qualification/tools#publicité-politique-en-période-électorale). On May 27th, however, only 2 of these ads are still visible through both the search engine and the API.
+
+To put it otherwise, **Facebook removed 31% of ads in the French library over the week of the European parliamentary elections, including at least 12 ads that were illegal under French law**. This fundamentally questions the usefulness of such a tool to investigate foreign interference and study the impact of political advertisement.
 
 Here are some examples of ads that were removed between May 20th and May 27th:
 
