@@ -27,7 +27,7 @@ nav_exclude: false
 
 There have been many great transatlantic conferences for showcasing studies, trying to quantify the impact of disinformation, and discussing whether “fake news” were dealt with and what the next stages of manipulation were.
 
-We want to create a specific space for practitioners to share their practices, tools and experiences in _reacting to_ disinformation campaigns, _attributing_ their source, and _preventing_ their impact on the public. We will also host an open hackathon, during which the first EU technical training workshop for Facebook’s [Social Science One](https://socialscience.one) will offer privileged data access.
+We want to create a specific space for practitioners to share their practices, tools and experiences in _reacting to_ disinformation campaigns, _attributing_ their source, and _preventing_ their impact on the public. We will also host an open hackathon, during which Facebook will offer a training workshop on the use of the data prepared for its collaboration with [Social Science One](https://socialscience.one).
 
 **The Office of the French Ambassador for Digital Affairs, building [open tools against information manipulation](https://disinfo.quaidorsay.fr), invites you for two days focused on the ways in which we can _actually_ decrease the amount of disinformation citizens are confronted to on a daily basis, today and the day after.**
 
@@ -73,12 +73,12 @@ On the second day, we will host a hackathon pairing social science researchers w
 
 Since this hackathon will be host to Facebook Social Science One’s first EU technical training, you will have access to:
 
+- The [Ads Library](https://www.facebook.com/ads/library/), which is already public.
 - The [CrowdTangle](https://www.crowdtangle.com) API.
-- A preview of the [URLs dataset](https://socialscience.one/rfps), fine-grained data on the diffusion of links on Facebook. _You will have access to a live system, but the URLs data will be fake: only accredited researchers will have access to it. However, your usage of the tool will enable to improve its API and help researchers define the boundaries of what they could do with it._
+- A preview of the [URLs dataset](https://socialscience.one/url-shares-codebook), fine-grained data on the diffusion of links on Facebook. _You will have access to a live system, but the URLs data will be fake: only accredited researchers will have access to it. However, your usage of the tool will enable to improve its API and help researchers define the boundaries of what they could do with it. As a researcher, participating will help you assess applying for permanent access via Social Science One._
 
-You can also use open data sources such as:
+You can also use public sources such as:
 
-- Facebook’s [Ads Library](https://www.facebook.com/ads/library/).
 - Twitter’s [political advertisers](https://ads.twitter.com/transparency/i/political_advertisers).
 - [Several millions](https://disinfo.quaidorsay.fr/encyclopedia/research/tools#disinformation-datasets) of troll tweets and accounts.
 
