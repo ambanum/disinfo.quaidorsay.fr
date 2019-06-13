@@ -15,7 +15,7 @@ The Ads Library initially covered the USA, was extended to the UK, Brazil, India
 
 ## Limitations
 
-### Reports do not contain ad content
+### Public reports do not contain ad content
 
 The data of the reports is aggregated by Facebook page or by geographic area, and it contains only the following fields:
 
@@ -27,7 +27,11 @@ The data of the reports is aggregated by Facebook page or by geographic area, an
 
 In particular, the reports provides no information about the content of the ads.
 
-### Incomplete documentation of the API
+### Lack of information on ad funders
+
+The queried fields are not filled in for all the results returned by the Ads Library API. For example, as of May 16th, the funder of the ad was provided for only 791 ads on a total of 12928 ads displayed in France, just above 6%.
+
+### Incomplete API documentation
 
 In our effort to use the Ads Library API, we experienced difficulties with the documentation, either because the needed information was hard to locate or missing altogether. In particular, we ran through the following issues:
 
@@ -46,7 +50,7 @@ Requests to the API lead frequently and unpredictably to undocumented errors. We
 
 We also observed that the CSV files of all the reports were [unavailable](https://twitter.com/michel_blancard/status/1133002243702239232) on May 27th for several hours, with no notification.
 
-### Pagination
+### Brittle pagination prevents batch downloads
 
 Results to a query to the API are paginated, requiring several requests to fetch all the results. The response to each query contains a cursor to the next query. As the documentation states, this cursor is a random string that points to a specific element in the list of the results. This cursor cannot be guessed by the API client. Consequently, each request for a given query must be sent after the results of the previous query have been received, preventing parallelization and slowing down downloads.
 
@@ -56,7 +60,7 @@ The poor availability of the API, combined with the pagination system that requi
 
 Despite the aforementioned challenges, the Ads Library can be downloaded exhaustively for countries that were recently added (like the member states of the European Union as of June 2019) given enough time and retries. However, **this will become increasingly difficult as the stock of ads grows**, preventing thorough analysis of the impact of political ads on society in a matter of months.
 
-### Authentication
+### Traceability of all political studies
 
 The Facebook authentication mechanism used to provide access to the Ads Library is complex, subject to strict requirements, and designed to prevent full automation.
 
@@ -70,7 +74,7 @@ This means that any research done on the Ads Library is expected by Facebook to 
 
 This also means that Facebook can trace any access to a political ad through their API, be it by a researcher or a citizen, to a physical person.
 
-### Media are hard to fetch
+### No automated access to ad media
 
 The Facebook Ads Library gives access to the URL of a snapshot of any given ad. The URL of this snapshot contains the same User Access Token that was used to query the API. However, the user that made the query must use a web browser and connect to Facebook prior to accessing the snapshot.
 
@@ -120,7 +124,3 @@ Je vous invite dès maintenant à faire campagne et à appeler à voter pour l�
 Facebook ID: 2316760961894602
 Text: "J'ai ouvert cette page de soutien à Francois Xavier Bellamy parce que je connais ce brillant jeune homme depuis longtemps, et en particulier pour l'avoir croisé et entendu au cours de manifestations ou réunions Alliance Vita (Universités de la Vie) Paray le Monial, soirées philo etc. etc. Son engagement public est un signe d'espérance et un témoignage exemplaire au service du bien commun pour toutes les classes politiques en France. L'engagement civique d'un chrétien, catholique, tel que Francois Xavier Bellamy, apportera au débat public une vision du monde, de la France et de l'Europe mais aussi une pratique et un langage exemplaires dans leur lucidité et leur exigence de vérité et de loyauté."
 ```
-
-### Incomplete information
-
-The queried fields are not filled in for all the results returned by the Ads Library API. For example, as of May 16th, the funder of the ad was provided for only 791 ads on a total of 12928 ads displayed in France, just above 6%.
