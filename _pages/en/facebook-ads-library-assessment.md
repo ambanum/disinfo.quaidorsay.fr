@@ -93,9 +93,9 @@ This also means that Facebook can trace any access to a political ad, be it by a
 
 In order to conduct research despite the aforementioned limitations, we [download regularly](https://desinfo.quaidorsay.fr/ads/dumps/) the content of the Ads Library using its API through [open-source code](https://github.com/ambanum/political-ads-scraper). We observed that some ads get removed from the library, in contradiction with Facebook's pledge:
 
-> "The Library contains data on every active and inactive ad about social issues, elections or politics that's run since March 2019. We'll keep each of these ads in the Library for seven years."
+> The Library contains data on every active and inactive ad about social issues, elections or politics that's run since March 2019. We'll keep each of these ads in the Library for seven years.
 
-Date    | Number of ads | New ads | Removed ads
+Date    | Total ads | New ads | Removed ads
 --------|---------------|---------|------------
 2019-05-16 11-55-05 | 12838 | N/A | N/A
 2019-05-16 15-30-09 | 12946 | 110 | 2
