@@ -132,4 +132,4 @@ Text: "J'ai ouvert cette page de soutien à Francois Xavier Bellamy parce que je
 
 ## Additional information
 
-You can follow the number of ads claimed to be in the public report, as well as the number of ads actually available through the API, for all European Union member states ads libraries, updated on a daily basis, on [disinfo.quaidorsay.fr/political-ads/consistency](/political-ads/consistency).
+You can follow the number of ads claimed to be in the public report, as well as the number of ads actually available through the API, for all European Union member states ads libraries, updated on a daily basis, on [disinfo.quaidorsay.fr/political-ads/consistency](https://disinfo.quaidorsay.fr/political-ads/consistency).
