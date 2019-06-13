@@ -78,7 +78,7 @@ Botometer being closed source and having been built in 2016 from a US-based data
 
 ###### Methodology
 
-Between the 26th and 28th February 2019, manual annotations were made by 12 French students of [Sciences-Po Saint-Germain-en-Laye](https://www.sciencespo-saintgermainenlaye.fr) (M1 level). They were presented with an initial sample of 20 Twitter accounts representing authentic and inauthentic accounts, asked to classify them as pairs of certainty adverbs and authentic / inauthentic types (e.g. “certainly a bot”, “probably a human”…).  Each annotation was made by pairs of students and then reviewed by another, independent pair.  Feedback was given by experts for the initial 20, and then on demand.
+Between the 26th and 28th February 2019, manual annotations were made by 12 French students of [Sciences-Po Saint-Germain-en-Laye](https://www.sciencespo-saintgermainenlaye.fr) (M1 level). They were presented with an initial sample of 20 Twitter accounts representing authentic and inauthentic accounts, asked to classify them as pairs of certainty adverbs and authentic / inauthentic types (e.g. “certainly a bot”, “probably a human”…). Each annotation was made by pairs of students and then reviewed by another, independent pair. Feedback was given by experts for the initial 20, and then on demand.
 
 Students were then asked to select and classify another hundred account, with no specific criteria for selection. An exploratory algorithm was then designed and implemented, selecting accounts that were likely to be bots according to the most successful criteria as spotted by the human classifiers. A subset (312) of these accounts were then manually classified, once again by two independent pairs of students. A random subset (~ 80) of these annotations was then reviewed another time by disinformation experts. More information on methodology and results can be found on [sismo.quaidorsay.fr](http://sismo.quaidorsay.fr).
 
@@ -87,33 +87,34 @@ Annotations were then transformed into numbers for easier comparison with Botome
 Manual classification        | Estimated Botometer score range
 -----------------------------|--------------------------------
 undoubtedly inauthentic      | 4.2–5.0 score
-apparently inauthentic        | 3.8–4.2 score
+apparently inauthentic       | 3.8–4.2 score
 probably inauthentic         | 3.2–3.8 score
-perhaps *                    | 2.0–3.2 score
+perhaps _either_             | 2.0–3.2 score
 probably authentic           | 1.4–2.0 score
-apparently authentic          | 1.0–1.4 score
+apparently authentic         | 1.0–1.4 score
 undoubtedly authentic        | 0.0–1.0 score
 
- Botometer scores of the classified accounts were then calculated on the 19th and 24th Apr 2019.
+This original dataset was largely unbalanced in favour of suspicious accounts, so we added another group of 100 accounts that we know are authentic (friends and celebrities) on May 27th, 2019.
 
 ###### Limitations
 
-This time difference in computation is a human error and problematic, as some accounts were not available anymore and differences in assessment can also be explained by the time gap (a seemingly inauthentic account in February might become more human-like two months later, and the other way around).
+Botometer scores of the classified accounts were calculated at a later stage, on May 22nd, 2019. This time difference in computation is a human error. A few accounts were not available anymore, and we excluded them from the analysis, resulting in a slightly lower number. Differences in assessment could also be induced by the time gap (a seemingly inauthentic account in February might become more human-like two months later, and the other way around). In order to mitigate this issue, we ran the Botometer API on timelines and mentions reconstructed for March 1st, 2019, through data scraping. The only limitation to this approach is that some mentions might have been deleted by their authors.
 
-The difference is thus necessarily overestimated.
-
+This evaluation was made on a dataset that we built to be highly varied, however it cannot capture the full diversity of both authentic and inauthentic accounts that can be found in the Twitter community. This work does not claim to assess all contexts on which Botometer can be used, but we believe it is the largest third-party assessment available to date.
 
 ###### Results
 
-![Botometer assessment](/assets/img/botometer-validation.png)
+[![Botometer assessment](/assets/img/3-qualification/3-tools/botometer-scatterplot.png)](/assets/img/3-qualification/3-tools/botometer-scatterplot.png)
 
-Botometer seems to have more certainty than our human classifiers, however it also had [seven more weeks](#limitations) worth of data to assess the accounts. Due to this time difference in assessment, we cannot conclude on the global reliability of Botometer. We can however see that the classification of “undoubtedly inauthentic” accounts seems to be quite as accurately made by Botometer as it is by humans.
+The two main clusters of accounts that were evaluated both as authentic or both as inauthentic by humans and Botometer, indicates that Botometer generally makes guesses similar to humans, even in a non-English context.
 
 ##### Chatbot wrapper
 
 This tool gives users the probability that Twitter accounts that have tweeted a specific content are authentic.
 
 All that a user has to do is send a link to one piece of content to the bot via the "Analysis" channel of our [collaboration chat](/collaborate).
+
+![On the latest 94 retweets of “some tweet”, 7% have a high probablity to be made by bots, 57% have a high probability to be made by humans, for the remaining 36% it’s hard to tell](/assets/img/3-qualification/3-tools/botometer-chatbot.png)
 
 The bot assesses the probability that the accounts that have tweeted said content (up to 100 accounts) during the last seven days are robots.
 
@@ -126,8 +127,6 @@ As well as the percentage of these **accounts** themselves that are:
 - very likely to be bots
 - very likely to be humans
 - unclear in nature
-
-<!-- add a screenshot -->
 
 
 #### [x0rz/tweets_analyzer](https://github.com/x0rz/tweets_analyzer)
