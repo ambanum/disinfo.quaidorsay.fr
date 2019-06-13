@@ -54,7 +54,7 @@ This pagination system is brittle when the number of results is high compared to
 
 The poor availability of the API, combined with the pagination system that requires numerous requests, makes it hard to download the entirety of the Ads Library for every country and impossible for some. The USA, for instance, counts 3.8 million ads and we observed that requests cannot ask for more that 2000 ads each. To reach the last page, one has to successfully execute about 1900 requests in order, which we found **impossible to achieve in the two weeks we tried**. Furthermore, we observed that such a request takes 11 seconds on average to complete. The download is expected to take about 6 hours, independently of the equipment used by the API client since parallelization is impossible.
 
-Despite the aforementioned challenges, the Ads Library can be downloaded exhaustively for countries that were recently added (like the members of the European Union as of June 2019) given enough time and retries. However, **this will become increasingly difficult as the stock of ads grows**, preventing thorough analysis of the impact of political ads on society in a matter of months.
+Despite the aforementioned challenges, the Ads Library can be downloaded exhaustively for countries that were recently added (like the member states of the European Union as of June 2019) given enough time and retries. However, **this will become increasingly difficult as the stock of ads grows**, preventing thorough analysis of the impact of political ads on society in a matter of months.
 
 ### Authentication
 
