@@ -105,3 +105,7 @@ Je vous invite dès maintenant à faire campagne et à appeler à voter pour l�
 Facebook ID: 2316760961894602
 Text: "J'ai ouvert cette page de soutien à Francois Xavier Bellamy parce que je connais ce brillant jeune homme depuis longtemps, et en particulier pour l'avoir croisé et entendu au cours de manifestations ou réunions Alliance Vita (Universités de la Vie) Paray le Monial, soirées philo etc. etc. Son engagement public est un signe d'espérance et un témoignage exemplaire au service du bien commun pour toutes les classes politiques en France. L'engagement civique d'un chrétien, catholique, tel que Francois Xavier Bellamy, apportera au débat public une vision du monde, de la France et de l'Europe mais aussi une pratique et un langage exemplaires dans leur lucidité et leur exigence de vérité et de loyauté."
 ```
+
+### Incomplete information 
+
+The queried fields are not filled in for all the results returned by the Ads Library API. For example, as of May 16th, the financer of the ad was provided for 791 ads on a total of 12928 ads displayed in France.
