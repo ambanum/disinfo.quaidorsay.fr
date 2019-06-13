@@ -1,6 +1,5 @@
 ---
-permalink: /encyclopedia/facebook-ads-library
-nav_exclude: true
+permalink: /en/facebook-ads-library
 ---
 
 # Facebook Ads Library
