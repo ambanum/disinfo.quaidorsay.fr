@@ -75,7 +75,7 @@ Since this hackathon will be host to Facebook Social Science One’s first EU te
 
 - The [Ads Library](https://www.facebook.com/ads/library/), which is already public.
 - The [CrowdTangle](https://www.crowdtangle.com) API.
-- A preview of the [URLs dataset](https://socialscience.one/url-shares-codebook), fine-grained data on the diffusion of links on Facebook. _You will have access to a live system, but the URLs data will be fake: only accredited researchers will have access to it. However, your usage of the tool will enable to improve its API and help researchers define the boundaries of what they could do with it. As a researcher, participating will help you assess applying for permanent access via Social Science One._
+- A preview of the [URLs dataset](https://socialscience.one/url-shares-codebook), fine-grained data on the diffusion of links on Facebook. _You will have access to a live system, but the URLs data concerning user activity will be synthetic: only accredited researchers will have access to it. However, your usage of the tool will enable to improve its API and help researchers define the boundaries of what they could do with it. As a researcher, participating will help you assess applying for permanent access via Social Science One._
 
 You can also use public sources such as:
 
