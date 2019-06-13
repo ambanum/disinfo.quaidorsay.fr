@@ -7,11 +7,11 @@ numbered_headers: true
 
 ## Introduction
 
-Facebook lauched the “[Ads Library](https://www.facebook.com/ads/library/)” in May 2018 in order to bring more transparency about the ads concerning political issues that are published on its platform.
+Facebook launched the “[Ads Library](https://www.facebook.com/ads/library/)” in May 2018 in order to bring more transparency about the ads concerning political issues that are published on its platform.
 
 The Facebook Ads Library can be explored online through a web interface, and queried by an [API](https://www.facebook.com/ads/library/api/). For each country, aggregated data is published in the form of “[reports](https://www.facebook.com/ads/library/report/)”: a web page containing dynamic tables and a downloadable CSV file.
 
-The Ads Library initially covered the USA, was extended to the UK and Brazil in June 2018, in India on [February 21](https://newsroom.fb.com/news/2018/12/ad-transparency-in-india/), Israel on [March 17](https://www.timesofisrael.com/facebook-rolls-out-political-ad-transparency-less-than-a-month-before-polls/) and [leading up to the presidential elections](https://newsroom.fb.com/news/2019/03/a-better-way-to-learn-about-ads/) of March 31 in Ukraine, as well as to the European Union members in May 2019. All of these coutries have a report, except Brazil.
+The Ads Library initially covered the USA, was extended to the UK and Brazil in June 2018, in India on [February 21](https://newsroom.fb.com/news/2018/12/ad-transparency-in-india/), Israel on [March 17](https://www.timesofisrael.com/facebook-rolls-out-political-ad-transparency-less-than-a-month-before-polls/) and [leading up to the presidential elections](https://newsroom.fb.com/news/2019/03/a-better-way-to-learn-about-ads/) of March 31 in Ukraine, as well as to the European Union members in May 2019. All of these countries have a report, except Brazil.
 
 ## Limitations
 
@@ -54,7 +54,7 @@ We also observed that the CSV files of all the reports were [unavailable](https:
 
 Results to a query to the API are paginated, requiring several requests to fetch all the results. The response to each query contains a cursor to the next query. As the documentation states, this cursor is a random string that points to a specific element in the list of the results. This cursor cannot be guessed by the API client. Consequently, each request for a given query must be sent after the results of the previous query have been received, preventing parallelization and slowing down downloads.
 
-This pagination system is brittle when the number of results is high compared to the page size, and when the list of results is mutable. The [documentation explicitely states](https://developers.facebook.com/docs/graph-api/using-graph-api/#paging) that a cursor becomes invalid when its associated element is removed from the list. We observed that progression though the pages frequently breaks unrecoverably as if the cursor became invalid, at which point going back to the first result page is the only option.
+This pagination system is brittle when the number of results is high compared to the page size, and when the list of results is mutable. The [documentation explicitly states](https://developers.facebook.com/docs/graph-api/using-graph-api/#paging) that a cursor becomes invalid when its associated element is removed from the list. We observed that progression though the pages frequently breaks irrecoverably as if the cursor became invalid, at which point going back to the first result page is the only option.
 
 The poor availability of the API, combined with the pagination system that requires numerous requests, makes it hard to download the entirety of the Ads Library for every country and impossible for some. The USA, for instance, counts 3.8 million ads and we observed that requests cannot ask for more that 2000 ads each. To reach the last page, one has to successfully execute about 1900 requests in order, which we found **impossible to achieve in the two weeks we tried**. Furthermore, we observed that such a request takes 11 seconds on average to complete. The download is expected to take about 6 hours, independently of the equipment used by the API client since parallelization is impossible.
 
