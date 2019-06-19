@@ -46,7 +46,7 @@ Statements are often duplicated in several places in exact or similar terms. All
 
 For instance, the [issue ads FAQs](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/issue-ads-policy-FAQs.html) applies worldwide, yet makes recurring references to the USA (bold ours):
 
-> Twitter's Political Content Policy includes Issue Advocacy which applies to ads that refer to an election or a clearly identified candidate or ads that advocate for legislative issues of national importance. Note that this policy applies to promoted content related to **federal, state, and local elections**.
+> Twitter’s Political Content Policy includes Issue Advocacy which applies to ads that refer to an election or a clearly identified candidate or ads that advocate for legislative issues of national importance. Note that this policy applies to promoted content related to **federal, state, and local elections**.
 
 > Will the issue ads policy cover other issues in the future? We are continually looking into these issues based on **the U.S. political climate**.
 
@@ -98,13 +98,13 @@ However, these pages state that the obligation only holds for ads related to the
 >
 > Political campaigning ads for EU Parliamentary Elections ONLY must meet additional eligibility requirements and apply for certification. ([Source](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/eu-political-content.html))
 
-The old title of the [help page for the certification process](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/how-to-get-certified.html) prior to the extension to the European Union still appears on the browser tab: “How to get certified as a political campaigning advertiser is the U.S.”.
+The old title of the [help page for the certification process](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/how-to-get-certified.html) prior to the extension to the European Union still appears: “How to get certified as a political campaigning advertiser in the U.S.”.
 
 ### No comprehensive access to political ads
 
 As of June 17<sup>th</sup>, 2019, the [Ads Transparency Center](https://ads.twitter.com/transparency) consists of:
 
-- a search engine on Twitter's ads;
+- a search engine on Twitter’s ads;
 - the list of certified advertisers for political campaigning, for the USA, the European Union, Australia and India;
 - the list of certified issue advertisers for US issue advertising.
 
@@ -186,9 +186,9 @@ In case of suspended content, Twitter [states](https://ads.twitter.com/transpare
 
 #### Unexplained data removal
 
-We are monitoring the content displayed in the Ads Transparency Center about European certified political advertisers, since June 7th, 2019.
+We are monitoring the content displayed in the Ads Transparency Center about European certified political advertisers, since June 7<sup>th</sup>, 2019.
 
-We observed that among the 505 tweets classified as political advertising about the EU parliamentary election available on the Ads Transparency Center on June 11<sup>th</sup> 2019, 92 [were removed](https://github.com/ambanum/political-ads-scraper/blob/master/twitter_fetch/scripts/consistency.ipynb) by June 12<sup>th</sup> 2019. However, most these tweets were still shown on Twitter as of June 19<sup>th</sup>, indicating that these removals were not justified by the content policies.
+We observed that among the 505 tweets classified as political advertising about the EU parliamentary election available on the Ads Transparency Center on June 11<sup>th</sup> 2019, 92 [were removed](https://github.com/ambanum/political-ads-scraper/blob/master/twitter_fetch/scripts/consistency.ipynb) by June 12<sup>th</sup> 2019. However, most of these tweets were still shown on Twitter as of June 19<sup>th</sup>, indicating that these removals were not justified by the content policies.
 
 Here are some of the tweets that were removed:
 
@@ -196,7 +196,7 @@ Here are some of the tweets that were removed:
 
 > "In Bezug auf die wirtschaftliche Stärke der USA und Chinas, ist Stillhalten keine Option für Deutschland, Frankreich oder die EU! Wir müssen Handel treiben können, mit wem wir möchten!" - @BrunoLeMaire spricht JETZT beim #TDI19! #WhichEurope https://t.co/7sNMJ9g6Kl ([original tweet](https://twitter.com/Der_BDI/status/1135857738309931008))
 
-    
+
 > "Wir müssen daran arbeiten, dass die Menschen Europa aus vollem Herzen als Ihre Heimat empfinden - egal en welchem Land sie leben." - Dieter #Kempf beim #TDI19 #WhichEurope https://t.co/VekIuQkbJ9 ([original tweet](https://twitter.com/Der_BDI/status/1135815972139536384))
 
 > "We will move forward on our legal sandbox model of permissive legislation on technology"- @KerstiKaljulaid at the #TDI19. #WhichEurope🇪🇪 https://t.co/MXxORuuCJ5 ([original tweet](https://twitter.com/Der_BDI/status/1135598139535233024))
@@ -204,7 +204,7 @@ Here are some of the tweets that were removed:
 
 > #Bundeskanzlerin spricht über Fortschritte - "Deutschland ist durch die dreiprozentige Steigerung der Forschungsausgaben auch für internationale ForscherInnen attraktiver geworden!" #TDI19 #WhichEurope https://t.co/glM6XB8QJN ([original tweet](https://twitter.com/Der_BDI/status/1135824292204167176))
 
-> 🇫🇷🇪🇺 @BrunoLeMaire "Wir brauchen die Besteuerung digitaler Großkonzerne. Und wir brauchen eine Mindestbesteuerung. Das momentane Steuersystem kommt denen zugute, die am meisten Geld haben und am besten beraten sind." #TDI19 #WhichEurope 
+> 🇫🇷🇪🇺 @BrunoLeMaire "Wir brauchen die Besteuerung digitaler Großkonzerne. Und wir brauchen eine Mindestbesteuerung. Das momentane Steuersystem kommt denen zugute, die am meisten Geld haben und am besten beraten sind." #TDI19 #WhichEurope
 Your turn, @GoogleDE &amp; @FacebookDE https://t.co/bDy7O6pNxf ([original tweet](https://twitter.com/Der_BDI/status/1135864043498029057))
 
 > Klartext von @peteraltmaier: "Eine teilweise Abschaffung des Solis ist nicht durchsetzbar - die Mehrbelastung für die verbleibenden ZahlerInnen ist nur eine verdeckte Steuererhöhung!" #TDI19 #WhichEurope 🇪🇺 https://t.co/BTZ2CwkscO ([original tweet](https://twitter.com/Der_BDI/status/1135846809887227904))
