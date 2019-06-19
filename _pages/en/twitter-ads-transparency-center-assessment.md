@@ -108,7 +108,7 @@ As of June 17<sup>th</sup>, 2019, the [Ads Transparency Center](https://ads.twit
 - the list of certified advertisers for political campaigning, for the USA, the European Union, Australia and India;
 - the list of certified issue advertisers for US issue advertising.
 
-According to the [Ads Transparency Center FAQs](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html), “only ads from certified accounts per the Political Content Ads Policy are displayed in the ATC”. However, the Ads Transparency Center search bar gives access to advertiser timelines with no links to politics, such as a [windshield dealer](https://ads.twitter.com/transparency/Carglass_France). The search bar does not give a mean to access the entire list of advertisers: this would require to search for all possible strings of characters.
+According to the [Ads Transparency Center FAQs](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html), “only ads from certified accounts per the Political Content Ads Policy are displayed in the ATC”. However, the Ads Transparency Center search bar gives access to advertiser timelines with no links to politics, such as a [windshield dealer](https://ads.twitter.com/transparency/Carglass_France) or [pizzerias](https://ads.twitter.com/transparency/pizzahut). The search bar does not give a mean to access the entire list of advertisers: this would require to search for all possible strings of characters.
 
 Furthermore, from the content of the ads, it seems that the list of advertisers for political campaigning accessible through the Ads Transparency Center relates only to the European parliament elections. The Ads Transparency Center currently provides no way for researchers to access all political ads concerning national politics or issues.
 
@@ -186,6 +186,43 @@ In case of suspended content, Twitter [states](https://ads.twitter.com/transpare
 
 #### Unexplained data removal
 
-We observed that among the 505 tweets classified as political advertising about the EU parliamentary election available on the Ads Transparency Center on June 11<sup>th</sup> 2019, 92 [were removed](https://github.com/ambanum/political-ads-scraper/blob/master/twitter_fetch/scripts/consistency.ipynb) by June 12<sup>th</sup> 2019. However, these tweets were still [shown on Twitter](https://twitter.com/Der_BDI/status/1135579175899865088) as of June 19<sup>th</sup>.
+We are monitoring the content displayed in the Ads Transparency Center about European certified political advertisers, since June 7th, 2019.
 
-We observed another removal of two tweets between June 14<sup>th</sup> and June 15<sup>th</sup>.
+We observed that among the 505 tweets classified as political advertising about the EU parliamentary election available on the Ads Transparency Center on June 11<sup>th</sup> 2019, 92 [were removed](https://github.com/ambanum/political-ads-scraper/blob/master/twitter_fetch/scripts/consistency.ipynb) by June 12<sup>th</sup> 2019. However, most these tweets were still shown on Twitter as of June 19<sup>th</sup>, indicating that these removals were not justified by the content policies.
+
+Here are some of the tweets that were removed:
+
+> Die #Bundeskanzlerin: "Danke dem BDI und Ihnen allen, dass Sie für Europawahl geworben haben. Damit haben Sie dazu beigetragen, dass Millionen Menschen zur Wahl gegangen sind." Wir meinen: Nichts lieber als das! 🇪🇺 #TDI19 #WhichEurope https://t.co/kZRdCJedXT ([original tweet](https://twitter.com/Der_BDI/status/1135824358608375809))
+
+> "In Bezug auf die wirtschaftliche Stärke der USA und Chinas, ist Stillhalten keine Option für Deutschland, Frankreich oder die EU! Wir müssen Handel treiben können, mit wem wir möchten!" - @BrunoLeMaire spricht JETZT beim #TDI19! #WhichEurope https://t.co/7sNMJ9g6Kl ([original tweet](https://twitter.com/Der_BDI/status/1135857738309931008))
+
+    
+> "Wir müssen daran arbeiten, dass die Menschen Europa aus vollem Herzen als Ihre Heimat empfinden - egal en welchem Land sie leben." - Dieter #Kempf beim #TDI19 #WhichEurope https://t.co/VekIuQkbJ9 ([original tweet](https://twitter.com/Der_BDI/status/1135815972139536384))
+
+> "We will move forward on our legal sandbox model of permissive legislation on technology"- @KerstiKaljulaid at the #TDI19. #WhichEurope🇪🇪 https://t.co/MXxORuuCJ5 ([original tweet](https://twitter.com/Der_BDI/status/1135598139535233024))
+
+
+> #Bundeskanzlerin spricht über Fortschritte - "Deutschland ist durch die dreiprozentige Steigerung der Forschungsausgaben auch für internationale ForscherInnen attraktiver geworden!" #TDI19 #WhichEurope https://t.co/glM6XB8QJN ([original tweet](https://twitter.com/Der_BDI/status/1135824292204167176))
+
+> 🇫🇷🇪🇺 @BrunoLeMaire "Wir brauchen die Besteuerung digitaler Großkonzerne. Und wir brauchen eine Mindestbesteuerung. Das momentane Steuersystem kommt denen zugute, die am meisten Geld haben und am besten beraten sind." #TDI19 #WhichEurope 
+Your turn, @GoogleDE &amp; @FacebookDE https://t.co/bDy7O6pNxf ([original tweet](https://twitter.com/Der_BDI/status/1135864043498029057))
+
+> Klartext von @peteraltmaier: "Eine teilweise Abschaffung des Solis ist nicht durchsetzbar - die Mehrbelastung für die verbleibenden ZahlerInnen ist nur eine verdeckte Steuererhöhung!" #TDI19 #WhichEurope 🇪🇺 https://t.co/BTZ2CwkscO ([original tweet](https://twitter.com/Der_BDI/status/1135846809887227904))
+
+> Zurück in die Zukunft? @peteraltmeier meint: "Die vom #EuGh geforderte Erfassung der Arbeitszeit passt eher in die 80er Jahre des vergangenen Jahrhunderts und bedeutet für Firmen und #Arbeitnehmer zusätzliche Bürokratie!" #TDI19#WhichEurope https://t.co/vv8t7ZIq4d ([original tweet](https://twitter.com/Der_BDI/status/1135846176903876608))
+
+
+> "We have to be careful with regulation. Here in Europe what was intended as progress, poses a hurdle to start-ups." @SchambachSays diskutiert gerade auf dem ersten Themenpanel #Entrepreneurship beim #TDI19. #WhichEurope ([original tweet](https://twitter.com/Der_BDI/status/1135579175899865088))
+
+> Olaf #Scholz: "Es darf keinen unfairen Wettbewerb geben. Darum wollen wir jetzt erreichen, dass es Vereinbarungen zur Mindestbesteuerung gibt und dass sichergestellt ist, dass die großen digitalen Unternehmen sich auch an der Finanzierung des Gemeinwohls beteiligen" #TDI19 https://t.co/30QtXrgAVm ([original tweet](https://twitter.com/Der_BDI/status/1135857324894171141))
+
+> Bundeswirtschaftsminister @peteraltmaier meint: Schluss mit Bürokratie! #TDI19 #WhichEurope https://t.co/AJOuVgqnOo ([original tweet](https://twitter.com/Der_BDI/status/1135856470761889792))
+
+> "Wir müssen das System öffnen und mehr private Bildungsinstitutionen zulassen, ohne dass das Bildungssystem zu elitär wird." - .@thomasbachem beim #TDI19 #WhichEurope https://t.co/4q4K0kDMNY ([original tweet](https://twitter.com/Der_BDI/status/1135808337994571776))
+
+
+We observed another removal of two tweets between June 14<sup>th</sup> and June 15<sup>th</sup>:
+
+> Egal ob #Digitalisierung, #Klima oder #KI - ohne eine starke Industrie werden wir die Herausforderungen der Zukunft in DE nicht mitgestalten. Wir freuen uns deshalb auf die Woche der Industrie vom 9. bis 24. September 2019 💪🔥Alle Infos unter https://t.co/U0ysAd31k5 https://t.co/FVEizccdyg ([original tweet](https://twitter.com/Der_BDI/status/1136262049502244865))
+
+> Wil jij beleidsmedewerker worden bij de grootste politieke partij van Nederland? Solliciteer nu 👇 ([original tweet](https://twitter.com/VVD/status/1135835192755666944))
