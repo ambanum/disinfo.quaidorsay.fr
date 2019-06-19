@@ -58,9 +58,7 @@ The entire information regarding the list of topics that Twitter considers “le
 
 ### Certification constraints are not clear outside the USA
 
-Certification requirements are unclear outside the USA. The help page for the certification process https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/how-to-get-certified.html has the title “How to get certified as a political campaigning advertiser”, suggesting that its content applies worldwide. However, its source code (including the title displayed in the browser tab) contains many references to the title “How to get certified as a political campaigning advertiser is the U.S.”.
-
-In this page, we read:
+Certification requirements are unclear outside the USA. In the [help page for the certification process](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/how-to-get-certified.html), we read:
 
 > As part of Twitter’s Political Content Policy and our overall commitment to transparency, we require that advertisers promoting political campaigning content go through a certification process. Note that this process only applies to advertising related to: US federal elections, US issue advocacy.
 
@@ -100,6 +98,8 @@ However, these pages state that the obligation only holds for ads related to the
 >
 > Political campaigning ads for EU Parliamentary Elections ONLY must meet additional eligibility requirements and apply for certification. ([Source](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/eu-political-content.html))
 
+The old title of the [help page for the certification process](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/how-to-get-certified.html) prior to the extension to the European Union still appears on the browser tab: “How to get certified as a political campaigning advertiser is the U.S.”.
+
 ### No comprehensive access to political ads
 
 As of June 17<sup>th</sup>, 2019, the [Ads Transparency Center](https://ads.twitter.com/transparency) consists of:
@@ -122,7 +122,7 @@ Twitter offers a wide range of advertising formats: “Promoted tweets” and �
 
 All the information provided by the Ads Transparency Center is tied to the interactive user interface. It cannot be downloaded as a file to be reused.
 
-This means that researchers that want to conduct quantitative studies on Twitter ads first have to reverse engineer the user interface of the Ads Transparency Center. This is time consuming, requires advanced computer skills and makes them risk violating Twitter terms.
+This means that researchers who want to conduct quantitative studies on Twitter ads first have to reverse engineer the user interface of the Ads Transparency Center. This is time consuming, requires advanced programming skills and entails potential violations of Twitter’s [Developer Agreement](https://developer.twitter.com/en/developer-terms/agreement) on reverse engineering.
 
 ### API is not documented
 
