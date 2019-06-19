@@ -101,7 +101,7 @@ The [Ads Transparency Center FAQs](https://business.twitter.com/en/help/ads-poli
 
 > If you are an advertiser that promotes issue ads you need to get certified. (https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/issue-ads-policy-FAQs.html)
 
-which is consitent with an [annoucement made February 19th, 2019](https://blog.twitter.com/en_us/topics/company/2019/transparency-political-ads.html):
+which is consistent with an [annoucement made February 19th, 2019](https://blog.twitter.com/en_us/topics/company/2019/transparency-political-ads.html):
 
 > Enforcement of this policy will begin the week commencing March 11th in these countries, after which only certified advertisers will be allowed to run political campaigning ads on our service.
 
@@ -114,88 +114,69 @@ However, these pages state that the obligation only holds for ads related to the
 ### No comprehensive access to political ads
 
 As of June 17th, 2019, the [Ads Transparency Center](https://ads.twitter.com/transparency) consists of:
-* a search engine on Twitter's ads (including but not limited to political ads),
+* a search engine on Twitter's ads,
 * the list of certified advertisers for political campaigning, for the USA, the European Union, Australia and India,
 * the list of certified issue advertisers for US issue advertising.
 
-----
+According to the [Ads Transparency Center FAQs](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html), "only ads from certified accounts per the Political Content Ads Policy are displayed in the ATC". However, the Ads Transparency Center search bar gives access to [advertiser timelines with no links to politics](https://ads.twitter.com/transparency/Carglass_France). The search bar does not give a means to access to the comprehensive list of advertisers: this would require to search for all the possible strings of characters, which is impracticable.
 
-Difficult to access uncertified advertisers
+Furthermore, from the content of the ads, it seems that the list of advertisers for political campaigning acceessible through the Ads Transparency Center relates only to the European parliament elections. The Ads Transparency Center currently provides no way for a researcher to access exhaustively the political ads concerning national politics or issues.
 
-on atc it seems only eu election is searchable (but who knows)
+### Only a subset of every political ads is shown
 
------
+Twitter offers a wide range of advertising formats: Promoted tweets and Promoted-only tweets, Promoted Accounts, Promoted Trends, Twitter Promote Mode, In-stream Videos, Conversational Ads, First View, Spotlight, custom emojis... While [political campaigning ads may only be promoted via the use of Promoted Tweets and In-Stream Video Ads](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/political-campaigning-advertising-policy-FAQs.html), the issue advertising policy does not impose such a restriction. Yet [currently, only Promoted Tweets appear in the Ads Transparency Center.](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html)
 
-> Currently, only Promoted Tweets appear in the Ads Transparency Center.  We are working to include other ad formats in the future. In addition, only ads from certified accounts per the Political Content Ads Policy are displayed in the ATC. (https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html)
+Among all the ads that appear on Twitter, we haven't found what proportion Promoted Tweets represent, in term of numbers or spending.
 
-BUT https://ads.twitter.com/transparency/Carglass_France
+### Data cannot be downloaded
 
-### Not everything
+All the information provided by the Ads Transparency Center is tied to the user interface — it cannot be downloaded as a file to be reused.
 
-tweets vs promoted tweets vs promoted-only tweets
-
-
-> Political campaigning ads may only be promoted via the use of Promoted Tweets and In-Stream Video Ads
-
-> Currently, only Promoted Tweets appear in the Ads Transparency Center.
-
-> Video Ads are shown in the ATC. Currently, In-stream Video Ads and other ad formats are not shown in the ATC but we are working to include all ad formats in the future.
-
-
-### Cannot see in which countries the ads where promoted
-
-
-### No dumps
-
-
-### Authorization with temporary token
-
-app comes with bearer token
-POST https://api.twitter.com/1.1/guest/activate.json with that bearer token to get guest token
-
-guest token in undocumented : we observed it needs frequent renewal every few dozen requests
-
-### Frequent errors by API
-
-500 {"errors":[{"message":"Internal error","code":131}]}
-
-vendredi 7 juin : impossible to fetch 1129277620116492289 info about targeted audience on second campaign (line_item_targeted_audience) f2ajd
-endpoint GET https://ads.twitter.com/transparency/data/line_item_targeted_audience.json
-
+This means that researchers that want to conduct quantitative studies on Twitter ads must first reverse engineer the user interface of the Ads Transparency Center. This is time consuming, requires advanced computer skills and makes them risk violating Twitter terms.
 
 ### Undocumented API
 
-GET https://ads.twitter.com/transparency/political_advertisers.json
-GET https://ads.twitter.com/transparency/user_metadata.json
-GET https://ads.twitter.com/transparency/tweets_timeline.json
-GET https://ads.twitter.com/transparency/line_item_metadata.json
-GET https://ads.twitter.com/transparency/tweet_performance.json
-GET https://ads.twitter.com/transparency/data/line_item_delivered_targeting_criteria.json
-GET https://ads.twitter.com/transparency/data/line_item_targeted_audience.json
+The Ads Transparency Center relies on an API to access data from Twitter. We have identified the following endpoints:
 
+* `GET https://ads.twitter.com/transparency/political_advertisers.json`
+* `GET https://ads.twitter.com/transparency/user_metadata.json`
+* `GET https://ads.twitter.com/transparency/tweets_timeline.json`
+* `GET https://ads.twitter.com/transparency/line_item_metadata.json`
+* `GET https://ads.twitter.com/transparency/tweet_performance.json`
+* `GET https://ads.twitter.com/transparency/data/line_item_delivered_targeting_criteria.json`
+* `GET https://ads.twitter.com/transparency/data/line_item_targeted_audience.json`
 
-can change at any time
+Unfortunately, this API is not publicly documented. This entails that these endpoints can be affected by future breaking changes without notice to its external users.
+
+### Authorization with temporary token
+
+[Having a Twitter account is not a requirement to access the Ads Transprency Center](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html). Yet, access to the API endpoints is subject to a complex and undocumented process of temporary authorization.
+
+The Javascript bundle of the Ads Transparency Center comes with a bearer token that is used with the endpoint `POST https://api.twitter.com/1.1/guest/activate.json` to request temporary "guest tokens". Even though we could not find official documentation about these guest token, we observed that they need frequent renewal every few dozen requests before they become invalid.
+
+### API returns frequent errors
+
+We observed availability issues on the Ads Transparency Center API. An error with HTTP code 500 (Internal Server Error) is returned with body `{"errors":[{"message":"Internal error","code":131}]}`.
+
+These errors are transient most of the case. However, on June 7th, for several hours we could not access the data about the targeted audience (endpoint `line_item_targeted_audience.json`) of the second campaign (id `f2ajd`) promoting [a tweet about the EU parliament elections](https://twitter.com/fiannafailparty/status/1129277620116492289).
 
 ### Poor data integrity
 
-
-"Promoted Tweets created from the dedicated issue ads account will show in the ATC indefinitely. Promoted Tweets from non-political advertisers will be available for seven days." (issue ads FAQs)
-
-
-> Promoted Tweets created from the dedicated issue ads account will show in the ATC indefinitely. Promoted Tweets from non-political advertisers will be available for seven days.
+Twitter expresses a strong commitment to ensure public access to its promoted political content, with no time limitation, whether for political campagning:
 
 > If you are a candidate running for a general election in supported countries you must always use your dedicated political campaigning ads account and all your Promoted Tweets will display a ‘Promoted (political) badge, disclaimer information, and show in the Ads Transprency Center indefinetly.
 
+> All political campaigning ads targeting the US, EU, India, and Australia from non-certified accounts will be halted. (https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/political-campaigning-advertising-policy-FAQs.html)
 
-#### Can be removed by twitter or the advertiser
+or issue advertising:
 
-But in https://ads.twitter.com/transparency
+> "Promoted Tweets created from the dedicated issue ads account will show in the ATC indefinitely. Promoted Tweets from non-political advertisers will be available for seven days." (https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/issue-ads-policy-FAQs.html)
 
-> When you search for an advertiser, you’ll be able to see all Promoted Tweets that are currently running on Twitter, including Promoted-only Tweets, or if a Promoted Tweet was suspended and why.
+#### Data can be removed at will by the advertiser, or by twitter
 
-However:
+However from the [Ads Transparency Center FAQs](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html), it becomes clear that data integrity is not guaranteed in any way since both the advertiser and twitter may decide to halt the exposure in the Ads Transparency Center:
 
-> Country withheld ads will only appear in countries where the content is allowed.
+> Country withheld ads will only appear in countries where the content is allowed. 
 
 > If an advertiser deletes a Promoted Tweet or their Twitter @username, their Tweets will no longer show in the ATC.
 
@@ -203,13 +184,12 @@ However:
 
 > If the @username no longer exists, all associated ads will no longer appear  in the ATC.
 
+In case of suspended content, Twitter [states](https://ads.twitter.com/transparency) that the reason for suspension is made public:
 
-#### Removed without reason
+> When you search for an advertiser, you’ll be able to see all Promoted Tweets that are currently running on Twitter, including Promoted-only Tweets, or if a Promoted Tweet was suspended and why.
 
-92 removed
-2 removed
+#### Unexplained data removal
 
+We observed that among the 505 tweets classified as political advertising about the EU parliament election available on the Ads Transparency Center on June 11th 2019, [92 were removed by June 12th 2019](https://github.com/ambanum/political-ads-scraper/blob/master/twitter_fetch/scripts/consistency.ipynb). These tweets are still [shown on Twitter as of June 19th](https://twitter.com/Der_BDI/status/1135579175899865088).
 
-## Additional information
-
-graph
+We observed another removal of two tweets between June 14th and June 15th.
