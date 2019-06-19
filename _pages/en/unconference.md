@@ -60,31 +60,31 @@ The format for this first day will be [Open Space Technology](https://en.wikiped
 
 ### June 28<sup>th</sup>: Research Hackathon
 
-On the second day, we will host a 'research hackathon.' On this occasion, you will be part of teams of social science researchers, developers, data scientists, and other skilled individuals interested in studying and countering disinformation.
+On the second day, we will host a “research hackathon”. On this occasion, you will be part of teams of social science researchers, developers, data scientists, and other skilled individuals interested in studying and countering disinformation.
 
 You should come if you are interested in exploring ways to make sense of information manipulation, helping make such manipulation more understandable to the public, or building tools to counter it. In particular, you should come if you know how to:
 
--   Conduct social science research on information diffusion on digital social networks
--   Do data science or datafiddling
--   Create dataviz or drawings
--   Use API plumbing
--   Build chatbots
--   Make half-baked public-facing websites in half a day
--   Write about fact checking and debunking misinformation
--   Ask good, hard questions
+- Conduct social science research on information diffusion on digital social networks
+- Do data science or datafiddling
+- Create dataviz or drawings
+- Use API plumbing
+- Build chatbots
+- Make half-baked public-facing websites in half a day
+- Write about fact checking and debunking misinformation
+- Ask good, hard questions
 
 As a single day is unfortunately too short to publish credible, peer-reviewed research on the impact of social media on elections, the main goal for studying will be to identify practical hypotheses that can be investigated using available data and tools, and prototype ways to test them.
 
 Members of Facebook's [Election Research Commission](https://newsroom.fb.com/news/2018/04/new-elections-initiative/) team will join the hackathon to introduce the most recent data and tooling available from Facebook, via the company's collaboration with [Social Science One](https://socialscience.one/) and the [Social Science Research Council](https://www.ssrc.org/programs/view/social-data-initiative/). This will allow participants to generate more likely to be answerable research hypotheses and includes, by order of availability:
 
-1. The Ads Library, which is available to all _[ID-verified](http://facebook.com/id)_ researchers and developers.
+1. The Ads Library, which is available to all [ID-verified](http://facebook.com/id) researchers and developers.
 2. The CrowdTangle API, which will be available to all participants during the hackathon and to registered researchers after it.
 3. The data in the Research Tool, which will be available to all participants during the event only, is a _**synthesized and sampled**_ version of the Social Science One URL shares data set. This dataset will allow researchers to understand the [shape of the data available](https://socialscience.one/files/partnershipone/files/facebook_urls-light_codebook_v1.0.pdf) and its potentials, as well as understand how to conduct research in a differentially private system. In order to test the hypotheses, the full data will be made available to researchers who are accepted into the Social Science One program through the Social Science Research Council.
 
 You can also use public sources such as:
 
--   Twitter's [political advertisers](https://ads.twitter.com/transparency/i/political_advertisers).
--   [Several millions](https://disinfo.quaidorsay.fr/encyclopedia/research/tools#disinformation-datasets) of troll tweets and accounts.
+- Twitter's [political advertisers](https://ads.twitter.com/transparency/i/political_advertisers).
+- [Several millions](https://disinfo.quaidorsay.fr/encyclopedia/research/tools#disinformation-datasets) of troll tweets and accounts.
 
 #### Agenda
 > 0900-0915: welcome, description of specific requirements for datasets
