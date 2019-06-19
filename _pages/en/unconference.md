@@ -3,7 +3,7 @@ title: Unconference on fighting disinformation
 permalink: /unconference-27-28-june-2019/
 nav_order: 20
 begins_new_menu_section: true
-layout: encyclopedia
+layout: default
 nav_exclude: false
 ---
 
