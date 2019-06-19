@@ -90,39 +90,39 @@ You can also use public sources such as:
 {: .text-center}
 
 #### Agenda
-> 0900-0915: welcome, description of specific requirements for datasets
-> 
-> 0915-1100: Onboarding teams that want to use the URLs dataset on the details of the Research Tool.
-> 
-> 1100-1130: Hear from Social Science One researchers about their research plans (flash-talk style, dedicated room)
-> 
-> 1130-1200: Break into groups with similar areas of interest, in order to develop research hypotheses in those areas
-> 
-> 1200-1400: lunch available
-> 
-> 1200-1700: Hack!
-> 
-> 1700-1730: wrap up and prepare demo.
-> 
-> 1730-1830: presentations of groups and closing remarks.
 
-_**PLEASE NOTE:** For those wishing to access the Ads Library API, you must have your identity verified ahead of this meeting. To do so, please follow the instructions below._
+08:15 – 09:00
+: Welcome coffee.
 
-**Step 1: Confirm your identity and location:**
+09:00 – 09:15
+: Start (sharp on time!). Description of specific requirements for datasets.
 
--   Go to [Facebook.com/ID](https://www.facebook.com/ID). This is the same ID confirmation required to become authorized to run ads related to politics or issues of national importance. If you haven't already confirmed your ID, it typically takes 1-2 days to complete this step. Sometimes Facebook needs to send you a postcard to confirm your address during this process. Again this step shouldn't take more than a couple days.
+09:15 – 09:30
+: Break into groups with similar areas of interest.
 
-**Step 2: Create a Facebook Developer account**
+09:30 – 11:00
+: For teams that want to use the URLs dataset, training on the details of the Research Tool. For others, hack!
 
--   [Visit Facebook for Developers](https://developers.facebook.com/) and select **Get Started**. As part of account creation, you'll need to agree to our [Platform Policy](https://developers.facebook.com/policy/).
+11:00 – 11:30
+: Side event in a dedicated room: flash talks from Social Science One researchers about their research plans.
 
-**Step 3: Add a new app**
+12:00 – 17:00
+: Hack!
 
--   Once you have an account, return to this webpage and select *Access the API* to begin making queries. You can create a new app by selecting **My Apps > Add New App**.
+12:00 – 14:00
+: Lunch available 😋
 
+17:00 – 17:30
+: Wrap up and make sure you have a demo.
 
+17:30 – 18:30
+: Demos and closing remarks.
 
+#### Specific access requirements
 
+**If you want to access the Ads Library API, you must have your identity verified by Facebook ahead of the event.** This typically takes 1 to 2 days.
+
+You will need a Facebook account. Indeed, Facebook uses their users’ accounts to give developer privileges. [Create a Facebook account](https://www.facebook.com) with your real name and birth date if you do not have one yet. Then, follow the instructions on the [Ads Library API](https://www.facebook.com/ads/library/api/) page.
 
 ## Logistics
 
