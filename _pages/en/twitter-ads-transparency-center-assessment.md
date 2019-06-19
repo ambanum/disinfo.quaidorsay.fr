@@ -38,7 +38,7 @@ As part of its political content policies, Twitter requires some advertisers to 
 
 ## Limitations
 
-### Scattered policies and documentation
+### Policies and documentation are scattered
 
 Documentation relevant to Twitter's effort for political ads transparency in Europe, is scattered across numerous pages ([1](https://ads.twitter.com/transparency), [2](https://business.twitter.com/en/help/ads-policies/introduction-to-twitter-ads/twitter-ads-policies.html), [3](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content.html), [4](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/global-political-content.html), [5](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/eu-political-content.html), [6](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/how-to-get-certified.html), [7](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html), [8](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/political-campaigning-advertising-policy-FAQs.html), [9](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/issue-ads-policy-FAQs.html)).
 
@@ -56,7 +56,7 @@ The entire information regarding the list of topics that Twitter considers “le
 
 > Examples of legislative issues of national importance include but are not limited to: climate change, healthcare, immigration, national security, taxes. ([Source](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/global-political-content.html)).
 
-### It is unclear when certification is mandatory
+### Certification constraints are not clear outside the USA
 
 Certification requirements are unclear outside the USA. The help page for the certification process https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/how-to-get-certified.html has the title “How to get certified as a political campaigning advertiser”, suggesting that its content applies worldwide. However, its source code (including the title displayed in the browser tab) contains many references to the title “How to get certified as a political campaigning advertiser is the U.S.”.
 
@@ -124,7 +124,7 @@ All the information provided by the Ads Transparency Center is tied to the inter
 
 This means that researchers that want to conduct quantitative studies on Twitter ads first have to reverse engineer the user interface of the Ads Transparency Center. This is time consuming, requires advanced computer skills and makes them risk violating Twitter terms.
 
-### Undocumented API
+### API is not documented
 
 The Ads Transparency Center relies on an API to access data from Twitter. We have identified the following endpoints:
 
@@ -140,7 +140,7 @@ GET https://ads.twitter.com/transparency/data/line_item_targeted_audience.json
 
 Unfortunately, this API is not publicly documented. This means that these endpoints can be affected by future breaking changes without notice to its external users, making any research based on it brittle.
 
-### Authorization with temporary token
+### Authorization tokens expire frequently
 
 Having a Twitter account is [not a requirement](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html) to access the Ads Transprency Center. Yet, access to the API endpoints is subject to a complex and undocumented process of temporary authorization.
 
