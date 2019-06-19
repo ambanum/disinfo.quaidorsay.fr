@@ -150,8 +150,6 @@ The hours we chose aim to support participants in using low-carbon transportatio
 
 These trains reach Gare du Nord, from which you can reach the Invalides metro station in 20 minutes with RER C and RER B, connecting through Saint-Michel-Notre-Dame.
 
-For those participants who would not be able to reach Paris on the same day without flying, we will offer a pre-event dinner on Wednesday the 26<sup>th</sup>.
-
 ## Registration
 
 <div class="typeform-widget" data-url="https://mattischneider.typeform.com/to/uJuA0y" style="width: 100%; height: 520px; box-shadow: 0 0 0 1px #E5E5E5; margin-bottom: 1rem"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
