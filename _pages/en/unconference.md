@@ -86,6 +86,9 @@ You can also use public sources such as:
 - Twitter's [political advertisers](https://ads.twitter.com/transparency/i/political_advertisers).
 - [Several millions](https://disinfo.quaidorsay.fr/encyclopedia/research/tools#disinformation-datasets) of troll tweets and accounts.
 
+[Build something awesome!](#registration){: .btn .btn-purple .px-10}
+{: .text-center}
+
 #### Agenda
 > 0900-0915: welcome, description of specific requirements for datasets
 > 
@@ -119,8 +122,6 @@ _**PLEASE NOTE:** For those wishing to access the Ads Library API, you must have
 
 
 
-[Build something awesome!](#registration){: .btn .btn-purple .px-10}
-{: .text-center}
 
 
 ## Logistics
