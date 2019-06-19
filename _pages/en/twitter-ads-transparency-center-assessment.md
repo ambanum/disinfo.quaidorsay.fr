@@ -116,6 +116,8 @@ Furthermore, from the content of the ads, it seems that the list of advertisers 
 
 Twitter offers a wide range of advertising formats: “Promoted tweets” and “Promoted-only tweets”, “Promoted Accounts”, “Promoted Trends”, “Twitter Promote Mode”, “In-stream Videos”, “Conversational Ads”, “First View”, “Spotlight”, custom emojis… While political campaigning ads [may only](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/political-campaigning-advertising-policy-FAQs.html) be promoted via the use of Promoted Tweets and In-Stream Video Ads, the issue advertising policy does not impose such a restriction. Yet currently, [only Promoted Tweets](https://business.twitter.com/en/help/ads-policies/ads-transparency-center-faqs.html) appear in the Ads Transparency Center.
 
+“In-Stream Video” political ads are thus not referenced in the Transparency Center. We have not been able to assess what proportion of all political ads this represents, in terms of numbers or spending.
+
 ### Data cannot be downloaded
 
 All the information provided by the Ads Transparency Center is tied to the interactive user interface. It cannot be downloaded as a file to be reused.
@@ -150,6 +152,7 @@ We observed availability issues on the Ads Transparency Center API. An error wit
 
 These errors are transient (go away on retry) most of the case. However, on June 7<sup>th</sup>, for several hours we could not access the data about the targeted audience (endpoint `line_item_targeted_audience.json`) of the second campaign (id `f2ajd`) promoting [a tweet](https://twitter.com/fiannafailparty/status/1129277620116492289) about the EU parliamentary elections.
 
+This could entirely be avoided if the data [could be downloaded](#data-cannot-be-downloaded).
 
 ### Poor data integrity
 
@@ -162,6 +165,8 @@ Twitter expresses a strong commitment to ensure public access to its promoted po
 or issue advertising:
 
 > Promoted Tweets created from the dedicated issue ads account **will show in the ATC indefinitely**. Promoted Tweets from non-political advertisers will be available for seven days. ([Source](https://business.twitter.com/en/help/ads-policies/restricted-content-policies/political-content/issue-ads-policy-FAQs.html))
+
+However, we have not seen this pledge honoured upon analysis.
 
 #### Data can be removed at will by the advertiser or by Twitter
 
