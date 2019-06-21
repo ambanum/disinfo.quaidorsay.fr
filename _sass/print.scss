@@ -1,0 +1,30 @@
+@media print {
+  .page-content > :not(#markdown-toc) a:after,
+  .page-content > a:after {
+    content: " (" attr(href) ") ";
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+  .navigation-list-toggle {
+    display: none !important;
+  }
+
+  .side-bar,
+  .site-title {
+    background: #fff !important;
+  }
+
+  .page-content > h1:first-of-type {
+    text-align: center;
+  }
+
+  .page-content > h2 {
+    padding-top: 1rem !important;
+    break-before: page !important;
+  }
+  .page-content > h3,
+  .page-content > h4 {
+    break-after: avoid !important;
+  }
+}
