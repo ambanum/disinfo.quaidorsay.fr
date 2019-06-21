@@ -16,6 +16,7 @@ defaults:
     values:
       nav_exclude: true
       numbered_headers: false
+      search_exclude: true
   -
     scope:
       path: _pages/en/encyclopedia
@@ -23,6 +24,7 @@ defaults:
       layout: encyclopedia
       nav_exclude: false
       numbered_headers: true
+      search_exclude: false
 
 exclude:
   - README.md
