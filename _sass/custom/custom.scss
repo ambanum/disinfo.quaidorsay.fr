@@ -144,8 +144,25 @@ iframe {
 
 .improve {
   margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: visible;
 }
 
 .improve .btn-quiet {
   box-shadow: none;
+}
+
+#license-by-sa {
+  &:hover {
+    box-shadow: 0 0 0 3px #e6e1e8;
+    border-radius: 1px;
+  }
+
+  img {
+    max-height: 34px;
+    width: 80px;
+    display: block;
+  }
 }
