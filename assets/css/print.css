@@ -1,0 +1,61 @@
+.navigation-list-toggle {
+  display: none !important;
+}
+
+.side-bar,
+.site-title {
+  background: #fff !important;
+}
+
+.improve {
+  display: none;
+}
+
+#markdown-toc {
+  max-width: 600px;
+  margin: auto;
+}
+
+.page-content {
+  color: #212121;
+}
+
+.page-content > :not(#markdown-toc) a,
+.page-content > a {
+  color: inherit;
+}
+
+.page-content > :not(#markdown-toc) a:after,
+.page-content > a:after {
+  content: " (" attr(href) ")";
+  position: relative;
+  margin-left: -0.2em;
+  font-size: 0.75em;
+  font-weight: normal;
+  font-family: monospace;
+  color: #444;
+  overflow-wrap: break-word;
+}
+
+.page-content > :not(#markdown-toc) a[href^="/"]:after,
+.page-content > a[href^="/"]:after {
+  content: " (https://disinfo.quaidorsay.fr" attr(href) ")";
+}
+
+.page-content > h1:first-of-type {
+  text-align: center;
+}
+
+.page-content > h2:not(:first-child) {
+  padding-top: 1rem !important;
+  break-before: page;
+}
+
+.page-content > h2 + h2 {
+  break-before: avoid !important;
+}
+
+.page-content > h3,
+.page-content > h4 {
+  break-after: avoid;
+}
