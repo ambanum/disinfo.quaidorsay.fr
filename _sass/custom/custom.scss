@@ -2,7 +2,8 @@
 // // Typography
 // //
 //
-$body-font-family: "Avenir Next", "Open Sans", "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+$body-font-family: "Avenir Next", "Open Sans", "helvetica neue", helvetica,
+  roboto, noto, "segoe ui", arial, sans-serif;
 // $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
 // $root-font-size: 16px;         // Base font-size for rems
 $body-line-height: 1.6875rem;
@@ -124,27 +125,27 @@ $media-queries: (
 );
 
 .error-page {
-	margin: 10px auto;
-	max-width: 600px;
-	text-align: center;
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
 
-	h1 {
-		margin: 30px 0;
-		font-size: 4em;
-		line-height: 1;
-		letter-spacing: -1px;
-	}
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
 }
 
 iframe {
-	width: 100%;
-	border: none;
+  width: 100%;
+  border: none;
 }
 
 .improve {
-	margin-top: 3em;
+  margin-top: 3em;
 }
 
 .improve .btn-quiet {
-	box-shadow: none;
+  box-shadow: none;
 }
