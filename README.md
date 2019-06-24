@@ -24,3 +24,10 @@ Un thème est utilisé. Pour les pages indépendantes du thème, les fichiers pe
 La mise en production est faite via [GitHub Pages](https://pages.github.com). Il suffit de pousser sur la branche `master` pour déployer sur `ambanum.github.io`.
 
 Un reverse proxy est mis en place sur `desinfo.quaidorsay.fr` pour servir le contenu déployé sur `ambanum.github.io`.
+
+- - - - - - -
+
+# License
+
+- The code for this software is distributed under the European Union Public Licence (EUPL) v1.2.
+
