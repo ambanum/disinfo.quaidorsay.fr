@@ -1,7 +1,8 @@
 ---
 layout: encyclopedia
 permalink: /encyclopedia/license
-nav_exclude: true
+title: License
+nav_order: 16
 numbered_headers: false
 ---
 
