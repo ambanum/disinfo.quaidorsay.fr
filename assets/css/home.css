@@ -46,88 +46,40 @@ p {
   width: 50%;
   float: right;
   margin: 0.75rem 0 0.5rem 2rem;
-  shape-outside: polygon(
-    7% 1%,
-    49% 0,
-    100% 18%,
-    100% 39%,
-    44% 100%,
-    33% 100%,
-    0 82%,
-    1% 38%
-  );
+  shape-outside: polygon(76% 4%, 79% 4%, 93% 17%, 100% 43%, 100% 100%, 83% 100%, 10% 50%, 10% 38%);
 }
 
 #qualification-illustration {
   width: 50%;
   float: right;
   margin: 0.5rem 0 0 0.5rem;
-  shape-outside: polygon(
-    0 63%,
-    0 0,
-    100% 0,
-    100% 100%,
-    31% 100%,
-    31% 89%,
-    25% 83%,
-    22% 77%,
-    20% 68%,
-    20% 63%
-  );
+  shape-outside: polygon(2% 46%,6% 23%, 53% 0%, 100% 0, 100% 100%, 60% 100%, 32% 76%, 24% 84%, 11% 81%, 11% 70%, 4% 62%);
 }
 
 
 #reaction-illustration {
   width: 47%;
-  margin: 0.5rem 0 0.5rem 0.5rem;
+  margin: 0.5rem 0 0.5rem 2rem;
   float: right;
-  shape-outside: polygon(
-    100% 0,
-    100% 100%,
-    32% 100%,
-    8% 93%,
-    9% 55%,
-    0 8%,
-    0 0
-  );
+  shape-outside: polygon(100% 0, 100% 100%, 72% 100%, 53% 92%, 4% 40%, 4% 13%, 23% 2%);
 }
 
 #attribution-illustration {
   width: 50%;
-  margin: 1rem 0 0rem 0.5rem;
+  margin: 1rem 0 0.5rem 1.5rem;
   float: right;
-  shape-outside: polygon(0 0, 100% 0, 100% 100%, 70% 100%, 0% 38%);
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 66% 100%, 0% 54%);
 }
 
 #research-illustration {
   width: 50%;
-  margin: 1rem 0 0.5rem 1rem;
+  margin: 1rem 0 0.5rem 2rem;
   float: right;
-  shape-outside: polygon(
-    12% 19%,
-    31% 21%,
-    41% 0,
-    100% 0,
-    100% 99%,
-    17% 100%,
-    0 94%,
-    1% 32%
-  );
+  shape-outside: polygon(8% 10%, 31% 6%, 64% 0, 100% 0, 100% 99%, 27% 74%, 5% 58%, 5% 42%);
 }
 #prevention-illustration {
   width: 46%;
-  margin: 0.5rem 0 0.5rem 1rem;
+  margin: 0.5rem 0 0.5rem 2rem;
   float: right;
-  shape-outside: polygon(
-    38% 22%,
-    39% 0,
-    100% 0,
-    100% 70%,
-    25% 99%,
-    9% 100%,
-    0 90%,
-    1% 72%,
-    6% 62%,
-    6% 27%
-  );
+  shape-outside: polygon(41% 13%, 41% 0, 100% 0, 100% 70%, 101% 100%, 80% 100%, 67% 92%, 41% 75%, 6% 59%, 6% 13%);
 }
