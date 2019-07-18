@@ -33,13 +33,23 @@ p {
 #convergence-illustration {
   width: 30%;
   float: right;
-  margin: 0.25rem 0 0.5rem 2rem;
+  margin-left: 0.25rem 0 0.5rem 2rem;
+}
+
+.emphasis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: #F4F4F4;
+  padding: 2rem 2.5rem;
+  border-radius: 2px;
+  margin: 2rem 0;
 }
 
 #disinformation-illustration {
-  width: 40%;
-  margin: 0.25rem auto 0.5rem auto;
-  display: block;
+  width: 25%;
+  margin-left: 2rem;
 }
 
 #detection-illustration {

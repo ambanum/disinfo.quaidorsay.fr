@@ -22,9 +22,9 @@ There is no unique definition for information manipulation and what kind warrant
 
 ![](/assets/img/home/convergence.png){: #convergence-illustration } Spelling out your criteria allows you to mutualise means with other actors while preserving their mandate… and your own, by making it explicit!
 
-#### The intersection of each actor’s criteria defines what disinformation is to them.
-{: .thin}
-![](/assets/img/home/disinformation.png){: #disinformation-illustration }
+
+#### The intersection of each actor’s criteria defines what disinformation is to them. ![](/assets/img/home/disinformation.png){: #disinformation-illustration }
+{: .emphasis}
 
 - - -
 
