@@ -17,7 +17,7 @@ This document presents the difficulties and limitations in producing research an
 
 The section about political ads of Google’s Transparency Report comprises a [dynamic web page](https://transparencyreport.google.com/political-ads/home) to navigate and search through the ads.
 
-The underlying data can also be downloaded as a ZIP file containing CSV files and a documentation. Providing this bundle greatly simplifies reuses of this data. In our case, assessing the quality and the consistency of the data provided by Google was much easier than if the data had been available only by an API or a web page.
+The underlying data can also be downloaded as a ZIP file containing CSV files and documentation. Providing this bundle greatly simplifies reuses of this data. In our case, assessing the quality and the consistency of the data provided by Google was much easier than if the data had been available only by an API or a web page.
 
 Additionally, Google claims that the data can be accessed by Google Cloud BigQuery.
 
