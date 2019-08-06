@@ -1,22 +1,26 @@
 ---
-title: Unconference on fighting disinformation
 permalink: /unconference-27-28-june-2019/
-nav_order: 20
-begins_new_menu_section: true
+nav_order: 11
 layout: default
 nav_exclude: false
 ---
 
 # June 2019 Unconference
-### Join us in Paris for two days at the edge of the fight against information manipulation
+### Two days at the edge of the fight against information manipulation
 {: .no_toc .no-numbering }
 
-- - -
+## Summary
 
-1. Table of contents
-{:toc}
+- The team of the French Ambassador for Digital Affairs hosted an unconference at the Ministry for Foreign Affairs on June 27th and 28th, 2019.
+- It gathered 50 practitioners from various backgrounds, including social researchers, engineers, NGOs, officials, diplomats, public actors and social media platforms.
+- It also hosted the first non-US workshop of the Social Science One research program with data opened by Facebook.
+- All participants interacted, shared and learned from one another through collaborative, open formats.
 
-- - -
+### Download a [summary of the discussions](/assets/2019_disinformation_unconference_digest_HD.pdf).
+
+Below is the original invitation.
+
+- - - -
 
 ## It is the right time to share, learn, improve and build
 
@@ -30,9 +34,6 @@ There have been many great transatlantic conferences for showcasing studies, try
 We want to create a specific space for practitioners to share their practices, tools and experiences in _reacting to_ disinformation campaigns, _attributing_ their source, and _preventing_ their impact on the public. We will also host an open hackathon, during which Facebook will offer a training workshop on the use of the data prepared for its collaboration with [Social Science One](https://socialscience.one).
 
 **The Office of the French Ambassador for Digital Affairs, building [open tools against information manipulation](https://disinfo.quaidorsay.fr), invites you for two days focused on the ways in which we can _actually_ decrease the amount of disinformation citizens are confronted to on a daily basis, today and the day after.**
-
-[Join us!](#registration){: .btn .btn-purple .px-10}
-{: .text-center}
 
 ![The Hotel du Ministre is an official, beautiful old building](/assets/img/unconference/hotel-interieur.jpg)
 
@@ -53,9 +54,6 @@ On this first day, we want participants to share their experience and best pract
 - **Social network operators flagging**: how effective are standard channels? Privileged escalation channels?
 
 The format for this first day will be [Open Space Technology](https://en.wikipedia.org/wiki/Open_Space_Technology): there will be no presenters and attendees, only participants. This format supports much deeper interactions, shaping the conversations around sharing knowledge rather than making assumptions on the audience. You do not need any prior experience with “unconferences” to participate.
-
-[Share and learn!](#registration){: .btn .btn-purple .px-10}
-{: .text-center}
 
 
 ### June 28<sup>th</sup>: Research Hackathon
@@ -85,9 +83,6 @@ You can also use public sources such as:
 
 - Twitter's [political advertisers](https://ads.twitter.com/transparency/i/political_advertisers).
 - [Several millions](https://disinfo.quaidorsay.fr/encyclopedia/research/tools#disinformation-datasets) of troll tweets and accounts.
-
-[Build something awesome!](#registration){: .btn .btn-purple .px-10}
-{: .text-center}
 
 #### Agenda
 
@@ -149,9 +144,3 @@ The hours we chose aim to support participants in using low-carbon transportatio
 - From London, you can take the 5:40 [Eurostar](https://booking.eurostar.com/uk-en/train-search?adult=1&outbound-date=2019-06-27&bookingType=standard&origin=7015400&destination=8727100) train and 20:01 back.
 
 These trains reach Gare du Nord, from which you can reach the Invalides metro station in 20 minutes with RER C and RER B, connecting through Saint-Michel-Notre-Dame.
-
-## Registration
-
-<div class="typeform-widget" data-url="https://mattischneider.typeform.com/to/uJuA0y" style="width: 100%; height: 520px; box-shadow: 0 0 0 1px #E5E5E5; margin-bottom: 1rem"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-
-If the registration form does not appear, you can still [register with this form](https://mattischneider.typeform.com/to/uJuA0y).
