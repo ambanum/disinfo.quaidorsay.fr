@@ -36,7 +36,7 @@ You can go to http://127.0.0.1:4000/ to see the result.
 
 Deployment is done with [GitHub Pages](https://pages.github.com). Just push to the `master` branch to deploy on `ambanum.github.io`.
 
-A `Nginx` reverse proxy is set up on `disinfo.quaidorsay.fr` to serve the content deployed on `ambanum.github.io`.
+An Nginx reverse proxy is set up on `disinfo.quaidorsay.fr` to serve the content deployed on `ambanum.github.io`.
 
 - - -
 
