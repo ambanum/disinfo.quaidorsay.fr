@@ -1,6 +1,6 @@
 # disinfo.quaidorsay.fr
 
-Repository for the landing page and the [encyclopedia](https://disinfo.quaidorsay.fr/encyclopedia) of disinfo.quaidorsay.fr website, others experiments' interfaces available on the website have their own repository you can find on the github's [AmbaNum organization](https://github.com/ambanum).
+Landing page and [encyclopedia](https://disinfo.quaidorsay.fr/encyclopedia) of `disinfo.quaidorsay.fr`. Other experiments listed on the website have their own repository on the [AmbaNum GitHub organization](https://github.com/ambanum).
 
 > Dépôt de la page d'accueil et de l'[encyclopédie](https://disinfo.quaidorsay.fr/encyclopedia) du site disinfo.quaidorsay.fr, les interfaces des autres expériences disponibles sur le site ont leur propre dépôt que vous pouvez trouver sur l'[organisation Github AmbaNum](https://github.com/ambanum).
 
