@@ -6,7 +6,7 @@ Landing page and [encyclopedia](https://disinfo.quaidorsay.fr/encyclopedia) of `
 
 ## Encyclopedia
 
-The encyclopedia is a collaborative resource which aims at empowering all actors countering information manipulation to grow and improve. In this repository you can find the content in `_pages/en/encyclopedia`.<br />
+The encyclopedia is a collaborative resource which aims at empowering all actors countering information manipulation to grow and improve. In this repository you can find the content in `_pages/en/encyclopedia`.
 [More information on how to contribute to the encyclopedia](CONTRIBUTING.md).
 
 > L'encyclopédie est une ressource ouverte et collaborative qui documente les meilleures pratiques, outils et acteurs, permettant à toutes les personnes qui luttent contre la manipulation de l'information d'améliorer la compétence de l'écosystème tout entier.
