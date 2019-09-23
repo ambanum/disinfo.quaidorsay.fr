@@ -8,11 +8,14 @@ Repository for the landing page and the [encyclopedia](https://disinfo.quaidorsa
 
 The encyclopedia is a collaborative resource which aims at empowering all actors countering information manipulation to grow and improve. In this repository you can find the content in `_pages/en/encyclopedia`.
 
+[More information on how to contribute to the encyclopedia](CONTRIBUTING.md).
+
 ## Development
 
 This site is built with [Jekyll](https://jekyllrb.com/), a static site generator. The version used is the one [currently in production](https://pages.github.com/versions/) on GitHub Pages.
 
 To improve it, install [Ruby](https://www.ruby-lang.org/fr/) and [Jekyll](https://jekyllrb.com) in their [production versions](https://pages.github.com/versions/).
+
 If the installation of `nokogiri` is problematic with the system versions of `libxml`, you can try to install [rbenv](https://github.com/rbenv/rbenv) by combining a new installation with the environment variable `NOKOGIRI_USE_SYSTEM_LIBRARIES` set to `true`.
 
 Then clone this repository, install dependencies and run the server:

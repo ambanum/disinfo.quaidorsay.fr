@@ -9,11 +9,14 @@ Dépôt de la page d'accueil et de l'[encyclopédie](https://disinfo.quaidorsay.
 
 L'encyclopédie est une ressource collaborative qui vise à donner à tous les acteurs qui luttent contre la manipulation de l'information les moyens de se développer et de s'améliorer. Dans ce dépôt, vous pouvez trouver le contenu dans `_pages/fr/encyclopedia`.
 
+[Plus d'infos sur comment contribuer à l'encyclopédie](CONTRIBUTING.md).
+
 ## Development
 
 Ce site est construit avec [Jekyll](https://jekyllrb.com/), un générateur de site statique. La version utilisée est celle[actuellement en production](https://pages.github.com/versions/) sur GitHub Pages.
 
 Pour l'améliorer, installez [Ruby](https://www.ruby-lang.org/fr/) et [Jekyll](https://jekyllrb.com) dans leurs [versions de production](https://pages.github.com/versions/).
+
 Si l'installation de `nokogiri` pose problème avec les versions système de `libxml`, vous pouvez essayer d'installer [rbenv](https://github.com/rbenv/rbenv) en combinant une nouvelle installation avec la variable d'environnement `NOKOGIRI_USE_SYSTEM_LIBRARIES` réglée sur `true`.
 
 Clonez ensuite ce dépôt, installez les dépendances et exécutez le serveur :
