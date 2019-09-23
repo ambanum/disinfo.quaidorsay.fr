@@ -28,6 +28,7 @@ defaults:
 
 exclude:
   - README.md
+  - README-fr.md
   - .circleci
   - vendor
 
