@@ -30,8 +30,6 @@ bundle install
 bundle exec jekyll serve
 ```
 
-You can go to http://127.0.0.1:4000/ to see the result.
-
 ## Deployment
 
 Deployment is done with [GitHub Pages](https://pages.github.com). Just push to the `master` branch to deploy on `ambanum.github.io`.
