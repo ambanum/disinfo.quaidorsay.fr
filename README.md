@@ -2,7 +2,7 @@
 
 Landing page and [encyclopedia](https://disinfo.quaidorsay.fr/encyclopedia) of `disinfo.quaidorsay.fr`. Other experiments listed on the website have their own repository on the [AmbaNum GitHub organization](https://github.com/ambanum).
 
-> Dépôt de la page d'accueil et de l'[encyclopédie](https://disinfo.quaidorsay.fr/encyclopedia) du site disinfo.quaidorsay.fr, les interfaces des autres expériences disponibles sur le site ont leur propre dépôt que vous pouvez trouver sur l'[organisation Github AmbaNum](https://github.com/ambanum).
+> La page d'accueil et l'[encyclopédie](https://disinfo.quaidorsay.fr/encyclopedia) du site `disinfo.quaidorsay.fr`. Les autres expériences présentées sur le site ont leur propre dépôt dans l'[organisation Github AmbaNum](https://github.com/ambanum).
 
 ## Encyclopedia
 
