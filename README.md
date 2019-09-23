@@ -1,11 +1,27 @@
-# L'encyclopédie de la désinformation
+# disinfo.quaidorsay.fr
 
-## Développement
+Landing page and [encyclopedia](https://disinfo.quaidorsay.fr/encyclopedia) of `disinfo.quaidorsay.fr`. Other experiments listed on the website have their own repository on the [AmbaNum GitHub organization](https://github.com/ambanum).
 
-Ce site est construit avec [Jekyll](https://jekyllrb.com/), un générateur de sites statiques. La version utilisée est celle [actuellement en production](https://pages.github.com/versions/) sur GitHub Pages.
+> La page d'accueil et l'[encyclopédie](https://disinfo.quaidorsay.fr/encyclopedia) du site `disinfo.quaidorsay.fr`. Les autres expériences présentées sur le site ont leur propre dépôt dans l'[organisation Github AmbaNum](https://github.com/ambanum).
 
-Pour l'améliorer, installer [Ruby](https://www.ruby-lang.org/fr/) et [Jekyll](https://jekyllrb.com) dans leurs [versions de production](https://pages.github.com/versions/) :
+## Encyclopedia
 
+The encyclopedia is a collaborative resource which aims at empowering all actors countering information manipulation to grow and improve. In this repository you can find the content in `_pages/en/encyclopedia`.
+[More information on how to contribute to the encyclopedia](CONTRIBUTING.md).
+
+> L'encyclopédie est une ressource ouverte et collaborative qui documente les meilleures pratiques, outils et acteurs, permettant à toutes les personnes qui luttent contre la manipulation de l'information d'améliorer la compétence de l'écosystème tout entier.
+
+- - -
+
+## Development
+
+This site is built with [Jekyll](https://jekyllrb.com/), a static site generator. The version used is the one [currently in production](https://pages.github.com/versions/) on GitHub Pages.
+
+To improve it, install [Ruby](https://www.ruby-lang.org/fr/) and [Jekyll](https://jekyllrb.com) in their [production versions](https://pages.github.com/versions/).
+
+If the installation of `nokogiri` is problematic with the system versions of `libxml`, you can try to install [rbenv](https://github.com/rbenv/rbenv) by combining a new installation with the environment variable `NOKOGIRI_USE_SYSTEM_LIBRARIES` set to `true`.
+
+Then clone this repository, install dependencies and run the server:
 ```sh
 git clone https://github.com/AmbaNum/disinformation-encyclopedia.git
 cd disinformation-encyclopedia
@@ -14,18 +30,13 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Dans l'éventualité où l'installation de nokogiri poserait problème avec les versions système de `libxml`, vous pouvez tenter d'installer [rbenv](https://github.com/rbenv/rbenv) en combinant une nouvelle installation avec la variable d'environnement `NOKOGIRI_USE_SYSTEM_LIBRARIES` mise à `true`.
+## Deployment
 
-Un thème est utilisé. Pour les pages indépendantes du thème, les fichiers pertinents pour une modification de la présentation sont probablement dans les dossiers `_layouts` et `css`.
+Deployment is done with [GitHub Pages](https://pages.github.com). Just push to the `master` branch to deploy on `ambanum.github.io`.
 
+An Nginx reverse proxy is set up on `disinfo.quaidorsay.fr` to serve the content deployed on `ambanum.github.io`.
 
-## Déploiement
-
-La mise en production est faite via [GitHub Pages](https://pages.github.com). Il suffit de pousser sur la branche `master` pour déployer sur `ambanum.github.io`.
-
-Un reverse proxy est mis en place sur `desinfo.quaidorsay.fr` pour servir le contenu déployé sur `ambanum.github.io`.
-
-- - - - - - -
+- - -
 
 # License
 
