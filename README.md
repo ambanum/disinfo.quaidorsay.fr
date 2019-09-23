@@ -1,14 +1,16 @@
 # disinfo.quaidorsay.fr
 
-- - -
-[English](README.md), [Français](README-fr.md)
-- - -
-
 Repository for the landing page and the [encyclopedia](https://disinfo.quaidorsay.fr/encyclopedia) of disinfo.quaidorsay.fr website, others experiments' interfaces available on the website have their own repository you can find on the github's [AmbaNum organization](https://github.com/ambanum).
 
-The encyclopedia is a collaborative resource which aims at empowering all actors countering information manipulation to grow and improve. In this repository you can find the content in `_pages/en/encyclopedia`.
+## Encyclopedia
 
+The encyclopedia is a collaborative resource which aims at empowering all actors countering information manipulation to grow and improve. In this repository you can find the content in `_pages/en/encyclopedia`.<br />
 [More information on how to contribute to the encyclopedia](CONTRIBUTING.md).
+
+> Dépôt de la page d'accueil et de l'[encyclopédie](https://disinfo.quaidorsay.fr/encyclopedia) du site disinfo.quaidorsay.fr, les interfaces des autres expériences disponibles sur le site ont leur propre dépôt que vous pouvez trouver sur l'[organisation Github AmbaNum](https://github.com/ambanum).
+> L'encyclopédie est une ressource ouverte et collaborative qui documente les meilleures pratiques, outils et acteurs, permettant à toutes les personnes qui luttent contre la manipulation de l'information d'améliorer la compétence de l'écosystème tout entier.
+
+- - -
 
 ## Development
 
