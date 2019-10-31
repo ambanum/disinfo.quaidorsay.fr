@@ -27,15 +27,11 @@ Additionally, Google claims that the data can be accessed by Google Cloud BigQue
 
 As stated in the [Political advertising on Google FAQs](https://support.google.com/transparencyreport/answer/9310667), the Transparency Report “covers any ad that mentions a political party, candidate or current officeholder for the European Parliament”. Consequently, ads paid by political parties that did not campaign for the European Parliament elections do not (yet?) appear in the report.
 
-### The Google Cloud Big Query resource is unavailable
-
-Google [claims](https://support.google.com/transparencyreport/answer/9310667) that “The ads are published as a public data set on [Google Cloud BigQuery](https://console.cloud.google.com/marketplace/details/bigquery-public-data/google-political-ads). You can export a subset of the ads or access them programmatically.” However, we could not access the resource as of June 24th, 2019.
-
 ### Data is updated irregularly
 
 Google claims that the data is updated weekly, which could be more frequent.
 
-We noticed that between June 14th 2019 and June 24th, the downloadable bundle has been updated twice: between June 14th noon and June 15th noon, and between June 18th noon and June 19th noon.
+Indeed, we observed that the data is updated once a week most of the time. Sometimes, several versions alternate during the same week. This is the case between October 15th 2019 and October 22nd 2019. A version A was published during October 15th, 16th, 19th, 21st, 22nd while a version B was published during October 17th, 20th and a version C was published October 18th.
 
 ### Advertiser identifier is inconsistent
 
@@ -49,7 +45,7 @@ Even though publishing the data as a bundle is a major advantage for research, t
 
 Ads can be of three types: text, image or video.
 
-- We believe the textual content can be fetched using an undocumented Google API, which is cumbersome but feasible.
+- The textual content can be fetched using an undocumented Google API, which is cumbersome but feasible.
 - We observed that the images are displayed in the web page using, depending on the ad, at least two different technical means involving dynamic scripts, neither of which are easy to reverse engineer.
 - As for the videos, they are displayed by streaming and we did not assess whether the streaming is performed using standard streaming protocols.
 
