@@ -1,5 +1,5 @@
 ---
-permalink: /en/social-networks-ads
+permalink: /en/social-media-ads
 numbered_headers: true
 ---
 
@@ -12,15 +12,15 @@ Here is a 10.000 feet overview of the major social media policies regarding poli
 
 ## Facebook (including Instagram)
 
-See [our assessement of the Facebook ads library](/facebook-ads-library-assessment).
+See [our assessement of the Facebook ads library](/en/facebook-ads-library-assessment).
 
 ## Twitter
 
-See [our assessement of the Twitter ads transparency center](/twitter-ads-transparency-center-assessment).
+See [our assessement of the Twitter ads transparency center](/en/twitter-ads-transparency-center-assessment).
 
 ## Google (including YouTube)
 
-See [our assessement of the Google transparency report](/google-transparency-report-assessment).
+See [our assessement of the Google transparency report](/en/google-transparency-report-assessment).
 
 ## TikTok
 
