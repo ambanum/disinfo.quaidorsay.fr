@@ -36,6 +36,16 @@ Deployment is done with [GitHub Pages](https://pages.github.com). Just push to t
 
 An Nginx reverse proxy is set up on `disinfo.quaidorsay.fr` to serve the content deployed on `ambanum.github.io`.
 
+## Test environment
+
+With [vagrant](https://www.vagrantup.com/) you can create a test / development environment :
+
+```
+vagrant up
+```
+
+Open http://localhost:8080
+
 - - -
 
 # License
