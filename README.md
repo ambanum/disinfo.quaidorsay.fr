@@ -36,6 +36,15 @@ Deployment is done with [GitHub Pages](https://pages.github.com). Just push to t
 
 An Nginx reverse proxy is set up on `disinfo.quaidorsay.fr` to serve the content deployed on `ambanum.github.io`.
 
+
+## Run with docker-compose
+
+```sh
+docker-compose up
+```
+
+Open http://localhost:8080
+
 - - -
 
 # License
