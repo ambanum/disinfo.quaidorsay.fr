@@ -1,5 +1,8 @@
 # disinfo.quaidorsay.fr
 
+[![CircleCI](https://img.shields.io/circleci/project/github/ambanum/disinfo.quaidorsay.fr.svg)](https://circleci.com/gh/ambanum/disinfo.quaidorsay.fr)
+
+
 Landing page and [encyclopedia](https://disinfo.quaidorsay.fr/encyclopedia) of `disinfo.quaidorsay.fr`. Other experiments listed on the website have their own repository on the [AmbaNum GitHub organization](https://github.com/ambanum).
 
 > La page d'accueil et l'[encyclopédie](https://disinfo.quaidorsay.fr/encyclopedia) du site `disinfo.quaidorsay.fr`. Les autres expériences présentées sur le site ont leur propre dépôt dans l'[organisation Github AmbaNum](https://github.com/ambanum).
