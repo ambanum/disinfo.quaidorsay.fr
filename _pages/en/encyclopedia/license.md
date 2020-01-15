@@ -20,3 +20,8 @@ This is a human-readable summary and not a substitute for the [license](https://
 - **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 [See full license](https://creativecommons.org/licenses/by-sa/2.0/legalcode)
+
+### Illustrations
+
+We provide an archive with all the illustrations of the encyclopedia's graphic vocabulary to facilitate reuse.
+[Download encyclopedia's illustrations](/assets/img/illustrations.zip){: .btn .btn-purple .mt-4}
