@@ -22,6 +22,15 @@ See [our assessement of the Twitter ads transparency center](/en/twitter-ads-tra
 
 See [our assessement of the Google transparency report](/en/google-transparency-report-assessment).
 
+## Snapshat
+
+Snapchat puclishes a [transparency report](https://www.snap.com/en-US/political-ads/) that is updated daily.
+
+We found this archive to be easy to download and use. It contains metadata about the ads but not the media (video, picture or text). From [daily downloads](https://disinfo.quaidorsay.fr/ads/dumps/snapchat/), we ran an analysis over the course of November 2019 that found no major inconsistencies (eg no duplication, no removed ads) and a few minor inconsistencies:
+* A small minority of ads had inconsistent changes (on about 3000 ads, 5 had the changin field `startDate`, 10 had a changing URL, 6 had a slighly decreasing print count)
+* About 15 ads were added to the archive as late as November 2019 while they were active from July 2019. The majority of the ads seem to be added to the archive in about a week.
+* 709 ads have been removed from the archive November 5th but they appeared again 2 days later.
+
 ## TikTok
 
 TikTok [declared on October 2019](https://newsroom.tiktok.com/en-us/understanding-our-policies-around-paid-ads):
