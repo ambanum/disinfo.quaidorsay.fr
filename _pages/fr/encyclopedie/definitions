@@ -1,0 +1,60 @@
+---
+title: definitions
+permalink: fr/encyclopedia/definitions
+nav_order: 2
+layout: default
+nav_exclude: true
+---
+
+# Définitions
+
+Ce sujet  connaît une  terminologie  abondante, parfois imprécise, mêlant différentes notions. 
+Nous partageons ici les définitions des termes les plus couramment utilisés et proposons également une définition du terme « manipulations de l’information ». 
+
+### Fake news 
+
+est l’expression la plus communément employée, y compris  en  français,  où  elle  est  parfois  traduite  par  «  fausses  informations  », tandis qu’il faudrait plutôt parler d’informations falsifiées, contrefaites ou forgées. 
+Ce terme demeure vague et ne permet pas de rendre  compte  du  fait  qu’une  partie  du  problème  vient  aussi  d’informations qui ne sont pas « fausses » à strictement parler. 
+D’autre part, ce terme est devenu tellement galvaudé que son utilisation vise parfois à désigner l’ensemble des nouvelles que l’on n’apprécie pas, et finalement à incarner une forme de populisme hostile à la liberté de la presse.
+Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/)
+
+###	Mésinformation 
+
+suppose la diffusion d’informations fausses ou trompeuses de manière non intentionnelle ou d'informations dont l'inexactitude est involontaire.
+Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/) et le [rapport de Data&Society](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)
+
+### Malinformation 
+
+fait de partager des informations pour causer du tort, souvent en déplaçant dans la sphère publique des informations conçues pour rester privées.
+Source : [rapport du Conseil de l'Europe](https://rm.coe.int/information-disorder-report-november-2017/1680764666)
+
+###	Désinformation 
+
+se définie généralement comme la diffusion d’informations délibérément  fausses  ou  trompeuses.  
+Elle  se  distingue  de  la  «  mésinformation  » qui  suppose la diffusion d’informations fausses ou trompeuses de manière non intentionnelle.
+Ce terme peut être considéré comme à la fois trop large et trop étroit. Trop large car il inclut la désinformation bénigne, sans intention hostile. 
+En même temps, le concept est aussi trop étroit car tous les problèmes rencontrés ne sont pas de la désinformation stricto sensu. Parfois,  l’information  n’est  pas  fausse  mais  simplement  exagérée,  ou  biaisée, ou présentée de façon très émotionnelle comme peuvent le faire les tabloïds. 
+L’information peut  être manipulée de nombreuses manières, par la production, la diffusion et même la  rétention d’informations. Tous les procédés n’impliquent pas une dichotomie entre le vrai et le faux. La plupart du  temps, le manipulateur ne se positionne pas par rapport à la  vérité : il cherche simplement à produire un effet.
+Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/)
+
+###	Manipulations de l’information 
+
+ce terme, plus inclusif, reflète le fait que la manipulation est délibérée (elle suppose l’intention  de  nuire) et clandestine (ses  victimes  en  sont  inconscientes). 
+La France utilise ce terme cumulant plusieurs critères : une campagne coordonnée, de diffusion de nouvelles fausses ou sciemment trompeuses, déformées, avec l’intention politique de nuire. 
+La notion de campagne coordonnée renvoie moins à l’idée d’une opération  orchestrée  avec  donneurs  d’ordre  et  exécutants  qu’à  un  faisceau  d’indices  indiquant  qu’à  travers  plusieurs  médias se  déroule  simultanément un ensemble d’actions provenant de différentes sources humaines et non humaines tendant toutes à la diffusion d’un certain contenu problématique.
+Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/)
+
+## Taxonomie
+
+Ce tableau n’a pas vocation à être exhaustif mais vise à proposer une clé de lecture des phénomènes les plus caractéristiques pour chacun des termes.
+(Il s'inspire du [travail](http://carnegieendowment.org/files/2020-How_do_you_define_a_problem_like_influence.pdf) mené par James Pamment au Carnegie Endowment for International Peace).
+
+
+| :------ | Mésinformation  | Désinformation      | Manipulation de l'information |
+| :--------------- |:---------------:| ---------------:|
+| Acteurs(s)   | acteurs isolé |   /       |  souvent une orgnanisation |
+| Comportement(s)    | diffusion non intentionnelle  | diffusion intentionnelle aux mobiles variés (économique, politique... |  diffusion délibérée  et coordonnée avec une finalité politique hostile
+| Contenu(s)    | informations fausses ou trompeuses  |  informations fausses ou trompeuses          |   informations fausses, trompeuses, biaisées ou orientées |
+| Mécanisme(s) de diffusion    | diffusion organique | diffusion organique et/ou artificielle          |    Diffusion massive  et/ou artificielle (robots, publicités, trolls, faux médias, leaks…)
+| Effet(s) escompté(s)    | /  | intention qui n’est pas toujours hostile  |    Intention de nuire |
+
