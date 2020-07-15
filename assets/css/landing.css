@@ -7,6 +7,10 @@ body {
 	background: #FFF;
 }
 
+.landing .container {
+	max-width: 1024px;
+}
+
 .landing a,
 .landing a.navbar-item {
 	color: #512DA8;
@@ -38,7 +42,6 @@ body {
 }
 
 .landing .hero {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	min-height: 75vh;
 }
 
@@ -64,12 +67,15 @@ body {
 
 .landing .hero-body .title {
 	font-size: 3em;
-	font-weight: 600;
+	font-weight: 900;
 	hyphens: auto;
+	color: #3A0057;
 }
 
 .landing .hero-body .subtitle {
-	font-weight: 400;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #000;
 }
 
 .landing .hero-body .description {
@@ -77,18 +83,42 @@ body {
 	margin-bottom: 1em;
 }
 
+.landing .section {
+	padding: 6rem 1.5rem;
+}
+
+.our-vision {
+	background-color: #EFF1F9;
+	clip-path: polygon(0 0, 100% 2em, 100% calc(100% - 1.5em), 0 100%);
+}
+
+.our-vision .our-vision-title {
+	color: #1E225B;
+}
+
+.our-vision .our-vision-title .thin {
+	font-weight: 300;
+}
+
+.our-vision p {
+	margin-bottom: 1em;
+	color: #000;
+}
+
+.our-vision .logo {
+	max-width: 400px;
+	padding: 3rem;
+}
+
 .our-work {
-	background-color: #F7F7F7;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-	padding: 0 2em;
+	background-color: #f9f8f6;
+	clip-path: polygon(0 2em, 100% 0, 100% calc(100% - 1.5em), 0 100%);
 }
 
 .our-work .our-work-title.title {
-	font-weight: 300;
-	margin-bottom: 1.5em;
-	color: #8776CA;
+	margin-bottom: 3rem;
+	color: #3A0057;
 	font-variant: all-petite-caps;
-	font-size: 1.5rem;
 }
 
 .our-work .work-item .title {
