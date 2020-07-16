@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-		<title>{{ page.title }}</title>
+		<title>{{ page.title | strip_html}}</title>
 		{% if page.description %}
 		<meta name="description" content="{{ page.description }}">
 		{% endif %}
@@ -22,7 +22,7 @@
 					<header class="navbar">
 						<div class="container">
 							<div class="navbar-brand">
-								<img class="logo" src="/assets/img/logo.png" alt="French Ambassador for Digital Affairs">
+								<img class="logo" src="/assets/img/logo-without-text.png" alt="French Ambassador for Digital Affairs">
 								<span class="navbar-burger burger" data-target="navbarMenu">
 									<span></span>
 									<span></span>
