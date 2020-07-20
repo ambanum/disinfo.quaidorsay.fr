@@ -12,24 +12,24 @@ Below you will find definitions of the most commonly used terms and a precise de
 
 #### Fake news 
 
-is the most commonly used expression and does not necessarily refer to false news but rather falsified, counterfeit, or forged information. 
-However, this term is vague and does not account for the fact that part of the problem arises from information that is not, strictly speaking, “false.” 
-The term has also become so over-used that it is not uncommon to see it for all news that we dislike, ultimately enabling a form of populism that is hostile to the freedom of the press.
-Source:[CAPS report](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/)
+_Fake news_ is the most commonly used expression and does not necessarily refer to false news but rather falsified, counterfeit, or forged information. 
+This term is vague and does not account for the fact that part of the problem arises from information that is not, strictly speaking, “false.” 
+The term has also become so over-used that it is not uncommon to see it applied to all news that one dislikes, driving towards a generalized distrust in media.
+Source: [CAPS report](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/)
 
 #### Misinformation
 
-is the unintentional dissemination of information that is wholly or partly false or information whose inaccuracy is unintentional.
-Sources:[CAPS report](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/) ; [Data&Society report](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)
+_Misinformation_ is the unintentional dissemination of information that is wholly or partly false, or information for which inaccuracy is unintentional.
+Sources: [CAPS report](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/); [Data & Society report](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)
 
 #### Malinformation
 
-is when genuine information is shared to cause harm, often by moving information designed to stay private into the public sphere.
+_Malinformation_ is when genuine information is shared to cause harm, often by moving information designed to stay private into the public sphere.
 Source: [Council of Europe report DGI(2017)09](https://rm.coe.int/information-disorder-report-november-2017/1680764666)
 
 #### Disinformation
 
-is the intentional dissemination of information that is wholly or partly false. It differs from “misinformation,” which is unintentional. 
+_Disinformation_ is the intentional dissemination of information that is wholly or partly false. Only the active intention separates it from [misinformation](#Misinformation).
 This definition is both too broad and too narrow. It is too broad in the sense that it includes benign information that lacks a hostile intention. 
 At the same time, the concept of disinformation is too narrow because the problems that we encounter are not all, strictly speaking, forms of disinformation. 
 Sometimes information is not false, but simply exaggerated, biased or presented in a very emotional way, such as in a tabloid.
@@ -52,7 +52,7 @@ This table is not intended to be exhaustive, but to provide a key to understandi
 
 |:---------| Misinformation  | Disinformation     | Information manipulation |
 | :------- |:---------------:| ------------------:|-------------------------:|
-| Actor(s) | Any, usually an isolated actor  |   Any       |  Usually an organisation |
+| Actor(s) | Any, usually a single actor  |   Any       |  Usually an organisation |
 | Behavior(s) | Unintentional dissemination| Intentional dissemination with the aim of producing an effect  | An intentional and coordinated diffusion with a political intention to cause harm  |
 | Content(s)| False or misleading information  | False or misleading information          |    False, misleading or biased, oriented information |
 | Distribution(s) | Organic   | Organic or artificial         |    Massive and artificial |
