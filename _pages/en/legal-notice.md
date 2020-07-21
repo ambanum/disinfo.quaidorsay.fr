@@ -14,7 +14,7 @@ Ministère de l'Europe et des affaires étrangères<br>
 
 ## Editorial director
 
-Deputy Ambassador for Digital Affairs, Marine Guillaume
+CIO to the Ambassador for Digital Affairs, Matti Schneider
 
 ## Hosting provider
 
