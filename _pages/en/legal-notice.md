@@ -10,7 +10,7 @@ permalink: /legal-notice
 Office of the Ambassador for Digital Affairs
 
 Ministère de l'Europe et des affaires étrangères<br>
-48 rue de Javel, 75015 Paris, France
+37 Quai d'Orsay, 75015 Paris, France
 
 ## Editorial director
 
