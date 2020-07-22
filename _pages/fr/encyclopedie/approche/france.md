@@ -19,9 +19,9 @@ La [loi française de 2018 contre les manipulations d'informations] (https://dis
 Le ministère de l’Europe et des Affaires étrangères utilise une définition des manipulations de l’information (exclusivement exogènes) qui s'appuie sur cinq critères cumulatifs [criteria](/encyclopedia) :
 
 - une diffusion intentionnelle ;
--	massive et artificielle ;
--	d’informations fausses, trompeuses, biaisées ou orientées ;
--	avec une finalité politique hostile. L’intention de nuire est entendue au sens large et ne signifie pas que le champ se limite aux affaires politiques ou nationales : la campagne peut vouloir saper la légitimité d’un processus électoral ou susciter un environnement hostile pour une opération militaire extérieure ;
--	émanant d’un acteur étranger (étatique ou non).
+- massive et artificielle ;
+- d’informations fausses, trompeuses, biaisées ou orientées ;
+- avec une finalité politique hostile. L’intention de nuire est entendue au sens large et ne signifie pas que le champ se limite aux affaires politiques ou nationales : la campagne peut vouloir saper la légitimité d’un processus électoral ou susciter un environnement hostile pour une opération militaire extérieure ;
+- émanant d’un acteur étranger (étatique ou non).
 
 Mais il n'y a pas de définition unique ! Chaque organisation dispose d'une approche spécifique et s'appuie sur des critères associés.
