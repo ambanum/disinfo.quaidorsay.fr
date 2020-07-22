@@ -59,7 +59,7 @@ Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etranger
 
 ## Application du cadre _[Actors, Behaviors, Content](https://science.house.gov/imo/media/doc/Francois%20Addendum%20to%20Testimony%20-%20ABC_Framework_2019_Sept_2019.pdf), [Distribution](https://www.brookings.edu/techstream/adding-a-d-to-the-abc-disinformation-framework/)_
 
-Ce tableau n’a pas vocation à rendre compte d'une approche exhaustive mais vise plutôt à proposer une clé de lecture des phénomènes les plus caractéristiques pour chacun des termes (il s'inspire notamment du [travail](http://carnegieendowment.org/files/2020-How_do_you_define_a_problem_like_influence.pdf) mené par James Pamment au Carnegie Endowment for International Peace).
+Ce tableau propose une clé de lecture des phénomènes les plus caractéristiques pour chacun des termes (il s'inspire notamment du [travail](http://carnegieendowment.org/files/2020-How_do_you_define_a_problem_like_influence.pdf) mené par James Pamment au Carnegie Endowment for International Peace).
 
 
 |  | Mésinformation | Désinformation   | Manipulation de l'information |
