@@ -9,7 +9,7 @@ layout: default
 
 La France privilégie l'emploi du terme générique de [manipulations de l’information](/encyclopedia/definitions), qui permet tant de rendre compte de l'intention hostile et du caractère massif et artificiel de la diffusion, que d’illustrer le fait que le procédé ne se positionne pas toujours vis-à-vis de la véracité de l’information.
 
-Nous considérons par exemple que le terme de _désinformation_ est à la fois trop large, en ce qu'il inclut aussi la désinformation bénigne, sans intention hostile, et trop étroit, en ce qu'il implique que le procédé se réfère systématiquement à de la désinformation _stricto sensu_. Pourtant, l’information n’est pas toujours fausse, elle peut être également exagérée, biaisée, ou présentée de façon très émotionnelle, comme peuvent le faire les tabloïds. 
+Nous considérons par exemple que le terme de _désinformation_ est à la fois trop large, en ce qu'il inclut aussi la désinformation bénigne, sans intention hostile, et trop étroit, en ce qu'il implique que le procédé se réfère systématiquement à de la désinformation _stricto sensu_. Pourtant, le procédé n'implique pas toujours une dichotomie entre le vrai et le faux. L’information peut être fausse, mais également exagérée, biaisée, ou présentée de façon très émotionnelle, comme peuvent le faire les tabloïds.
 
 La [loi française de 2018 contre les manipulations d'informations] (https://disinfo.quaidorsay.fr/encyclopedia/reaction/case-studies#legislation) a ancré l'utilisation de ce terme dans la loi.
 
