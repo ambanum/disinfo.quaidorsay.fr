@@ -45,8 +45,8 @@ Source : [rapport du Conseil de l'Europe](https://rm.coe.int/information-disord
 
 ### Manipulation de l’information
 
-Terme générique décrivant le regroupement de toutes les formes de diffusion intentionnelle d'informations répondant à un objectif politique hostile (déstabilisation des populations, des institutions et des États ciblés, afin d’infléchir leurs choix ou de porter atteinte à l’autonomie de leurs décisions) et s'effectuant de manière déloyale vis-à-vis des récepteurs d'informations.
-La manipulation est débilbérée (elle suppose l'intention de nuire), clandestine (ses victimes en sont inconscientes) et ne se positionne pas toujours vis-à-vis de la véracité de l’information. L'information peut être fausse, biaisée, mais également exagérée ou decontextualisée et le procédé n'implique pas toujours une dichotomie entre le vrai et le faux.
+Terme générique décrivant le regroupement de toutes les formes intentionnelles de diffusion, production ou rétention d'informations répondant à un objectif politique hostile (déstabilisation des populations, des institutions et des États ciblés, afin d’infléchir leurs choix ou de porter atteinte à l’autonomie de leurs décisions) et s'effectuant de manière déloyale vis-à-vis des récepteurs d'informations.
+La manipulation est débilbérée (elle suppose l'intention de nuire), clandestine (ses victimes en sont inconscientes) et ne se positionne pas toujours vis-à-vis de la véracité de l’information. 
 
 Sources : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/) et [discours de M. Jean-Yves Le Drian, ministre de l’Europe et des Affaires étrangères (Paris, 4 avril 2018)](https://www.diplomatie.gouv.fr/fr/les-ministres/jean-yves-le-drian/discours/article/conference-internationale-societes-civiles-medias-et-pouvoirs-publics-les).
 
