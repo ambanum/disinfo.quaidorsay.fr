@@ -7,7 +7,7 @@ layout: default
 
 # Approche française
 
-La France privilégie l'emploi du terme générique de « [manipulations de l’information](/encyclopedia/definitions) ». Ce terme permet tant de rendre compte du caractère coordonné, massif et artificiel de la diffusion et de l'intention hostile, que d’illustrer que la manipulation ne se positionne pas toujours vis-à-vis de la véracité de l’information.
+La France privilégie l'emploi du terme générique de « [manipulations de l’information](/encyclopedia/definitions) ». Ce terme permet tant de rendre compte de l'intention hostile et du caractère massif et artificiel de la diffusion que d’illustrer que la manipulation ne se positionne pas toujours vis-à-vis de la véracité de l’information.
 
 Le terme de _désinformation_ inclut quant à lui la désinformation bénigne, sans intention hostile et ce concept peut également être appréhendé comme trop étroit en ce que tous les problèmes rencontrés ne constituent pas de la désinformation stricto sensu.
 Parfois, l’information n’est pas fausse mais simplement exagérée, ou biaisée, ou présentée de façon très émotionnelle comme peuvent le faire les tabloïds.
