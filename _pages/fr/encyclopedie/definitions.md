@@ -20,7 +20,7 @@ Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etranger
 
 Diffusion intentionnelle d’informations fausses ou trompeuses.
 
-La seule différence avec la [mésinformation](#mesinformation) est l'intentionnalité.
+La seule différence avec la [mésinformation](#mésinformation) est l'intentionnalité.
 
 Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/).
 
