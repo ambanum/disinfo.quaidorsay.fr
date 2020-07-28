@@ -20,7 +20,7 @@ Source: [CAPS report](https://www.diplomatie.gouv.fr/IMG/pdf/information_manipul
 
 Intentional dissemination of information that is wholly or partly false or misleading.
 
-Only intentionality distinguishes it from [misinformation](#Misinformation).
+Only intentionality distinguishes it from [misinformation](#misinformation).
 
 Source: [CAPS report](https://www.diplomatie.gouv.fr/IMG/pdf/information_manipulation_rvb_cle838736.pdf).
 
