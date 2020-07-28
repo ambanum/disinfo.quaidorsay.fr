@@ -40,9 +40,9 @@ Generic term describing the grouping of all intentional forms of dissemination, 
 
 Manipulation is:
 
-    - deliberate: it purpose is to cause harm;
-    - clandestine: victims do not know they are being manipulated;
-    - not necessarily positioned vis-à-vis the veracity of the information.
+- deliberate: its purpose is to cause harm;
+- clandestine: victims do not know they are being manipulated;
+- not necessarily positioned vis-à-vis the veracity of the information.
 
 Source: [CAPS report](https://www.diplomatie.gouv.fr/IMG/pdf/information_manipulation_rvb_cle838736.pdf)
 
