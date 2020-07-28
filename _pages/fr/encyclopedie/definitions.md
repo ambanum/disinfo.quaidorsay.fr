@@ -26,7 +26,7 @@ Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etranger
 
 ### Fake news
 
-Synonymes : **fausses informations**, **infox**.
+Synonymes : **fausses informations**, **infox**.
 
 Le terme de _fake news_ est le plus communément employé, y compris en français.
 
