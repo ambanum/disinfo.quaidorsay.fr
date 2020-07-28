@@ -1,4 +1,5 @@
 ---
+title: Definitions
 permalink: /encyclopedia/definitions/
 nav_order: 2
 layout: default
