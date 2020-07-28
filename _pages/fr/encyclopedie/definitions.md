@@ -10,13 +10,14 @@ nav_exclude: true
 
 Ce sujet est rendu complexe par de nombreux termes qui recouvrent des réalités différentes. En consolidant les définitions, nous souhaitons faciliter les échanges.
 
-### Campagne coordonnée
+
+## Campagne coordonnée
 
 Faisceau d’indices indiquant qu’à travers plusieurs médias se déroule simultanément un ensemble d’actions provenant de différentes sources humaines et/ou non humaines tendant toutes à la diffusion d’un certain contenu.
 
 Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/).
 
-### Désinformation
+## Désinformation
 
 Diffusion intentionnelle d’informations fausses ou trompeuses.
 
@@ -24,7 +25,7 @@ La seule différence avec la [mésinformation](#mésinformation) est l'intention
 
 Source : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/).
 
-### Fake news
+## Fake news
 
 Synonymes : **fausses informations**, **infox**.
 
@@ -37,7 +38,7 @@ Sources : [Rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrange
 to disinformation](https://ec.europa.eu/digital-single-market/en/news/final-report-high-level-expert-group-fake-news-and-online-disinformation), rapport du groupe d’experts européen de haut niveau sur les fausses informations et la désinformation en ligne.
 
 
-### Malinformation
+## Malinformation
 
 Diffusion d'informations véridiques dans l'objectif de causer du tort, souvent en rendant publiques des informations prévues pour rester privées.
 
@@ -45,7 +46,7 @@ Ce terme est peu répandu.
 
 Source : [rapport du Conseil de l'Europe](https://rm.coe.int/information-disorder-report-november-2017/1680764666).
 
-### Manipulation de l’information
+## Manipulation de l’information
 
 Terme générique décrivant le regroupement de toutes les formes intentionnelles de diffusion, production ou rétention d'informations répondant à un objectif politique hostile (déstabilisation des institutions et des États ciblés, orientation des populations afin d’infléchir leurs choix ou de porter atteinte à l’autonomie de leurs décisions) et s'effectuant de manière déloyale vis-à-vis des récepteurs d'informations.
 
@@ -57,7 +58,7 @@ La manipulation est :
 
 Sources : [rapport du CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/) et [discours de M. Jean-Yves Le Drian, ministre de l’Europe et des Affaires étrangères (Paris, 4 avril 2018)](https://www.diplomatie.gouv.fr/fr/les-ministres/jean-yves-le-drian/discours/article/conference-internationale-societes-civiles-medias-et-pouvoirs-publics-les).
 
-### Mésinformation
+## Mésinformation
 
 Diffusion d’informations fausses ou trompeuses de manière non intentionnelle, ou d'informations dont l'inexactitude est involontaire.
 
