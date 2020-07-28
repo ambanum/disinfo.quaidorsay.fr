@@ -10,20 +10,20 @@ nav_exclude: false
 
 The topic is riddled with an abundance of terms mixing different realities. By consolidating the definitions, we want to facilitate exchanges.
 
-#### Coordinated campaign
+### Coordinated campaign
 
 The notion of _coordinated campaign_ refers to a range of indicators pointing to the diffusion, through various media, of problematic content, by both human and non-human sources.
 
 Source: [CAPS report](https://www.diplomatie.gouv.fr/IMG/pdf/information_manipulation_rvb_cle838736.pdf)
 
-#### Disinformation
+### Disinformation
 
 Intentional dissemination of information that is wholly or partly false or distorted.
 Only the active intention separates it from [misinformation](#Misinformation).
 
 Source:[CAPS report](https://www.diplomatie.gouv.fr/IMG/pdf/information_manipulation_rvb_cle838736.pdf)
 
-#### Fake news
+### Fake news
 
 _Fake news_ is the most commonly used expression.
 
@@ -34,7 +34,7 @@ It has been used so broadly that it can even today designate all the news that o
 
 Sources: [CAPS report](https://www.diplomatie.gouv.fr/IMG/pdf/information_manipulation_rvb_cle838736.pdf) and [A multi-dimensional approach to disinformation](https://ec.europa.eu/digital-single-market/en/news/final-report-high-level-expert-group-fake-news-and-online-disinformation), Final report of the High Level Expert Group on Fake News and Online Disinformation
 
-#### Information manipulation
+### Information manipulation
 
 Generic term describing the grouping of all intentional forms of dissemination, production or retention of information for hostile political purposes (inclunding the destabilization of populations, institutions and states in order to influence their choices or undermine their autonomy of decision) and carried out in a non-loyal manner towards the receivers of information.
 
@@ -46,13 +46,13 @@ Manipulation is:
 
 Source: [CAPS report](https://www.diplomatie.gouv.fr/IMG/pdf/information_manipulation_rvb_cle838736.pdf)
 
-#### Malinformation
+### Malinformation
 
 Dissemination of genuine information to cause harm, often by moving information designed to stay private into the public sphere.
 
 Source: [Council of Europe report DGI(2017)09](https://rm.coe.int/information-disorder-report-november-2017/1680764666)
 
-#### Misinformation
+### Misinformation
 
 Unintentional dissemination of information that is wholly or partly false, or information for which inaccuracy is unintentional.
 
