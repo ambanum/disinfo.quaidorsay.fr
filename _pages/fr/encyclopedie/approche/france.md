@@ -42,3 +42,15 @@ Au sein du ministère, l'équipe de l'[Ambassadeur pour le numérique](https://t
 - Elle travaille également avec les différents acteurs de la société civile internationale. L'organisation en juin 2019 d'une [non-conférence](/encyclopedia/unconference) a par exemple permis de mobiliser une cinquantaine d'acteurs investis sur ces sujets (équipes de recherche en sciences sociales, devs, ONGs, acteurs publics et opérateurs de médias sociaux).
 - Elle construit des [outils ouverts](/) et fait coopérer les acteurs pertinents pour influencer la gouvernance internationale afin d'aboutir à une règlementation efficace et proportionnée.
 - Elle anime un dialogue stratégique sur ces sujets avec les grands acteurs du numérique, dont les opérateurs de médias sociaux.
+
+### Direction de la communication et de la presse
+
+Au sein du ministère, la direction de la communication et de la presse participe à ces travaux en opérant une veille multilingue. 
+
+
+## Coordination interministérielle
+
+Une coordination interministérielle, qui permet de réunir l'ensemble des services compétents, s'effectue sous l'égide du Premier Ministre.
+
+
+
