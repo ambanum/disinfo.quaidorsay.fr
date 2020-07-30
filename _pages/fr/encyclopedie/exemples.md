@@ -1,12 +1,12 @@
 ---
-title: exemples de manipulations de l'information
+title: Exemples de campagnes de manipulation de l'information
 permalink: /encyclopedie/exemples
 nav_order: 3
 layout: default
 nav_exclude: true
 ---
 
-# Exemples de manipulations de l'information
+# Exemples de campagnes de manipulation de l'information
 
 Si les manipulations de l’information ne sont pas nouvelles, elles se sont néanmoins fortement amplifiées, depuis 2010, en raison des capacités inédites de diffusion et de viralité qu’offrent désormais les réseaux sociaux, ainsi que la crise de confiance que connaissent les démocraties.
 Il existe des manipulations de l’information de nature très diverses et, en raison de la complexité et de la nature protéiforme du sujet, il est utile d’opérer certaines distinctions. L’ensemble de ces caractéristiques peuvent ainsi constituer des **critères, employés par certaines instances, afin de qualifier les manipulations de l’information.**
