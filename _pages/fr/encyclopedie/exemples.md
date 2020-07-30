@@ -20,7 +20,7 @@ Lorsque la manipulation de l’information est d’origine étatique et étrang�
 
 Il faut néanmoins souligner qu’une des plus grandes difficultés dans la lutte contre les manipulations de l’information demeure la question de l’[attribution](/encyclopedia/attribution). Remonter à l’identité de l’origine et attribuer la responsabilité est toujours complexe, et la certitude quasiment impossible à obtenir. L’exercice est d’autant plus délicat que des tiers peuvent tenter de donner de faux indices afin d’orienter l’attribution. C’est pourquoi tous les exemples de campagnes donnés ci-dessous ne font que répertorier les origines suspectées par les auteurs des analyses, et ne représentent pas une attribution.
 
-| Exemple de manipulation exogène menée par un acteur étatique : les Macron Leaks|
+| Les Macron Leaks |
 |-|
 | **Date :** 2017 |
 | **Nature des acteurs soupçonnés :** acteur étatique (Russie), ultra-droite (_alt-right_) américaine, « fachosphère » française) |
@@ -32,7 +32,7 @@ Il faut néanmoins souligner qu’une des plus grandes difficultés dans la lutt
 | **Résumé :** la campagne présidentielle française a constitué le théâtre des Macron Leaks. Des mois durant une campagne de manipulation de l’information a été orchestrée sur les réseaux sociaux et sur certains médias (Sputnik et Russia Today en particulier) à l’encontre du candidat Macron. Cette campagne est parachevée deux jours avant le second tour de l'élection présidentielle et plus précisément deux heures avant le dernier débat télévisé, par une fuite de faux documents prétendument piratés depuis les ordinateurs de l’équipe de campagne du candidat, fuite qui sera par la suite amplifiée artificiellement sur les réseaux sociaux. La Russie et des groupes américains et français d’extrême droite sont soupçonnés d'être impliqués dans cette manipulation. |
 | **Source :** [CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/) |
 
-| Exemple de manipulation endogène menée par des acteurs de la société civile|
+| Go bald for BLM |
 |-|
 | **Date :** 2020|
 | **Natures des acteurs soupçonnés :** société civile |
@@ -52,7 +52,7 @@ Ces canaux sont utilisés avec des **modus operandi** différents : rétention 
 
 Le caractère protéiforme des manipulations de l’information et l’utilisation de divers canaux et *modus operandi* en conjonction peuvent complexifier l’effort de caractérisation.
 
-| Exemples de manipulations diffusées à travers les réseaux sociaux et utilisant divers *modus operandi* (cyberattaque, amplification, campagnes ciblées)|
+| L'élection présidentielle américaine de 2016 |
 |-|
 | **Date :** 2016|
 | **Nature des acteurs soupçonnés :** acteur étatique (GRU), entreprise privée proche d’acteurs étatiques, Internet Research Agency (IRA), entreprise privée (Cambridge Analytica)|
@@ -64,7 +64,7 @@ Le caractère protéiforme des manipulations de l’information et l’utilisati
 | **Résumé :** la campagne présidentielle américaine est marquée par des cyberattaques et des manipulations de l’information dont certaines sont identifiées comme des ingérences russes par les Etats-Unis.<br>• WikiLeaks publie 30 000 emails hackés, révélant certains échanges de la candidate Clinton et de son équipe lorsqu’elle était secrétaire d’Etat. La controverse autour de l’utilisation par Hillary Clinton d’une adresse mail personnelle pour des conversations confidentielles est relancée. Le rapport Mueller attribuera le hack de ces documents au GRU (service de renseignement militaire russe).<br>• Cambridge Analytica, entreprise britannique dirigée par Steve Bannon, est chargée par l’équipe du candidat Trump de mener une campagne médiatique sur Facebook. L’entreprise récupèrent les données personnelles de 87 millions de personnes via une application tierce, et mène une campagne ciblée dans les swing states à l’encontre d’ individus sélectionnés sur la base de leurs données personnelles.<br>• L’IRA est soupçonnée de favoriser l’élection de Donald Trump en utilisant des fermes à trolls pour influencer l’opinion publique sur les réseaux sociaux. Selon Facebook, près de 100 000 dollars de publicités ciblées ont été achetés, et des milliers de bots et de faux comptes auraient amplifiés ces fausses informations (mais aussi de vraies informations comme le leak des mails de Clinton).|
 | **Sources :** [France24](https://www.france24.com/fr/20170907-internet-research-agency-trolls-russes-facebook-achat-publicite-propagande-trump-election), [résumé par BusinessInsider](https://www.businessinsider.fr/us/cambridge-analytica-a-guide-to-the-trump-linked-data-firm-that-harvested-50-million-facebook-profiles-2018-3) |
 
-| Exemple de manipulation de l’information utilisant une application de messagerie instantanée pour répandre de fausses informations :|
+| L'élection présidentielle brésilienne de 2018 |
 |-|
 | **Date :** 2018|
 | **Natures des acteurs soupçonnés :** parti politique, entreprises spécialisées dans la communication|
@@ -83,7 +83,7 @@ Les manipulations de l’information peuvent soutenir des **objectifs** très di
 
 Ces objectifs s’inscrivent aussi dans des **contextes** particuliers et divers : processus électoraux, tensions frontalières, guerre économique, pandémie…
 
-| Exemple de manipulation de l’information s’inscrivant dans un contexte de tensions ethniques |
+| La crise des Rohingyas |
 |-|
 | **Date :** 2018|
 | **Natures des acteurs soupçonnés :** acteur étatique (junte militaire du Myanmar)|
@@ -95,7 +95,7 @@ Ces objectifs s’inscrivent aussi dans des **contextes** particuliers et divers
 | **Résumé :** la crise des Rohingyas est à son paroxysme au Myanmar. Facebook révèle que la junte militaire mène des campagnes de manipulation de l’information coordonnées (en utilisant des centaines de faux comptes) à l’encontre des Rohingyas pour inciter à la haine et ainsi justifier leur migration forcée.|
 | **Source :** [New York Times](https://www.nytimes.com/2018/10/15/technology/myanmar-facebook-genocide.html) |
 
-| Exemple de manipulation de l’information dans le contexte d’un scrutin (référendum)|
+| Les élections législatives du Royaume-Uni de 2019 |
 |-|
 | **Date :** 2019|
 | **Natures des acteurs soupçonnés :** acteur étatique (Russie)|
