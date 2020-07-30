@@ -8,15 +8,15 @@ nav_exclude: true
 
 # Exemples de manipulations de l'information
 
-Si les manipulations de l’information ne sont pas nouvelles, elles se sont néanmoins fortement amplifiées, depuis 2010, en raison des capacités inédites de diffusion et de viralité qu’offrent désormais les réseaux sociaux, ainsi que la crise de confiance que connaissent les démocraties. 
+Si les manipulations de l’information ne sont pas nouvelles, elles se sont néanmoins fortement amplifiées, depuis 2010, en raison des capacités inédites de diffusion et de viralité qu’offrent désormais les réseaux sociaux, ainsi que la crise de confiance que connaissent les démocraties.
 Il existe des manipulations de l’information de nature très diverses et, en raison de la complexité et de la nature protéiforme du sujet, il est utile d’opérer certaines distinctions. L’ensemble de ces caractéristiques peuvent ainsi constituer des **critères, employés par certaines instances, afin de qualifier les manipulations de l’information.**
-Nous recensons les grandes dates de cette dernière décennie en matière de manipulations de l’information afin d’illustrer la triple diversité de ce phénomène en fonction (i) des **acteurs**, (ii) des **vecteurs** et (iii) des **contextes**.
+Nous recensons les grandes dates de cette dernière décennie en matière de manipulations de l’information afin d’illustrer la triple diversité de ce phénomène en fonction (i) des **acteurs**, (ii) des **vecteurs** et (iii) des **contextes**.
 
 ### Acteurs
 
-Les manipulations de l’information peuvent être orchestrées par des **acteurs de différentes natures** : acteurs étatiques ou non-étatiques, tels que des entreprises ou des organisations.  
-Ces acteurs peuvent se positionner de **différentes manières** relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une **manipulation que l’on peut qualifier d’ « exogène »**, l’acteur est extérieur à la communauté visée, ou n’en dépend pas directement. 
-À l’inverse, dans le cadre d’une **manipulation de l’information qualifiée d’ « endogène »**, l’acteur appartient à la communauté-cible, au pays visé ou en dépend fortement. 
+Les manipulations de l’information peuvent être orchestrées par des **acteurs de différentes natures** : acteurs étatiques ou non-étatiques, tels que des entreprises ou des organisations.
+Ces acteurs peuvent se positionner de **différentes manières** relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une **manipulation que l’on peut qualifier d’ « exogène »**, l’acteur est extérieur à la communauté visée, ou n’en dépend pas directement.
+À l’inverse, dans le cadre d’une **manipulation de l’information qualifiée d’« endogène »**, l’acteur appartient à la communauté-cible, au pays visé ou en dépend fortement.
 
 Lorsque la manipulation de l’information est d’origine étatique et étrangère, celle-ci relève d’une [ingérence](encylopedia/glossary).
 
