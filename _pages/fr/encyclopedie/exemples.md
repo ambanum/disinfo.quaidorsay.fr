@@ -25,7 +25,7 @@ Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de
 | Exemple de manipulation exogène menée par un acteur étatique : les Macron Leaks|
 |-|
 | **Date :** 2017 |
-| **Nature des acteurs soupçonnés :** acteur étatique (Russie), groupes politiques d’extrême-droite (français et américains) |
+| **Nature des acteurs soupçonnés :** acteur étatique (Russie), ultra-droite (_alt-right_) américaine, « fachosphère » française) |
 | **Type de manipulation :** exogène |
 | **Canaux de diffusion employés :** sites d’information relayant des narratifs pro-Kremlin (Sputnik, RT), réseaux sociaux |
 | **Modus operandi :** utilisation de _trolls_, _hack_ et _leak_ d’un mélange de faux et de vrais documents, diffusés à l’aide d’une amplification artificielle sur les réseaux sociaux |
