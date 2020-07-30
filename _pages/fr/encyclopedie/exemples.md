@@ -32,7 +32,7 @@ Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de
 | **Objectifs supposés :** affaiblir le candidat Macron, semer le doute quant au résultat de l'élection |
 | **Contexte :** élections présidentielles française de 2017 |
 | **Résumé :** la campagne présidentielle française a constitué le théâtre des Macron Leaks. Des mois durant une campagne de manipulation de l’information a été orchestrée sur les réseaux sociaux et sur certains médias (Sputnik et Russia Today en particulier) à l’encontre du candidat Macron. Cette campagne est parachevée deux jours avant le second tour de l'élection présidentielle et plus précisément deux heures avant le dernier débat télévisé, par une fuite de faux documents prétendument piratés depuis les ordinateurs de l’équipe de campagne du candidat, fuite qui sera par la suite amplifiée artificiellement sur les réseaux sociaux. La Russie et des groupes américains et français d’extrême droite sont soupçonnés d'être impliqués dans cette manipulation. |
-| **Source :** J.-B. Jeangène Vilmer, A. Escorcia, M. Guillaume, J. Herrera, [Les Manipulations de l’information : un défi pour nos démocraties](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/), rapport du Centre d’analyse, de prévision et de stratégie (CAPS) du ministère de l’Europe et des Affaires étrangères et de l’Institut de recherche stratégique de l’École militaire (IRSEM) du ministère des Armées, Paris, août 2018 |
+| **Source :** [CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/) |
 
 | Exemple de manipulation endogène menée par des acteurs de la société civile|
 |-|
@@ -44,7 +44,7 @@ Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de
 | **Objectifs :** discréditer le mouvement *Black Lives Matter*|
 | **Contexte :** mouvement Black Lives Matter de protestation contre le racisme systémique|
 | **Résumé :** en novembre 2020, des utilisateurs du forum américain 4chan,  décident de lancer un faux challenge sur les réseaux sociaux : demander aux femmes blanches de se raser la tête en signe de soutien au mouvement Black Lives Matter, afin de discréditer le mouvement. Les utilisateurs de 4chan (rapidement relayés par d’autres communautés) amplifient le challenge en postant de fausses photos de femmes aux crânes rasés et en l’associant au hashtag *GoBaldForBLM*.|
-| **Source :** https://observers.france24.com/en/20200611-debunked-4chan-discredit-black-lives-matter-bald-women-fail|
+| **Source :** [France24](https://observers.france24.com/en/20200611-debunked-4chan-discredit-black-lives-matter-bald-women-fail)|
 
 ## Vecteurs
 
@@ -64,7 +64,7 @@ Le caractère protéiforme des manipulations de l’information et l’utilisati
 | **Objectifs :** déstabiliser et diviser la société américaine, favoriser l’élection d’un candidat|
 | **Contexte :** élections présidentielles américaines de 2016|
 | **Résumé :** la campagne présidentielle américaine est marquée par des cyberattaques et des manipulations de l’information dont certaines sont identifiées comme des ingérences russes par les Etats-Unis.<br>• WikiLeaks publie 30 000 emails hackés, révélant certains échanges de la candidate Clinton et de son équipe lorsqu’elle était secrétaire d’Etat. La controverse autour de l’utilisation par Hillary Clinton d’une adresse mail personnelle pour des conversations confidentielles est relancée. Le rapport Mueller attribuera le hack de ces documents au GRU (service de renseignement militaire russe).<br>• Cambridge Analytica, entreprise britannique dirigée par Steve Bannon, est chargée par l’équipe du candidat Trump de mener une campagne médiatique sur Facebook. L’entreprise récupèrent les données personnelles de 87 millions de personnes via une application tierce, et mène une campagne ciblée dans les swing states à l’encontre d’ individus sélectionnés sur la base de leurs données personnelles.<br>• L’IRA est soupçonnée de favoriser l’élection de Donald Trump en utilisant des fermes à trolls pour influencer l’opinion publique sur les réseaux sociaux. Selon Facebook, près de 100 000 dollars de publicités ciblées ont été achetés, et des milliers de bots et de faux comptes auraient amplifiés ces fausses informations (mais aussi de vraies informations comme le leak des mails de Clinton).|
-| **Sources :** https://www.businessinsider.fr/us/cambridge-analytica-a-guide-to-the-trump-linked-data-firm-that-harvested-50-million-facebook-profiles-2018-3 <br>https://www.france24.com/fr/20170907-internet-research-agency-trolls-russes-facebook-achat-publicite-propagande-trump-election |
+| **Sources :** [France24](https://www.france24.com/fr/20170907-internet-research-agency-trolls-russes-facebook-achat-publicite-propagande-trump-election), [résumé par BusinessInsider](https://www.businessinsider.fr/us/cambridge-analytica-a-guide-to-the-trump-linked-data-firm-that-harvested-50-million-facebook-profiles-2018-3) |
 
 | Exemple de manipulation de l’information utilisant une application de messagerie instantanée pour répandre de fausses informations :|
 |-|
@@ -76,7 +76,7 @@ Le caractère protéiforme des manipulations de l’information et l’utilisati
 | **Objectifs :** favoriser le candidat Jair Bolsonaro et dénigrer ses opposants|
 | **Contexte :** elections présidentielles brésiliennes de 2018|
 | **Résumé :** les élections présidentielles brésiliennes sont remportées par le candidat d’extrême droite Jair Bolsonaro. La campagne est marquée par l’utilisation de Whatsapp pour propager des messages à teneur politique, qui se sont avérés être des fausses nouvelles dans la plupart des cas. Une enquête a été ouverte à l’encontre du parti de Bolsonaro sur l’organisation d’une campagne de désinformation sur WhatsApp en recourant à des entreprises spécialisées dans la communication de masse.|
-| **Sources :** https://www.theguardian.com/world/2019/oct/30/whatsapp-fake-news-brazil-election-favoured-jair-bolsonaro-analysis-suggests <br>https://www1.folha.uol.com.br/internacional/en/brazil/2018/10/businessmen-fund-whatsapp-campaign-against-pt.shtml |
+| **Sources :** [The Guardian](https://www.theguardian.com/world/2019/oct/30/whatsapp-fake-news-brazil-election-favoured-jair-bolsonaro-analysis-suggests), [Folha de S. Paulo](https://www1.folha.uol.com.br/internacional/en/brazil/2018/10/businessmen-fund-whatsapp-campaign-against-pt.shtml) |
 
 
 ## Contextes
@@ -95,7 +95,7 @@ Ces objectifs s’inscrivent aussi dans des **contextes** particuliers et divers
 | **Objectifs :** inciter à la haine envers les Rohingyas |
 | **Contexte :** violences perpétrées à l’encontre de l’ethnie des Rohingyas au Myanmar|
 | **Résumé :** la crise des Rohingyas est à son paroxysme au Myanmar. Facebook révèle que la junte militaire mène des campagnes de manipulation de l’information coordonnées (en utilisant des centaines de faux comptes) à l’encontre des Rohingyas pour inciter à la haine et ainsi justifier leur migration forcée.|
-| **Source :** https://www.nytimes.com/2018/10/15/technology/myanmar-facebook-genocide.html |
+| **Source :** [New York Times](https://www.nytimes.com/2018/10/15/technology/myanmar-facebook-genocide.html) |
 
 | Exemple de manipulation de l’information dans le contexte d’un scrutin (référendum)|
 |-|
@@ -107,4 +107,4 @@ Ces objectifs s’inscrivent aussi dans des **contextes** particuliers et divers
 | **Objectifs :** changer l’issue d’une élection, semer le doute, saper la confiance dans le gouvernement |
 | **Contexte :** élections législatives du Royaume-Uni de 2019|
 | **Résumé :** au Royaume-Uni, les élections législatives sont marquées par le *leak* sur Reddit d’un projet d’accord commercial avec les Etats-Unis (les documents se sont avérés être authentiques). Reddit supprime 61 comptes qui ont coordonnés l’amplification de l’information. Le leader de l’opposition, Jeremy Corbyn, considère que cet accord constitue un affaiblissement du système de santé britannique et reprend ces documents pour attaquer le gouvernement au cours d’une conférence de presse. En juin 2020, l’entreprise américaine Graphika spécialisée dans l’étude des manipulations de l’information sur Internet relie cet évènement à une opération de plus grande ampleur surnommée *Secondary Infektion*. En juillet 2020, le gouvernement britannique déclare officiellement la Russie responsable de la cyberattaque, du *leak* et de l’amplification artificielle du document. |
-| **Sources :** https://www.bbc.com/news/uk-50699168 <br>https://secondaryinfektion.org/report/the-effort-and-the-impact/#the-big-bang <br>https://www.parliament.uk/business/publications/written-questions-answers-statements/written-statement/Commons/2020-07-16/HCWS384/ |
+| **Sources :** [BBC](https://www.bbc.com/news/uk-50699168), [Graphika](https://secondaryinfektion.org/report/the-effort-and-the-impact/#the-big-bang), [Parlement britannique](https://www.parliament.uk/business/publications/written-questions-answers-statements/written-statement/Commons/2020-07-16/HCWS384/) |
