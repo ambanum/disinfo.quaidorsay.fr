@@ -34,7 +34,7 @@ Ratings are periodically updated. Before being rated, suspicious websites are di
 
 ### EU Rapid Alert System (RAS)
 
-The EEAS has set up a Rapid Alert System enabling all Member States to share information and notify one another of disinformation campaigns.
+The EEAS has set up a [Rapid Alert System](https://eeas.europa.eu/sites/eeas/files/ras_factsheet_march_2019_0.pdf) enabling all Member States to share information and notify one another of disinformation campaigns.
 
 #### By whom?
 
@@ -74,4 +74,4 @@ Data is stored on a secure, encrypted server and access to RAS domains is limite
 
 ### G7 Rapid Reaction Mechanism (RRM)
 
-<!-- to document -->
+Description in [English](https://www.canada.ca/en/democratic-institutions/news/2019/01/g7-rapid-response-mechanism.html) and in [French](https://www.canada.ca/fr/institutions-democratiques/nouvelles/2019/01/mecanisme-dintervention-rapide-du-g7.html).
