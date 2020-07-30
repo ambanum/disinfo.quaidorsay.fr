@@ -1,18 +1,18 @@
 ---
-title: Exemples de campagnes de manipulation de l'information
+title: Exemples de campagnes de manipulation de l’information
 permalink: /encyclopedie/exemples
 nav_order: 3
 layout: default
 nav_exclude: true
 ---
 
-# Exemples de campagnes de manipulation de l'information
+# Exemples de campagnes de manipulation de l’information
 
 Cette page référence des campagnes récentes, marquantes et documentées pour illustrer la diversité des manipulations de l’information, à la fois dans les origines, les canaux utilisés et les objectifs poursuivis.
 
 ## Origines
 
-Les manipulations de l’information peuvent être orchestrées par des origines de différentes natures : acteurs étatiques ou non-étatiques, tels que des entreprises ou des organisations, voire même des groupes informels d'individus.
+Les manipulations de l’information peuvent être orchestrées par des origines de différentes natures : acteurs étatiques ou non-étatiques, tels que des entreprises ou des organisations, voire même des groupes informels d’individus.
 Ces origines peuvent se positionner de différentes manières relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une manipulation que l’on peut qualifier d’ « exogène », l’origine est extérieur à la communauté visée, ou n’en dépend pas directement.
 À l’inverse, dans le cadre d’une manipulation de l’information qualifiée d’« endogène », l’origine appartient à la communauté-cible, au pays visé ou en dépend fortement.
 
@@ -27,9 +27,9 @@ Il faut néanmoins souligner qu’une des plus grandes difficultés dans la lutt
 | **Type de manipulation :** exogène |
 | **Canaux de diffusion employés :** sites d’information relayant des narratifs pro-Kremlin (Sputnik, RT), réseaux sociaux |
 | **Modus operandi :** utilisation de _trolls_, _hack_ et _leak_ d’un mélange de faux et de vrais documents, diffusés à l’aide d’une amplification artificielle sur les réseaux sociaux |
-| **Objectifs supposés :** affaiblir le candidat Macron, semer le doute quant au résultat de l'élection |
+| **Objectifs supposés :** affaiblir le candidat Macron, semer le doute quant au résultat de l’élection |
 | **Contexte :** élections présidentielles française de 2017 |
-| **Résumé :** la campagne présidentielle française a constitué le théâtre des Macron Leaks. Des mois durant une campagne de manipulation de l’information a été orchestrée sur les réseaux sociaux et sur certains médias (Sputnik et Russia Today en particulier) à l’encontre du candidat Macron. Cette campagne est parachevée deux jours avant le second tour de l'élection présidentielle et plus précisément deux heures avant le dernier débat télévisé, par une fuite de faux documents prétendument piratés depuis les ordinateurs de l’équipe de campagne du candidat, fuite qui sera par la suite amplifiée artificiellement sur les réseaux sociaux. La Russie et des groupes américains et français d’extrême droite sont soupçonnés d'être impliqués dans cette manipulation. |
+| **Résumé :** la campagne présidentielle française a constitué le théâtre des Macron Leaks. Des mois durant une campagne de manipulation de l’information a été orchestrée sur les réseaux sociaux et sur certains médias (Sputnik et Russia Today en particulier) à l’encontre du candidat Macron. Cette campagne est parachevée deux jours avant le second tour de l’élection présidentielle et plus précisément deux heures avant le dernier débat télévisé, par une fuite de faux documents prétendument piratés depuis les ordinateurs de l’équipe de campagne du candidat, fuite qui sera par la suite amplifiée artificiellement sur les réseaux sociaux. La Russie et des groupes américains et français d’extrême droite sont soupçonnés d’être impliqués dans cette manipulation. |
 | **Source :** [CAPS](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/manipulations-de-l-information/rapport-conjoint-caps-irsem-les-manipulations-de-l-information-un-defi-pour-nos/) |
 
 | Go bald for BLM |
@@ -52,7 +52,7 @@ Ces canaux sont utilisés avec des _modus operandi_ différents : rétention d�
 
 Le caractère protéiforme des manipulations de l’information et l’utilisation de divers canaux et _modus operandi_ en conjonction peuvent complexifier l’effort de caractérisation.
 
-| L'élection présidentielle américaine de 2016 |
+| L’élection présidentielle américaine de 2016 |
 |-|
 | **Date :** 2016|
 | **Nature des acteurs soupçonnés :** acteur étatique (GRU), entreprise privée proche d’acteurs étatiques, Internet Research Agency (IRA), entreprise privée (Cambridge Analytica)|
