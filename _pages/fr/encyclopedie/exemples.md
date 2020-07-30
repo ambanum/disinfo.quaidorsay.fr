@@ -12,7 +12,7 @@ Si les manipulations de l’information ne sont pas nouvelles, elles se sont né
 Il existe des manipulations de l’information de nature très diverses et, en raison de la complexité et de la nature protéiforme du sujet, il est utile d’opérer certaines distinctions. L’ensemble de ces caractéristiques peuvent ainsi constituer des **critères, employés par certaines instances, afin de qualifier les manipulations de l’information.**
 Nous recensons les grandes dates de cette dernière décennie en matière de manipulations de l’information afin d’illustrer la triple diversité de ce phénomène en fonction (i) des **acteurs**, (ii) des **vecteurs** et (iii) des **contextes**.
 
-### Acteurs
+## Acteurs
 
 Les manipulations de l’information peuvent être orchestrées par des **acteurs de différentes natures** : acteurs étatiques ou non-étatiques, tels que des entreprises ou des organisations.
 Ces acteurs peuvent se positionner de **différentes manières** relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une **manipulation que l’on peut qualifier d’ « exogène »**, l’acteur est extérieur à la communauté visée, ou n’en dépend pas directement.
@@ -46,7 +46,7 @@ Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de
 | **Résumé :** en novembre 2020, des utilisateurs du forum américain 4chan,  décident de lancer un faux challenge sur les réseaux sociaux : demander aux femmes blanches de se raser la tête en signe de soutien au mouvement Black Lives Matter, afin de discréditer le mouvement. Les utilisateurs de 4chan (rapidement relayés par d’autres communautés) amplifient le challenge en postant de fausses photos de femmes aux crânes rasés et en l’associant au hashtag *GoBaldForBLM*.|
 | **Source :** https://observers.france24.com/en/20200611-debunked-4chan-discredit-black-lives-matter-bald-women-fail|
 
-### Vecteurs
+## Vecteurs
 
 Les manipulations de l’information peuvent se diffuser à travers plusieurs **canaux** : médias (télévision, radio, journaux), réseaux sociaux, notamment à travers l’usage de faux comptes ou de contenus sponsorisés.
 
@@ -79,7 +79,7 @@ Le caractère protéiforme des manipulations de l’information et l’utilisati
 | **Sources :** https://www.theguardian.com/world/2019/oct/30/whatsapp-fake-news-brazil-election-favoured-jair-bolsonaro-analysis-suggests <br>https://www1.folha.uol.com.br/internacional/en/brazil/2018/10/businessmen-fund-whatsapp-campaign-against-pt.shtml |
 
 
-### Contextes
+## Contextes
 
 Les manipulations de l’information peuvent soutenir des **objectifs** très divers : améliorer l’image de l’attaquant, étouffer une affaire, déstabiliser une personnalité ou une communauté, exacerber des tensions préexistantes, diviser et semer le chaos, saper la confiance dans les institutions ou la sincérité du scrutin.
 
