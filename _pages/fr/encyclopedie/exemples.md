@@ -18,7 +18,7 @@ Ces acteurs peuvent se positionner de **différentes manières** relativement au
 
 Lorsque la manipulation de l’information est d’origine étatique et étrangère, celle-ci relève d’une [ingérence](/encylopedia/glossary).
 
-Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de l’information demeure la question de l’[attribution](/encyclopedia/attribution). En effet, dans un monde tout-numérique remonter à l’identité de l’acteur et attribuer la responsabilité est un parcours semé d’embûches et, parfois, de faux indices.
+Il faut néanmoins souligner qu’une des plus grandes difficultés dans la lutte contre les manipulations de l’information demeure la question de l’[attribution](/encyclopedia/attribution). Remonter à l’identité de l’origine et attribuer la responsabilité est toujours complexe, et la certitude quasiment impossible à obtenir. L’exercice est d’autant plus délicat que des tiers peuvent tenter de donner de faux indices afin d’orienter l’attribution. C’est pourquoi tous les exemples de campagnes donnés ci-dessous ne font que répertorier les origines suspectées par les auteurs des analyses, et ne représentent pas une attribution.
 
 | Exemple de manipulation exogène menée par un acteur étatique : les Macron Leaks|
 |-|
