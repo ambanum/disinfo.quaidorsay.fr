@@ -10,11 +10,11 @@ nav_exclude: true
 
 Ces campagnes marquantes et documentées de cette dernière décennie illustrent leur diversité, à la fois dans les origines, les canaux utilisés et les objectifs poursuivis.
 
-## Acteurs
+## Origines
 
-Les manipulations de l’information peuvent être orchestrées par des **acteurs de différentes natures** : acteurs étatiques ou non-étatiques, tels que des entreprises ou des organisations.
-Ces acteurs peuvent se positionner de **différentes manières** relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une **manipulation que l’on peut qualifier d’ « exogène »**, l’acteur est extérieur à la communauté visée, ou n’en dépend pas directement.
-À l’inverse, dans le cadre d’une **manipulation de l’information qualifiée d’« endogène »**, l’acteur appartient à la communauté-cible, au pays visé ou en dépend fortement.
+Les manipulations de l’information peuvent être orchestrées par des origines de différentes natures : acteurs étatiques ou non-étatiques, tels que des entreprises ou des organisations, voire même des groupes informels d'individus.
+Ces origines peuvent se positionner de différentes manières relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une manipulation que l’on peut qualifier d’ « exogène », l’origine est extérieur à la communauté visée, ou n’en dépend pas directement.
+À l’inverse, dans le cadre d’une manipulation de l’information qualifiée d’« endogène », l’origine appartient à la communauté-cible, au pays visé ou en dépend fortement.
 
 Lorsque la manipulation de l’information est d’origine étatique et étrangère, celle-ci relève d’une [ingérence](/encylopedia/glossary).
 
@@ -44,13 +44,13 @@ Il faut néanmoins souligner qu’une des plus grandes difficultés dans la lutt
 | **Résumé :** en novembre 2020, des utilisateurs du forum américain 4chan,  décident de lancer un faux challenge sur les réseaux sociaux : demander aux femmes blanches de se raser la tête en signe de soutien au mouvement Black Lives Matter, afin de discréditer le mouvement. Les utilisateurs de 4chan (rapidement relayés par d’autres communautés) amplifient le challenge en postant de fausses photos de femmes aux crânes rasés et en l’associant au hashtag _#GoBaldForBLM_.|
 | **Source :** [France24](https://observers.france24.com/en/20200611-debunked-4chan-discredit-black-lives-matter-bald-women-fail)|
 
-## Vecteurs
+## Canaux
 
-Les manipulations de l’information peuvent se diffuser à travers plusieurs **canaux** : médias (télévision, radio, journaux), réseaux sociaux, notamment à travers l’usage de faux comptes ou de contenus sponsorisés.
+Les manipulations de l’information peuvent se diffuser à travers plusieurs canaux : médias (télévision, radio, journaux), réseaux sociaux, notamment à travers l’usage de faux comptes ou de contenus sponsorisés.
 
-Ces canaux sont utilisés avec des **modus operandi** différents : rétention d’informations, censure, amplification artificielle d’une information, collecte de données personnelles, campagnes ciblées…
+Ces canaux sont utilisés avec des _modus operandi_ différents : rétention d’informations, censure, amplification artificielle d’une information, collecte de données personnelles, campagnes ciblées…
 
-Le caractère protéiforme des manipulations de l’information et l’utilisation de divers canaux et *modus operandi* en conjonction peuvent complexifier l’effort de caractérisation.
+Le caractère protéiforme des manipulations de l’information et l’utilisation de divers canaux et _modus operandi_ en conjonction peuvent complexifier l’effort de caractérisation.
 
 | L'élection présidentielle américaine de 2016 |
 |-|
@@ -77,11 +77,11 @@ Le caractère protéiforme des manipulations de l’information et l’utilisati
 | **Sources :** [The Guardian](https://www.theguardian.com/world/2019/oct/30/whatsapp-fake-news-brazil-election-favoured-jair-bolsonaro-analysis-suggests), [Folha de S. Paulo](https://www1.folha.uol.com.br/internacional/en/brazil/2018/10/businessmen-fund-whatsapp-campaign-against-pt.shtml) |
 
 
-## Contextes
+## Objectifs
 
-Les manipulations de l’information peuvent soutenir des **objectifs** très divers : améliorer l’image de l’attaquant, étouffer une affaire, déstabiliser une personnalité ou une communauté, exacerber des tensions préexistantes, diviser et semer le chaos, saper la confiance dans les institutions ou la sincérité du scrutin.
+Les manipulations de l’information peuvent soutenir des objectifs très divers : améliorer l’image de l’attaquant, étouffer une affaire, déstabiliser une personnalité ou une communauté, exacerber des tensions préexistantes, diviser et semer le chaos, saper la confiance dans les institutions, altérer la sincérité du scrutin…
 
-Ces objectifs s’inscrivent aussi dans des **contextes** particuliers et divers : processus électoraux, tensions frontalières, guerre économique, pandémie…
+Ces objectifs s’inscrivent évidemment dans des contextes particuliers et divers : processus électoraux, tensions frontalières, guerre économique, pandémie…
 
 | La crise des Rohingyas |
 |-|
