@@ -39,7 +39,7 @@ Un premier travail de définition du sujet, de ses champs d'action et d'analyse 
 Au sein du ministère, l'équipe de l'[Ambassadeur pour le numérique](https://twitter.com/AmbNum) coordonne et valorise les positions de la France sur les enjeux de lutte contre les manipulations de l'information et de coopération européenne et internationale :
 
 - Elle représente la France au sein des différents espaces d'échange européens, comme le [Système d'Alerte Rapide européen](/encyclopedia/reaction/actors#eu-rapid-alert-system-ras) et internationaux, à l'image du [Mécanisme de Réponse Rapide du G7](/encyclopedia/reaction/actors#g7-rapid-reaction-mechanism-rrm).
-- Elle travaille également avec les différents acteurs de la société civile internationale. L'organisation en juin 2019 d'une [non-conférence](/encyclopedia/unconference) a par exemple permis de mobiliser une cinquantaine d'acteurs investis sur ces sujets (équipes de recherche en sciences sociales, devs, ONGs, acteurs publics et opérateurs de médias sociaux).
+- Elle travaille également avec les différents acteurs de la société civile internationale. L'organisation en juin 2019 d'une [non-conférence](/encyclopedia/unconference-27-28-june-2019/) a par exemple permis de mobiliser une cinquantaine d'acteurs investis sur ces sujets (équipes de recherche en sciences sociales, devs, ONGs, acteurs publics et opérateurs de médias sociaux).
 - Elle construit des [outils ouverts](/) et fait coopérer les acteurs pertinents pour influencer la gouvernance internationale afin d'aboutir à une règlementation efficace et proportionnée.
 - Elle anime un dialogue stratégique sur ces sujets avec les grands acteurs du numérique, dont les opérateurs de médias sociaux.
 
