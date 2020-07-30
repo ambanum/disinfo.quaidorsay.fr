@@ -28,7 +28,7 @@ Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de
 | **Nature des acteurs soupçonnés :** acteur étatique (Russie), groupes politiques d’extrême-droite (français et américains) |
 | **Type de manipulation :** exogène |
 | **Canaux de diffusion employés :** sites d’information relayant des narratifs pro-Kremlin (Sputnik, RT), réseaux sociaux |
-| ** *Modus operandi* :** utilisation de _trolls_, _hack_ et _leak_ d’un mélange de faux et de vrais documents, diffusés à l’aide d’une amplification artificielle sur les réseaux sociaux |
+| **Modus operandi :** utilisation de _trolls_, _hack_ et _leak_ d’un mélange de faux et de vrais documents, diffusés à l’aide d’une amplification artificielle sur les réseaux sociaux |
 | **Objectifs supposés :** affaiblir le candidat Macron, semer le doute quant au résultat de l'élection |
 | **Contexte :** élections présidentielles française de 2017 |
 | **Résumé :** la campagne présidentielle française a constitué le théâtre des Macron Leaks. Des mois durant une campagne de manipulation de l’information a été orchestrée sur les réseaux sociaux et sur certains médias (Sputnik et Russia Today en particulier) à l’encontre du candidat Macron. Cette campagne est parachevée deux jours avant le second tour de l'élection présidentielle et plus précisément deux heures avant le dernier débat télévisé, par une fuite de faux documents prétendument piratés depuis les ordinateurs de l’équipe de campagne du candidat, fuite qui sera par la suite amplifiée artificiellement sur les réseaux sociaux. La Russie et des groupes américains et français d’extrême droite sont soupçonnés d'être impliqués dans cette manipulation. |
@@ -40,7 +40,7 @@ Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de
 | **Natures des acteurs soupçonnés :** société civile |
 | **Type de manipulation :** endogène|
 | **Canaux de diffusion employés :** réseaux sociaux, forum 4Chan|
-| ** *Modus operandi* :** lancement d’une fausse rumeur, amplification organique et coordonnée|
+| **Modus operandi :** lancement d’une fausse rumeur, amplification organique et coordonnée|
 | **Objectifs :** discréditer le mouvement *Black Lives Matter*|
 | **Contexte :** mouvement Black Lives Matter de protestation contre le racisme systémique|
 | **Résumé :** en novembre 2020, des utilisateurs du forum américain 4chan,  décident de lancer un faux challenge sur les réseaux sociaux : demander aux femmes blanches de se raser la tête en signe de soutien au mouvement Black Lives Matter, afin de discréditer le mouvement. Les utilisateurs de 4chan (rapidement relayés par d’autres communautés) amplifient le challenge en postant de fausses photos de femmes aux crânes rasés et en l’associant au hashtag *GoBaldForBLM*.|
@@ -72,7 +72,7 @@ Le caractère protéiforme des manipulations de l’information et l’utilisati
 | **Natures des acteurs soupçonnés :** parti politique, entreprises spécialisées dans la communication|
 | **Type de manipulation :** endogène|
 | **Canaux de diffusion employés :** application de messagerie (WhatsApp)|
-| ** *Modus operandi* :** propagation de fausses nouvelles, communication de masse en ligne directe avec les citoyens|
+| **Modus operandi :** propagation de fausses nouvelles, communication de masse en ligne directe avec les citoyens|
 | **Objectifs :** favoriser le candidat Jair Bolsonaro et dénigrer ses opposants|
 | **Contexte :** elections présidentielles brésiliennes de 2018|
 | **Résumé :** les élections présidentielles brésiliennes sont remportées par le candidat d’extrême droite Jair Bolsonaro. La campagne est marquée par l’utilisation de Whatsapp pour propager des messages à teneur politique, qui se sont avérés être des fausses nouvelles dans la plupart des cas. Une enquête a été ouverte à l’encontre du parti de Bolsonaro sur l’organisation d’une campagne de désinformation sur WhatsApp en recourant à des entreprises spécialisées dans la communication de masse.|
@@ -91,7 +91,7 @@ Ces objectifs s’inscrivent aussi dans des **contextes** particuliers et divers
 | **Natures des acteurs soupçonnés :** acteur étatique (junte militaire du Myanmar)|
 | **Type de manipulation :** endogène|
 | **Canaux de diffusion employés :** réseaux sociaux|
-| ** *Modus operandi* :** utilisation de faux comptes pour amplifier de fausses informations|
+| **Modus operandi :** utilisation de faux comptes pour amplifier de fausses informations|
 | **Objectifs :** inciter à la haine envers les Rohingyas |
 | **Contexte :** violences perpétrées à l’encontre de l’ethnie des Rohingyas au Myanmar|
 | **Résumé :** la crise des Rohingyas est à son paroxysme au Myanmar. Facebook révèle que la junte militaire mène des campagnes de manipulation de l’information coordonnées (en utilisant des centaines de faux comptes) à l’encontre des Rohingyas pour inciter à la haine et ainsi justifier leur migration forcée.|
@@ -103,7 +103,7 @@ Ces objectifs s’inscrivent aussi dans des **contextes** particuliers et divers
 | **Natures des acteurs soupçonnés :** acteur étatique (Russie)|
 | **Type de manipulation :** exogène|
 | **Canaux de diffusion employés :** réseaux sociaux, reprise par les médias|
-| ** *Modus operandi* :** cyberattaque puis *leak* d’un document authentique, amplification artificielle sur les réseaux sociaux|
+| **Modus operandi :** cyberattaque puis *leak* d’un document authentique, amplification artificielle sur les réseaux sociaux|
 | **Objectifs :** changer l’issue d’une élection, semer le doute, saper la confiance dans le gouvernement |
 | **Contexte :** élections législatives du Royaume-Uni de 2019|
 | **Résumé :** au Royaume-Uni, les élections législatives sont marquées par le *leak* sur Reddit d’un projet d’accord commercial avec les Etats-Unis (les documents se sont avérés être authentiques). Reddit supprime 61 comptes qui ont coordonnés l’amplification de l’information. Le leader de l’opposition, Jeremy Corbyn, considère que cet accord constitue un affaiblissement du système de santé britannique et reprend ces documents pour attaquer le gouvernement au cours d’une conférence de presse. En juin 2020, l’entreprise américaine Graphika spécialisée dans l’étude des manipulations de l’information sur Internet relie cet évènement à une opération de plus grande ampleur surnommée *Secondary Infektion*. En juillet 2020, le gouvernement britannique déclare officiellement la Russie responsable de la cyberattaque, du *leak* et de l’amplification artificielle du document. |
