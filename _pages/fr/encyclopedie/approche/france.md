@@ -45,12 +45,9 @@ Au sein du ministère, l'équipe de l'[Ambassadeur pour le numérique](https://t
 
 ### Direction de la communication et de la presse
 
-Au sein du ministère, la direction de la communication et de la presse participe à ces travaux en opérant une veille multilingue. 
+Au sein du ministère de l'Europe et des Affaires étrangères, la direction de la communication et de la presse effectue et partage une veille hebdomadaire sur les médias traditionnels et les médias sociaux en plusieurs langues, ainsi que des analyses plus détaillées lorsqu'un événement le nécessite.
 
 
 ## Coordination interministérielle
 
-Une coordination interministérielle, qui permet de réunir l'ensemble des services compétents, s'effectue sous l'égide du Premier Ministre.
-
-
-
+Un comité interministériel réunit, au besoin et sous l'égide des services du Premier ministre, un ensemble permanent d'administrations compétentes. Ce comité peut être ponctuellement élargi selon les acteurs concernés et les thématiques mobilisées. Au-delà de ces réunions, ce comité maintient une liste de points de contact dans chaque ministère auxquels diffuser des veilles et des alertes.
