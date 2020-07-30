@@ -43,7 +43,7 @@ Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de
 | **Modus operandi :** lancement d’une fausse rumeur, amplification organique et coordonnée|
 | **Objectifs :** discréditer le mouvement *Black Lives Matter*|
 | **Contexte :** mouvement Black Lives Matter de protestation contre le racisme systémique|
-| **Résumé :** en novembre 2020, des utilisateurs du forum américain 4chan,  décident de lancer un faux challenge sur les réseaux sociaux : demander aux femmes blanches de se raser la tête en signe de soutien au mouvement Black Lives Matter, afin de discréditer le mouvement. Les utilisateurs de 4chan (rapidement relayés par d’autres communautés) amplifient le challenge en postant de fausses photos de femmes aux crânes rasés et en l’associant au hashtag *GoBaldForBLM*.|
+| **Résumé :** en novembre 2020, des utilisateurs du forum américain 4chan,  décident de lancer un faux challenge sur les réseaux sociaux : demander aux femmes blanches de se raser la tête en signe de soutien au mouvement Black Lives Matter, afin de discréditer le mouvement. Les utilisateurs de 4chan (rapidement relayés par d’autres communautés) amplifient le challenge en postant de fausses photos de femmes aux crânes rasés et en l’associant au hashtag _#GoBaldForBLM_.|
 | **Source :** [France24](https://observers.france24.com/en/20200611-debunked-4chan-discredit-black-lives-matter-bald-women-fail)|
 
 ## Vecteurs
