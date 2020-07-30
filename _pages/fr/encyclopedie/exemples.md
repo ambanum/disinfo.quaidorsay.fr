@@ -8,7 +8,7 @@ nav_exclude: true
 
 # Exemples de campagnes de manipulation de l'information
 
-Ces campagnes marquantes et documentées de cette dernière décennie illustrent leur diversité, à la fois dans les origines, les canaux utilisés et les objectifs poursuivis.
+Cette page référence des campagnes récentes, marquantes et documentées pour illustrer la diversité des manipulations de l’information, à la fois dans les origines, les canaux utilisés et les objectifs poursuivis.
 
 ## Origines
 
