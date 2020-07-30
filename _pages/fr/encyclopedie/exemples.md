@@ -18,7 +18,7 @@ Les manipulations de l’information peuvent être orchestrées par des **acteur
 Ces acteurs peuvent se positionner de **différentes manières** relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une **manipulation que l’on peut qualifier d’ « exogène »**, l’acteur est extérieur à la communauté visée, ou n’en dépend pas directement.
 À l’inverse, dans le cadre d’une **manipulation de l’information qualifiée d’« endogène »**, l’acteur appartient à la communauté-cible, au pays visé ou en dépend fortement.
 
-Lorsque la manipulation de l’information est d’origine étatique et étrangère, celle-ci relève d’une [ingérence](encylopedia/glossary).
+Lorsque la manipulation de l’information est d’origine étatique et étrangère, celle-ci relève d’une [ingérence](/encylopedia/glossary).
 
 Il faut néanmoins souligner qu’un des plus grands enjeux des manipulations de l’information demeure la question de l’[attribution](/encyclopedia/attribution). En effet, dans un monde tout-numérique remonter à l’identité de l’acteur et attribuer la responsabilité est un parcours semé d’embûches et, parfois, de faux indices.
 
