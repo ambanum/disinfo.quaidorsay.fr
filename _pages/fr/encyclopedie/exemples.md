@@ -16,7 +16,7 @@ Les manipulations de l’information peuvent être orchestrées par des origines
 Ces origines peuvent se positionner de différentes manières relativement au public ciblé par la manipulation de l’information. Ainsi, lors d’une manipulation que l’on peut qualifier d’ « exogène », l’origine est extérieur à la communauté visée, ou n’en dépend pas directement.
 À l’inverse, dans le cadre d’une manipulation de l’information qualifiée d’« endogène », l’origine appartient à la communauté-cible, au pays visé ou en dépend fortement.
 
-Lorsque la manipulation de l’information est d’origine étatique et étrangère, celle-ci relève d’une [ingérence](/encylopedia/glossary).
+Lorsque la manipulation de l’information est d’origine étatique et étrangère, celle-ci relève d’une [ingérence](/encyclopedia/glossary).
 
 Il faut néanmoins souligner qu’une des plus grandes difficultés dans la lutte contre les manipulations de l’information demeure la question de l’[attribution](/encyclopedia/attribution). Remonter à l’identité de l’origine et attribuer la responsabilité est toujours complexe, et la certitude quasiment impossible à obtenir. L’exercice est d’autant plus délicat que des tiers peuvent tenter de donner de faux indices afin d’orienter l’attribution. C’est pourquoi tous les exemples de campagnes donnés ci-dessous ne font que répertorier les origines suspectées par les auteurs des analyses, et ne représentent pas une attribution.
 
