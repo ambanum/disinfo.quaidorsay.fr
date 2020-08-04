@@ -45,7 +45,7 @@ One of the greatest difficulties in countering information manipulation is [attr
 | **Source :** [France24](https://observers.france24.com/en/20200611-debunked-4chan-discredit-black-lives-matter-bald-women-fail)|
 
 
-## Channels ##
+## Channels
 
 Information manipulation can be spread through several channels: media (television, radio, newspapers), social networks, particularly through the use of fake accounts or sponsored content.
 
