@@ -1,7 +1,8 @@
 ---
-title: Introduction
-permalink: /encyclopedia
 nav_order: 1
+has_children: true
+permalink: /encyclopedia
+title: Introduction
 numbered_headers: false
 css: home
 ---

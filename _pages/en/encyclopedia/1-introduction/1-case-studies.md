@@ -1,9 +1,8 @@
 ---
-title: Examples of information manipulation campaigns
-permalink: /encyclopedia/examples
-nav_order: 3
-layout: default
-nav_exclude: true
+parent: Introduction
+title: Case studies
+permalink: /encyclopedia/introduction/examples
+nav_order: 1
 ---
 
 # Examples of information manipulation campaigns
