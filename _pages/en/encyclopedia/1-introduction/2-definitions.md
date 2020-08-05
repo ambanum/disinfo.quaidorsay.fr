@@ -1,9 +1,9 @@
 ---
+parent: Introduction
 title: Definitions
-permalink: /encyclopedia/definitions/
+permalink: /encyclopedia/introduction/definitions
 nav_order: 2
-layout: default
-nav_exclude: false
+numbered_headers: false
 ---
 
 # Definitions
