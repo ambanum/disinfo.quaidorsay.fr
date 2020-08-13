@@ -134,7 +134,7 @@ For video content, the first difficulty is to make content discoverable without 
 
 ### AlgoTransparency 
 
-[AlgoTransparency](https://algotransparency.org is a platform with a search engine which allow users to find the most recommended videos on YouTube. When a video is recommended, it will appear as the next video to be played and its title and thumbnail will be displayed on the right of a user’s screen.
+[AlgoTransparency](https://algotransparency.org) is a platform with a search engine which allow users to find the most recommended videos on YouTube. When a video is recommended, it will appear as the next video to be played and its title and thumbnail will be displayed on the right of a user’s screen.
 
 The aim of the platform is to show which information surface through the YouTube algorithm.
 
