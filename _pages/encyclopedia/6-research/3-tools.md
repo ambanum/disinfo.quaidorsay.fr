@@ -20,7 +20,7 @@ The Mozilla Misinformation Initiative maintains an [open database of research ar
 
 ## Facebook Social Science One
 
-[Social Science One](https://socialscience.one/) is a non-profit limited liability company (LLC) based on the [work](http://garyking.org/partnerships) of academics Gary King (Harvard Professor and Director of the Harvard Institute for Quantitative Social Science) and Nathaniel Persily (Stanford Law School Professor).
+[Social Science One](https://socialscience.one/)(SS1) is a non-profit limited liability company (LLC) based on the [work](http://garyking.org/partnerships) of academics Gary King (Harvard Professor and Director of the Harvard Institute for Quantitative Social Science) and Nathaniel Persily (Stanford Law School Professor).
 
 It implements **partnerships between academic researchers and private industry actors** in a unique fashion, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_".
 
