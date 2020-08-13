@@ -32,7 +32,7 @@ These independent scholars must go through and pass a rigorous peer review proce
 
 Updates are regularly posted on SS1's [blog](https://socialscience.one/blog).
 
-The process aims to "_understand and ameliorate society’s greatest challenges_" through social research based on useful yet too often held back data, all the while **ensuring customer privacy**_". 
+The process aims to "_understand and ameliorate society’s greatest challenges_" through social research based on useful yet too often held back data, all the while _**ensuring customer privacy**_". 
 
 Their [first partnership](https://socialscience.one/our-facebook-partnership) is with Facebook.
 
