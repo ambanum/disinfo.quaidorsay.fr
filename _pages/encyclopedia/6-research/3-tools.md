@@ -28,7 +28,7 @@ The structure of the partnerships enables a **[commission](https://socialscience
 
 [Companies](https://socialscience.one/faq/how-can-my-company-work-social-science-one) collecting informative social data can apply by directly [contacting](https://gking.harvard.edu/pages/contact) the co-founders.
 
-These independent scholars must go through and pass a rigorous peer review process before being allowed to access data and [funding](https://socialscience.one/grant-process). Academics can **apply** for grants by answering formal Requests for Proposals (RFPs) issued by the [Social Science Research Council](https://www.ssrc.org/) and whose criteria are defined by SS1. Funding originates from several charitable foundations but is for now independently administered by the SSRC. The SSRC also leads the peer review process and manages the research along with SS1.
+These independent scholars must go through and pass a rigorous peer review process before being allowed to access data and [funding](https://socialscience.one/grant-process). Academics can **apply** for grants by answering formal Requests for Proposals (RFPs) issued by the [Social Science Research Council](https://www.ssrc.org/)(SSRC) and whose criteria are defined by SS1. Funding originates from several charitable foundations but is for now independently administered by the SSRC. The SSRC also leads the peer review process and manages the research along with SS1.
 
 Updates are regularly posted on SS1's [blog](https://socialscience.one/blog).
 
