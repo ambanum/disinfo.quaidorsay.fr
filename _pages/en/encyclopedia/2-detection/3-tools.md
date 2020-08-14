@@ -132,12 +132,12 @@ For video content, the first difficulty is to make content discoverable without 
 
 ## Criterion: Artificial
 
-### AlgoTransparency 
+### AlgoTransparency
 
-[AlgoTransparency](https://algotransparency.org) is a platform with a search engine which allow users to find the most recommended videos on YouTube. When a video is recommended, it will appear as the next video to be played and its title and thumbnail will be displayed on the right of a user’s screen.
+[AlgoTransparency](https://algotransparency.org) detects and exposes the most recommended videos on YouTube. Such “recommended” videos appear as the next video to be played, are autoplayed by default, and their titles and thumbnails are displayed next to the currently played video on a user’s screen.
 
-The aim of the platform is to show which information surface through the YouTube algorithm.
+The aim of the service is to show which content has its visibility increased by the YouTube algorithm.
 
-AlgoTransparency’s program gathers all recommended videos among the last videos from over 1 000 US-based channels. (It is also available for France.) Then, the channels with the most recommended videos are computed. The process is repeated until recommendations from 2000 channels are gathered. Moreover, it displays the number of channels that recommended each video.
+AlgoTransparency’s program gathers daily all recommended videos after playing the last videos from over 1,000 USA channels and 1,400 French channels. Then, the channels with the most recommended videos are computed. The process is repeated until recommendations from 2,000 channels are gathered. The most recommended videos, as well as the the number of channels recommending each video, are made public.
 
 Users can search for the most recommended videos depending on themes or search terms. The [code](https://github.com/pnbt/youtube-explore) of the program is open source.
