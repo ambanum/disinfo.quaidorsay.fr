@@ -26,7 +26,6 @@ It implements **partnerships between academic researchers and private industry a
 
 The structure of the partnerships enables a **[commission](https://socialscience.one/faq/whats-commission) of trusted academics** to obtain "_relevant company information and systems_" and to **invite other independent scholars** to do "_research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company_". In addition to access to datasets, academics can benefit from funding.
 
-[Companies](https://socialscience.one/faq/how-can-my-company-work-social-science-one) collecting informative social data can apply by directly [contacting](https://gking.harvard.edu/pages/contact) the co-founders.
 
 These independent scholars must go through and pass a rigorous peer review process before being allowed to access data and [funding](https://socialscience.one/grant-process). Academics can **apply** for grants by answering formal Requests for Proposals (RFPs) issued by the [Social Science Research Council](https://www.ssrc.org/)(SSRC) and whose criteria are defined by SS1. Funding originates from several charitable foundations but is for now independently administered by the SSRC. The SSRC also leads the peer review process and manages the research along with SS1.
 
