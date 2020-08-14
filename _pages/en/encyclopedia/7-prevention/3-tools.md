@@ -13,6 +13,29 @@ permalink: /encyclopedia/prevention/tools
 
 - - -
 
+## For the general public
+
+### Bad News
+
+[Bad News](https://getbadnews.com/#intro) is an online browser game developed by [Drog](/encyclopedia/prevention/actors) in collaboration with the University of Cambridge.
+
+It is based on the inoculation theory, exposing people to weakened versions of information manipulation so that they can recognize it in the future and counter its effects.
+
+It allows players to virtually manipulate information and spread disinformation, in order to better understand its impact — especially in regard to how easily it can be done.
+
+A junior version of the game exists for 8-to-10-year-old players.
+
+As of June 2019, it has been localised into several languages and cultural contexts including English, Bosnian, Czech, German, Greek, Polish, Romanian, Moldovan, Serbian and Slovenian.
+
+### Open Your Eyes
+
+The “[Open Your Eyes](https://www.openyoureyes.info/en/about/) - Fake News for Dummies” project is a two-year initiative co-funded by the Erasmus+ programme and supported by the European Commission.
+
+Its goal is to improve digital media literacy for adults, by developing their critical and digital skills as well as raising and spreading awareness on the topic of information manipulation.
+
+The main deliverable is a curated [catalogue](https://www.openyoureyes.info/en/database/list) of European educational practices, scientific data and initiatives on disinformation. The seven European [partners](https://www.openyoureyes.info/en/partners) of the project will use this catalogue to train educators to deliver classes. These “Check IT Out” Labs will target small groups of European adult learners.
+
+
 ## For public institutions
 
 ### [UK Government Communication Service RESIST toolkit](https://gcs.civilservice.gov.uk/wp-content/uploads/2019/03/RESIST_Toolkit.pdf)
@@ -50,25 +73,3 @@ This Campaign was itself launched by the [**Alliance of Democracies Foundation**
 Whether they be political parties or candidates seeking office, “_anyone that is or intends to run as a candidate for the European Parliament elections in May 2019, the U.S. elections in November 2020, or the Canadian parliamentary in October 2019 may take the pledge._”
 
 As of May 09th, 2019, 10 candidates have taken the pledge in the European Union, from Germany, the Netherlands, Czech Republic, Belgium, Romania and the U.K. (Scotland).
-
-## For the general public
-
-### Bad News
-
-[Bad News](https://getbadnews.com/#intro) is an online browser game developed by [Drog](/encyclopedia/prevention/actors) in collaboration with the University of Cambridge.
-
-It is based on the inoculation theory, exposing people to weakened versions of information manipulation so that they can recognize it in the future and counter its effects.
-
-It allows players to virtually manipulate information and spread disinformation, in order to better understand its impact — especially in regard to how easily it can be done.
-
-A junior version of the game exists for 8-to-10-year-old players.
-
-As of June 2019, it has been localised into several languages and cultural contexts including English, Bosnian, Czech, German, Greek, Polish, Romanian, Moldovan, Serbian and Slovenian.
-
-### Open Your Eyes
-
-The “[Open Your Eyes](https://www.openyoureyes.info/en/about/) - Fake News for Dummies” project is a two-year initiative co-funded by the Erasmus+ programme and supported by the European Commission.
-
-Its goal is to improve digital media literacy for adults, by developing their critical and digital skills as well as raising and spreading awareness on the topic of information manipulation.
-
-The main deliverable is a curated [catalogue](https://www.openyoureyes.info/en/database/list) of European educational practices, scientific data and initiatives on disinformation. The seven European [partners](https://www.openyoureyes.info/en/partners) of the project will use this catalogue to train educators to deliver classes. These “Check IT Out” Labs will target small groups of European adult learners.
