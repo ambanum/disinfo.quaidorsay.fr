@@ -20,9 +20,9 @@ The Mozilla Misinformation Initiative maintains an [open database of research ar
 
 ## Facebook Social Science One
 
-[Social Science One](https://socialscience.one/)(SS1) is a non-profit limited liability company (LLC) based on the [work](http://garyking.org/partnerships) of academics Gary King (Harvard Professor and Director of the Harvard Institute for Quantitative Social Science) and Nathaniel Persily (Stanford Law School Professor).
+[Social Science One](https://socialscience.one/)(SS1) is a non-profit limited liability company (LLC) founded by Facebook and the [Social Science Research Council](https://www.ssrc.org/)(SSRC), an American non-profit organization. Social Science One is based on the [work](http://garyking.org/partnerships) of academics Gary King (Harvard Professor and Director of the Harvard Institute for Quantitative Social Science) and Nathaniel Persily (Stanford Law School Professor).
 
-It implements **partnerships between academic researchers and private industry actors** in a unique fashion, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_".
+It implements **partnerships between academic researchers and private industry actors** in a unique fashion, granting the former access to relevant information amassed by the latter, who can "_enlist the scientific community to improve their business and produce social good, while protecting their competitive positions_". Currently, **Facebook is the main provider** of information and the only openly publicized [partnership](https://socialscience.one/our-facebook-partnership). 
 
 The structure of the partnerships enables a **[commission](https://socialscience.one/faq/whats-commission) of trusted academics** to obtain "_relevant company information and systems_" and to **invite other independent scholars** to do "_research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company_". In addition to access to datasets, academics can benefit from funding.
 
@@ -34,7 +34,6 @@ Updates are regularly posted on SS1's [blog](https://socialscience.one/blog).
 
 The process aims to "_understand and ameliorate society’s greatest challenges_" through social research based on useful yet too often held back data, all the while _**ensuring customer privacy**_". 
 
-Their [first partnership](https://socialscience.one/our-facebook-partnership) is with Facebook.
 
 ## Twitter Health Metrics
 
