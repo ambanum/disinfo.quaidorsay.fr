@@ -78,3 +78,19 @@ The main goal of the project is "_to address the advanced content verification c
 #### For whom?
 
 Although data and perhaps tools should be open and accessible to all, this project is mainly aimed at journalists.
+
+## In the USA
+
+### Stanford's Global Digital Policy Incubator
+
+The **Global Digital Policy Incubator**  is a program of the **Center on Democracy, Development and the Rule of Law** (CDDRL), a research center at the **Freeman Spogli Institute for International Studies**, which is a research institute for the study of international affairs at **Stanford University**.
+
+The GDPI was created "_to inspire policy and governance innovations that **reinforce democratic values, universal human rights, and the rule of law in the digital realm**_". It is meant to be a _"**collaboration hub for the development of norms, guidelines, and laws that enhance freedom, security, and trust** in the global digital ecosystem_".
+
+It thus promotes collaboration among various actors, from civil society actors to governments and diplomats to private sector companies, international organizations, technologists and academics.
+
+However, it is aimed at producing solutions and advice specifically for governments and private tech companies in the drafting and making of **policies, norms and processes** which would be beneficial to scoiety as a whole, including citizens.
+
+As explained on the GDPI website, such policies should "_allow **citizens and society to reap the upside benefits of technology** for economic development and the exercise of **universal human rights**, while **protecting** against the downside risks for personal, national and international **security**_".
+
+In addition to inspiring policies and providing a platform, the GDPI also considers the best ways to **apply** "_these norms and values in a global digital context_" in order to facilitate their development and operability.
