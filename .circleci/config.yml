@@ -45,7 +45,7 @@ jobs:
 
       - run:
           name: Check HTML common mistakes
-          command: bundle exec htmlproofer ./_site --assume-extension --check-html --empty-alt-ignore --check-img-http --internal_domains "disinfo.quaidorsay.fr" --url_ignore "https://stats.data.gouv.fr/matomo.php?idsite=89&rec=1"
+          command: bundle exec htmlproofer ./_site --assume-extension --check-html --empty-alt-ignore --check-img-http --internal_domains "disinfo.quaidorsay.fr,localhost" --url_ignore "https://stats.data.gouv.fr/matomo.php?idsite=89&rec=1"
 
       - run:
           name: Validate HTML spec compliance
