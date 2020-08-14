@@ -14,9 +14,16 @@ permalink: /encyclopedia/research/tools
 The Mozilla Misinformation Initiative maintains an [open database of research articles](https://airtable.com/universe/expPeddCpX0wOeNNE/misinformation-research?explore=true) relating to information manipulation.
 
 
-## Facebook Social Science One
+## Social Science One
 
-<!-- à rédiger -->
+[Social Science One](https://socialscience.one/)(SS1) is an initiative founded by Facebook and the [Social Science Research Council](https://www.ssrc.org/)(SSRC), an American non-profit organization. Social Science One is based on the [work](http://garyking.org/partnerships) of academics Gary King (Harvard Professor and Director of the Harvard Institute for Quantitative Social Science) and Nathaniel Persily (Stanford Law School Professor). It is incorporated as a USA non-profit <abbr title="Limited Liability Company">LLC</abbr>. It aims to “understand and ameliorate society’s greatest challenges” through social research based on useful private data, while maintaining end-user privacy.
+
+It implements partnerships between academic researchers and private industry actors, granting the former access to relevant information amassed by the latter, who can “enlist the scientific community to improve their business and produce social good, while protecting their competitive positions”. As of August 2020, Facebook is the only publicized [partnership](https://socialscience.one/our-facebook-partnership) and the main source of information on SS1.
+
+The structure of the partnerships enables a [commission](https://socialscience.one/faq/whats-commission) of “trusted academics” to obtain “relevant company information and systems” and to invite other independent scholars to do “research in specific areas, following standard peer review protocols, funded by nonprofit foundations, and with no required pre-publication approval by the company”. In addition to accessing datasets, academics can apply for funding to study them.
+
+These independent scholars must go through a peer review process before being allowed to access data and funding. Academics can [apply for grants](https://socialscience.one/grant-process) by answering formal Requests for Proposals (RFPs) issued by the [Social Science Research Council](https://www.ssrc.org/) (SSRC) and whose criteria are defined by SS1. The SSRC also leads the peer review process and manages the research along with SS1.
+
 
 ## Twitter Health Metrics
 
