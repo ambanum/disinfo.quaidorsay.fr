@@ -134,7 +134,7 @@ For video content, the first difficulty is to make content discoverable without 
 
 ### AlgoTransparency
 
-[AlgoTransparency](https://algotransparency.org) detects and exposes the most recommended videos on YouTube. Such “recommended” videos appear as the next video to be played, are autoplayed by default, and their titles and thumbnails are displayed next to the currently played video on a user’s screen.
+[AlgoTransparency](https://algotransparency.org), co-created by ex-YouTube engineer Guillaume Chaslot and Soline Ledésert from the <abbr title="International Consortium of Investigative Journalists">ICIJ</abbr>, detects and exposes the most recommended videos on YouTube. Such “recommended” videos appear as the next video to be played, are autoplayed by default, and their titles and thumbnails are displayed next to the currently played video on a user’s screen.
 
 The aim of the service is to show which content has its visibility increased by the YouTube algorithm.
 
