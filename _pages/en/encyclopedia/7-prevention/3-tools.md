@@ -9,6 +9,29 @@ permalink: /encyclopedia/prevention/tools
 
 {% include table-of-contents.md %}
 
+## For the general public
+
+### Bad News
+
+[Bad News](https://getbadnews.com/#intro) is a textual video game running in the browser and developed by [Drog](/encyclopedia/prevention/actors) in collaboration with the University of Cambridge. In this game, the player chooses which content to share on social media and how to promote it, with simulated reactions. The goal of the game is to amass as many followers as possible and influence them to serve the player’s own interests, at the expense of facts and cohesion.
+
+It is based on the inoculation theory, exposing people to weakened versions of information manipulation so that they can recognize it in the future and counter its effects.
+
+By suggesting to adopt bad actor’s behaviour, the game exposes the vulnerabilities of social media that can be exploited, helping the player understand how they can protect themselves and which sort of loyalty they should be requesting from platforms.
+
+A junior version of the game exists for 8-to-10-year-old players.
+
+As of June 2019, it has been localised into several languages and cultural contexts including English, Bosnian, Czech, German, Greek, Polish, Romanian, Moldovan, Serbian and Slovenian.
+
+### Open Your Eyes
+
+The “[Open Your Eyes](https://www.openyoureyes.info/en/about/) - Fake News for Dummies” project is a two-year initiative co-funded by the Erasmus+ programme and supported by the European Commission.
+
+Its goal is to improve digital media literacy for adults, by developing their critical and digital skills as well as raising and spreading awareness on the topic of information manipulation.
+
+The main deliverable is a curated [catalogue](https://www.openyoureyes.info/en/database/list) of European educational practices, scientific data and initiatives on disinformation. The seven European [partners](https://www.openyoureyes.info/en/partners) of the project will use this catalogue to train educators to deliver classes. These “Check IT Out” Labs will target small groups of European adult learners.
+
+
 ## For public institutions
 
 ### [UK Government Communication Service RESIST toolkit](https://gcs.civilservice.gov.uk/wp-content/uploads/2019/03/RESIST_Toolkit.pdf)
