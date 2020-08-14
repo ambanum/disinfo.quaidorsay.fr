@@ -51,28 +51,24 @@ Whether they be political parties or candidates seeking office, “_anyone that 
 
 As of May 09th, 2019, 10 candidates have taken the pledge in the European Union, from Germany, the Netherlands, Czech Republic, Belgium, Romania and the U.K. (Scotland).
 
-## For the civil society
+## For the general public
 
 ### Bad News
 
-[BadNews](https://getbadnews.com/#intro) is an online browser game developed by [Drog](https://aboutbadnews.com/) in collaboration with the University of Cambridge. 
+[Bad News](https://getbadnews.com/#intro) is an online browser game developed by [Drog](/encyclopedia/prevention/actors) in collaboration with the University of Cambridge.
 
-It is based on the inoculation theory, therefore exposing people to weakened versions of disinformation so that they can recognize it in the future and counter its effects. 
+It is based on the inoculation theory, exposing people to weakened versions of information manipulation so that they can recognize it in the future and counter its effects.
 
-It allows players to virtually manipulate information and spread disinformation, in order to better understand its impact - especially in regard to how easily it can be done. 
+It allows players to virtually manipulate information and spread disinformation, in order to better understand its impact — especially in regard to how easily it can be done.
 
-A junior version of the game exist for 8-to-10-year-old players.
+A junior version of the game exists for 8-to-10-year-old players.
 
-As  of June 2019, it has been translated from Dutch into several languages including English, Bosnian, Czech, German, Greek, Polish, Romanian (including a Moldovan version), Serbian and Slovenian.
+As of June 2019, it has been localised into several languages and cultural contexts including English, Bosnian, Czech, German, Greek, Polish, Romanian, Moldovan, Serbian and Slovenian.
 
 ### Open Your Eyes
 
-The [Open Your Eyes](https://www.openyoureyes.info/en/about/) - Fake News for Dummies - project is a two-year initiative co-funded by the Erasmus+ programme and supported (although not endorsed) by the European Commission.
+The “[Open Your Eyes](https://www.openyoureyes.info/en/about/) - Fake News for Dummies” project is a two-year initiative co-funded by the Erasmus+ programme and supported by the European Commission.
 
-Its goal is the improvement of digital media literacy for adults, by  developing their critical and digital skills as well as raising and spreading awareness on the topic of disinformation.
+Its goal is to improve digital media literacy for adults, by developing their critical and digital skills as well as raising and spreading awareness on the topic of information manipulation.
 
-They plan to provide [educational resources and tools](https://www.openyoureyes.info/en/resources) on online disinformation and ways to fight it to both learners and educators. 
-
-They will thus develop a [database](https://www.openyoureyes.info/en/database) comprehending sortable information about European best educational practices, scientific data and initiatives regarding disinformation, among other resources.
-
-Afterwards, the seven European [partners](https://www.openyoureyes.info/en/partners) of the project will be in charge of training educators, who will deliver classes. These “Check IT Out” Labs will welcome small groups of European adult learners.
+The main deliverable is a curated [catalogue](https://www.openyoureyes.info/en/database/list) of European educational practices, scientific data and initiatives on disinformation. The seven European [partners](https://www.openyoureyes.info/en/partners) of the project will use this catalogue to train educators to deliver classes. These “Check IT Out” Labs will target small groups of European adult learners.
