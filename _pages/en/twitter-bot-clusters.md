@@ -1,5 +1,4 @@
 ---
-layout: encyclopedia
 permalink: /twitter-bot-clusters
 title: Error
 ---

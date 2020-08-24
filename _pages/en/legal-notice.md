@@ -1,5 +1,4 @@
 ---
-layout: encyclopedia
 permalink: /legal-notice
 ---
 
@@ -18,7 +17,7 @@ CIO to the Ambassador for Digital Affairs, Matti Schneider
 
 ## Hosting provider
 
-### For the encyclopedia
+### For this website
 
 GitHub Pages
 
