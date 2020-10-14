@@ -106,14 +106,18 @@ body {
 }
 
 .our-vision .logo {
-	max-width: 400px;
 	padding: 3rem;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.our-vision .logo {
+		max-width: 400px;
+	}
 }
 
 @media screen and (max-width: 420px) {
 	.our-vision .logo {
-		max-width: 100%;
-		height: auto;
 		padding:1.5rem;
 	}
 }
