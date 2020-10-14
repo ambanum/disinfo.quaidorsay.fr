@@ -110,6 +110,14 @@ body {
 	padding: 3rem;
 }
 
+@media screen and (max-width: 420px) {
+	.our-vision .logo {
+		max-width: 100%;
+		height: auto;
+		padding:1.5rem;
+	}
+}
+
 .our-work {
 	background-color: #f9f8f6;
 	clip-path: polygon(0 2em, 100% 0, 100% calc(100% - 1.5em), 0 100%);
