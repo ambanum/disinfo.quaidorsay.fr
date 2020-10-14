@@ -30,6 +30,15 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## Build with docker
+
+To have a local build without installing ruby/gem/bundler, you can use docker :
+
+```sh
+docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll bundle update
+docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll jekyll build
+```
+
 ## Deployment
 
 Deployment is done with [GitHub Pages](https://pages.github.com). Just push to the `master` branch to deploy on `ambanum.github.io`.
