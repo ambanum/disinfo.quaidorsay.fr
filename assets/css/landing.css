@@ -158,6 +158,12 @@ body {
 	align-items: baseline;
 }
 
+@media screen and (max-width: 420px) {
+	.our-work .work-item {
+		padding:2em;
+	}
+}
+
 .our-work .work-item .title {
 	color: #FAFAFA;
 }
