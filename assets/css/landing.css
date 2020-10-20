@@ -72,6 +72,12 @@ body {
 	color: #3A0057;
 }
 
+@media screen and (max-width: 420px) {
+	.landing .hero-body .title {
+		font-size: 2.75em;
+	}
+}
+
 .landing .hero-body .subtitle {
 	font-weight: 300;
 	font-size: 1.5em;
@@ -106,8 +112,20 @@ body {
 }
 
 .our-vision .logo {
-	max-width: 400px;
 	padding: 3rem;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.our-vision .logo {
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.our-vision .logo {
+		padding:1.5rem;
+	}
 }
 
 .our-work {
@@ -144,6 +162,12 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: baseline;
+}
+
+@media screen and (max-width: 420px) {
+	.our-work .work-item {
+		padding:2em;
+	}
 }
 
 .our-work .work-item .title {
