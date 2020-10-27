@@ -3,28 +3,9 @@
 
 include: ['_pages']
 
-title: Disencyclopedia
+title: Disinfo
 baseurl: ""
 url: https://disinfo.quaidorsay.fr
-
-search_enabled: true
-
-defaults:
-  -
-    scope:
-      path: "" # means "all files"
-    values:
-      nav_exclude: true
-      numbered_headers: false
-      search_exclude: true
-  -
-    scope:
-      path: _pages/en/encyclopedia
-    values:
-      layout: encyclopedia
-      nav_exclude: false
-      numbered_headers: true
-      search_exclude: false
 
 exclude:
   - README.md
@@ -33,3 +14,6 @@ exclude:
 
 kramdown:
   toc_levels: 2..4
+
+plugins:
+  - jekyll-redirect-from

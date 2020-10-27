@@ -1,129 +1,38 @@
-html,
-body {
-	font-family: 'Open Sans', serif;
-}
-
-body {
-	background: #FFF;
-}
-
-.landing .container {
-	max-width: 1024px;
-}
-
-.landing a,
-.landing a.navbar-item {
-	color: #512DA8;
-}
-
-.landing a:hover,
-.landing a.navbar-item:hover {
-	color: #da0087;
-}
-
-.separator {
-	position: relative;
-	display: inline-block;
-	margin: 0 0.5em;
-}
-
-.separator:before {
-	content: ' ';
-	position: absolute;
-	width: 1px;
-	height: 50%;
-	top: 50%;
-	transform: translateY(-50%);
-	background: rgba(0,0,0, 0.2);
-}
-
-.flag {
-	height: 1em;
-}
-
 .landing .hero {
 	min-height: 75vh;
 }
 
-.landing .hero-head .logo {
-	position: absolute;
-	height: 5em;
-	width: auto;
-	top: 15px;
-	left: 15px;
-	border-radius: 2px;
-}
-
-@media screen and (max-width: 1088px) {
-	.landing .hero-head .logo {
-		height: calc(3.25rem - 15px);
-	}
-}
-
-.landing .hero-body {
-	display: flex;
-	align-items: center;
-}
-
-.landing .hero-body .title {
-	font-size: 3em;
-	font-weight: 900;
-	hyphens: auto;
-	color: #3A0057;
-}
-
-@media screen and (max-width: 420px) {
-	.landing .hero-body .title {
-		font-size: 2.75em;
-	}
-}
-
-.landing .hero-body .subtitle {
-	font-weight: 300;
-	font-size: 1.5em;
-	color: #000;
-}
-
-.landing .hero-body .description {
-	line-height: 1.5;
-	margin-bottom: 1em;
-}
-
-.landing .section {
-	padding: 6rem 1.5rem;
-}
-
-.our-vision {
+.ourVision {
 	background-color: #EFF1F9;
 	clip-path: polygon(0 0, 100% 2em, 100% calc(100% - 1.5em), 0 100%);
 }
 
-.our-vision .our-vision-title {
+.ourVision_title {
 	color: #1E225B;
 }
 
-.our-vision .our-vision-title .thin {
+.ourVision_title .thin {
 	font-weight: 300;
 }
 
-.our-vision p {
+.ourVision p {
 	margin-bottom: 1em;
 	color: #000;
 }
 
-.our-vision .logo {
-	padding: 3rem;
+.ourVision_logo {
 	width: 100%;
+	padding: 3rem;
 }
 
 @media screen and (max-width: 768px) {
-	.our-vision .logo {
+	.ourVision_logo{
 		max-width: 400px;
 	}
 }
 
 @media screen and (max-width: 420px) {
-	.our-vision .logo {
+	.ourVision_logo {
 		padding:1.5rem;
 	}
 }
@@ -197,12 +106,4 @@ body {
 	text-transform: uppercase;
 }
 
-.landing .footer {
-	background-color: #FFF;
-	font-size: 80%;
-}
 
-.logo-footer {
-	height: 5em;
-	margin-top: 2em;
-}

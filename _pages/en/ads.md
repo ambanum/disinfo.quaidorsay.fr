@@ -1,5 +1,4 @@
 ---
-layout: encyclopedia
 permalink: /political-ads
 title: Error
 ---

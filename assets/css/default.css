@@ -1,0 +1,114 @@
+html,
+body {
+	font-family: 'Open Sans', serif;
+}
+
+body {
+	background: #FFF;
+}
+
+.container {
+	max-width: 1024px;
+}
+
+.background-colored {
+	background-color: #F5F6FB;
+	clip-path: polygon(0 2em, 100% 0, 100% calc(100% - 1.5em), 0 100%);
+	margin: 3rem 0;
+}
+
+a,
+a.navbar-item {
+	color: #512DA8;
+}
+
+a:hover,
+a.navbar-item:hover {
+	color: #da0087;
+}
+
+.navbar-brand, .navbar-tabs{
+	min-height:95px;
+}
+
+.separator {
+	position: relative;
+	display: inline-block;
+	margin: 0 0.5em;
+}
+
+.separator:before {
+	content: ' ';
+	position: absolute;
+	width: 1px;
+	height: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0,0,0, 0.2);
+}
+
+.flag {
+	height: 1em;
+}
+
+.logo {
+	position: absolute;
+	height: 5em;
+	width: auto;
+	top: 15px;
+	left: 15px;
+	border-radius: 2px;
+}
+
+@media screen and (max-width: 1088px) {
+	.logo {
+		height: calc(3.25rem - 15px);
+	}
+}
+
+.footer {
+	background-color: #FFF;
+	font-size: 80%;
+}
+
+.logo-footer {
+	height: 5em;
+	margin-top: 2em;
+}
+
+.hero-body {
+	display: flex;
+	align-items: center;
+}
+
+.hero-body .title {
+	font-size: 3em;
+	font-weight: 900;
+	hyphens: auto;
+	color: #3A0057;
+}
+
+@media screen and (max-width: 420px) {
+	.hero-body .title {
+		font-size: 2.75em;
+	}
+}
+
+.hero-body .subtitle {
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #000;
+}
+
+.hero-body .description {
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+
+.section {
+	padding: 6rem 1.5rem;
+}
+
+.title{
+	color: #1E225B;
+}
