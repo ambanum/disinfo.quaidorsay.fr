@@ -11,6 +11,12 @@ body {
 	max-width: 1024px;
 }
 
+.background-colored {
+	background-color: #F5F6FB;
+	clip-path: polygon(0 2em, 100% 0, 100% calc(100% - 1.5em), 0 100%);
+	margin: 3rem 0;
+}
+
 a,
 a.navbar-item {
 	color: #512DA8;
