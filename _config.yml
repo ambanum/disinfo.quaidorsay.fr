@@ -7,15 +7,6 @@ title: Disinfo
 baseurl: ""
 url: https://disinfo.quaidorsay.fr
 
-defaults:
-  -
-    scope:
-      path: "" # means "all files"
-    values:
-      nav_exclude: true
-      numbered_headers: false
-      search_exclude: true
-
 exclude:
   - README.md
   - .circleci
