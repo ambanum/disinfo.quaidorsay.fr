@@ -3,6 +3,7 @@ permalink: /unconference-27-28-june-2019/
 nav_order: 11
 layout: default
 nav_exclude: false
+title: June 2019 Unconference
 ---
 
 <section class="section background-colored"><div class="container">
