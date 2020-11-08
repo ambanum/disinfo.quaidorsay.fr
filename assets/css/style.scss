@@ -1,0 +1,22 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+//Reset CSS
+@import "./vendor/node_modules/minireset.css/minireset.sass";
+
+//Config 
+@import "config.scss";
+
+//Mixins
+@import "./utils/mixins.scss";
+
+//Base
+@import "base.scss";
+
+//Elements
+@import "./elements/fonts.scss";
+
+//Components
+@import "./components/header.scss";

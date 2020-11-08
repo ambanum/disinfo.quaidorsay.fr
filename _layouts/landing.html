@@ -10,14 +10,18 @@
 		{% endif %}
 
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4=" crossorigin="anonymous" />
-		<link rel="stylesheet" href="{{ '/assets/css/default.css' | absolute_url }}">
-		<link rel="stylesheet" href="{{ '/assets/css/landing.css' | absolute_url }}">
+		<link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
-	<body class="landing">
-		<div>
+	<body>
+		
+		<header class="header">
+			<div class="header_content">
+				Je suis le header
+			</div>
+		</header>
+
 			<section class="hero is-medium">
 				<div class="hero-head">
 					<header class="navbar">
@@ -63,7 +67,7 @@
 					</div>
 				</div>
 			</section>
-		</div>
+		</header>
 
 		{{ content }}
 

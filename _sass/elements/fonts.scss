@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Marianne';
+	src: url('./assets/fonts/Marianne-Regular.woff2') format('woff2'), 
+	url('./assets/fonts/Marianne-Regular.woff') format('woff');
+}
+
+.font-marianne{
+	font-family: 'Marianne';
+	font-weight: normal;
+	font-style: normal;
+}

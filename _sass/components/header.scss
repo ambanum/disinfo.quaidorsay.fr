@@ -1,0 +1,9 @@
+.header{
+	@extend .sectioncontainer;
+	
+}
+
+.header_content{
+	@extend .sectioncontent;
+	@include debug;
+}
