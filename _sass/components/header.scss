@@ -5,5 +5,168 @@
 
 .header_content{
 	@extend .sectioncontent;
-	@include debug;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
+	@include responsiveMaxWidth($bpTablet){
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	@include responsiveMaxWidth($bpMobile){
+		padding-top: 16px;
+		padding-bottom: 16px;
+		flex-wrap: wrap;
+	}
+}
+
+.header_logo{
+}
+
+.header_logo_link{
+	display: flex;
+	align-items: center;
+
+	.logo_drawings{
+		width: 57px;
+		height: 97px;
+
+		@include responsiveMaxWidth($bpTablet){
+			width: 31px;
+			height: 52px;
+		}
+
+		@include responsiveMaxWidth($bpMobile){
+			width: 57px;
+			height: 97px;
+		}
+	}
+
+	.logo_txt{
+		width: 124px;
+		height: 64px;
+		margin-left: 13px;
+
+		@include responsiveMaxWidth($bpTablet){
+			display: none;
+		}
+
+		@include responsiveMaxWidth($bpMobile){
+			display: block;
+		}
+	}
+}
+
+.header_navs{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+
+	@include responsiveMaxWidth($bpMobile){
+		width:100%;
+	}
+}
+
+.header_mainnav{
+	flex-grow: 1;
+}
+
+.header_mainnav_items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding:0 16px;
+
+	@include responsiveMaxWidth($bpMobile){
+		justify-content: left;
+		padding: 0;
+		margin-top: 16px;
+	}
+}
+
+.header_mainnav_item{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	&:not(:last-child){
+		&:after{
+			content: "";
+			display: inline-flex;
+			height: 20px;
+			width: 1px;
+			background-color: $color-g400;
+			margin:0 16px;
+		}
+	}
+
+	@include responsiveMaxWidth($bpMobile){
+		width: 100%;
+
+		&:not(:last-child){
+			&:after{
+				content: "";
+				display: block;
+				height: 1px;
+				width: 100%;
+				background-color: $color-g400;
+				margin:12px 0;
+			}
+		}
+	}
+}
+
+.header_mainnav_link{
+	@include responsiveMaxWidth($bpMobile){
+		display: block;
+		width:100%;
+	}
+}
+
+.header_langnav{
+	margin-left: auto;
+	flex-shrink: 0;
+
+	@include responsiveMaxWidth($bpMobile){
+		position:absolute;
+		top: 56px;
+		right: 32px;
+	}
+}
+
+.header_langnav_items{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_langnav_item{
+	&:first-of-type{
+		margin-right: 12px;
+	}
+}
+
+.header_langnav_link{
+	display: flex;
+	align-items: center;
+	font-size: 1.4rem;
+
+	& > span{
+		@include responsiveMaxWidth($bpTablet){
+			display: none;
+		}
+	}
+}
+
+.header_langnav_flag{
+	width: 26px;
+	margin-right: 4px;
+
+	@include responsiveMaxWidth($bpTablet){
+		margin-right: 0px;
+	}
 }

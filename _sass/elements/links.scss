@@ -1,0 +1,8 @@
+a{
+	color: $color-blue;
+	text-decoration:none;
+
+	&:hover, &:focus, &:active{
+		color: $color-error;
+	}
+}

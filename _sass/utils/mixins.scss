@@ -1,5 +1,5 @@
-@mixin debug($size:1px, $color:red){
-	outline: $size solid $color;
+@mixin debug($color:red){
+	outline: 1px solid $color;
 }
 
 @mixin grid($colNumber, $gutterNumber){

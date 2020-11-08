@@ -13,6 +13,12 @@ $gridGutterWidth: 32px;
 $gridWidth: (($gridGuttersNumber * $gridGutterWidth) + ($gridColsNumber * $gridColWidth));
 
 /**
+ * Breakpoints
+ */
+$bpMobile: 576px;
+$bpTablet: 991px;
+
+/**
  * Colors
  */
 //Blue
@@ -20,6 +26,7 @@ $color-blue:#000091;
 $color-blue100:#F2F2F9;
 $color-blue-soft500:#41548E;
 $color-blue-soft400: #ABB8DF;
+$color-blue-hover:#2929A3;
 
 //Gray
 $color-g800:#1E1E1E;
@@ -28,6 +35,7 @@ $color-g400:#CECECE;
 
 //Other
 $color-white:#fff;
+$color-error:#E10600;
 
 /**
  * Fonts

@@ -6,17 +6,18 @@
 	max-width: $gridWidth;
 	margin: 0 auto;
 
-	@include responsiveMaxWidth($gridWidth){
-		padding:0 60px;
-		@include debug;
+	@include responsiveMaxWidth($gridWidth + $gridGutterWidth){
+		padding: 0 $gridGutterWidth;
+	}
+
+	@include responsiveMaxWidth($bpTablet){
+		padding: 0 ($gridGutterWidth - 8px);
+	}
+
+	@include responsiveMaxWidth($bpMobile){
+		padding: 0 ($gridGutterWidth / 2);
 	}
 }
-
-/* body{
-	font-size: $default-font-size;
-	@extend .font_audimatmono-light;
-    color: $color1-1000;
-} */
 
 html {
 	font-size: 62.5%; /* set base font-size to equiv "10px", which is adapted to rem unit */
@@ -24,7 +25,7 @@ html {
 }
 
 body {
-	background-color:$color-white;
+	background-color: $color-white;
 	font-size: $default-font-size;
 	@extend .font-marianne;
 	line-height: $default-line-height;
