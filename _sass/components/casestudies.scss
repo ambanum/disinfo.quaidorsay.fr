@@ -17,10 +17,6 @@
 	}
 }
 
-.casestudies_title{
-
-}
-
 .casestudies_subtitle{
 	margin-top: 20px;
 }
@@ -56,13 +52,13 @@
 }
 
 .casestudies_item_info{
-	padding:48px 24px 24px 24px;
+	padding: 48px 24px 24px 24px;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 
 	@include responsiveMaxWidth($bpTablet){
-		padding:32px 24px 24px 24px;
+		padding: 32px 24px 24px 24px;
 	}
 }
 
@@ -82,7 +78,7 @@
 	color: $color-blue-soft400;
 
 	&:hover, &:focus, &:active{
-		color: $color-blue;
+		color: $color-white;
 	}
 }
 

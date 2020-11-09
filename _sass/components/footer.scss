@@ -24,10 +24,6 @@
 	@include grid(8,7);
 }
 
-.footer_nav{
-
-}
-
 .footer_nav_items{
 	display: flex;
 	justify-content: center;
@@ -60,7 +56,7 @@
 				height: 1px;
 				width: 24px;
 				background-color: $color-g400;
-				margin:8px auto;
+				margin: 8px auto;
 			}
 		}
 	}

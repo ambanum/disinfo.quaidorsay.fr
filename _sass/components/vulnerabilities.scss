@@ -19,10 +19,6 @@
 	}
 }
 
-.vulnerabilities_title{
-
-}
-
 .vulnerabilities_subtitle{
 	margin-top: 20px;
 }
@@ -57,10 +53,6 @@
 	@include responsiveMaxWidth($bpTablet){
 		padding: 32px 24px 24px 24px;
 	}
-}
-
-.vulnerabilities_item_title{
-
 }
 
 .vulnerabilities_item_desc{

@@ -8,15 +8,6 @@
 	text-align: center;
 	padding-top: 128px;
 	padding-bottom: 128px;
-
-	@include responsiveMaxWidth($bpTabletSmall){
-		/* padding-top: 76px;
-		padding-bottom: 76px; */
-	}
-}
-
-.hero_title{
-
 }
 
 .hero_title_part1{
