@@ -1,7 +1,14 @@
-<section class="actions">
+{% if page.lang == "fr" %}
+	{% assign actionsAnchor = "nos-actions" %}
+{% endif %}
+{% if page.lang == "en" %}
+	{% assign actionsAnchor = "our-actions" %}
+{% endif %}
+<section class="actions" id="{{ actionsAnchor }}">
 	<div class="actions_content">
 		<h4 class="actions_title">{{ include.title }}</h4>
 		<div class="actions_items">
+			{% if page.lang == "fr" %}
 			<div class="actions_item">
 				<div class="actions_item_icon icon_influence">
 					<svg>
@@ -29,6 +36,36 @@
 				<h3 class="actions_item_title">Outiller</h3>
 				<div class="actions_item_desc">Auctor augue et sem luctus. Ultrices nibh augue donec congue feugiat. Sed ultrices risus gravida sed pharetra nisi, ultricies massa etiam. Vitae sed mi amet at varius ultrices quam vitae egestas. Enim sit volutpat in eu, volutpat at pharetra, ut. Justo augue leo quis. Vitae in venenatis mauris arcu. Luctus eu aliquam tempor diam velit pulvinar dictumst donec. </div>
 			</div>
+			{% endif %}
+			{% if page.lang == "en" %}
+			<div class="actions_item">
+				<div class="actions_item_icon icon_influence">
+					<svg>
+						<use xlink:href="#influence"></use>
+					</svg>
+				</div>
+				<h3 class="actions_item_title">Influencer EN</h3>
+				<div class="actions_item_desc">Nisl vulputate blandit pellentesque quisque odio lectus aliquam. Est posuere sagittis, diam enim. Id dictum blandit enim eget ac suspendisse luctus quisque id. Commodo, et ultricies in aliquet pretium a vitae, nulla. Facilisi metus sollicitudin ac molestie viverra accumsan quisque bibendum quam. Ipsum ultricies egestas mus tortor.</div>
+			</div>
+			<div class="actions_item">
+				<div class="actions_item_icon icon_federate">
+					<svg>
+						<use xlink:href="#federate"></use>
+					</svg>
+				</div>
+				<h3 class="actions_item_title">Féderer</h3>
+				<div class="actions_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet mi massa diam aliquet. Velit eget urna euismod magna pellentesque. Eu sit imperdiet fermentum commodo massa volutpat ornare euismod. Eget sit sagittis et varius aliquam. Aliquet turpis erat metus, tortor, sapien elit donec. Sed et luctus nisi ornare mauris hac.</div>
+			</div>
+			<div class="actions_item">
+				<div class="actions_item_icon icon_tool">
+					<svg>
+						<use xlink:href="#tool"></use>
+					</svg>
+				</div>
+				<h3 class="actions_item_title">Outiller</h3>
+				<div class="actions_item_desc">Auctor augue et sem luctus. Ultrices nibh augue donec congue feugiat. Sed ultrices risus gravida sed pharetra nisi, ultricies massa etiam. Vitae sed mi amet at varius ultrices quam vitae egestas. Enim sit volutpat in eu, volutpat at pharetra, ut. Justo augue leo quis. Vitae in venenatis mauris arcu. Luctus eu aliquam tempor diam velit pulvinar dictumst donec. </div>
+			</div>
+			{% endif %}
 		</div>
 	</div>
 </section>

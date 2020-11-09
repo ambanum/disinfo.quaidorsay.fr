@@ -6,10 +6,8 @@ htmlDescription: The Office of the French Ambassador for Digital Affairs builds 
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
-  - <a href="#nos-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="#our-actions" class="header_mainnav_link">Our actions</a>
 ---
-
-{% include header.html %}
 
 {% include hero.html title="Internet nous rapproche EN." subtitle="Les manipulations de l’information nous divisent." chapo="La diplomatie numérique française participe à réduire ces fractures." %}
 
@@ -19,4 +17,13 @@ navbar_items:
   subtitle="Le sujet est rendu complexe par l'emploi de nombreux termes qui décrivent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information.</strong>"
 %}
 
-{% include footer.html %}
+{% 
+  include vulnerabilities.html 
+  title="Ces manipulations exploitent des vulnaribilités"
+  subtitle="Nous croyons que de telles campagnes sont rendues possibles par <strong>l’exploitation de vulnérabilités</strong> propre aux systèmes d'informations et dans la manière dont l’information est présentée."
+%}
+
+{% 
+  include actions.html 
+  title="EN Au sein du ministère de l’Europe et des Affaires étrangères, l’équipe de l’Ambassadeur pour le numérique coordonne et valorise les positions de la France pour réduire ces vulnaribilités."
+%}

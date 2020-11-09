@@ -15,12 +15,17 @@
 	</head>
 
 	<body>
+		{% include header.html %}
 
-		{{ content }}
+		<main class="main">
+			{{ content }}
+		</main>
 
 		{% include icons.svg %}
 
 		{% include tracking.html %}
+
+		{% include footer.html %}
 		
 	</body>
 </html>
