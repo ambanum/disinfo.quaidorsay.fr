@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /suivi-d-audience-et-vie-privee
 htmlTitle: Suivi d'audience et vie privée
 navbar_items:

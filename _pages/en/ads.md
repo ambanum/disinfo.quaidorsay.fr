@@ -1,6 +1,6 @@
 ---
 permalink: /political-ads
-title: Error
+htmlTitle: Error
 ---
 
 # The political ads explorer is apparently unavailable 😰

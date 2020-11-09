@@ -1,6 +1,6 @@
 ---
 permalink: /twitter-bot-clusters
-title: Error
+htmlTitle: Error
 ---
 
 # The bot detector is apparently unavailable 😰

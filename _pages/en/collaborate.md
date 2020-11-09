@@ -1,6 +1,6 @@
 ---
 permalink: /collaborate
-title: Error
+htmlTitle: Error
 ---
 
 # The collaboration chat is apparently unavailable 😰

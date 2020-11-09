@@ -1,10 +1,9 @@
 ---
 permalink: /en/facebook-ads-library-assessment
-numbered_headers: true
+htmlTitle: Facebook Ads Library Assessment
 ---
 
 # Facebook Ads Library Assessment
-{: .no-toc}
 
 Facebook pledges to provide public API access for seven years to political and issue-based ads. This document presents the difficulties and limitations in using this otherwise powerful tool.
 

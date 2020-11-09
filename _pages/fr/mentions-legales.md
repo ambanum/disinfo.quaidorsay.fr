@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /mentions-legales
 title: Mentions légales
 navbar_items:

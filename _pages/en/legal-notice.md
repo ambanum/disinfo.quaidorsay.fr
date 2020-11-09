@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /legal-notice
 htmlTitle: Legal notice
 navbar_items:

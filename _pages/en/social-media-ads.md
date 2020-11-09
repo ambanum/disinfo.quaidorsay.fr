@@ -1,10 +1,9 @@
 ---
 permalink: /en/social-media-ads
-numbered_headers: true
+htmlTitle: Major social media political ads policies
 ---
 
 # Major social media political ads policies
-{: .no-toc}
 
 Here is a 10.000 feet overview of the major social media policies regarding political advertising.
 

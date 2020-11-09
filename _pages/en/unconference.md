@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /unconference-27-28-june-2019/
 htmlTitle: June 2019 Unconference
 ---

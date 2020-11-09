@@ -1,6 +1,6 @@
 ---
 permalink: /about
-title: About
+htmlTitle: About
 ---
 
 # About the authors of this content

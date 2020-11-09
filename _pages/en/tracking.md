@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /tracking
 htmlTitle: Analytics and privacy
 navbar_items:
