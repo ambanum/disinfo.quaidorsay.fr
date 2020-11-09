@@ -8,3 +8,26 @@
 	height: 64px;
 	margin-left: 13px;
 }
+
+.icon{
+	fill: $color-blue400;
+}
+
+.icon_influence > svg{
+	@extend .icon;
+	width: 28px;
+	height: 30px;
+}
+
+.icon_federate > svg{
+	@extend .icon;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_tool > svg{
+	@extend .icon;
+	width: 24px;
+	height: 30px;
+}
+

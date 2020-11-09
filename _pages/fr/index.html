@@ -11,7 +11,12 @@ navbar_items:
 
 {% include header.html %}
 
-{% include hero.html title="Internet nous rapproche." subtitle="Les manipulations de l’information nous divisent." chapo="La diplomatie numérique française participe à réduire ces fractures." %}
+{% 
+  include hero.html 
+  title="Internet nous rapproche." 
+  subtitle="Les manipulations de l’information nous divisent." 
+  chapo="La diplomatie numérique française participe à réduire ces fractures." 
+%}
 
 {% 
   include casestudies.html 
@@ -23,6 +28,11 @@ navbar_items:
   include vulnerabilities.html 
   title="Ces manipulations exploitent des vulnaribilités"
   subtitle="Nous croyons que de telles campagnes sont rendues possibles par <strong>l’exploitation de vulnérabilités</strong> propre aux systèmes d'informations et dans la manière dont l’information est présentée."
+%}
+
+{% 
+  include actions.html 
+  title="Au sein du ministère de l’Europe et des Affaires étrangères, l’équipe de l’Ambassadeur pour le numérique coordonne et valorise les positions de la France pour réduire ces vulnaribilités."
 %}
 
 {% include footer.html %}
