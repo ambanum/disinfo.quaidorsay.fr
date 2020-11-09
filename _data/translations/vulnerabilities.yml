@@ -1,23 +1,23 @@
 title:
-  fr: Ces manipulations exploitent des vulnaribilités
+  fr: Les manipulations de l'information exploitent des vulnérabilités.
   en: Ces manipulations exploitent des vulnaribilités EN
 subtitle:
-  fr: Nous croyons que de telles campagnes sont rendues possibles par <strong>l’exploitation de vulnérabilités</strong> propre aux systèmes d'informations et dans la manière dont l’information est présentée.
+  fr: La manière dont l’information est présentée ou diffusée, notamment sur les réseaux sociaux, peuvent constituer des <strong>vulnérabilités</strong>  susceptibles d’être exploitées par des acteurs malveillants pour manipuler les utilisateurs et l’opinion.
   en: Nous croyons que de telles campagnes sont rendues possibles par <strong>l’exploitation de vulnérabilités</strong> propre aux systèmes d'informations et dans la manière dont l’information est présentée. EN
 items:
   - item:
     title:
-      fr: Créer de faux profils de médias sociaux
+      fr: Créer de faux profils, pages ou groupes sur les médias sociaux
       en: Créer de faux profils de médias sociaux EN
     desc:
-      fr: En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.
+      fr: La création de faux profils d'utilisateurs, de pages ou de groupes permet de tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et d'amplifier l'adoption de celui-ci.
       en: En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.
   - item:
     title:
-      fr: Manipuler les sondages en ligne
+      fr: Créer de faux sondages ou manipuler des sondages en ligne 
       en: Manipuler les sondages en ligne EN
     desc:
-      fr: Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée.
+      fr: La création de faux sondages et la manipulation de sondages existants permet de générer de fausses mesures d’engagement et ainsi manipuler la perception d’un sujet.
       en: Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée. EN
   - item:
     title:
