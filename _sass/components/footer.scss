@@ -14,18 +14,8 @@
 	display: flex;
 	align-items: center;
 	margin: 0 auto;
-	width: 194px;
-
-	.logo_drawings{
-		width: 57px;
-		height: 97px;
-	}
-
-	.logo_txt{
-		width: 124px;
-		height: 64px;
-		margin-left: 13px
-	}
+	width: 164px;
+	height: 82px;
 }
 
 .footer_desc{
@@ -41,6 +31,7 @@
 .footer_nav_items{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .footer_nav_item{
@@ -58,8 +49,28 @@
 			margin:0 12px;
 		}
 	}
+
+	@include responsiveMaxWidth($bpMobile){
+		width: 100%;
+
+		&:not(:last-child){
+			&:after{
+				content: "";
+				display: block;
+				height: 1px;
+				width: 24px;
+				background-color: $color-g400;
+				margin:8px auto;
+			}
+		}
+	}
 }
 
 .footer_nav_link{
 	font-size: 1.4rem;
+
+	@include responsiveMaxWidth($bpMobile){
+		display: block;
+		width: 100%;
+	}
 }

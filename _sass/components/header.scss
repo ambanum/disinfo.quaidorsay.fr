@@ -1,6 +1,5 @@
 .header{
 	@extend .sectioncontainer;
-	
 }
 
 .header_content{
@@ -29,26 +28,20 @@
 .header_logo_link{
 	display: flex;
 	align-items: center;
+	width: 194px;
+	height: 97px;
 
-	.logo_drawings{
-		width: 57px;
+	@include responsiveMaxWidth($bpTablet){
+		width: 31px;
+		height: 52px;
+	}
+
+	@include responsiveMaxWidth($bpMobile){
+		width: 194px;
 		height: 97px;
-
-		@include responsiveMaxWidth($bpTablet){
-			width: 31px;
-			height: 52px;
-		}
-
-		@include responsiveMaxWidth($bpMobile){
-			width: 57px;
-			height: 97px;
-		}
 	}
 
 	.logo_txt{
-		width: 124px;
-		height: 64px;
-		margin-left: 13px;
 
 		@include responsiveMaxWidth($bpTablet){
 			display: none;
