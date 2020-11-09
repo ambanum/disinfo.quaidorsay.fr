@@ -1,0 +1,27 @@
+desc:
+  fr: Réalisé dans une optique de <strong>transparence</strong>, d’<strong>intérêt général</strong>, de <strong>collaboration</strong>, d’<strong>agilité</strong> et de <strong>bienveillance</strong> par l’équipe de l’Ambassadeur français pour le numérique.
+  en: Made with <strong>transparency, general interest, collaboration, agility</strong> and <strong>care</strong> in mind by the team of the French Ambassador for Digital Affairs
+link-mail-label:
+  fr: Contactez-nous
+  en: Contact us
+link-mail-href:
+  fr: mailto:matti.schneider@diplomatie.gouv.fr
+  en: mailto:matti.schneider@diplomatie.gouv.fr
+link-tracking-label:
+  fr: Suivi d’audience et vie privée
+  en: Analytics and privacy
+link-tracking-href:
+  fr: /suivi-d-audience-et-vie-privee
+  en: /tracking.html
+link-legal-label:
+  fr: Mentions légales
+  en: Legal notice
+link-legal-href:
+  fr: /mentions-legales.html
+  en: /legal-notice.html
+link-code-label:
+  fr: Code source
+  en: Source Code
+link-code-href:
+  fr: https://github.com/ambanum/disinfo.quaidorsay.fr
+  en: https://github.com/ambanum/disinfo.quaidorsay.fr

@@ -1,0 +1,55 @@
+title:
+  fr: Ces manipulations exploitent des vulnaribilités
+  en: Ces manipulations exploitent des vulnaribilités EN
+subtitle:
+  fr: Nous croyons que de telles campagnes sont rendues possibles par <strong>l’exploitation de vulnérabilités</strong> propre aux systèmes d'informations et dans la manière dont l’information est présentée.
+  en: Nous croyons que de telles campagnes sont rendues possibles par <strong>l’exploitation de vulnérabilités</strong> propre aux systèmes d'informations et dans la manière dont l’information est présentée. EN
+items:
+  - item:
+    title:
+      fr: Créer de faux profils de médias sociaux
+      en: Créer de faux profils de médias sociaux EN
+    desc:
+      fr: En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.
+      en: En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.
+  - item:
+    title:
+      fr: Manipuler les sondages en ligne
+      en: Manipuler les sondages en ligne EN
+    desc:
+      fr: Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée.
+      en: Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée. EN
+  - item:
+    title:
+      fr: Remplissage de données
+      en: Remplissage de données
+    desc:
+      fr: Sed vulputate, arcu quis sollicitudin sodales, odio massa vestibulum purus, at pharetra tortor leo ut leo. In posuere, nunc nec faucibus hendrerit, libero est pulvinar tortor, eu malesuada erat ligula ac augue. 
+      en: Sed vulputate, arcu quis sollicitudin sodales, odio massa vestibulum purus, at pharetra tortor leo ut leo. In posuere, nunc nec faucibus hendrerit, libero est pulvinar tortor, eu malesuada erat ligula ac augue. 
+  - item:
+    title:
+      fr: Malesuada purus
+      en: Malesuada purus
+    desc:
+      fr: Etiam tempor augue
+      en: Etiam tempor augue
+  - item:
+    title:
+      fr: Lorem ipsum
+      en: Lorem ipsum
+    desc:
+      fr: Etiam tempor augue
+      en: Etiam tempor augue
+  - item:
+    title:
+      fr: Vivamus
+      en: Vivamus
+    desc:
+      fr: Etiam tempor augue
+      en: Etiam tempor augue
+items-context:
+  fr: Etiam tempor augue vitae erat cursus, vel facilisis odio vestibulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">See more vulnerabilites</a>
+  en: Etiam tempor augue vitae erat cursus, vel facilisis odio vestibulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">See more</a>
+desc:
+  fr: L’économie de l’attention permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances pour créer artificiellement de l’« engagement ». Or, l'engagement est une mesure de visibilité trop souvent considérée à tort pour déterminer la crédibilité ou l'importance d'une information.
+  en: L’économie de l’attention permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances pour créer artificiellement de l’« engagement ». Or, l'engagement est une mesure de visibilité trop souvent considérée à tort pour déterminer la crédibilité ou l'importance d'une information. EN

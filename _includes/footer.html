@@ -1,46 +1,23 @@
-{% case page.lang %}
-	{% when "en" %}
-		{% assign linkMailLabel = "Contact us" %}
-		{% assign linkMailHref = "mailto:matti.schneider@diplomatie.gouv.fr" %}
-		{% assign linkTrackingLabel = "Analytics and privacy" %}
-		{% assign linkTrackingHref = "/tracking.html" %}
-		{% assign linkLegalLabel = "Legal notice" %}
-		{% assign linkLegalHref = "/legal-notice.html" %}
-		{% assign linkCodeLabel = "Source Code" %}
-		{% assign linkCodeHref = "https://github.com/ambanum/disinfo.quaidorsay.fr" %}
-	{% when "fr" %}
-		{% assign linkMailLabel = "Contactez-nous" %}
-		{% assign linkMailHref = "mailto:matti.schneider@diplomatie.gouv.fr" %}
-		{% assign linkTrackingLabel = "Suivi d’audience et vie privée" %}
-		{% assign linkTrackingHref = "/suivi-d-audience-et-vie-privee" %}
-		{% assign linkLegalLabel = "Mentions légales" %}
-		{% assign linkLegalHref = "/mentions-legales.html" %}
-		{% assign linkCodeLabel = "Code source" %}
-		{% assign linkCodeHref = "https://github.com/ambanum/disinfo.quaidorsay.fr" %}
-{% endcase %}
-
 <footer class="footer">
 	<div class="footer_content">
 		<div class="footer_logo">
 			{% include logo_drawings.svg %}
 			{% include logo_txt.svg %}
 		</div>
-		<div class="footer_desc">
-			Réalisé dans une optique de <strong>transparence</strong>, d’<strong>intérêt général</strong>, de <strong>collaboration</strong>, d’<strong>agilité</strong> et de <strong>bienveillance</strong> par l’équipe de l’Ambassadeur français pour le numérique.
-		</div>
+		<div class="footer_desc">{{ site.data.translations.footer.desc[page.lang] }}</div>
 		<nav class="footer_nav">
 			<ul class="footer_nav_items">
 				<li class="footer_nav_item">
-					<a class="footer_nav_link" href="{{ linkMailHref }}">{{ linkMailLabel }}</a>
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-mail-href[page.lang] }}">{{ site.data.translations.footer.link-mail-label[page.lang] }}</a>
 				</li>
 				<li class="footer_nav_item">
-					<a class="footer_nav_link" href="{{ linkTrackingHref }}">{{ linkTrackingLabel }}</a>
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-tracking-href[page.lang] }}">{{ site.data.translations.footer.link-tracking-label[page.lang] }}</a>
 				</li>
 				<li class="footer_nav_item">
-					<a class="footer_nav_link" href="{{ linkLegalHref }}">{{ linkLegalLabel }}</a>
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-legal-href[page.lang] }}">{{ site.data.translations.footer.link-legal-label[page.lang] }}</a>
 				</li>
 				<li class="footer_nav_item">
-					<a class="footer_nav_link" href="{{ linkCodeHref }}">{{ linkCodeLabel }}</a>
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-code-href[page.lang] }}">{{ site.data.translations.footer.link-code-label[page.lang] }}</a>
 				</li>
 			</ul>
 		</nav>

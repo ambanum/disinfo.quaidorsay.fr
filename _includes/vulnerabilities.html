@@ -1,79 +1,22 @@
 <section class="vulnerabilities">
 	<div class="vulnerabilities_content">
 		<div class="vulnerabilities_intro">
-			<h2 class="vulnerabilities_title">{{ include.title }}</h2>
-			<div class="vulnerabilities_subtitle chapo">{{ include.subtitle }}</div>
+			<h2 class="vulnerabilities_title">{{ site.data.translations.vulnerabilities.title[page.lang] }}</h2>
+			<div class="vulnerabilities_subtitle chapo">{{ site.data.translations.vulnerabilities.subtitle[page.lang] }}</div>
 		</div>
-	
 		<div class="vulnerabilities_items">
-			{% if page.lang == "fr" %}
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Créer de faux profils de médias sociaux</h3>
-				<p class="vulnerabilities_item_desc">En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Manipuler les sondages en ligne</h3>
-				<p class="vulnerabilities_item_desc">Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Remplissage de données</h3>
-				<p class="vulnerabilities_item_desc">Sed vulputate, arcu quis sollicitudin sodales, odio massa vestibulum purus, at pharetra tortor leo ut leo. In posuere, nunc nec faucibus hendrerit, libero est pulvinar tortor, eu malesuada erat ligula ac augue.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Etiam tempor augue</h3>
-				<p class="vulnerabilities_item_desc">Aenean facilisis gravida sapien, et ultrices nisi elementum tincidunt. Pellentesque pharetra tristique sagittis. Aliquam hendrerit iaculis ex non ullamcorper.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Malesuada purus</h3>
-				<p class="vulnerabilities_item_desc">Donec varius tempus massa a sagittis. Pellentesque pharetra ex et ipsum ultricies, vel euismod justo dignissim. Phasellus non molestie nulla, sit amet maximus arcu. Sed faucibus ex ut dolor laoreet.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Vivamus</h3>
-				<p class="vulnerabilities_item_desc">Ut porttitor eu purus in gravida. Sed dictum arcu in tortor feugiat placerat. Suspendisse potenti. Integer ut purus diam.Sed ut rhoncus ante. Quisque blandit tristique justo, id facilisis ligula tincidunt quis.</p>
-			</div>
-			{% endif %}
-			{% if page.lang == "en" %}
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Créer EN EN</h3>
-				<p class="vulnerabilities_item_desc">En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Manipuler les sondages en ligne</h3>
-				<p class="vulnerabilities_item_desc">Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Remplissage de données</h3>
-				<p class="vulnerabilities_item_desc">Sed vulputate, arcu quis sollicitudin sodales, odio massa vestibulum purus, at pharetra tortor leo ut leo. In posuere, nunc nec faucibus hendrerit, libero est pulvinar tortor, eu malesuada erat ligula ac augue.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Etiam tempor augue</h3>
-				<p class="vulnerabilities_item_desc">Aenean facilisis gravida sapien, et ultrices nisi elementum tincidunt. Pellentesque pharetra tristique sagittis. Aliquam hendrerit iaculis ex non ullamcorper.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Malesuada purus</h3>
-				<p class="vulnerabilities_item_desc">Donec varius tempus massa a sagittis. Pellentesque pharetra ex et ipsum ultricies, vel euismod justo dignissim. Phasellus non molestie nulla, sit amet maximus arcu. Sed faucibus ex ut dolor laoreet.</p>
-			</div>
-			<div class="vulnerabilities_item">
-				<h3 class="vulnerabilities_item_title">Vivamus</h3>
-				<p class="vulnerabilities_item_desc">Ut porttitor eu purus in gravida. Sed dictum arcu in tortor feugiat placerat. Suspendisse potenti. Integer ut purus diam.Sed ut rhoncus ante. Quisque blandit tristique justo, id facilisis ligula tincidunt quis.</p>
-			</div>
-			{% endif %}
+			{% for item in site.data.translations.vulnerabilities.items %}
+				<div class="vulnerabilities_item">
+					<h3 class="vulnerabilities_item_title">{{ item.title[page.lang] }}</h3>
+					<p class="vulnerabilities_item_desc">{{ item.desc[page.lang] }}</p>
+				</div>
+			{% endfor %}
 		</div>
 		<div class="vulnerabilities_itemsinfo">
-			{% if page.lang == "fr" %}
-			Etiam tempor augue vitae erat cursus, vel facilisis odio vestibulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Voir d’autres les études de cas</a>
-			{% endif %}
-			{% if page.lang == "en" %}
-			Etiam tempor augue vitae erat cursus, vel facilisis odio vestibulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">See other case studies</a>
-			{% endif %}
+			{{ site.data.translations.vulnerabilities.items-context[page.lang] }}
 		</div>
 		<div class="vulnerabilities_desc">
-			{% if page.lang == "fr" %}
-			Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations, voire même des groupes informels d’individus. Elles visent à fragiliser notre cohésion sociale et nos processus démocratiques. 
-			{% endif %}
-			{% if page.lang == "en" %}
-			Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations, voire même des groupes informels d’individus. Elles visent à fragiliser notre cohésion sociale et nos processus démocratiques. 
-			{% endif %}
+			{{ site.data.translations.vulnerabilities.desc[page.lang] }}
 		</div>
 	</div>
 </section>
