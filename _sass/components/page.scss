@@ -26,7 +26,53 @@
 		margin-top: 36px;
 	}
 
+	& > h4{
+		margin-top: 32px;
+	}
+
 	& > p{
 		margin-top: 20px;
 	}
+
+	& > ul{
+		margin-top: 20px;
+		margin-left: 20px;
+		list-style-type: circle;
+
+		& > li{
+			margin-top: 8px;
+		}
+	}
+
+	& > ol{
+		margin-top: 20px;
+		margin-left: 20px;
+
+		& > li{
+			margin-top: 8px;
+		}
+	}
+	
+	& > dl{		
+
+		& > dt{
+			margin-top: 20px;
+		}
+
+		& > dd{
+			
+		}
+	}
+	
+	& > hr{
+		border: 0;
+		height: 1px;
+		background-color: $color-g400;
+		margin-top: 24px;
+	}
+
+	& > iframe{
+		width: 100%;
+	}
+	
 }
