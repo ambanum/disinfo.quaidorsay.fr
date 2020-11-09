@@ -1,6 +1,6 @@
 ---
 permalink: /mentions-legales
-title: Mentions légales
+htmlTitle: Mentions légales
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>
