@@ -42,9 +42,9 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	/* @include responsiveMaxWidth($bpMobile){
+	@include responsiveMaxWidth($bpMobile){
 		grid-template-columns: 1fr;
-	} */
+	}
 }
 
 .vulnerabilities_item{

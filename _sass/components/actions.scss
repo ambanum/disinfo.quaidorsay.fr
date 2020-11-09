@@ -1,5 +1,7 @@
 .actions{
 	@extend .sectioncontainer;
+	background: url("../../assets/img/actions-background.png") no-repeat transparent left center;
+	background-size: contain;
 }
 
 .actions_content{
@@ -17,13 +19,15 @@
 
 .actions_items{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: $gridGutterWidth;
 	margin-top: 48px;
+	counter-reset: grid;
 
-	@include responsiveMaxWidth($bpTablet){
+	@include responsiveMaxWidth($bpTabletSmall){
 		grid-gap: $gridGutterWidth / 2;
 		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(2, 1fr);
 		margin-top: 32px;
 	}
 
