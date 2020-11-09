@@ -4,7 +4,6 @@ title: Mentions légales
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>
-  - <a href="#nos-actions" class="header_mainnav_link">Nos actions</a>
 ---
 
 # Mentions légales

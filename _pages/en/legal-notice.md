@@ -4,7 +4,6 @@ htmlTitle: Legal notice
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
-  - <a href="#our-actions" class="header_mainnav_link">Our actions</a>
 ---
 
 # Legal notice

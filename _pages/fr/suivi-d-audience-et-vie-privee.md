@@ -4,7 +4,6 @@ htmlTitle: Suivi d'audience et vie privée
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>
-  - <a href="#nos-actions" class="header_mainnav_link">Nos actions</a>
 ---
 
 # Suivi d'audience et vie privée
