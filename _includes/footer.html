@@ -1,0 +1,48 @@
+{% case page.lang %}
+	{% when "en" %}
+		{% assign linkMailLabel = "Contact us" %}
+		{% assign linkMailHref = "mailto:matti.schneider@diplomatie.gouv.fr" %}
+		{% assign linkTrackingLabel = "Analytics and privacy" %}
+		{% assign linkTrackingHref = "/tracking.html" %}
+		{% assign linkLegalLabel = "Legal notice" %}
+		{% assign linkLegalHref = "/legal-notice.html" %}
+		{% assign linkCodeLabel = "Source Code" %}
+		{% assign linkCodeHref = "https://github.com/ambanum/disinfo.quaidorsay.fr" %}
+	{% when "fr" %}
+		{% assign linkMailLabel = "Contactez-nous" %}
+		{% assign linkMailHref = "Contactez-nous" %}
+		{% assign linkTrackingLabel = "Suivi d’audience et vie privée" %}
+		{% assign linkTrackingHref = "/suivi-d-audience-et-vie-privee" %}
+		{% assign linkLegalLabel = "Legal notice" %}
+		{% assign linkLegalHref = "/legal-notice.html" %}
+		{% assign linkCodeLabel = "Code source" %}
+		{% assign linkCodeHref = "https://github.com/ambanum/disinfo.quaidorsay.fr" %}
+{% endcase %}
+
+<footer class="footer">
+	<div class="footer_content">
+		<div class="footer_logo">
+			{% include logo_drawings.svg %}
+			{% include logo_txt.svg %}
+		</div>
+		<div class="footer_desc">
+			Réalisé dans une optique de <strong>transparence</strong>, d’<strong>intérêt général</strong>, de <strong>collaboration</strong>, d’<strong>agilité</strong> et de <strong>bienveillance</strong> par l’équipe de l’Ambassadeur français pour le Numérique.
+		</div>
+		<nav class="footer_nav">
+			<ul class="footer_nav_items">
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ linkMailHref }}">{{ linkMailLabel }}</a>
+				</li>
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ linkTrackingHref }}">{{ linkTrackingLabel }}</a>
+				</li>
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ linkLegalHref }}">{{ linkLegalLabel }}</a>
+				</li>
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ linkCodeHref }}">{{ linkCodeLabel }}</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</footer>
