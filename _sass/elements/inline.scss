@@ -5,3 +5,19 @@ p{
 /* strong, bold{
 	@extend .font-marianneBold;
 } */
+
+.chapo{
+	font-size: 2.4rem;
+	line-height: 30px;
+	color: $color-g700;
+
+	@include responsiveMaxWidth($bpTabletSmall){
+		font-size: 2rem;
+	}
+}
+
+.text-lg{
+	color: $color-g700;
+	font-size: 2rem;
+	line-height: 2.8rem;
+}

@@ -1,121 +1,22 @@
 ---
 layout: landing
 permalink: /en
-title: Reducing vulnerabilities<br /> to information manipulation.
-description: The Office of the French Ambassador for Digital Affairs builds tools to counter information manipulation aiming at disrupting social cohesion and electoral processes.
-navbar_items: |
-  <a href="/political-ads" class="navbar-item">Illegal Ads</a>
-  <a href="/encyclopedia" class="navbar-item">Disencyclopedia</a>
-  <a href="/collaborate" class="navbar-item">Collaboration Chat</a>
-details: |
-  <h2 class="subtitle">Deploying French digital diplomacy, <br />we work towards online debate spaces that are loyal to citizens.</h2>
+htmlTitle: Reducing vulnerabilities to information manipulation.
+htmlDescription: The Office of the French Ambassador for Digital Affairs builds tools to counter information manipulation aiming at disrupting social cohesion and electoral processes.
+navbar_items:
+  - <a href="/" class="header_mainnav_link">Home</a>
+  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
+  - <a href="#nos-actions" class="header_mainnav_link">Our actions</a>
 ---
 
-<section class="section ourVision">
-  <div class="container">
-    <h1 class="ourVision_title title">
-      <span class="thin">The Internet brings us closer.</span><br />
-      <span>Information manipulation drives us apart.</span>
-    </h1>
-    <div class="columns is-vcentered">
-      <div class="column is-7">
-        <p><i>Fake news, misinformation, disinformation…</i> The topic is riddled with words covering different realities. We prefer the more generic term <strong>information manipulation</strong>.</p>
-        <p>Information manipulation aims at <strong>disrupting the social cohesion and electoral processes</strong> that keep democratic societies together. Foreign interference during the 2016 US presidential elections highlighted new forms of large-scale information manipulation campaigns targeting citizens, mainly through social media. We believe that such campaigns are made possible by the exploitation of <strong>vulnerabilities</strong> in the way information is presented.</p>
-        <p>The <strong>attention economy</strong> allows bad actors to gain money and views by publishing content that exploits our biases and tendencies. Techniques such as <i>algorithmic gaming</i>, <i>troll farms</i> or <i>data voids prefilling</i> make it possible to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring credibility or importance. We work towards online spaces that allow <strong>freedom of expression</strong> and support publishing and sharing <strong>quality information</strong> with a <strong>diversity of views</strong> and <strong>mutual respect</strong>, by reducing such vulnerabilities to information manipulation.</p>
-        <p>Within the Office of the French Ambassador for Digital Affairs, our team leverages digital diplomacy to make this environment a reality. We build open tools, connect and promote relevant actors, and steer international governance towards proportionate and effective regulation.</p>
-      </div>
-      <div class="column has-text-centered-touch has-text-right-desktop">
-        <img class="ourVision_logo" src="/assets/img/logo.svg" alt="">
-      </div>
-    </div>
-  </div>
-</section>
+{% include header.html %}
 
-<section class="section our-work">
-  <div class="container">
-    <h1 class="our-work-title title has-text-centered">
-      Our open experiments in countering information manipulation
-    </h1>
-    <div class="columns">
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              <span class="thin">Illegal</span><wbr>Ads
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Assess the legality of political ads
-            </h4>
-            <p>
-              A crowdsourcing interface that allows citizens to view paid issue-based ads on Facebook and surface actors that do not respect the law.<br />
-              Currently only available for France, our code is open-source and we would be happy to collaborate with you to expand to other countries. <a href="mailto:matti.schneider@diplomatie.gouv.fr?subject=AdsLegality">Send us an email!</a>
-            </p>
-          </div>
-          <a href="/political-ads" class="button is-white is-medium">
-            Start classifying
-          </a>
-        </div>
-      </div>
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              <span class="thin">Dis</span><wbr>Encyclopedia
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Improve your practices and toolset
-            </h4>
-            <p>
-              An open and collaborative resource that documents best practices, tools and actors, allowing all of those who counter information manipulation to improve the competence of the entire ecosystem.
-            </p>
-          </div>
-          <a href="/encyclopedia" class="button is-white is-medium">
-            Explore
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              <span class="thin">Bot</span><wbr>Detection
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Identify clusters of bots on Twitter
-            </h4>
-            <p>
-              A crawler that navigates Twitter follower relationships to identify clusters of suspicious accounts from a given seed account. It uses the free Twitter API and can thus be easily deployed.<br/>
-              Based on a manual annotation of over 400&nbsp;accounts, we have also used that dataset to <a href="/encyclopedia/qualification/tools#reliability-assessment">assess the reliability</a> of usual bot detection tools such as Botometer.
-            </p>
-          </div>
-          <a href="/twitter-bot-clusters" class="button is-white is-medium">
-            Read the methodology
-          </a>
-        </div>
-      </div>
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              <span class="thin">Collaboration</span><wbr>chat
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Collaboratively detect, qualify and react to disinformation campaigns
-            </h4>
-            <p>
-              A real-time chat that gathers actors, supports all the best practices identified in our encyclopedia, and offers the best tools as chatbots.<br />
-              If you are reading this, then we would probably like to have you on board. <a href="mailto:matti.schneider@diplomatie.gouv.fr?subject=CollaborationChat">Send us an email!</a>
-            </p>
-          </div>
-          <a href="/collaborate" class="button is-white is-medium">
-            Join
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include hero.html title="Internet nous rapproche EN." subtitle="Les manipulations de l’information nous divisent." chapo="La diplomatie numérique française participe à réduire ces fractures." %}
 
-{% include footer_en.html %}
+{% 
+  include casestudies.html 
+  title="Fake news, infox, désinformation… "
+  subtitle="Le sujet est rendu complexe par l'emploi de nombreux termes qui décrivent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information.</strong>"
+%}
+
+{% include footer.html %}
