@@ -4,9 +4,9 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-		<title>{{ page.title | strip_html}}</title>
-		{% if page.description %}
-		<meta name="description" content="{{ page.description }}">
+		<title>{{ page.htmlTitle | strip_html}}</title>
+		{% if page.htmlDescription %}
+		<meta name="description" content="{{ page.htmlDescription }}">
 		{% endif %}
 
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -15,9 +15,10 @@
 	</head>
 
 	<body>
-		
+
 		{{ content }}
 
 		{% include tracking.html %}
+		
 	</body>
 </html>
