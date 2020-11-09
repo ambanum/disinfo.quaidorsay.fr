@@ -1,7 +1,7 @@
 .actions{
 	@extend .sectioncontainer;
 	background: url("../../assets/img/actions-background.png") no-repeat transparent left center;
-	background-size: contain;
+	background-size: auto 90%;
 }
 
 .actions_content{
