@@ -48,8 +48,8 @@
 	position: relative;
 	overflow: hidden;
 
-	&:hover{
-		.casestudies_item_img{
+	&:hover {
+		.casestudies_item_img {
 			transform: scale(1.05);
 		}
 	}
@@ -85,22 +85,15 @@
 	margin-top: auto;
 	padding-top: 12px;
 	align-self: flex-end;
-	color: $color-blue-soft400;
 
-	&:hover,
-	&:focus,
-	&:active {
-		color: $color-white;
-	}
-
-	&:before{
-		content:"";
-		display:block;
-		width:100%;
-		height:100%;
+	&:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
 		position: absolute;
-		top:0;
-		left:0;
+		top: 0;
+		left: 0;
 	}
 }
 

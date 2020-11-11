@@ -30,3 +30,9 @@
 	width: 24px;
 	height: 28px;
 }
+
+.icon_arrowright > svg {
+	@extend .icon;
+	width: 19px;
+	height: 18px;
+}
