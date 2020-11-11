@@ -1,14 +1,14 @@
-.chapo{
+.chapo {
 	font-size: 2.4rem;
 	line-height: 30px;
 	color: $color-g700;
 
-	@include responsiveMaxWidth($bpTabletSmall){
+	@include responsiveMaxWidth($bpTabletSmall) {
 		font-size: 2rem;
 	}
 }
 
-.text-lg{
+.text-lg {
 	color: $color-g700;
 	font-size: 2rem;
 	line-height: 2.8rem;

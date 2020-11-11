@@ -1,6 +1,6 @@
 ---
 permalink: /tracking
-htmlTitle: Analytics and privacy
+title: Analytics and privacy
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>

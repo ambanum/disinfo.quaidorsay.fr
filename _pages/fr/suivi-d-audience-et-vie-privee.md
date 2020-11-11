@@ -1,6 +1,6 @@
 ---
 permalink: /suivi-d-audience-et-vie-privee
-htmlTitle: Suivi d'audience et vie privée
+title: Suivi d'audience et vie privée
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>

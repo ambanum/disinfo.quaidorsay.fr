@@ -1,6 +1,6 @@
 ---
 permalink: /encyclopedia/qualification/tools
-htmlTitle: Error
+title: Error
 ---
 
 # Encyclopedia is apparently unavailable 😰

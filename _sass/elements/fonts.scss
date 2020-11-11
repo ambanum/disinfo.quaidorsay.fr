@@ -1,22 +1,22 @@
 @font-face {
 	font-family: 'Marianne';
-	src: url('./../../assets/fonts/Marianne-Regular.woff2') format('woff2'), 
-	url('./../../assets/fonts/Marianne-Regular.woff') format('woff');
+	src: url('../../assets/fonts/Marianne-Regular.woff2') format('woff2'),
+		url('../../assets/fonts/Marianne-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'MarianneBold';
-	src: url('./../../assets/fonts/Marianne-Bold.woff2') format('woff2'), 
-	url('./../../assets/fonts/Marianne-Bold.woff') format('woff');
+	src: url('../../assets/fonts/Marianne-Bold.woff2') format('woff2'),
+		url('../../assets/fonts/Marianne-Bold.woff') format('woff');
 }
 
-.font-marianne{
+.font-marianne {
 	font-family: 'Marianne';
 	font-weight: normal;
 	font-style: normal;
 }
 
-.font-mariannebold{
+.font-mariannebold {
 	font-family: 'MarianneBold';
 	font-weight: normal;
 	font-style: normal;

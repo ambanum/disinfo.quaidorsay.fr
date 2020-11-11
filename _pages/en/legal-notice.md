@@ -1,6 +1,6 @@
 ---
 permalink: /legal-notice
-htmlTitle: Legal notice
+title: Legal notice
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>

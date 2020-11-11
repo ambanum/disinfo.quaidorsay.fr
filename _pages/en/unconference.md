@@ -1,6 +1,6 @@
 ---
 permalink: /unconference-27-28-june-2019/
-htmlTitle: June 2019 Unconference
+title: June 2019 Unconference
 ---
 
 # June 2019 Unconference

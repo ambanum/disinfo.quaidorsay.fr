@@ -1,33 +1,32 @@
-.logo_drawings{
+.logo_drawings {
 	width: 57px;
 	height: 97px;
 }
 
-.logo_txt{
+.logo_txt {
 	width: 124px;
 	height: 64px;
 	margin-left: 13px;
 }
 
-.icon{
+.icon {
 	fill: $color-blue400;
 }
 
-.icon_influence > svg{
+.icon_influence>svg {
 	@extend .icon;
 	width: 28px;
 	height: 30px;
 }
 
-.icon_federate > svg{
+.icon_federate>svg {
 	@extend .icon;
 	width: 30px;
 	height: 30px;
 }
 
-.icon_tool > svg{
+.icon_tool>svg {
 	@extend .icon;
 	width: 24px;
 	height: 30px;
 }
-

@@ -1,26 +1,25 @@
-.hero{
+.hero {
 	@extend .sectioncontainer;
 }
 
-.hero_content{
+.hero_content {
 	@extend .sectioncontent;
-	@include grid(8,9);
+	@include grid(8, 9);
 	text-align: center;
 	padding-top: 128px;
 	padding-bottom: 128px;
 }
 
-.hero_title_part1{
+.hero_title_part1 {
 	display: block;
 	@extend .font-marianne;
 }
 
-.hero_title_part2{
+.hero_title_part2 {
 	display: block;
 }
 
-.hero_chapo{
+.hero_chapo {
 	@extend .chapo;
 	margin-top: 24px;
 }
-

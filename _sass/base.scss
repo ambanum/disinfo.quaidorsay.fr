@@ -1,27 +1,29 @@
-.sectioncontainer{
-    width: 100%;
+.sectioncontainer {
+	width: 100%;
 }
 
-.sectioncontent{
+.sectioncontent {
 	max-width: $gridWidth;
 	margin: 0 auto;
 
-	@include responsiveMaxWidth($gridWidth + $gridGutterWidth){
+	@include responsiveMaxWidth($gridWidth + $gridGutterWidth) {
 		padding: 0 $gridGutterWidth;
 	}
 
-	@include responsiveMaxWidth($bpTablet){
+	@include responsiveMaxWidth($bpTablet) {
 		padding: 0 ($gridGutterWidth - 8px);
 	}
 
-	@include responsiveMaxWidth($bpMobile){
+	@include responsiveMaxWidth($bpMobile) {
 		padding: 0 ($gridGutterWidth / 2);
 	}
 }
 
 html {
-	font-size: 62.5%; /* set base font-size to equiv "10px", which is adapted to rem unit */
-	font-size: calc(1em * 0.625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+	font-size: 62.5%;
+	/* set base font-size to equiv "10px", which is adapted to rem unit */
+	font-size: calc(1em * 0.625);
+	/* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
 }
 
 body {
@@ -32,7 +34,8 @@ body {
 	color: $color-g700;
 
 	/* Improve font rendering on HiDPI devices (opinionated) */
-	@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+	@media screen and (-webkit-min-device-pixel-ratio: 2),
+	screen and (min-resolution: 2dppx) {
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 	}

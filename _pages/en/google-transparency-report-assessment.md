@@ -1,6 +1,6 @@
 ---
 permalink: /en/google-transparency-report-assessment
-htmlTitle: Google Transparency Report Assessment
+title: Google Transparency Report Assessment
 ---
 
 # Google Transparency Report Assessment

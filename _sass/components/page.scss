@@ -1,76 +1,74 @@
-.page{
+.page {
 	@extend .sectioncontainer;
 }
 
-.page_content{
+.page_content {
 	@extend .sectioncontent;
-	@include grid(10,9);
+	@include grid(10, 9);
 	padding-top: 128px;
 	padding-bottom: 128px;
 
-	& > h1{
-		text-align:center;
-		@include grid(9,8);
+	&>h1 {
+		text-align: center;
+		@include grid(9, 8);
 		margin-right: auto;
 		margin-left: auto;
 		margin-bottom: 128px;
 	}
 
-	& > h2{
+	&>h2 {
 		margin-top: 48px;
 	}
 
-	& > h3{
+	&>h3 {
 		margin-top: 36px;
 	}
 
-	& > h4{
+	&>h4 {
 		margin-top: 32px;
 	}
 
-	& > p{
+	&>p {
 		margin-top: 20px;
 	}
 
-	& > ul{
+	&>ul {
 		margin-top: 20px;
 		margin-left: 20px;
 		list-style-type: circle;
 
-		& > li{
+		&>li {
 			margin-top: 8px;
 		}
 	}
 
-	& > ol{
+	&>ol {
 		margin-top: 20px;
 		margin-left: 20px;
 
-		& > li{
+		&>li {
 			margin-top: 8px;
 		}
 	}
-	
-	& > dl{		
 
-		& > dt{
+	&>dl {
+
+		&>dt {
 			margin-top: 20px;
 		}
 
-		& > dd{
-			
-		}
+		&>dd {}
 	}
-	
-	& > hr{
+
+	&>hr {
 		border: 0;
 		height: 1px;
 		background-color: $color-g400;
 		margin-top: 24px;
 	}
 
-	& > iframe{
+	&>iframe {
 		width: 100%;
 	}
-	
+
 }

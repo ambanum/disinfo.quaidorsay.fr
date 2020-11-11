@@ -1,6 +1,7 @@
 ---
 permalink: /en/facebook-ads-library-assessment
-htmlTitle: Facebook Ads Library Assessment
+title: Facebook Ads Library Assessment
+numbered_headers: true
 ---
 
 # Facebook Ads Library Assessment

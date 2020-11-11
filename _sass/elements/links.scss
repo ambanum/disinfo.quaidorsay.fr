@@ -1,8 +1,10 @@
-a{
+a {
 	color: $color-blue;
-	text-decoration:none;
+	text-decoration: none;
 
-	&:hover, &:focus, &:active{
+	&:hover,
+	&:focus,
+	&:active {
 		color: $color-error;
 	}
 }

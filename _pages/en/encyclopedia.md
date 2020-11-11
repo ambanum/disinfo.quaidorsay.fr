@@ -1,6 +1,6 @@
 ---
 permalink: /encyclopedia
-htmlTitle: Error
+title: Error
 ---
 
 # Encyclopedia is apparently unavailable 😰

@@ -1,6 +1,6 @@
 ---
 permalink: /en/social-media-ads
-htmlTitle: Major social media political ads policies
+title: Major social media political ads policies
 ---
 
 # Major social media political ads policies

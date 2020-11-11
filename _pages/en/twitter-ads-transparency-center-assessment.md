@@ -1,6 +1,6 @@
 ---
 permalink: /en/twitter-ads-transparency-center-assessment
-htmlTitle: Twitter Ads Transparency Center Assessment
+title: Twitter Ads Transparency Center Assessment
 ---
 
 # Twitter Ads Transparency Center Assessment

@@ -1,106 +1,108 @@
-.casestudies{
+.casestudies {
 	@extend .sectioncontainer;
 }
 
-.casestudies_content{
+.casestudies_content {
 	@extend .sectioncontent;
 	padding-bottom: 128px;
 }
 
-.casestudies_intro{
-	@include grid(8,9);
+.casestudies_intro {
+	@include grid(8, 9);
 	padding-left: $gridColWidth;
 
-	@include responsiveMaxWidth($bpTablet){
+	@include responsiveMaxWidth($bpTablet) {
 		max-width: 100%;
 		padding-left: $gridGutterWidth;
 	}
 }
 
-.casestudies_subtitle{
+.casestudies_subtitle {
 	margin-top: 20px;
 }
 
-.casestudies_items{
+.casestudies_items {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: $gridGutterWidth;
 	margin-top: 48px;
 
-	@include responsiveMaxWidth($bpTablet){
+	@include responsiveMaxWidth($bpTablet) {
 		grid-gap: $gridGutterWidth / 2;
 		margin-top: 32px;
 	}
 
-	@include responsiveMaxWidth($bpTabletSmall){
+	@include responsiveMaxWidth($bpTabletSmall) {
 		grid-template-columns: 1fr 1fr;
 	}
 
-	@include responsiveMaxWidth($bpMobile){
+	@include responsiveMaxWidth($bpMobile) {
 		grid-template-columns: 1fr;
 	}
 }
 
-.casestudies_item{
+.casestudies_item {
 	display: flex;
 	flex-direction: column;
 	background-color: $color-blue-soft500;
 }
 
-.casestudies_item_img{
+.casestudies_item_img {
 	object-fit: cover;
 }
 
-.casestudies_item_info{
+.casestudies_item_info {
 	padding: 48px 24px 24px 24px;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 
-	@include responsiveMaxWidth($bpTablet){
+	@include responsiveMaxWidth($bpTablet) {
 		padding: 32px 24px 24px 24px;
 	}
 }
 
-.casestudies_item_title{
+.casestudies_item_title {
 	color: $color-white;
 }
 
-.casestudies_item_desc{
+.casestudies_item_desc {
 	color: $color-white;
 	margin-top: 12px;
 }
 
-.casestudies_item_link{
+.casestudies_item_link {
 	margin-top: auto;
 	padding-top: 12px;
 	align-self: flex-end;
 	color: $color-blue-soft400;
 
-	&:hover, &:focus, &:active{
+	&:hover,
+	&:focus,
+	&:active {
 		color: $color-white;
 	}
 }
 
-.casestudies_itemsinfo{
+.casestudies_itemsinfo {
 	text-align: right;
 	margin-top: 12px;
 
-	@include responsiveMaxWidth($bpTablet){
-		@include grid(5,4);
+	@include responsiveMaxWidth($bpTablet) {
+		@include grid(5, 4);
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 	}
 }
 
-.casestudies_desc{
+.casestudies_desc {
 	@extend .text-lg;
-	@include grid(8,9);
+	@include grid(8, 9);
 	padding-top: 48px;
 	padding-left: $gridColWidth;
 
-	@include responsiveMaxWidth($bpTablet){
+	@include responsiveMaxWidth($bpTablet) {
 		max-width: 100%;
 		padding-left: $gridGutterWidth;
 	}
