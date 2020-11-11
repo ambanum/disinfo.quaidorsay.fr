@@ -1,6 +1,7 @@
 ---
 permalink: /en/google-transparency-report-assessment
 title: Google Transparency Report Assessment
+numbered_headers: true
 ---
 
 # Google Transparency Report Assessment

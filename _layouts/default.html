@@ -19,7 +19,7 @@
 
 		<main class="main">
 			<div class="page">
-				<div class="page_content">
+				<div class="page_content {% if page.numbered_headers == true %} page_content-numbering{% endif %}">
 					{{ content }}
 				</div>
 			</div>

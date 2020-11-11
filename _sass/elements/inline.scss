@@ -13,3 +13,8 @@
 	font-size: 2rem;
 	line-height: 2.8rem;
 }
+
+strong,
+bold {
+	@extend .font-mariannebold;
+}
