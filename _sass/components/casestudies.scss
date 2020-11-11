@@ -45,10 +45,20 @@
 	display: flex;
 	flex-direction: column;
 	background-color: $color-blue-soft500;
+	position: relative;
+	overflow: hidden;
+
+	&:hover{
+		.casestudies_item_img{
+			transform: scale(1.05);
+		}
+	}
 }
 
 .casestudies_item_img {
 	object-fit: cover;
+	transform-origin: center bottom;
+	transition: transform 1.1s ease-out;
 }
 
 .casestudies_item_info {
@@ -81,6 +91,16 @@
 	&:focus,
 	&:active {
 		color: $color-white;
+	}
+
+	&:before{
+		content:"";
+		display:block;
+		width:100%;
+		height:100%;
+		position: absolute;
+		top:0;
+		left:0;
 	}
 }
 
