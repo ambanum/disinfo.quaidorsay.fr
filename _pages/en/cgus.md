@@ -1,6 +1,6 @@
 ---
-permalink: /encyclopedia
-title: Error
+permalink: /en/cgus
+title: CGUs
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
@@ -8,8 +8,4 @@ navbar_items:
   - <a href="/en/cgus" class="header_mainnav_link">CGUs</a>
 ---
 
-# Encyclopedia is apparently unavailable 😰
-
-We apologise for the downtime. You should not be seeing this page.
-
-<!-- This page is compiled mostly to allow internal links checks. It will be overridden at server level in production. -->
+# CGU EN
