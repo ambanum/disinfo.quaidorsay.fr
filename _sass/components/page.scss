@@ -61,8 +61,15 @@
 	}
 
 	dl {
+		padding: 24px;
+
 		dt {
-			margin-top: 20px;
+			margin-top: 24px;
+			@extend .font-mariannebold;
+
+			&:first-child {
+				margin-top: 0;
+			}
 		}
 	}
 

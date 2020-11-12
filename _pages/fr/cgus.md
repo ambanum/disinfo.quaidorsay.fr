@@ -65,13 +65,13 @@ Note: Actuellement, nous ne suivons que les conditions rédigées en anglais et 
 L’outil est construit sous la forme d’un logiciel libre et collaboratif, ce qui signifie que toute entité peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.
 
 Direction Générale des Entreprises  
-La Direction générale des entreprises (DGE) et plus particulièrement le pôle d’expertise de la régulation du numérique (PEReN) contribue d’ores et déjà dans le cadre de son suivi des magasins d’applications mobiles, ce qui a permis de développer de nouvelles fonctionnalités comme le suivi des images et des documents au format PDF.
+: La Direction générale des entreprises (DGE) et plus particulièrement le pôle d’expertise de la régulation du numérique (PEReN) contribue d’ores et déjà dans le cadre de son suivi des magasins d’applications mobiles, ce qui a permis de développer de nouvelles fonctionnalités comme le suivi des images et des documents au format PDF.
 
 Autorité de la concurrence  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+: Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
 
 ToSDR  
-L’association Terms of Service Didn’t Read (ToSDR) va transférer ses moyens de suivi vers
+: L’association Terms of Service Didn’t Read (ToSDR) va transférer ses moyens de suivi vers
 notre outil et contribuer ainsi les documents dont elle dispose. Actuellement, 51 fournisseurs de service en ligne et 137 documents associés sont suivis. Les contributions de ToSDR laissent espérer une multiplication par dix du nombre de documents suivis.
 
 {% include ctabloc.html %}
