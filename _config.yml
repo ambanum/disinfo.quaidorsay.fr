@@ -30,7 +30,7 @@ exclude:
   - vendor
 
 kramdown:
-  toc_levels: 2..4
+  toc_levels: 2..5
 
 plugins:
   - jekyll-redirect-from

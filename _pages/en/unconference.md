@@ -10,6 +10,8 @@ navbar_items:
 
 # June 2019 Unconference
 
+{% include breadcrumb.html %}
+
 ### Two days at the edge of the fight against information manipulation
 
 ## Summary

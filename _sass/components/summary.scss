@@ -1,0 +1,15 @@
+.summary {
+	background-color: $color-g100;
+	padding: 24px;
+	margin-top: 24px;
+
+	h3 {
+		margin-top: 0;
+	}
+}
+
+#markdown-toc {
+	li::marker {
+		color: $color-g600;
+	}
+}

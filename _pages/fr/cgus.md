@@ -13,9 +13,6 @@ navbar_items:
 {% include breadcrumb.html %}
 
 ## Les services en ligne ont des conditions générales qui évoluent dans le temps. CGUs permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions générales en étant notifiée à chaque publication d'une nouvelle version, et en explorant leur historique.
-{: .no_toc }
-
-{% include table-of-contents.md %}
 
 ### Contexte et enjeux
 

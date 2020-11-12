@@ -11,6 +11,7 @@ navbar_items:
 
 # Google Transparency Report Assessment
 
+{% include breadcrumb.html %}
 
 In August 2018, Google [added a new section](https://www.blog.google/technology/ads/introducing-new-transparency-report-political-ads/) about political advertising to its Transparency Report. Initially covering the USA, this section was expanded to the European Union [May, 2nd 2019](https://www.blog.google/around-the-globe/google-europe/eu-political-advertising-transparency-report-2019/).
 

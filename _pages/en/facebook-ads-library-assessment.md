@@ -12,6 +12,8 @@ navbar_items:
 # Facebook Ads Library Assessment
 {: .no-toc}
 
+{% include breadcrumb.html %}
+
 Facebook pledges to provide public API access for seven years to political and issue-based ads. This document presents the difficulties and limitations in using this otherwise powerful tool.
 
 {% include table-of-contents.md %}

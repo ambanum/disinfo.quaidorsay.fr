@@ -10,6 +10,8 @@ navbar_items:
 
 # Major social media political ads policies
 
+{% include breadcrumb.html %}
+
 Here is a 10.000 feet overview of the major social media policies regarding political advertising.
 
 {% include table-of-contents.md %}
