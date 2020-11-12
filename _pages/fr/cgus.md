@@ -16,19 +16,13 @@ navbar_items:
 
 ### Contexte et enjeux
 
-Tout service numérique dispose de conditions générales d’utilisation. Ces conditions sont définies
-dans un ensemble de documents contractuels qui régissent les modalités d’interaction entre le
-fournisseur du service et ses utilisateurs. Les aspects spécifiés peuvent être les politiques de
-modération des contenus, la responsabilité de l'éditeur ou encore la juridiction compétente en cas de litige.
+Tout service numérique dispose de conditions générales d’utilisation. Ces conditions sont définies dans un ensemble de documents contractuels qui régissent les modalités d’interaction entre le fournisseur du service et ses utilisateurs. Les aspects spécifiés peuvent être les politiques de modération des contenus, la responsabilité de l'éditeur ou encore la juridiction compétente en cas de litige.
 
-En matière de manipulation de l'information, les pratiques décrites dans les conditions permettent de
-mieux appréhender les vulnérabilités de ces acteurs. Par ailleurs, la transcription, dans ces conditions, des contraintes législatives, des recommandations des pouvoir publics ou encore des mesures volontaires visant à lutter contre les manipulations de l’information permet d’apprécier leur loyauté.
+En matière de manipulation de l'information, les pratiques décrites dans les conditions permettent de mieux appréhender les vulnérabilités de ces acteurs. Par ailleurs, la transcription, dans ces conditions, des contraintes législatives, des recommandations des pouvoir publics ou encore des mesures volontaires visant à lutter contre les manipulations de l’information permet d’apprécier leur loyauté.
 
-Ces constats démontrent l’importance du suivi des engagements des plateformes et des règles de
-comportement qu'elles édictent en matière de lutte contre les manipulations de l’information, afin de définir des politiques publiques appropriées, d'en mesurer l'impact mais également de préfigurer une régulation de la fonction de modération des plateformes au regard de leurs conditions d’utilisation.
+Ces constats démontrent l’importance du suivi des engagements des plateformes et des règles de comportement qu'elles édictent en matière de lutte contre les manipulations de l’information, afin de définir des politiques publiques appropriées, d'en mesurer l'impact mais également de préfigurer une régulation de la fonction de modération des plateformes au regard de leurs conditions d’utilisation.
 
-Ainsi, l’outil développé permet de suivre les évolutions des conditions générales des principaux
-fournisseurs de services en ligne en :
+Ainsi, l’outil développé permet de suivre les évolutions des conditions générales des principaux fournisseurs de services en ligne en :
 - recevant des notifications en temps réel de chaque publication d'une nouvelle version des
 documents ; 
 - affichant spécifiquement les changements appliqués aux documents ;
@@ -36,11 +30,8 @@ documents ;
 
 ### Études de cas
 
-Google a modifié les conditions de validation des applications mobiles publiées sur son Play
-Store le 12 août 2020 afin d’interdire les apps qui laissent supposer à tort être une
-application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité.
-Cette nouvelle version des conditions interdit également les apps de développeurs qui
-témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures
+Google a modifié les conditions de validation des applications mobiles publiées sur son Play Store le 12 août 2020 afin d’interdire les apps qui laissent supposer à tort être une
+application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité. Cette nouvelle version des conditions interdit également les apps de développeurs qui témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures
 ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l’information.
 
 ![](../../assets/img/cgus/google-case-studie.png)
@@ -48,10 +39,7 @@ ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l�
 Google AdSense a modifié sa politique d’utilisation le 03 septembre 2020 afin d’y inclure
 une mention relative aux pratiques trompeuses coordonnées. Celle-ci prohibe les pratiques
 visant à se coordonner avec d’autres sites ou comptes en dissimulant ou déformant des
-informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux
-ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou
-d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien tout en altérant ou
-en dissimulant des informations relatives à son pays d’origine.
+informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien tout en altérant ou en dissimulant des informations relatives à son pays d’origine.
 
 ![](../../assets/img/cgus/cguis-google-adsence.png)
 
@@ -77,20 +65,13 @@ Note: Actuellement, nous ne suivons que les conditions rédigées en anglais et 
 L’outil est construit sous la forme d’un logiciel libre et collaboratif, ce qui signifie que toute entité peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.
 
 Direction Générale des Entreprises  
-La Direction générale des entreprises (DGE) et plus particulièrement le pôle d’expertise de la
-régulation du numérique (PEReN) contribue d’ores et déjà dans le cadre de son suivi des
-magasins d’applications mobiles, ce qui a permis de développer de nouvelles fonctionnalités
-comme le suivi des images et des documents au format PDF.
+La Direction générale des entreprises (DGE) et plus particulièrement le pôle d’expertise de la régulation du numérique (PEReN) contribue d’ores et déjà dans le cadre de son suivi des magasins d’applications mobiles, ce qui a permis de développer de nouvelles fonctionnalités comme le suivi des images et des documents au format PDF.
 
 Autorité de la concurrence  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
 
 ToSDR  
 L’association Terms of Service Didn’t Read (ToSDR) va transférer ses moyens de suivi vers
-notre outil et contribuer ainsi les documents dont elle dispose. Actuellement, 51 fournisseurs
-de service en ligne et 137 documents associés sont suivis. Les contributions de ToSDR
-laissent espérer une multiplication par dix du nombre de documents suivis.
+notre outil et contribuer ainsi les documents dont elle dispose. Actuellement, 51 fournisseurs de service en ligne et 137 documents associés sont suivis. Les contributions de ToSDR laissent espérer une multiplication par dix du nombre de documents suivis.
 
-## Aidez nous à améliorer CGU’s
-
-N’hésitez pas à nous contacter afin de soumettre des fournisseurs de services ou documents que vous souhaiteriez suivre (pour rappel, vous pouvez également ajouter des documents en toute autonomie), pour suggérer des modalités de valorisation des études de cas qui pourraient être menées ou pour transmettre toute question quand à l’utilisation de l’outil.
+{% include ctabloc.html %}
