@@ -1,0 +1,11 @@
+<nav class="breadcrumb">
+	<ol class="breadcrumb_items" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li class="breadcrumb_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">	
+			<a class="breadcrumb_item_link" href="{{ site.url | append: "/" | append: page.lang }}" itemprop="item">{{ site.data.translations.global.breadcrumb.home-link-label[page.lang] }}</a>
+			<div class="breadcrumb_item_icon icon icon_smallarrowleft"><svg><use xlink:href="#smallarrowleft"></use></svg></div>
+		</li>
+		<li class="breadcrumb_item breadcrumb_item-iscurrent" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			{{ page.title }}
+		</li>
+	</ol>
+</nav>

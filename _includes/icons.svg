@@ -11,4 +11,7 @@
 	<symbol id="arrowright" viewBox="0 0 24 28">
 		<path fill-rule="evenodd" clip-rule="evenodd" d="M14.586 9.707H0V7.707H14.586L8.293 1.414L9.707 0L18.414 8.707L9.707 17.414L8.293 16L14.586 9.707Z" />
 	</symbol>
+	<symbol id="smallarrowleft" viewBox="0 0 11 18">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M2.828 8.707L10.121 16L8.707 17.414L0 8.707L8.707 0L10.121 1.414L2.828 8.707Z" />
+	</symbol>
 </svg>

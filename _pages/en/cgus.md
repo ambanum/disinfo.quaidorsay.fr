@@ -9,3 +9,5 @@ navbar_items:
 ---
 
 # CGU EN
+
+{% include breadcrumb.html %}

@@ -1,3 +1,7 @@
 tableofcontent:
   fr: Sommaire
   en: Table of contents 
+breadcrumb:
+  home-link-label:
+    fr: Accueil
+    en: Home
