@@ -1,44 +1,44 @@
 title:
   fr: *Fake news, infox, désinformation*… 
-  en: *Fake news, infox, désinformation*… EN
+  en: *Fake news, misinformation, disinformation*… EN
 subtitle:
-  fr: Ce sujet est rendu complexe par de nombreux termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information.</strong>
-  en: Le sujet est rendu complexe par l'emploi de nombreux termes qui décrivent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information.</strong>
+  fr: Ce sujet est rendu complexe par de nombreux termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information</strong>.
+  en: The topic is riddled with words covering different realities. We prefer the more generic term <strong>information manipulation</strong>.
 items:
   - item:
     image-src: ../../assets/img/casestudies/cambrige.jpg
     image-alt:
       fr: Cambridge Analytica et l’élection présidentielle américaine de 2016
-      en: Scandale Cambridge Analytica EN
+      en: Scandale Cambridge Analytica 
     title:
       fr: Cambridge Analytica et l’élection présidentielle américaine de 2016
-      en: Scandale Cambridge Analytica EN
+      en: Cambridge Analytica and the U.S. presidential elections of 2016
     desc:
-      fr: En 2016, l'entreprise Cambridge Analytica a mené une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise a récupéré les données personnelles de 87 millions de citoyens Américains *via* une application tierce, en se faisant passer pour une équipe de chercheurs. Cette campagne médiatique ciblait les *swing states* et des sélectionnés sur la base de leurs données personnelles, chacun avait accès à un message légèrement différent.
-      en: L’entreprise Cambridge Analytica récupère les données personnelles de 87 millions de personnes en se faisant passer pour une équipe de chercheurs, et mène une campagne micro-ciblée sur Facebook pour le candidat Trump, où chaque personne peut voir un message légèrement différent. En parallèle, près de 100 000 dollars de publicité ciblée ont été achetés depuis la Russie, et des milliers de bots et de faux comptes amplifient de fausses informations.
+      fr: En 2016, l'entreprise Cambridge Analytica mène une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains *via* une application tierce et mène une campagne ciblée dans les *swing states* à l’encontre d’individus sélectionnés sur la base de leurs données personnelles.
+      en: In 2016, Cambridge Analytica has been hired by the Trump candidate’s team to conduct a micro-targeted campaign on Facebook. The company is recovering the personal data of 87 million people via a third party application, and is running a targeted campaign in the *swing states* against individuals selected on the basis of their personal data.
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
-      en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
+      en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
     link-label:
       fr: Lire l'étude de cas
-      en: Read case studie
+      en: Read the case study
   - item:
     image-src: ../../assets/img/casestudies/rohingya.jpg
     image-alt:
       fr: L'incitation à la haine envers les Rohingyas au Myanmar
-      en: The Rohingya Crisis EN
+      en: The Rohingya Crisis 
     title:
       fr: L'incitation à la haine envers les Rohingyas au Myanmar
-      en: The Rohingya Crisis EN
+      en: Incitement to hatred towards the Rohingya in Myanmar
     desc:
       fr: Pendant la crise des Rohingyas au Myanmar, Facebook a revelé que la junte militaire utilisait des centaines de faux comptes sur son réseau social pour inciter à la haine envers les Rohingyas et justifier leur migration forcée.
-      en: La junte militaire mène des campagnes coordonnées de manipulation des informations en utilisant des centaines de faux comptes Facebook pour inciter à la haine envers les Rohingyas et justifier ainsi leur migration forcée.
-    link-href:
+      en: During the Rohingya crisis in Myanmar, Facebook reveals that the military junta is conducting coordinated information manipulation campaigns using hundreds of fake accounts to incite hatred towards the Rohingyas and thus justify their forced migration.
+   link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
-      en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
+      en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
     link-label:
       fr: Lire l'étude de cas
-      en: Read case studie
+      en: Read the case study
   - item:
     image-src: ../../assets/img/casestudies/rohingya.jpg
     image-alt:
@@ -46,20 +46,21 @@ items:
       en: Casque blancs en Syrie EN
     title:
       fr: Les casques blancs en Syrie 
-      en: Casque blancs en Syrie EN
+      en: Casque blancs en Syrie
     desc:
       fr: 
-      en: Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet.
+      en: 
     link-href:
       fr: ?
       en: ?
     link-label:
       fr: Lire l'étude de cas
-      en: Read case studie
+      en: Read the case study
 items-context:
   fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir d'autres études de cas</a>
-  en: ENbulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Read more studie cases</a>
+  en: ENbulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">Discove more case studies</a>
 desc:
   fr: Les manipulations de l’information peuvent s'avérer très différentes, à la fois dans les origines (étatiques ou non), les canaux utilisés (médias, réseaux sociaux) ou encore les objectifs poursuivis (exacerber des tensions préexistantes, saper la confiance dans les institutions, altérer la sincérité du scrutin). 
       Elles visent néanmoins souvent à fragiliser notre cohésion sociale et nos processus électoraux.
-  en: "Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations, voire même des groupes informels d’individus. Elles visent à fragiliser notre cohésion sociale et nos processus démocratiques EN."
+  en: Information manipulation can be orchestrated by a variety of sources (state or non-state actors), can be spread through several channels (media, social media) or can support a wide variety of goals (exacerbating pre-existing tensions, dividing society, undermining confidence in institutions, elections integrity).
+      Information manipulation often aims at disrupting the social cohesion and electoral processes.
