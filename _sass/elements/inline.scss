@@ -1,6 +1,6 @@
 .chapo {
 	font-size: 2.4rem;
-	line-height: 30px;
+	line-height: 1.5;
 	color: $color-g700;
 
 	@include responsiveMaxWidth($bpTabletSmall) {
