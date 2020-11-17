@@ -1,4 +1,5 @@
 title:
+<<<<<<< HEAD
   fr: Ces manipulations exploitent des vulnérabilités.
   en: These manipulations exploit vulnerabilities.
 subtitle:
@@ -19,6 +20,28 @@ items:
     desc:
       fr: Créer de faux sondages en ligne ou manipuler des sondages en ligne existants permet de générer de fausses mesures d’engagement et ainsi de manipuler la perception d’une question donnée.
       en: Creating fake online polls or manipulating existing online polls can generate false engagement metrics and thus manipulate the perception of a given issue.
+=======
+  fr: Les manipulations de l'information exploitent des vulnérabilités.
+  en: Ces manipulations exploitent des vulnaribilités EN
+subtitle:
+  fr: La manière dont l’information est présentée ou diffusée, notamment sur les réseaux sociaux, peuvent constituer des <strong>vulnérabilités</strong>  susceptibles d’être exploitées par des acteurs malveillants pour manipuler les utilisateurs et l’opinion.
+  en: Nous croyons que de telles campagnes sont rendues possibles par <strong>l’exploitation de vulnérabilités</strong> propre aux systèmes d'informations et dans la manière dont l’information est présentée. EN
+items:
+  - item:
+    title:
+      fr: Créer de faux profils, pages ou groupes sur les médias sociaux
+      en: Créer de faux profils de médias sociaux EN
+    desc:
+      fr: La création de faux profils d'utilisateurs, de pages ou de groupes permet de tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et d'amplifier l'adoption de celui-ci.
+      en: En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.
+  - item:
+    title:
+      fr: Créer de faux sondages ou manipuler des sondages en ligne 
+      en: Manipuler les sondages en ligne EN
+    desc:
+      fr: La création de faux sondages et la manipulation de sondages existants permet de générer de fausses mesures d’engagement et ainsi manipuler la perception d’un sujet.
+      en: Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée. EN
+>>>>>>> origin/SiegridHenry-patch-3
   - item:
     title:
       fr: Préremplir des vides de données
@@ -52,4 +75,8 @@ items-context:
   en: ?? <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">See more</a>
 desc:
   fr: L’économie de l’attention permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances pour créer artificiellement de l’« engagement ». Or, l'engagement est une mesure de visibilité trop souvent considérée à tort pour déterminer la crédibilité ou l'importance d'une information.
+<<<<<<< HEAD
   en: The attention economy allows bad actors to gain money and views by publishing content that exploits our biases and tendencies and to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring credibility or importance.
+=======
+  en: L’économie de l’attention permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances pour créer artificiellement de l’« engagement ». Or, l'engagement est une mesure de visibilité trop souvent considérée à tort pour déterminer la crédibilité ou l'importance d'une information. EN
+>>>>>>> origin/SiegridHenry-patch-3
