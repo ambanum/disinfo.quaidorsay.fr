@@ -9,7 +9,7 @@ items:
     icon: influence
     title:
       fr: Influencer
-      en: Influence EN
+      en: Influence
     desc:
       fr: Nous voulons faire émerger des espaces d’échanges qui permettent la liberté d’expression et favorisent la publication et le partage d’informations de qualité représentant la pluralité des opinions dans le respect mutuel, en réduisant les vulnérabilités aux manipulations de l’information.
           Pour atteindre cet objectif, nous influençons la gouvernance internationale vers une réglementation européenne proportionnée et efficace et menons également un dialogue stratégique avec les principaux acteurs numériques, y compris les opérateurs de réseaux sociaux.
@@ -19,12 +19,12 @@ items:
     icon: federate
     title:
       fr: Fédérer
-      en: Federate EN
+      en: Federate
     desc:
-      fr: Nous faisons collaborer les acteurs pertinent impliqués dans la lutte contre les manipulations de l'informations : ONG, acteurs publics, chercheurs, opérateurs de réseaux sociaux...
-          Nous représentons également la France au sein des différentes instances européennes et internationales.
-      en: We connect and promote relevant actors countering information manipulation: NGOs, public actors, researchers, social media platforms...
-          We also represent France in the various European and international forums.
+      fr: "Nous faisons collaborer les acteurs pertinent impliqués dans la lutte contre les manipulations de l'informations : ONG, acteurs publics, chercheurs, opérateurs de réseaux sociaux...
+          Nous représentons également la France au sein des différentes instances européennes et internationales."
+      en: "We connect and promote relevant actors countering information manipulation: NGOs, public actors, researchers, social media platforms...
+          We also represent France in the various European and international forums."
   - item:
     icon: tool
     title:
