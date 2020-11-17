@@ -7,9 +7,6 @@ subtitle:
 items:
   - item:
     image-src: ../../assets/img/casestudies/cambrige.jpg
-    image-alt:
-      fr: Cambridge Analytica et l’élection présidentielle américaine de 2016
-      en: Scandale Cambridge Analytica 
     title:
       fr: Cambridge Analytica et l’élection présidentielle américaine de 2016
       en: Cambridge Analytica and the U.S. presidential elections of 2016
@@ -24,9 +21,6 @@ items:
       en: Read the case study
   - item:
     image-src: ../../assets/img/casestudies/rohingya.jpg
-    image-alt:
-      fr: L'incitation à la haine envers les Rohingyas au Myanmar
-      en: The Rohingya Crisis 
     title:
       fr: L'incitation à la haine envers les Rohingyas au Myanmar
       en: Incitement to hatred towards the Rohingya in Myanmar
@@ -41,9 +35,6 @@ items:
       en: Read the case study
   - item:
     image-src: ../../assets/img/casestudies/rohingya.jpg
-    image-alt:
-      fr: Les casques blancs en Syrie
-      en: Casque blancs en Syrie
     title:
       fr: Les casques blancs en Syrie 
       en: Casque blancs en Syrie
