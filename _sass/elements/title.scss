@@ -29,3 +29,7 @@ h4 {
 	color: $color-g800;
 	line-height: 1.375
 }
+
+.h4-light{
+	@extend .font-marianne;
+}
