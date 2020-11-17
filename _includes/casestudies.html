@@ -7,7 +7,7 @@
 		<div class="casestudies_items">
 			{% for item in site.data.translations.casestudies.items %}
 				<article class="casestudies_item">
-					<img class="casestudies_item_img" src="{{ item.image-src }}" alt="{{ item.image-alt[page.lang] }}">
+					<img class="casestudies_item_img" src="{{ item.image-src }}" alt="">
 					<div class="casestudies_item_info">
 						<h3 class="casestudies_item_title">{{ item.title[page.lang] }}</h3>
 						<p class="casestudies_item_desc">{{ item.desc[page.lang] }}</p>
