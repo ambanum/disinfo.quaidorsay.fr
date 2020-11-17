@@ -1,6 +1,6 @@
 title:
-  fr: *Fake news, infox, désinformation*… 
-  en: *Fake news, misinformation, disinformation*… EN
+  fr: Fake news, infox, désinformation… 
+  en: Fake news, misinformation, disinformation…
 subtitle:
   fr: Ce sujet est rendu complexe par de nombreux termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information</strong>.
   en: The topic is riddled with words covering different realities. We prefer the more generic term <strong>information manipulation</strong>.
@@ -14,8 +14,8 @@ items:
       fr: Cambridge Analytica et l’élection présidentielle américaine de 2016
       en: Cambridge Analytica and the U.S. presidential elections of 2016
     desc:
-      fr: En 2016, l'entreprise Cambridge Analytica mène une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains *via* une application tierce et mène une campagne ciblée dans les *swing states* à l’encontre d’individus sélectionnés sur la base de leurs données personnelles.
-      en: In 2016, Cambridge Analytica has been hired by the Trump candidate’s team to conduct a micro-targeted campaign on Facebook. The company is recovering the personal data of 87 million people via a third party application, and is running a targeted campaign in the *swing states* against individuals selected on the basis of their personal data.
+      fr: En 2016, l'entreprise Cambridge Analytica mène une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains via une application tierce et mène une campagne ciblée dans les swing states à l’encontre d’individus sélectionnés sur la base de leurs données personnelles.
+      en: In 2016, Cambridge Analytica has been hired by the Trump candidate’s team to conduct a micro-targeted campaign on Facebook. The company is recovering the personal data of 87 million people via a third party application, and is running a targeted campaign in the swing states against individuals selected on the basis of their personal data.
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
@@ -33,7 +33,7 @@ items:
     desc:
       fr: Pendant la crise des Rohingyas au Myanmar, Facebook a revelé que la junte militaire utilisait des centaines de faux comptes sur son réseau social pour inciter à la haine envers les Rohingyas et justifier leur migration forcée.
       en: During the Rohingya crisis in Myanmar, Facebook reveals that the military junta is conducting coordinated information manipulation campaigns using hundreds of fake accounts to incite hatred towards the Rohingyas and thus justify their forced migration.
-   link-href:
+    link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
     link-label:
@@ -43,7 +43,7 @@ items:
     image-src: ../../assets/img/casestudies/rohingya.jpg
     image-alt:
       fr: Les casques blancs en Syrie
-      en: Casque blancs en Syrie EN
+      en: Casque blancs en Syrie
     title:
       fr: Les casques blancs en Syrie 
       en: Casque blancs en Syrie
@@ -51,8 +51,8 @@ items:
       fr: 
       en: 
     link-href:
-      fr: ?
-      en: ?
+      fr:
+      en:
     link-label:
       fr: Lire l'étude de cas
       en: Read the case study
