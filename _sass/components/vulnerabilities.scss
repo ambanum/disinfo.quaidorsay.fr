@@ -48,7 +48,7 @@
 	display: flex;
 	flex-direction: column;
 	background-color: $color-white;
-	border-bottom: 4px solid $color-blue;
+	border-bottom: 4px solid $color-green-soft;
 
 	@include responsiveMaxWidth($bpTablet) {
 		padding: 32px 24px 24px 24px;
