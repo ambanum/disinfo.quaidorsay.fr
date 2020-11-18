@@ -8,7 +8,7 @@ items:
   - item:
     image-src: ../../assets/img/casestudies/cambrige.jpg
     title:
-      fr: Cambridge Analytica et l’élection présidentielle américaine
+      fr: Influence sur l’élection présidentielle américaine
       en: Cambridge Analytica and the U.S. presidential elections
     desc:
       fr: L'entreprise Cambridge Analytica mène, en 2016, une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains via une application tierce. Elle cible des électeurs indécis, sélectionnés sur la base de leurs données personnelles, afin d'orienter leur vote.
@@ -17,38 +17,38 @@ items:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
     link-label:
-      fr: Lire l'étude de cas
+      fr: Lire notre étude de cas
       en: Read the case study
   - item:
     image-src: ../../assets/img/casestudies/rohingya.jpg
     title:
-      fr: L'incitation à la haine envers les Rohingyas au Myanmar
+      fr: Incitation à la haine envers les Rohingyas au Myanmar
       en: Incitement to hatred towards the Rohingya in Myanmar
     desc:
-      fr: En 2018, Facebook revèle que des centaines de faux comptes sont utilisés par la junte militaire au Myanmar pour inciter à la haine envers les Rohingyas et justifier leur migration forcée.
+      fr: En 2018, Facebook révèle que des centaines de faux comptes populaires sont utilisés par la junte militaire au Myanmar pour partager et relayer du contenu incitant à la haine envers les Rohingyas et justifier leur migration forcée.
       en: During the Rohingya crisis in Myanmar, Facebook reveals that the military junta is conducting coordinated information manipulation campaigns using hundreds of fake accounts to incite hatred towards the Rohingyas and thus justify their forced migration.
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
     link-label:
-      fr: Lire l'étude de cas
+      fr: Lire notre étude de cas
       en: Read the case study
   - item:
     image-src: ../../assets/img/casestudies/casqueblancs.jpg
     title:
-      fr: Les casques blancs en Syrie 
+      fr: Troubles dans le conflict syrien
       en: Casque blancs en Syrie
     desc:
-      fr: 
+      fr: "Le centre russe pour la réconciliation des parties en conflit en Syrie affirme en mars 2019 que la France et la Belgique sont impliquées, conjointement avec les casque blancs, dans l'organisation de vidéos mettant en scène l'utilisation de substances toxiques par la Russie et la Syrie contre la population civile. Une fausse information relayée par Sputnik News pour brouiller les pistes sur l'implication des différents acteurs dans ce conflit."
       en: 
     link-href:
-      fr:
-      en:
+      fr: https://www.lemonde.fr/les-decodeurs/article/2018/08/31/attaques-chimiques-en-syrie-les-intox-de-la-russie-pour-brouiller-les-pistes_5348708_4355770.html
+      en: https://www.lemonde.fr/les-decodeurs/article/2018/08/31/attaques-chimiques-en-syrie-les-intox-de-la-russie-pour-brouiller-les-pistes_5348708_4355770.html
     link-label:
-      fr: Lire l'étude de cas
+      fr: En savoir plus
       en: Read the case study
 items-context:
-  fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir d'autres études de cas</a>
+  fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir nos autres études de cas.</a>
   en: ENbulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">Discove more case studies</a>
 desc:
   fr: "Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations ou encore des groupes d’individus. Elles visent souvent à fragiliser <strong>notre cohésion sociale</strong> et <strong>nos processus démocratiques.</strong>"

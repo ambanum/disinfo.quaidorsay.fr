@@ -2,7 +2,7 @@ title:
   fr: Ces manipulations exploitent des vulnérabilités.
   en: These manipulations exploit vulnerabilities.
 subtitle:
-  fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler des utilisateurs et l'opinion.
+  fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de ces vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler des utilisateurs et l'opinion.
   en: We believe that such campaigns are made possible by the <strong> exploitation of vulnerabilities <strong> in the way information is presented.
 items:
   - item:
@@ -10,7 +10,7 @@ items:
       fr: Faux profils
       en: Créer de faux profils de médias sociaux
     desc:
-      fr: Créer des faux profils, pages ou groupes sur les médias sociaux pour tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et d'amplifier l'adoption de celui-ci.
+      fr: Créer des faux profils, pages ou groupes sur les médias sociaux pour tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et amplifier l'adoption de celui-ci.
       en: En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.
   - item:
     title:
@@ -24,7 +24,7 @@ items:
       fr: Vides de données
       en: Data voids prefilling
     desc:
-      fr: Combler l'absence de source de haute qualité et faisant authorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
+      fr: Combler l'absence de sources de haute qualité et faisant autorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
       en: 
   - item:
     title:
@@ -35,7 +35,7 @@ items:
       en: Using paid targeted ads makes it possible to disseminate messages by targeting specific users on the basis of their personal data.
   - item:
     title:
-      fr: Amplifications artificielles
+      fr: Profils automatisés
       en: Use bots on social media to amplify content
     desc:
       fr: "Utiliser des profils automatisés, fonctionnant en réseau, de manière coordonnée et orchestrée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
@@ -45,11 +45,11 @@ items:
       fr: Faux sites d'informations
       en: Create fake or imposter news sites
     desc:
-      fr: Créer des faux site d'informations, reprenant les marques d'authenticité de médias connus pour tromper le lecteur. 
+      fr: Créer des faux sites d'informations, reprenant les marques d'authenticité de médias connus pour tromper le lecteur. 
       en: Fake news sites can be used to share information while misleading users. These sites often have some superficial markers of authenticity, such as naming and site-design.
 items-context:
-  fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>
+  fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>.
   en: <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">See more</a>
 desc:
-  fr: "L’économie de l’attention favorise la publication de contenu qui <strong>exploite nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement ». Ce dernier est trop souvent utilisé à tort comme mesure de visibilité pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
+  fr: "L’économie de l’attention favorise la publication de contenu qui <strong>exploite nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », trop souvent utilisé à tort comme mesure de visibilité pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
   en: "L’économie de l’attention permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances pour créer artificiellement de l’« engagement ». Or, l'engagement est une mesure de visibilité trop souvent considérée à tort pour déterminer la crédibilité ou l'importance d'une information."
