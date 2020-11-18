@@ -3,8 +3,8 @@ permalink: /en/social-media-ads
 title: Major social media political ads policies
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
-  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
   - <a href="/en/#our-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
 ---
 
 # Major social media political ads policies

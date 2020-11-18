@@ -4,8 +4,8 @@ title: Google Transparency Report Assessment
 numbered_headers: true
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
-  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
   - <a href="/en/#our-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
 ---
 
 # Google Transparency Report Assessment
