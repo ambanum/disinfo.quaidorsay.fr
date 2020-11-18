@@ -2,17 +2,17 @@ title:
   fr: Fake news, infox, désinformation… 
   en: Fake news, misinformation, disinformation…
 subtitle:
-  fr: Ce sujet est rendu complexe par des termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information</strong>.
+  fr: Ce sujet est rendu complexe par de nombreux termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information</strong>.
   en: The topic is riddled with words covering different realities. We prefer the more generic term <strong>information manipulation</strong>.
 items:
   - item:
     image-src: ../../assets/img/casestudies/cambrige.jpg
     title:
       fr: Scandale Cambridge Analytica et l'élection présidentielle américaine
-      en: Cambridge Analytica and the U.S. presidential elections
+      en: Cambridge Analytica Scandal and the U.S. presidential elections
     desc:
       fr: L'entreprise Cambridge Analytica mène, en 2016, une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains via une application tierce. Elle cible des électeurs indécis, sélectionnés sur la base de leurs données personnelles, afin d'orienter leur vote.
-      en: Cambridge Analytica has been hired by the Trump candidate’s team to conduct a micro-targeted campaign on Facebook. The company is recovering the personal data of 87 million people via a third party application, and is running a targeted campaign in the swing states against individuals selected on the basis of their personal data.
+      en: In 2016, Cambridge Analytica has been hired by the Trump candidate’s team to conduct a micro-targeted campaign on Facebook. The company is recovering the personal data of 87 million people via a third party application, and is running a targeted campaign against undecided voters selected on the basis of their personal data in order to influence their vote.
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
@@ -26,7 +26,7 @@ items:
       en: Incitement to hatred towards the Rohingya in Myanmar
     desc:
       fr: En 2018, Facebook révèle que des centaines de faux comptes populaires sont utilisés par la junte militaire au Myanmar pour partager et relayer du contenu incitant à la haine envers les Rohingyas et justifier leur migration forcée.
-      en: During the Rohingya crisis in Myanmar, Facebook reveals that the military junta is conducting coordinated information manipulation campaigns using hundreds of fake accounts to incite hatred towards the Rohingyas and thus justify their forced migration.
+      en: In 2018, during the Rohingya crisis in Myanmar, Facebook reveals that the military junta is conducting coordinated information manipulation campaigns using hundreds of fake accounts to incite hatred towards the Rohingyas and thus justify their forced migration.
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
@@ -37,10 +37,10 @@ items:
     image-src: ../../assets/img/casestudies/notre-dame.jpg
     title:
       fr: Incendie de la cathédrale de Notre-Dame de Paris 
-      en: Casque blancs en Syrie
+      en: The Notre-Dame de Paris fire 
     desc:
-      fr: "La propagation de l’information de l’incendie de la cathédrale de Notre-Dame de Paris en avril 2019 a fait l’objet de plusieurs manipulations. Un narratif terroriste est développé aux Etats-Unis. En parallèle, les sources pro-Kremlin lient la décadence de la cathédrale à celle des valeurs européennes tandis qu'en Europe occidentale, l’accent est mis sur les clivages sociétaux et religieux préexistants."
-      en: 
+      fr: "La propagation de l’information de l’incendie de la cathédrale de Notre-Dame de Paris d'avril 2019 a fait l’objet de plusieurs manipulations. Un narratif terroriste est développé aux Etats-Unis, alors que les sources pro-Kremlin lient la décadence de la cathédrale à celle des valeurs européennes. En Europe centrale et occidentale, l’accent est mis sur les clivages sociétaux et religieux préexistants."
+      en: The spread of information from Notre-Dame de Paris fire in April 2019 has been subject to several manipulations. A terrorist narrative is developing in the United States. Pro-Kremlin sources is linking the decadence of the cathedral to European values while Western Europe is highlighting pre-existing societal and religious divides.
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/publications/
       en: https://disinfo.quaidorsay.fr/encyclopedia/publications/
@@ -48,9 +48,9 @@ items:
       fr: Lire l'étude de cas
       en: Read the case study
 items-context:
-  fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir d'autres études de cas.</a>
+  fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir les autres études de cas.</a>
   en: ENbulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">Discove more case studies</a>
 desc:
   fr: "Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations ou encore des groupes d’individus. Elles visent souvent à fragiliser <strong>notre cohésion sociale</strong> et <strong>nos processus démocratiques.</strong>"
-  en: Information manipulation can be orchestrated by a variety of sources (state or non-state actors), can be spread through several channels (media, social media) or can support a wide variety of goals (exacerbating pre-existing tensions, dividing society, undermining confidence in institutions, elections integrity).
-      Information manipulation often aims at disrupting the social cohesion and electoral processes.
+  en: Information manipulation can be orchestrated by a variety of sources: state or non-state actors, such as companies or organisations, or even informal groups of individuals but often aim at disrupting <strong>our social cohesion and democratic processes<strong>.
+      
