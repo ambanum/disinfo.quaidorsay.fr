@@ -39,7 +39,7 @@ items:
       en: Automated Profiles
     desc:
       fr: "Utiliser des profils automatisés, fonctionnant en réseau et de manière coordonnée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
-      en: "Automated profiles are designed to amplify content (ie: automatically share or like) and give appearance content is more « popular » than it is. They can operate as a network, to function in a coordinated manner."
+      en: "Automated profiles are designed to amplify content and give appearance content is more “popular” than it is. They can operate as a network, to function in a coordinated manner."
   - item:
     title:
       fr: Faux sites d'informations
@@ -49,7 +49,7 @@ items:
       en: Fake news sites can be used to share information while misleading users. These sites often have some superficial markers of authenticity, such as naming and site-design.
 items-context:
   fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>.
-  en: <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">See more</a>
+  en: Our approach is based on the <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">AMITT framework</a>.
 desc:
   fr: "L’économie de l’attention favorise la publication de contenus qui <strong>exploitent nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », une mesure de visibilité trop souvent utilisé à tort pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
-  en: The attention economy allows bad actors to gain money and views by publishing content that <strong>exploits our biases and tendencies<strong> to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring <strong>credibility or importance<strong>. 
+  en: The attention economy allows bad actors to gain money and views by publishing content that <strong>exploits our biases and tendencies</strong> to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring <strong>credibility or importance</strong>. 
