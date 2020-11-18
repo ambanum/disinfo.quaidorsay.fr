@@ -1,122 +1,19 @@
 ---
 layout: landing
 permalink: /fr
-title: Réduire les vulnérabilités<br /> aux manipulations de l'information.
-description: Le Bureau de l’ambassadeur pour le numérique construit des outils pour contrer les manipulations de l’information qui fragilisent notre cohésion sociale et nos processus électoraux.
-navbar_items: |
-  <a href="/political-ads" class="navbar-item">Publicités illégales</a>
-  <a href="/encyclopedia" class="navbar-item">Désencyclopédie</a>
-  <a href="/collaborate" class="navbar-item">Chat collaboratif</a>
-details: |
-  <h2 class="subtitle">La diplomatie numérique française au service<br /> d'espaces de débat en ligne loyaux envers les citoyennes et les citoyens.</h2>
+title: Réduire les vulnérabilités aux manipulations de l'information.
+htmlDescription: Le Bureau de l’ambassadeur pour le numérique construit des outils pour contrer les manipulations de l’information qui fragilisent notre cohésion sociale et nos processus électoraux.
+navbar_items:
+  - <a href="/" class="header_mainnav_link">Accueil</a>
+  - <a href="!SITE_URL!/fr/#nos-actions" class="header_mainnav_link">Nos actions</a>
+  - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>
+  - <a href="/fr/cgus" class="header_mainnav_link">CGUs</a>
 ---
 
-<section class="section ourVision">
-  <div class="container">
-    <h1 class="ourVision_title title">
-      <span class="thin">Internet nous rapproche.</span><br />
-      <span>Les manipulations de l'information nous éloignent.</span>
-    </h1>
-    <div class="columns is-vcentered">
-      <div class="column is-7">
-        <p><i>Fake news, infox, désinformation…</i> Ce sujet est rendu complexe par de nombreux termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information</strong>.</p>
-        <p>Les manipulations de l’information visent à <strong>fragiliser notre cohésion sociale et nos processus électoraux.</strong> Les ingérences étrangères documentées lors des élections présidentielles américaines de 2016 ont mis sur le devant de la scène les campagnes de manipulation de l’information de grande ampleur visant le grand public, notamment par le biais des réseaux sociaux. Nous croyons que de telles campagnes sont rendues possibles par l’exploitation de <strong>vulnérabilités</strong> dans la manière dont l’information est présentée</p>
-        <p>L’<strong>économie de l’attention</strong> permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances. Des techniques telles que le <i>détournement des algorithmes</i>, les <i>fermes à trolls</i> ou encore le <i>préremplissage des vides de données</i> permettent de créer artificiellement de l’« engagement », une mesure de visibilité trop souvent détournée pour déterminer la crédibilité ou l’importance. Nous voulons faire émerger des espaces d’échanges qui permettent la <strong>liberté d’expression</strong> et favorisent la publication et le partage d’<strong>informations de qualité</strong> représentant la <strong>pluralité des opinions</strong> dans le <strong>respect mutuel</strong>, en réduisant les vulnérabilités aux manipulations de l’information.</p>
-        <p>Au sein du bureau de l’Ambassadeur pour le numérique, notre équipe déploie les capacités de la diplomatie numérique pour faire exister un tel environnement. Nous construisons des outils ouverts, faisons collaborer les acteurs pertinents, et influençons la gouvernance internationale pour mettre en place une règlementation efficace et proportionnée.</p>
-      </div>
-      <div class="column has-text-centered-touch has-text-right-desktop">
-        <img class="ourVision_logo" src="/assets/img/logo.svg" alt="">
-      </div>
-    </div>
-  </div>
-</section>
+{% include hero.html %}
 
-<section class="section our-work">
-  <div class="container">
-    <h1 class="our-work-title title has-text-centered">
-      Les expériences que nous menons.
-    </h1>
-    <div class="columns">
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              Publicités <span class="thin">illégales</span>
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Déterminez la légalité des publicités politiques
-            </h4>
-            <p>
-              Une interface de crowdsourcing qui permet aux citoyens de voir des publicités sponsorisées sur Facebook et de faire ressortir les acteurs qui ne respectent pas la loi.
-              Actuellement uniquement disponible pour la France, notre code est libre et aimerions collaborer avec vous pour l'étendre à d'autres pays.
-              <br /><a href="mailto:matti.schneider@diplomatie.gouv.fr?subject=AdsLegality">Envoyez-nous un email !</a>
-            </p>
-          </div>
-          <a href="/political-ads" class="button is-white is-medium">
-            Classifier
-          </a>
-        </div>
-      </div>
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              <span class="thin">Dés</span><wbr>encyclopédie
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Améliorez vos pratiques et outils
-            </h4>
-            <p>
-              Une ressource ouverte et collaborative qui documente les meilleures pratiques, outils et acteurs, permettant à toutes les personnes qui luttent contre la manipulation de l'information d'améliorer la compétence de l'écosystème tout entier.
-            </p>
-          </div>
-          <a href="/encyclopedia" class="button is-white is-medium">
-            Explorer
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              Détection <span class="thin">de robots</span>
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Trouvez des clusters de robots sur Twitter
-            </h4>
-            <p>
-              Un crawler qui navigue dans les relations d’abonnement de Twitter pour identifier des groupes de comptes suspects à partir d’un compte donné. Il utilise l'API gratuite Twitter et peut donc être facilement déployé.<br/>
-              Basé sur une annotation manuelle de plus de 400&nbsp;comptes, nous avons également utilisé cet ensemble de données pour <a href="/encyclopedia/qualification/tools#reliability-assessment">évaluer la fiabilité</a> d’outils courants de détection de bots tels que Botometer.
-            </p>
-          </div>
-          <a href="/twitter-bot-clusters" class="button is-white is-medium">
-            Lire la méthodologie
-          </a>
-        </div>
-      </div>
-      <div class="column is-6 work-item-column">
-        <div class="work-item">
-          <div>
-            <h2 class="title is-spaced">
-              Chat <span class="thin">collaboratif</span>
-            </h2>
-            <h4 class="subtitle is-spaced">
-              Détectez, qualifiez et réagissez collaborativement aux campagnes de désinformation
-            </h4>
-            <p>
-              Un chat qui réunit les acteurs, soutient les bonnes pratiques identifiées dans notre encyclopédie et propose les meilleurs outils via des chatbots.<br />
-              Si vous lisez ceci, vous devriez probablement y être 😉 <a href="mailto:matti.schneider@diplomatie.gouv.fr?subject=CollaborationChat">Envoyez-nous un mail !</a>
-            </p>
-          </div>
-          <a href="/collaborate" class="button is-white is-medium">
-            Rejoindre
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include casestudies.html %}
 
-{% include footer_fr.html %}
+{% include vulnerabilities.html %}
+
+{% include actions.html %}

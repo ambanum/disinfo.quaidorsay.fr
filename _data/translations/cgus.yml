@@ -1,0 +1,13 @@
+ctabloc:
+  title:
+    fr: Aidez nous à améliorer CGUs
+    en: Aidez nous à améliorer CGUs
+  desc:
+    fr: N’hésitez pas à nous contacter afin de soumettre des fournisseurs de services ou documents que vous souhaiteriez suivre (pour rappel, vous pouvez également ajouter des documents en toute autonomie), pour suggérer des modalités de valorisation des études de cas qui pourraient être menées ou pour transmettre toute question quand à l’utilisation de l’outil.
+    en: N’hésitez pas à nous contacter afin de soumettre des fournisseurs de services ou documents que vous souhaiteriez suivre (pour rappel, vous pouvez également ajouter des documents en toute autonomie), pour suggérer des modalités de valorisation des études de cas qui pourraient être menées ou pour transmettre toute question quand à l’utilisation de l’outil.
+  button-label:
+    fr: Contribuer
+    en: Contribute
+  button-href:
+    fr: https://github.com/ambanum/CGUs
+    en: https://github.com/ambanum/CGUs

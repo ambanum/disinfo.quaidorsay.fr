@@ -1,0 +1,122 @@
+.casestudies {
+	@extend .sectioncontainer;
+}
+
+.casestudies_content {
+	@extend .sectioncontent;
+	padding-bottom: 128px;
+}
+
+.casestudies_intro {
+	@include grid(8, 9);
+	padding-left: $gridColWidth;
+
+	@include responsiveMaxWidth($bpTablet) {
+		max-width: 100%;
+		padding-left: $gridGutterWidth;
+	}
+}
+
+.casestudies_subtitle {
+	margin-top: 20px;
+}
+
+.casestudies_items {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: $gridGutterWidth;
+	margin-top: 48px;
+
+	@include responsiveMaxWidth($bpTablet) {
+		grid-gap: $gridGutterWidth / 2;
+		margin-top: 32px;
+	}
+
+	@include responsiveMaxWidth($bpTabletSmall) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@include responsiveMaxWidth($bpMobile) {
+		grid-template-columns: 1fr;
+	}
+}
+
+.casestudies_item {
+	display: flex;
+	flex-direction: column;
+	background-color: $color-blue-soft500;
+	position: relative;
+	overflow: hidden;
+
+	&:hover {
+		.casestudies_item_img {
+			transform: scale(1.05);
+		}
+	}
+}
+
+.casestudies_item_img {
+	object-fit: cover;
+	transform-origin: center bottom;
+	transition: transform 1.1s ease-out;
+}
+
+.casestudies_item_info {
+	padding: 48px 24px 24px 24px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+	@include responsiveMaxWidth($bpTablet) {
+		padding: 32px 24px 24px 24px;
+	}
+}
+
+.casestudies_item_title {
+	color: $color-white;
+}
+
+.casestudies_item_desc {
+	color: $color-white;
+	margin-top: 12px;
+}
+
+.casestudies_item_link {
+	margin-top: auto;
+	padding-top: 20px;
+	align-self: flex-end;
+
+	&:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.casestudies_itemsinfo {
+	text-align: right;
+	margin-top: 12px;
+
+	@include responsiveMaxWidth($bpTablet) {
+		@include grid(5, 4);
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.casestudies_desc {
+	@extend .text-lg;
+	@include grid(8, 9);
+	padding-top: 48px;
+	padding-left: $gridColWidth;
+
+	@include responsiveMaxWidth($bpTablet) {
+		max-width: 100%;
+		padding-left: $gridGutterWidth;
+	}
+}

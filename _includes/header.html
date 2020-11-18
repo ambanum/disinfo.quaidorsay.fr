@@ -1,0 +1,37 @@
+<header class="header">
+	<div class="header_content">
+		<div class="header_logo">
+			<a href="{{ site.url }}/{{ page.lang }}" class="header_logo_link">
+				{% include logo_drawings.svg %}
+				{% include logo_txt.svg %}
+			</a>
+		</div>
+		<div class="header_navs">
+			<nav class="header_mainnav">
+				<ul class="header_mainnav_items">
+					{% for navbar_item in page.navbar_items %}
+						<li class="header_mainnav_item">
+							{{ navbar_item | replace: '!SITE_URL!', site.url }}
+						</li>
+					{% endfor %}
+				</ul>
+			</nav>
+			<nav class="header_langnav">
+				<ul class="header_langnav_items">
+					<li class="header_langnav_item">
+						<a href="/fr" class="header_langnav_link">
+							<img class="header_langnav_flag" src="/assets/img/flags/fr.svg" alt="">
+							<span>Français</span>
+						</a>
+					</li>
+					<li class="header_langnav_item">
+						<a href="/en" class="header_langnav_link">
+							<img class="header_langnav_flag" src="/assets/img/flags/gb.svg" alt="">
+							<span>English</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>

@@ -1,0 +1,60 @@
+a {
+	color: $color-blue;
+	text-decoration: none;
+	transition: color 0.2s ease-in;
+
+	&:hover,
+	&:focus,
+	&:active {
+		transition: color 0.1s ease-out;
+		color: $color-error;
+	}
+}
+
+.link {
+	&-hasicon {
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+
+		.link_icon {
+			width: 19px;
+			height: 18px;
+			margin-left: 4px;
+			margin-top: 8px;
+		}
+
+		.link_icon {
+			transition: transform 0.2s ease-in;
+		}
+
+		&:hover {
+			.link_icon {
+				transform: translateX(4px);
+				transition: transform 0.3s ease-out;
+			}
+		}
+
+		.link_icon {
+			&>svg {
+				fill: $color-blue200;
+			}
+		}
+	}
+
+	&-haswhitebg {
+		color: $color-blue200;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color-blue200;
+
+			.link_icon {
+				&>svg {
+					fill: $color-blue200;
+				}
+			}
+		}
+	}
+}

@@ -1,10 +1,16 @@
 ---
 permalink: /en/twitter-ads-transparency-center-assessment
+title: Twitter Ads Transparency Center Assessment
 numbered_headers: true
+navbar_items:
+  - <a href="/" class="header_mainnav_link">Home</a>
+  - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
 ---
 
 # Twitter Ads Transparency Center Assessment
-{: .no-toc}
+
+{% include breadcrumb.html %}
 
 Twitter pledges to provide public access to political ads in its “[Ads Transparency Center](https://ads.twitter.com/transparency)”:
 

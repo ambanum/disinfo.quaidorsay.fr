@@ -1,0 +1,25 @@
+<footer class="footer">
+	<div class="footer_content">
+		<div class="footer_logo">
+			{% include logo_drawings.svg %}
+			{% include logo_txt.svg %}
+		</div>
+		<div class="footer_desc">{{ site.data.translations.footer.desc[page.lang] }}</div>
+		<nav class="footer_nav">
+			<ul class="footer_nav_items">
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-mail-href[page.lang] }}">{{ site.data.translations.footer.link-mail-label[page.lang] }}</a>
+				</li>
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-tracking-href[page.lang] }}">{{ site.data.translations.footer.link-tracking-label[page.lang] }}</a>
+				</li>
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-legal-href[page.lang] }}">{{ site.data.translations.footer.link-legal-label[page.lang] }}</a>
+				</li>
+				<li class="footer_nav_item">
+					<a class="footer_nav_link" href="{{ site.data.translations.footer.link-code-href[page.lang] }}">{{ site.data.translations.footer.link-code-label[page.lang] }}</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</footer>

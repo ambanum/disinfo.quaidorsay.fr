@@ -1,0 +1,18 @@
+<section class="actions" id="{{ site.data.translations.actions.anchor[page.lang] }}">
+	<div class="actions_content">
+		<h4 class="actions_title">{{ site.data.translations.actions.title[page.lang] }}</h4>
+		<div class="actions_items">
+			{% for item in site.data.translations.actions.items %}
+				<div class="actions_item">
+					<div class="actions_item_icon icon_{{ item.icon }}">
+						<svg>
+							<use xlink:href="#{{ item.icon }}"></use>
+						</svg>
+					</div>
+					<h3 class="actions_item_title">{{ item.title[page.lang] }}</h3>
+					<p class="actions_item_desc">{{ item.desc[page.lang] }}</p>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

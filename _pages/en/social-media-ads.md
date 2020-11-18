@@ -1,10 +1,15 @@
 ---
 permalink: /en/social-media-ads
-numbered_headers: true
+title: Major social media political ads policies
+navbar_items:
+  - <a href="/" class="header_mainnav_link">Home</a>
+  - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
 ---
 
 # Major social media political ads policies
-{: .no-toc}
+
+{% include breadcrumb.html %}
 
 A high-level overview of the major social media policies regarding political advertising.
 

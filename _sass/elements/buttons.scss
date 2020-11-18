@@ -1,0 +1,23 @@
+.button {
+	display: inline-block;
+	background-color: $color-blue;
+	padding: 8px 24px;
+	color: $color-white;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $color-blue-hover;
+		color: $color-white;
+	}
+
+	&-big {
+		padding: 16px 32px;
+		font-size: 2rem;
+	}
+
+	&-small {
+		padding: 4px 16px;
+		font-size: 1.4rem;
+	}
+}

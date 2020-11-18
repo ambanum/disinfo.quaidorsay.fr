@@ -1,0 +1,55 @@
+title:
+  fr: Ces manipulations exploitent des vulnérabilités.
+  en: These manipulations exploit vulnerabilities.
+subtitle:
+  fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de ces vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler l'opinion.
+  en: Vulnerabilites are due to the way information is presented online and can be exploited by bad actors to manipulate opinion.
+items:
+  - item:
+    title:
+      fr: Faux profils
+      en: Fake Social Media Profiles
+    desc:
+      fr: Créer des faux profils, pages ou groupes sur les médias sociaux pour tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et amplifier l'adoption de celui-ci.
+      en: By creating fake users, pages and groups with a variety of interests and commitments, attackers can mislead users about the reliability of the content and amplify its adoption.
+  - item:  
+    title:
+      fr: Faux sondages
+      en: Fake online polls
+    desc:
+      fr: Créer de faux sondages ou manipuler des sondages en ligne pour générer de fausses mesures d’engagement et ainsi manipuler la perception d’un sujet.
+      en: Create fake online polls, or manipulate existing online polls to generate fake engagement metrics and thus manipulate perception of given issue.
+  - item:
+    title:
+      fr: Vides de données
+      en: Data voids prefilling
+    desc:
+      fr: Combler l'absence de sources de qualité et faisant autorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
+      en: Data voids prefilling can be used to fill the lack of quality and authoritative sources in search engine results to impose a narrative on a topic.
+  - item:
+    title:
+      fr: Publicités ciblées
+      en: Paid targeted ads
+    desc:
+      fr: Recourir à des publicités ciblant des utilisateurs sur la base de leurs données personnelles pour diffuser des messages fragmentant l'espace de débat public.
+      en: Using paid targeted ads makes it possible to disseminate messages by targeting specific users on the basis of their personal data.
+  - item:
+    title:
+      fr: Profils automatisés
+      en: Automated Profiles
+    desc:
+      fr: "Utiliser des profils automatisés, fonctionnant en réseau et de manière coordonnée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
+      en: "Automated profiles are designed to amplify content and give appearance content is more “popular” than it is. They can operate as a network, to function in a coordinated manner."
+  - item:
+    title:
+      fr: Faux sites d'informations
+      en: Create fake or imposter news sites
+    desc:
+      fr: Créer de faux sites d'informations, reprenant les codes et les marques de médias connus pour tromper le lecteur. 
+      en: Fake news sites can be used to share information while misleading users. These sites often have some superficial markers of authenticity, such as naming and site-design.
+items-context:
+  fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>.
+  en: Our approach is based on the <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">AMITT framework</a>.
+desc:
+  fr: "L’économie de l’attention favorise la publication de contenus qui <strong>exploitent nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », une mesure de visibilité trop souvent utilisé à tort pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
+  en: The attention economy allows bad actors to gain money and views by publishing content that <strong>exploits our biases and tendencies</strong> to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring <strong>credibility or importance</strong>. 

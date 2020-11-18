@@ -1,0 +1,24 @@
+.chapo {
+	font-size: 2.4rem;
+	line-height: 1.5;
+	color: $color-g700;
+
+	@include responsiveMaxWidth($bpTabletSmall) {
+		font-size: 2rem;
+	}
+}
+
+.text-lg {
+	color: $color-g700;
+	font-size: 2rem;
+	line-height: 2.8rem;
+}
+
+strong,
+bold {
+	@extend .font-mariannebold;
+}
+
+.text-center {
+	text-align: center;
+}

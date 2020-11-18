@@ -1,0 +1,45 @@
+.logo_drawings {
+	width: 57px;
+	height: 97px;
+}
+
+.logo_txt {
+	width: 124px;
+	height: 64px;
+	margin-left: 13px;
+}
+
+.icon {
+	fill: $color-blue400;
+}
+
+.icon_influence>svg {
+	@extend .icon;
+	width: 24px;
+	height: 24px;
+}
+
+.icon_federate>svg {
+	@extend .icon;
+	width: 24px;
+	height: 24px;
+}
+
+.icon_tool>svg {
+	@extend .icon;
+	width: 24px;
+	height: 28px;
+	transform: rotate(90deg);
+}
+
+.icon_arrowright > svg {
+	@extend .icon;
+	width: 19px;
+	height: 18px;
+}
+
+.icon_smallarrowleft>svg{
+	@extend .icon;
+	width: 11px;
+	height: 18px;
+}

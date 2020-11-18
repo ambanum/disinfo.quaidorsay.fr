@@ -1,0 +1,29 @@
+<section class="casestudies">
+	<div class="casestudies_content">
+		<div class="casestudies_intro">
+			<h2 class="casestudies_title">{{ site.data.translations.casestudies.title[page.lang] }}</h2>
+			<div class="casestudies_subtitle chapo">{{ site.data.translations.casestudies.subtitle[page.lang] }}</div>
+		</div>
+		<div class="casestudies_items">
+			{% for item in site.data.translations.casestudies.items %}
+				<article class="casestudies_item">
+					<img class="casestudies_item_img" src="{{ item.image-src }}" alt="">
+					<div class="casestudies_item_info">
+						<h3 class="casestudies_item_title">{{ item.title[page.lang] }}</h3>
+						<p class="casestudies_item_desc">{{ item.desc[page.lang] }}</p>
+						<a class="casestudies_item_link link-hasicon link-haswhitebg" href="{{ item.link-href[page.lang] }}">
+							<span class="link_label">{{ item.link-label[page.lang] }}</span>
+							<div class="link_icon icon_arrowright"><svg><use xlink:href="#arrowright"></use></svg></div>
+						</a>
+					</div>
+				</article>
+			{% endfor %}
+		</div>
+		<div class="casestudies_itemsinfo">
+			{{ site.data.translations.casestudies.items-context[page.lang] }}
+		</div>
+		<div class="casestudies_desc">
+			{{ site.data.translations.casestudies.desc[page.lang] }}
+		</div>
+	</div>
+</section>

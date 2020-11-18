@@ -1,16 +1,24 @@
 ---
 permalink: /en/facebook-ads-library-assessment
+title: Facebook Ads Library Assessment
 numbered_headers: true
+navbar_items:
+  - <a href="/" class="header_mainnav_link">Home</a>
+  - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
 ---
 
 # Facebook Ads Library Assessment
 {: .no-toc}
+
+{% include breadcrumb.html %}
 
 Facebook pledges to provide public API access for seven years to political and issue-based ads. This document presents the difficulties and limitations in using this otherwise powerful tool.
 
 {% include table-of-contents.md %}
 
 ## Introduction
+{:toc}
 
 Facebook launched the “[Ads Library](https://www.facebook.com/ads/library/)” in May 2018 in order to bring more transparency about the ads concerning political issues that are published on its platform.
 
