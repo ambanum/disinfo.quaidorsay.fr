@@ -3,29 +3,29 @@ title:
   en: These manipulations exploit vulnerabilities.
 subtitle:
   fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de ces vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler l'opinion.
-  en: We believe that such campaigns are made possible by the <strong> exploitation of vulnerabilities <strong> in the way information is presented.
+  en: Vulnerabilites are due to the way information is presented online and can be exploited by bad actors to manipulate opinion.
 items:
   - item:
     title:
       fr: Faux profils
-      en: Créer de faux profils de médias sociaux
+      en: Fake Social Media Profiles
     desc:
       fr: Créer des faux profils, pages ou groupes sur les médias sociaux pour tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et amplifier l'adoption de celui-ci.
-      en: En créant de faux utilisateurs et groupes, les attaquants amplifient des contenus qu’ils soint plus largement adoptés qu'ils ne le sont en réalité.
-  - item:
+      en: By creating fake users, pages and groups with a variety of interests and commitments, attackers can mislead users about the reliability of the content and amplify its adoption.
+  - item:  
     title:
       fr: Faux sondages
-      en: Manipuler les sondages en ligne
+      en: Fake online polls
     desc:
       fr: Créer de faux sondages ou manipuler des sondages en ligne pour générer de fausses mesures d’engagement et ainsi manipuler la perception d’un sujet.
-      en: Créer de faux sondages en ligne, ou manipuler des sondages en ligne existants pour créer des fausses mesures d’engagement et manipuler la perception d’une question donnée.
+      en: Create fake online polls, or manipulate existing online polls to generate fake engagement metrics and thus manipulate perception of given issue.
   - item:
     title:
       fr: Vides de données
       en: Data voids prefilling
     desc:
       fr: Combler l'absence de sources de qualité et faisant autorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
-      en: 
+      en: Data voids prefilling can be used to fill the lack of quality and authoritative sources in search engine results to impose a narrative on a topic.
   - item:
     title:
       fr: Publicités ciblées
@@ -36,10 +36,10 @@ items:
   - item:
     title:
       fr: Profils automatisés
-      en: Use bots on social media to amplify content
+      en: Automated Profiles
     desc:
       fr: "Utiliser des profils automatisés, fonctionnant en réseau et de manière coordonnée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
-      en: "Bots are automated/programmed profiles designed to amplify content (ie: automatically share or like) and give appearance content is more « popular » than it is. They can operate as a network, to function in a coordinated or orchestrated manner."
+      en: "Automated profiles are designed to amplify content (ie: automatically share or like) and give appearance content is more « popular » than it is. They can operate as a network, to function in a coordinated manner."
   - item:
     title:
       fr: Faux sites d'informations
@@ -52,4 +52,4 @@ items-context:
   en: <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">See more</a>
 desc:
   fr: "L’économie de l’attention favorise la publication de contenus qui <strong>exploitent nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », une mesure de visibilité trop souvent utilisé à tort pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
-  en: "L’économie de l’attention permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances pour créer artificiellement de l’« engagement ». Or, l'engagement est une mesure de visibilité trop souvent considérée à tort pour déterminer la crédibilité ou l'importance d'une information."
+  en: The attention economy allows bad actors to gain money and views by publishing content that <strong>exploits our biases and tendencies<strong> to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring <strong>credibility or importance<strong>. 
