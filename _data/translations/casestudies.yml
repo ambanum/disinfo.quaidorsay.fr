@@ -8,7 +8,7 @@ items:
   - item:
     image-src: ../../assets/img/casestudies/cambrige.jpg
     title:
-      fr: Influence sur l’élection présidentielle américaine
+      fr: Scandale Cambridge Analytica et élection présidentielle américaine
       en: Cambridge Analytica and the U.S. presidential elections
     desc:
       fr: L'entreprise Cambridge Analytica mène, en 2016, une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains via une application tierce. Elle cible des électeurs indécis, sélectionnés sur la base de leurs données personnelles, afin d'orienter leur vote.
@@ -17,7 +17,7 @@ items:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
     link-label:
-      fr: Lire notre étude de cas
+      fr: Lire l'étude de cas
       en: Read the case study
   - item:
     image-src: ../../assets/img/casestudies/rohingya.jpg
@@ -31,24 +31,24 @@ items:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
     link-label:
-      fr: Lire notre étude de cas
+      fr: Lire l'étude de cas
       en: Read the case study
   - item:
-    image-src: ../../assets/img/casestudies/casqueblancs.jpg
+    image-src: ../../assets/img/casestudies/notre-dame.jpg
     title:
-      fr: Troubles dans le conflict syrien
+      fr: Incendie de la cathédrale de Notre-Dame de Paris 
       en: Casque blancs en Syrie
     desc:
-      fr: "Le centre russe pour la réconciliation des parties en conflit en Syrie affirme en mars 2019 que la France et la Belgique sont impliquées, conjointement avec les casque blancs, dans l'organisation de vidéos mettant en scène l'utilisation de substances toxiques par la Russie et la Syrie contre la population civile. Une fausse information relayée par Sputnik News pour brouiller les pistes sur l'implication des différents acteurs dans ce conflit."
+      fr: "La propagation de l’information de l’incendie de la cathédrale de Notre-Dame de Paris d'avril 2019 a fait l’objet de plusieurs manipulations. Un narratif terroriste est développé aux Etats-Unis, alors que les sources pro-Kremlin lient la décadence de la cathédrale à celle des valeurs européennes. En Europe centrale et occidentale, l’accent est mis sur les clivages sociétaux et religieux préexistants."
       en: 
     link-href:
-      fr: https://www.lemonde.fr/les-decodeurs/article/2018/08/31/attaques-chimiques-en-syrie-les-intox-de-la-russie-pour-brouiller-les-pistes_5348708_4355770.html
-      en: https://www.lemonde.fr/les-decodeurs/article/2018/08/31/attaques-chimiques-en-syrie-les-intox-de-la-russie-pour-brouiller-les-pistes_5348708_4355770.html
+      fr: https://disinfo.quaidorsay.fr/encyclopedia/publications/
+      en: https://disinfo.quaidorsay.fr/encyclopedia/publications/
     link-label:
-      fr: En savoir plus
+      fr: Lire l'étude de cas
       en: Read the case study
 items-context:
-  fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir nos autres études de cas.</a>
+  fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir les autres études de cas.</a>
   en: ENbulum. <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">Discove more case studies</a>
 desc:
   fr: "Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations ou encore des groupes d’individus. Elles visent souvent à fragiliser <strong>notre cohésion sociale</strong> et <strong>nos processus démocratiques.</strong>"
