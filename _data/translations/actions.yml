@@ -2,7 +2,7 @@ anchor:
   fr: nos-actions
   en: our-actions
 title:
-  fr: Au sein du ministère de l’Europe et des Affaires étrangères, l’équipe de l’Ambassadeur pour le numérique coordonne et valorise les positions de la France pour réduire ces vulnérabilités.
+  fr: Au sein du ministère de l’Europe et des Affaires étrangères, l'équipe de l'<strong>Ambassadeur pour le numérique</strong> coordonne et valorise les positions de la France pour réduire ces vulnérabilités.
   en: Within the Ministry for Europe and Foreign Affairs the [French Ambassador for Digital Affairs](https://twitter.com/AmbNum)'s team coordinates and promotes France's positions to reduce these vulnerabilities.
 items:
   - item:
@@ -11,7 +11,7 @@ items:
       fr: Influencer
       en: Influence
     desc:
-      fr: Nous influençons la gouvernance internationale vers une réglementation européenne proportionnée et efficace pour réduire les vulnérabilités aux manipulations de l'information.
+      fr: Nous influençons la gouvernance internationale vers une réglementation européenne proportionnée et efficace visant à réduire les vulnérabilités aux manipulations de l'information.
       en: We work towards online spaces that allow freedom of expression and support publishing and sharing quality information with a diversity of views and mutual respect, by reducing such vulnerabilities to information manipulation.
           To achieve this goal we steer international governance towards proportionate and effective European regulation and also lead a strategic dialogue with major digital actors, including social media platforms.
   - item:
@@ -20,7 +20,7 @@ items:
       fr: Fédérer
       en: Federate
     desc:
-      fr: "Nous faisons collaborer les acteurs impliqués dans la lutte contre les manipulations de l'informations et représentons la France au sein des différentes instances européennes et internationales."
+      fr: "Nous faisons collaborer les acteurs impliqués dans la lutte contre les manipulations de l'informations et représentons la France au sein des instances européennes et internationales."
       en: "We connect and promote relevant actors countering information manipulation: NGOs, public actors, researchers, social media platforms...
           We also represent France in the various European and international forums."
   - item:

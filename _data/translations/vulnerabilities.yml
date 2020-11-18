@@ -2,7 +2,7 @@ title:
   fr: Ces manipulations exploitent des vulnérabilités.
   en: These manipulations exploit vulnerabilities.
 subtitle:
-  fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de ces vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler des utilisateurs et l'opinion.
+  fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de ces vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler l'opinion.
   en: We believe that such campaigns are made possible by the <strong> exploitation of vulnerabilities <strong> in the way information is presented.
 items:
   - item:
@@ -24,7 +24,7 @@ items:
       fr: Vides de données
       en: Data voids prefilling
     desc:
-      fr: Combler l'absence de sources de haute qualité et faisant autorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
+      fr: Combler l'absence de sources de qualité et faisant autorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
       en: 
   - item:
     title:
@@ -38,18 +38,18 @@ items:
       fr: Profils automatisés
       en: Use bots on social media to amplify content
     desc:
-      fr: "Utiliser des profils automatisés, fonctionnant en réseau, de manière coordonnée et orchestrée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
+      fr: "Utiliser des profils automatisés, fonctionnant en réseau et de manière coordonnée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
       en: "Bots are automated/programmed profiles designed to amplify content (ie: automatically share or like) and give appearance content is more « popular » than it is. They can operate as a network, to function in a coordinated or orchestrated manner."
   - item:
     title:
       fr: Faux sites d'informations
       en: Create fake or imposter news sites
     desc:
-      fr: Créer des faux sites d'informations, reprenant les marques d'authenticité de médias connus pour tromper le lecteur. 
+      fr: Créer de faux sites d'informations, reprenant les codes et les marques de médias connus pour tromper le lecteur. 
       en: Fake news sites can be used to share information while misleading users. These sites often have some superficial markers of authenticity, such as naming and site-design.
 items-context:
   fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>.
   en: <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">See more</a>
 desc:
-  fr: "L’économie de l’attention favorise la publication de contenu qui <strong>exploite nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », trop souvent utilisé à tort comme mesure de visibilité pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
+  fr: "L’économie de l’attention favorise la publication de contenus qui <strong>exploitent nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », une mesure de visibilité trop souvent utilisé à tort pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
   en: "L’économie de l’attention permet à des acteurs malveillants de gagner de l’argent et des vues en publiant du contenu qui exploite nos biais et nos croyances pour créer artificiellement de l’« engagement ». Or, l'engagement est une mesure de visibilité trop souvent considérée à tort pour déterminer la crédibilité ou l'importance d'une information."

@@ -12,7 +12,7 @@
 
 .actions_title {
 	text-align: center;
-	@include grid(6, 5);
+	@include grid(7, 6);
 	margin-left: auto;
 	margin-right: auto;
 	@extend .h4-light;
