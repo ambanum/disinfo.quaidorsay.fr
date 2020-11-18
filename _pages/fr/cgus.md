@@ -34,14 +34,14 @@ Google a modifié les conditions de validation des applications mobiles publiée
 application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité. Cette nouvelle version des conditions interdit également les apps de développeurs qui témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures
 ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l’information.
 
-![](../../assets/img/cgus/google-case-studie.png)
+![](../../assets/img/cgus/google-case-studie.jpg)
 
 Google AdSense a modifié sa politique d’utilisation le 03 septembre 2020 afin d’y inclure
 une mention relative aux pratiques trompeuses coordonnées. Celle-ci prohibe les pratiques
 visant à se coordonner avec d’autres sites ou comptes en dissimulant ou déformant des
 informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien tout en altérant ou en dissimulant des informations relatives à son pays d’origine.
 
-![](../../assets/img/cgus/cguis-google-adsence.png)
+![](../../assets/img/cgus/cguis-google-adsence.jpg)
 
 TikTok a modifié ses directives relatives aux organismes d'application de la loi le 18 août
 2020 pour ajouter un lien vers un formulaire de demande d’accès aux données à destination
