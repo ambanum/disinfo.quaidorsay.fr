@@ -1,0 +1,20 @@
+.dataTable-bottom{
+	display:flex;
+	margin-top: 12px;
+}
+
+.dataTable-info{
+	flex-grow: 1;
+    text-align: right;
+}
+
+.dataTable-pagination{
+	display: flex;
+	margin-left: 12px;
+
+	li{
+		list-style: none;
+		display: inline-block;
+		margin:0 8px;
+	}
+}

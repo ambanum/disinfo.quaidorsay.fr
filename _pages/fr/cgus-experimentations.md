@@ -25,6 +25,10 @@ css_files:
 
 {% include cguschart.html %}
 
+<script type="text/javascript">
+	const infoLabel = "{{ site.data.translations.cgus.datatables.info[page.lang] }}";
+</script>
+
 ## Stats
 <div markdown="0">
 	<table class="datatables">
@@ -33,8 +37,8 @@ css_files:
 		<th>Service</th>
 		<th>Type</th>
 		<th>Nombre de mots</th>
-		<th>readability</th>
-		<th>readability_grade_level</th>
+		<th>Readability</th>
+		<th>Readability level</th>
 		</tr>
 	</thead>
 	<tbody>
