@@ -46,15 +46,15 @@ _Les mots en gras sont les [termes du domaine](https://fr.wikipedia.org/wiki/Con
 
 Les **services** sont **déclarés** dans l'outil _CGUs_ grâce à un **fichier de déclaration** listant les **documents** qui forment l'ensemble des **conditions** régissant l'usage du **service**. Ces **documents** peuvent être de plusieurs **types** : « conditions d'utilisation », « politique de confidentialité », « contrat de développeur »…
 
-Afin de **suivre** leurs **évolutions**, les **documents** sont régulièrement mis à jour, en les **téléchargeant** depuis une **adresse** web et en **sélectionnant leur contenu** dans la **page web** pour supprimer le **bruit** (publicités, menus de navigation, champs de connexion…).
+Afin de suivre leurs évolutions, les documents sont régulièrement mis à jour, en les téléchargeant depuis une adresse web et en sélectionnant leur contenu dans la page web pour supprimer le bruit (publicités, menus de navigation, champs de connexion…).
 
-Vous pouvez disposer de votre propre instance **privée** de l'outil _CGUs_ et suivre vous-même les **évolutions**. Néanmoins, nous **publions** chaque **version** sur une [instance **publique**](https://github.com/ambanum/CGUs-versions) facilitant l'exploration de l'**historique** et **notifiant** par courriels l'**enregistrement** de nouvelles **versions**. Les **utilisateurs** peuvent [**s'abonner** aux **notifications**](#recevoir-des-notifications).
+Vous pouvez disposer de votre propre instance privée de l'outil _CGUs_ et suivre vous-même les évolutions. Néanmoins, nous publions chaque version sur une [instance publique](https://github.com/ambanum/CGUs-versions) facilitant l'exploration de l'historique et notifiant par courriels l'enregistrement de nouvelles versions.
 
 _Actuellement, nous ne suivons que les **conditions** rédigées en anglais et concernant la juridiction européenne._
 
 ### Naviguer dans l'historique des versions
 
-À partir de la **page d'accueil du dépôt** [CGUs-versions](https://github.com/ambanum/CGUs-versions), ouvrez le dossier du **service de votre choix**. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
+À partir de la **page d'accueil du dépôt** [CGUs-versions](https://github.com/ambanum/CGUs-versions), ouvrez le dossier du service de votre choix. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
 
 _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#recevoir-des-notifications)_
 
@@ -68,7 +68,7 @@ _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/bl
 
 ## Contribuer
 
-L’outil est construit sous la forme d’un **logiciel libre et collaboratif**, ce qui signifie que toute entité peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.
+L’outil est construit sous la forme d’un **logiciel libre et collaboratif**, ce qui signifie que chacun peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.
 
 - Terms of Service Didn’t Read (ToSDR)
 L’association Terms of Service Didn’t Read (ToSDR) avait développé un outil similaire, [TOSBack](https://tosback.org/) et a ainsi transféré ses moyens et documents suivis depuis plusieurs années vers notre outil. 
