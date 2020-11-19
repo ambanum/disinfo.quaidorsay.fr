@@ -10,11 +10,13 @@ navbar_items:
   - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>
   - <a href="/fr/cgus" class="header_mainnav_link">CGUs</a>
 js_files:
-  - assets/js/vendor/d3-5.16.0/d3.min.js
-  - assets/js/vendor/c3-0.7.20/c3.min.js
+  - assets/js/vendor/d3/d3.5.16.0.min.js
+  - assets/js/vendor/c3/c3.0.7.20.min.js
   - assets/js/cgus/chart.js
+  - assets/js/vendor/simple-datatables/simple-datatables.2.1.14.min.js
+  - assets/js/cgus/datatables.js
 css_files:
-  - assets/js/vendor/c3-0.7.20/c3.min.css
+  - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 
 # Experimentation CGUs
@@ -25,7 +27,7 @@ css_files:
 
 ## Stats
 <div markdown="0">
-	<table>
+	<table class="datatables">
 	<thead>
 		<tr>
 		<th>Service</th>
@@ -1155,7 +1157,7 @@ css_files:
 
 ## Stats by document types
 <div markdown="0">
-	<table>
+<table class="datatables">
   <thead>
     <tr>
       <th>Type</th>
