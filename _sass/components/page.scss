@@ -104,7 +104,7 @@
 		word-break: normal;
 	}
 
-	table {
+	table:not(.c3-tooltip) {
 		margin-top: 24px;
 		table-layout: fixed;
 		width: 100%;
