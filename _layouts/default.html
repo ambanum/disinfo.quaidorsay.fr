@@ -12,6 +12,18 @@
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 		<link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		{% for cssFile in page.css_files %}
+			<link rel="stylesheet" href="{{ cssFile | absolute_url }}">
+		{% endfor %}
+
+		{% for jsFile in page.js_files %}
+			<script type="text/javascript" src="{{ jsFile | absolute_url }}"></script>
+		{% endfor %}
+
+		<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.js"></script>
+		
 	</head>
 
 	<body>
