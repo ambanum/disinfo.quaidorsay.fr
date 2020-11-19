@@ -11,3 +11,7 @@ ctabloc:
   button-href:
     fr: https://github.com/ambanum/CGUs
     en: https://github.com/ambanum/CGUs
+datatables:
+  info:
+    fr: Affichage des entrées de {start} à {end} des {rows}
+    en: Showing {start} to {end} of {rows} entries
