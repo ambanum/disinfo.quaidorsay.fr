@@ -21,14 +21,14 @@
 	}
 
 	h3 {
-		margin-top: 36px;
+		margin-top: 40px;
 	}
 
 	h4 {
 		margin-top: 32px;
 	}
 
-	p {
+	p{
 		margin-top: 20px;
 	}
 
@@ -61,15 +61,21 @@
 	}
 
 	dl {
-		padding: 24px;
+		padding: 24px 24px 0 24px;
 
 		dt {
 			margin-top: 24px;
 			@extend .font-mariannebold;
+			display: list-item;
+			list-style-type: circle;
 
 			&:first-child {
 				margin-top: 0;
 			}
+		}
+
+		dd{
+			margin-top: 4px;
 		}
 	}
 

@@ -8,12 +8,15 @@ navbar_items:
   - <a href="/fr/cgus" class="header_mainnav_link">CGUs</a>
 ---
 
-## CGUs : suivre les engagements contractuels des principaux fournisseurs de services en ligne
+# CGUs
 
 {% include breadcrumb.html %}
 
+## Suivre les engagements contractuels des principaux fournisseurs de services en ligne
+
 CGUs est un outil libre et ouvert de **suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne**.
 Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions en étant notifiée à chaque publication d'une nouvelle version ainsi qu'en explorant leur historique. 
+{: .text-lg }
 
 ### Pourquoi suivre les conditions générales d'utilisation ?
 
@@ -23,21 +26,24 @@ En matière de manipulation de l'information, les pratiques décrites permettent
 
 ### Études de cas
 
-Google a modifié les conditions de validation des applications mobiles afin d’interdire les apps qui laissent supposer à tort être une application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité. Cette nouvelle version des conditions interdit également les apps de développeurs qui témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l’information.
-
-**il manque l'image**
-
-TikTok se réfère aux standards de sa communauté pour offrir à ses utilisateurs l'opportunité de signaler un contenu qui serait estimé inapproprié et irait à leur rencontre.
-
-**il faut mettre ce lien : https://github.com/ambanum/CGUs-versions/commit/0d2f0386**
-
-Google AdSense a modifié sa politique d’utilisation afin d’y inclure une mention relative aux pratiques trompeuses coordonnées. Celle-ci prohibe les pratiques visant à se coordonner avec d’autres sites ou comptes en dissimulant ou déformant des informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien, tout en altérant ou en dissimulant des informations relatives à son pays d’origine.
+Google
+: Google a modifié les conditions de validation des applications mobiles afin d’interdire les apps qui laissent supposer à tort être une application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité. Cette nouvelle version des conditions interdit également les apps de développeurs qui témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l’information.
 
 ![](../../assets/img/cgus/google-case-studie.png)
 
-Découvrir d'autres [études de cas](https://github.com/ambanum/CGUs/wiki/%C3%89tudes-de-cas) 
+TikTok
+: TikTok se réfère aux standards de sa communauté pour offrir à ses utilisateurs l'opportunité de signaler un contenu qui serait estimé inapproprié et irait à leur rencontre.  
+[https://github.com/ambanum/CGUs-versions/commit/0d2f0386](https://github.com/ambanum/CGUs-versions/commit/0d2f0386)
 
-### Comment utiliser l'outil CGUs ?
+Google AdSense
+: Google AdSense a modifié sa politique d’utilisation afin d’y inclure une mention relative aux pratiques trompeuses coordonnées. Celle-ci prohibe les pratiques visant à se coordonner avec d’autres sites ou comptes en dissimulant ou déformant des informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien, tout en altérant ou en dissimulant des informations relatives à son pays d’origine.
+
+![](../../assets/img/cgus/google-case-studie.png)
+
+[Découvrir d'autres études de cas](https://github.com/ambanum/CGUs/wiki/%C3%89tudes-de-cas){: .button .button-secondary}
+{: .text-center }
+
+## Comment utiliser l'outil CGUs ?
 
 _Les mots en gras sont les [termes du domaine](https://fr.wikipedia.org/wiki/Conception_pilot%C3%A9e_par_le_domaine)._
 
@@ -49,13 +55,13 @@ Vous pouvez disposer de votre propre instance **privée** de l'outil _CGUs_ et s
 
 _Actuellement, nous ne suivons que les **conditions** rédigées en anglais et concernant la juridiction européenne._
 
-## Naviguer dans l'historique des versions
+### Naviguer dans l'historique des versions
 
 À partir de la **page d'accueil du dépôt** [CGUs-versions](https://github.com/ambanum/CGUs-versions), ouvrez le dossier du **service de votre choix**. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
 
 _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#recevoir-des-notifications)_
 
-## Recevoir des notifications 
+### Recevoir des notifications 
 
 Vous pouvez [vous abonner](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7UkHCn0qVrcD188cQb-ofHVBGpvdUWQ6EraZ5AIb6vJqz3L8LDvYhEzPb2SE6eGWP35zXrpwEFVJCpGuER9DKPBUrifKScpF_ENMqwE_OiOZ3FdCV2ra-TXQNxB2sTEL13Zj8HU7U0vbbeF7TnbFiW8gGbcOa5liqmMvw_rghnEB2htMQRCk6A3eyj) pour recevoir un courriel à chaque modification d'un document dans l'ensemble de la base.
 
@@ -63,16 +69,14 @@ _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/bl
 
 **Attention, ce service est en version bêta et vous risquez de recevoir de nombreuses notifications !** Vous pourrez vous désabonner en répondant à n'importe quel courriel reçu.
 
-### Contribuer
+## Contribuer
 
 L’outil est construit sous la forme d’un **logiciel libre et collaboratif**, ce qui signifie que toute entité peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.
 
 - Terms of Service Didn’t Read (ToSDR)
-: L’association Terms of Service Didn’t Read (ToSDR) avait développé un outil similaire, [TOSBack](https://tosback.org/) et a ainsi transféré ses moyens et documents suivis depuis plusieurs années vers notre outil. 
+L’association Terms of Service Didn’t Read (ToSDR) avait développé un outil similaire, [TOSBack](https://tosback.org/) et a ainsi transféré ses moyens et documents suivis depuis plusieurs années vers notre outil. 
 
 - Direction Générale des Entreprises  
-: La Direction générale des entreprises (DGE), à travers le pôle d’expertise de la régulation du numérique (PEReN), contribue à l'outil en développant de nouvelles fonctionnalités, comme le suivi des images et des documents au format PDF.
-
-Bouton [ajouter un nouveau service](https://github.com/ambanum/CGUs/blob/master/README.fr.md)
+La Direction générale des entreprises (DGE), à travers le pôle d’expertise de la régulation du numérique (PEReN), contribue à l'outil en développant de nouvelles fonctionnalités, comme le suivi des images et des documents au format PDF.
 
 {% include ctabloc.html %}

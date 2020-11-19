@@ -20,4 +20,17 @@
 		padding: 4px 16px;
 		font-size: 1.4rem;
 	}
+
+	&-secondary{
+		background-color: $color-white;
+		color: $color-blue;
+		border: 1px solid $color-blue;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: $color-g100;
+			color: $color-blue;
+		}
+	}
 }
