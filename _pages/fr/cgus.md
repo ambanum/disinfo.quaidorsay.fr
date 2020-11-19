@@ -6,12 +6,6 @@ navbar_items:
   - <a href="!SITE_URL!/fr/#nos-actions" class="header_mainnav_link">Nos actions</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>
   - <a href="/fr/cgus" class="header_mainnav_link">CGUs</a>
-js_files:
-  - assets/js/vendor/d3-5.16.0/d3.min.js
-  - assets/js/vendor/c3-0.7.20/c3.min.js
-  - assets/js/cgus/chart.js
-css_files:
-  - assets/js/vendor/c3-0.7.20/c3.min.css
 ---
 
 # Suivi des CGUs
@@ -79,7 +73,5 @@ Autorité de la concurrence
 ToSDR  
 : L’association Terms of Service Didn’t Read (ToSDR) va transférer ses moyens de suivi vers
 notre outil et contribuer ainsi les documents dont elle dispose. Actuellement, 51 fournisseurs de service en ligne et 137 documents associés sont suivis. Les contributions de ToSDR laissent espérer une multiplication par dix du nombre de documents suivis.
-
-{% include cguschart.html %}
 
 {% include ctabloc.html %}
