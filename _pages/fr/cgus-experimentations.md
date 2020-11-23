@@ -19,7 +19,7 @@ css_files:
   - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 
-# Experimentation CGUs
+# Expérimentation CGUs
 
 {% include breadcrumb.html %}
 
@@ -36,7 +36,7 @@ Le premier cas d'usage exploré est le suivi d'une mesure de lisibilité dite de
 
 {% include cgus/chart.html %}
 
-## Statistiques 
+## Statistiques
 
 Des statistiques decriptives ont été générées pour chaque service ainsi que pour chaque type de CGUs.
 
@@ -45,7 +45,6 @@ Des statistiques decriptives ont été générées pour chaque service ainsi que
 {% include cgus/tablestatsbytype.html %}
 
 ### Légende
-
-Mesure de lisibilité de _Flesch-Kincaid_
+Mesure de lisibilité de _Flesch-Kincaid_:
 
 {% include cgus/tablelegend.html %}
