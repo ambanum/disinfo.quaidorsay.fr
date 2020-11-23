@@ -23,7 +23,7 @@ css_files:
 
 {% include breadcrumb.html %}
 
-## Chart title
+## Chart title 
 
 {% include cgus/chart.html %}
 
