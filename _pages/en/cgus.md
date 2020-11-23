@@ -84,4 +84,4 @@ The Direction Générale des Entreprises (DGE), through the Digital Regulation E
 In proident eu proident anim amet tempor exercitation aliqua reprehenderit excepteur sint tempor. Exercitation culpa cillum quis adipisicing anim amet exercitation ipsum cillum ad cupidatat nisi ad excepteur. Commodo occaecat qui cupidatat consectetur proident non mollit quis dolore proident. Minim in excepteur quis eu ipsum anim nulla consequat aliquip laboris elit. Do commodo magna nostrud commodo minim ad aute laborum aliquip amet consequat tempor aute et.
 Nous essayons ...
 
-[Voir nos experimentations](/fr/)
+[Voir nos experimentations](/en/cgus/experimentations)

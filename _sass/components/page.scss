@@ -90,7 +90,7 @@
 		width: 100%;
 	}
 
-	img{
+	img {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
@@ -110,26 +110,74 @@
 		word-break: normal;
 	}
 
-	table {
+	table:not(.c3-tooltip) {
 		margin-top: 24px;
-		table-layout: fixed;
 		width: 100%;
 		border-collapse: collapse;
 
 		th,
 		td {
-			padding: 8px 16px;
+			padding: 8px;
 		}
 
 		thead {
 			th {
-				background-color: $color-g400;
+				background-color: $color-g300;
+				@extend .font-mariannebold;
+				font-size: 1.4rem;
 			}
 		}
 
 		tbody {
 			td {
 				border-top: 1px solid $color-g100;
+				border-right: 1px solid #f8f8f8;
+				font-size: 1.4rem;
+			}
+		}
+	}
+
+	.table-isresponsive {
+
+		@include responsiveMaxWidth($bpMobile) {
+
+			/* Force table to not be like tables anymore */
+			table,
+			thead,
+			tbody,
+			th,
+			td,
+			tr {
+				display: block;
+			}
+
+			/* Hide table headers (but not display: none;, for accessibility) */
+			thead tr {
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+
+			tbody {
+				td {
+					border: none;
+					padding: 4px 0;
+				}
+
+				tr {
+					padding: 12px 0;
+					border-bottom: 1px solid $color-g300;
+				}
+			}
+
+			td {
+				display: flex;
+			}
+
+			td:before {
+				content: attr(data-label);
+				font-weight: bold;
+				width: 50%;
 			}
 		}
 	}
