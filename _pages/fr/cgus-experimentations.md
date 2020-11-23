@@ -30,6 +30,8 @@ css_files:
 ## Jeu de donées
 Qui duis commodo ipsum sint Lorem esse et elit duis Lorem enim. Cillum ipsum consectetur est exercitation quis tempor qui. Laboris occaecat ex elit nulla excepteur. Sunt Lorem consequat consequat cillum elit nisi nostrud velit culpa cillum incididunt nisi aliquip fugiat. Laborum proident eu deserunt reprehenderit sint nostrud adipisicing nostrud. Minim ut proident culpa enim qui quis incididunt. Enim mollit veniam laboris velit qui reprehenderit.
 
+[Télécharger un jeu de données](https://github.com/ambanum/CGUs-versions/releases){: .button .button-secondary }
+
 ## Stats
 {% include cgus/tablestats.html %}
 
