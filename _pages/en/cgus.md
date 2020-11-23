@@ -2,9 +2,10 @@
 permalink: /en/cgus
 title: CGUs
 navbar_items:
-  - <a href="/" class="header_mainnav_link">Home</a>
+  - <a href="/en" class="header_mainnav_link">Home</a>
   - <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
+  - <a href="/en/cgus" class="header_mainnav_link">CGUs</a>
 ---
 
 # CGUs
@@ -22,14 +23,17 @@ The practices described regarding information manipulation can lead to a **bette
 
 ### Case studies
 
-- Google has changed its Review Guidelines to prohibit apps that hat mislead users by impersonating someone else or another app or falsely imply a relationship to another company / developer. These measures thus close certain vulnerabilities exploited for information manipulation.
-[https://github.com/ambanum/CGUs-versions/commit/98f6c][![](../../assets/img/cgus/google-case-studie.png)
+- Google has changed its Review Guidelines to prohibit apps that hat mislead users by impersonating someone else or another app or falsely imply a relationship to another company / developer. These measures thus close certain vulnerabilities exploited for information manipulation. [See the change](https://github.com/ambanum/CGUs-versions/commit/98f6c).
 
-- TikTok refers to Comminuty Guidelines to offer its users the opportunity to report content that would be considered inappropriate.
-[https://github.com/ambanum/CGUs-versions/commit/0d2f0386](https://github.com/ambanum/CGUs-versions/commit/0d2f0386)
+![](../../assets/img/cgus/google-case-studie.png)
 
-- Google AdSense has changed its Acceptable Use Policy to add a reference to Coordinated Deceptive Practices to prohibit (i) practices that seek to coordinate with other sites or accounts and concealing or misrepresenting identity or other material details, when content relates to politics, social issues or matters of public concern and (ii) directe content about politics, social issues, or matters of public concern to users in a country other than one's own, if you misrepresent or conceal one's country of origin or other material details.
-[https://github.com/ambanum/CGUs-versions/commit/c62b7]![](../../assets/img/cgus/google-case-studie.png)
+- TikTok refers to Comminuty Guidelines to offer its users the opportunity to report content that would be considered inappropriate. [See the change](https://github.com/ambanum/CGUs-versions/commit/0d2f0386).
+
+![](../../assets/img/cgus/tiktok-case-studie.png)
+
+- Google AdSense has changed its Acceptable Use Policy to add a reference to Coordinated Deceptive Practices to prohibit (i) practices that seek to coordinate with other sites or accounts and concealing or misrepresenting identity or other material details, when content relates to politics, social issues or matters of public concern and (ii) directe content about politics, social issues, or matters of public concern to users in a country other than one's own, if you misrepresent or conceal one's country of origin or other material details. [See the change](https://github.com/ambanum/CGUs-versions/commit/c62b7).
+
+![](../../assets/img/cgus/google-case-studie.png)
 
 [Discover more case studies](https://github.com/ambanum/CGUs/wiki/%C3%89tudes-de-cas){: .button .button-secondary}
 {: .text-center }
@@ -51,7 +55,7 @@ _For now, when multiple versions coexist, **terms** are only **tracked** in thei
 
 From the **repository homepage** [CGUs-versions](https://github.com/ambanum/CGUs-versions), open the folder of the service of your choice. You will see the set of documents tracked for that service, now click on the document of your choice. The latest version (updated hourly) will be displayed.
 
-_For more details, see our [wiki](https://github.com/ambanum/CGUs#exploring-the-versions-history)_
+_For more details, see our [wiki](https://github.com/ambanum/CGUs#exploring-the-versions-history)_.
 
 ### Be notified
 
@@ -59,7 +63,7 @@ You can [subscribe](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7U
 
 **Beware, this service is in beta and you are likely to receive a large amount of notifications!** You can unsubscribe by replying to any email you will receive.
 
-_For more details, see our [wiki](https://github.com/ambanum/CGUs#be-notified)_
+_For more details, see our [wiki](https://github.com/ambanum/CGUs#be-notified)_.
 
 ## Contributing
 
@@ -72,3 +76,10 @@ The association Terms of Service Didn't Read (ToSDR) had developed a similar too
 The Direction Générale des Entreprises (DGE), through the Digital Regulation Expertise Center (PEReN), contributes to the tool by developing new functionalities, such as tracking images and documents in PDF format.
 
 {% include ctabloc.html %}
+
+## Valorisation du jeu de données
+
+In proident eu proident anim amet tempor exercitation aliqua reprehenderit excepteur sint tempor. Exercitation culpa cillum quis adipisicing anim amet exercitation ipsum cillum ad cupidatat nisi ad excepteur. Commodo occaecat qui cupidatat consectetur proident non mollit quis dolore proident. Minim in excepteur quis eu ipsum anim nulla consequat aliquip laboris elit. Do commodo magna nostrud commodo minim ad aute laborum aliquip amet consequat tempor aute et.
+Nous essayons ...
+
+[Voir nos experimentations](/fr/)
