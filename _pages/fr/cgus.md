@@ -12,13 +12,13 @@ navbar_items:
 
 {% include breadcrumb.html %}
 
+![](../../assets/img/cgus/thumb.jpg)
+
 ## Suivre les engagements contractuels des principaux fournisseurs de services en ligne
 
 CGUs est un outil libre et ouvert de **suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne**.
 Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions.
 {: .text-lg }
-
-TODO : Essayer une image pour habiller
 
 ### Pourquoi suivre les conditions générales d'utilisation ?
 

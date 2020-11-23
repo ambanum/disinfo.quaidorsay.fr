@@ -12,6 +12,8 @@ navbar_items:
 
 {% include breadcrumb.html %}
 
+![](../../assets/img/cgus/thumb.jpg)
+
 Services have terms that can change over time. CGUs enables users rights advocates, regulatory bodies and any interested citizen to **follow the changes to these terms**.
 {: .text-lg }
 
