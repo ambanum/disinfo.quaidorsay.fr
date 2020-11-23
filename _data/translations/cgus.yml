@@ -15,3 +15,35 @@ datatables:
   info:
     fr: Affichage des entrées de {start} à {end} des {rows}
     en: Showing {start} to {end} of {rows} entries
+tablestats:
+  col1-label:
+    fr: Service
+    en: Service
+  col2-label:
+    fr: Type
+    en: Type
+  col3-label:
+    fr: Nb. de mots
+    en: Nb. de mots
+  col4-label:
+    fr: Lisibilité
+    en: Lisibilité
+  col5-label:
+    fr: Niveau de lisibilité
+    en: Niveau de lisibilité
+tablestatsbytype:
+  col1-label:
+    fr: Type
+    en: Type
+  col2-label:
+    fr: Nb. de documents
+    en: Nb. de documents
+  col3-label:
+    fr: Nb. de mots moyens
+    en: Nb. de mots moyens
+  col4-label:
+    fr: Écart type
+    en: Écart type
+  col5-label:
+    fr: Lisibilité moyenne
+    en: Lisibilité moyenne

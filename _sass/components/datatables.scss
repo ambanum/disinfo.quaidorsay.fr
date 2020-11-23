@@ -2,11 +2,19 @@
 	display:flex;
 	margin-top: 16px;
 	align-items: center;
+
+	@include responsiveMaxWidth($bpMobile) {
+		flex-wrap: wrap;
+	}
 }
 
 .dataTable-info{
 	flex-grow: 1;
-    text-align: right;
+	text-align: right;
+	
+	@include responsiveMaxWidth($bpMobile) {
+		width: 100%;
+	}
 }
 
 .dataTable-pagination{
@@ -24,6 +32,14 @@
 			background-color: $color-g300;
 		}
 	}
+
+	@include responsiveMaxWidth($bpMobile) {
+		width: 100%;
+		margin-left: 0;
+		margin-top:12px;
+		text-align: right;
+		justify-content: flex-end;
+	}
 }
 
 .dataTable-info{
@@ -34,11 +50,12 @@
 	position:relative;
 	font-weight: normal;
 	@extend .font-mariannebold;
+	display:block;
 
 	&:after{
 		content: "↓";
 		position:absolute;
-		right:-16px;
+		right:8px;
 		font-size:1.4rem;
 		top:2px;
 		color: $color-g500;
