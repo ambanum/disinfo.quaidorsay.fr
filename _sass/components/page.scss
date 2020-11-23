@@ -112,18 +112,21 @@
 
 		th,
 		td {
-			padding: 8px 16px;
+			padding: 8px;
 		}
 
 		thead {
 			th {
 				background-color: $color-g300;
+				@extend .font-mariannebold;
+				font-size: 1.4rem;
 			}
 		}
 
 		tbody {
 			td {
 				border-top: 1px solid $color-g100;
+				font-size: 1.4rem;
 			}
 		}
 	}

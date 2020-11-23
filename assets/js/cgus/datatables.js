@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-	document.querySelectorAll('.datatables').forEach(function(el){
+
+	//CGUs Datatables
+	document.querySelectorAll('.datatables-cgus').forEach(function(el){
 		let datatable = new simpleDatatables.DataTable(el, {
 			searchable: false,
-			perPage: 8,
+			perPage: 12,
 			perPageSelect: false,
 			labels: {
 				info: infoLabel
