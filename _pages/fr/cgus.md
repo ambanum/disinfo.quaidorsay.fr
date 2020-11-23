@@ -71,9 +71,11 @@ _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/bl
 
 ## Experimentations
 
-Nous explorons les données de l'outil CGUs et générons des jeux de données publiques.
+Des expérimentations sont en cours afin de produire des premiers cas d'usage à partir des données générées par l'outil CGUs.
 
 [Voir nos experimentations](/fr/cgus/experimentations)
+{: .button .button-secondary }
+
 ## Contribuer
 
 L’outil est construit sous la forme d’un **logiciel libre et collaboratif**, ce qui signifie que chacun peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.

@@ -2,8 +2,8 @@
 permalink: /fr/cgus/experimentations
 breadcrumb_items:
  - url: /fr/cgus
-   label: Suivi des CGU's
-title: Experimentation CGUs
+   label: CGUs
+title: Expérimentations CGUs
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="!SITE_URL!/fr/#nos-actions" class="header_mainnav_link">Nos actions</a>
@@ -19,7 +19,7 @@ css_files:
   - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 
-# Expérimentation CGUs
+# Expérimentations CGUs
 
 {% include breadcrumb.html %}
 

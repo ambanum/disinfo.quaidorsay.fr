@@ -1,12 +1,12 @@
 ---
-permalink: /en/cgus/experimentations
+permalink: /en/cgus/experiments
 breadcrumb_items:
  - url: /en/cgus
-   label: CGU's
-title: Experimentation CGUs
+   label: CGUs
+title: CGUs Experiments
 navbar_items:
-  - <a href="/en" class="header_mainnav_link">Home</a>
-  - <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="/" class="header_mainnav_link">Accueil</a>
+  - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
   - <a href="/en/cgus" class="header_mainnav_link">CGUs</a>
 js_files:
@@ -19,22 +19,34 @@ css_files:
   - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 
-# Experimentation CGUs
+# CGUs Experiments
 
 {% include breadcrumb.html %}
 
-## Chart title 
+Experiments are ongoing so as to produce use cases using CGUs data. To this end, two tools are currently under development : a script allowing to generate a dataset from a CGUs versions repository, and a python library easing the exploration process for these data. 
+{: .text-lg }
+
+## Dataset
+
+A first dataset has been published [here](https://github.com/ambanum/CGUs-versions/releases) and contains the version history of all tracked CGUs. The [`CGUs-stats`](https://github.com/ambanum/CGUs-stats/) tool can help programatically explore these data.
+
+
+## Readability Across Time
+
+A first use case is the tracking of the _Flesch-Kincaid_ readability measure throughout a document's version history.
 
 {% include cgus/chart.html %}
 
-## Datas
-Qui duis commodo ipsum sint Lorem esse et elit duis Lorem enim. Cillum ipsum consectetur est exercitation quis tempor qui. Laboris occaecat ex elit nulla excepteur. Sunt Lorem consequat consequat cillum elit nisi nostrud velit culpa cillum incididunt nisi aliquip fugiat. Laborum proident eu deserunt reprehenderit sint nostrud adipisicing nostrud. Minim ut proident culpa enim qui quis incididunt. Enim mollit veniam laboris velit qui reprehenderit.
+## Stats
 
-## Statistics
+Descriptive statistics have also been generated for each tracked service as well as document type.
+
 {% include cgus/tablestats.html %}
 
-## Stats by document types
 {% include cgus/tablestatsbytype.html %}
 
-### Readability Index
+### Caption
+
+_Flesch-Kincaid_ readability measure:
+
 {% include cgus/tablelegend.html %}
