@@ -67,6 +67,13 @@ You can [subscribe](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7U
 
 _For more details, see our [wiki](https://github.com/ambanum/CGUs#be-notified)_.
 
+## Experiments
+
+Experiments are ongoing so as to produce use cases using CGUs data. 
+
+[See ours experiments](/en/cgus/experiments)
+{: .button .button-secondary }
+
 ## Contributing
 
 The tool is built as an **open source and collaborative software**, which means that everyone can contribute to its improvement and to the addition of documents and service providers to be tracked.
@@ -78,10 +85,3 @@ The association Terms of Service Didn't Read (ToSDR) had developed a similar too
 The Direction Générale des Entreprises (DGE), through the Digital Regulation Expertise Center (PEReN), contributes to the tool by developing new functionalities, such as tracking images and documents in PDF format.
 
 {% include ctabloc.html %}
-
-## Valorisation du jeu de données
-
-In proident eu proident anim amet tempor exercitation aliqua reprehenderit excepteur sint tempor. Exercitation culpa cillum quis adipisicing anim amet exercitation ipsum cillum ad cupidatat nisi ad excepteur. Commodo occaecat qui cupidatat consectetur proident non mollit quis dolore proident. Minim in excepteur quis eu ipsum anim nulla consequat aliquip laboris elit. Do commodo magna nostrud commodo minim ad aute laborum aliquip amet consequat tempor aute et.
-Nous essayons ...
-
-[Voir nos experimentations](/en/cgus/experimentations)
