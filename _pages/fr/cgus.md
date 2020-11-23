@@ -15,8 +15,10 @@ navbar_items:
 ## Suivre les engagements contractuels des principaux fournisseurs de services en ligne
 
 CGUs est un outil libre et ouvert de **suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne**.
-Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions en étant notifiée à chaque publication d'une nouvelle version ainsi qu'en explorant leur historique. 
+Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions.
 {: .text-lg }
+
+TODO : Essayer une image pour habiller
 
 ### Pourquoi suivre les conditions générales d'utilisation ?
 
@@ -26,14 +28,13 @@ En matière de manipulation de l'information, les pratiques décrites permettent
 
 ### Études de cas
 
-- Google a modifié les conditions de validation des applications mobiles afin d’interdire les apps qui laissent supposer à tort être une application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité. Cette nouvelle version des conditions interdit également les apps de développeurs qui témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l’information.
+- Google a modifié les conditions de validation des applications mobiles afin d’interdire les apps qui laissent supposer à tort être une application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité. Cette nouvelle version des conditions interdit également les apps de développeurs qui témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l’information. TODO : mettre le lien vers le changement
 
 ![](../../assets/img/cgus/google-case-studie.png)
 
-- TikTok se réfère aux standards de sa communauté pour offrir à ses utilisateurs l'opportunité de signaler un contenu qui serait estimé inapproprié et irait à leur rencontre.  
-[https://github.com/ambanum/CGUs-versions/commit/0d2f0386](https://github.com/ambanum/CGUs-versions/commit/0d2f0386)
+- TikTok se réfère aux standards de sa communauté pour offrir à ses utilisateurs l'opportunité de signaler un contenu qui serait estimé inapproprié et irait à leur rencontre. [Voir le changement](https://github.com/ambanum/CGUs-versions/commit/0d2f0386)
 
-- Google AdSense a modifié sa politique d’utilisation afin d’y inclure une mention relative aux pratiques trompeuses coordonnées. Celle-ci prohibe les pratiques visant à se coordonner avec d’autres sites ou comptes en dissimulant ou déformant des informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien, tout en altérant ou en dissimulant des informations relatives à son pays d’origine.
+- Google AdSense a modifié sa politique d’utilisation afin d’y inclure une mention relative aux pratiques trompeuses coordonnées. Celle-ci prohibe les pratiques visant à se coordonner avec d’autres sites ou comptes en dissimulant ou déformant des informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien, tout en altérant ou en dissimulant des informations relatives à son pays d’origine. TODO : mettre le lien vers le changement
 
 ![](../../assets/img/cgus/google-case-studie.png)
 
@@ -56,13 +57,13 @@ _Actuellement, nous ne suivons que les **conditions** rédigées en anglais et c
 
 À partir de la **page d'accueil du dépôt** [CGUs-versions](https://github.com/ambanum/CGUs-versions), ouvrez le dossier du service de votre choix. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
 
-_Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#naviguer-dans-lhistorique-des-versions)_
+_Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#naviguer-dans-lhistorique-des-versions)_.
 
 ### Recevoir des notifications 
 
 Vous pouvez [vous abonner](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7UkHCn0qVrcD188cQb-ofHVBGpvdUWQ6EraZ5AIb6vJqz3L8LDvYhEzPb2SE6eGWP35zXrpwEFVJCpGuER9DKPBUrifKScpF_ENMqwE_OiOZ3FdCV2ra-TXQNxB2sTEL13Zj8HU7U0vbbeF7TnbFiW8gGbcOa5liqmMvw_rghnEB2htMQRCk6A3eyj) pour recevoir un courriel à chaque modification d'un document dans l'ensemble de la base.
 
-_Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#recevoir-des-notifications)_
+_Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#recevoir-des-notifications)._
 
 **Attention, ce service est en version bêta et vous risquez de recevoir de nombreuses notifications !** Vous pourrez vous désabonner en répondant à n'importe quel courriel reçu.
 
@@ -77,3 +78,10 @@ L’association Terms of Service Didn’t Read (ToSDR) avait développé un outi
 La Direction générale des entreprises (DGE), à travers le pôle d’expertise de la régulation du numérique (PEReN), contribue à l'outil en développant de nouvelles fonctionnalités, comme le suivi des images et des documents au format PDF.
 
 {% include ctabloc.html %}
+
+## Valorisation du jeu de données
+
+In proident eu proident anim amet tempor exercitation aliqua reprehenderit excepteur sint tempor. Exercitation culpa cillum quis adipisicing anim amet exercitation ipsum cillum ad cupidatat nisi ad excepteur. Commodo occaecat qui cupidatat consectetur proident non mollit quis dolore proident. Minim in excepteur quis eu ipsum anim nulla consequat aliquip laboris elit. Do commodo magna nostrud commodo minim ad aute laborum aliquip amet consequat tempor aute et.
+Nous essayons ...
+
+[Voir nos experimentations](/fr/)
