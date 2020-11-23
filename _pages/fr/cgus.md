@@ -56,7 +56,7 @@ _Actuellement, nous ne suivons que les **conditions** rédigées en anglais et c
 
 À partir de la **page d'accueil du dépôt** [CGUs-versions](https://github.com/ambanum/CGUs-versions), ouvrez le dossier du service de votre choix. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
 
-_Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#recevoir-des-notifications)_
+_Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/blob/master/README.fr.md#naviguer-dans-lhistorique-des-versions)_
 
 ### Recevoir des notifications 
 
