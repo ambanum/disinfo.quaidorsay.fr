@@ -140,13 +140,13 @@
 		tbody {
 			td {
 				border-top: 1px solid $color-g100;
-				border-right: 1px solid #f8f8f8;
+				border-right: 1px solid $color-g100;
 				font-size: 1.4rem;
 			}
 		}
 	}
 
-	.table-isresponsive {
+	.table-isresponsive:not(.c3-tooltip) {
 
 		@include responsiveMaxWidth($bpMobile) {
 
@@ -169,7 +169,8 @@
 
 			tbody {
 				td {
-					border: none;
+					border-top: none;
+					border-bottom: none;
 					padding: 4px 0;
 				}
 
@@ -258,6 +259,4 @@
 			counter-increment: h5;
 		}
 	}
-
-
 }
