@@ -23,20 +23,29 @@ css_files:
 
 {% include breadcrumb.html %}
 
+Des expérimentations sont en cours afin de produire des premiers cas d'usage à partir des données générées par l'outil CGUs. Dans ce cadre, deux outils annexes sont en cours de développement : un script permettant l'extraction d'un jeu de données à partir d'un dépot de versions CGUs, et un utilitaire facilitant l'exploration de ces données.
+{: .text-lg }
+
+## Jeu de données
+
+Un premier jeu de données a d'ores et déjà été publié [ici](https://github.com/ambanum/CGUs-versions/releases) et permet d'explorer l'intégralité des versions collectées par l'outil. L'utilitaire [`CGUs-stats`](https://github.com/ambanum/CGUs-stats/) peut aider à l'exploration programmatique des données.
+
 ## Évolution de la lisibilité dans le temps
+
+Le premier cas d'usage exploré est le suivi d'une mesure de lisibilité dite de _Flesch-Kincaid_ à travers l'historique d'un CGU.
 
 {% include cgus/chart.html %}
 
-## Jeu de donées
-Qui duis commodo ipsum sint Lorem esse et elit duis Lorem enim. Cillum ipsum consectetur est exercitation quis tempor qui. Laboris occaecat ex elit nulla excepteur. Sunt Lorem consequat consequat cillum elit nisi nostrud velit culpa cillum incididunt nisi aliquip fugiat. Laborum proident eu deserunt reprehenderit sint nostrud adipisicing nostrud. Minim ut proident culpa enim qui quis incididunt. Enim mollit veniam laboris velit qui reprehenderit.
+## Statistiques 
 
-[Télécharger un jeu de données](https://github.com/ambanum/CGUs-versions/releases){: .button .button-secondary }
+Des statistiques decriptives ont été générées pour chaque service ainsi que pour chaque type de CGUs.
 
-## Stats
 {% include cgus/tablestats.html %}
 
-## Stats by document types
 {% include cgus/tablestatsbytype.html %}
 
 ### Légende
+
+Mesure de lisibilité de _Flesch-Kincaid_
+
 {% include cgus/tablelegend.html %}

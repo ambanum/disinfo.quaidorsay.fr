@@ -39,13 +39,13 @@ tablestatsbytype:
     fr: Nb. de documents
     en: Num. docs
   col3-label:
-    fr: Nb. de mots moyens
+    fr: Nb. moy. de mots
     en: Mean num. words
   col4-label:
     fr: Écart type
     en: Standard deviation
   col5-label:
-    fr: Lisibilité moyenne
+    fr: Lisibilité moy.
     en: Mean readability
 tablelegend:
   col1-label:
@@ -57,3 +57,57 @@ tablelegend:
   col3-label:
     fr: Remarques
     en: Notes
+  score-90-100-label:
+    fr: CM2
+    en: 5<sup>th</sup> grade
+  score-90-100-desc:
+    fr: Très facile à lire. Facilement compréhensible par un élève moyen de 11 ans.
+    en: Very easy to read. Easily understood by an average 11-year-old student.
+  score-90-80-label:
+    fr: 6<sup>ème</sup>
+    en: 6<sup>th</sup> grade
+  score-90-80-desc:
+    fr: Facile à lire. Anglais conversationnel pour les consommateurs.
+    en: Easy to read. Conversational English for consumers.
+  score-80-70-label:
+    fr: 5<sup>ème</sup>
+    en: 7<sup>th</sup> grade
+  score-80-70-desc:
+    fr: Assez facile à lire.
+    en: Fairly easy to read.
+  score-70-60-label:
+    fr: 4<sup>ème</sup> et 3<sup>ème</sup>
+    en: 8<sup>th</sup> & 9<sup>th</sup> grade
+  score-70-60-desc:
+    fr: Facilement compréhensible par les étudiants de 13 à 15 ans.
+    en: Plain English. Easily understood by 13- to 15-year-old students.
+  score-60-50-label:
+    fr: 2<sup>nde</sup> et 1<sup>re</sup>
+    en: 10<sup>th</sup> to 12<sup>th</sup> grade
+  score-60-50-desc:
+    fr: Assez difficile à lire.
+    en: Fairly difficult to read.
+  score-50-30-label:
+    fr: Études supérieures
+    en: College
+  score-50-30-desc:
+    fr: Difficile à lire.
+    en: Difficult to read.
+  score-30-10-label:
+    fr: Diplômé de l'université	
+    en: College graduate
+  score-30-10-desc:
+    fr: Très difficile à lire. Mieux compris par les diplômés de l'université.
+    en: Very difficult to read. Best understood by university graduates.
+  score-10-0-label:
+    fr: Professionnel	
+    en: Professional	
+  score-10-0-desc:
+    fr: Extrêmement difficile à lire. Mieux compris par les diplômés de l'université.
+    en: Extremely difficult to read. Best understood by university graduates.
+
+
+
+
+
+

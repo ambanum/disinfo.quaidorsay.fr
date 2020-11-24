@@ -69,6 +69,11 @@ _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/bl
 
 **Attention, ce service est en version bêta et vous risquez de recevoir de nombreuses notifications !** Vous pourrez vous désabonner en répondant à n'importe quel courriel reçu.
 
+## Experimentations
+
+Nous explorons les données de l'outil CGUs et générons des jeux de données publiques.
+
+[Voir nos experimentations](/fr/cgus/experimentations)
 ## Contribuer
 
 L’outil est construit sous la forme d’un **logiciel libre et collaboratif**, ce qui signifie que chacun peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.
@@ -80,10 +85,3 @@ L’association Terms of Service Didn’t Read (ToSDR) avait développé un outi
 La Direction générale des entreprises (DGE), à travers le pôle d’expertise de la régulation du numérique (PEReN), contribue à l'outil en développant de nouvelles fonctionnalités, comme le suivi des images et des documents au format PDF.
 
 {% include ctabloc.html %}
-
-## Valorisation du jeu de données
-
-In proident eu proident anim amet tempor exercitation aliqua reprehenderit excepteur sint tempor. Exercitation culpa cillum quis adipisicing anim amet exercitation ipsum cillum ad cupidatat nisi ad excepteur. Commodo occaecat qui cupidatat consectetur proident non mollit quis dolore proident. Minim in excepteur quis eu ipsum anim nulla consequat aliquip laboris elit. Do commodo magna nostrud commodo minim ad aute laborum aliquip amet consequat tempor aute et.
-Nous essayons ...
-
-[Voir nos experimentations](/fr/cgus/experimentations)
