@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang }}">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+		<title>{{ page.title | strip_html}}</title>
+		{% if page.htmlDescription %}
+		<meta name="description" content="{{ page.htmlDescription }}">
+		{% endif %}
+
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		{% for cssFile in page.css_files %}
+			<link rel="stylesheet" href="{{ cssFile | absolute_url }}">
+		{% endfor %}
+
+		{% for jsFile in page.js_files %}
+			<script type="text/javascript" src="{{ jsFile | absolute_url }}"></script>
+		{% endfor %}
+	</head>
+
+	<body>
+		{% include header.html %}
+
+		{% include hero.html %}
+
+		<main class="main sectioncontainer">
+			<div class="sectioncontent sectioncontent-withsidebar">
+				{% include sidebar.html %}
+				<div class="notsidebar">
+					{{ content }}
+				</div>	
+			</div>
+		</main>
+
+		{% include icons.svg %}
+
+		{% include tracking.html %}
+
+		{% include footer.html %}
+
+	</body>
+</html>

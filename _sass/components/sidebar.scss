@@ -1,0 +1,5 @@
+.sidebar{
+	border:1px solid red;
+	grid-column-end: span 1;
+	@include grid(4, 3);
+}

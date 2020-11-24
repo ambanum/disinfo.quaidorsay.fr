@@ -1,16 +1,18 @@
 {% assign pagename =  page.name | remove: ".html" | remove: ".md" %}
-<section class="hero">
-	<div class="hero_content">
-		<h1 class="hero_tile">
-			{% if site.data.translations.[pagename].hero.title[page.lang] %}
-				<span class="hero_title_part1">{{ site.data.translations.[pagename].hero.title[page.lang] }}</span>
+{% if site.data.translations.[pagename].hero %}
+	<section class="hero">
+		<div class="hero_content">
+			<h1 class="hero_tile">
+				{% if site.data.translations.[pagename].hero.title[page.lang] %}
+					<span class="hero_title_part1">{{ site.data.translations.[pagename].hero.title[page.lang] }}</span>
+				{% endif %}
+				{% if site.data.translations.[pagename].hero.subtitle[page.lang] %}
+					<span class="hero_title_part2">{{ site.data.translations.[pagename].hero.subtitle[page.lang] }}</span>
+				{% endif %}
+			</h1>
+			{% if site.data.translations.[pagename].hero.chapo[page.lang] %}
+				<p class="hero_chapo">{{ site.data.translations.[pagename].hero.chapo[page.lang] }}</p>
 			{% endif %}
-			{% if site.data.translations.[pagename].hero.subtitle[page.lang] %}
-				<span class="hero_title_part2">{{ site.data.translations.[pagename].hero.subtitle[page.lang] }}</span>
-			{% endif %}
-		</h1>
-		{% if site.data.translations.[pagename].hero.chapo[page.lang] %}
-			<p class="hero_chapo">{{ site.data.translations.[pagename].hero.chapo[page.lang] }}</p>
-		{% endif %}
-	</div>
-</section>
+		</div>
+	</section>
+{% endif %}

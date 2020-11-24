@@ -6,6 +6,12 @@
 	max-width: $gridWidth;
 	margin: 0 auto;
 
+	&-withsidebar{
+		display: grid;
+		grid-gap: $gridGutterWidth;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
 	@include responsiveMaxWidth($gridWidth + $gridGutterWidth) {
 		padding: 0 $gridGutterWidth;
 	}

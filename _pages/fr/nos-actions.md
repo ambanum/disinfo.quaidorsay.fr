@@ -1,4 +1,5 @@
 ---
+layout: with-sidebar
 permalink: /fr/nos-actions
 title: Nos actions
 navbar_items:
@@ -8,4 +9,4 @@ navbar_items:
   - <a href="/fr/cgus" class="header_mainnav_link">CGUs</a>
 ---
 
-{% include hero.html %}
+## TEST
