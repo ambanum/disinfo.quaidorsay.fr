@@ -8,12 +8,21 @@
 	padding-top: 128px;
 	padding-bottom: 128px;
 
+	@include responsiveMaxWidth($bpMobile) {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+
 	h1 {
 		text-align: center;
 		@include grid(9, 8);
 		margin-right: auto;
 		margin-left: auto;
 		margin-bottom: 128px;
+
+		@include responsiveMaxWidth($bpMobile) {
+			margin-bottom: 64px;
+		}
 	}
 
 	h2 {
@@ -28,7 +37,7 @@
 		margin-top: 32px;
 	}
 
-	p{
+	p {
 		margin-top: 20px;
 	}
 
@@ -74,7 +83,7 @@
 			}
 		}
 
-		dd{
+		dd {
 			margin-top: 4px;
 		}
 	}
