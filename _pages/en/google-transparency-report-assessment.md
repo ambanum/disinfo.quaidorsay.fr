@@ -3,9 +3,10 @@ permalink: /en/google-transparency-report-assessment
 title: Google Transparency Report Assessment
 numbered_headers: true
 navbar_items:
-  - <a href="/" class="header_mainnav_link">Home</a>
+  - <a href="/en" class="header_mainnav_link">Home</a>
   - <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>
   - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
+  - <a href="/en/cgus" class="header_mainnav_link">CGUs</a>
 ---
 
 # Google Transparency Report Assessment

@@ -8,12 +8,21 @@
 	padding-top: 128px;
 	padding-bottom: 128px;
 
+	@include responsiveMaxWidth($bpMobile) {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+
 	h1 {
 		text-align: center;
 		@include grid(9, 8);
 		margin-right: auto;
 		margin-left: auto;
 		margin-bottom: 128px;
+
+		@include responsiveMaxWidth($bpMobile) {
+			margin-bottom: 64px;
+		}
 	}
 
 	h2 {
@@ -21,7 +30,7 @@
 	}
 
 	h3 {
-		margin-top: 36px;
+		margin-top: 40px;
 	}
 
 	h4 {
@@ -61,15 +70,21 @@
 	}
 
 	dl {
-		padding: 24px;
+		padding: 24px 24px 0 24px;
 
 		dt {
 			margin-top: 24px;
 			@extend .font-mariannebold;
+			display: list-item;
+			list-style-type: circle;
 
 			&:first-child {
 				margin-top: 0;
 			}
+		}
+
+		dd {
+			margin-top: 4px;
 		}
 	}
 
@@ -84,7 +99,7 @@
 		width: 100%;
 	}
 
-	img{
+	img {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
@@ -104,26 +119,75 @@
 		word-break: normal;
 	}
 
-	table {
+	table:not(.c3-tooltip) {
 		margin-top: 24px;
-		table-layout: fixed;
 		width: 100%;
 		border-collapse: collapse;
 
 		th,
 		td {
-			padding: 8px 16px;
+			padding: 8px;
 		}
 
 		thead {
 			th {
-				background-color: $color-g400;
+				background-color: $color-g300;
+				@extend .font-mariannebold;
+				font-size: 1.4rem;
 			}
 		}
 
 		tbody {
 			td {
 				border-top: 1px solid $color-g100;
+				border-right: 1px solid $color-g100;
+				font-size: 1.4rem;
+			}
+		}
+	}
+
+	.table-isresponsive:not(.c3-tooltip) {
+
+		@include responsiveMaxWidth($bpMobile) {
+
+			/* Force table to not be like tables anymore */
+			table,
+			thead,
+			tbody,
+			th,
+			td,
+			tr {
+				display: block;
+			}
+
+			/* Hide table headers (but not display: none;, for accessibility) */
+			thead tr {
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+
+			tbody {
+				td {
+					border-top: none;
+					border-bottom: none;
+					padding: 4px 0;
+				}
+
+				tr {
+					padding: 12px 0;
+					border-bottom: 1px solid $color-g300;
+				}
+			}
+
+			td {
+				display: flex;
+			}
+
+			td:before {
+				content: attr(data-label);
+				font-weight: bold;
+				width: 50%;
 			}
 		}
 	}

@@ -4,6 +4,14 @@
 			<a class="breadcrumb_item_link" href="{{ site.url | append: "/" | append: page.lang }}" itemprop="item">{{ site.data.translations.global.breadcrumb.home-link-label[page.lang] }}</a>
 			<div class="breadcrumb_item_icon icon icon_smallarrowleft"><svg><use xlink:href="#smallarrowleft"></use></svg></div>
 		</li>
+
+		{% for breadcrumb_item in page.breadcrumb_items %}
+			<li class="breadcrumb_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">	
+				<a class="breadcrumb_item_link" href="{{ breadcrumb_item.url }}" itemprop="item">{{ breadcrumb_item.label }}</a>
+				<div class="breadcrumb_item_icon icon icon_smallarrowleft"><svg><use xlink:href="#smallarrowleft"></use></svg></div>
+			</li>
+		{% endfor %}
+		
 		<li class="breadcrumb_item breadcrumb_item-iscurrent" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 			{{ page.title }}
 		</li>

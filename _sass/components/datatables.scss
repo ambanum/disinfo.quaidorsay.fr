@@ -1,0 +1,64 @@
+.dataTable-bottom {
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+
+	@include responsiveMaxWidth($bpMobile) {
+		flex-wrap: wrap;
+	}
+}
+
+.dataTable-info {
+	flex-grow: 1;
+	text-align: right;
+
+	@include responsiveMaxWidth($bpMobile) {
+		width: 100%;
+	}
+}
+
+.dataTable-pagination {
+	display: flex;
+	margin-left: 12px;
+
+	li {
+		list-style: none;
+		display: inline-block;
+		margin: 0 4px;
+		padding: 0 8px;
+		background-color: $color-g100;
+
+		&.active {
+			background-color: $color-g300;
+		}
+	}
+
+	@include responsiveMaxWidth($bpMobile) {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 12px;
+		text-align: right;
+		justify-content: flex-end;
+	}
+}
+
+.dataTable-info {
+	font-size: 1.4rem;
+}
+
+.dataTable-sorter {
+	position: relative;
+	font-weight: normal;
+	@extend .font-mariannebold;
+	display: block;
+
+	&:after {
+		content: "↓";
+		position: absolute;
+		right: 8px;
+		font-size: 1.4rem;
+		top: 2px;
+		color: $color-g500;
+		@extend .font-marianne;
+	}
+}
