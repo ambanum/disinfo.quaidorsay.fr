@@ -24,7 +24,7 @@ Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à to
 
 Tout fournisseur de services en ligne dispose de conditions d’utilisation définies dans un ensemble de documents contractuels qui régissent **les modalités d’interaction avec ses utilisateurs**, comme les politiques de modération des contenus, la responsabilité de l'éditeur ou encore la juridiction compétente en cas de litige.
 
-En matière de manipulation de l'information, les pratiques décrites permettent de mieux **appréhender les vulnérabilités** de ces acteurs et la transcription des contraintes législatives, des recommandations des pouvoir publics ou encore des mesures volontaires mises en oeuvre permet d’**apprécier leur loyauté**.
+En matière de manipulation de l'information, les pratiques décrites permettent de mieux **appréhender les vulnérabilités** de ces acteurs et la transcription des contraintes législatives, des recommandations des pouvoir publics ou encore des mesures volontaires mises en oeuvre et permettre d’**apprécier leur loyauté**.
 
 ### Études de cas
 
