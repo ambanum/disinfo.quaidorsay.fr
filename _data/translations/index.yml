@@ -1,0 +1,154 @@
+hero:
+  title:
+    fr: Internet nous rapproche.
+    en: The Internet brings us closer.
+  subtitle:
+    fr: Les manipulations de l’information nous éloignent.
+    en: Information manipulation<br/> drives us apart.
+  chapo:
+    fr: La diplomatie numérique française participe à en réduire les impacts.
+    en: French digital diplomacy contributes to reduce its impacts.
+casestudies:
+  title:
+    fr: Fake news, infox, désinformation… 
+    en: Fake news, misinformation, disinformation…
+  subtitle:
+    fr: Ce sujet est rendu complexe par des termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information</strong>.
+    en: The topic is riddled with words covering different realities. We prefer the more generic term <strong>information manipulation</strong>.
+  items:
+    - item:
+      image-src: ../../assets/img/casestudies/cambrige.jpg
+      title:
+        fr: Scandale Cambridge Analytica et l'élection présidentielle américaine
+        en: Cambridge Analytica Scandal and the U.S. presidential elections
+      desc:
+        fr: L'entreprise Cambridge Analytica mène, en 2016, une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains via une application tierce. Elle cible des électeurs indécis, sélectionnés sur la base de leurs données personnelles, afin d'orienter leur vote.
+        en: In 2016, Cambridge Analytica has been hired by the Trump candidate’s team to conduct a micro-targeted campaign on Facebook. The company is recovering the personal data of 87 million people via a third party application, and is running a targeted campaign against undecided voters selected on the basis of their personal data in order to influence their vote.
+      link-href:
+        fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
+        en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
+      link-label:
+        fr: Lire l'étude de cas
+        en: Read the case study
+    - item:
+      image-src: ../../assets/img/casestudies/rohingya.jpg
+      title:
+        fr: Incitation à la haine envers les Rohingyas au Myanmar
+        en: Incitement to hatred towards the Rohingya in Myanmar
+      desc:
+        fr: En 2018, Facebook révèle que des centaines de faux comptes populaires sont utilisés par la junte militaire au Myanmar pour partager et relayer du contenu incitant à la haine envers les Rohingyas et justifier leur migration forcée.
+        en: In 2018, during the Rohingya crisis in Myanmar, Facebook reveals that the military junta is conducting coordinated information manipulation campaigns using hundreds of fake accounts to incite hatred towards the Rohingyas and thus justify their forced migration.
+      link-href:
+        fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr
+        en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples
+      link-label:
+        fr: Lire l'étude de cas
+        en: Read the case study
+    - item:
+      image-src: ../../assets/img/casestudies/notre-dame.jpg
+      title:
+        fr: Incendie de la cathédrale de Notre-Dame de Paris 
+        en: Notre-Dame de Paris fire 
+      desc:
+        fr: "La propagation de l’information de l’incendie de la cathédrale de Notre-Dame de Paris en avril 2019 a fait l’objet de plusieurs manipulations. Un narratif terroriste est développé aux Etats-Unis. En parallèle, les sources pro-Kremlin lient la décadence de la cathédrale à celle des valeurs européennes tandis qu'en Europe occidentale, l’accent est mis sur les clivages sociétaux et religieux préexistants."
+        en: The spread of information from Notre-Dame de Paris fire in April 2019 has been subject to several manipulations. A terrorist narrative is developing in the United States. Pro-Kremlin sources is linking the decadence of the cathedral to European values while Western Europe is highlighting pre-existing societal and religious divides.
+      link-href:
+        fr: https://disinfo.quaidorsay.fr/encyclopedia/publications/
+        en: https://disinfo.quaidorsay.fr/encyclopedia/publications/
+      link-label:
+        fr: Lire l'étude de cas
+        en: Read the case study
+  items-context:
+    fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir d'autres études de cas.</a>
+    en: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">Discover more case studies.</a>
+  desc:
+    fr: "Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations ou encore des groupes d’individus. Elles visent souvent à fragiliser <strong>notre cohésion sociale</strong> et <strong>nos processus démocratiques.</strong>"
+  en: "Information manipulation can be orchestrated by a variety of sources: state or non-state actors, such as companies or organisations, or even informal groups of individuals but often aims at disrupting <strong>our social cohesion</strong> and <strong>democratic processes</strong>."
+vulnerabilities:
+  title:
+    fr: Ces manipulations exploitent des vulnérabilités.
+    en: These manipulations exploit vulnerabilities.
+  subtitle:
+    fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de ces vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler l'opinion.
+    en: Vulnerabilites are due to the way information is presented online and can be exploited by bad actors to manipulate opinion.
+  items:
+    - item:
+      title:
+        fr: Faux profils
+        en: Fake Social Media Profiles
+      desc:
+        fr: Créer des faux profils, pages ou groupes sur les médias sociaux pour tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et amplifier l'adoption de celui-ci.
+        en: By creating fake users, pages and groups with a variety of interests and commitments, attackers can mislead users about the reliability of the content and amplify its adoption.
+    - item:  
+      title:
+        fr: Faux sondages
+        en: Fake online polls
+      desc:
+        fr: Créer de faux sondages ou manipuler des sondages en ligne pour générer de fausses mesures d’engagement et ainsi manipuler la perception d’un sujet.
+        en: Create fake online polls, or manipulate existing online polls to generate fake engagement metrics and thus manipulate perception of given issue.
+    - item:
+      title:
+        fr: Vides de données
+        en: Data voids prefilling
+      desc:
+        fr: Combler l'absence de sources de qualité et faisant autorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
+        en: Data voids prefilling can be used to fill the lack of quality and authoritative sources in search engine results to impose a narrative on a topic.
+    - item:
+      title:
+        fr: Publicités ciblées
+        en: Paid targeted ads
+      desc:
+        fr: Recourir à des publicités ciblant des utilisateurs sur la base de leurs données personnelles pour diffuser des messages fragmentant l'espace de débat public.
+        en: Using paid targeted ads makes it possible to disseminate messages by targeting specific users on the basis of their personal data.
+    - item:
+      title:
+        fr: Profils automatisés
+        en: Automated Profiles
+      desc:
+        fr: "Utiliser des profils automatisés, fonctionnant en réseau et de manière coordonnée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
+        en: "Automated profiles are designed to amplify content and give appearance content is more “popular” than it is. They can operate as a network, to function in a coordinated manner."
+    - item:
+      title:
+        fr: Faux sites d'informations
+        en: Create fake or imposter news sites
+      desc:
+        fr: Créer de faux sites d'informations, reprenant les codes et les marques de médias connus pour tromper le lecteur. 
+        en: Fake news sites can be used to share information while misleading users. These sites often have some superficial markers of authenticity, such as naming and site-design.
+  items-context:
+    fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>.
+    en: Our approach is based on the <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">AMITT framework</a>.
+  desc:
+    fr: "L’économie de l’attention favorise la publication de contenus qui <strong>exploitent nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », une mesure de visibilité trop souvent utilisé à tort pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
+    en: The attention economy allows bad actors to gain money and views by publishing content that <strong>exploits our biases and tendencies</strong> to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring <strong>credibility or importance</strong>. 
+actions:
+  anchor:
+    fr: nos-actions
+    en: our-actions
+  title:
+    fr: Au sein du ministère de l’Europe et des Affaires étrangères, l'équipe de l'<strong>Ambassadeur pour le numérique</strong> coordonne et valorise les positions de la France pour réduire ces vulnérabilités.
+    en: Within the Ministry for Europe and Foreign Affairs the team of the <strong>French Ambassador for Digital Affairs</strong> coordinates and promotes France's positions to reduce these vulnerabilities.
+  items:
+    - item:
+      icon: influence
+      title:
+        fr: Influencer
+        en: Influence
+      desc:
+        fr: Nous influençons la gouvernance internationale vers une réglementation européenne proportionnée et efficace visant à réduire les vulnérabilités aux manipulations de l'information.
+        en: We steer international governance towards proportionate and effective European regulation aimed at reducing such vulnerabilities to information manipulation.
+    - item:
+      icon: federate
+      title:
+        fr: Fédérer
+        en: Federate
+      desc:
+        fr: "Nous faisons collaborer les acteurs impliqués dans la lutte contre les manipulations de l'informations et représentons la France au sein des instances européennes et internationales."
+        en: "We connect and promote relevant actors countering information manipulation. We also represent France in the various European and international forums."
+    - item:
+      icon: tool
+      title:
+        fr: Outiller
+        en: Empower
+      desc: 
+        fr: Nous construisons des outils libres et ouverts pour renforcer tous les acteurs publics, privés et de la société civile qui luttent contre les manipulations de l’information.
+        en: We build open tools to strengthen all public, private and civil society actors countering information manipulation.

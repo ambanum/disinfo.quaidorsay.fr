@@ -1,11 +1,11 @@
 <section class="vulnerabilities">
 	<div class="vulnerabilities_content">
 		<div class="vulnerabilities_intro">
-			<h2 class="vulnerabilities_title">{{ site.data.translations.vulnerabilities.title[page.lang] }}</h2>
-			<div class="vulnerabilities_subtitle chapo">{{ site.data.translations.vulnerabilities.subtitle[page.lang] }}</div>
+			<h2 class="vulnerabilities_title">{{ site.data.translations.index.vulnerabilities.title[page.lang] }}</h2>
+			<div class="vulnerabilities_subtitle chapo">{{ site.data.translations.index.vulnerabilities.subtitle[page.lang] }}</div>
 		</div>
 		<div class="vulnerabilities_items">
-			{% for item in site.data.translations.vulnerabilities.items %}
+			{% for item in site.data.translations.index.vulnerabilities.items %}
 				<div class="vulnerabilities_item">
 					<h3 class="vulnerabilities_item_title">{{ item.title[page.lang] }}</h3>
 					<p class="vulnerabilities_item_desc">{{ item.desc[page.lang] }}</p>
@@ -13,10 +13,10 @@
 			{% endfor %}
 		</div>
 		<div class="vulnerabilities_itemsinfo">
-			{{ site.data.translations.vulnerabilities.items-context[page.lang] }}
+			{{ site.data.translations.index.vulnerabilities.items-context[page.lang] }}
 		</div>
 		<div class="vulnerabilities_desc">
-			{{ site.data.translations.vulnerabilities.desc[page.lang] }}
+			{{ site.data.translations.index.vulnerabilities.desc[page.lang] }}
 		</div>
 	</div>
 </section>
