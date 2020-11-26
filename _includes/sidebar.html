@@ -6,7 +6,12 @@
 	<ul class="sidebar_items">
 		{% for item in site.data.translations.[pagename].sidebar.items %}
 			<li class="sidebar_item">
-				<a class="sidebar_item_link" href="{{ item.href[page.lang] }}">{{ item.label[page.lang] }}</a>
+				<a class="sidebar_item_link" href="{{ item.href[page.lang] }}">
+					<div class="sidebar_item_icon icon_{{ item.icon }}">
+						<svg><use xlink:href="#{{ item.icon }}"></use></svg>
+					</div>
+					<span>{{ item.label[page.lang] }}</span>
+				</a>
 				{% if item.subitems %}
 					<ul class="sidebar_subitems">
 						{% for subitem in item.subitems %}

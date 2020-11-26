@@ -14,6 +14,7 @@ sidebar:
       href: 
         fr: "#influencer"
         en: "#influence"
+      icon: influence
       subitems:
         - item:
           label:
@@ -36,6 +37,7 @@ sidebar:
       href: 
         fr: "#federer"
         en: "#federate"
+      icon: federate
     - item:
       label:
         fr: Outiller
@@ -43,13 +45,11 @@ sidebar:
       href: 
         fr: "#outiller"
         en: "#empower"
+      icon: tool
 influence:
   title: 
     fr: Influencer
     en: Influence
-  anchor:
-    fr: "#influencer"
-    en: "#influence"
   items:
     - item:
       title:
@@ -96,9 +96,6 @@ federate:
   title: 
     fr: Fédérer
     en: Federate
-  anchor:
-    fr: "#federer"
-    en: "#federate"
   items:
     - item:
       title:
@@ -145,9 +142,6 @@ empower:
   title: 
     fr: Outiller
     en: Empower
-  anchor:
-    fr: "#outiller"
-    en: "#empower"
   items:
     - item:
       title:

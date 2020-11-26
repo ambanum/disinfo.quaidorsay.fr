@@ -11,21 +11,21 @@ navbar_items:
 ---
 
 ## {{ site.data.translations.[page.original].influence.title[page.lang] }}
-{: {{ site.data.translations.[page.original].influence.anchor[page.lang] }} }
+{: #{{ site.data.translations.[page.original].influence.title[page.lang] | slugify: "latin" }} }
 
 {% for item in site.data.translations.[page.original].influence.items %}
   {% include our-actions/action.html item=item %}
 {% endfor %}
 
 ## {{ site.data.translations.[page.original].federate.title[page.lang] }}
-{: {{ site.data.translations.[page.original].federate.anchor[page.lang] }} }
+{: #{{ site.data.translations.[page.original].federate.title[page.lang] | slugify: "latin" }} }
 
 {% for item in site.data.translations.[page.original].federate.items %}
   {% include our-actions/action.html item=item %}
 {% endfor %}
 
 ## {{ site.data.translations.[page.original].empower.title[page.lang] }}
-{: {{ site.data.translations.[page.original].empower.anchor[page.lang] }} }
+{: #{{ site.data.translations.[page.original].empower.title[page.lang] | slugify: "latin" }} }
 
 {% for item in site.data.translations.[page.original].empower.items %}
   {% include our-actions/action.html item=item %}

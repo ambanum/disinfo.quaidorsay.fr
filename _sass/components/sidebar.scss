@@ -1,9 +1,51 @@
 .sidebar{
-	border:1px solid red;
 	grid-column-end: span 1;
 	@include grid(4, 3);
 }
 
 .sidebar_subitems{
 	margin-left: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar_item{
+}
+
+.sidebar_item_link{
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	background-color: $color-g100;
+	border-bottom:2px solid $color-white;
+	@extend .font-mariannebold;
+
+	& > span{
+		margin-left: 8px;
+		flex-grow: 1;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $color-white;
+	}
+
+}
+.sidebar_item_icon{
+	width:20px;
+	height:20px;
+}
+
+.sidebar_item_icon > svg{
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar_subitems{
+	margin:8px 8px 8px 12px;
+}
+
+.sidebar_subitem_link{
+	font-size:1.4rem;
 }

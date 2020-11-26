@@ -1,4 +1,4 @@
-<div class="action" id="{{ include.item.title[page.lang] | slugify }}">
+<div class="action" id="{{ include.item.title[page.lang] | slugify: "latin"  }}">
 
     {% if include.item.title[page.lang] %}
       <h3 class="action_title">{{ include.item.title[page.lang] }}</h3>
