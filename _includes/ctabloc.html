@@ -1,3 +1,4 @@
+{% assign pagename =  page.name | remove: ".html" | remove: ".md" %}
 <div class="ctabloc">
 	<h3 class="ctabloc_title">{{ site.data.translations.cgus.ctabloc.title[page.lang] }}</h3>
 	<p class="ctabloc_desc">{{ site.data.translations.cgus.ctabloc.desc[page.lang] }}</p>

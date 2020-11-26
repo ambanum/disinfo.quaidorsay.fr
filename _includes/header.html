@@ -11,7 +11,7 @@
 				<ul class="header_mainnav_items">
 					{% for navbar_item in page.navbar_items %}
 						<li class="header_mainnav_item">
-							{{ navbar_item | replace: '!SITE_URL!', site.url }}
+							{{ navbar_item }}
 						</li>
 					{% endfor %}
 				</ul>

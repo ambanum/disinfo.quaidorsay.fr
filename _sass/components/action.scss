@@ -1,0 +1,23 @@
+.action{
+	border:1px solid $color-g300;
+	padding: $gridGutterWidth;
+	margin-top: $gridGutterWidth;
+}
+
+.action_subtitle{
+	margin-top: 12px;
+}
+
+.action_desc{
+	margin-top: 20px;
+}
+
+.action_bottom{
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.action_button{
+	margin-left: auto;
+}

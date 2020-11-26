@@ -1,3 +1,22 @@
-<div class="sidebar">
-	Sidebar
-</div>
+{% assign pagename =  page.name | remove: ".html" | remove: ".md" %}
+{% if page.original %}
+	{% assign pagename =  page.original | remove: ".html" | remove: ".md" %}
+{% endif %}
+<nav class="sidebar">
+	<ul class="sidebar_items">
+		{% for item in site.data.translations.[pagename].sidebar.items %}
+			<li class="sidebar_item">
+				<a class="sidebar_item_link" href="{{ item.href[page.lang] }}">{{ item.label[page.lang] }}</a>
+				{% if item.subitems %}
+					<ul class="sidebar_subitems">
+						{% for subitem in item.subitems %}
+						<li class="sidebar_subitem">
+							<a class="sidebar_subitem_link" href="{{ subitem.href[page.lang] }}">{{ subitem.label[page.lang] }}</a>			
+						</li>
+						{% endfor %}
+					</ul>
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+</nav>

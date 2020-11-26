@@ -1,4 +1,7 @@
 {% assign pagename =  page.name | remove: ".html" | remove: ".md" %}
+{% if page.original %}
+	{% assign pagename =  page.original | remove: ".html" | remove: ".md" %}
+{% endif %}
 {% if site.data.translations.[pagename].hero %}
 	<section class="hero">
 		<div class="hero_content">

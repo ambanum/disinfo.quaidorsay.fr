@@ -1,0 +1,185 @@
+hero:
+  title:
+    fr: Nos actions
+    en: Pour actions
+  chapo:
+    fr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, rhoncus id bibendum ut, egestas sit amet ante. Donec convallis risus ac viverra sagittis. Duis semper feugiat ipsum tempus vulputate. Phasellus nec efficitur magna, in finibus eros. Aenean convallis, lectus vel egestas volutpat, leo neque
+    en: Minim reprehenderit incididunt ad nostrud et magna. Ad dolore ut mollit commodo labore elit voluptate excepteur est. Deserunt eu Lorem tempor est cillum.
+sidebar:
+  items:
+    - item:
+      label:
+        fr: Influencer
+        en: Influencer
+      href: 
+        fr: "#influencer"
+        en: "#influence"
+      subitems:
+        - item:
+          label:
+            fr: Incididunt exercitation cillum cupidatat.
+            en: Incididunt exercitation cillum cupidatat.
+          href:
+            fr: "#incididunt-exercitation-cillum-cupidatat"
+            en: "#incididunt-exercitation-cillum-cupidatat"
+        - item:
+          label:
+            fr: Cnsectetur adipiscing
+            en: Cnsectetur adipiscing
+          href:
+            fr: "#cnsectetur-adipiscing"
+            en: "#cnsectetur-adipiscing"
+    - item:
+      label:
+        fr: Fédérer
+        en: Federate
+      href: 
+        fr: "#federer"
+        en: "#federate"
+    - item:
+      label:
+        fr: Outiller
+        en: Empower
+      href: 
+        fr: "#outiller"
+        en: "#empower"
+influence:
+  title: 
+    fr: Influencer
+    en: Influence
+  anchor:
+    fr: "#influencer"
+    en: "#influence"
+  items:
+    - item:
+      title:
+        fr: Incididunt exercitation cillum cupidatat.
+        en: Incididunt exercitation cillum cupidatat.
+      subtitle:
+        fr: Esse labore tempor esse consequat adipisicing irure. Irure laboris veniam officia non id aliquip pariatur sunt. Dolore do reprehenderit aliqua ipsum dolore ea laborum amet pariatur in qui sint eu. Cupidatat sit esse elit quis eiusmod enim enim laborum pariatur aute fugiat.
+        en: Voluptate Lorem pariatur nulla velit esse amet. Veniam Lorem sit proident ipsum enim pariatur pariatur. Cupidatat exercitation incididunt reprehenderit velit irure ex quis proident eu fugiat sit amet est irure. Sit ut in excepteur do non non consectetur anim. In tempor tempor cillum culpa reprehenderit qui cupidatat elit veniam.
+      desc:
+        fr: Dans un récent entretien au journal Le Monde, Thierry Breton a détaillé un peu le contenu de ce nouveau texte. Prenant acte du fait que la régulation des réseaux sociaux "a vocation à être traitée au niveau européen", le responsable résume le projet simplement "ce qui est autorisé off line doit l’être on line, ce qui est interdit off line doit l’être on line". Une manière selon lui de mettre fin aux dérives de l'Internet qui est encore trop souvent "une zone de non-droit", reprenant au passage un argument largement employé par les politiques de tout bord depuis 10 ans.
+        en: Duis ex dolor anim culpa irure sit amet mollit voluptate aute commodo adipisicing laborum. Occaecat sunt velit tempor minim reprehenderit. Irure est sunt aliquip sit minim occaecat. Aute officia ullamco laborum consectetur exercitation. Irure irure ea voluptate occaecat aute aute amet occaecat cupidatat proident sunt enim. Sunt laborum sint commodo ad ad est duis aute eu deserunt exercitation adipisicing occaecat voluptate.
+      button:
+        label:
+          fr: Click
+          en: Click
+        href:
+          fr: test.com
+          en: test.com
+      sublink:
+        label:
+          fr: Envoyer nous un mail
+          en: Send us an email
+        href:
+          fr: "mailto:matti.schneider@beta.gouv.fr"
+          en: "mailto:matti.schneider@beta.gouv.fr"
+    - item:
+      title:
+        fr: Cnsectetur adipiscing
+        en: Cnsectetur adipiscing
+      subtitle:
+        fr: Elit id dolore cupidatat ullamco incididunt qui ut officia laboris excepteur. Occaecat nulla deserunt voluptate id aliquip. Sint eiusmod eu nulla adipisicing fugiat qui consequat. Eu officia ea deserunt sint ullamco laboris elit irure. Laboris dolor magna ea deserunt aliqua in do mollit id veniam.
+        en: Duis commodo mollit occaecat mollit. Ex do nulla magna ipsum commodo laborum consectetur elit est velit aute Lorem quis. Minim Lorem sint ex eu. Laboris non amet eu proident pariatur amet culpa commodo labore anim id non.
+      desc:
+        fr: Dans un récent entretien au journal Le Monde, Thierry Breton a détaillé un peu le contenu de ce nouveau texte. Prenant acte du fait que la régulation des réseaux sociaux "a vocation à être traitée au niveau européen", le responsable résume le projet simplement "ce qui est autorisé off line doit l’être on line, ce qui est interdit off line doit l’être on line". Une manière selon lui de mettre fin aux dérives de l'Internet qui est encore trop souvent "une zone de non-droit", reprenant au passage un argument largement employé par les politiques de tout bord depuis 10 ans.
+        en: Aliquip pariatur aute occaecat exercitation eiusmod. Aliquip nulla elit nulla dolore amet incididunt velit aute voluptate nisi Lorem ut sunt aute. Commodo consequat adipisicing aliqua sit do commodo cillum commodo do. Dolore veniam commodo dolor qui occaecat. Ut amet fugiat commodo laboris commodo ipsum ut aliqua ad reprehenderit officia ut Lorem magna.
+      button:
+        label:
+          fr: Click
+          en: Click
+        href:
+          fr: test.com
+          en: test.com
+federate:
+  title: 
+    fr: Fédérer
+    en: Federate
+  anchor:
+    fr: "#federer"
+    en: "#federate"
+  items:
+    - item:
+      title:
+        fr: Digital Services Act
+        en: Digital Services Act
+      subtitle:
+        fr: Le Digital Services Act se dévoile peu à peu. Ce texte européen visant à réguler les contenus publiés sur les plateformes et les plateformes elles-mêmes veut être une arme de dissuasion massive à destination des Gafam.
+        en: Voluptate Lorem pariatur nulla velit esse amet. Veniam Lorem sit proident ipsum enim pariatur pariatur. Cupidatat exercitation incididunt reprehenderit velit irure ex quis proident eu fugiat sit amet est irure. Sit ut in excepteur do non non consectetur anim. In tempor tempor cillum culpa reprehenderit qui cupidatat elit veniam.
+      desc:
+        fr: Dans un récent entretien au journal Le Monde, Thierry Breton a détaillé un peu le contenu de ce nouveau texte. Prenant acte du fait que la régulation des réseaux sociaux "a vocation à être traitée au niveau européen", le responsable résume le projet simplement "ce qui est autorisé off line doit l’être on line, ce qui est interdit off line doit l’être on line". Une manière selon lui de mettre fin aux dérives de l'Internet qui est encore trop souvent "une zone de non-droit", reprenant au passage un argument largement employé par les politiques de tout bord depuis 10 ans.
+        en: Duis ex dolor anim culpa irure sit amet mollit voluptate aute commodo adipisicing laborum. Occaecat sunt velit tempor minim reprehenderit. Irure est sunt aliquip sit minim occaecat. Aute officia ullamco laborum consectetur exercitation. Irure irure ea voluptate occaecat aute aute amet occaecat cupidatat proident sunt enim. Sunt laborum sint commodo ad ad est duis aute eu deserunt exercitation adipisicing occaecat voluptate.
+      button:
+        label:
+          fr: Click
+          en: Click
+        href:
+          fr: test.com
+          en: test.com
+      sublink:
+        label:
+          fr: Envoyer nous un mail
+          en: Send us an email
+        href:
+          fr: "mailto:matti.schneider@beta.gouv.fr"
+          en: "mailto:matti.schneider@beta.gouv.fr"
+    - item:
+      title:
+        fr: Cnsectetur adipiscing
+        en: Cnsectetur adipiscing
+      subtitle:
+        fr: Elit id dolore cupidatat ullamco incididunt qui ut officia laboris excepteur. Occaecat nulla deserunt voluptate id aliquip. Sint eiusmod eu nulla adipisicing fugiat qui consequat. Eu officia ea deserunt sint ullamco laboris elit irure. Laboris dolor magna ea deserunt aliqua in do mollit id veniam.
+        en: Duis commodo mollit occaecat mollit. Ex do nulla magna ipsum commodo laborum consectetur elit est velit aute Lorem quis. Minim Lorem sint ex eu. Laboris non amet eu proident pariatur amet culpa commodo labore anim id non.
+      desc:
+        fr: Dans un récent entretien au journal Le Monde, Thierry Breton a détaillé un peu le contenu de ce nouveau texte. Prenant acte du fait que la régulation des réseaux sociaux "a vocation à être traitée au niveau européen", le responsable résume le projet simplement "ce qui est autorisé off line doit l’être on line, ce qui est interdit off line doit l’être on line". Une manière selon lui de mettre fin aux dérives de l'Internet qui est encore trop souvent "une zone de non-droit", reprenant au passage un argument largement employé par les politiques de tout bord depuis 10 ans.
+        en: Aliquip pariatur aute occaecat exercitation eiusmod. Aliquip nulla elit nulla dolore amet incididunt velit aute voluptate nisi Lorem ut sunt aute. Commodo consequat adipisicing aliqua sit do commodo cillum commodo do. Dolore veniam commodo dolor qui occaecat. Ut amet fugiat commodo laboris commodo ipsum ut aliqua ad reprehenderit officia ut Lorem magna.
+      button:
+        label:
+          fr: Click
+          en: Click
+        href:
+          fr: test.com
+          en: test.com
+empower:
+  title: 
+    fr: Outiller
+    en: Empower
+  anchor:
+    fr: "#outiller"
+    en: "#empower"
+  items:
+    - item:
+      title:
+        fr: Duis ex dolor anim culpa
+        en: Duis ex dolor anim culpa
+      subtitle:
+        fr: Le Digital Services Act se dévoile peu à peu. Ce texte européen visant à réguler les contenus publiés sur les plateformes et les plateformes elles-mêmes veut être une arme de dissuasion massive à destination des Gafam.
+        en: Voluptate Lorem pariatur nulla velit esse amet. Veniam Lorem sit proident ipsum enim pariatur pariatur. Cupidatat exercitation incididunt reprehenderit velit irure ex quis proident eu fugiat sit amet est irure. Sit ut in excepteur do non non consectetur anim. In tempor tempor cillum culpa reprehenderit qui cupidatat elit veniam.
+      desc:
+        fr: Dans un récent entretien au journal Le Monde, Thierry Breton a détaillé un peu le contenu de ce nouveau texte. Prenant acte du fait que la régulation des réseaux sociaux "a vocation à être traitée au niveau européen", le responsable résume le projet simplement "ce qui est autorisé off line doit l’être on line, ce qui est interdit off line doit l’être on line". Une manière selon lui de mettre fin aux dérives de l'Internet qui est encore trop souvent "une zone de non-droit", reprenant au passage un argument largement employé par les politiques de tout bord depuis 10 ans.
+        en: Duis ex dolor anim culpa irure sit amet mollit voluptate aute commodo adipisicing laborum. Occaecat sunt velit tempor minim reprehenderit. Irure est sunt aliquip sit minim occaecat. Aute officia ullamco laborum consectetur exercitation. Irure irure ea voluptate occaecat aute aute amet occaecat cupidatat proident sunt enim. Sunt laborum sint commodo ad ad est duis aute eu deserunt exercitation adipisicing occaecat voluptate.
+      button:
+        label:
+          fr: Click
+          en: Click
+        href:
+          fr: test.com
+          en: test.com
+    - item:
+      title:
+        fr: Cnsectetur adipiscing
+        en: Cnsectetur adipiscing
+      subtitle:
+        fr: Elit id dolore cupidatat ullamco incididunt qui ut officia laboris excepteur. Occaecat nulla deserunt voluptate id aliquip. Sint eiusmod eu nulla adipisicing fugiat qui consequat. Eu officia ea deserunt sint ullamco laboris elit irure. Laboris dolor magna ea deserunt aliqua in do mollit id veniam.
+        en: Duis commodo mollit occaecat mollit. Ex do nulla magna ipsum commodo laborum consectetur elit est velit aute Lorem quis. Minim Lorem sint ex eu. Laboris non amet eu proident pariatur amet culpa commodo labore anim id non.
+      desc:
+        fr: Dans un récent entretien au journal Le Monde, Thierry Breton a détaillé un peu le contenu de ce nouveau texte. Prenant acte du fait que la régulation des réseaux sociaux "a vocation à être traitée au niveau européen", le responsable résume le projet simplement "ce qui est autorisé off line doit l’être on line, ce qui est interdit off line doit l’être on line". Une manière selon lui de mettre fin aux dérives de l'Internet qui est encore trop souvent "une zone de non-droit", reprenant au passage un argument largement employé par les politiques de tout bord depuis 10 ans.
+        en: Aliquip pariatur aute occaecat exercitation eiusmod. Aliquip nulla elit nulla dolore amet incididunt velit aute voluptate nisi Lorem ut sunt aute. Commodo consequat adipisicing aliqua sit do commodo cillum commodo do. Dolore veniam commodo dolor qui occaecat. Ut amet fugiat commodo laboris commodo ipsum ut aliqua ad reprehenderit officia ut Lorem magna.
+      button:
+        label:
+          fr: Click
+          en: Click
+        href:
+          fr: test.com
+          en: test.com

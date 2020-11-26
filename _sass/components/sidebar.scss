@@ -3,3 +3,7 @@
 	grid-column-end: span 1;
 	@include grid(4, 3);
 }
+
+.sidebar_subitems{
+	margin-left: 16px;
+}

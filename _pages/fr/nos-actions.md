@@ -1,7 +1,8 @@
 ---
-layout: with-sidebar
+layout: our-actions
 permalink: /fr/nos-actions
 title: Nos actions
+original: our-actions
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="/fr/nos-actions" class="header_mainnav_link">Nos actions</a>
@@ -9,4 +10,24 @@ navbar_items:
   - <a href="/fr/cgus" class="header_mainnav_link">CGUs</a>
 ---
 
-## TEST
+## {{ site.data.translations.[page.original].influence.title[page.lang] }}
+{: {{ site.data.translations.[page.original].influence.anchor[page.lang] }} }
+
+{% for item in site.data.translations.[page.original].influence.items %}
+  {% include our-actions/action.html item=item %}
+{% endfor %}
+
+## {{ site.data.translations.[page.original].federate.title[page.lang] }}
+{: {{ site.data.translations.[page.original].federate.anchor[page.lang] }} }
+
+{% for item in site.data.translations.[page.original].federate.items %}
+  {% include our-actions/action.html item=item %}
+{% endfor %}
+
+## {{ site.data.translations.[page.original].empower.title[page.lang] }}
+{: {{ site.data.translations.[page.original].empower.anchor[page.lang] }} }
+
+{% for item in site.data.translations.[page.original].empower.items %}
+  {% include our-actions/action.html item=item %}
+{% endfor %}
+

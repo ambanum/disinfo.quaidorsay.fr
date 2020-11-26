@@ -1,4 +1,5 @@
 ---
+layout: our-actions
 permalink: /en/our-actions
 title: Our actions
 navbar_items:

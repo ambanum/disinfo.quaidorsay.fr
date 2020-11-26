@@ -1,0 +1,29 @@
+<div class="action" id="{{ include.item.title[page.lang] | slugify }}">
+
+    {% if include.item.title[page.lang] %}
+      <h3 class="action_title">{{ include.item.title[page.lang] }}</h3>
+    {% endif %}
+
+    {% if include.item.subtitle[page.lang] %}
+      <h4 class="action_subtitle">{{ include.item.subtitle[page.lang] }}</h4>
+    {% endif %}
+
+    {% if include.item.desc[page.lang] %}
+      <div class="action_desc">{{ include.item.desc[page.lang] }}</div>
+	{% endif %}
+
+    {% if include.item.sublink.label[page.lang] or include.item.button.label[page.lang] != "" %}
+      <div class="action_bottom">
+
+        {% if include.item.sublink.label[page.lang] %}
+          <a class="action_sublink" href="{{ include.item.sublink.href[page.lang] }}">{{ include.item.sublink.label[page.lang] }}</a>
+        {% endif %}
+
+        {% if include.item.button.label[page.lang] %}
+          <a class="action_button button button-secondary" href="{{ include.item.button.href[page.lang] }}">{{ include.item.button.label[page.lang] }}</a>
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+  </div>
