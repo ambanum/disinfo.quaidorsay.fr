@@ -11,6 +11,7 @@
 		grid-gap: $gridGutterWidth;
 		grid-template-columns: repeat(4, 1fr);
 		align-items: start;
+		padding-bottom: 128px;
 	}
 
 	@include responsiveMaxWidth($gridWidth + $gridGutterWidth) {
