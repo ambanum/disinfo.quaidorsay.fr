@@ -1,14 +1,15 @@
 ---
 permalink: /en/cgus/experiments
 breadcrumb_items:
+ - url: /en/our-tools
+   label: Our tools
  - url: /en/cgus
    label: CGUs
 title: CGUs Experiments
 navbar_items:
-  - <a href="/" class="header_mainnav_link">Accueil</a>
+  - <a href="/" class="header_mainnav_link">Home</a>
   - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
-  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
-  - <a href="/en/cgus" class="header_mainnav_link">CGUs</a>
+  - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
 js_files:
   - assets/js/vendor/d3/d3.5.16.0.min.js
   - assets/js/vendor/c3/c3.0.7.20.min.js

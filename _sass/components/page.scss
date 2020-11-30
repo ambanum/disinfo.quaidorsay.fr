@@ -13,7 +13,7 @@
 		padding-bottom: 64px;
 	}
 
-	h1 {
+	>h1 {
 		text-align: center;
 		@include grid(9, 8);
 		margin-right: auto;
@@ -25,23 +25,23 @@
 		}
 	}
 
-	h2 {
+	>h2 {
 		margin-top: 48px;
 	}
 
-	h3 {
+	>h3 {
 		margin-top: 40px;
 	}
 
-	h4 {
+	>h4 {
 		margin-top: 32px;
 	}
 
-	p {
+	>p {
 		margin-top: 20px;
 	}
 
-	ul {
+	>ul {
 		margin-top: 20px;
 		margin-left: 20px;
 		list-style-type: circle;
@@ -51,7 +51,7 @@
 		}
 	}
 
-	ol {
+	>ol {
 		margin-top: 20px;
 		margin-left: 20px;
 
@@ -69,7 +69,7 @@
 		}
 	}
 
-	dl {
+	>dl {
 		padding: 24px 24px 0 24px;
 
 		dt {
@@ -88,14 +88,14 @@
 		}
 	}
 
-	hr {
+	>hr {
 		border: 0;
 		height: 1px;
 		background-color: $color-g400;
 		margin-top: 24px;
 	}
 
-	iframe {
+	>iframe {
 		width: 100%;
 	}
 
@@ -105,13 +105,13 @@
 		display: block;
 	}
 
-	pre {
+	>pre {
 		margin-top: 16px;
 		padding: 16px;
 		background-color: $color-g100
 	}
 
-	code {
+	>code {
 		background-color: $color-g100;
 		padding: 24px;
 		font-family: monospace;
@@ -192,19 +192,20 @@
 		}
 	}
 
-	blockquote {
+	>blockquote {
 		padding: 8px 16px;
-		margin-top: 16px;
+		margin-top: 20px;
 		position: relative;
 
 		&:before {
 			content: "\"";
 			position: absolute;
-			font-size: 64px;
+			font-size: 76px;
 			line-height: 0;
 			left: 0;
 			top: 16px;
-			color: $color-g100;
+			color: $color-g200;
+			transform: rotate(-10deg);
 		}
 
 		p {

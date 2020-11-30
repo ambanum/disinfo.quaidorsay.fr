@@ -6,6 +6,24 @@
 	h3 {
 		margin-top: 0;
 	}
+
+	ol {
+		margin-top: 20px;
+		margin-left: 20px;
+
+		li {
+			margin-top: 8px;
+
+			ol {
+				margin-top: 4px;
+				margin-left: 20px;
+
+				li {
+					margin-top: 8px;
+				}
+			}
+		}
+	}
 }
 
 #markdown-toc {

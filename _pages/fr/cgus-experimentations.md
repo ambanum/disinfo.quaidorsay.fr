@@ -1,6 +1,8 @@
 ---
 permalink: /fr/cgus/experimentations
 breadcrumb_items:
+ - url: /fr/nos-outils
+   label: Nos outils
  - url: /fr/cgus
    label: CGUs
 title: Expérimentations CGUs
