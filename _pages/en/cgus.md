@@ -1,6 +1,9 @@
 ---
 permalink: /en/cgus
 title: CGUs
+breadcrumb_items:
+ - url: /en/our-tools
+   label: Our tools
 navbar_items:
   - <a href="/en" class="header_mainnav_link">Home</a>
   - <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>

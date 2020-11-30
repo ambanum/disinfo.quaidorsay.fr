@@ -1,6 +1,9 @@
 ---
 permalink: /fr/cgus
 title: Outil de suivi des engagements contractuels des plateformes (CGUs)
+breadcrumb_items:
+ - url: /fr/nos-outils
+   label: Nos outils
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
