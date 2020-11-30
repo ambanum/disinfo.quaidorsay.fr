@@ -1,0 +1,35 @@
+<div class="tool">
+	{% if include.icon %}
+		<div class="tool_icon icon_{{ include.icon }}">
+			<svg>
+				<use xlink:href="#{{ include.icon }}"></use>
+			</svg>
+		</div>
+	{% endif %}
+
+	{% if include.title %}
+		<h3 class="tool_title">{{ include.title }}</h3>
+	{% endif %}
+
+	{% if include.subtitle %}
+        <h4 class="tool_subtitle">{{ include.subtitle }}</h4>
+	{% endif %}
+
+	{% if include.desc %}
+        <div class="tool_desc">{{ include.desc }}</div>
+    {% endif %}
+
+    {% if include.sublink-label or include.button-label != "" %}
+        <div class="tool_bottom">
+
+			{% if include.sublink-label %}
+				<a class="tool_sublink" href="{{ include.sublink-href }}">{{ include.sublink-label }}</a>
+          	{% endif %}
+
+          	{% if include.button-label %}
+            	<a class="tool_button button button-secondary" href="{{ include.button-href }}">{{ include.button-label }}</a>
+          	{% endif %}
+
+        </div>
+      {% endif %}
+</div>

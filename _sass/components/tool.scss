@@ -1,0 +1,43 @@
+.tool{
+	border:1px solid $color-g300;
+	padding: $gridGutterWidth;
+	margin-top: $gridGutterWidth;
+	position: relative;
+}
+
+.tool_icon{
+	position: absolute;
+	right:$gridGutterWidth;
+	top:$gridGutterWidth;
+
+	> svg{
+		width:124px;
+		height:144px;
+		fill: $color-g100;
+	}
+}
+
+.tool_subtitle{
+	margin-top: 12px;
+	position: relative;
+}
+
+.tool_desc{
+	margin-top: 20px;
+	position: relative;
+
+	p + p{
+		margin-top: 20px;
+	}
+}
+
+.tool_bottom{
+	position: relative;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.tool_button{
+	margin-left: auto;
+}
