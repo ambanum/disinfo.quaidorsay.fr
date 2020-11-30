@@ -1,14 +1,13 @@
 ---
-permalink: /fr/nos-actions
-title: Nos actions
+permalink: /fr/nos-outils
+title: Nos outils
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
-  - <a href="/fr/nos-actions" class="header_mainnav_link">Nos actions</a>
-  - <a href="/encyclopedia" class="header_mainnav_link">Désencyclopédie</a>
-  - <a href="/fr/cgus" class="header_mainnav_link">CGUs</a>
+  - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
+  - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 ---
 
-# Nos actions
+# Nos outils
 
 {% include breadcrumb.html %}
 

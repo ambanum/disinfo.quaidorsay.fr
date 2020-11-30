@@ -3,9 +3,8 @@ permalink: /unconference-27-28-june-2019/
 title: June 2019 Unconference
 navbar_items:
   - <a href="/en" class="header_mainnav_link">Home</a>
-  - <a href="/en/our-actions" class="header_mainnav_link">Our actions</a>
-  - <a href="/encyclopedia" class="header_mainnav_link">Disencyclopedia</a>
-  - <a href="/en/cgus" class="header_mainnav_link">CGUs</a>
+  - <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>
+  - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
 ---
 
 # June 2019 Unconference
