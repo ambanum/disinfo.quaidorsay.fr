@@ -24,23 +24,11 @@ The section about political ads of Google’s Transparency Report comprises a [d
 
 The underlying data can also be downloaded as a ZIP file containing CSV files and documentation. Providing this bundle greatly simplifies reuses of this data. In our case, assessing the quality and the consistency of the data provided by Google was much easier than if the data had been available only by an API or a web page.
 
-Additionally, Google claims that the data can be accessed by Google Cloud BigQuery.
-
 ## Limitations
-
-### The scope is limited to the European Parliament election
-
-As stated in the [Political advertising on Google FAQs](https://support.google.com/transparencyreport/answer/9310667), the Transparency Report “covers any ad that mentions a political party, candidate or current officeholder for the European Parliament”. Consequently, ads paid by political parties that did not campaign for the European Parliament elections do not (yet?) appear in the report.
-
-### Data is updated irregularly
-
-Google claims that the data is updated weekly, which could be more frequent.
-
-Indeed, we observed that the data is updated once a week most of the time. Sometimes, several versions alternate during the same week. This is the case between October 15th 2019 and October 22nd 2019. A version A was published during October 15th, 16th, 19th, 21st, 22nd while a version B was published during October 17th, 20th and a version C was published October 18th.
 
 ### Advertiser identifier is inconsistent
 
-The [documentation](https://support.google.com/transparencyreport/answer/9310667) explains that “Multiple advertisers may appear if there is more than one funding source for an ad.” However, we also observed that for 65 ads, the advertiser identity changed between June 14th and June 15th, and again between June 18th and June 19th. Previous advertisers are no longer visible either in the bundle nor the web page.
+The [documentation](https://support.google.com/transparencyreport/answer/9575640) explains that “Multiple advertisers may appear if there is more than one funding source for an ad.” However, we also observed that for 65 ads, the advertiser identity changed between June 14th and June 15th 2019, and again between June 18th and June 19th 2019. Previous advertisers are no longer visible either in the bundle nor the web page.
 
 For instance, the ad [`CR517478000787193856`](https://transparencyreport.google.com/political-ads/advertiser/AR464795176020213760/creative/CR517478000787193856) was initially linked to advertiser `AR188817757448437760` (no longer accessible), then to advertiser `AR322201712037199872` (no longer accessible), and then to advertiser [`AR464795176020213760`](https://transparencyreport.google.com/political-ads/advertiser/AR464795176020213760). These 3 advertisers share the same name so we can assume that these 3 accounts are controlled by the same entity. However, the documentation does no explain why the identifier is not constant.
 
@@ -58,17 +46,26 @@ Ads can be of three types: text, image or video.
 
 #### Content of removed ads is not accessible
 
-The [documentation](https://support.google.com/transparencyreport/answer/9310667) states that:
+The [documentation](https://support.google.com/transparencyreport/answer/9575640) states that:
 
-> The content of an ad may be removed if it was not in compliance with Google Ads policies. The ad’s existing data remains in the report, but the content is replaced with a message stating that it is unavailable.
+> The content of an ad may not appear if the ad did not comply with Google Ads policies, or when it isn’t available for technical reasons; however, data about the ad remains in the report.
 
-In case of policy violation, the data is indeed [replaced by a message](https://transparencyreport.google.com/political-ads/advertiser/AR210958348219056128/creative/CR439284856988368896) so it is impossible to retrieve the original content of the ad. Moreover, the clause that was violated if not mentioned.
+In case of policy violation, the data is indeed [replaced by a message](https://transparencyreport.google.com/political-ads/advertiser/AR45681684477116416/creative/CR228172783299854336):
+
+> Policy violation
+> This ad violated Google's Advertising Policies.
+
+It is thus impossible to retrieve the original content of the ad. Moreover, the [clause that was violated](https://support.google.com/adspolicy/answer/6008942) is not mentioned, as [documented](https://support.google.com/transparencyreport/answer/9575640):
+
+> Google continuously reviews all ads, including election ads, for compliance with our policies.  Any ad found to be non-compliant is labeled as a “Policy Violation” in our report. We do not externally disclose details of which policies advertisers have violated.
 
 Incidentally, the bundle does not reveal which ads were removed and the web page does not allow to search for removed ads, so it is very hard to list which advertisers breached Google policies on political ads.
 
 #### Unexplained ads removal
 
-We are regularly downloading the bundle since June 14th. The version of the bundle published June 19th was missing 212 ads. Eleven European advertisers paid for at least one such ad: [KKW Lewica Razem – Razem, Unia Pracy, RSS](https://transparencyreport.google.com/political-ads/advertiser/AR374597289391423488), [Asociația Platforma Inițiativa România](https://transparencyreport.google.com/political-ads/advertiser/AR166715924462698496), [Kansallinen Kokoomus r.p.](https://transparencyreport.google.com/political-ads/advertiser/AR210958348219056128), [Bündnis 90/Die Grünen Landesverband RLP](https://transparencyreport.google.com/political-ads/advertiser/AR50338116220747776), [Konfederacja KORWiN Braun Liroy Narodowcy](https://transparencyreport.google.com/political-ads/advertiser/AR316331969212317696), [Fratelli d'Italia Centrodestra Nazionale](https://transparencyreport.google.com/political-ads/advertiser/AR400032566754672640), [Bündnis 90/Die Grünen Baden-Württemberg](https://transparencyreport.google.com/political-ads/advertiser/AR17917091730423808), [EVOLVEDREAMSOFT SRL](https://transparencyreport.google.com/political-ads/advertiser/AR495298652231696384), [Sloboda a Solidarita (SaS)](https://transparencyreport.google.com/political-ads/advertiser/AR185084640594231296), [Partido Popular Regional De Canarias](https://transparencyreport.google.com/political-ads/advertiser/AR288284801977286656), [Sloboda a Solidarita](https://transparencyreport.google.com/political-ads/advertiser/AR242125929453715456).
+We have been regularly [downloading the bundle](https://disinfo.quaidorsay.fr/ads/dumps/google/) since June 14th 2019 to January 14th 2020. The version of the bundle published June 19th was missing 212 ads. Eleven European advertisers paid for at least one such ad: [KKW Lewica Razem – Razem, Unia Pracy, RSS](https://transparencyreport.google.com/political-ads/advertiser/AR374597289391423488), [Asociația Platforma Inițiativa România](https://transparencyreport.google.com/political-ads/advertiser/AR166715924462698496), [Kansallinen Kokoomus r.p.](https://transparencyreport.google.com/political-ads/advertiser/AR210958348219056128), [Bündnis 90/Die Grünen Landesverband RLP](https://transparencyreport.google.com/political-ads/advertiser/AR50338116220747776), [Konfederacja KORWiN Braun Liroy Narodowcy](https://transparencyreport.google.com/political-ads/advertiser/AR316331969212317696), [Fratelli d'Italia Centrodestra Nazionale](https://transparencyreport.google.com/political-ads/advertiser/AR400032566754672640), [Bündnis 90/Die Grünen Baden-Württemberg](https://transparencyreport.google.com/political-ads/advertiser/AR17917091730423808), [EVOLVEDREAMSOFT SRL](https://transparencyreport.google.com/political-ads/advertiser/AR495298652231696384), [Sloboda a Solidarita (SaS)](https://transparencyreport.google.com/political-ads/advertiser/AR185084640594231296), [Partido Popular Regional De Canarias](https://transparencyreport.google.com/political-ads/advertiser/AR288284801977286656), [Sloboda a Solidarita](https://transparencyreport.google.com/political-ads/advertiser/AR242125929453715456).
+
+**Update (December 2020)**: A comparison between the bundles from January 14th 2020 and November 31st 2020 shows that while 434.380 ads have been added, 27.937 have been removed in the meantime. During the same timeframe, 82 advertisers have been removed.
 
 #### Altered weekly spendings
 
@@ -79,3 +76,5 @@ In the same bundle version, 293 figures were changed. For instance, it is report
 ### Inconsistent total spendings
 
 For the report to be consistent over time, ads spendings should only increase (or stay the same). However, for some areas in the USA and for Poland, the total spent amount on political ads went down from one report to the next. For example, on the reports dated June 14<sup>th</sup> and June 18<sup>th</sup>, the amount of 201,300 € was reported for Poland. However, on June 19<sup>th</sup>, this amount decreased to 199,200 €.
+
+**Update (December 2020)**: The same test applied from January 14th 2020 to November 31st 2020 shows that the total amount spent decreased for Estonia, Bulgaria and the United Kingdom.
