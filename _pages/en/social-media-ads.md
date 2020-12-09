@@ -29,7 +29,7 @@ See [our assessement of the Google transparency report](/en/google-transparency-
 
 ## Snapchat
 
-Snapchat puclishes a [transparency report](https://www.snap.com/en-US/political-ads/) that is updated daily.
+Snapchat publishes a [transparency report](https://www.snap.com/en-US/political-ads/) that is updated daily.
 
 We found this archive to be easy to download and use. It contains metadata about the ads but not the media (video, picture or text). From [daily downloads](https://disinfo.quaidorsay.fr/ads/dumps/snapchat/), we ran an analysis over the course of November 2019 that found no major inconsistencies (eg no duplication, no removed ads) and a few minor inconsistencies:
 * A small minority of ads had inconsistent changes (on about 3000 ads, 5 had the changing field `startDate`, 10 had a changing URL, 6 had a slightly decreasing print count).
@@ -43,6 +43,14 @@ TikTok [declared on October 2019](https://newsroom.tiktok.com/en-us/understandin
 >[...] we have chosen not to allow political ads on TikTok. Any paid ads that come into the community need to fit the standards for our platform, and the nature of paid political ads is not something we believe fits the TikTok platform experience. To that end, we will not allow paid ads that promote or oppose a candidate, current leader, political party or group, or issue at the federal, state, or local level – including election-related ads, advocacy ads, or issue ads.
 
 Political ads are also listed as prohibited content in the [advertising guidelines for US and EU](https://support.tiktok.com/en/privacy-safety/advertising-guidelines-for-the-united-states-default).
+
+TikTok releases regular [transparency reports](https://www.tiktok.com/safety/resources/transparency-report-2020-1).
+
+Tiktok made several annoucements documenting measures targeting misinformation:
+
+* [Building to support content, account, and platform integrity, 28 Jan 2020](https://newsroom.tiktok.com/en-us/building-to-support-integrity)
+* [TikTok’s #MatKarForward initiative urges netizens to curb the spread of misinformation, 04 May 2020](https://newsroom.tiktok.com/en-in/tiktoks-matkarforward-initiative-urges-netizens-to-curb-the-spread-of-misinformation)
+* [Supporting our community through Covid-19, 17 Jul 2020](https://newsroom.tiktok.com/en-gb/supporting-our-community-through-covid-19)
 
 ## Whatsapp
 

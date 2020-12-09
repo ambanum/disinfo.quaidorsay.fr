@@ -42,15 +42,16 @@ In particular, the reports provides no information about the content of the ads.
 
 ### Lack of information on ad funders
 
-The queried fields are not filled in for all the results returned by the Ads Library API. For example, as of May 16th, the funder of the ad was provided for only 791 ads on a total of 12928 ads displayed in France, just above 6%.
+The queried fields are not filled in for all the results returned by the Ads Library API. For example, on May 16th, the funder of the ad was provided for only 791 ads on a total of 12928 ads displayed in France, just above 6%.
+
+**Update (December 2020)**: The funding entity is now provided for 120.939 ads out of 193.752 displayed in France (62%) on December 2nd 2020.
 
 ### Incomplete API documentation
 
-In our effort to use the Ads Library API, we experienced difficulties with the documentation, either because the needed information was hard to locate or missing altogether. In particular, we ran through the following issues:
+In our effort to use the [Ads Library API](https://www.facebook.com/ads/library/api/), we experienced difficulties with the documentation, either because the needed information was hard to locate or missing altogether. In particular, we ran through the following issues:
 
-- The query parameter `ad_active_status` has an undocumented default value equal to `ACTIVE`, while the value `ALL` is needed to fetch all the ads. This means that by default, a very limited subset of all ads is returned.
 - The query parameter `search_terms` is required in some cases and optional in other cases, depending on the other query parameters in a manner that is not documented. Its value can be set to the empty string, but the semantics of such a value is not explained.
-- As of May 15th, 2019, the documentation stated that the query parameter `limit` could be used to specify the number of ads to return and that its value could be as high as 5000. We observed that depending on countries, setting a value higher than 250 resulted in frequent errors. As of June 13rd, 2019, this parameter is no longer documented in the Ads Library API documentation, while still in use.
+- On May 15th, 2019, the documentation stated that the query parameter `limit` could be used to specify the number of ads to return and that its value could be as high as 5000. We observed that depending on countries, setting a value higher than 250 resulted in frequent errors. On June 13rd, 2019, this parameter is no longer documented in the Ads Library API documentation, while still in use.
 
 ### Poor availability of both API and reports
 
@@ -59,6 +60,7 @@ Requests to the API lead frequently and unpredictably to undocumented errors. We
 - An HTTP error with unsuited code 400 (Bad Request) whose error body is `{"error":{"message":"(#2) Service temporarily unavailable", "type":"OAuthException", "is_transient":true, "code":2, "fbtrace_id":"..."}}`.
 - An HTTP error with code 500 (Internal Server Error) whose error body is `{"error":{"code":1, "message":"An unknown error occurred", "error_subcode":99}}`.
 - An HTTP error with code 500 (Internal Server Error) whose error body is `{"error":{"code":1, "message":"Please reduce the amount of data you're asking for, then retry your request"}}`. While this one has a clear message, it is triggered randomly.
+- An HTTP error with code 500 (Internal Server Error) whose error body is: `500, '{"error":{"message":"An unknown error has occurred.","type":"OAuthException","code":1,"fbtrace_id":"...')`.
 - An HTTP error with unsuited code 400 (Bad Request) whose [error body](https://github.com/ambanum/disinfo.quaidorsay.fr/pull/48#discussion_r289450102) is an HTTP page displaying the text “_Sorry, something went wrong. We're working on it and we’ll get it fixed as soon as we can._”.
 
 We also observed that the CSV files of all the reports were [unavailable](https://twitter.com/michel_blancard/status/1133002243702239232) on May 27th for several hours, with no notification.
@@ -71,7 +73,17 @@ This pagination system is brittle when the number of results is high compared to
 
 The poor availability of the API, combined with the pagination system that requires numerous requests, makes it hard to download the entirety of the Ads Library for every country and impossible for some. The USA, for instance, counts 3.8 million ads and we observed that requests cannot ask for more that 2000 ads each. To reach the last page, one has to successfully execute about 1900 requests in order, which we found **impossible to achieve in the two weeks we tried**. Furthermore, we observed that such a request takes 11 seconds on average to complete. The download is expected to take about 6 hours, independently of the equipment used by the API client since parallelization is impossible.
 
-Despite the aforementioned challenges, the Ads Library can be downloaded exhaustively for countries that were recently added (like the member states of the European Union as of June 2019) given enough time and retries. However, **this will become increasingly difficult as the stock of ads grows**, preventing thorough analysis of the impact of political ads on society in a matter of months.
+Despite the aforementioned challenges, the Ads Library can be downloaded exhaustively for countries that were recently added (like the member states of the European Union on June 2019) given enough time and retries. However, **this will become increasingly difficult as the stock of ads grows**, preventing thorough analysis of the impact of political ads on society in a matter of months.
+
+**Update (December 2020)**: Downloading all the ads for the European Union and the United Kingdom takes approximately 76 hours on December 2020. We noticed that the pagination limit has to be further reduced for about half of the coutries.
+
+### Undocumented rate limiting
+
+The use of the API is subject to a rate limiting policy that is poorly documented of not documented at all. On such occasions, the API returns the following error with error code 400:
+
+`{"error":{"message":"(#613) Calls to this api have exceeded the rate limit.","type":"OAuthException","code":613,"fbtrace_id":"..."}}`
+
+We empirically determined that calling the API once every 18 seconds prevents such errors on most situations.
 
 ### Traceability of all political studies
 
@@ -82,6 +94,8 @@ Access to the Ads Library API requires a “User Access Token”, which is one o
 Both the creator of the app and the user querying the Ads Library API on behalf of the app (they can be the same user) must both go though the certification process needed to _publish_ ads. This certification process confirms the identity and the location of the user to Facebook by providing a copy of an official identity document with a photograph. This certification is not automated as it involves a manual review of the document by a Facebook agent. We observed that our certification requests were processed within hours, which is satisfactory.
 
 However, a User Access Token requires frequent renewals, as it is valid for only one to two hours. Additionally, Facebook implements several technical measures that prevent automation of this renewal process. Particularly, the Facebook login form depends upon complex management of cookies and form parameters. Certified accounts must also comply to multi-factor authentication during the login process, making it even harder to automate the process.
+
+**Update (December 2020)**: A change in the authentication process that happened between December 2019 and November 2020 now requires 2 additional steps, increasing even more the complexity to automate such process.
 
 This means that any research done on the Ads Library is expected by Facebook to be made in chunks of two hours, after which a new token is to be obtained.
 
@@ -131,6 +145,8 @@ Autour de François Xavier Bellamy, d’Agnès Evren et d’Arnaud Danjean, notr
 Je vous invite dès maintenant à faire campagne et à appeler à voter pour l’avenir de notre pays et de notre continent."
 
 > Facebook ID 2316760961894602: "J'ai ouvert cette page de soutien à Francois Xavier Bellamy parce que je connais ce brillant jeune homme depuis longtemps, et en particulier pour l'avoir croisé et entendu au cours de manifestations ou réunions Alliance Vita (Universités de la Vie) Paray le Monial, soirées philo etc. etc. Son engagement public est un signe d'espérance et un témoignage exemplaire au service du bien commun pour toutes les classes politiques en France. L'engagement civique d'un chrétien, catholique, tel que Francois Xavier Bellamy, apportera au débat public une vision du monde, de la France et de l'Europe mais aussi une pratique et un langage exemplaires dans leur lucidité et leur exigence de vérité et de loyauté."
+
+**Update (December 2020)**: In the period of 17 days going between 13rd and 30th November 2020, we observed that 1016 ads displayed in Austria have been removed (3970 ads were added in the meantime). Similarly in the same period, 855 ads displayed in Belgium have been removed (4304 ads were added in the meantime)
 
 
 ## Additional information
