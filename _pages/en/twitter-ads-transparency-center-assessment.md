@@ -12,7 +12,7 @@ navbar_items:
 
 {% include breadcrumb.html %}
 
-> **Update (December 2020)**: Twiter no longer allows political or issue-based political advertising on its platform since Novembre 2019. Ads previously published can still be accessed from Twitter's Ads Transparency Center.
+**Update (December 2020)**: Twiter no longer allows political or issue-based political advertising on its platform since Novembre 2019. Ads previously published can still be accessed from Twitter's Ads Transparency Center.
 
 Twitter pledges to provide public access to political ads in its “[Ads Transparency Center](https://ads.twitter.com/transparency)”:
 
