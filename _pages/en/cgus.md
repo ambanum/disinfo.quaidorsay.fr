@@ -78,7 +78,7 @@ Experiments are ongoing so as to produce use cases using CGUs data.
 ## API
 {: #api }
 
-An API endpoint to find specific terms in the CGU dataset is available.
+An API endpoint to find specific terms in the CGUs dataset is available.
 
 [Access the API](https://disinfo.quaidorsay.fr/api/cgus/){: .button .button-secondary }
 
