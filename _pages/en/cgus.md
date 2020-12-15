@@ -73,8 +73,14 @@ _For more details, see our [wiki](https://github.com/ambanum/CGUs#be-notified)_.
 
 Experiments are ongoing so as to produce use cases using CGUs data. 
 
-[See ours experiments](/en/cgus/experiments)
-{: .button .button-secondary }
+[See ours experiments](/en/cgus/experiments){: .button .button-secondary }
+
+## API
+{: #api }
+
+An API endpoint to find specific terms in the CGU dataset is available.
+
+[Access the API](https://disinfo.quaidorsay.fr/api/cgus/){: .button .button-secondary }
 
 ## Contributing
 
