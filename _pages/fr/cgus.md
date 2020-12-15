@@ -75,8 +75,14 @@ _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/bl
 
 Des expérimentations sont en cours afin de produire des premiers cas d'usage à partir des données générées par l'outil CGUs.
 
-[Voir nos experimentations](/fr/cgus/experimentations)
-{: .button .button-secondary }
+[Voir nos experimentations](/fr/cgus/experimentations){: .button .button-secondary }
+
+## API
+{: #api }
+
+Une API permettant de trouver des termes spécifiques dans le dataset CGUs est disponible.
+
+[Accéder à l'API](https://disinfo.quaidorsay.fr/api/cgus/){: .button .button-secondary }
 
 ## Contribuer
 
