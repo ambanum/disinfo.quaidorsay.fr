@@ -80,7 +80,7 @@ Des expérimentations sont en cours afin de produire des premiers cas d'usage à
 ## API
 {: #api }
 
-Une API permettant de trouver des termes spécifiques dans le dataset CGU est disponible.
+Une API permettant de trouver des termes spécifiques dans le dataset CGUs est disponible.
 
 [Accéder à l'API](https://disinfo.quaidorsay.fr/api/cgus/){: .button .button-secondary }
 
