@@ -54,3 +54,11 @@ subtitle="Identify clusters of bots on Twitter"
 desc="<p>A crawler that navigates Twitter follower relationships to identify clusters of suspicious accounts from a given seed account. It uses the free Twitter API and can thus be easily deployed.</p><p>Based on a manual annotation of over 400&nbsp;accounts, we have also used that dataset to <a href= \"/encyclopedia/qualification/tools#reliability-assessment\">assess the reliability</a> of usual bot detection tools such as Botometer.</p>"
 button-label="Read the methodology"
 button-href="/twitter-bot-clusters" %}
+
+{% include our-tools/tool.html
+icon="tool"
+title="Media-scale"
+subtitle="Compare an article's visibility on social media to other known events visibility in its local reference media to give some perspective to the number of reactions."
+desc="<p>When fighting disinformation, analyses and fact-checks produced often relay - when they are not based on - <strong>figures to measure the impact of a content</strong> on a given society.</p><p>Among such data can be the number of reactions to said content, the number of comments it yields, or the number of times it has been shared.</p><p>However, this data us usually not <strong>contrasted</strong> nor compared. Rather than focusing on their quantitative aspect, we offer an alternative: to organize data according to a scale of relevance. Thus, in considering the topic of the content instead of how many times it was shared, one reaches a <strong>qualitative scale of reference</strong>.</p>"
+button-label="Use the API"
+button-href="https://github.com/ambanum/media-scale#api" %}

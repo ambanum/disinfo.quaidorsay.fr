@@ -54,3 +54,11 @@ subtitle="Trouvez des clusters de robots sur Twitter "
 desc="<p>Un crawler qui navigue dans les relations d’abonnement de Twitter pour identifier des groupes de comptes suspects à partir d’un compte donné. Il utilise l'API gratuite Twitter et peut donc être facilement déployé. </p><p>Basé sur une annotation manuelle de plus de 400&nbsp;comptes, nous avons également utilisé cet ensemble de données pour <a href=\"/encyclopedia/qualification/tools#reliability-assessment\">évaluer la fiabilité</a> d’outils courants de détection de bots tels que Botometer.</p>"
 button-label="Lire la méthodologie"
 button-href="/twitter-bot-clusters" %}
+
+{% include our-tools/tool.html
+icon="tool"
+title="Media-scale"
+subtitle="Comparez la visibilité d'un article sur les médias sociaux à la visibilité d'un événement connu dans les médias de référence de sa région pour mettre en perspective le nombre de réactions."
+desc="<p>Dans le cadre de la lutte contre la désinformation, les analyses et vérifications menées reprennent régulièrement - voire se basent sur - <strong>des données chiffrées pour mesurer l'impact d'un contenu</strong> sur une société. Il peut s'agir par exemple du nombre de réactions à ce contenu, du nombre de commentaires, ou encore du nombre de fois qu'un contenu a été partagé.</p><p>Or, ces données sont rarement <strong>mises en perspective</strong>. Plutôt que de se focaliser sur leur aspect quantitatif, nous proposons de les organiser en fonction d'une échelle de pertinence. Ainsi, en considérant le sujet du contenu plutôt que son nombre de partages, on aboutit à une <strong>échelle de référence qualitative</strong>.</p>"
+button-label="Utiliser l'API"
+button-href="https://github.com/ambanum/media-scale#api" %}
