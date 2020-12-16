@@ -217,22 +217,22 @@
 	&-numbering {
 		counter-reset: h2;
 
-		h2:not(.no-toc) {
+		h2:not(.no_toc) {
 			counter-reset: h3;
 		}
 
-		h3:not(.no-toc) {
+		h3:not(.no_toc) {
 			counter-reset: h4;
 		}
 
-		h4:not(.no-toc) {
+		h4:not(.no_toc) {
 			counter-reset: h5;
 		}
 
-		h2:not(.no-toc),
-		h3:not(.no-toc),
-		h4:not(.no-toc),
-		h5:not(.no-toc) {
+		h2:not(.no_toc),
+		h3:not(.no_toc),
+		h4:not(.no_toc),
+		h5:not(.no_toc) {
 			&:before {
 				display: inline;
 				padding-right: 8px;
@@ -240,22 +240,22 @@
 			}
 		}
 
-		h2:not(.no-toc):before {
+		h2:not(.no_toc):before {
 			content: counter(h2);
 			counter-increment: h2;
 		}
 
-		h3:not(.no-toc):before {
+		h3:not(.no_toc):before {
 			content: counter(h2) "."counter(h3);
 			counter-increment: h3;
 		}
 
-		h4:not(.no-toc):before {
+		h4:not(.no_toc):before {
 			content: counter(h2) "."counter(h3) "."counter(h4);
 			counter-increment: h4;
 		}
 
-		h5:not(.no-toc):before {
+		h5:not(.no_toc):before {
 			content: counter(h2) "."counter(h3) "."counter(h4) "."counter(h5);
 			counter-increment: h5;
 		}
