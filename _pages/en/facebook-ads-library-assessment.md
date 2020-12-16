@@ -12,7 +12,7 @@ breadcrumb_items:
 ---
 
 # Facebook Ads Library Assessment
-{: .no-toc}
+{: .no_toc}
 
 {% include breadcrumb.html %}
 
