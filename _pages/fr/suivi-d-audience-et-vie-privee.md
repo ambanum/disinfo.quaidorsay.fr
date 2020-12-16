@@ -1,5 +1,6 @@
 ---
 permalink: /suivi-d-audience-et-vie-privee
+permalink_translated: /tracking
 title: Suivi d'audience et vie privée
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>

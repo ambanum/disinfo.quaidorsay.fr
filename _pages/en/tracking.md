@@ -1,5 +1,6 @@
 ---
 permalink: /tracking
+permalink_translated: /suivi-d-audience-et-vie-privee
 title: Analytics and privacy
 navbar_items:
   - <a href="/en" class="header_mainnav_link">Home</a>

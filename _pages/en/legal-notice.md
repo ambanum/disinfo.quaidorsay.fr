@@ -1,5 +1,6 @@
 ---
 permalink: /legal-notice
+permalink_translated: /mentions-legales
 title: Legal notice
 navbar_items:
   - <a href="/en" class="header_mainnav_link">Home</a>

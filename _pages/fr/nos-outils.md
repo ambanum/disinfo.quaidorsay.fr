@@ -1,5 +1,6 @@
 ---
 permalink: /fr/nos-outils
+permalink_translated: /en/our-tools
 title: Nos outils
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>

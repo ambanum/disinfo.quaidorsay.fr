@@ -1,5 +1,6 @@
 ---
 permalink: /fr/cgus/experimentations
+permalink_translated: /en/cgus/experiments
 breadcrumb_items:
  - url: /fr/nos-outils
    label: Nos outils
