@@ -1,5 +1,6 @@
 ---
 permalink: /en/cgus
+permalink_translated: /fr/cgus
 title: CGUs
 breadcrumb_items:
  - url: /en/our-tools

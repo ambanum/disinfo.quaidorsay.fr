@@ -1,5 +1,6 @@
 ---
 permalink: /fr/cgus
+permalink_translated: /en/cgus
 title: Outil de suivi des engagements contractuels des plateformes (CGUs)
 breadcrumb_items:
  - url: /fr/nos-outils
