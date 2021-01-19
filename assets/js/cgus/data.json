@@ -488,10 +488,5 @@
         "id": "98",
         "proportion_active": 0.6379310345,
         "start_time": 1606780800000
-    },
-    {
-        "id": "99",
-        "proportion_active": 0.0574712644,
-        "start_time": 1609459200000
     }
 ]
