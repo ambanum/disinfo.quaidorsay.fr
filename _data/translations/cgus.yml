@@ -105,3 +105,12 @@ tablelegend:
   score-10-0-desc:
     fr: Extrêmement difficile à lire. Mieux compris par les diplômés de l'université.
     en: Extremely difficult to read. Best understood by university graduates.
+chart:
+  axis_x:
+    label:
+      fr: évolution dans le temps
+      en: date over time
+  axis_y:
+    label:
+      fr: nbre services actifs / nbre total services
+      en: num active / total num tracked
