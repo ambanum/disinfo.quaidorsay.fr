@@ -36,6 +36,8 @@ A first dataset has been published [here](https://github.com/ambanum/CGUs-versio
 
 {% include cgus/chart.html %}
 
+For a given month, an active service is a service for which at least one new version has been detected. The number of tracked services is the total number of services for which a version has been retrieved since the beginning of the project.
+
 ## Stats
 
 Descriptive statistics have also been generated for each tracked service as well as document type.

@@ -36,6 +36,8 @@ Un premier jeu de données a d'ores et déjà été publié [ici](https://github
 
 {% include cgus/chart.html %}
 
+Pour un mois donné, un service actif est un service pour lequel au moins une nouvelle version a été détectée. Le nombre de services suivis est le nombre total de services pour lesquels une version a été récupérée depuis le début du projet.
+
 ## Statistiques
 
 Des statistiques decriptives ont été générées pour chaque service ainsi que pour chaque type de CGUs.
