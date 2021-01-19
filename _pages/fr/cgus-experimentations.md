@@ -12,8 +12,13 @@ navbar_items:
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 js_files:
+  - assets/js/vendor/d3/d3.5.16.0.min.js	
+  - assets/js/vendor/c3/c3.0.7.20.min.js	
+  - assets/js/cgus/chart.js
   - assets/js/vendor/simple-datatables/simple-datatables.2.1.14.min.js
   - assets/js/cgus/datatables.js
+css_files:	
+  - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 
 # Expérimentations CGUs
@@ -26,6 +31,10 @@ Des expérimentations sont en cours afin de produire des premiers cas d'usage à
 ## Jeu de données
 
 Un premier jeu de données a d'ores et déjà été publié [ici](https://github.com/ambanum/CGUs-versions/releases) et permet d'explorer l'intégralité des versions collectées par l'outil. L'utilitaire [`CGUs-stats`](https://github.com/ambanum/CGUs-stats/) peut aider à l'exploration programmatique des données.
+
+## Proportion mensuelle de services actifs suivis
+
+{% include cgus/chart.html %}
 
 ## Statistiques
 

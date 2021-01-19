@@ -1,34 +1,497 @@
 [
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-12 13:30:18+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8242, "readability": 58.71, "readability_grade_level": 8.28, "date": "2020-07-09 00:30:14+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-09 08:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8244, "readability": 58.72, "readability_grade_level": 8.28, "date": "2020-07-08 15:30:08+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8239, "readability": 58.70, "readability_grade_level": 8.29, "date": "2020-07-09 07:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8240, "readability": 58.70, "readability_grade_level": 8.28, "date": "2020-07-08 17:30:18+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-11 05:30:19+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8237, "readability": 58.69, "readability_grade_level": 8.29, "date": "2020-07-08 22:30:16+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8244, "readability": 58.72, "readability_grade_level": 8.28, "date": "2020-07-09 06:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-14 05:30:18+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-11 17:30:19+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8247, "readability": 58.73, "readability_grade_level": 8.28, "date": "2020-07-09 03:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 6445, "readability": 40.73, "readability_grade_level": 13.52, "date": "2020-09-11 21:30:58+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-10 14:30:19+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8242, "readability": 58.71, "readability_grade_level": 8.28, "date": "2020-07-09 04:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8233, "readability": 58.67, "readability_grade_level": 8.2, "date": "2020-07-08 20:30:16+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-14 14:30:19+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8246, "readability": 58.73, "readability_grade_level": 8.28, "date": "2020-07-08 19:30:14+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-12 14:30:20+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8242, "readability": 58.71, "readability_grade_level": 8.28, "date": "2020-07-09 01:30:16+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-09 13:30:16+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8238, "readability": 58.69, "readability_grade_level": 8.29, "date": "2020-07-08 16:30:07+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8239, "readability": 58.70, "readability_grade_level": 8.29, "date": "2020-07-08 23:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 6417, "readability": 40.50, "readability_grade_level": 13.53, "date": "2020-09-22 15:00:46+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-15 12:30:22+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8216, "readability": 58.59, "readability_grade_level": 8.29, "date": "2020-07-13 17:30:17+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8238, "readability": 58.69, "readability_grade_level": 8.29, "date": "2020-07-09 02:30:17+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8243, "readability": 58.71, "readability_grade_level": 8.28, "date": "2020-07-09 05:30:16+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8245, "readability": 58.72, "readability_grade_level": 8.28, "date": "2020-07-08 21:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8220, "readability": 58.58, "readability_grade_level": 8.29, "date": "2020-08-03 15:30:31+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8257, "readability": 58.48, "readability_grade_level": 8.32, "date": "2020-08-31 07:30:15+00:00"},
-    {"service": "Facebook", "document_type": "Developer Terms", "num_words": 8239, "readability": 58.70, "readability_grade_level": 8.29, "date": "2020-07-08 18:30:16+00:00"}
+    {
+        "id": "1",
+        "proportion_active": 0.4666666667,
+        "start_time": 1351728000000
+    },
+    {
+        "id": "2",
+        "proportion_active": 0.2666666667,
+        "start_time": 1354320000000
+    },
+    {
+        "id": "3",
+        "proportion_active": 0.4666666667,
+        "start_time": 1356998400000
+    },
+    {
+        "id": "4",
+        "proportion_active": 0.3333333333,
+        "start_time": 1359676800000
+    },
+    {
+        "id": "5",
+        "proportion_active": 0.1333333333,
+        "start_time": 1362096000000
+    },
+    {
+        "id": "6",
+        "proportion_active": 0.2,
+        "start_time": 1364774400000
+    },
+    {
+        "id": "7",
+        "proportion_active": 0.1333333333,
+        "start_time": 1367366400000
+    },
+    {
+        "id": "8",
+        "proportion_active": 0.4782608696,
+        "start_time": 1370044800000
+    },
+    {
+        "id": "9",
+        "proportion_active": 0.25,
+        "start_time": 1372636800000
+    },
+    {
+        "id": "10",
+        "proportion_active": 0.2916666667,
+        "start_time": 1375315200000
+    },
+    {
+        "id": "11",
+        "proportion_active": 0.4166666667,
+        "start_time": 1377993600000
+    },
+    {
+        "id": "12",
+        "proportion_active": 0.2916666667,
+        "start_time": 1380585600000
+    },
+    {
+        "id": "13",
+        "proportion_active": 0.3333333333,
+        "start_time": 1383264000000
+    },
+    {
+        "id": "14",
+        "proportion_active": 0.5,
+        "start_time": 1385856000000
+    },
+    {
+        "id": "15",
+        "proportion_active": 0.4583333333,
+        "start_time": 1388534400000
+    },
+    {
+        "id": "16",
+        "proportion_active": 0.2083333333,
+        "start_time": 1391212800000
+    },
+    {
+        "id": "17",
+        "proportion_active": 0.4583333333,
+        "start_time": 1393632000000
+    },
+    {
+        "id": "18",
+        "proportion_active": 0.3333333333,
+        "start_time": 1396310400000
+    },
+    {
+        "id": "19",
+        "proportion_active": 0.2916666667,
+        "start_time": 1398902400000
+    },
+    {
+        "id": "20",
+        "proportion_active": 0.4166666667,
+        "start_time": 1401580800000
+    },
+    {
+        "id": "21",
+        "proportion_active": 0.375,
+        "start_time": 1404172800000
+    },
+    {
+        "id": "22",
+        "proportion_active": 0.4166666667,
+        "start_time": 1406851200000
+    },
+    {
+        "id": "23",
+        "proportion_active": 0.3333333333,
+        "start_time": 1409529600000
+    },
+    {
+        "id": "24",
+        "proportion_active": 0.375,
+        "start_time": 1412121600000
+    },
+    {
+        "id": "25",
+        "proportion_active": 0.2083333333,
+        "start_time": 1414800000000
+    },
+    {
+        "id": "26",
+        "proportion_active": 0.2916666667,
+        "start_time": 1417392000000
+    },
+    {
+        "id": "27",
+        "proportion_active": 0.4166666667,
+        "start_time": 1420070400000
+    },
+    {
+        "id": "28",
+        "proportion_active": 0.3333333333,
+        "start_time": 1422748800000
+    },
+    {
+        "id": "29",
+        "proportion_active": 0.3333333333,
+        "start_time": 1425168000000
+    },
+    {
+        "id": "30",
+        "proportion_active": 0.375,
+        "start_time": 1427846400000
+    },
+    {
+        "id": "31",
+        "proportion_active": 0.3333333333,
+        "start_time": 1430438400000
+    },
+    {
+        "id": "32",
+        "proportion_active": 0.4166666667,
+        "start_time": 1433116800000
+    },
+    {
+        "id": "33",
+        "proportion_active": 0.5,
+        "start_time": 1435708800000
+    },
+    {
+        "id": "34",
+        "proportion_active": 0.4166666667,
+        "start_time": 1438387200000
+    },
+    {
+        "id": "35",
+        "proportion_active": 0.375,
+        "start_time": 1441065600000
+    },
+    {
+        "id": "36",
+        "proportion_active": 0.3333333333,
+        "start_time": 1443657600000
+    },
+    {
+        "id": "37",
+        "proportion_active": 0.3333333333,
+        "start_time": 1446336000000
+    },
+    {
+        "id": "38",
+        "proportion_active": 0.3333333333,
+        "start_time": 1448928000000
+    },
+    {
+        "id": "39",
+        "proportion_active": 0.4583333333,
+        "start_time": 1451606400000
+    },
+    {
+        "id": "40",
+        "proportion_active": 0.3333333333,
+        "start_time": 1454284800000
+    },
+    {
+        "id": "41",
+        "proportion_active": 0.375,
+        "start_time": 1456790400000
+    },
+    {
+        "id": "42",
+        "proportion_active": 0.4166666667,
+        "start_time": 1459468800000
+    },
+    {
+        "id": "43",
+        "proportion_active": 0.375,
+        "start_time": 1462060800000
+    },
+    {
+        "id": "44",
+        "proportion_active": 0.3333333333,
+        "start_time": 1464739200000
+    },
+    {
+        "id": "45",
+        "proportion_active": 0.2916666667,
+        "start_time": 1467331200000
+    },
+    {
+        "id": "46",
+        "proportion_active": 0.3333333333,
+        "start_time": 1470009600000
+    },
+    {
+        "id": "47",
+        "proportion_active": 0.4166666667,
+        "start_time": 1472688000000
+    },
+    {
+        "id": "48",
+        "proportion_active": 0.4166666667,
+        "start_time": 1475280000000
+    },
+    {
+        "id": "49",
+        "proportion_active": 0.2916666667,
+        "start_time": 1477958400000
+    },  
+    {
+        "id": "50",
+        "proportion_active": 0.4583333333,
+        "start_time": 1480550400000
+    },
+    {
+        "id": "51",
+        "proportion_active": 0.5416666667,
+        "start_time": 1483228800000
+    },
+    {
+        "id": "52",
+        "proportion_active": 0.3333333333,
+        "start_time": 1485907200000
+    },
+    {
+        "id": "53",
+        "proportion_active": 0.4166666667,
+        "start_time": 1488326400000
+    },
+    {
+        "id": "54",
+        "proportion_active": 0.5,
+        "start_time": 1491004800000
+    },
+    {
+        "id": "55",
+        "proportion_active": 0.375,
+        "start_time": 1493596800000
+    },
+    {
+        "id": "56",
+        "proportion_active": 0.375,
+        "start_time": 1496275200000
+    },
+    {
+        "id": "57",
+        "proportion_active": 0.375,
+        "start_time": 1498867200000
+    },
+    {
+        "id": "58",
+        "proportion_active": 0.64,
+        "start_time": 1501545600000
+    },
+    {
+        "id": "59",
+        "proportion_active": 0.44,
+        "start_time": 1504224000000
+    },
+    {
+        "id": "60",
+        "proportion_active": 0.4230769231,
+        "start_time": 1506816000000
+    },
+    {
+        "id": "61",
+        "proportion_active": 0.3846153846,
+        "start_time": 1509494400000
+    },
+    {
+        "id": "62",
+        "proportion_active": 0.4230769231,
+        "start_time": 1512086400000
+    },
+    {
+        "id": "63",
+        "proportion_active": 0.3846153846,
+        "start_time": 1514764800000
+    },
+    {
+        "id": "64",
+        "proportion_active": 0.5,
+        "start_time": 1517443200000
+    },
+    {
+        "id": "65",
+        "proportion_active": 0.3461538462,
+        "start_time": 1519862400000
+    },
+    {
+        "id": "66",
+        "proportion_active": 0.3461538462,
+        "start_time": 1522540800000
+    },
+    {
+        "id": "67",
+        "proportion_active": 0.6153846154,
+        "start_time": 1525132800000
+    },
+    {
+        "id": "68",
+        "proportion_active": 0.4615384615,
+        "start_time": 1527811200000
+    },
+    {
+        "id": "69",
+        "proportion_active": 0.6111111111,
+        "start_time": 1530403200000
+    },
+    {
+        "id": "70",
+        "proportion_active": 0.2777777778,
+        "start_time": 1533081600000
+    },
+    {
+        "id": "71",
+        "proportion_active": 0.3055555556,
+        "start_time": 1535760000000
+    },
+    {
+        "id": "72",
+        "proportion_active": 0.2777777778,
+        "start_time": 1538352000000
+    },
+    {
+        "id": "73",
+        "proportion_active": 0.2777777778,
+        "start_time": 1541030400000
+    },
+    {
+        "id": "74",
+        "proportion_active": 0.4444444444,
+        "start_time": 1543622400000
+    },
+    {
+        "id": "75",
+        "proportion_active": 0.3611111111,
+        "start_time": 1546300800000
+    },
+    {
+        "id": "76",
+        "proportion_active": 0.25,
+        "start_time": 1548979200000
+    },
+    {
+        "id": "77",
+        "proportion_active": 0.3055555556,
+        "start_time": 1551398400000
+    },
+    {
+        "id": "78",
+        "proportion_active": 0.3055555556,
+        "start_time": 1554076800000
+    },
+    {
+        "id": "79",
+        "proportion_active": 0.25,
+        "start_time": 1556668800000
+    },
+    {
+        "id": "80",
+        "proportion_active": 0.25,
+        "start_time": 1559347200000
+    },
+    {
+        "id": "81",
+        "proportion_active": 0.2777777778,
+        "start_time": 1561939200000
+    },
+    {
+        "id": "82",
+        "proportion_active": 0.1944444444,
+        "start_time": 1564617600000
+    },
+    {
+        "id": "83",
+        "proportion_active": 0.3888888889,
+        "start_time": 1567296000000
+    },
+    {
+        "id": "84",
+        "proportion_active": 0.3611111111,
+        "start_time": 1569888000000
+    },
+    {
+        "id": "85",
+        "proportion_active": 0.2222222222,
+        "start_time": 1572566400000
+    },
+    {
+        "id": "86",
+        "proportion_active": 0.3055555556,
+        "start_time": 1575158400000
+    },
+    {
+        "id": "87",
+        "proportion_active": 0.3888888889,
+        "start_time": 1577836800000
+    },
+    {
+        "id": "88",
+        "proportion_active": 0.3333333333,
+        "start_time": 1580515200000
+    },
+    {
+        "id": "89",
+        "proportion_active": 0.1944444444,
+        "start_time": 1583020800000
+    },
+    {
+        "id": "90",
+        "proportion_active": 0.3333333333,
+        "start_time": 1585699200000
+    },
+    {
+        "id": "91",
+        "proportion_active": 0.3333333333,
+        "start_time": 1588291200000
+    },
+    {
+        "id": "92",
+        "proportion_active": 0.25,
+        "start_time": 1590969600000
+    },
+    {
+        "id": "93",
+        "proportion_active": 0.7179487179,
+        "start_time": 1593561600000
+    },
+    {
+        "id": "94",
+        "proportion_active": 0.4117647059,
+        "start_time": 1596240000000
+    },
+    {
+        "id": "95",
+        "proportion_active": 0.3604651163,
+        "start_time": 1598918400000
+    },
+    {
+        "id": "96",
+        "proportion_active": 0.414893617,
+        "start_time": 1601510400000
+    },
+    {
+        "id": "97",
+        "proportion_active": 0.6326530612,
+        "start_time": 1604188800000
+    },
+    {
+        "id": "98",
+        "proportion_active": 0.6379310345,
+        "start_time": 1606780800000
+    },
+    {
+        "id": "99",
+        "proportion_active": 0.0574712644,
+        "start_time": 1609459200000
+    }
 ]

@@ -12,8 +12,13 @@ navbar_items:
   - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
   - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
 js_files:
+  - assets/js/vendor/d3/d3.5.16.0.min.js	
+  - assets/js/vendor/c3/c3.0.7.20.min.js	
+  - assets/js/cgus/chart.js
   - assets/js/vendor/simple-datatables/simple-datatables.2.1.14.min.js
   - assets/js/cgus/datatables.js
+css_files:	
+  - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 
 # CGUs Experiments
@@ -26,6 +31,10 @@ Experiments are ongoing so as to produce use cases using CGUs data. To this end,
 ## Dataset
 
 A first dataset has been published [here](https://github.com/ambanum/CGUs-versions/releases) and contains the version history of all tracked CGUs. The [`CGUs-stats`](https://github.com/ambanum/CGUs-stats/) tool can help programatically explore these data.
+
+## Monthly propotion of active tracked service
+
+{% include cgus/chart.html %}
 
 ## Stats
 
