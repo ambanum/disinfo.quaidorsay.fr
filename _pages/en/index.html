@@ -4,12 +4,15 @@ permalink: /en
 title: Reducing vulnerabilities to information manipulation.
 htmlDescription: The Office of the French Ambassador for Digital Affairs builds tools to counter information manipulation aiming at disrupting social cohesion and electoral processes.
 navbar_items:
-  - <a href="/en" class="header_mainnav_link">Home</a>
-  - <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>
-  - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
+- <a href="/en" class="header_mainnav_link">Home</a>
+- <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>
+- <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
 ---
 
-{% include hero.html %}
+{% capture hero_title %}{{ site.data.translations.index.hero.title[page.lang] }}{% endcapture %}
+{% capture hero_subtitle %}{{ site.data.translations.index.hero.subtitle[page.lang] }}{% endcapture %}
+{% capture hero_chapo %}{{ site.data.translations.index.hero.chapo[page.lang] }}{% endcapture %}
+{% include hero.html title=hero_title subtitle=hero_subtitle chapo=hero_chapo %}
 
 {% include casestudies.html %}
 
