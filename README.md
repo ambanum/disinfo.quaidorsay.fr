@@ -23,6 +23,13 @@ bundle install
 bundle exec jekyll serve
 ```
 
+### Bundle js
+```sh
+npm install -g parcel-bundler
+cd assets
+parcel watch /js/cgus/explorer.js
+```
+
 ## Deployment
 
 Deployment is done with [GitHub Pages](https://pages.github.com). Just push to the `master` branch to deploy on `ambanum.github.io`.

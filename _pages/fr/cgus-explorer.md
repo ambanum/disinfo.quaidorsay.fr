@@ -12,7 +12,7 @@ navbar_items:
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 js_files:
- - assets/js/cgus/explorer.js
+ - assets/dist/explorer.js
 css_files:	
 ---
 
@@ -46,6 +46,11 @@ css_files:
 		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4">
 	</div>
 </form>
+
+<div class="explorerdocs">
+	<pre class="precode" id="doc1"></pre>
+	<pre class="precode" id="doc2"></pre>
+</div>
 
 <div class="notification">
 	<div class="notification_content"></div>
