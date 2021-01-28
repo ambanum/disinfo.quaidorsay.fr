@@ -23,21 +23,15 @@ css_files:
 
 {% include breadcrumb.html %}
 
-<form class="form explorerform">
+<form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_services">Service</label>
-		<select class="form_field_select" name="form_services" id="form_services" tabindex="1">
-			<option value="volvo">Volvo</option>
-			<option value="saab">Saab</option>
-			<option value="mercedes">Mercedes</option>
-			<option value="audi">Audi</option>
+		<select class="form_field_select" name="form_services" id="form_services" tabindex="1">			
 		</select>
 	</div>
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_typeofdocuments">Type of documents</label>
 		<select class="form_field_select" name="form_typeofdocuments" id="form_typeofdocuments" tabindex="2">
-			<option value="volvo">Japon</option>
-			<option value="saab">Toto</option>
 		</select>
 	</div>
 	<div class="form_field">
@@ -52,3 +46,7 @@ css_files:
 		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4">
 	</div>
 </form>
+
+<div class="notification">
+	<div class="notification_content"></div>
+</div>
