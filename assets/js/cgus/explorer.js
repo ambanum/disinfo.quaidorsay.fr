@@ -1,5 +1,4 @@
 import 'regenerator-runtime/runtime'
-import 'diff/dist/diff'
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -69,8 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			let seconddocumentdate = formData.get('form_seconddocumentdate');
 			loadDocs(service, type, firstdocumentdate, seconddocumentdate)
 				.then(docs => {
-					console.log(docs)
-					//diff(docs)
+					diff(docs)
 				})
 				.catch(err => {
 					notification("error", err)
@@ -82,26 +80,45 @@ document.addEventListener("DOMContentLoaded", () => {
 		console.log('loadDocs', service, type, firstdocumentdate, seconddocumentdate);
 		let doc1 = await getDoc(service, type, firstdocumentdate);
 		let doc2 = await getDoc(service, type, seconddocumentdate);
-		return Array[doc1, doc2];
-
-		/* if (doc.error) throw new Error(doc.error)
-		if (doc.data == '') await getDoc(service, type, doc.next_version.substr(0, 10)); */
+		return Array(doc1, doc2);
 	}
 
 	async function getDoc(service, type, date) {
 		console.log('getDoc', service, type, date)
 		let route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
 		let request = new Request(route, requestHeaders);
-		return async_fetch(request); 
+		let response = await fetch(request)
+		if (response.ok){
+			let data = await response.json()	
+			if (data.error) throw new Error(data.error)
+			if (data.data == ''){
+				//throw new Error('No version recorded at this date');
+				//Promise.reject('No version recorded at this date');
+				return await getDoc(service, type, data.next_version.substr(0, 10))
+			}
+			else return data; 
+		} else{
+			throw new Error(response.status)
+		} 
 	}
 
 	function diff(docs) {
 		console.log('diff', docs);
-		docs.forEach(doc => {
-			console.log(this);
-			let $doc1 = document.getElementById('doc1');
-			$doc1.innerText = doc.data;
+		let $doc1 = document.getElementById('doc1');
+		$doc1.innerText = docs[0].data;
+		let $doc2 = document.getElementById('doc2');
+		$doc2.innerText = docs[1].data;
+
+		/* let diff = Diff.diffChars(docs[0].data, docs[1].data);
+		let fragment = document.createDocumentFragment();
+		diff.forEach((part) => {
+			const color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+			span = document.createElement('span');
+			span.style.color = color;
+			span.appendChild(document.createTextNode(part.value));
+			fragment.appendChild(span);
 		});
+		$doc2.appendChild(fragment); */
 	}
 
 	/* Show notification message */
