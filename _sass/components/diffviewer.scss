@@ -1,0 +1,26 @@
+.diffviewer{
+	margin-top: 44px;
+	
+	@include responsiveMaxWidth($bpTabletSmall){
+		
+	}
+}
+
+.diffviewer_content{
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+	background-color: $color-g100;
+	padding: 12px;
+	font-size: 1.4rem;
+
+	ins{
+		background-color: $color-green;
+		color: $color-white;
+	}
+
+	del{
+		background-color: $color-error;
+		color: $color-white;
+		text-decoration: line-through;
+	}
+}

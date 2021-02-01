@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				populate(data)
 			})
 			.then(() => {
+				maxInputDateNow()
 				listenSubmit()
 			})
 	}
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function populate(services) {
-		console.log('populate',services);
+		console.log('populate', services);
 		let $form_services = document.getElementById('form_services');
 		let $form_typeofdocuments = document.getElementById('form_typeofdocuments');
 		for (const [key, value] of Object.entries(services)) {
@@ -56,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			});
 		})
 	}
+	
 
 	function listenSubmit() {
 		console.log('listenSubmit')
@@ -65,22 +67,20 @@ document.addEventListener("DOMContentLoaded", () => {
 			let formData           = new FormData(event.target);
 			let service            = formData.get('form_services');
 			let type               = formData.get('form_typeofdocuments');
-			let firstdocumentdate  = formData.get('form_firstdocumentdate');
-			let seconddocumentdate = formData.get('form_seconddocumentdate');
-			loadDocs(service, type, firstdocumentdate, seconddocumentdate)
-				.then(docs => {
-					diff(docs)
+			let firstDocumentDate  = formData.get('form_firstdocumentdate');
+			let secondDocumentDate = formData.get('form_seconddocumentdate');
+			loadDocs(service, type, firstDocumentDate, secondDocumentDate)
+				.then((docs, firstDocumentDate, secondDocumentDate) => {
+					showDatesInfos(docs)
+					showDiff(docs)
 				})
-				.catch(err => {
-					notification("error", err)
-				});
 		})
 	}
 
-	async function loadDocs(service, type, firstdocumentdate, seconddocumentdate) {
-		console.log('loadDocs', service, type, firstdocumentdate, seconddocumentdate);
-		let doc1 = await getDoc(service, type, firstdocumentdate);
-		let doc2 = await getDoc(service, type, seconddocumentdate);
+	async function loadDocs(service, type, firstDocumentDate, secondDocumentDate) {
+		console.log('loadDocs', service, type, firstDocumentDate, secondDocumentDate);
+		let doc1 = await getDoc(service, type, firstDocumentDate);
+		let doc2 = await getDoc(service, type, secondDocumentDate);
 		return Array(doc1, doc2);
 	}
 
@@ -101,24 +101,72 @@ document.addEventListener("DOMContentLoaded", () => {
 		} 
 	}
 
-	async function diff(docs) {
-		console.log('diff', docs);
-		let $doc1 = document.getElementById('doc1');
-		$doc1.innerText = docs[0].data;
-		let $doc2 = document.getElementById('doc2');
+	function showDatesInfos(docs){
+		console.log('showDatesInfos', docs);
+		let $form_explorer = document.getElementById('form_explorer');
+		let formData = new FormData($form_explorer);
+		let firstDocumentDate  = formData.get('form_firstdocumentdate');
+		let secondDocumentDate = formData.get('form_seconddocumentdate');
+		let firstDocumentVersionAtDate = docs[0].version_at_date.substr(0, 10);
+		let secondDocumentVersionAtDate = docs[1].version_at_date.substr(0, 10);
+		let msg = `For the requested date ${firstDocumentDate}, the closest version is dated ${firstDocumentVersionAtDate} and for the requested date ${secondDocumentDate} the closest version is dated ${secondDocumentVersionAtDate}`;
+		notification('info', msg)
+	}
 
+	async function showDiff(docs) {
+		console.log('diff', docs);
 		const dmp = new DiffMatchPatch();
 		let diff = dmp.diff_main(docs[0].data, docs[1].data);
-		let diffPrettyHtml = dmp.diff_prettyHtml(diff);
-		$doc2.innerHTML  = diffPrettyHtml;
+		let diffPrettyHtml = prettyHTMLDiff(diff);
+		let $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
+		console.log($diffviewer);
+		if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
 	}
 
 	/* Show notification message */
 	function notification(type, msg) {
-		const $notification = document.getElementsByClassName('notification')[0];
-		const $notification_content = document.getElementsByClassName('notification_content')[0];
+		console.log('notification', type, msg);
+		let $notification = document.getElementsByClassName('notification')[0];
+		let $notification_content = document.getElementsByClassName('notification_content')[0];
 		$notification_content.innerText = msg;
 		$notification.classList.toggle('notification-' + type);
+	}
+
+	function prettyHTMLDiff(diff){
+		var DIFF_DELETE = -1;
+		var DIFF_INSERT = 1;
+		var DIFF_EQUAL = 0;
+		var html = [];
+		var pattern_amp = /&/g;
+		var pattern_lt = /</g;
+		var pattern_gt = />/g;
+		var pattern_para = /\n/g;
+		for (var x = 0; x < diff.length; x++) {
+			var op = diff[x][0];    // Operation (insert, delete, equal)
+			var data = diff[x][1];  // Text of change.
+			var text = data.replace(pattern_amp, '&amp;').replace(pattern_lt, '&lt;')
+				.replace(pattern_gt, '&gt;').replace(pattern_para, '<br>');
+			switch (op) {
+			case DIFF_INSERT:
+				html[x] = '<ins>' + text + '</ins>';
+				break;
+			case DIFF_DELETE:
+				html[x] = '<del>' + text + '</del>';
+				break;
+			case DIFF_EQUAL:
+				html[x] = '<span>' + text + '</span>';
+				break;
+			}
+		}
+		return html.join('');
+	}
+
+	function maxInputDateNow(){
+		console.log('maxInputDateNow');
+		let $inputDates = document.querySelectorAll('input[type=date]');
+		$inputDates.forEach($inputDate => {
+			$inputDate.setAttribute('max',new Date().toISOString().split("T")[0]);
+		});
 	}
 
 	//1 - initialiser le formulaire avec les paramètres passés en url

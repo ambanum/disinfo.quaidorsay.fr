@@ -3177,6 +3177,7 @@ document.addEventListener("DOMContentLoaded", function () {
               getServices().then(function (data) {
                 populate(data);
               }).then(function () {
+                maxInputDateNow();
                 listenSubmit();
               });
 
@@ -3247,12 +3248,11 @@ document.addEventListener("DOMContentLoaded", function () {
       var formData = new FormData(event.target);
       var service = formData.get('form_services');
       var type = formData.get('form_typeofdocuments');
-      var firstdocumentdate = formData.get('form_firstdocumentdate');
-      var seconddocumentdate = formData.get('form_seconddocumentdate');
-      loadDocs(service, type, firstdocumentdate, seconddocumentdate).then(function (docs) {
-        diff(docs);
-      }).catch(function (err) {
-        notification("error", err);
+      var firstDocumentDate = formData.get('form_firstdocumentdate');
+      var secondDocumentDate = formData.get('form_seconddocumentdate');
+      loadDocs(service, type, firstDocumentDate, secondDocumentDate).then(function (docs, firstDocumentDate, secondDocumentDate) {
+        showDatesInfos(docs);
+        showDiff(docs);
       });
     });
   }
@@ -3262,20 +3262,20 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function _loadDocs() {
-    _loadDocs = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(service, type, firstdocumentdate, seconddocumentdate) {
+    _loadDocs = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(service, type, firstDocumentDate, secondDocumentDate) {
       var doc1, doc2;
       return regeneratorRuntime.wrap(function _callee4$(_context4) {
         while (1) {
           switch (_context4.prev = _context4.next) {
             case 0:
-              console.log('loadDocs', service, type, firstdocumentdate, seconddocumentdate);
+              console.log('loadDocs', service, type, firstDocumentDate, secondDocumentDate);
               _context4.next = 3;
-              return getDoc(service, type, firstdocumentdate);
+              return getDoc(service, type, firstDocumentDate);
 
             case 3:
               doc1 = _context4.sent;
               _context4.next = 6;
-              return getDoc(service, type, seconddocumentdate);
+              return getDoc(service, type, secondDocumentDate);
 
             case 6:
               doc2 = _context4.sent;
@@ -3361,43 +3361,98 @@ document.addEventListener("DOMContentLoaded", function () {
     return _getDoc.apply(this, arguments);
   }
 
-  function diff(_x9) {
-    return _diff.apply(this, arguments);
+  function showDatesInfos(docs) {
+    console.log('showDatesInfos', docs);
+    var $form_explorer = document.getElementById('form_explorer');
+    var formData = new FormData($form_explorer);
+    var firstDocumentDate = formData.get('form_firstdocumentdate');
+    var secondDocumentDate = formData.get('form_seconddocumentdate');
+    var firstDocumentVersionAtDate = docs[0].version_at_date.substr(0, 10);
+    var secondDocumentVersionAtDate = docs[1].version_at_date.substr(0, 10);
+    var msg = "For the requested date ".concat(firstDocumentDate, ", the closest version is dated ").concat(firstDocumentVersionAtDate, " and for the requested date ").concat(secondDocumentDate, " the closest version is dated ").concat(secondDocumentVersionAtDate);
+    notification('info', msg);
+  }
+
+  function showDiff(_x9) {
+    return _showDiff.apply(this, arguments);
   }
   /* Show notification message */
 
 
-  function _diff() {
-    _diff = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(docs) {
-      var $doc1, $doc2, dmp, diff, diffPrettyHtml;
+  function _showDiff() {
+    _showDiff = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(docs) {
+      var dmp, diff, diffPrettyHtml, $diffviewer;
       return regeneratorRuntime.wrap(function _callee6$(_context6) {
         while (1) {
           switch (_context6.prev = _context6.next) {
             case 0:
               console.log('diff', docs);
-              $doc1 = document.getElementById('doc1');
-              $doc1.innerText = docs[0].data;
-              $doc2 = document.getElementById('doc2');
               dmp = new _diffMatchPatch.default();
               diff = dmp.diff_main(docs[0].data, docs[1].data);
-              diffPrettyHtml = dmp.diff_prettyHtml(diff);
-              $doc2.innerHTML = diffPrettyHtml;
+              diffPrettyHtml = prettyHTMLDiff(diff);
+              $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
+              console.log($diffviewer);
+              if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
 
-            case 8:
+            case 7:
             case "end":
               return _context6.stop();
           }
         }
       }, _callee6);
     }));
-    return _diff.apply(this, arguments);
+    return _showDiff.apply(this, arguments);
   }
 
   function notification(type, msg) {
+    console.log('notification', type, msg);
     var $notification = document.getElementsByClassName('notification')[0];
     var $notification_content = document.getElementsByClassName('notification_content')[0];
     $notification_content.innerText = msg;
     $notification.classList.toggle('notification-' + type);
+  }
+
+  function prettyHTMLDiff(diff) {
+    var DIFF_DELETE = -1;
+    var DIFF_INSERT = 1;
+    var DIFF_EQUAL = 0;
+    var html = [];
+    var pattern_amp = /&/g;
+    var pattern_lt = /</g;
+    var pattern_gt = />/g;
+    var pattern_para = /\n/g;
+
+    for (var x = 0; x < diff.length; x++) {
+      var op = diff[x][0]; // Operation (insert, delete, equal)
+
+      var data = diff[x][1]; // Text of change.
+
+      var text = data.replace(pattern_amp, '&amp;').replace(pattern_lt, '&lt;').replace(pattern_gt, '&gt;').replace(pattern_para, '<br>');
+
+      switch (op) {
+        case DIFF_INSERT:
+          html[x] = '<ins>' + text + '</ins>';
+          break;
+
+        case DIFF_DELETE:
+          html[x] = '<del>' + text + '</del>';
+          break;
+
+        case DIFF_EQUAL:
+          html[x] = '<span>' + text + '</span>';
+          break;
+      }
+    }
+
+    return html.join('');
+  }
+
+  function maxInputDateNow() {
+    console.log('maxInputDateNow');
+    var $inputDates = document.querySelectorAll('input[type=date]');
+    $inputDates.forEach(function ($inputDate) {
+      $inputDate.setAttribute('max', new Date().toISOString().split("T")[0]);
+    });
   } //1 - initialiser le formulaire avec les paramètres passés en url
   //2 - le cas échéant afficher les documents demandés
   //3 - écouter les changement sur le formulaire
@@ -3433,7 +3488,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59674" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56967" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

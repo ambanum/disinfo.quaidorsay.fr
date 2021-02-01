@@ -27,32 +27,34 @@ css_files:
 <form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_services">Service</label>
-		<select class="form_field_select" name="form_services" id="form_services" tabindex="1">			
+		<select class="form_field_select" name="form_services" id="form_services" tabindex="1" required>			
+			<option selected disabled hidden value="default">Select</option>
 		</select>
 	</div>
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_typeofdocuments">Type of documents</label>
-		<select class="form_field_select" name="form_typeofdocuments" id="form_typeofdocuments" tabindex="2">
+		<select class="form_field_select" name="form_typeofdocuments" id="form_typeofdocuments" tabindex="2" required>
+			<option selected disabled hidden value="default">Select</option>
 		</select>
 	</div>
 	<div class="form_field">
 		<label class="form_field_label" for="form_firstdocumentdate">First date</label>
-		<input type="date" id="form_firstdocumentdate" name="form_firstdocumentdate" tabindex="3">
+		<input type="date" id="form_firstdocumentdate" name="form_firstdocumentdate" tabindex="3" required>
 	</div>
 	<div class="form_field form_field-submit">
 		<input type="submit" class="button" value="Compare" tabindex="5" /> 
 	</div>
 	<div class="form_field">
 		<label class="form_field_label" for="form_seconddocumentdate">Second date</label>
-		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4">
+		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4" required>
 	</div>
 </form>
-
-<div class="explorerdocs">
-	<pre class="precode" id="doc1"></pre>
-	<div class="precode" id="doc2"></div>
-</div>
 
 <div class="notification">
 	<div class="notification_content"></div>
 </div>
+
+<div class="diffviewer">
+	<div class="diffviewer_content">...</div>
+</div>
+
