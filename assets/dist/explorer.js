@@ -3096,6 +3096,14 @@ var _diffMatchPatch = _interopRequireDefault(require("diff-match-patch"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -3116,7 +3124,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (window.fetch) {
     init();
   } else {
-    notification('error', 'Your browser is not supported 😥');
+    showNotification('error', 'Your browser is not supported 😥');
   }
 
   var requestHeaders = {
@@ -3219,7 +3227,6 @@ document.addEventListener("DOMContentLoaded", function () {
   function populate(services) {
     console.log('populate', services);
     var $form_services = document.getElementById('form_services');
-    var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
 
     for (var _i = 0, _Object$entries = Object.entries(services); _i < _Object$entries.length; _i++) {
       var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
@@ -3231,12 +3238,18 @@ document.addEventListener("DOMContentLoaded", function () {
       $form_services.add(option);
     }
 
-    $form_services && $form_services.addEventListener('change', function (event) {
-      $form_typeofdocuments.innerHTML = '';
-      var typesofdocuments = event.target.selectedOptions.item(0).dataset.typeofdocuments.split(',');
-      typesofdocuments && typesofdocuments.forEach(function (type) {
-        $form_typeofdocuments.add(new Option(type, type));
-      });
+    $form_services && $form_services.addEventListener('change', onSelectService);
+    onSelectService();
+  }
+
+  function onSelectService(event) {
+    console.log('onSelectService');
+    var $form_services = document.getElementById('form_services');
+    var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+    $form_typeofdocuments.innerHTML = '';
+    var typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
+    typesofdocuments && typesofdocuments.forEach(function (type) {
+      $form_typeofdocuments.add(new Option(type, type));
     });
   }
 
@@ -3370,14 +3383,13 @@ document.addEventListener("DOMContentLoaded", function () {
     var firstDocumentVersionAtDate = docs[0].version_at_date.substr(0, 10);
     var secondDocumentVersionAtDate = docs[1].version_at_date.substr(0, 10);
     var msg = "For the requested date ".concat(firstDocumentDate, ", the closest version is dated ").concat(firstDocumentVersionAtDate, " and for the requested date ").concat(secondDocumentDate, " the closest version is dated ").concat(secondDocumentVersionAtDate);
-    notification('info', msg);
+    if (docs[0].version_at_date == docs[1].version_at_date) msg = "There is only one saved version of the document for the selected dates, so there is nothing to compare.";
+    showNotification('info', msg);
   }
 
   function showDiff(_x9) {
     return _showDiff.apply(this, arguments);
   }
-  /* Show notification message */
-
 
   function _showDiff() {
     _showDiff = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(docs) {
@@ -3404,12 +3416,30 @@ document.addEventListener("DOMContentLoaded", function () {
     return _showDiff.apply(this, arguments);
   }
 
-  function notification(type, msg) {
+  function showNotification(type, msg) {
+    removeNotification();
     console.log('notification', type, msg);
-    var $notification = document.getElementsByClassName('notification')[0];
-    var $notification_content = document.getElementsByClassName('notification_content')[0];
+    var $notification = document.createElement('DIV');
+    $notification.classList.add('notification');
+    $notification.classList.add('notification-' + type);
+    var $notification_content = document.createElement('DIV');
+    $notification_content.classList.add('notification_content');
     $notification_content.innerText = msg;
-    $notification.classList.toggle('notification-' + type);
+    $notification.append($notification_content);
+    var $form_explorer = document.getElementById('form_explorer');
+    if ($form_explorer) insertAfter($notification, $form_explorer);
+  }
+
+  function removeNotification() {
+    console.log('removeNotification');
+
+    _toConsumableArray(document.getElementsByClassName("notification")).map(function (n) {
+      return n && n.remove();
+    });
+  }
+
+  function insertAfter(el, referenceNode) {
+    referenceNode.parentNode.insertBefore(el, referenceNode.nextSibling);
   }
 
   function prettyHTMLDiff(diff) {
@@ -3488,7 +3518,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56967" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60061" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

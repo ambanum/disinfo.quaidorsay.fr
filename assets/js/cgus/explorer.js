@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	if (window.fetch) {
 		init();
 	} else {
-		notification('error', 'Your browser is not supported 😥');
+		showNotification('error', 'Your browser is not supported 😥');
 	}
 
 	const requestHeaders = {
@@ -43,31 +43,35 @@ document.addEventListener("DOMContentLoaded", () => {
 	function populate(services) {
 		console.log('populate', services);
 		let $form_services = document.getElementById('form_services');
-		let $form_typeofdocuments = document.getElementById('form_typeofdocuments');
 		for (const [key, value] of Object.entries(services)) {
 			let option = new Option(key, key);
 			option.dataset.typeofdocuments = value;
 			$form_services.add(option);
 		}
-		$form_services && $form_services.addEventListener('change', (event) => {
-			$form_typeofdocuments.innerHTML = '';
-			let typesofdocuments = event.target.selectedOptions.item(0).dataset.typeofdocuments.split(',');
-			typesofdocuments && typesofdocuments.forEach(type => {
-				$form_typeofdocuments.add(new Option(type, type));
-			});
-		})
+		$form_services && $form_services.addEventListener('change', onSelectService);
+		onSelectService();
 	}
-	
+
+	function onSelectService(event){
+		console.log('onSelectService');
+		let $form_services = document.getElementById('form_services');
+		let $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+		$form_typeofdocuments.innerHTML = '';
+		let typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
+		typesofdocuments && typesofdocuments.forEach(type => {
+			$form_typeofdocuments.add(new Option(type, type));
+		});
+	}
 
 	function listenSubmit() {
 		console.log('listenSubmit')
 		const $form_explorer = document.getElementById('form_explorer');
 		$form_explorer && $form_explorer.addEventListener('submit', (event) => {
 			event.preventDefault();
-			let formData           = new FormData(event.target);
-			let service            = formData.get('form_services');
-			let type               = formData.get('form_typeofdocuments');
-			let firstDocumentDate  = formData.get('form_firstdocumentdate');
+			let formData = new FormData(event.target);
+			let service = formData.get('form_services');
+			let type = formData.get('form_typeofdocuments');
+			let firstDocumentDate = formData.get('form_firstdocumentdate');
 			let secondDocumentDate = formData.get('form_seconddocumentdate');
 			loadDocs(service, type, firstDocumentDate, secondDocumentDate)
 				.then((docs, firstDocumentDate, secondDocumentDate) => {
@@ -89,28 +93,30 @@ document.addEventListener("DOMContentLoaded", () => {
 		let route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
 		let request = new Request(route, requestHeaders);
 		let response = await fetch(request)
-		if (response.ok){
-			let data = await response.json()	
+		if (response.ok) {
+			let data = await response.json()
 			if (data.error) throw new Error(data.error)
-			if (data.data == ''){
+			if (data.data == '') {
 				return await getDoc(service, type, data.next_version.substr(0, 10))
-			}
-			else return data; 
-		} else{
+			} else return data;
+		} else {
 			throw new Error(response.status)
-		} 
+		}
 	}
 
-	function showDatesInfos(docs){
+	function showDatesInfos(docs) {
 		console.log('showDatesInfos', docs);
 		let $form_explorer = document.getElementById('form_explorer');
 		let formData = new FormData($form_explorer);
-		let firstDocumentDate  = formData.get('form_firstdocumentdate');
+		let firstDocumentDate = formData.get('form_firstdocumentdate');
 		let secondDocumentDate = formData.get('form_seconddocumentdate');
 		let firstDocumentVersionAtDate = docs[0].version_at_date.substr(0, 10);
 		let secondDocumentVersionAtDate = docs[1].version_at_date.substr(0, 10);
 		let msg = `For the requested date ${firstDocumentDate}, the closest version is dated ${firstDocumentVersionAtDate} and for the requested date ${secondDocumentDate} the closest version is dated ${secondDocumentVersionAtDate}`;
-		notification('info', msg)
+		if (docs[0].version_at_date == docs[1].version_at_date)
+			msg = `There is only one saved version of the document for the selected dates, so there is nothing to compare.`;
+		
+		showNotification('info', msg)
 	}
 
 	async function showDiff(docs) {
@@ -123,16 +129,31 @@ document.addEventListener("DOMContentLoaded", () => {
 		if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
 	}
 
-	/* Show notification message */
-	function notification(type, msg) {
+	function showNotification(type, msg) {
+		removeNotification();
 		console.log('notification', type, msg);
-		let $notification = document.getElementsByClassName('notification')[0];
-		let $notification_content = document.getElementsByClassName('notification_content')[0];
+		const $notification = document.createElement('DIV');
+		$notification.classList.add('notification');
+		$notification.classList.add('notification-' + type);
+		const $notification_content = document.createElement('DIV');
+		$notification_content.classList.add('notification_content');
 		$notification_content.innerText = msg;
-		$notification.classList.toggle('notification-' + type);
+		$notification.append($notification_content);
+		let $form_explorer = document.getElementById('form_explorer');
+		if($form_explorer)
+			insertAfter($notification, $form_explorer)
 	}
 
-	function prettyHTMLDiff(diff){
+	function removeNotification(){
+		console.log('removeNotification');
+		[...document.getElementsByClassName("notification")].map(n => n && n.remove());
+	}
+
+	function insertAfter(el, referenceNode) {
+		referenceNode.parentNode.insertBefore(el, referenceNode.nextSibling);
+	}
+
+	function prettyHTMLDiff(diff) {
 		var DIFF_DELETE = -1;
 		var DIFF_INSERT = 1;
 		var DIFF_EQUAL = 0;
@@ -142,30 +163,30 @@ document.addEventListener("DOMContentLoaded", () => {
 		var pattern_gt = />/g;
 		var pattern_para = /\n/g;
 		for (var x = 0; x < diff.length; x++) {
-			var op = diff[x][0];    // Operation (insert, delete, equal)
-			var data = diff[x][1];  // Text of change.
+			var op = diff[x][0]; // Operation (insert, delete, equal)
+			var data = diff[x][1]; // Text of change.
 			var text = data.replace(pattern_amp, '&amp;').replace(pattern_lt, '&lt;')
 				.replace(pattern_gt, '&gt;').replace(pattern_para, '<br>');
 			switch (op) {
-			case DIFF_INSERT:
-				html[x] = '<ins>' + text + '</ins>';
-				break;
-			case DIFF_DELETE:
-				html[x] = '<del>' + text + '</del>';
-				break;
-			case DIFF_EQUAL:
-				html[x] = '<span>' + text + '</span>';
-				break;
+				case DIFF_INSERT:
+					html[x] = '<ins>' + text + '</ins>';
+					break;
+				case DIFF_DELETE:
+					html[x] = '<del>' + text + '</del>';
+					break;
+				case DIFF_EQUAL:
+					html[x] = '<span>' + text + '</span>';
+					break;
 			}
 		}
 		return html.join('');
 	}
 
-	function maxInputDateNow(){
+	function maxInputDateNow() {
 		console.log('maxInputDateNow');
 		let $inputDates = document.querySelectorAll('input[type=date]');
 		$inputDates.forEach($inputDate => {
-			$inputDate.setAttribute('max',new Date().toISOString().split("T")[0]);
+			$inputDate.setAttribute('max', new Date().toISOString().split("T")[0]);
 		});
 	}
 

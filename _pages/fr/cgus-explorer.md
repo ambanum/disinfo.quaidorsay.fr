@@ -27,14 +27,12 @@ css_files:
 <form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_services">Service</label>
-		<select class="form_field_select" name="form_services" id="form_services" tabindex="1" required>			
-			<option selected disabled hidden value="default">Select</option>
+		<select class="form_field_select" name="form_services" id="form_services" tabindex="1" required>
 		</select>
 	</div>
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_typeofdocuments">Type of documents</label>
 		<select class="form_field_select" name="form_typeofdocuments" id="form_typeofdocuments" tabindex="2" required>
-			<option selected disabled hidden value="default">Select</option>
 		</select>
 	</div>
 	<div class="form_field">
@@ -49,10 +47,6 @@ css_files:
 		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4" required>
 	</div>
 </form>
-
-<div class="notification">
-	<div class="notification_content"></div>
-</div>
 
 <div class="diffviewer">
 	<div class="diffviewer_content">...</div>
