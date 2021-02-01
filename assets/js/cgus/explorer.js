@@ -1,4 +1,5 @@
 import 'regenerator-runtime/runtime'
+import DiffMatchPatch from 'diff-match-patch';
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -92,8 +93,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			let data = await response.json()	
 			if (data.error) throw new Error(data.error)
 			if (data.data == ''){
-				//throw new Error('No version recorded at this date');
-				//Promise.reject('No version recorded at this date');
 				return await getDoc(service, type, data.next_version.substr(0, 10))
 			}
 			else return data; 
@@ -102,23 +101,16 @@ document.addEventListener("DOMContentLoaded", () => {
 		} 
 	}
 
-	function diff(docs) {
+	async function diff(docs) {
 		console.log('diff', docs);
 		let $doc1 = document.getElementById('doc1');
 		$doc1.innerText = docs[0].data;
 		let $doc2 = document.getElementById('doc2');
-		$doc2.innerText = docs[1].data;
 
-		/* let diff = Diff.diffChars(docs[0].data, docs[1].data);
-		let fragment = document.createDocumentFragment();
-		diff.forEach((part) => {
-			const color = part.added ? 'green' : part.removed ? 'red' : 'grey';
-			span = document.createElement('span');
-			span.style.color = color;
-			span.appendChild(document.createTextNode(part.value));
-			fragment.appendChild(span);
-		});
-		$doc2.appendChild(fragment); */
+		const dmp = new DiffMatchPatch();
+		let diff = dmp.diff_main(docs[0].data, docs[1].data);
+		let diffPrettyHtml = dmp.diff_prettyHtml(diff);
+		$doc2.innerHTML  = diffPrettyHtml;
 	}
 
 	/* Show notification message */
