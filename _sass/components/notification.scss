@@ -2,6 +2,7 @@
 	padding: 32px;
 	margin-top: 32px;
 	text-align: center;
+	@extend .text-sm;
 
 	&-error {
 		color: $color-error;

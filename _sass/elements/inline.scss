@@ -14,6 +14,12 @@
 	line-height: 2.8rem;
 }
 
+.text-sm {
+	color: $color-g700;
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+}
+
 strong,
 bold {
 	@extend .font-mariannebold;

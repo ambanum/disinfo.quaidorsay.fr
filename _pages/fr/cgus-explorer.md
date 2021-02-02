@@ -24,26 +24,34 @@ css_files:
 
 {% include breadcrumb.html %}
 
+<script type="text/javascript">
+	const notificationsMsgs = {
+		'browserSupport': "{{ site.data.translations.cgus-explorer.notifications.browser-support[page.lang] }}",
+		'dateClosest': "{{ site.data.translations.cgus-explorer.notifications.date-closest[page.lang] }}",
+		'nothingToCompare': "{{ site.data.translations.cgus-explorer.notifications.nothing-to-compare[page.lang] }}",
+	};
+</script>
+
 <form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
-		<label class="form_field_label" for="form_services">Service</label>
+		<label class="form_field_label" for="form_services">{{ site.data.translations.cgus-explorer.form.service[page.lang] }}</label>
 		<select class="form_field_select" name="form_services" id="form_services" tabindex="1" required>
 		</select>
 	</div>
 	<div class="form_field form_field-big">
-		<label class="form_field_label" for="form_typeofdocuments">Type of documents</label>
+		<label class="form_field_label" for="form_typeofdocuments">{{ site.data.translations.cgus-explorer.form.type[page.lang] }}</label>
 		<select class="form_field_select" name="form_typeofdocuments" id="form_typeofdocuments" tabindex="2" required>
 		</select>
 	</div>
 	<div class="form_field">
-		<label class="form_field_label" for="form_firstdocumentdate">First date</label>
+		<label class="form_field_label" for="form_firstdocumentdate">{{ site.data.translations.cgus-explorer.form.first-date[page.lang] }}</label>
 		<input type="date" id="form_firstdocumentdate" name="form_firstdocumentdate" tabindex="3" required>
 	</div>
 	<div class="form_field form_field-submit">
-		<input type="submit" class="button" value="Compare" tabindex="5" /> 
+		<input type="submit" class="button" value="{{ site.data.translations.cgus-explorer.form.submit[page.lang] }}" tabindex="5" /> 
 	</div>
 	<div class="form_field">
-		<label class="form_field_label" for="form_seconddocumentdate">Second date</label>
+		<label class="form_field_label" for="form_seconddocumentdate">{{ site.data.translations.cgus-explorer.form.second-date[page.lang] }}</label>
 		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4" required>
 	</div>
 </form>

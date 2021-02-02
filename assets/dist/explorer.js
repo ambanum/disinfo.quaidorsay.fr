@@ -3087,12 +3087,134 @@ module.exports['diff_match_patch'] = diff_match_patch;
 module.exports['DIFF_DELETE'] = DIFF_DELETE;
 module.exports['DIFF_INSERT'] = DIFF_INSERT;
 module.exports['DIFF_EQUAL'] = DIFF_EQUAL;
+},{}],"node_modules/@solid-js/nanostache/dist/_index.mjs":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Nanostache = Nanostache;
+exports.delimitersRegex = void 0;
+
+/**
+ * Delimiters regex.
+ * Override it to change templating delimiters.
+ */
+let delimitersRegex = new RegExp('{{(.*?)}}', 'gm');
+/**
+ * Get processed value from values bag.
+ * Can return string / number / boolean ... Value is not casted to string.
+ * Will call function if value is a function, and will return function result.
+ * @param valueName Property name of the value to get from value bag
+ * @param values One level deep value bag containing properties and values as scalar or functions
+ */
+
+exports.delimitersRegex = delimitersRegex;
+
+function processValue(valueName, values) {
+  // Silently fail as empty string if value is not found
+  if (!(valueName in values)) return ''; // Get raw value
+
+  const value = values[valueName]; // Call function or return value
+
+  return typeof value === 'function' ? value.call(values, values) : value;
+}
+/**
+ * Called each time the regex find an mustache delimited variable
+ * @param match Detected mustache match ( without delimiters )
+ * @param values One level deep value bag containing properties and values as scalar or functions
+ */
+
+
+function matcher(match, values) {
+  // Removed spaces
+  const trimmed = match.trim(); // Try to detect ternaries
+
+  const ternaryDelimiter0 = trimmed.indexOf('?');
+  const ternaryDelimiter1 = trimmed.indexOf(':');
+
+  if (ternaryDelimiter0 > 0) {
+    // Get value name from ternary ( valueName ? truePart : falsePart ) and then get processed value
+    const ternaryValueName = trimmed.substring(0, ternaryDelimiter0).trim();
+    const ternaryCondition = processValue(ternaryValueName, values); // Execute condition and return trimmed truePart or trimmed falsePart
+
+    return (// Truthy
+      ternaryCondition ? trimmed.substring(ternaryDelimiter0 + 1, ternaryDelimiter1).trim() // Falsy
+      : // Show second par after semicolon if falsy
+      // Or show empty string if there is no semicolon
+      ternaryDelimiter1 > 0 ? trimmed.substring(ternaryDelimiter1 + 1, trimmed.length).trim() : ''
+    );
+  } // No ternary, process value
+
+
+  return processValue(trimmed, values);
+}
+/**
+ * Process a template as string with values.
+ * Values needs to be a one level deep associative object ( key : value ).
+ * Why do you need Nanostache since literal template strings are available in ES6+ ?
+ * Nanostache can be useful when any templating is needed when the template source is not coming
+ * from javascript itself. For example, if you need to process a template from a file, or
+ * any other kind of input.
+ *
+ * Example :
+ * Nanostache('Hello {{username}}', {
+ *   username: 'James Bond'
+ * });
+ * -> 'Hello James Bond'
+ *
+ * Values can be functions :
+ * const user = { balance : 12 };
+ * Nanostache('Your current balance is {{balance}}€', {
+ *   balance: () => user.balance
+ * });
+ * -> 'Your current balance is 12€'
+ *
+ * Ternary conditions can be used :
+ * Nanostache('Condition is {{test ? truthy : falsy}}', {
+ *   test: 0
+ * });
+ * -> 'Condition is falsy'
+ *
+ * Or, with the help of functions :
+ * Nanostache('{{name}} is {{age}} {{isAgePlural ? years : year}} old', {
+ *    name: 'Brad Pitt',
+ *    age: 55,
+ *    // Note that v here is the current value object
+ *    // So we can access dynamically to the age property
+ *    isAgePlural: v => v.age > 1
+ * });
+ * -> 'Brad Pitt is 55 years old'
+ *
+ * Complex example mixing functions and ternaries :
+ * const user = {
+ *     name: 'James Bond',
+ *     gender: 'male',
+ *     balance: 15
+ * }
+ * Nanostache('Hello {{ isMale ? mr : mrs }} {{ getLastName }}. Your balance is {{ balance }}€.', {
+ *   ...user,
+ *   isMale: v => v.gender == 'male',
+ *   getLastName: v => v.name.split(' ')[1]
+ * });
+ * -> 'Hello mr Bond. Your balance is 15€.'
+ *
+ * @param template Template to process with delimiters and values.
+ * @param values One level deep value bag containing properties and values as scalar or functions
+ */
+
+
+function Nanostache(template, values) {
+  return template.replace(delimitersRegex, (i, m) => matcher(m, values));
+}
 },{}],"explorer.js":[function(require,module,exports) {
 "use strict";
 
 require("regenerator-runtime/runtime");
 
 var _diffMatchPatch = _interopRequireDefault(require("diff-match-patch"));
+
+var _nanostache = require("@solid-js/nanostache");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3124,7 +3246,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (window.fetch) {
     init();
   } else {
-    showNotification('error', 'Your browser is not supported 😥');
+    showNotification('error', notificationsMsgs.browserSupport);
   }
 
   var requestHeaders = {
@@ -3378,12 +3500,17 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log('showDatesInfos', docs);
     var $form_explorer = document.getElementById('form_explorer');
     var formData = new FormData($form_explorer);
-    var firstDocumentDate = formData.get('form_firstdocumentdate');
-    var secondDocumentDate = formData.get('form_seconddocumentdate');
-    var firstDocumentVersionAtDate = docs[0].version_at_date.substr(0, 10);
-    var secondDocumentVersionAtDate = docs[1].version_at_date.substr(0, 10);
-    var msg = "For the requested date ".concat(firstDocumentDate, ", the closest version is dated ").concat(firstDocumentVersionAtDate, " and for the requested date ").concat(secondDocumentDate, " the closest version is dated ").concat(secondDocumentVersionAtDate);
-    if (docs[0].version_at_date == docs[1].version_at_date) msg = "There is only one saved version of the document for the selected dates, so there is nothing to compare.";
+    var firstDocumentDate = dateToDMY(formData.get('form_firstdocumentdate'));
+    var secondDocumentDate = dateToDMY(formData.get('form_seconddocumentdate'));
+    var firstDocumentVersionAtDate = dateToDMY(docs[0].version_at_date.substr(0, 10));
+    var secondDocumentVersionAtDate = dateToDMY(docs[1].version_at_date.substr(0, 10));
+    var msg = (0, _nanostache.Nanostache)(notificationsMsgs.dateClosest, {
+      firstDocumentDate: firstDocumentDate,
+      secondDocumentDate: secondDocumentDate,
+      firstDocumentVersionAtDate: firstDocumentVersionAtDate,
+      secondDocumentVersionAtDate: secondDocumentVersionAtDate
+    });
+    if (docs[0].version_at_date == docs[1].version_at_date) msg = notificationsMsgs.nothingToCompare;
     showNotification('info', msg);
   }
 
@@ -3443,7 +3570,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function prettyHTMLDiff(diff) {
-    var DIFF_DELETE = -1;
+    var DIFF_DEconstE = -1;
     var DIFF_INSERT = 1;
     var DIFF_EQUAL = 0;
     var html = [];
@@ -3453,7 +3580,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var pattern_para = /\n/g;
 
     for (var x = 0; x < diff.length; x++) {
-      var op = diff[x][0]; // Operation (insert, delete, equal)
+      var op = diff[x][0]; // Operation (insert, deconste, equal)
 
       var data = diff[x][1]; // Text of change.
 
@@ -3464,7 +3591,7 @@ document.addEventListener("DOMContentLoaded", function () {
           html[x] = '<ins>' + text + '</ins>';
           break;
 
-        case DIFF_DELETE:
+        case DIFF_DEconstE:
           html[x] = '<del>' + text + '</del>';
           break;
 
@@ -3483,6 +3610,15 @@ document.addEventListener("DOMContentLoaded", function () {
     $inputDates.forEach(function ($inputDate) {
       $inputDate.setAttribute('max', new Date().toISOString().split("T")[0]);
     });
+  }
+
+  function dateToDMY(dateToFormat) {
+    var date = new Date(dateToFormat);
+    return date.toLocaleString('default', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    });
   } //1 - initialiser le formulaire avec les paramètres passés en url
   //2 - le cas échéant afficher les documents demandés
   //3 - écouter les changement sur le formulaire
@@ -3490,7 +3626,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //5 - modifier les paramètres en url
 
 });
-},{"regenerator-runtime/runtime":"node_modules/regenerator-runtime/runtime.js","diff-match-patch":"node_modules/diff-match-patch/index.js"}],"C:/Users/super/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"regenerator-runtime/runtime":"node_modules/regenerator-runtime/runtime.js","diff-match-patch":"node_modules/diff-match-patch/index.js","@solid-js/nanostache":"node_modules/@solid-js/nanostache/dist/_index.mjs"}],"C:/Users/super/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -3518,7 +3654,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60061" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51195" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,12 +1,15 @@
 import 'regenerator-runtime/runtime'
 import DiffMatchPatch from 'diff-match-patch';
+import {
+	Nanostache
+} from '@solid-js/nanostache'
 
 document.addEventListener("DOMContentLoaded", () => {
 
 	if (window.fetch) {
 		init();
 	} else {
-		showNotification('error', 'Your browser is not supported 😥');
+		showNotification('error', notificationsMsgs.browserSupport);
 	}
 
 	const requestHeaders = {
@@ -18,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function async_fetch(url) {
-		let response = await fetch(url)
+		const response = await fetch(url)
 		if (response.ok) return response.json()
 		throw new Error(response.status)
 	}
@@ -36,15 +39,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	async function getServices() {
 		console.log('getServices')
-		let request = new Request('https://disinfo.quaidorsay.fr/api/cgus/list_services/v1/', requestHeaders);
+		const request = new Request('https://disinfo.quaidorsay.fr/api/cgus/list_services/v1/', requestHeaders);
 		return async_fetch(request);
 	}
 
 	function populate(services) {
 		console.log('populate', services);
-		let $form_services = document.getElementById('form_services');
+		const $form_services = document.getElementById('form_services');
 		for (const [key, value] of Object.entries(services)) {
-			let option = new Option(key, key);
+			const option = new Option(key, key);
 			option.dataset.typeofdocuments = value;
 			$form_services.add(option);
 		}
@@ -52,12 +55,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		onSelectService();
 	}
 
-	function onSelectService(event){
+	function onSelectService(event) {
 		console.log('onSelectService');
-		let $form_services = document.getElementById('form_services');
-		let $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+		const $form_services = document.getElementById('form_services');
+		const $form_typeofdocuments = document.getElementById('form_typeofdocuments');
 		$form_typeofdocuments.innerHTML = '';
-		let typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
+		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
 		typesofdocuments && typesofdocuments.forEach(type => {
 			$form_typeofdocuments.add(new Option(type, type));
 		});
@@ -68,11 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		const $form_explorer = document.getElementById('form_explorer');
 		$form_explorer && $form_explorer.addEventListener('submit', (event) => {
 			event.preventDefault();
-			let formData = new FormData(event.target);
-			let service = formData.get('form_services');
-			let type = formData.get('form_typeofdocuments');
-			let firstDocumentDate = formData.get('form_firstdocumentdate');
-			let secondDocumentDate = formData.get('form_seconddocumentdate');
+			const formData = new FormData(event.target);
+			const service = formData.get('form_services');
+			const type = formData.get('form_typeofdocuments');
+			const firstDocumentDate = formData.get('form_firstdocumentdate');
+			const secondDocumentDate = formData.get('form_seconddocumentdate');
 			loadDocs(service, type, firstDocumentDate, secondDocumentDate)
 				.then((docs, firstDocumentDate, secondDocumentDate) => {
 					showDatesInfos(docs)
@@ -83,18 +86,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	async function loadDocs(service, type, firstDocumentDate, secondDocumentDate) {
 		console.log('loadDocs', service, type, firstDocumentDate, secondDocumentDate);
-		let doc1 = await getDoc(service, type, firstDocumentDate);
-		let doc2 = await getDoc(service, type, secondDocumentDate);
+		const doc1 = await getDoc(service, type, firstDocumentDate);
+		const doc2 = await getDoc(service, type, secondDocumentDate);
 		return Array(doc1, doc2);
 	}
 
 	async function getDoc(service, type, date) {
 		console.log('getDoc', service, type, date)
-		let route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
-		let request = new Request(route, requestHeaders);
-		let response = await fetch(request)
+		const route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
+		const request = new Request(route, requestHeaders);
+		const response = await fetch(request)
 		if (response.ok) {
-			let data = await response.json()
+			const data = await response.json()
 			if (data.error) throw new Error(data.error)
 			if (data.data == '') {
 				return await getDoc(service, type, data.next_version.substr(0, 10))
@@ -106,25 +109,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function showDatesInfos(docs) {
 		console.log('showDatesInfos', docs);
-		let $form_explorer = document.getElementById('form_explorer');
-		let formData = new FormData($form_explorer);
-		let firstDocumentDate = formData.get('form_firstdocumentdate');
-		let secondDocumentDate = formData.get('form_seconddocumentdate');
-		let firstDocumentVersionAtDate = docs[0].version_at_date.substr(0, 10);
-		let secondDocumentVersionAtDate = docs[1].version_at_date.substr(0, 10);
-		let msg = `For the requested date ${firstDocumentDate}, the closest version is dated ${firstDocumentVersionAtDate} and for the requested date ${secondDocumentDate} the closest version is dated ${secondDocumentVersionAtDate}`;
+		const $form_explorer = document.getElementById('form_explorer');
+		const formData = new FormData($form_explorer);
+		const firstDocumentDate = dateToDMY(formData.get('form_firstdocumentdate'));
+		const secondDocumentDate = dateToDMY(formData.get('form_seconddocumentdate'));
+		const firstDocumentVersionAtDate = dateToDMY(docs[0].version_at_date.substr(0, 10));
+		const secondDocumentVersionAtDate = dateToDMY(docs[1].version_at_date.substr(0, 10));
+		let msg = Nanostache(notificationsMsgs.dateClosest, {
+			firstDocumentDate: firstDocumentDate,
+			secondDocumentDate: secondDocumentDate,
+			firstDocumentVersionAtDate: firstDocumentVersionAtDate,
+			secondDocumentVersionAtDate: secondDocumentVersionAtDate,
+		});
 		if (docs[0].version_at_date == docs[1].version_at_date)
-			msg = `There is only one saved version of the document for the selected dates, so there is nothing to compare.`;
-		
+			msg = notificationsMsgs.nothingToCompare;
+
 		showNotification('info', msg)
 	}
 
 	async function showDiff(docs) {
 		console.log('diff', docs);
 		const dmp = new DiffMatchPatch();
-		let diff = dmp.diff_main(docs[0].data, docs[1].data);
-		let diffPrettyHtml = prettyHTMLDiff(diff);
-		let $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
+		const diff = dmp.diff_main(docs[0].data, docs[1].data);
+		const diffPrettyHtml = prettyHTMLDiff(diff);
+		const $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
 		console.log($diffviewer);
 		if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
 	}
@@ -139,12 +147,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		$notification_content.classList.add('notification_content');
 		$notification_content.innerText = msg;
 		$notification.append($notification_content);
-		let $form_explorer = document.getElementById('form_explorer');
-		if($form_explorer)
+		const $form_explorer = document.getElementById('form_explorer');
+		if ($form_explorer)
 			insertAfter($notification, $form_explorer)
 	}
 
-	function removeNotification(){
+	function removeNotification() {
 		console.log('removeNotification');
 		[...document.getElementsByClassName("notification")].map(n => n && n.remove());
 	}
@@ -154,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function prettyHTMLDiff(diff) {
-		var DIFF_DELETE = -1;
+		var DIFF_DEconstE = -1;
 		var DIFF_INSERT = 1;
 		var DIFF_EQUAL = 0;
 		var html = [];
@@ -163,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		var pattern_gt = />/g;
 		var pattern_para = /\n/g;
 		for (var x = 0; x < diff.length; x++) {
-			var op = diff[x][0]; // Operation (insert, delete, equal)
+			var op = diff[x][0]; // Operation (insert, deconste, equal)
 			var data = diff[x][1]; // Text of change.
 			var text = data.replace(pattern_amp, '&amp;').replace(pattern_lt, '&lt;')
 				.replace(pattern_gt, '&gt;').replace(pattern_para, '<br>');
@@ -171,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				case DIFF_INSERT:
 					html[x] = '<ins>' + text + '</ins>';
 					break;
-				case DIFF_DELETE:
+				case DIFF_DEconstE:
 					html[x] = '<del>' + text + '</del>';
 					break;
 				case DIFF_EQUAL:
@@ -184,9 +192,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function maxInputDateNow() {
 		console.log('maxInputDateNow');
-		let $inputDates = document.querySelectorAll('input[type=date]');
+		const $inputDates = document.querySelectorAll('input[type=date]');
 		$inputDates.forEach($inputDate => {
 			$inputDate.setAttribute('max', new Date().toISOString().split("T")[0]);
+		});
+	}
+
+	function dateToDMY(dateToFormat) {
+		const date = new Date(dateToFormat);
+		return date.toLocaleString('default', {
+			day: '2-digit',
+			month: '2-digit',
+			year: 'numeric'
 		});
 	}
 
