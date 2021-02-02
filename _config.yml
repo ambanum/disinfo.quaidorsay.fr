@@ -28,6 +28,7 @@ exclude:
   - README.md
   - .circleci
   - vendor
+  - assets/js/cgus/node_modules
 
 kramdown:
   toc_levels: 2..5

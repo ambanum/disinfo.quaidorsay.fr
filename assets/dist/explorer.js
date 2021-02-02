@@ -3242,20 +3242,19 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+var requestHeaders = {
+  method: 'GET',
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json'
+  }
+};
 document.addEventListener("DOMContentLoaded", function () {
   if (window.fetch) {
     init();
   } else {
     showNotification('error', notificationsMsgs.browserSupport);
   }
-
-  var requestHeaders = {
-    method: 'GET',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    }
-  };
 
   function async_fetch(_x) {
     return _async_fetch.apply(this, arguments);
@@ -3304,14 +3303,17 @@ document.addEventListener("DOMContentLoaded", function () {
         while (1) {
           switch (_context2.prev = _context2.next) {
             case 0:
+              console.log('init');
               getServices().then(function (data) {
                 populate(data);
               }).then(function () {
-                maxInputDateNow();
-                listenSubmit();
+                setMaxInputDateToNow();
+                formEventListener();
+                window.addEventListener("popstate", popStateHandler);
+                popStateHandler();
               });
 
-            case 1:
+            case 2:
             case "end":
               return _context2.stop();
           }
@@ -3319,6 +3321,21 @@ document.addEventListener("DOMContentLoaded", function () {
       }, _callee2);
     }));
     return _init.apply(this, arguments);
+  }
+
+  function formEventListener() {
+    console.log('formEventListener');
+    var $form_explorer = document.getElementById('form_explorer');
+    $form_explorer && $form_explorer.addEventListener('submit', submitHandler);
+    var $form_services = document.getElementById('form_services');
+    $form_services && $form_services.addEventListener('change', onServiceChangeHandler);
+    onServiceChangeHandler($form_services);
+    var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+    form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChange);
+    var $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
+    $form_firstdocumentdate && $form_firstdocumentdate.addEventListener('change', onDateChange);
+    var $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
+    $form_seconddocumentdate && $form_seconddocumentdate.addEventListener('change', onDateChange);
   }
 
   function getServices() {
@@ -3332,11 +3349,10 @@ document.addEventListener("DOMContentLoaded", function () {
         while (1) {
           switch (_context3.prev = _context3.next) {
             case 0:
-              console.log('getServices');
               request = new Request('https://disinfo.quaidorsay.fr/api/cgus/list_services/v1/', requestHeaders);
               return _context3.abrupt("return", async_fetch(request));
 
-            case 3:
+            case 2:
             case "end":
               return _context3.stop();
           }
@@ -3347,7 +3363,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function populate(services) {
-    console.log('populate', services);
     var $form_services = document.getElementById('form_services');
 
     for (var _i = 0, _Object$entries = Object.entries(services); _i < _Object$entries.length; _i++) {
@@ -3359,37 +3374,139 @@ document.addEventListener("DOMContentLoaded", function () {
       option.dataset.typeofdocuments = value;
       $form_services.add(option);
     }
-
-    $form_services && $form_services.addEventListener('change', onSelectService);
-    onSelectService();
   }
 
-  function onSelectService(event) {
-    console.log('onSelectService');
+  function popStateHandler(event) {
+    console.log('popStateHandler', event, window.location.href);
+    hideDiff();
+    removeNotification();
+    var urlParams = new URLSearchParams(window.location.search);
+    var queryStringData = Object.fromEntries(urlParams);
+    updateFormValues(queryStringData);
+    submitForm();
+  }
+
+  function submitForm() {
+    console.log('submitForm');
+    var $form_explorer = document.getElementById('form_explorer');
+    $form_explorer.dispatchEvent(new Event('submit'));
+  }
+
+  function updateFormValues(queryStringData) {
+    console.log('updateFormValues', queryStringData);
+    var errogMsg = ''; //Update service
+
+    if (queryStringData.service) {
+      var $form_services = document.getElementById('form_services');
+
+      if ($form_services) {
+        var option = isSelectOptionExist($form_services, queryStringData.service);
+
+        if (option) {
+          option.setAttribute('selected', 'selected');
+        } else {
+          errogMsg = errogMsg.concat('Service is not valid');
+        }
+      }
+    } //Update document
+
+
+    if (queryStringData.typeofdocument) {
+      var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+
+      if ($form_typeofdocuments) {
+        var _option = isSelectOptionExist($form_typeofdocuments, queryStringData.typeofdocument);
+
+        if (_option) {
+          _option.setAttribute('selected', 'selected');
+        } else {
+          if (errogMsg != '') {
+            errogMsg = errogMsg.concat('<br>');
+          }
+
+          errogMsg = errogMsg.concat('Type of document is not valid');
+        }
+      }
+    }
+
+    if (queryStringData.date1) {
+      var $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
+
+      if ($form_firstdocumentdate) {
+        $form_firstdocumentdate.value = queryStringData.date1;
+      }
+    }
+
+    if (queryStringData.date2) {
+      var $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
+
+      if ($form_seconddocumentdate) {
+        $form_seconddocumentdate.value = queryStringData.date2;
+      }
+    }
+
+    if (errogMsg != '') showNotification('error', errogMsg);
+  }
+
+  function isSelectOptionExist($target, value) {
+    return $target.querySelector('[value="' + value + '"]');
+  }
+
+  function isDateValid() {}
+
+  function updateURL(key, value) {
+    console.log('updateURL', key, value);
+    var url = new URL(window.location);
+    url.searchParams.set(key, value);
+    window.history.pushState({}, '', url);
+    window.dispatchEvent(new Event('popstate'));
+  }
+
+  function onServiceChangeHandler(event) {
     var $form_services = document.getElementById('form_services');
     var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+    console.log('$form_typeofdocuments.length', $form_typeofdocuments.length);
     $form_typeofdocuments.innerHTML = '';
     var typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
     typesofdocuments && typesofdocuments.forEach(function (type) {
       $form_typeofdocuments.add(new Option(type, type));
     });
+    updateURL('service', $form_services.selectedOptions.item(0).value);
+    onTypeOfDocumentChange({
+      target: $form_typeofdocuments
+    });
   }
 
-  function listenSubmit() {
-    console.log('listenSubmit');
-    var $form_explorer = document.getElementById('form_explorer');
-    $form_explorer && $form_explorer.addEventListener('submit', function (event) {
-      event.preventDefault();
-      var formData = new FormData(event.target);
-      var service = formData.get('form_services');
-      var type = formData.get('form_typeofdocuments');
-      var firstDocumentDate = formData.get('form_firstdocumentdate');
-      var secondDocumentDate = formData.get('form_seconddocumentdate');
+  function onTypeOfDocumentChange(event) {
+    updateURL('typeofdocument', event.target.selectedOptions.item(0).value);
+  }
+
+  function onDateChange(event) {
+    var currentDateKey = event.target.id == 'form_firstdocumentdate' ? 'date1' : 'date2';
+    updateURL(currentDateKey, event.target.value);
+  }
+
+  function submitHandler(event) {
+    console.log('submitHandler', event);
+    event.preventDefault();
+    var formData = new FormData(event.target);
+    var service = formData.get('form_services');
+    var type = formData.get('form_typeofdocuments');
+    var firstDocumentDate = formData.get('form_firstdocumentdate');
+    var secondDocumentDate = formData.get('form_seconddocumentdate');
+    console.log('isValidForm ?', isValidForm(service, type, firstDocumentDate, secondDocumentDate));
+
+    if (isValidForm(service, type, firstDocumentDate, secondDocumentDate)) {
       loadDocs(service, type, firstDocumentDate, secondDocumentDate).then(function (docs, firstDocumentDate, secondDocumentDate) {
         showDatesInfos(docs);
         showDiff(docs);
       });
-    });
+    }
+  }
+
+  function isValidForm(service, type, firstDocumentDate, secondDocumentDate) {
+    if (service && type && firstDocumentDate && secondDocumentDate) return true;
+    return false;
   }
 
   function loadDocs(_x2, _x3, _x4, _x5) {
@@ -3403,20 +3520,19 @@ document.addEventListener("DOMContentLoaded", function () {
         while (1) {
           switch (_context4.prev = _context4.next) {
             case 0:
-              console.log('loadDocs', service, type, firstDocumentDate, secondDocumentDate);
-              _context4.next = 3;
+              _context4.next = 2;
               return getDoc(service, type, firstDocumentDate);
 
-            case 3:
+            case 2:
               doc1 = _context4.sent;
-              _context4.next = 6;
+              _context4.next = 5;
               return getDoc(service, type, secondDocumentDate);
 
-            case 6:
+            case 5:
               doc2 = _context4.sent;
               return _context4.abrupt("return", Array(doc1, doc2));
 
-            case 8:
+            case 7:
             case "end":
               return _context4.stop();
           }
@@ -3437,56 +3553,55 @@ document.addEventListener("DOMContentLoaded", function () {
         while (1) {
           switch (_context5.prev = _context5.next) {
             case 0:
-              console.log('getDoc', service, type, date);
               route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
               request = new Request(route, requestHeaders);
-              _context5.next = 5;
+              _context5.next = 4;
               return fetch(request);
 
-            case 5:
+            case 4:
               response = _context5.sent;
 
               if (!response.ok) {
-                _context5.next = 21;
+                _context5.next = 20;
                 break;
               }
 
-              _context5.next = 9;
+              _context5.next = 8;
               return response.json();
 
-            case 9:
+            case 8:
               data = _context5.sent;
 
               if (!data.error) {
-                _context5.next = 12;
+                _context5.next = 11;
                 break;
               }
 
               throw new Error(data.error);
 
-            case 12:
+            case 11:
               if (!(data.data == '')) {
-                _context5.next = 18;
+                _context5.next = 17;
                 break;
               }
 
-              _context5.next = 15;
+              _context5.next = 14;
               return getDoc(service, type, data.next_version.substr(0, 10));
 
-            case 15:
+            case 14:
               return _context5.abrupt("return", _context5.sent);
 
-            case 18:
+            case 17:
               return _context5.abrupt("return", data);
 
-            case 19:
-              _context5.next = 22;
+            case 18:
+              _context5.next = 21;
               break;
 
-            case 21:
+            case 20:
               throw new Error(response.status);
 
-            case 22:
+            case 21:
             case "end":
               return _context5.stop();
           }
@@ -3497,7 +3612,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function showDatesInfos(docs) {
-    console.log('showDatesInfos', docs);
     var $form_explorer = document.getElementById('form_explorer');
     var formData = new FormData($form_explorer);
     var firstDocumentDate = dateToDMY(formData.get('form_firstdocumentdate'));
@@ -3525,7 +3639,6 @@ document.addEventListener("DOMContentLoaded", function () {
         while (1) {
           switch (_context6.prev = _context6.next) {
             case 0:
-              console.log('diff', docs);
               dmp = new _diffMatchPatch.default();
               diff = dmp.diff_main(docs[0].data, docs[1].data);
               diffPrettyHtml = prettyHTMLDiff(diff);
@@ -3533,7 +3646,7 @@ document.addEventListener("DOMContentLoaded", function () {
               console.log($diffviewer);
               if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
 
-            case 7:
+            case 6:
             case "end":
               return _context6.stop();
           }
@@ -3543,23 +3656,26 @@ document.addEventListener("DOMContentLoaded", function () {
     return _showDiff.apply(this, arguments);
   }
 
+  function hideDiff() {
+    var $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
+    if ($diffviewer) $diffviewer.innerHTML = '';
+  }
+
   function showNotification(type, msg) {
-    removeNotification();
     console.log('notification', type, msg);
+    removeNotification();
     var $notification = document.createElement('DIV');
     $notification.classList.add('notification');
     $notification.classList.add('notification-' + type);
     var $notification_content = document.createElement('DIV');
     $notification_content.classList.add('notification_content');
-    $notification_content.innerText = msg;
+    $notification_content.innerHTML = msg;
     $notification.append($notification_content);
     var $form_explorer = document.getElementById('form_explorer');
     if ($form_explorer) insertAfter($notification, $form_explorer);
   }
 
   function removeNotification() {
-    console.log('removeNotification');
-
     _toConsumableArray(document.getElementsByClassName("notification")).map(function (n) {
       return n && n.remove();
     });
@@ -3604,8 +3720,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return html.join('');
   }
 
-  function maxInputDateNow() {
-    console.log('maxInputDateNow');
+  function setMaxInputDateToNow() {
     var $inputDates = document.querySelectorAll('input[type=date]');
     $inputDates.forEach(function ($inputDate) {
       $inputDate.setAttribute('max', new Date().toISOString().split("T")[0]);
@@ -3619,12 +3734,7 @@ document.addEventListener("DOMContentLoaded", function () {
       month: '2-digit',
       year: 'numeric'
     });
-  } //1 - initialiser le formulaire avec les paramètres passés en url
-  //2 - le cas échéant afficher les documents demandés
-  //3 - écouter les changement sur le formulaire
-  //4 - écouter les changement sur le submit du formulaire
-  //5 - modifier les paramètres en url
-
+  }
 });
 },{"regenerator-runtime/runtime":"node_modules/regenerator-runtime/runtime.js","diff-match-patch":"node_modules/diff-match-patch/index.js","@solid-js/nanostache":"node_modules/@solid-js/nanostache/dist/_index.mjs"}],"C:/Users/super/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -3654,7 +3764,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51195" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64545" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

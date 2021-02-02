@@ -12,7 +12,6 @@ navbar_items:
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 js_files:
-
  - assets/dist/explorer.js
 css_files:	
 ---
