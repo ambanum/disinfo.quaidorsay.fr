@@ -12,6 +12,14 @@ const requestHeaders = {
 
 document.addEventListener("DOMContentLoaded", () => {
 
+	const $form_explorer           = document.getElementById('form_explorer');
+	const $form_services           = document.getElementById('form_services');
+	const $form_typeofdocuments    = document.getElementById('form_typeofdocuments');
+	const $form_firstdocumentdate  = document.getElementById('form_firstdocumentdate');
+	const $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
+	const $diffviewer              = document.getElementsByClassName('diffviewer_content')[0];
+	const $inputDates              = document.querySelectorAll('input[type=date]');
+
 	if (window.fetch) {
 		init();
 	} else {
@@ -28,11 +36,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		console.log('init');
 		getServices()
 		.then(data => {
-			populate(data)
+			populateServices(data)
 		})
 		.then(() => {
 			setMaxInputDateToNow()
 			formEventListener()
+			onServiceChangeHandler($form_services);
 			window.addEventListener("popstate", popStateHandler)
 			popStateHandler()
 		})
@@ -40,16 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function formEventListener(){
 		console.log('formEventListener');
-		const $form_explorer = document.getElementById('form_explorer');
 		$form_explorer && $form_explorer.addEventListener('submit', submitHandler);
-		const $form_services = document.getElementById('form_services');
 		$form_services && $form_services.addEventListener('change', onServiceChangeHandler);
-		onServiceChangeHandler($form_services);
-		const $form_typeofdocuments = document.getElementById('form_typeofdocuments');
-		form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChange);
-		const $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
+		$form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChange);
 		$form_firstdocumentdate && $form_firstdocumentdate.addEventListener('change', onDateChange);
-		const $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
 		$form_seconddocumentdate && $form_seconddocumentdate.addEventListener('change', onDateChange);
 	}
 
@@ -58,8 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		return async_fetch(request);
 	}
 
-	function populate(services) {
-		const $form_services = document.getElementById('form_services');
+	function populateServices(services) {
 		for (const [key, value] of Object.entries(services)) {
 			const option = new Option(key, key);
 			option.dataset.typeofdocuments = value;
@@ -78,8 +80,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function submitForm(){
-		console.log('submitForm');
-		const $form_explorer = document.getElementById('form_explorer');
 		$form_explorer.dispatchEvent(new Event('submit'));
 	}
 
@@ -90,7 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		//Update service
 		if(queryStringData.service){
-			const $form_services = document.getElementById('form_services');
 			if($form_services){
 				const option = isSelectOptionExist($form_services, queryStringData.service);
 				if(option){
@@ -103,7 +102,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		//Update document
 		if(queryStringData.typeofdocument){
-			const $form_typeofdocuments = document.getElementById('form_typeofdocuments');
 			if($form_typeofdocuments){
 				const option = isSelectOptionExist($form_typeofdocuments, queryStringData.typeofdocument);
 				if(option){
@@ -118,14 +116,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 
 		if(queryStringData.date1){
-			const $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
 			if($form_firstdocumentdate){
 				$form_firstdocumentdate.value = queryStringData.date1;
 			}
 		}
 
 		if(queryStringData.date2){
-			const $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
 			if($form_seconddocumentdate){
 				$form_seconddocumentdate.value = queryStringData.date2;
 			}
@@ -149,8 +145,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function onServiceChangeHandler(event) {
-		const $form_services = document.getElementById('form_services');
-		const $form_typeofdocuments = document.getElementById('form_typeofdocuments');
 		console.log('$form_typeofdocuments.length',$form_typeofdocuments.length)
 		$form_typeofdocuments.innerHTML = '';
 		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
@@ -173,20 +167,24 @@ document.addEventListener("DOMContentLoaded", () => {
 	function submitHandler(event) {
 		console.log('submitHandler', event)
 		event.preventDefault();
-		const formData = new FormData(event.target);
-		const service = formData.get('form_services');
-		const type = formData.get('form_typeofdocuments');
-		const firstDocumentDate = formData.get('form_firstdocumentdate');
-		const secondDocumentDate = formData.get('form_seconddocumentdate');
-
-		console.log('isValidForm ?',isValidForm(service, type, firstDocumentDate, secondDocumentDate))
-		if(isValidForm(service, type, firstDocumentDate, secondDocumentDate)){
-			loadDocs(service, type, firstDocumentDate, secondDocumentDate)
+		const formData = getFormData(event.target);
+		console.log('isValidForm ?',isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate))
+		if(isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)){
+			loadDocs(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)
 			.then((docs, firstDocumentDate, secondDocumentDate) => {
 				showDatesInfos(docs)
 				showDiff(docs)
 			})
 		}
+	}
+
+	function getFormData($target){
+		const formData = new FormData($target);
+		const service = formData.get('form_services');
+		const type = formData.get('form_typeofdocuments');
+		const firstDocumentDate = formData.get('form_firstdocumentdate');
+		const secondDocumentDate = formData.get('form_seconddocumentdate');
+		return {service:service,type:type,firstDocumentDate:firstDocumentDate,secondDocumentDate:secondDocumentDate};
 	}
 	
 	function isValidForm(service, type, firstDocumentDate, secondDocumentDate){
@@ -216,12 +214,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function showDatesInfos(docs) {
-		const $form_explorer = document.getElementById('form_explorer');
-		const formData = new FormData($form_explorer);
-		const firstDocumentDate = dateToDMY(formData.get('form_firstdocumentdate'));
-		const secondDocumentDate = dateToDMY(formData.get('form_seconddocumentdate'));
+		const formData = getFormData($form_explorer);
+		const firstDocumentDate = dateToDMY(formData.firstDocumentDate);
+		const secondDocumentDate = dateToDMY(formData.secondDocumentDate);
 		const firstDocumentVersionAtDate = dateToDMY(docs[0].version_at_date.substr(0, 10));
 		const secondDocumentVersionAtDate = dateToDMY(docs[1].version_at_date.substr(0, 10));
+
 		let msg = Nanostache(notificationsMsgs.dateClosest, {
 			firstDocumentDate: firstDocumentDate,
 			secondDocumentDate: secondDocumentDate,
@@ -238,13 +236,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		const dmp = new DiffMatchPatch();
 		const diff = dmp.diff_main(docs[0].data, docs[1].data);
 		const diffPrettyHtml = prettyHTMLDiff(diff);
-		const $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
-		console.log($diffviewer);
 		if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
 	}
 
 	function hideDiff(){
-		const $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
 		if ($diffviewer) $diffviewer.innerHTML = '';
 	}
 
@@ -258,7 +253,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		$notification_content.classList.add('notification_content');
 		$notification_content.innerHTML = msg;
 		$notification.append($notification_content);
-		const $form_explorer = document.getElementById('form_explorer');
 		if ($form_explorer) insertAfter($notification, $form_explorer)
 	}
 
@@ -300,7 +294,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function setMaxInputDateToNow() {
-		const $inputDates = document.querySelectorAll('input[type=date]');
 		$inputDates.forEach($inputDate => {
 			$inputDate.setAttribute('max', new Date().toISOString().split("T")[0]);
 		});

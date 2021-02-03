@@ -3250,6 +3250,14 @@ var requestHeaders = {
   }
 };
 document.addEventListener("DOMContentLoaded", function () {
+  var $form_explorer = document.getElementById('form_explorer');
+  var $form_services = document.getElementById('form_services');
+  var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+  var $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
+  var $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
+  var $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
+  var $inputDates = document.querySelectorAll('input[type=date]');
+
   if (window.fetch) {
     init();
   } else {
@@ -3305,10 +3313,11 @@ document.addEventListener("DOMContentLoaded", function () {
             case 0:
               console.log('init');
               getServices().then(function (data) {
-                populate(data);
+                populateServices(data);
               }).then(function () {
                 setMaxInputDateToNow();
                 formEventListener();
+                onServiceChangeHandler($form_services);
                 window.addEventListener("popstate", popStateHandler);
                 popStateHandler();
               });
@@ -3325,16 +3334,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function formEventListener() {
     console.log('formEventListener');
-    var $form_explorer = document.getElementById('form_explorer');
     $form_explorer && $form_explorer.addEventListener('submit', submitHandler);
-    var $form_services = document.getElementById('form_services');
     $form_services && $form_services.addEventListener('change', onServiceChangeHandler);
-    onServiceChangeHandler($form_services);
-    var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
-    form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChange);
-    var $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
+    $form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChange);
     $form_firstdocumentdate && $form_firstdocumentdate.addEventListener('change', onDateChange);
-    var $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
     $form_seconddocumentdate && $form_seconddocumentdate.addEventListener('change', onDateChange);
   }
 
@@ -3362,9 +3365,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return _getServices.apply(this, arguments);
   }
 
-  function populate(services) {
-    var $form_services = document.getElementById('form_services');
-
+  function populateServices(services) {
     for (var _i = 0, _Object$entries = Object.entries(services); _i < _Object$entries.length; _i++) {
       var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
           key = _Object$entries$_i[0],
@@ -3387,8 +3388,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function submitForm() {
-    console.log('submitForm');
-    var $form_explorer = document.getElementById('form_explorer');
     $form_explorer.dispatchEvent(new Event('submit'));
   }
 
@@ -3397,8 +3396,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var errogMsg = ''; //Update service
 
     if (queryStringData.service) {
-      var $form_services = document.getElementById('form_services');
-
       if ($form_services) {
         var option = isSelectOptionExist($form_services, queryStringData.service);
 
@@ -3412,8 +3409,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     if (queryStringData.typeofdocument) {
-      var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
-
       if ($form_typeofdocuments) {
         var _option = isSelectOptionExist($form_typeofdocuments, queryStringData.typeofdocument);
 
@@ -3430,16 +3425,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (queryStringData.date1) {
-      var $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
-
       if ($form_firstdocumentdate) {
         $form_firstdocumentdate.value = queryStringData.date1;
       }
     }
 
     if (queryStringData.date2) {
-      var $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
-
       if ($form_seconddocumentdate) {
         $form_seconddocumentdate.value = queryStringData.date2;
       }
@@ -3463,8 +3454,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function onServiceChangeHandler(event) {
-    var $form_services = document.getElementById('form_services');
-    var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
     console.log('$form_typeofdocuments.length', $form_typeofdocuments.length);
     $form_typeofdocuments.innerHTML = '';
     var typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
@@ -3489,19 +3478,29 @@ document.addEventListener("DOMContentLoaded", function () {
   function submitHandler(event) {
     console.log('submitHandler', event);
     event.preventDefault();
-    var formData = new FormData(event.target);
-    var service = formData.get('form_services');
-    var type = formData.get('form_typeofdocuments');
-    var firstDocumentDate = formData.get('form_firstdocumentdate');
-    var secondDocumentDate = formData.get('form_seconddocumentdate');
-    console.log('isValidForm ?', isValidForm(service, type, firstDocumentDate, secondDocumentDate));
+    var formData = getFormData(event.target);
+    console.log('isValidForm ?', isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate));
 
-    if (isValidForm(service, type, firstDocumentDate, secondDocumentDate)) {
-      loadDocs(service, type, firstDocumentDate, secondDocumentDate).then(function (docs, firstDocumentDate, secondDocumentDate) {
+    if (isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)) {
+      loadDocs(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate).then(function (docs, firstDocumentDate, secondDocumentDate) {
         showDatesInfos(docs);
         showDiff(docs);
       });
     }
+  }
+
+  function getFormData($target) {
+    var formData = new FormData($target);
+    var service = formData.get('form_services');
+    var type = formData.get('form_typeofdocuments');
+    var firstDocumentDate = formData.get('form_firstdocumentdate');
+    var secondDocumentDate = formData.get('form_seconddocumentdate');
+    return {
+      service: service,
+      type: type,
+      firstDocumentDate: firstDocumentDate,
+      secondDocumentDate: secondDocumentDate
+    };
   }
 
   function isValidForm(service, type, firstDocumentDate, secondDocumentDate) {
@@ -3612,10 +3611,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function showDatesInfos(docs) {
-    var $form_explorer = document.getElementById('form_explorer');
-    var formData = new FormData($form_explorer);
-    var firstDocumentDate = dateToDMY(formData.get('form_firstdocumentdate'));
-    var secondDocumentDate = dateToDMY(formData.get('form_seconddocumentdate'));
+    var formData = getFormData($form_explorer);
+    var firstDocumentDate = dateToDMY(formData.firstDocumentDate);
+    var secondDocumentDate = dateToDMY(formData.secondDocumentDate);
     var firstDocumentVersionAtDate = dateToDMY(docs[0].version_at_date.substr(0, 10));
     var secondDocumentVersionAtDate = dateToDMY(docs[1].version_at_date.substr(0, 10));
     var msg = (0, _nanostache.Nanostache)(notificationsMsgs.dateClosest, {
@@ -3634,7 +3632,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function _showDiff() {
     _showDiff = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(docs) {
-      var dmp, diff, diffPrettyHtml, $diffviewer;
+      var dmp, diff, diffPrettyHtml;
       return regeneratorRuntime.wrap(function _callee6$(_context6) {
         while (1) {
           switch (_context6.prev = _context6.next) {
@@ -3642,11 +3640,9 @@ document.addEventListener("DOMContentLoaded", function () {
               dmp = new _diffMatchPatch.default();
               diff = dmp.diff_main(docs[0].data, docs[1].data);
               diffPrettyHtml = prettyHTMLDiff(diff);
-              $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
-              console.log($diffviewer);
               if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
 
-            case 6:
+            case 4:
             case "end":
               return _context6.stop();
           }
@@ -3657,7 +3653,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function hideDiff() {
-    var $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
     if ($diffviewer) $diffviewer.innerHTML = '';
   }
 
@@ -3671,7 +3666,6 @@ document.addEventListener("DOMContentLoaded", function () {
     $notification_content.classList.add('notification_content');
     $notification_content.innerHTML = msg;
     $notification.append($notification_content);
-    var $form_explorer = document.getElementById('form_explorer');
     if ($form_explorer) insertAfter($notification, $form_explorer);
   }
 
@@ -3721,7 +3715,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function setMaxInputDateToNow() {
-    var $inputDates = document.querySelectorAll('input[type=date]');
     $inputDates.forEach(function ($inputDate) {
       $inputDate.setAttribute('max', new Date().toISOString().split("T")[0]);
     });
@@ -3764,7 +3757,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64545" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51499" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
