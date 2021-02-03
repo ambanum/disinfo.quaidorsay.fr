@@ -3255,7 +3255,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var $form_typeofdocuments = document.getElementById('form_typeofdocuments');
   var $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
   var $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
-  var $diffviewer = document.getElementsByClassName('diffviewer_content')[0];
   var $inputDates = document.querySelectorAll('input[type=date]');
 
   if (window.fetch) {
@@ -3379,7 +3378,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function popStateHandler(event) {
     console.log('popStateHandler', event, window.location.href);
-    hideDiff();
+    removeDiff();
     removeNotification();
     var urlParams = new URLSearchParams(window.location.search);
     var queryStringData = Object.fromEntries(urlParams);
@@ -3483,8 +3482,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)) {
       loadDocs(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate).then(function (docs, firstDocumentDate, secondDocumentDate) {
-        showDatesInfos(docs);
         showDiff(docs);
+        showDatesInfos(docs);
       });
     }
   }
@@ -3632,7 +3631,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function _showDiff() {
     _showDiff = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(docs) {
-      var dmp, diff, diffPrettyHtml;
+      var dmp, diff, diffPrettyHtml, $diffContent, $diffviewer;
       return regeneratorRuntime.wrap(function _callee6$(_context6) {
         while (1) {
           switch (_context6.prev = _context6.next) {
@@ -3640,9 +3639,15 @@ document.addEventListener("DOMContentLoaded", function () {
               dmp = new _diffMatchPatch.default();
               diff = dmp.diff_main(docs[0].data, docs[1].data);
               diffPrettyHtml = prettyHTMLDiff(diff);
-              if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
+              $diffContent = document.createElement('DIV');
+              $diffContent.classList.add('diffviewer_content');
+              $diffContent.innerHTML = diffPrettyHtml;
+              $diffviewer = document.createElement('DIV');
+              $diffviewer.classList.add('diffviewer');
+              $diffviewer.append($diffContent);
+              if ($form_explorer) insertAfter($diffviewer, $form_explorer);
 
-            case 4:
+            case 10:
             case "end":
               return _context6.stop();
           }
@@ -3652,8 +3657,10 @@ document.addEventListener("DOMContentLoaded", function () {
     return _showDiff.apply(this, arguments);
   }
 
-  function hideDiff() {
-    if ($diffviewer) $diffviewer.innerHTML = '';
+  function removeDiff() {
+    _toConsumableArray(document.getElementsByClassName("diffviewer")).map(function (n) {
+      return n && n.remove();
+    });
   }
 
   function showNotification(type, msg) {
@@ -3757,7 +3764,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51499" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54609" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

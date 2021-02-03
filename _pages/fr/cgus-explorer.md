@@ -54,8 +54,3 @@ css_files:
 		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4" required>
 	</div>
 </form>
-
-<div class="diffviewer">
-	<div class="diffviewer_content">...</div>
-</div>
-

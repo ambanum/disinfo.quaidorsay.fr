@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	const $form_typeofdocuments    = document.getElementById('form_typeofdocuments');
 	const $form_firstdocumentdate  = document.getElementById('form_firstdocumentdate');
 	const $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
-	const $diffviewer              = document.getElementsByClassName('diffviewer_content')[0];
 	const $inputDates              = document.querySelectorAll('input[type=date]');
 
 	if (window.fetch) {
@@ -71,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function popStateHandler(event){
 		console.log('popStateHandler', event, window.location.href);
-		hideDiff();
+		removeDiff();
 		removeNotification();
 		const urlParams = new URLSearchParams(window.location.search);
 		const queryStringData = Object.fromEntries(urlParams);  
@@ -172,8 +171,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		if(isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)){
 			loadDocs(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)
 			.then((docs, firstDocumentDate, secondDocumentDate) => {
-				showDatesInfos(docs)
 				showDiff(docs)
+				showDatesInfos(docs)
 			})
 		}
 	}
@@ -236,11 +235,17 @@ document.addEventListener("DOMContentLoaded", () => {
 		const dmp = new DiffMatchPatch();
 		const diff = dmp.diff_main(docs[0].data, docs[1].data);
 		const diffPrettyHtml = prettyHTMLDiff(diff);
-		if ($diffviewer) $diffviewer.innerHTML = diffPrettyHtml;
+		const $diffContent = document.createElement('DIV');
+		$diffContent.classList.add('diffviewer_content');
+		$diffContent.innerHTML = diffPrettyHtml;
+		const $diffviewer = document.createElement('DIV');
+		$diffviewer.classList.add('diffviewer');
+		$diffviewer.append($diffContent);
+		if ($form_explorer) insertAfter($diffviewer, $form_explorer)
 	}
 
-	function hideDiff(){
-		if ($diffviewer) $diffviewer.innerHTML = '';
+	function removeDiff(){
+		[...document.getElementsByClassName("diffviewer")].map(n => n && n.remove());
 	}
 
 	function showNotification(type, msg) {
