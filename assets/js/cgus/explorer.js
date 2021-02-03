@@ -61,11 +61,19 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function populateServices(services) {
-		for (const [key, value] of Object.entries(services)) {
-			const option = new Option(key, key);
-			option.dataset.typeofdocuments = value;
+		const servicesArray = Object.entries(services);
+		const sortedServices = sortAlphabeticallyServices(servicesArray);
+		sortedServices.forEach(element => {
+			const option = new Option(element[0], element[0]);
+			option.dataset.typeofdocuments = element[1];
 			$form_services.add(option);
-		}
+		});
+	}
+
+	function sortAlphabeticallyServices(services){
+		return services.sort((a,b) => {
+			return (a[0] < b[0]) ? -1 : (a[0] > b[0]) ? 1 : 0;
+		})
 	}
 
 	function popStateHandler(event){
@@ -136,7 +144,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	function isDateValid(){}
 
 	function updateURL(key, value){
-		console.log('updateURL', key, value)
 		const url = new URL(window.location);
 		url.searchParams.set(key, value);
 		window.history.pushState({}, '', url);
@@ -147,11 +154,20 @@ document.addEventListener("DOMContentLoaded", () => {
 		console.log('$form_typeofdocuments.length',$form_typeofdocuments.length)
 		$form_typeofdocuments.innerHTML = '';
 		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
+		console.log('typesofdocuments',typesofdocuments)
+		const sortedTypeOfDocuments = sortAlphabeticallyTypeOfDocuments(typesofdocuments);
+		console.log('sortedTypeOfDocuments',sortedTypeOfDocuments)
 		typesofdocuments && typesofdocuments.forEach(type => {
 			$form_typeofdocuments.add(new Option(type, type));
 		});
 		updateURL('service', $form_services.selectedOptions.item(0).value);
 		onTypeOfDocumentChange({target:$form_typeofdocuments});
+	}
+
+	function sortAlphabeticallyTypeOfDocuments(types){
+		return types.sort((a,b) => {
+			return (a < b) ? -1 : (a > b) ? 1 : 0;
+		})
 	}
 
 	function onTypeOfDocumentChange(event){
