@@ -24,10 +24,22 @@ bundle exec jekyll serve
 ```
 
 ### Bundle js
+
+Install parcel
 ```sh
 npm install -g parcel-bundler
+```
+
+Watch file
+```
 cd assets
 parcel watch /js/cgus/explorer.js
+```
+
+Build
+```
+cd assets
+parcel build /js/cgus/explorer.js
 ```
 
 ## Deployment

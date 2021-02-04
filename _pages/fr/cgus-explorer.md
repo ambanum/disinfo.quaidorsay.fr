@@ -13,7 +13,6 @@ navbar_items:
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 js_files:
  - assets/dist/explorer.js
-css_files:	
 ---
 
 {% capture hero_title %}{{ site.data.translations.cgus-explorer.hero.title[page.lang] }}{% endcapture %}

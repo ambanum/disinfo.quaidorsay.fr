@@ -25,12 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		showNotification('error', notificationsMsgs.browserSupport);
 	}
 
-	async function async_fetch(url) {
-		const response = await fetch(url)
-		if (response.ok) return response.json()
-		throw new Error(response.status)
-	}
-
 	async function init() {
 		getServices()
 		.then(data => {
@@ -49,8 +43,40 @@ document.addEventListener("DOMContentLoaded", () => {
 		})
 	}
 
+	async function async_fetch(url) {
+		const response = await fetch(url)
+		if (response.ok) return response.json()
+		throw new Error(response.status)
+	}
+
+	async function getServices() {
+		const request = new Request('https://disinfo.quaidorsay.fr/api/cgus/list_services/v1/?multiple_versions_only=true', requestHeaders);
+		return async_fetch(request);
+	}
+
+	async function loadDocs() {
+		const formData = getFormData();
+		const doc1 = await getDoc(formData.service, formData.type, formData.firstDocumentDate);
+		const doc2 = await getDoc(formData.service, formData.type, formData.secondDocumentDate);
+		return Array(doc1, doc2);
+	}
+
+	async function getDoc(service, type, date) {
+		const route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
+		const request = new Request(route, requestHeaders);
+		const response = await fetch(request)
+		if (response.ok) {
+			const data = await response.json()
+			if (data.error) throw new Error(data.error)
+			if (data.data == '') {
+				return await getDoc(service, type, data.next_version.substr(0, 10))
+			} else return data;
+		} else {
+			throw new Error(response.status)
+		}
+	}
+
 	function initFormEventListener(){
-		console.log('initFormEventListener')
 		$form_explorer && $form_explorer.addEventListener('submit', submitHandler);
 		$form_services && $form_services.addEventListener('change', onServiceChangeHandler);
 		$form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChangeHandler);
@@ -58,13 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		$form_seconddocumentdate && $form_seconddocumentdate.addEventListener('change', onDateChange);
 	}
 
-	async function getServices() {
-		const request = new Request('https://disinfo.quaidorsay.fr/api/cgus/list_services/v1/', requestHeaders);
-		return async_fetch(request);
-	}
-
 	function populateServices(services) {
-		console.log('populateServices');
 		const servicesArray = Object.entries(services);
 		const sortedServices = sortAlphabeticallyServices(servicesArray);
 		sortedServices.forEach(element => {
@@ -75,7 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function populateTypeOfDocuments(){
-		console.log('populateTypeOfDocuments');
 		$form_typeofdocuments.innerHTML = '';
 		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
 		const sortedTypeOfDocuments = sortAlphabeticallyTypeOfDocuments(typesofdocuments);
@@ -84,14 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	}
 
-	function sortAlphabeticallyServices(services){
-		return services.sort((a,b) => {
-			return (a[0] < b[0]) ? -1 : (a[0] > b[0]) ? 1 : 0;
-		})
-	}
-
 	function popStateHandler(event){
-		console.log('popStateHandler', event, window.location.href);
 		removeDiff();
 		removeNotification();
 		updateFormValues();
@@ -105,7 +117,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function updateFormValues(){
 		const queryStringData = getQueryStringData();
-		console.log('updateFormValues', queryStringData);
 
 		//If no query string asked
 		//Select default service and documents
@@ -132,17 +143,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		if(queryStringData.typeofdocument){
 			if($form_typeofdocuments){
 				const option = isSelectOptionExist($form_typeofdocuments, queryStringData.typeofdocument);
-				console.log('option', option);
 				if(option){
 					option.setAttribute('selected','selected');
 				}else{
 					console.log('Type of document is not valid for this service')
 					//Update URL with the first type of document 
 					addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value)
-					/* if(errogMsg != '') {
-						errogMsg = errogMsg.concat('<br>');
-					}
-					errogMsg = errogMsg.concat('This yype of document is not valid'); */
 				}
 			}
 		}
@@ -161,21 +167,20 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 		}
 
+		//If error msg to display
 		if(errogMsg != '') showNotification('error', errogMsg);
 
+		//If action submit asked
 		if(queryStringData.action == "submit"){
 			$form_explorer.dispatchEvent(new Event('submit'));
 		}
 	}
 
 	function isSelectOptionExist($target, value){
-		console.log('++++++> value',value)
-		console.log($target.querySelector('[value="' + value + '"]'))
 		return $target.querySelector('[value="' + value + '"]');
 	}
 
 	function addInURL(key, value){
-		console.log('addInURL', key, value);
 		const url = new URL(window.location);
 		url.searchParams.set(key, value);
 		window.history.pushState({}, '', url);
@@ -183,7 +188,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function removeInURL(key){
-		console.log('removeInURL', key);
 		const url = new URL(window.location);
 		url.searchParams.delete(key);
 		window.history.pushState({}, '', url);
@@ -191,14 +195,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function onServiceChangeHandler(event) {
-		console.log('onServiceChangeHandler')
 		populateTypeOfDocuments();
 		removeInURL('action');
 		addInURL('service', $form_services.selectedOptions.item(0).value);
 	}
 
 	function onTypeOfDocumentChangeHandler(event){
-		console.log('onTypeOfDocumentChangeHandler',$form_typeofdocuments.selectedOptions);
 		removeInURL('action');
 		addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value);
 	}
@@ -209,16 +211,20 @@ document.addEventListener("DOMContentLoaded", () => {
 		})
 	}
 
+	function sortAlphabeticallyServices(services){
+		return services.sort((a,b) => {
+			return (a[0] < b[0]) ? -1 : (a[0] > b[0]) ? 1 : 0;
+		})
+	}
+
 	function onDateChange(event){
 		const currentDateKey = (event.target.id == 'form_firstdocumentdate') ? 'date1' : 'date2';
 		addInURL(currentDateKey, event.target.value);
 	}
 
 	function submitHandler(event) {
-		console.log('submitHandler', event)
 		event.preventDefault();
 		const formData = getFormData();
-		console.log('isValidForm ?',isValidForm())
 		if(isValidForm()){
 			loadDocs()
 			.then((docs) => {
@@ -243,28 +249,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		return false;
 	}
 
-	async function loadDocs() {
-		const formData = getFormData();
-		const doc1 = await getDoc(formData.service, formData.type, formData.firstDocumentDate);
-		const doc2 = await getDoc(formData.service, formData.type, formData.secondDocumentDate);
-		return Array(doc1, doc2);
-	}
-
-	async function getDoc(service, type, date) {
-		const route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
-		const request = new Request(route, requestHeaders);
-		const response = await fetch(request)
-		if (response.ok) {
-			const data = await response.json()
-			if (data.error) throw new Error(data.error)
-			if (data.data == '') {
-				return await getDoc(service, type, data.next_version.substr(0, 10))
-			} else return data;
-		} else {
-			throw new Error(response.status)
-		}
-	}
-
 	function showDatesInfos(docs) {
 		const formData = getFormData();
 		const firstDocumentDate = dateToDMY(formData.firstDocumentDate);
@@ -285,7 +269,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function showDiff(docs) {
-		console.log('showDiff',docs);
 		const dmp = new DiffMatchPatch();
 		const diff = dmp.diff_main(docs[0].data, docs[1].data);
 		const diffPrettyHtml = prettyHTMLDiff(diff);
