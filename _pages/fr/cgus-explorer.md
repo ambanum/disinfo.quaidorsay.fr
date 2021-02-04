@@ -30,7 +30,7 @@ js_files:
 	};
 </script>
 
-<form class="form explorerform" action="" id="form_explorer">
+<form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_services">{{ site.data.translations.cgus-explorer.form.service[page.lang] }}</label>
 		<select class="form_field_select" name="form_services" id="form_services" tabindex="1" required>
