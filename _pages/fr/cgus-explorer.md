@@ -31,7 +31,7 @@ css_files:
 	};
 </script>
 
-<form class="form explorerform" id="form_explorer">
+<form class="form explorerform" action="" id="form_explorer">
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_services">{{ site.data.translations.cgus-explorer.form.service[page.lang] }}</label>
 		<select class="form_field_select" name="form_services" id="form_services" tabindex="1" required>
@@ -44,13 +44,13 @@ css_files:
 	</div>
 	<div class="form_field">
 		<label class="form_field_label" for="form_firstdocumentdate">{{ site.data.translations.cgus-explorer.form.first-date[page.lang] }}</label>
-		<input type="date" id="form_firstdocumentdate" name="form_firstdocumentdate" tabindex="3" required>
+		<input type="date" id="form_firstdocumentdate" min="2000-01-01" name="form_firstdocumentdate" tabindex="3" required>
 	</div>
 	<div class="form_field form_field-submit">
 		<input type="submit" class="button" value="{{ site.data.translations.cgus-explorer.form.submit[page.lang] }}" tabindex="5" /> 
 	</div>
 	<div class="form_field">
 		<label class="form_field_label" for="form_seconddocumentdate">{{ site.data.translations.cgus-explorer.form.second-date[page.lang] }}</label>
-		<input type="date" id="form_seconddocumentdate" name="form_seconddocumentdate" tabindex="4" required>
+		<input type="date" id="form_seconddocumentdate" min="2000-01-01" name="form_seconddocumentdate" tabindex="4" required>
 	</div>
 </form>

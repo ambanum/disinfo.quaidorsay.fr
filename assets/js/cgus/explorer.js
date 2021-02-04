@@ -32,25 +32,28 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function init() {
-		console.log('init');
 		getServices()
 		.then(data => {
-			populateServices(data)
-		})
-		.then(() => {
+			
+			//Init form control and listen form change
 			setMaxInputDateToNow()
-			formEventListener()
-			onServiceChangeHandler($form_services);
+			initFormEventListener()
+
+			//Populate form with data
+			populateServices(data)
+			populateTypeOfDocuments()
+
+			//Update form with current state
 			window.addEventListener("popstate", popStateHandler)
 			popStateHandler()
 		})
 	}
 
-	function formEventListener(){
-		console.log('formEventListener');
+	function initFormEventListener(){
+		console.log('initFormEventListener')
 		$form_explorer && $form_explorer.addEventListener('submit', submitHandler);
 		$form_services && $form_services.addEventListener('change', onServiceChangeHandler);
-		$form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChange);
+		$form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChangeHandler);
 		$form_firstdocumentdate && $form_firstdocumentdate.addEventListener('change', onDateChange);
 		$form_seconddocumentdate && $form_seconddocumentdate.addEventListener('change', onDateChange);
 	}
@@ -61,12 +64,23 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function populateServices(services) {
+		console.log('populateServices');
 		const servicesArray = Object.entries(services);
 		const sortedServices = sortAlphabeticallyServices(servicesArray);
 		sortedServices.forEach(element => {
 			const option = new Option(element[0], element[0]);
 			option.dataset.typeofdocuments = element[1];
 			$form_services.add(option);
+		});
+	}
+
+	function populateTypeOfDocuments(){
+		console.log('populateTypeOfDocuments');
+		$form_typeofdocuments.innerHTML = '';
+		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
+		const sortedTypeOfDocuments = sortAlphabeticallyTypeOfDocuments(typesofdocuments);
+		typesofdocuments && typesofdocuments.forEach(type => {
+			$form_typeofdocuments.add(new Option(type, type));
 		});
 	}
 
@@ -80,19 +94,26 @@ document.addEventListener("DOMContentLoaded", () => {
 		console.log('popStateHandler', event, window.location.href);
 		removeDiff();
 		removeNotification();
+		updateFormValues();
+	}
+
+	function getQueryStringData(){
 		const urlParams = new URLSearchParams(window.location.search);
 		const queryStringData = Object.fromEntries(urlParams);  
-		updateFormValues(queryStringData);
-		submitForm();
+		return queryStringData;
 	}
 
-	function submitForm(){
-		$form_explorer.dispatchEvent(new Event('submit'));
-	}
-
-	function updateFormValues(queryStringData){
+	function updateFormValues(){
+		const queryStringData = getQueryStringData();
 		console.log('updateFormValues', queryStringData);
 
+		//If no query string asked
+		//Select default service and documents
+		if(Object.keys(queryStringData).length === 0){
+			onServiceChangeHandler();
+			onTypeOfDocumentChangeHandler();
+		}
+		
 		let errogMsg = '';
 
 		//Update service
@@ -102,32 +123,38 @@ document.addEventListener("DOMContentLoaded", () => {
 				if(option){
 					option.setAttribute('selected','selected');
 				}else{
-					errogMsg = errogMsg.concat('Service is not valid');
+					errogMsg = errogMsg.concat('This service is not available');
 				}
 			}
 		}
 
-		//Update document
+		//Update type of document
 		if(queryStringData.typeofdocument){
 			if($form_typeofdocuments){
 				const option = isSelectOptionExist($form_typeofdocuments, queryStringData.typeofdocument);
+				console.log('option', option);
 				if(option){
 					option.setAttribute('selected','selected');
 				}else{
-					if(errogMsg != '') {
+					console.log('Type of document is not valid for this service')
+					//Update URL with the first type of document 
+					addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value)
+					/* if(errogMsg != '') {
 						errogMsg = errogMsg.concat('<br>');
 					}
-					errogMsg = errogMsg.concat('Type of document is not valid');
+					errogMsg = errogMsg.concat('This yype of document is not valid'); */
 				}
 			}
 		}
 
+		//Update date1
 		if(queryStringData.date1){
 			if($form_firstdocumentdate){
 				$form_firstdocumentdate.value = queryStringData.date1;
 			}
 		}
 
+		//Update date2
 		if(queryStringData.date2){
 			if($form_seconddocumentdate){
 				$form_seconddocumentdate.value = queryStringData.date2;
@@ -135,33 +162,45 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 
 		if(errogMsg != '') showNotification('error', errogMsg);
+
+		if(queryStringData.action == "submit"){
+			$form_explorer.dispatchEvent(new Event('submit'));
+		}
 	}
 
 	function isSelectOptionExist($target, value){
+		console.log('++++++> value',value)
+		console.log($target.querySelector('[value="' + value + '"]'))
 		return $target.querySelector('[value="' + value + '"]');
 	}
 
-	function isDateValid(){}
-
-	function updateURL(key, value){
+	function addInURL(key, value){
+		console.log('addInURL', key, value);
 		const url = new URL(window.location);
 		url.searchParams.set(key, value);
 		window.history.pushState({}, '', url);
 		window.dispatchEvent(new Event('popstate'));
 	}
 
+	function removeInURL(key){
+		console.log('removeInURL', key);
+		const url = new URL(window.location);
+		url.searchParams.delete(key);
+		window.history.pushState({}, '', url);
+		window.dispatchEvent(new Event('popstate'));
+	}
+
 	function onServiceChangeHandler(event) {
-		console.log('$form_typeofdocuments.length',$form_typeofdocuments.length)
-		$form_typeofdocuments.innerHTML = '';
-		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
-		console.log('typesofdocuments',typesofdocuments)
-		const sortedTypeOfDocuments = sortAlphabeticallyTypeOfDocuments(typesofdocuments);
-		console.log('sortedTypeOfDocuments',sortedTypeOfDocuments)
-		typesofdocuments && typesofdocuments.forEach(type => {
-			$form_typeofdocuments.add(new Option(type, type));
-		});
-		updateURL('service', $form_services.selectedOptions.item(0).value);
-		onTypeOfDocumentChange({target:$form_typeofdocuments});
+		console.log('onServiceChangeHandler')
+		populateTypeOfDocuments();
+		removeInURL('action');
+		addInURL('service', $form_services.selectedOptions.item(0).value);
+	}
+
+	function onTypeOfDocumentChangeHandler(event){
+		console.log('onTypeOfDocumentChangeHandler',$form_typeofdocuments.selectedOptions);
+		removeInURL('action');
+		addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value);
 	}
 
 	function sortAlphabeticallyTypeOfDocuments(types){
@@ -170,46 +209,44 @@ document.addEventListener("DOMContentLoaded", () => {
 		})
 	}
 
-	function onTypeOfDocumentChange(event){
-		updateURL('typeofdocument', event.target.selectedOptions.item(0).value);
-	}
-
 	function onDateChange(event){
 		const currentDateKey = (event.target.id == 'form_firstdocumentdate') ? 'date1' : 'date2';
-		updateURL(currentDateKey, event.target.value);
+		addInURL(currentDateKey, event.target.value);
 	}
 
 	function submitHandler(event) {
 		console.log('submitHandler', event)
 		event.preventDefault();
-		const formData = getFormData(event.target);
-		console.log('isValidForm ?',isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate))
-		if(isValidForm(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)){
-			loadDocs(formData.service, formData.type, formData.firstDocumentDate, formData.secondDocumentDate)
-			.then((docs, firstDocumentDate, secondDocumentDate) => {
+		const formData = getFormData();
+		console.log('isValidForm ?',isValidForm())
+		if(isValidForm()){
+			loadDocs()
+			.then((docs) => {
 				showDiff(docs)
 				showDatesInfos(docs)
 			})
 		}
 	}
 
-	function getFormData($target){
-		const formData = new FormData($target);
-		const service = formData.get('form_services');
-		const type = formData.get('form_typeofdocuments');
-		const firstDocumentDate = formData.get('form_firstdocumentdate');
+	function getFormData(){
+		const formData           = new FormData($form_explorer);
+		const service            = formData.get('form_services');
+		const type               = formData.get('form_typeofdocuments');
+		const firstDocumentDate  = formData.get('form_firstdocumentdate');
 		const secondDocumentDate = formData.get('form_seconddocumentdate');
 		return {service:service,type:type,firstDocumentDate:firstDocumentDate,secondDocumentDate:secondDocumentDate};
 	}
 	
-	function isValidForm(service, type, firstDocumentDate, secondDocumentDate){
-		if(service && type && firstDocumentDate && secondDocumentDate) return true;
+	function isValidForm(){
+		const formData = getFormData();
+		if(formData.service && formData.type && formData.firstDocumentDate && formData.secondDocumentDate) return true;
 		return false;
 	}
 
-	async function loadDocs(service, type, firstDocumentDate, secondDocumentDate) {
-		const doc1 = await getDoc(service, type, firstDocumentDate);
-		const doc2 = await getDoc(service, type, secondDocumentDate);
+	async function loadDocs() {
+		const formData = getFormData();
+		const doc1 = await getDoc(formData.service, formData.type, formData.firstDocumentDate);
+		const doc2 = await getDoc(formData.service, formData.type, formData.secondDocumentDate);
 		return Array(doc1, doc2);
 	}
 
@@ -229,7 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function showDatesInfos(docs) {
-		const formData = getFormData($form_explorer);
+		const formData = getFormData();
 		const firstDocumentDate = dateToDMY(formData.firstDocumentDate);
 		const secondDocumentDate = dateToDMY(formData.secondDocumentDate);
 		const firstDocumentVersionAtDate = dateToDMY(docs[0].version_at_date.substr(0, 10));
@@ -248,6 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function showDiff(docs) {
+		console.log('showDiff',docs);
 		const dmp = new DiffMatchPatch();
 		const diff = dmp.diff_main(docs[0].data, docs[1].data);
 		const diffPrettyHtml = prettyHTMLDiff(diff);
@@ -265,7 +303,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function showNotification(type, msg) {
-		console.log('notification', type, msg);
 		removeNotification();
 		const $notification = document.createElement('DIV');
 		$notification.classList.add('notification');
