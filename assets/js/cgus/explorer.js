@@ -37,6 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
 			populateServices(data)
 			populateTypeOfDocuments()
 
+			//If no query string asked in URL
+			//Select default service and documents
+			const queryStringData = getQueryStringData();
+			if(Object.keys(queryStringData).length === 0){
+				addInURL('service', $form_services.selectedOptions.item(0).value);
+				addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value)
+			}
+
 			//Update form with current state
 			window.addEventListener("popstate", popStateHandler)
 			popStateHandler()
@@ -87,9 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	function populateServices(services) {
 		const servicesArray = Object.entries(services);
 		const sortedServices = sortAlphabeticallyServices(servicesArray);
-		sortedServices.forEach(element => {
+		sortedServices && sortedServices.forEach(element => {
 			const option = new Option(element[0], element[0]);
-			option.dataset.typeofdocuments = element[1];
+			option.dataset.typeofdocuments = sortAlphabeticallyTypeOfDocuments(element[1]);
 			$form_services.add(option);
 		});
 	}
@@ -97,16 +105,24 @@ document.addEventListener("DOMContentLoaded", () => {
 	function populateTypeOfDocuments(){
 		$form_typeofdocuments.innerHTML = '';
 		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
-		const sortedTypeOfDocuments = sortAlphabeticallyTypeOfDocuments(typesofdocuments);
-		typesofdocuments && typesofdocuments.forEach(type => {
-			$form_typeofdocuments.add(new Option(type, type));
-		});
+		if(typesofdocuments){
+			const sortedTypeOfDocuments = sortAlphabeticallyTypeOfDocuments(typesofdocuments);
+			sortedTypeOfDocuments && sortedTypeOfDocuments.forEach(type => {
+				$form_typeofdocuments.add(new Option(type, type));
+			});
+		}
 	}
 
 	function popStateHandler(event){
+		const queryStringData = getQueryStringData();
 		removeDiff();
 		removeNotification();
 		updateFormValues();
+
+		//If action submit asked
+		if(queryStringData.action == "submit"){
+			$form_explorer.dispatchEvent(new Event('submit'));
+		}
 	}
 
 	function getQueryStringData(){
@@ -118,13 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	function updateFormValues(){
 		const queryStringData = getQueryStringData();
 
-		//If no query string asked
-		//Select default service and documents
-		if(Object.keys(queryStringData).length === 0){
-			onServiceChangeHandler();
-			onTypeOfDocumentChangeHandler();
-		}
-		
 		let errogMsg = '';
 
 		//Update service
@@ -133,6 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				const option = isSelectOptionExist($form_services, queryStringData.service);
 				if(option){
 					option.setAttribute('selected','selected');
+					populateTypeOfDocuments();
 				}else{
 					errogMsg = errogMsg.concat('This service is not available');
 				}
@@ -147,8 +157,6 @@ document.addEventListener("DOMContentLoaded", () => {
 					option.setAttribute('selected','selected');
 				}else{
 					console.log('Type of document is not valid for this service')
-					//Update URL with the first type of document 
-					addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value)
 				}
 			}
 		}
@@ -169,11 +177,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		//If error msg to display
 		if(errogMsg != '') showNotification('error', errogMsg);
-
-		//If action submit asked
-		if(queryStringData.action == "submit"){
-			$form_explorer.dispatchEvent(new Event('submit'));
-		}
 	}
 
 	function isSelectOptionExist($target, value){
@@ -181,10 +184,13 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function addInURL(key, value){
+		const queryStringData = getQueryStringData();
 		const url = new URL(window.location);
-		url.searchParams.set(key, value);
-		window.history.pushState({}, '', url);
-		window.dispatchEvent(new Event('popstate'));
+		if((url.searchParams.get(key) != null || url.searchParams.get(key) != value) || Object.keys(queryStringData).length == 0){
+			url.searchParams.set(key, value);
+			window.history.pushState({}, '', url);
+			window.dispatchEvent(new Event('popstate'));
+		}
 	}
 
 	function removeInURL(key){
@@ -196,12 +202,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function onServiceChangeHandler(event) {
 		populateTypeOfDocuments();
-		removeInURL('action');
 		addInURL('service', $form_services.selectedOptions.item(0).value);
+		onTypeOfDocumentChangeHandler()
 	}
-
 	function onTypeOfDocumentChangeHandler(event){
-		removeInURL('action');
 		addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value);
 	}
 
