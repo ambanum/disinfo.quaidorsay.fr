@@ -1,6 +1,8 @@
 import 'regenerator-runtime/runtime'
 import DiffMatchPatch from 'diff-match-patch';
-import { Nanostache } from '@solid-js/nanostache';
+import {
+	Nanostache
+} from '@solid-js/nanostache';
 
 const requestHeaders = {
 	method: 'GET',
@@ -12,12 +14,12 @@ const requestHeaders = {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-	const $form_explorer           = document.getElementById('form_explorer');
-	const $form_services           = document.getElementById('form_services');
-	const $form_typeofdocuments    = document.getElementById('form_typeofdocuments');
-	const $form_firstdocumentdate  = document.getElementById('form_firstdocumentdate');
+	const $form_explorer = document.getElementById('form_explorer');
+	const $form_services = document.getElementById('form_services');
+	const $form_typeofdocuments = document.getElementById('form_typeofdocuments');
+	const $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
 	const $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
-	const $inputDates              = document.querySelectorAll('input[type=date]');
+	const $inputDates = document.querySelectorAll('input[type=date]');
 
 	if (window.fetch) {
 		init();
@@ -27,28 +29,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	async function init() {
 		getServices()
-		.then(data => {
-			
-			//Init form control and listen form change
-			setMaxInputDateToNow()
-			initFormEventListener()
+			.then(data => {
 
-			//Populate form with data
-			populateServices(data)
-			populateTypeOfDocuments()
+				//Init form control and listen form change
+				setMaxInputDateToNow()
+				initFormEventListener()
 
-			//If no query string asked in URL
-			//Select default service and documents
-			const queryStringData = getQueryStringData();
-			if(Object.keys(queryStringData).length === 0){
-				addInURL('service', $form_services.selectedOptions.item(0).value);
-				addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value)
-			}
+				//Populate form with data
+				populateServices(data)
+				populateTypeOfDocuments()
 
-			//Update form with current state
-			window.addEventListener("popstate", popStateHandler)
-			popStateHandler()
-		})
+				//If no query string asked in URL
+				//Select default service and documents
+				const queryStringData = getQueryStringData();
+				if (Object.keys(queryStringData).length === 0) {
+					addInURL('service', $form_services.selectedOptions.item(0).value);
+					addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value)
+				}
+
+				//Update form with current state
+				window.addEventListener("popstate", popStateHandler)
+				popStateHandler()
+			})
 	}
 
 	async function async_fetch(url) {
@@ -84,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	}
 
-	function initFormEventListener(){
+	function initFormEventListener() {
 		$form_explorer && $form_explorer.addEventListener('submit', submitHandler);
 		$form_services && $form_services.addEventListener('change', onServiceChangeHandler);
 		$form_typeofdocuments && $form_typeofdocuments.addEventListener('change', onTypeOfDocumentChangeHandler);
@@ -102,10 +104,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	}
 
-	function populateTypeOfDocuments(){
+	function populateTypeOfDocuments() {
 		$form_typeofdocuments.innerHTML = '';
 		const typesofdocuments = $form_services.selectedOptions.item(0).dataset.typeofdocuments.split(',');
-		if(typesofdocuments){
+		if (typesofdocuments) {
 			const sortedTypeOfDocuments = sortAlphabeticallyTypeOfDocuments(typesofdocuments);
 			sortedTypeOfDocuments && sortedTypeOfDocuments.forEach(type => {
 				$form_typeofdocuments.add(new Option(type, type));
@@ -113,87 +115,91 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	}
 
-	function popStateHandler(event){
+	function popStateHandler(event) {
 		const queryStringData = getQueryStringData();
 		removeDiff();
 		removeNotification();
 		updateFormValues();
 
 		//If action submit asked
-		if(queryStringData.action == "submit"){
-			$form_explorer.dispatchEvent(new Event('submit'));
+		if (queryStringData.action == "submit") {
+
+			//https://stackoverflow.com/questions/49587933/firefox-doesnt-preventing-dispatched-submit-event
+			$form_explorer.dispatchEvent(new Event('submit', {
+				cancelable: true
+			}));
 		}
 	}
 
-	function getQueryStringData(){
+	function getQueryStringData() {
 		const urlParams = new URLSearchParams(window.location.search);
-		const queryStringData = Object.fromEntries(urlParams);  
+		const queryStringData = Object.fromEntries(urlParams);
 		return queryStringData;
 	}
 
-	function updateFormValues(){
+	function updateFormValues() {
 		const queryStringData = getQueryStringData();
 
 		let errogMsg = '';
 
 		//Update service
-		if(queryStringData.service){
-			if($form_services){
+		if (queryStringData.service) {
+			if ($form_services) {
 				const option = isSelectOptionExist($form_services, queryStringData.service);
-				if(option){
-					option.setAttribute('selected','selected');
+				if (option) {
+					option.setAttribute('selected', 'selected');
 					populateTypeOfDocuments();
-				}else{
+				} else {
 					errogMsg = errogMsg.concat('This service is not available');
 				}
 			}
 		}
 
 		//Update type of document
-		if(queryStringData.typeofdocument){
-			if($form_typeofdocuments){
+		if (queryStringData.typeofdocument) {
+			if ($form_typeofdocuments) {
 				const option = isSelectOptionExist($form_typeofdocuments, queryStringData.typeofdocument);
-				if(option){
-					option.setAttribute('selected','selected');
-				}else{
+				if (option) {
+					option.setAttribute('selected', 'selected');
+				} else {
 					console.log('Type of document is not valid for this service')
 				}
 			}
 		}
 
 		//Update date1
-		if(queryStringData.date1){
-			if($form_firstdocumentdate){
+		if (queryStringData.date1) {
+			if ($form_firstdocumentdate) {
 				$form_firstdocumentdate.value = queryStringData.date1;
 			}
 		}
 
 		//Update date2
-		if(queryStringData.date2){
-			if($form_seconddocumentdate){
+		if (queryStringData.date2) {
+			if ($form_seconddocumentdate) {
 				$form_seconddocumentdate.value = queryStringData.date2;
 			}
 		}
 
 		//If error msg to display
-		if(errogMsg != '') showNotification('error', errogMsg);
+		if (errogMsg != '') showNotification('error', errogMsg);
 	}
 
-	function isSelectOptionExist($target, value){
+	function isSelectOptionExist($target, value) {
 		return $target.querySelector('[value="' + value + '"]');
 	}
 
-	function addInURL(key, value){
+	function addInURL(key, value) {
 		const queryStringData = getQueryStringData();
 		const url = new URL(window.location);
-		if((url.searchParams.get(key) != null || url.searchParams.get(key) != value) || Object.keys(queryStringData).length == 0){
+		if ((url.searchParams.get(key) != null || url.searchParams.get(key) != value) || Object.keys(queryStringData).length == 0) {
 			url.searchParams.set(key, value);
 			window.history.pushState({}, '', url);
 			window.dispatchEvent(new Event('popstate'));
 		}
 	}
 
-	function removeInURL(key){
+	function removeInURL(key) {
 		const url = new URL(window.location);
 		url.searchParams.delete(key);
 		window.history.pushState({}, '', url);
@@ -205,23 +211,24 @@ document.addEventListener("DOMContentLoaded", () => {
 		addInURL('service', $form_services.selectedOptions.item(0).value);
 		onTypeOfDocumentChangeHandler()
 	}
-	function onTypeOfDocumentChangeHandler(event){
+
+	function onTypeOfDocumentChangeHandler(event) {
 		addInURL('typeofdocument', $form_typeofdocuments.selectedOptions.item(0).value);
 	}
 
-	function sortAlphabeticallyTypeOfDocuments(types){
-		return types.sort((a,b) => {
+	function sortAlphabeticallyTypeOfDocuments(types) {
+		return types.sort((a, b) => {
 			return (a < b) ? -1 : (a > b) ? 1 : 0;
 		})
 	}
 
-	function sortAlphabeticallyServices(services){
-		return services.sort((a,b) => {
+	function sortAlphabeticallyServices(services) {
+		return services.sort((a, b) => {
 			return (a[0] < b[0]) ? -1 : (a[0] > b[0]) ? 1 : 0;
 		})
 	}
 
-	function onDateChange(event){
+	function onDateChange(event) {
 		const currentDateKey = (event.target.id == 'form_firstdocumentdate') ? 'date1' : 'date2';
 		addInURL(currentDateKey, event.target.value);
 	}
@@ -229,27 +236,32 @@ document.addEventListener("DOMContentLoaded", () => {
 	function submitHandler(event) {
 		event.preventDefault();
 		const formData = getFormData();
-		if(isValidForm()){
+		if (isValidForm()) {
 			loadDocs()
-			.then((docs) => {
-				showDiff(docs)
-				showDatesInfos(docs)
-			})
+				.then((docs) => {
+					showDiff(docs)
+					showDatesInfos(docs)
+				})
 		}
 	}
 
-	function getFormData(){
-		const formData           = new FormData($form_explorer);
-		const service            = formData.get('form_services');
-		const type               = formData.get('form_typeofdocuments');
-		const firstDocumentDate  = formData.get('form_firstdocumentdate');
+	function getFormData() {
+		const formData = new FormData($form_explorer);
+		const service = formData.get('form_services');
+		const type = formData.get('form_typeofdocuments');
+		const firstDocumentDate = formData.get('form_firstdocumentdate');
 		const secondDocumentDate = formData.get('form_seconddocumentdate');
-		return {service:service,type:type,firstDocumentDate:firstDocumentDate,secondDocumentDate:secondDocumentDate};
+		return {
+			service: service,
+			type: type,
+			firstDocumentDate: firstDocumentDate,
+			secondDocumentDate: secondDocumentDate
+		};
 	}
-	
-	function isValidForm(){
+
+	function isValidForm() {
 		const formData = getFormData();
-		if(formData.service && formData.type && formData.firstDocumentDate && formData.secondDocumentDate) return true;
+		if (formData.service && formData.type && formData.firstDocumentDate && formData.secondDocumentDate) return true;
 		return false;
 	}
 
@@ -285,7 +297,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		if ($form_explorer) insertAfter($diffviewer, $form_explorer)
 	}
 
-	function removeDiff(){
+	function removeDiff() {
 		[...document.getElementsByClassName("diffviewer")].map(n => n && n.remove());
 	}
 
