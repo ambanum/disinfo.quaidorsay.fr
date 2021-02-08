@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 
 .DS_Store
+node_modules/
+.cache/
+assets/js/cgus/node_modules/

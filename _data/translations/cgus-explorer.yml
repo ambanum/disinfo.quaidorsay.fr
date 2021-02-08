@@ -1,0 +1,33 @@
+hero:
+  subtitle:
+    fr: CGUs explorer
+    en: CGUs explorer
+  chapo: 
+    fr: Explorez les documents contractuels des principaux fournisseurs de services en ligne et comparez leur évolution au fil du temps
+    en: Explore the contractual documents of the main online service providers and compare their evolution trough time
+form:
+  service:
+    fr: Service
+    en: Service
+  type:
+    fr: Type de documents
+    en: Type of documents
+  first-date:
+    fr: Première date
+    en: First date
+  second-date:
+    fr: Deuxième date
+    en: Second date
+  submit:
+    fr: Comparer
+    en: Compare
+notifications:
+  browser-support:
+    fr: Votre navigateur n'est pas supporté 😥
+    en: Your browser is not supported 😥
+  date-closest:
+    en: For the requested date {{firstDocumentDate}}, the closest version is dated {{firstDocumentVersionAtDate}} and for the requested date {{secondDocumentDate}} the closest version is dated {{secondDocumentVersionAtDate}}.
+    fr: Pour la date du {{firstDocumentDate}} notre version la plus proche est celle du {{firstDocumentVersionAtDate}}, pour la date du {{secondDocumentDate}}, la version la plus proche est celle du {{secondDocumentVersionAtDate}}.
+  nothing-to-compare:
+    fr: Il n'y a qu'une seule version du document enregistrée pour les dates selectionnées, donc rien à comparer. 🤷‍♀️
+    en: There is only one saved version of the document for the selected dates, so there is nothing to compare. 🤷‍♀️

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@solid-js/nanostache": "^1.0.5",
+    "core-js": "^3.8.3",
+    "diff-match-patch": "^1.0.5",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13"
+  }
+}

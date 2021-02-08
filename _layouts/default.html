@@ -18,7 +18,7 @@
 		{% endfor %}
 
 		{% for jsFile in page.js_files %}
-			<script type="text/javascript" src="{{ jsFile | absolute_url }}"></script>
+			<script src="{{ jsFile | absolute_url }}"></script>
 		{% endfor %}
 	</head>
 
