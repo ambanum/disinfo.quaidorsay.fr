@@ -5,11 +5,11 @@
 .legend_item{
 	display:inline;
 	margin:0 4px;
+	font-size: 1.4rem;
 }
 
 .legend_span{
 	color: $color-white;
-	font-size: 1.4rem;
 
 	&-add{
 		background-color: $color-green;
