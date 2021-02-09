@@ -38,16 +38,3 @@ legend:
   remove:
     fr: <span class="legend_span legend_span-add">Le vert</span> indique un ajout
     en: <span class="legend_span legend_span-add">Green</span> show an addition
-ctabloc:
-  title:
-    fr: Aidez-nous à améliorer CGUs !
-    en: Help us to improve CGUs!
-  desc:
-    fr: Vous pouvez ajouter des fournisseurs de services ou documents que vous souhaiteriez suivre ou suggérer des modalités de valorisation des études de cas.
-    en: You can add service providers or documents that you would like to follow or suggest ways to add value to the case studies.
-  button-label:
-    fr: Contribuer
-    en: Contribute
-  button-href:
-    fr: https://github.com/ambanum/CGUs
-    en: https://github.com/ambanum/CGUs
