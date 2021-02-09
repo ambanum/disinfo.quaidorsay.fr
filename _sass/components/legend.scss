@@ -1,0 +1,21 @@
+.legend{
+	margin-top:32px;
+}
+
+.legend_item{
+	display:inline;
+	margin:0 4px;
+	font-size: 1.4rem;
+}
+
+.legend_span{
+	color: $color-white;
+
+	&-add{
+		background-color: $color-green;
+	}
+	&-remove{
+		background-color: $color-error;
+		text-decoration: line-through;
+	}
+}

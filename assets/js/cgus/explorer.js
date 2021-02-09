@@ -240,6 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			loadDocs()
 				.then((docs) => {
 					showDiff(docs)
+					showLegend()
 					showDatesInfos(docs)
 				})
 		}
@@ -276,10 +277,15 @@ document.addEventListener("DOMContentLoaded", () => {
 			firstDocumentDate: firstDocumentDate,
 			secondDocumentDate: secondDocumentDate,
 			firstDocumentVersionAtDate: firstDocumentVersionAtDate,
-			secondDocumentVersionAtDate: secondDocumentVersionAtDate,
+			secondDocumentVersionAtDate: secondDocumentVersionAtDate,Date,
 		});
-		if (docs[0].version_at_date == docs[1].version_at_date)
-			msg = notificationsMsgs.nothingToCompare;
+
+		//If dates are the equals
+		if (docs[0].version_at_date == docs[1].version_at_date){
+			msg = Nanostache(notificationsMsgs.nothingToCompare, {
+				onlyDocumentDate: firstDocumentDate,
+			});;
+		}
 
 		showNotification('info', msg)
 	}
@@ -295,6 +301,26 @@ document.addEventListener("DOMContentLoaded", () => {
 		$diffviewer.classList.add('diffviewer');
 		$diffviewer.append($diffContent);
 		if ($form_explorer) insertAfter($diffviewer, $form_explorer)
+	}
+
+	function showLegend(){
+		console.log('showLegend', legendMsg);
+		removeLegend()
+		const $legend = document.createElement('DIV');
+		$legend.classList.add('legend');
+		const $legend_item1 = document.createElement('DIV');
+		const $legend_item2 = document.createElement('DIV');
+		$legend_item1.classList.add('legend_item');
+		$legend_item2.classList.add('legend_item');
+		$legend_item1.innerHTML = legendMsg.add;
+		$legend_item2.innerHTML = legendMsg.remove;
+		$legend.append($legend_item1);
+		$legend.append($legend_item2);
+		if ($form_explorer) insertAfter($legend, $form_explorer)
+	}
+
+	function removeLegend(){
+		[...document.getElementsByClassName("legend")].map(n => n && n.remove());
 	}
 
 	function removeDiff() {
