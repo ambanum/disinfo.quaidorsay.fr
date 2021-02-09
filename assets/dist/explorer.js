@@ -3614,6 +3614,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (isValidForm()) {
       loadDocs().then(function (docs) {
         showDiff(docs);
+        showLegend();
         showDatesInfos(docs);
       });
     }
@@ -3693,6 +3694,28 @@ document.addEventListener("DOMContentLoaded", function () {
       }, _callee6);
     }));
     return _showDiff.apply(this, arguments);
+  }
+
+  function showLegend() {
+    console.log('showLegend', legendMsg);
+    removeLegend();
+    var $legend = document.createElement('DIV');
+    $legend.classList.add('legend');
+    var $legend_item1 = document.createElement('DIV');
+    var $legend_item2 = document.createElement('DIV');
+    $legend_item1.classList.add('legend_item');
+    $legend_item2.classList.add('legend_item');
+    $legend_item1.innerHTML = legendMsg.add;
+    $legend_item2.innerHTML = legendMsg.remove;
+    $legend.append($legend_item1);
+    $legend.append($legend_item2);
+    if ($form_explorer) insertAfter($legend, $form_explorer);
+  }
+
+  function removeLegend() {
+    _toConsumableArray(document.getElementsByClassName("legend")).map(function (n) {
+      return n && n.remove();
+    });
   }
 
   function removeDiff() {

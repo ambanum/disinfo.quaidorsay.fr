@@ -28,6 +28,10 @@ js_files:
 		'dateClosest': "{{ site.data.translations.cgus-explorer.notifications.date-closest[page.lang] }}",
 		'nothingToCompare': "{{ site.data.translations.cgus-explorer.notifications.nothing-to-compare[page.lang] }}",
 	};
+	const legendMsg = {
+		'add': '{{ site.data.translations.cgus-explorer.legend.add[page.lang] }}',
+		'remove': '{{ site.data.translations.cgus-explorer.legend.remove[page.lang] }}'
+	};
 </script>
 
 <form class="form explorerform" id="form_explorer">
