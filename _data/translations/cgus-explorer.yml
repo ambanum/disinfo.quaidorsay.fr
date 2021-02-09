@@ -29,5 +29,5 @@ notifications:
     en: For the requested date {{firstDocumentDate}}, the closest version is dated {{firstDocumentVersionAtDate}} and for the requested date {{secondDocumentDate}} the closest version is dated {{secondDocumentVersionAtDate}}.
     fr: Pour la date du {{firstDocumentDate}} notre version la plus proche est celle du {{firstDocumentVersionAtDate}}, pour la date du {{secondDocumentDate}}, la version la plus proche est celle du {{secondDocumentVersionAtDate}}.
   nothing-to-compare:
-    fr: Il n'y a qu'une seule version du document enregistrée pour les dates selectionnées, donc rien à comparer. 🤷‍♀️
-    en: There is only one saved version of the document for the selected dates, so there is nothing to compare. 🤷‍♀️
+    fr: Il y a une seule version du document (enregistrée le {{onlyDocumentDate}}) pour les dates selectionnées, donc rien à comparer. 🤷‍♀️
+    en: There is only one saved version ({{onlyDocumentDate}}) of the document for the selected dates, so there is nothing to compare. 🤷‍♀️

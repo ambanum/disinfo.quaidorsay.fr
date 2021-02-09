@@ -6,7 +6,9 @@
     "regenerator-runtime": "^0.13.7"
   },
   "babel": {
-    "presets": ["@babel/preset-env"]
+    "presets": [
+      "@babel/preset-env"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",

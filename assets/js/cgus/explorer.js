@@ -276,10 +276,15 @@ document.addEventListener("DOMContentLoaded", () => {
 			firstDocumentDate: firstDocumentDate,
 			secondDocumentDate: secondDocumentDate,
 			firstDocumentVersionAtDate: firstDocumentVersionAtDate,
-			secondDocumentVersionAtDate: secondDocumentVersionAtDate,
+			secondDocumentVersionAtDate: secondDocumentVersionAtDate,Date,
 		});
-		if (docs[0].version_at_date == docs[1].version_at_date)
-			msg = notificationsMsgs.nothingToCompare;
+
+		//If dates are the equals
+		if (docs[0].version_at_date == docs[1].version_at_date){
+			msg = Nanostache(notificationsMsgs.nothingToCompare, {
+				onlyDocumentDate: firstDocumentDate,
+			});;
+		}
 
 		showNotification('info', msg)
 	}
