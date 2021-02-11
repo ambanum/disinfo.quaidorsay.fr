@@ -83,7 +83,7 @@ Des expérimentations sont en cours afin de produire des premiers cas d'usage à
 
 Une API permettant de trouver des termes spécifiques dans le dataset Open Document Archive est disponible.
 
-[Accéder à l'API](https://disinfo.quaidorsay.fr/api/cgus/){: .button .button-secondary }
+[Accéder à l'API](https://disinfo.quaidorsay.fr/api/open-document-archive/){: .button .button-secondary }
 
 ## Contribuer
 

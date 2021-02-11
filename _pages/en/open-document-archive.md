@@ -81,7 +81,7 @@ Experiments are ongoing so as to produce use cases using Open Document Archive d
 
 An API endpoint to find specific terms in the Open Document Archive dataset is available.
 
-[Access the API](https://disinfo.quaidorsay.fr/api/cgus/){: .button .button-secondary }
+[Access the API](https://disinfo.quaidorsay.fr/api/open-document-archive/){: .button .button-secondary }
 
 ## Contributing
 
