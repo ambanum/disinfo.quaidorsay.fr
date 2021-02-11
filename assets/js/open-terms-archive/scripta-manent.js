@@ -10,7 +10,7 @@ const requestHeaders = {
 	}
 }
 
-const APIBaseURL = 'https://disinfo.quaidorsay.fr/api/open-document-archive';
+const APIBaseURL = 'https://disinfo.quaidorsay.fr/api/open-terms-archive';
 
 document.addEventListener("DOMContentLoaded", () => {
 

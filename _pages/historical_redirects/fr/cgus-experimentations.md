@@ -1,4 +1,4 @@
 ---
 permalink: /fr/cgus/experimentations
-redirect_to: /fr/open-document-archive/experimentations
+redirect_to: /fr/open-terms-archive/experimentations
 ---

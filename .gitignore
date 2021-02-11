@@ -5,4 +5,4 @@ _site
 .DS_Store
 node_modules/
 .cache/
-assets/js/open-document-archive/node_modules/
+assets/js/open-terms-archive/node_modules/

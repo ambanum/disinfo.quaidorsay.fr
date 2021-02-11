@@ -1,11 +1,11 @@
 ---
-permalink: /fr/open-document-archive/scripta-manent
-permalink_translated: /en/open-document-archive/scripta-manent
+permalink: /fr/open-terms-archive/scripta-manent
+permalink_translated: /en/open-terms-archive/scripta-manent
 breadcrumb_items:
  - url: /fr/nos-outils
    label: Nos outils
- - url: /fr/open-document-archive
-   label: Open Document Archive
+ - url: /fr/open-terms-archive
+   label: Open Terms Archive
 title: Scripta Manent
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
