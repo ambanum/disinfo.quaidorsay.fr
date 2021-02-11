@@ -14,11 +14,11 @@ navbar_items:
 
 {% include our-tools/tool.html
 icon="tool"
-title="Open Document Archive"
+title="Open Terms Archive"
 subtitle="Follow the changes to the Terms of Service"
-desc="Services have terms that can change over time. Open Document Archive enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms."
+desc="Services have terms that can change over time. Open Terms Archive enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms."
 button-label="Discover"
-button-href="/en/open-document-archive" %}
+button-href="/en/open-terms-archive" %}
 
 {% include our-tools/tool.html
 icon="tool"

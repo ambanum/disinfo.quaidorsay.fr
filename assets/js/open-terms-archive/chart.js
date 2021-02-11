@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	let chart = c3.generate({
 		bindto: '#cguschart',
 		data: {
-			url: '/assets/js/open-document-archive/data.json',
+			url: '/assets/js/open-terms-archive/data.json',
 			mimeType: 'json',
 			keys: {
 				value: ['proportion_active'],

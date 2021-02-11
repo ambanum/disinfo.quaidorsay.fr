@@ -33,13 +33,13 @@ npm install -g parcel-bundler
 Watch Scripta Manent file
 ```
 cd assets
-parcel watch /js/open-document-archive/scripta-manent.js
+parcel watch /js/open-terms-archive/scripta-manent.js
 ```
 
 Build Scripta Manent file
 ```
 cd assets
-parcel build /js/open-document-archive/scripta-manent.js
+parcel build /js/open-terms-archive/scripta-manent.js
 ```
 
 ## Deployment

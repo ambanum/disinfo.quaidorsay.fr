@@ -1,7 +1,7 @@
 ---
-permalink: /fr/open-document-archive
-permalink_translated: /en/open-document-archive
-title: Outil de suivi des engagements contractuels des plateformes
+permalink: /fr/open-terms-archive
+permalink_translated: /en/open-terms-archive
+title: Open Terms Archive
 breadcrumb_items:
  - url: /fr/nos-outils
    label: Nos outils
@@ -11,11 +11,11 @@ navbar_items:
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 ---
 
-# Open Document Archive 
+# Open Terms Archive 
 
 {% include breadcrumb.html %}
 
-![](../../assets/img/open-document-archive/thumb.jpg)
+![](../../assets/img/open-terms-archive/thumb.jpg)
 
 ## Suivre les engagements contractuels des principaux fournisseurs de services en ligne
 
@@ -33,28 +33,28 @@ En matière de manipulation de l'information, les pratiques décrites permettent
 
 - Google a modifié les conditions de validation des applications mobiles afin d’interdire les apps qui laissent supposer à tort être une application officielle et ne mentionnent pas l’existence d’une relation avec une autre entité. Cette nouvelle version des conditions interdit également les apps de développeurs qui témoignent à tort d’un lien avec une autre société ou un autre développeur. Ces mesures ferment ainsi certaines vulnérabilités exploitées pour la manipulation de l’information. [Voir le changement](https://github.com/ambanum/CGUs-versions/commit/98f6c).
 
-![](../../assets/img/open-document-archive/google-case-studie.png)
+![](../../assets/img/open-terms-archive/google-case-studie.png)
 
 - TikTok se réfère aux standards de sa communauté pour offrir à ses utilisateurs l'opportunité de signaler un contenu qui serait estimé inapproprié et irait à leur rencontre. [Voir le changement](https://github.com/ambanum/CGUs-versions/commit/0d2f0386).
 
-![](../../assets/img/open-document-archive/tiktok-case-studie.png)
+![](../../assets/img/open-terms-archive/tiktok-case-studie.png)
 
 - Google AdSense a modifié sa politique d’utilisation afin d’y inclure une mention relative aux pratiques trompeuses coordonnées. Celle-ci prohibe les pratiques visant à se coordonner avec d’autres sites ou comptes en dissimulant ou déformant des informations relatives à son identité lorsque le contenu est lié à des enjeux politiques, sociaux ou d’intérêt public et le fait de cibler un contenu lié à des enjeux politiques, sociaux ou d’intérêt public auprès d’utilisateurs émanant d’un pays qui n’est pas le sien, tout en altérant ou en dissimulant des informations relatives à son pays d’origine. [Voir le changement](https://github.com/ambanum/CGUs-versions/commit/c62b7).
 
-![](../../assets/img/open-document-archive/google-case-studie.png)
+![](../../assets/img/open-terms-archive/google-case-studie.png)
 
 [Découvrir d'autres études de cas](https://github.com/ambanum/CGUs/wiki/%C3%89tudes-de-cas){: .button .button-secondary}
 {: .text-center }
 
-## Comment utiliser l'outil Open Document Archive ?
+## Comment utiliser l'outil Open Terms Archive ?
 
 _Les mots en gras sont les [termes du domaine](https://fr.wikipedia.org/wiki/Conception_pilot%C3%A9e_par_le_domaine)._
 
-Les **services** sont **déclarés** dans l'outil _Open Document Archive_ grâce à un **fichier de déclaration** listant les **documents** qui forment l'ensemble des **conditions** régissant l'usage du **service**. Ces **documents** peuvent être de plusieurs **types** : « conditions d'utilisation », « politique de confidentialité », « contrat de développeur »…
+Les **services** sont **déclarés** dans l'outil _Open Terms Archive_ grâce à un **fichier de déclaration** listant les **documents** qui forment l'ensemble des **conditions** régissant l'usage du **service**. Ces **documents** peuvent être de plusieurs **types** : « conditions d'utilisation », « politique de confidentialité », « contrat de développeur »…
 
 Afin de suivre leurs évolutions, les documents sont régulièrement mis à jour, en les téléchargeant depuis une adresse web et en sélectionnant leur contenu dans la page web pour supprimer le bruit (publicités, menus de navigation, champs de connexion…).
 
-Vous pouvez disposer de votre propre instance privée de l'outil _Open Document Archive_ et suivre vous-même les évolutions. Néanmoins, nous publions chaque version sur une [instance publique](https://github.com/ambanum/CGUs-versions) facilitant l'exploration de l'historique et notifiant par courriels l'enregistrement de nouvelles versions.
+Vous pouvez disposer de votre propre instance privée de l'outil _Open Terms Archive_ et suivre vous-même les évolutions. Néanmoins, nous publions chaque version sur une [instance publique](https://github.com/ambanum/CGUs-versions) facilitant l'exploration de l'historique et notifiant par courriels l'enregistrement de nouvelles versions.
 
 _Actuellement, nous ne suivons que les **conditions** rédigées en anglais et concernant la juridiction européenne._
 
@@ -74,16 +74,16 @@ _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/bl
 
 ## Experimentations
 
-Des expérimentations sont en cours afin de produire des premiers cas d'usage à partir des données générées par l'outil Open Document Archive.
+Des expérimentations sont en cours afin de produire des premiers cas d'usage à partir des données générées par l'outil Open Terms Archive.
 
-[Voir nos experimentations](/fr/open-document-archive/experimentations){: .button .button-secondary }
+[Voir nos experimentations](/fr/open-terms-archive/experimentations){: .button .button-secondary }
 
 ## API
 {: #api }
 
-Une API permettant de trouver des termes spécifiques dans le dataset Open Document Archive est disponible.
+Une API permettant de trouver des termes spécifiques dans le dataset Open Terms Archive est disponible.
 
-[Accéder à l'API](https://disinfo.quaidorsay.fr/api/open-document-archive/){: .button .button-secondary }
+[Accéder à l'API](https://disinfo.quaidorsay.fr/api/open-terms-archive/){: .button .button-secondary }
 
 ## Contribuer
 

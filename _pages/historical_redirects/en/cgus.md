@@ -1,4 +1,4 @@
 ---
 permalink: /en/cgus
-redirect_to: /en/open-document-archive
+redirect_to: /en/open-terms-archive
 ---

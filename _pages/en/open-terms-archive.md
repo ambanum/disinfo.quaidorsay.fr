@@ -1,7 +1,7 @@
 ---
-permalink: /en/open-document-archive
-permalink_translated: /fr/open-document-archive
-title: Open Document Archive
+permalink: /en/open-terms-archive
+permalink_translated: /fr/open-terms-archive
+title: Open Terms Archive
 breadcrumb_items:
  - url: /en/our-tools
    label: Our tools
@@ -11,18 +11,18 @@ navbar_items:
   - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
 ---
 
-# Open Document Archive
+# Open Terms Archive
 
 {% include breadcrumb.html %}
 
-![](../../assets/img/open-document-archive/thumb.jpg)
+![](../../assets/img/open-terms-archive/thumb.jpg)
 
-Services have terms that can change over time. Open Document Archive enables users rights advocates, regulatory bodies and any interested citizen to **follow the changes to these terms**.
+Services have terms that can change over time. Open Terms Archive enables users rights advocates, regulatory bodies and any interested citizen to **follow the changes to these terms**.
 {: .text-lg }
 
 ### Follow the changes to the Terms of Service
 
-Services are declared within Open Document Archive with a declaration file listing all the documents that, together, constitute **the terms under which this service can be used**. These documents all have a type, such as “terms and conditions”, “privacy policy”, “developer agreement”.
+Services are declared within Open Terms Archive with a declaration file listing all the documents that, together, constitute **the terms under which this service can be used**. These documents all have a type, such as “terms and conditions”, “privacy policy”, “developer agreement”.
 
 The practices described regarding information manipulation can lead to a **better understanding of the vulnerabilities** of these actors and the transcription of legislative constraints, recommendations from public authorities or voluntary measures implemented enables us to **appreciate their loyalty**.
 
@@ -30,15 +30,15 @@ The practices described regarding information manipulation can lead to a **bette
 
 - Google has changed its Review Guidelines to prohibit apps that hat mislead users by impersonating someone else or another app or falsely imply a relationship to another company / developer. These measures thus close certain vulnerabilities exploited for information manipulation. [See the change](https://github.com/ambanum/CGUs-versions/commit/98f6c).
 
-![](../../assets/img/open-document-archive/google-case-studie.png)
+![](../../assets/img/open-terms-archive/google-case-studie.png)
 
 - TikTok refers to Comminuty Guidelines to offer its users the opportunity to report content that would be considered inappropriate. [See the change](https://github.com/ambanum/CGUs-versions/commit/0d2f0386).
 
-![](../../assets/img/open-document-archive/tiktok-case-studie.png)
+![](../../assets/img/open-terms-archive/tiktok-case-studie.png)
 
 - Google AdSense has changed its Acceptable Use Policy to add a reference to Coordinated Deceptive Practices to prohibit (i) practices that seek to coordinate with other sites or accounts and concealing or misrepresenting identity or other material details, when content relates to politics, social issues or matters of public concern and (ii) directe content about politics, social issues, or matters of public concern to users in a country other than one's own, if you misrepresent or conceal one's country of origin or other material details. [See the change](https://github.com/ambanum/CGUs-versions/commit/c62b7).
 
-![](../../assets/img/open-document-archive/google-case-studie.png)
+![](../../assets/img/open-terms-archive/google-case-studie.png)
 
 [Discover more case studies](https://github.com/ambanum/CGUs/wiki/%C3%89tudes-de-cas){: .button .button-secondary}
 {: .text-center }
@@ -47,7 +47,7 @@ The practices described regarding information manipulation can lead to a **bette
 
 _Words in bold are [business domain names](https://en.wikipedia.org/wiki/Domain-driven_design)._
 
-**Services** are **declared** within _Open Document Archive_ with a **declaration file** listing all the **documents** that, together, constitute the **terms** under which this **service** can be used. These **documents** all have a **type**, such as “terms and conditions”, “privacy policy”, “developer agreement”…
+**Services** are **declared** within _Open Terms Archive_ with a **declaration file** listing all the **documents** that, together, constitute the **terms** under which this **service** can be used. These **documents** all have a **type**, such as “terms and conditions”, “privacy policy”, “developer agreement”…
 
 In order to track their **changes**, **documents** are periodically obtained by fetching a web location and selecting content within the web page to remove the noise (ads, navigation menu, login fields…).
 
@@ -72,16 +72,16 @@ _For more details, see our [wiki](https://github.com/ambanum/CGUs#be-notified)_.
 
 ## Experiments
 
-Experiments are ongoing so as to produce use cases using Open Document Archive data. 
+Experiments are ongoing so as to produce use cases using Open Terms Archive data. 
 
-[See ours experiments](/en/open-document-archive/experiments){: .button .button-secondary }
+[See ours experiments](/en/open-terms-archive/experiments){: .button .button-secondary }
 
 ## API
 {: #api }
 
-An API endpoint to find specific terms in the Open Document Archive dataset is available.
+An API endpoint to find specific terms in the Open Terms Archive dataset is available.
 
-[Access the API](https://disinfo.quaidorsay.fr/api/open-document-archive/){: .button .button-secondary }
+[Access the API](https://disinfo.quaidorsay.fr/api/open-terms-archive/){: .button .button-secondary }
 
 ## Contributing
 
