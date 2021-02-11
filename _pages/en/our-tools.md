@@ -14,11 +14,11 @@ navbar_items:
 
 {% include our-tools/tool.html
 icon="tool"
-title="CGUs"
+title="Open Document Archive"
 subtitle="Follow the changes to the Terms of Service"
-desc="Services have terms that can change over time. CGUs enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms."
+desc="Services have terms that can change over time. Open Document Archive enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms."
 button-label="Discover"
-button-href="/en/cgus" %}
+button-href="/en/open-document-archive" %}
 
 {% include our-tools/tool.html
 icon="tool"

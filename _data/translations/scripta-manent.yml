@@ -1,10 +1,10 @@
 hero:
   subtitle:
-    fr: CGUs explorer
-    en: CGUs explorer
+    fr: Scripta Manent
+    en: Scripta Manent
   chapo: 
-    fr: Explorez les documents contractuels des principaux fournisseurs de services en ligne et comparez leur évolution au fil du temps
-    en: Explore the contractual documents of the main online service providers and compare their evolution trough time
+    fr: Explorez les documents contractuels des principaux fournisseurs de services en ligne et comparez leur évolution au fil du temps.
+    en: Explore the contractual documents of the main online service providers and compare their evolution trough time.
 form:
   service:
     fr: Service

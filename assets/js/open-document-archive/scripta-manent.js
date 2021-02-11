@@ -1,8 +1,6 @@
 import 'regenerator-runtime/runtime'
 import DiffMatchPatch from 'diff-match-patch';
-import {
-	Nanostache
-} from '@solid-js/nanostache';
+import { Nanostache } from '@solid-js/nanostache';
 
 const requestHeaders = {
 	method: 'GET',
@@ -11,6 +9,8 @@ const requestHeaders = {
 		'Content-Type': 'application/json'
 	}
 }
+
+const APIBaseURL = 'https://disinfo.quaidorsay.fr/api/open-document-archive';
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function getServices() {
-		const request = new Request('https://disinfo.quaidorsay.fr/api/cgus/list_services/v1/?multiple_versions_only=true', requestHeaders);
+		const request = new Request(APIBaseURL+'/list_services/v1/?multiple_versions_only=true', requestHeaders);
 		return async_fetch(request);
 	}
 
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function getDoc(service, type, date) {
-		const route = encodeURI('https://disinfo.quaidorsay.fr/api/cgus/get_version_at_date/v1/' + service + '/' + type + '/' + date);
+		const route = encodeURI(APIBaseURL+'/get_version_at_date/v1/' + service + '/' + type + '/' + date);
 		const request = new Request(route, requestHeaders);
 		const response = await fetch(request)
 		if (response.ok) {

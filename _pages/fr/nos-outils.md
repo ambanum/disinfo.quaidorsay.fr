@@ -14,11 +14,11 @@ navbar_items:
 
 {% include our-tools/tool.html
 icon="tool"
-title="CGUs"
+title="Open Document Archive"
 subtitle="Suivre les engagements contractuels des principaux fournisseurs de services en ligne."
-desc="CGUs est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne. Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions."
+desc="Open Document Archive est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne. Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions."
 button-label="Découvrir"
-button-href="/fr/cgus" %}
+button-href="/fr/open-document-archive" %}
 
 {% include our-tools/tool.html
 icon="tool"
