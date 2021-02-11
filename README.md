@@ -30,16 +30,16 @@ Install parcel
 npm install -g parcel-bundler
 ```
 
-Watch file
+Watch Scripta Manent file
 ```
 cd assets
-parcel watch /js/cgus/explorer.js
+parcel watch /js/open-document-archive/scripta-manent.js
 ```
 
-Build
+Build Scripta Manent file
 ```
 cd assets
-parcel build /js/cgus/explorer.js
+parcel build /js/open-document-archive/scripta-manent.js
 ```
 
 ## Deployment
