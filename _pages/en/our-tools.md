@@ -34,7 +34,7 @@ title="Illegal Ads"
 subtitle="Assess the legality of political ads"
 desc="A crowdsourcing interface that allows citizens to view paid issue-based ads on Facebook and surface actors that do not respect the law. Currently only available for France, our code is open-source and we would be happy to collaborate with you to expand to other countries."
 sublink-label="Send us an email!"
-sublink-href="mailto:matti.schneider@diplomatie.gouv.fr?subject=AdsLegality"
+sublink-href="mailto:bureau.ambnum@diplomatie.gouv.fr?subject=AdsLegality"
 button-label="Start classifying"
 button-href="/political-ads" %}
 
@@ -44,7 +44,7 @@ title="Collaboration chat"
 subtitle="Collaboratively detect, qualify and react to disinformation campaigns"
 desc="A real-time chat that gathers actors, supports all the best practices identified in our encyclopedia, and offers the best tools as chatbots. If you are reading this, then we would probably like to have you on board."
 sublink-label="Send us an email!"
-sublink-href="mailto:matti.schneider@diplomatie.gouv.fr?subject=CollaborationChat"
+sublink-href="mailto:bureau.ambnum@diplomatie.gouv.fr?subject=CollaborationChat"
 button-label="Join"
 button-href="/collaborate" %}
 

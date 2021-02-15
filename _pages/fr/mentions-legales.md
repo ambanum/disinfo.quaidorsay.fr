@@ -18,7 +18,7 @@ Ministère de l'Europe et des affaires étrangères
 
 ## Directeur de la rédaction
 
-Chef de l'innovation de l'Ambassadeur pour les affaires numériques, Matti Schneider
+Henri Verdier, ambassadeur pour le numérique.
 
 ## Fournisseur d'hébergement
 

@@ -34,7 +34,7 @@ title="Publicités illégales"
 subtitle="Déterminez la légalité des publicités politiques"
 desc="<p>Une interface de crowdsourcing qui permet aux citoyens de voir des publicités sponsorisées sur Facebook et de faire ressortir les acteurs qui ne respectent pas la loi.</p><p>Actuellement uniquement disponible pour la France, notre code est libre et aimerions collaborer avec vous pour l'étendre à d'autres pays.</p>"
 sublink-label="Envoyez-nous un email !"
-sublink-href="mailto:matti.schneider@diplomatie.gouv.fr?subject=AdsLegality"
+sublink-href="mailto:bureau.ambnum@diplomatie.gouv.fr?subject=AdsLegality"
 button-label="Classifier"
 button-href="/political-ads" %}
 
@@ -44,7 +44,7 @@ title="Chat collaboratif"
 subtitle="Détectez, qualifiez et réagissez collaborativement aux campagnes de désinformation"
 desc="Un chat qui réunit les acteurs, soutient les bonnes pratiques identifiées dans notre encyclopédie et propose les meilleurs outils via des chatbots. Si vous lisez ceci, vous devriez probablement y être 😉"
 sublink-label="Envoyez-nous un email !"
-sublink-href="mailto:matti.schneider@diplomatie.gouv.fr?subject=CollaborationChat"
+sublink-href="mailto:bureau.ambnum@diplomatie.gouv.fr?subject=CollaborationChat"
 button-label="Rejoindre"
 button-href="/collaborate" %}
 
