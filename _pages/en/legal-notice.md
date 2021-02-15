@@ -16,9 +16,9 @@ Office of the Ambassador for Digital Affairs
 Ministère de l'Europe et des affaires étrangères  
 37 Quai d'Orsay, 75015 Paris, France
 
-## Directeur de la rédaction
+## Editorial Director
 
-CIO to the Ambassador for Digital Affairs, Matti Schneider
+Ambassador for Digital Affairs, Henri Verdier
 
 ## Hosting provider
 
