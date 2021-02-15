@@ -1,7 +1,8 @@
-import 'regenerator-runtime/runtime'
+import 'regenerator-runtime/runtime';
 import DiffMatchPatch from 'diff-match-patch';
 import { Nanostache } from '@solid-js/nanostache';
-import 'nodep-date-input-polyfill';
+import 'better-dom/dist/better-dom';
+import 'better-dateinput-polyfill/dist/better-dateinput-polyfill';
 
 const requestHeaders = {
 	method: 'GET',
