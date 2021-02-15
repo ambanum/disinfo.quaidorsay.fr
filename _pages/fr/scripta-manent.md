@@ -57,3 +57,7 @@ js_files:
 		<input type="date" id="form_seconddocumentdate" min="2000-01-01" name="form_seconddocumentdate" tabindex="4" required>
 	</div>
 </form>
+
+<div class="datasetRelease">
+	{{ site.data.translations.scripta-manent.datasetRelease[page.lang] }}
+</div>
