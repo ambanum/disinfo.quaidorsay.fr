@@ -101,6 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		const sortedServices = sortAlphabeticallyServices(servicesArray);
 		sortedServices && sortedServices.forEach(element => {
 			const option = new Option(element[0], element[0]);
+			option.classList.add('font-marianne');
 			option.dataset.typeofdocuments = sortAlphabeticallyTypeOfDocuments(element[1]);
 			$form_services.add(option);
 		});
@@ -120,6 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	function popStateHandler(event) {
 		const queryStringData = getQueryStringData();
 		removeDiff();
+		removeLegend();
 		removeNotification();
 		updateFormValues();
 
@@ -306,7 +308,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function showLegend(){
-		console.log('showLegend', legendMsg);
 		removeLegend()
 		const $legend = document.createElement('DIV');
 		$legend.classList.add('legend');

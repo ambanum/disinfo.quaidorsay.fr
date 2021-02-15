@@ -1,5 +1,5 @@
 .diffviewer{
-	margin-top: 8px;
+	margin-top: 12px;
 	
 	@include responsiveMaxWidth($bpTabletSmall){
 		
@@ -16,6 +16,7 @@
 	ins{
 		background-color: $color-green;
 		color: $color-white;
+		text-decoration: none;
 	}
 
 	del{
