@@ -2,6 +2,7 @@
   "dependencies": {
     "@solid-js/nanostache": "^1.0.5",
     "diff-match-patch": "^1.0.5",
+    "nodep-date-input-polyfill": "^5.2.0",
     "regenerator-runtime": "^0.13.7"
   },
   "babel": {
