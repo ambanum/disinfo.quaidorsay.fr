@@ -17,6 +17,10 @@
 	}
 }
 
+.tool_title{
+	position:relative;
+}
+
 .tool_subtitle {
 	margin-top: 12px;
 	position: relative;
@@ -36,8 +40,29 @@
 	margin-top: 20px;
 	display: flex;
 	align-items: center;
+
+	@include responsiveMaxWidth($bpMobile) {
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+}
+
+.tool_sublink{
+	@include responsiveMaxWidth($bpMobile) {
+		width: 100%;
+	}
+	&+.tool_button{
+		@include responsiveMaxWidth($bpMobile) {
+			margin-top: 12px;
+		}
+	}
 }
 
 .tool_button {
 	margin-left: auto;
+
+	@include responsiveMaxWidth($bpMobile) {
+		margin-left: 0;
+		
+	}
 }

@@ -8,6 +8,11 @@
 	text-align: center;
 	padding-top: 128px;
 	padding-bottom: 128px;
+
+	@include responsiveMaxWidth($bpMobile) {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
 }
 
 .hero_title_part1 {
