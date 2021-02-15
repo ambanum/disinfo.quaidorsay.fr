@@ -5,8 +5,8 @@ link-mail-label:
   fr: Contactez-nous
   en: Contact us
 link-mail-href:
-  fr: mailto:matti.schneider@diplomatie.gouv.fr
-  en: mailto:matti.schneider@diplomatie.gouv.fr
+  fr: mailto:bureau.ambnum@diplomatie.gouv.fr?subject=disinfo
+  en: mailto:bureau.ambnum@diplomatie.gouv.fr?subject=disinfo
 link-tracking-label:
   fr: Suivi d’audience et vie privée
   en: Analytics and privacy
