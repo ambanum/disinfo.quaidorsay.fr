@@ -72,6 +72,12 @@ _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/CGUs/bl
 
 **Attention, ce service est en version bêta et vous risquez de recevoir de nombreuses notifications !** Vous pourrez vous désabonner en répondant à n'importe quel courriel reçu.
 
+## Scripta Manent
+
+Scripta Manent recense 637 conditions générales d’utilisation (CGU) ou documents légaux issus de 174  fournisseurs de services numériques et donne des outils simples pour mesurer les changements entre deux dates de son choix.
+
+[Comparer](/fr/open-terms-archive/scripta-manent){: .button .button-secondary }
+
 ## Experimentations
 
 Des expérimentations sont en cours afin de produire des premiers cas d'usage à partir des données générées par l'outil Open Terms Archive.
