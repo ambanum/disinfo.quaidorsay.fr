@@ -70,6 +70,12 @@ You can [subscribe](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7U
 
 _For more details, see our [wiki](https://github.com/ambanum/CGUs#be-notified)_.
 
+## Scripta Manent
+
+Scripta Manent lists 637 Terms of Services (in French, Conditions Générales d’Utilisation or CGU) and legal documents coming from 174 digital service providers and gives simple tools to compare changes between two dates of your choice.
+
+[Compare](/en/open-terms-archive/scripta-manent){: .button .button-secondary }
+
 ## Experiments
 
 Experiments are ongoing so as to produce use cases using Open Terms Archive data. 
