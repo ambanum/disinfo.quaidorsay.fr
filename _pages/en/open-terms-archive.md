@@ -28,19 +28,19 @@ The practices described regarding information manipulation can lead to a **bette
 
 ### Case studies
 
-- Google has changed its Review Guidelines to prohibit apps that hat mislead users by impersonating someone else or another app or falsely imply a relationship to another company / developer. These measures thus close certain vulnerabilities exploited for information manipulation. [See the change](https://github.com/ambanum/CGUs-versions/commit/98f6c).
+- Google has changed its Review Guidelines to prohibit apps that hat mislead users by impersonating someone else or another app or falsely imply a relationship to another company / developer. These measures thus close certain vulnerabilities exploited for information manipulation. [See the change](https://github.com/ambanum/OpenTermsArchive-versions/commit/98f6c).
 
 ![](../../assets/img/open-terms-archive/google-case-studie.png)
 
-- TikTok refers to Comminuty Guidelines to offer its users the opportunity to report content that would be considered inappropriate. [See the change](https://github.com/ambanum/CGUs-versions/commit/0d2f0386).
+- TikTok refers to Comminuty Guidelines to offer its users the opportunity to report content that would be considered inappropriate. [See the change](https://github.com/ambanum/OpenTermsArchive-versions/commit/0d2f0386).
 
 ![](../../assets/img/open-terms-archive/tiktok-case-studie.png)
 
-- Google AdSense has changed its Acceptable Use Policy to add a reference to Coordinated Deceptive Practices to prohibit (i) practices that seek to coordinate with other sites or accounts and concealing or misrepresenting identity or other material details, when content relates to politics, social issues or matters of public concern and (ii) directe content about politics, social issues, or matters of public concern to users in a country other than one's own, if you misrepresent or conceal one's country of origin or other material details. [See the change](https://github.com/ambanum/CGUs-versions/commit/c62b7).
+- Google AdSense has changed its Acceptable Use Policy to add a reference to Coordinated Deceptive Practices to prohibit (i) practices that seek to coordinate with other sites or accounts and concealing or misrepresenting identity or other material details, when content relates to politics, social issues or matters of public concern and (ii) directe content about politics, social issues, or matters of public concern to users in a country other than one's own, if you misrepresent or conceal one's country of origin or other material details. [See the change](https://github.com/ambanum/OpenTermsArchive-versions/commit/c62b7).
 
 ![](../../assets/img/open-terms-archive/google-case-studie.png)
 
-[Discover more case studies](https://github.com/ambanum/CGUs/wiki/%C3%89tudes-de-cas){: .button .button-secondary}
+[Discover more case studies](https://github.com/ambanum/OpenTermsArchive/wiki/%C3%89tudes-de-cas){: .button .button-secondary}
 {: .text-center }
 
 ## How it works
@@ -51,16 +51,16 @@ _Words in bold are [business domain names](https://en.wikipedia.org/wiki/Domain-
 
 In order to track their **changes**, **documents** are periodically obtained by fetching a web location and selecting content within the web page to remove the noise (ads, navigation menu, login fields…).
 
-Anyone can run their own private instance and track changes on their own. However, we also publish each version on a [**public** instance](https://github.com/ambanum/CGUs-versions) that makes it easy to explore the entire history and enables notifying over email whenever a new version is recorded.
+Anyone can run their own private instance and track changes on their own. However, we also publish each version on a [**public** instance](https://github.com/ambanum/OpenTermsArchive-versions) that makes it easy to explore the entire history and enables notifying over email whenever a new version is recorded.
 Users can [**subscribe** to **notifications**](#be-notified).
 
 _For now, when multiple versions coexist, **terms** are only **tracked** in their English version and for the European jurisdiction._
 
 ### Exploring the versions history
 
-From the **repository homepage** [CGUs-versions](https://github.com/ambanum/CGUs-versions), open the folder of the service of your choice. You will see the set of documents tracked for that service, now click on the document of your choice. The latest version (updated hourly) will be displayed.
+From the **repository homepage** [CGUs-versions](https://github.com/ambanum/OpenTermsArchive-versions), open the folder of the service of your choice. You will see the set of documents tracked for that service, now click on the document of your choice. The latest version (updated hourly) will be displayed.
 
-_For more details, see our [wiki](https://github.com/ambanum/CGUs#exploring-the-versions-history)_.
+_For more details, see our [wiki](https://github.com/ambanum/OpenTermsArchive#exploring-the-versions-history)_.
 
 ### Be notified
 
@@ -68,7 +68,7 @@ You can [subscribe](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7U
 
 **Beware, this service is in beta and you are likely to receive a large amount of notifications!** You can unsubscribe by replying to any email you will receive.
 
-_For more details, see our [wiki](https://github.com/ambanum/CGUs#be-notified)_.
+_For more details, see our [wiki](https://github.com/ambanum/OpenTermsArchive#be-notified)_.
 
 ## Scripta Manent
 

@@ -9,8 +9,8 @@ ctabloc:
     fr: Contribuer
     en: Contribute
   button-href:
-    fr: https://github.com/ambanum/CGUs
-    en: https://github.com/ambanum/CGUs
+    fr: https://github.com/ambanum/OpenTermsArchive
+    en: https://github.com/ambanum/OpenTermsArchive
 datatables:
   info:
     fr: Affichage des entrées de {start} à {end} des {rows}
@@ -94,14 +94,14 @@ tablelegend:
     fr: Difficile à lire.
     en: Difficult to read.
   score-30-10-label:
-    fr: Diplômé de l'université	
+    fr: Diplômé de l'université
     en: College graduate
   score-30-10-desc:
     fr: Très difficile à lire. Mieux compris par les diplômés de l'université.
     en: Very difficult to read. Best understood by university graduates.
   score-10-0-label:
-    fr: Professionnel	
-    en: Professional	
+    fr: Professionnel
+    en: Professional
   score-10-0-desc:
     fr: Extrêmement difficile à lire. Mieux compris par les diplômés de l'université.
     en: Extremely difficult to read. Best understood by university graduates.

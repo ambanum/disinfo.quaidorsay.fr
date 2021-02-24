@@ -30,7 +30,7 @@ Des expérimentations sont en cours afin de produire des premiers cas d'usage à
 
 ## Jeu de données
 
-Un premier jeu de données a d'ores et déjà été publié [ici](https://github.com/ambanum/CGUs-versions/releases) et permet d'explorer l'intégralité des versions collectées par l'outil. L'utilitaire [`CGUs-stats`](https://github.com/ambanum/CGUs-stats/) peut aider à l'exploration programmatique des données.
+Un premier jeu de données a d'ores et déjà été publié [ici](https://github.com/ambanum/OpenTermsArchive-versions/releases) et permet d'explorer l'intégralité des versions collectées par l'outil. L'utilitaire [`OpenTermsArchive-stats`](https://github.com/ambanum/OpenTermsArchive-stats/) peut aider à l'exploration programmatique des données.
 
 ## Proportion mensuelle de services actifs suivis
 

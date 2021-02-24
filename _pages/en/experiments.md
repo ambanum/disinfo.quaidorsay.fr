@@ -30,7 +30,7 @@ Experiments are ongoing so as to produce use cases using Open Terms Archive data
 
 ## Dataset
 
-A first dataset has been published [here](https://github.com/ambanum/CGUs-versions/releases) and contains the version history of all tracked CGUs. The [`CGUs-stats`](https://github.com/ambanum/CGUs-stats/) tool can help programatically explore these data.
+A first dataset has been published [here](https://github.com/ambanum/OpenTermsArchive-versions/releases) and contains the version history of all tracked CGUs. The [`OpenTermsArchive-stats`](https://github.com/ambanum/OpenTermsArchive-stats/) tool can help programatically explore these data.
 
 ## Monthly propotion of active tracked service
 
