@@ -60,7 +60,7 @@ _Actuellement, nous ne suivons que les **conditions** rédigées en anglais et c
 
 ### Naviguer dans l'historique des versions
 
-À partir de la **page d'accueil du dépôt** [CGUs-versions](https://github.com/ambanum/OpenTermsArchive-versions), ouvrez le dossier du service de votre choix. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
+À partir de la **page d'accueil du dépôt** [OpenTermsArchive-versions](https://github.com/ambanum/OpenTermsArchive-versions), ouvrez le dossier du service de votre choix. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
 
 _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/OpenTermsArchive/blob/master/README.fr.md#naviguer-dans-lhistorique-des-versions)_.
 
