@@ -58,7 +58,7 @@ _For now, when multiple versions coexist, **terms** are only **tracked** in thei
 
 ### Exploring the versions history
 
-From the **repository homepage** [CGUs-versions](https://github.com/ambanum/OpenTermsArchive-versions), open the folder of the service of your choice. You will see the set of documents tracked for that service, now click on the document of your choice. The latest version (updated hourly) will be displayed.
+From the **repository homepage** [OpenTermsArchive-versions](https://github.com/ambanum/OpenTermsArchive-versions), open the folder of the service of your choice. You will see the set of documents tracked for that service, now click on the document of your choice. The latest version (updated hourly) will be displayed.
 
 _For more details, see our [wiki](https://github.com/ambanum/OpenTermsArchive#exploring-the-versions-history)_.
 
