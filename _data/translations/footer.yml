@@ -1,27 +1,36 @@
 desc:
   fr: Réalisé dans une optique de <strong>transparence</strong>, d’<strong>intérêt général</strong>, de <strong>collaboration</strong>, d’<strong>agilité</strong> et de <strong>bienveillance</strong> par l’équipe de l’Ambassadeur français pour le numérique.
   en: Made with <strong>transparency, general interest, collaboration, agility</strong> and <strong>care</strong> in mind by the team of the French Ambassador for Digital Affairs
+  zh-Hant: 由法國數位事務大使團隊以心中懷抱 <strong>透明、共好、協作、敏捷</strong> 和 <strong>關懷</strong> 而製作
 link-mail-label:
   fr: Contactez-nous
   en: Contact us
+  zh-Hant: 聯絡我們
 link-mail-href:
   fr: mailto:bureau.ambnum@diplomatie.gouv.fr?subject=disinfo
   en: mailto:bureau.ambnum@diplomatie.gouv.fr?subject=disinfo
+  zh-Hant: mailto:bureau.ambnum@diplomatie.gouv.fr?subject=disinfo
 link-tracking-label:
   fr: Suivi d’audience et vie privée
   en: Analytics and privacy
+  zh-Hant: 分析與隱私
 link-tracking-href:
   fr: /suivi-d-audience-et-vie-privee
   en: /tracking.html
+  zh-Hant: /tracking.html
 link-legal-label:
   fr: Mentions légales
   en: Legal notice
+  zh-Hant: 法律聲明
 link-legal-href:
   fr: /mentions-legales.html
   en: /legal-notice.html
+  zh-Hant: /legal-notice.html
 link-code-label:
   fr: Code source
   en: Source Code
+  zh-Hant: 源碼
 link-code-href:
   fr: https://github.com/ambanum/disinfo.quaidorsay.fr
   en: https://github.com/ambanum/disinfo.quaidorsay.fr
+  zh-Hant: https://github.com/ambanum/disinfo.quaidorsay.fr

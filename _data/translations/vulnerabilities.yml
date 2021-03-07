@@ -1,55 +1,71 @@
 title:
   fr: Ces manipulations exploitent des vulnérabilités.
   en: These manipulations exploit vulnerabilities.
+  zh-Hant: 這些操弄，利用各種弱點。
 subtitle:
   fr: La manière dont l'information est présentée et diffusée en ligne est à l'origine de ces vulnérabilités. Des acteurs malveillants peuvent les exploiter pour manipuler l'opinion.
   en: Vulnerabilites are due to the way information is presented online and can be exploited by bad actors to manipulate opinion.
+  zh-Hant: 弱點來自資訊在網路上呈現的方式，被不良角色利用，進而操弄意見。
 items:
   - item:
     title:
       fr: Faux profils
       en: Fake Social Media Profiles
+      zh-Hant: 社交媒體上的假帳號
     desc:
       fr: Créer des faux profils, pages ou groupes sur les médias sociaux pour tromper l'utilisateur vis-à-vis de la fiabilité du contenu diffusé et amplifier l'adoption de celui-ci.
       en: By creating fake users, pages and groups with a variety of interests and commitments, attackers can mislead users about the reliability of the content and amplify its adoption.
+      zh-Hant: 藉著偽造各式意圖和承諾的假用戶、頁面和群組，攻擊者使人們誤以為某些內容是可靠的，進而擴大其影響力。
   - item:  
     title:
       fr: Faux sondages
       en: Fake online polls
+      zh-Hant: 網路上的假民調
     desc:
       fr: Créer de faux sondages ou manipuler des sondages en ligne pour générer de fausses mesures d’engagement et ainsi manipuler la perception d’un sujet.
       en: Create fake online polls, or manipulate existing online polls to generate fake engagement metrics and thus manipulate perception of given issue.
+      zh-Hant: 虛構網路民調，或操弄既有的網路民調，以產生偽造的參與度，進而操弄對於既有議題的認知。
   - item:
     title:
       fr: Vides de données
       en: Data voids prefilling
+      zh-Hant: 資料空白預填
     desc:
       fr: Combler l'absence de sources de qualité et faisant autorité dans les résultats de moteurs de recherche pour imposer un narratif sur un sujet.
       en: Data voids prefilling can be used to fill the lack of quality and authoritative sources in search engine results to impose a narrative on a topic.
+      zh-Hant: 運用假造的網頁，來填補搜尋引擎結果中高品質與權威消息來源的缺口，進而為特定主題提供說法。
   - item:
     title:
       fr: Publicités ciblées
       en: Paid targeted ads
+      zh-Hant: 付費鎖定目標廣告
     desc:
       fr: Recourir à des publicités ciblant des utilisateurs sur la base de leurs données personnelles pour diffuser des messages fragmentant l'espace de débat public.
       en: Using paid targeted ads makes it possible to disseminate messages by targeting specific users on the basis of their personal data.
+      zh-Hant: 付費鎖定目標的個人資料，進而散播量身打造的訊息。
   - item:
     title:
       fr: Profils automatisés
       en: Automated Profiles
+      zh-Hant: 機器人帳號
     desc:
       fr: "Utiliser des profils automatisés, fonctionnant en réseau et de manière coordonnée, pour amplifier artificiellement la portée et la notorieté de contenus sur les médias sociaux."
       en: "Automated profiles are designed to amplify content and give appearance content is more “popular” than it is. They can operate as a network, to function in a coordinated manner."
+      zh-Hant: 自動操作的許多帳號，可以集體誇大特定內容的影響力，造成「熱門」的假象。
   - item:
     title:
       fr: Faux sites d'informations
       en: Create fake or imposter news sites
+      zh-Hant: 虛構或偽冒的新聞網站
     desc:
       fr: Créer de faux sites d'informations, reprenant les codes et les marques de médias connus pour tromper le lecteur. 
       en: Fake news sites can be used to share information while misleading users. These sites often have some superficial markers of authenticity, such as naming and site-design.
+      zh-Hant: 在分享資訊時，一面誤導用戶。這些網站常常透過名稱、網站設計等方式，偽造可靠的外表。
 items-context:
   fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>.
   en: Our approach is based on the <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">AMITT framework</a>.
+  zh-Hant: 我們的作法奠基於 <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">AMITT 架構</a>。
 desc:
   fr: "L’économie de l’attention favorise la publication de contenus qui <strong>exploitent nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », une mesure de visibilité trop souvent utilisé à tort pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
   en: The attention economy allows bad actors to gain money and views by publishing content that <strong>exploits our biases and tendencies</strong> to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring <strong>credibility or importance</strong>. 
+  zh-Hant: 「注意力經濟」讓惡意人士藉由發表內容，來獲取金錢和瀏覽數。這些內容<strong>利用我們的偏見與傾向</strong>，從而人工創造出的「互動」程度，往往被錯認成<strong>可信度或重要性</strong>。

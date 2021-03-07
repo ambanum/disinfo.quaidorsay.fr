@@ -34,6 +34,14 @@
 							{% assign current_permalink_fr = "/fr" %}
 						{% endif %}
 					{% endif %}
+					{% if page.lang == "zh-Hant" %}
+					        {% capture current_permalink_en %}{{ page.permalink | replace_first: "/zh-Hant", "/en" }}{% endcapture %}
+						{% if page.permalink_translated %}
+							{% assign current_permalink_fr = page.permalink_translated %}
+						{% else %}
+							{% assign current_permalink_fr = "/fr" %}
+						{% endif %}
+					{% endif %}
 					<li class="header_langnav_item">
 						<a href="{{ current_permalink_fr }}" class="header_langnav_link">
 							<span>Français</span>
@@ -42,6 +50,11 @@
 					<li class="header_langnav_item">
 						<a href="{{ current_permalink_en }}" class="header_langnav_link">
 							<span>English</span>
+						</a>
+					</li>
+					<li class="header_langnav_item">
+						<a href="{{ current_permalink_en | replace_first: '/en', '/zh-Hant' }}" class="header_langnav_link">
+							<span>正體中文</span>
 						</a>
 					</li>
 				</ul>

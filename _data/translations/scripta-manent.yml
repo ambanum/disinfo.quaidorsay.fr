@@ -2,42 +2,55 @@ hero:
   subtitle:
     fr: Scripta Manent
     en: Scripta Manent
+    zh-Hant: Scripta Manent
   chapo:
     fr: Explorez les documents contractuels des principaux fournisseurs de services en ligne et comparez leur évolution au fil du temps.
     en: Explore the contractual documents of the main online service providers and compare their evolution through time.
+    zh-Hant: 探索主要網路服務提供者的合約性質文件，並且比較其歷經時間的演進。
 form:
   service:
     fr: Service
     en: Service
+    zh-Hant: 服務
   type:
     fr: Type de documents
     en: Type of documents
+    zh-Hant: 文件類型
   first-date:
     fr: Première date
     en: First date
+    zh-Hant: 第一個日期
   second-date:
     fr: Deuxième date
     en: Second date
+    zh-Hant: 第二個日期
   submit:
     fr: Comparer
     en: Compare
+    zh-Hant: 比較
 notifications:
   browser-support:
     fr: Votre navigateur n'est pas supporté 😥
     en: Your browser is not supported 😥
+    zh-Hant: 您的瀏覽器未受支援 😥
   date-closest:
     en: For the requested date {{firstDocumentDate}}, the closest version is dated {{firstDocumentVersionAtDate}} and for the requested date {{secondDocumentDate}} the closest version is dated {{secondDocumentVersionAtDate}}.
     fr: Pour la date du {{firstDocumentDate}} notre version la plus proche est celle du {{firstDocumentVersionAtDate}}, pour la date du {{secondDocumentDate}}, la version la plus proche est celle du {{secondDocumentVersionAtDate}}.
+    zh-Hant: 對於要求的日期 {{firstDocumentDate}}，記有最接近版本的日期 {{firstDocumentVersionAtDate}} 以及對於要求的日期 {{secondDocumentDate}} 記有最接近的日期 {{secondDocumentVersionAtDate}}。
   nothing-to-compare:
     fr: Il y a une seule version du document (enregistrée le {{onlyDocumentDate}}) pour les dates selectionnées, donc rien à comparer. 🤷‍♀️
     en: There is only one saved version ({{onlyDocumentDate}}) of the document for the selected dates, so there is nothing to compare. 🤷‍♀️
+    zh-Hant: 針對被選取的日期，文件只有一個存檔版本 ({{onlyDocumentDate}})，所以沒有東西可以比較。 🤷‍♀️
 legend:
   add:
     fr: <span class="legend_span legend_span-remove">Le rouge</span> indique une suppression.
-    en: <span class="legend_span legend_span-remove">Red/span> shows deletion.
+    en: <span class="legend_span legend_span-remove">Red</span> shows deletion.
+    zh-Hant: <span class="legend_span legend_span-remove">紅色</span> 表示刪除。
   remove:
     fr: <span class="legend_span legend_span-add">Le vert</span> indique un ajout.
     en: <span class="legend_span legend_span-add">Green</span> show an addition.
+    zh-Hant: <span class="legend_span legend_span-add">綠色</span> 表示添加。
 datasetRelease:
   fr: Scripta Manent utilise le jeu de données Open Terms Archive <a href="https://github.com/ambanum/OpenTermsArchive-versions/releases/tag/2021-02-15-18df44e">publié le 15/02/2021</a>.
   en: Scripta Manent uses the Open Terms Archive dataset <a href="https://github.com/ambanum/OpenTermsArchive-versions/releases/tag/2021-02-15-18df44e">published on 15/02/2021</a>.
+  zh-Hant: Scripta Manent 使用<a href="https://github.com/ambanum/CGUs-versions/releases/tag/2021-02-15-18df44e">發表於 2021 年 2 月 15 日</a>的開放條款資料集。

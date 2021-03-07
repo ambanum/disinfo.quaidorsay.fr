@@ -1,0 +1,21 @@
+---
+layout: landing
+permalink: /zh-Hant
+title: 防堵資訊操弄的漏洞
+htmlDescription: 法國數位事務大使辦公室開發了各種工具，以防範資訊操弄，阻止有心人士利用這種手段來撕裂社會、干擾選舉。
+navbar_items:
+- <a href="/zh-Hant" class="header_mainnav_link">首頁</a>
+- <a href="!SITE_URL!/zh-Hant#our-actions" class="header_mainnav_link">我們的行動</a>
+- <a href="/zh-Hant/our-tools" class="header_mainnav_link">我們的工具</a>
+---
+
+{% capture hero_title %}{{ site.data.translations.index.hero.title[page.lang] }}{% endcapture %}
+{% capture hero_subtitle %}{{ site.data.translations.index.hero.subtitle[page.lang] }}{% endcapture %}
+{% capture hero_chapo %}{{ site.data.translations.index.hero.chapo[page.lang] }}{% endcapture %}
+{% include hero.html title=hero_title subtitle=hero_subtitle chapo=hero_chapo %}
+
+{% include casestudies.html %}
+
+{% include vulnerabilities.html %}
+
+{% include actions.html %}
