@@ -135,8 +135,9 @@
 }
 
 .header_langnav_item {
-	&:first-of-type {
-		margin-right: 12px;
+	margin-right: 12px;
+	&:last-of-type {
+		margin-right: 0;
 	}
 }
 

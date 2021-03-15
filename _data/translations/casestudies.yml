@@ -1,56 +1,71 @@
 title:
   fr: Fake news, infox, désinformation… 
   en: Fake news, misinformation, disinformation…
+  zh-Hant: 不實新聞、錯誤資訊、假訊息…
 subtitle:
   fr: Ce sujet est rendu complexe par des termes qui recouvrent des réalités différentes. Nous privilégions celui, plus générique, de <strong>manipulations de l’information</strong>.
   en: The topic is riddled with words covering different realities. We prefer the more generic term <strong>information manipulation</strong>.
+  zh-Hant: 這個標題充滿涵蓋著不同現實的字眼。我們更常用的詞是<strong>「資訊操弄」</strong>。
 items:
   - item:
     image-src: ../../assets/img/casestudies/cambrige.jpg
     title:
       fr: Scandale Cambridge Analytica et l'élection présidentielle américaine
       en: Cambridge Analytica Scandal and the U.S. presidential elections
+      zh-Hant: 劍橋分析公司醜聞和 2016 年的美國總統大選
     desc:
       fr: L'entreprise Cambridge Analytica mène, en 2016, une campagne micro-ciblée sur Facebook pour le candidat Trump. L'entreprise récupère les données personnelles de 87 millions de citoyens Américains via une application tierce. Elle cible des électeurs indécis, sélectionnés sur la base de leurs données personnelles, afin d'orienter leur vote.
       en: In 2016, Cambridge Analytica has been hired by the Trump candidate’s team to conduct a micro-targeted campaign on Facebook. The company is recovering the personal data of 87 million people via a third party application, and is running a targeted campaign against undecided voters selected on the basis of their personal data in order to influence their vote.
+      zh-Hant: 在 2016 年，劍橋分析公司接受川普競選團隊聘用而在 Facebook 上進行精準投放宣傳。該公司經由第三方應用程式取得 8,700 萬人的個人資料，並且針對尚未決定的選民，以其個人資料為依據，進行鎖定目標式的宣傳，來影響他們的投票。
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr#l-election-presidentielle-americaine-de-2016
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples#the-us-presidential-elections-of-2016
+      zh-Hant: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples#the-us-presidential-elections-of-2016
     link-label:
       fr: Lire l'étude de cas
       en: Read the case study
+      zh-Hant: 閱讀個案研究
   - item:
     image-src: ../../assets/img/casestudies/rohingya.jpg
     title:
       fr: Incitation à la haine envers les Rohingyas au Myanmar
       en: Incitement to hatred towards the Rohingya in Myanmar
+      zh-Hant: 煽動對緬甸羅興亞人的仇恨
     desc:
       fr: En 2018, Facebook révèle que des centaines de faux comptes populaires sont utilisés par la junte militaire au Myanmar pour partager et relayer du contenu incitant à la haine envers les Rohingyas et justifier leur migration forcée.
       en: In 2018, during the Rohingya crisis in Myanmar, Facebook reveals that the military junta is conducting coordinated information manipulation campaigns using hundreds of fake accounts to incite hatred towards the Rohingyas and thus justify their forced migration.
+      zh-Hant: 在 2018 年的緬甸羅興亞人危機期間，Facebook 透露軍政府當時從事協調化的資訊操弄宣傳，利用數以百計的假帳號來煽動對羅興亞人的仇恨，從而，來將強迫遷徙正當化。
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr#la-crise-des-rohingyas
       en: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples#the-rohingya-crisis
+      zh-Hant: https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples#the-rohingya-crisis
     link-label:
       fr: Lire l'étude de cas
       en: Read the case study
+      zh-Hant: 閱讀個案研究
   - item:
     image-src: ../../assets/img/casestudies/notre-dame.jpg
     title:
       fr: Incendie de la cathédrale de Notre-Dame de Paris 
       en: Notre-Dame de Paris fire 
+      zh-Hant: 巴黎聖母院大火
     desc:
       fr: "La propagation de l’information de l’incendie de la cathédrale de Notre-Dame de Paris en avril 2019 a fait l’objet de plusieurs manipulations. Un narratif terroriste est développé aux Etats-Unis. En parallèle, les sources pro-Kremlin lient la décadence de la cathédrale à celle des valeurs européennes tandis qu'en Europe occidentale, l’accent est mis sur les clivages sociétaux et religieux préexistants."
       en: The spread of information from Notre-Dame de Paris fire in April 2019 has been subject to several manipulations. A terrorist narrative is developing in the United States. Pro-Kremlin sources is linking the decadence of the cathedral to European values while Western Europe is highlighting pre-existing societal and religious divides.
+      zh-Hant: 在 2019 年 4 月，巴黎聖母院大火的資訊傳播，曾經受到不少操弄。恐怖份子的說法在美國發酵。親克里姆林宮的消息來源，把大教堂的腐化和歐洲價值連結，而西方歐洲則凸顯先前既有的社會與宗教分歧。
     link-href:
       fr: https://disinfo.quaidorsay.fr/encyclopedia/publications/
       en: https://disinfo.quaidorsay.fr/encyclopedia/publications/
+      zh-Hant: https://disinfo.quaidorsay.fr/encyclopedia/publications/
     link-label:
       fr: Lire l'étude de cas
       en: Read the case study
+      zh-Hant: 閱讀個案研究
 items-context:
   fr: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples/fr">Découvrir d'autres études de cas.</a>
   en: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">Discover more case studies.</a>
+  zh-Hant: <a href="https://disinfo.quaidorsay.fr/encyclopedia/introduction/examples">發現更多個案研究。</a>
 desc:
   fr: "Les manipulations de l’information peuvent être orchestrées par des entités de différentes natures : états, entreprises, organisations ou encore des groupes d’individus. Elles visent souvent à fragiliser <strong>notre cohésion sociale</strong> et <strong>nos processus démocratiques.</strong>"
   en: "Information manipulation can be orchestrated by a variety of sources: state or non-state actors, such as companies or organisations, or even informal groups of individuals but often aims at disrupting <strong>our social cohesion</strong> and <strong>democratic processes</strong>."
-      
+  zh-Hant: "資訊操弄的策動者，有各種面貌：國家或非國家角色，例如公司或組織，甚至是個人組成的非正式團體。它們的共通之處是：擾亂<strong>我們的社會凝聚</strong>與<strong>民主程序</strong>。"

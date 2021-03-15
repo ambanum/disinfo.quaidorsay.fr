@@ -20,18 +20,43 @@
 				<ul class="header_langnav_items">
 					{% if page.lang == "fr" %}
 						{% assign current_permalink_fr = page.permalink %}
-						{% if page.permalink_translated %}
-							{% assign current_permalink_en = page.permalink_translated %}
+						{% if page.permalink_en %}
+							{% assign current_permalink_en = page.permalink_en %}
 						{% else %}
 							{% assign current_permalink_en = "/en" %}
 						{% endif %}
+						{% if page.permalink_zh-Hant %}
+							{% assign current_permalink_zh-Hant = page.permalink_zh-Hant %}
+						{% else %}
+							{% assign current_permalink_zh-Hant = "/zh-Hant" %}
+						{% endif %}
 					{% endif %}
+
 					{% if page.lang == "en" %}
 						{% assign current_permalink_en = page.permalink %}
-						{% if page.permalink_translated %}
-							{% assign current_permalink_fr = page.permalink_translated %}
+						{% if page.permalink_fr %}
+							{% assign current_permalink_fr = page.permalink_fr %}
 						{% else %}
 							{% assign current_permalink_fr = "/fr" %}
+						{% endif %}
+						{% if page.permalink_zh-Hant %}
+							{% assign current_permalink_zh-Hant = page.permalink_zh-Hant %}
+						{% else %}
+							{% assign current_permalink_zh-Hant = "/zh-Hant" %}
+						{% endif %}
+					{% endif %}
+
+					{% if page.lang == "zh-Hant" %}
+						{% assign current_permalink_zh-Hant = page.permalink %}
+						{% if page.permalink_fr %}
+							{% assign current_permalink_fr = page.permalink_fr %}
+						{% else %}
+							{% assign current_permalink_fr = "/fr" %}
+						{% endif %}
+						{% if page.permalink_en %}
+							{% assign current_permalink_en = page.permalink_en %}
+						{% else %}
+							{% assign current_permalink_en = "/en" %}
 						{% endif %}
 					{% endif %}
 					<li class="header_langnav_item">
@@ -42,6 +67,11 @@
 					<li class="header_langnav_item">
 						<a href="{{ current_permalink_en }}" class="header_langnav_link">
 							<span>English</span>
+						</a>
+					</li>
+					<li class="header_langnav_item">
+						<a href="{{ current_permalink_zh-Hant }}" class="header_langnav_link">
+							<span>正體中文</span>
 						</a>
 					</li>
 				</ul>

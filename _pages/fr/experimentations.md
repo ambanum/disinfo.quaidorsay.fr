@@ -1,6 +1,7 @@
 ---
 permalink: /fr/open-terms-archive/experimentations
-permalink_translated: /en/open-terms-archive/experiments
+permalink_en: /en/open-terms-archive/experiments
+permalink_zh-Hant: /zh-Hant/open-terms-archive/experiments
 breadcrumb_items:
  - url: /fr/nos-outils
    label: Nos outils
@@ -12,12 +13,12 @@ navbar_items:
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 js_files:
-  - assets/js/vendor/d3/d3.5.16.0.min.js	
-  - assets/js/vendor/c3/c3.0.7.20.min.js	
+  - assets/js/vendor/d3/d3.5.16.0.min.js
+  - assets/js/vendor/c3/c3.0.7.20.min.js
   - assets/js/open-terms-archive/chart.js
   - assets/js/vendor/simple-datatables/simple-datatables.2.1.14.min.js
   - assets/js/open-terms-archive/datatables.js
-css_files:	
+css_files:
   - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 

@@ -1,6 +1,7 @@
 ---
 permalink: /en/open-terms-archive/experiments
-permalink_translated: /fr/open-terms-archive/experimentations
+permalink_fr: /fr/open-terms-archive/experimentations
+permalink_zh-Hant: /zh-Hant/open-terms-archive/experiments
 breadcrumb_items:
  - url: /en/our-tools
    label: Our tools
@@ -12,12 +13,12 @@ navbar_items:
   - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
   - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
 js_files:
-  - assets/js/vendor/d3/d3.5.16.0.min.js	
-  - assets/js/vendor/c3/c3.0.7.20.min.js	
+  - assets/js/vendor/d3/d3.5.16.0.min.js
+  - assets/js/vendor/c3/c3.0.7.20.min.js
   - assets/js/open-terms-archive/chart.js
   - assets/js/vendor/simple-datatables/simple-datatables.2.1.14.min.js
   - assets/js/open-terms-archive/datatables.js
-css_files:	
+css_files:
   - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 
@@ -25,7 +26,7 @@ css_files:
 
 {% include breadcrumb.html %}
 
-Experiments are ongoing so as to produce use cases using Open Terms Archive data. To this end, two tools are currently under development : a script allowing to generate a dataset from a Open Terms Archive versions repository, and a python library easing the exploration process for these data. 
+Experiments are ongoing so as to produce use cases using Open Terms Archive data. To this end, two tools are currently under development : a script allowing to generate a dataset from a Open Terms Archive versions repository, and a python library easing the exploration process for these data.
 {: .text-lg }
 
 ## Dataset

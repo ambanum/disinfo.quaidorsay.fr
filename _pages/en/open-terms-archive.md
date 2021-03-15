@@ -1,6 +1,7 @@
 ---
 permalink: /en/open-terms-archive
-permalink_translated: /fr/open-terms-archive
+permalink_fr: /fr/open-terms-archive
+permalink_zh-Hant: /zh-Hant/open-terms-archive
 title: Open Terms Archive
 breadcrumb_items:
  - url: /en/our-tools
@@ -78,7 +79,7 @@ Scripta Manent lists 637 Terms of Services (in French, Conditions Générales d�
 
 ## Experiments
 
-Experiments are ongoing so as to produce use cases using Open Terms Archive data. 
+Experiments are ongoing so as to produce use cases using Open Terms Archive data.
 
 [See ours experiments](/en/open-terms-archive/experiments){: .button .button-secondary }
 
@@ -94,7 +95,7 @@ An API endpoint to find specific terms in the Open Terms Archive dataset is avai
 The tool is built as an **open source and collaborative software**, which means that everyone can contribute to its improvement and to the addition of documents and service providers to be tracked.
 
 - Terms of Service Didn’t Read (ToSDR)
-The association Terms of Service Didn't Read (ToSDR) had developed a similar tool, [TOSBack](https://tosback.org/) and thus transferred its resources and documents followed for several years to our tool. 
+The association Terms of Service Didn't Read (ToSDR) had developed a similar tool, [TOSBack](https://tosback.org/) and thus transferred its resources and documents followed for several years to our tool.
 
 - Direction Générale des Entreprises  
 The Direction Générale des Entreprises (DGE), through the Digital Regulation Expertise Center (PEReN), contributes to the tool by developing new functionalities, such as tracking images and documents in PDF format.

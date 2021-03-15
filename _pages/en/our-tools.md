@@ -1,6 +1,7 @@
 ---
 permalink: /en/our-tools
-permalink_translated: /fr/nos-outils
+permalink_fr: /fr/nos-outils
+permalink_zh-Hant: /zh-Hant/our-tools
 title: Our tools
 navbar_items:
   - <a href="/en" class="header_mainnav_link">Home</a>

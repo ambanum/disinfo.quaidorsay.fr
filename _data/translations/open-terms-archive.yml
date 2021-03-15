@@ -2,115 +2,151 @@ ctabloc:
   title:
     fr: Aidez-nous à améliorer Open Terms Archive
     en: Help us to improve Open Terms Archive
+    zh-Hant: 幫助我們改善「服務條款開放資料庫」
   desc:
     fr: Vous pouvez ajouter des fournisseurs de services ou documents que vous souhaiteriez suivre ou suggérer des modalités de valorisation des études de cas.
     en: You can add service providers or documents that you would like to follow or suggest ways to add value to the case studies.
+    zh-Hant: 歡迎添加您想追蹤的服務提供者或文件，或是建議為個案研究添加價值的方法。
   button-label:
     fr: Contribuer
     en: Contribute
+    zh-Hant: 貢獻
   button-href:
     fr: https://github.com/ambanum/OpenTermsArchive
     en: https://github.com/ambanum/OpenTermsArchive
+    zh-Hant: https://github.com/ambanum/OpenTermsArchive
 datatables:
   info:
     fr: Affichage des entrées de {start} à {end} des {rows}
     en: Showing {start} to {end} of {rows} entries
+    zh-Hant: 顯示從 {start} 到 {end} 的 {rows} 項
 tablestats:
   col1-label:
     fr: Service
     en: Service
+    zh-Hant: 服務
   col2-label:
     fr: Type
     en: Type
+    zh-Hant: 類型
   col3-label:
     fr: Nb. de mots
     en: Num. words
+    zh-Hant: 字詞數
   col4-label:
     fr: Lisibilité
     en: Readability
+    zh-Hant: 可讀性
   col5-label:
     fr: Niveau de lisibilité
     en: Readability level
+    zh-Hant: 可讀程度
 tablestatsbytype:
   col1-label:
     fr: Type
     en: Type
+    zh-Hant: 類型
   col2-label:
     fr: Nb. de documents
     en: Num. docs
+    zh-Hant: 文件數
   col3-label:
     fr: Nb. moy. de mots
     en: Mean num. words
+    zh-Hant: 平均字詞數
   col4-label:
     fr: Écart type
     en: Standard deviation
+    zh-Hant: 標準差
   col5-label:
     fr: Lisibilité moy.
     en: Mean readability
+    zh-Hant: 平均可讀性
 tablelegend:
   col1-label:
     fr: Score
     en: Score
+    zh-Hant: 評分
   col2-label:
     fr: Niveau scolaire
     en: School level
+    zh-Hant: 小學程度
   col3-label:
     fr: Remarques
     en: Notes
+    zh-Hant: 附註
   score-90-100-label:
     fr: CM2
     en: 5<sup>th</sup> grade
+    zh-Hant: 五年級
   score-90-100-desc:
     fr: Très facile à lire. Facilement compréhensible par un élève moyen de 11 ans.
     en: Very easy to read. Easily understood by an average 11-year-old student.
+    zh-Hant: 非常易讀。能讓年齡 11 歲的一般學生輕易理解。
   score-90-80-label:
     fr: 6<sup>ème</sup>
     en: 6<sup>th</sup> grade
+    zh-Hant: 六年級
   score-90-80-desc:
     fr: Facile à lire. Anglais conversationnel pour les consommateurs.
     en: Easy to read. Conversational English for consumers.
+    zh-Hant: 相當易讀。一般消費者的日常用語。
   score-80-70-label:
     fr: 5<sup>ème</sup>
     en: 7<sup>th</sup> grade
+    zh-Hant: 七年級
   score-80-70-desc:
     fr: Assez facile à lire.
     en: Fairly easy to read.
+    zh-Hant: 容易讀。
   score-70-60-label:
     fr: 4<sup>ème</sup> et 3<sup>ème</sup>
     en: 8<sup>th</sup> & 9<sup>th</sup> grade
+    zh-Hant: 八到九年級
   score-70-60-desc:
     fr: Facilement compréhensible par les étudiants de 13 à 15 ans.
     en: Plain English. Easily understood by 13- to 15-year-old students.
+    zh-Hant: 普通用語。能讓 13 到 15 歲的學生輕易理解。
   score-60-50-label:
     fr: 2<sup>nde</sup> et 1<sup>re</sup>
     en: 10<sup>th</sup> to 12<sup>th</sup> grade
+    zh-Hant: 十到十二年級
   score-60-50-desc:
     fr: Assez difficile à lire.
     en: Fairly difficult to read.
+    zh-Hant: 不太易讀。
   score-50-30-label:
     fr: Études supérieures
     en: College
+    zh-Hant: 大學生
   score-50-30-desc:
     fr: Difficile à lire.
     en: Difficult to read.
+    zh-Hant: 難以閱讀。
   score-30-10-label:
     fr: Diplômé de l'université
     en: College graduate
+    zh-Hant: 大學畢業
   score-30-10-desc:
     fr: Très difficile à lire. Mieux compris par les diplômés de l'université.
     en: Very difficult to read. Best understood by university graduates.
+    zh-Hant: 相當難以閱讀。需要學士學位才能理解。
   score-10-0-label:
     fr: Professionnel
     en: Professional
+    zh-Hant: 
   score-10-0-desc:
     fr: Extrêmement difficile à lire. Mieux compris par les diplômés de l'université.
     en: Extremely difficult to read. Best understood by university graduates.
+    zh-Hant: 非常難以閱讀。需要學士學位才能理解。
 chart:
   axis_x:
     label:
       fr: évolution dans le temps
       en: date over time
+      zh-Hant: 歷來日期
   axis_y:
     label:
       fr: nbre services actifs / nbre total services
       en: num active / total num tracked
+      zh-Hant: 活躍數 / 總追蹤數

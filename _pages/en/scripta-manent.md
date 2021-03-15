@@ -1,6 +1,7 @@
 ---
 permalink: /en/open-terms-archive/scripta-manent
-permalink_translated: /fr/open-terms-archive/scripta-manent
+permalink_fr: /fr/open-terms-archive/scripta-manent
+permalink_zh-Hant: /zh-Hant/open-terms-archive/scripta-manent
 breadcrumb_items:
  - url: /en/our-tools
    label: Our tools
@@ -50,7 +51,7 @@ js_files:
 		<input type="date" id="form_firstdocumentdate" min="2000-01-01" name="form_firstdocumentdate" tabindex="3" required>
 	</div>
 	<div class="form_field form_field-submit">
-		<input type="submit" class="button" value="{{ site.data.translations.scripta-manent.form.submit[page.lang] }}" tabindex="5" /> 
+		<input type="submit" class="button" value="{{ site.data.translations.scripta-manent.form.submit[page.lang] }}" tabindex="5" />
 	</div>
 	<div class="form_field">
 		<label class="form_field_label" for="form_seconddocumentdate">{{ site.data.translations.scripta-manent.form.second-date[page.lang] }}</label>

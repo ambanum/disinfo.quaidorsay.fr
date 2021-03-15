@@ -1,7 +1,9 @@
 tableofcontent:
   fr: Sommaire
   en: Table of contents 
+  zh-Hant: 目錄
 breadcrumb:
   home-link-label:
     fr: Accueil
     en: Home
+    zh-Hant: 首頁

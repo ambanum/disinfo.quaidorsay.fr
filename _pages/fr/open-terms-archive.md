@@ -1,6 +1,7 @@
 ---
 permalink: /fr/open-terms-archive
-permalink_translated: /en/open-terms-archive
+permalink_en: /en/open-terms-archive
+permalink_zh-Hant: /zh-Hant/open-terms-archive
 title: Open Terms Archive
 breadcrumb_items:
  - url: /fr/nos-outils
@@ -11,7 +12,7 @@ navbar_items:
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 ---
 
-# Open Terms Archive 
+# Open Terms Archive
 
 {% include breadcrumb.html %}
 
@@ -60,11 +61,11 @@ _Actuellement, nous ne suivons que les **conditions** rédigées en anglais et c
 
 ### Naviguer dans l'historique des versions
 
-À partir de la **page d'accueil du dépôt** [OpenTermsArchive-versions](https://github.com/ambanum/OpenTermsArchive-versions), ouvrez le dossier du service de votre choix. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique. 
+À partir de la **page d'accueil du dépôt** [OpenTermsArchive-versions](https://github.com/ambanum/OpenTermsArchive-versions), ouvrez le dossier du service de votre choix. L'ensemble des documents suivis pour ce service s'affichent, cliquez ensuite sur celui dont vous souhaitez suivre l'historique.
 
 _Pour plus de détails consultez notre [wiki](https://github.com/ambanum/OpenTermsArchive/blob/master/README.fr.md#naviguer-dans-lhistorique-des-versions)_.
 
-### Recevoir des notifications 
+### Recevoir des notifications
 
 Vous pouvez [vous abonner](https://59692a77.sibforms.com/serve/MUIEAKuTv3y67e27PkjAiw7UkHCn0qVrcD188cQb-ofHVBGpvdUWQ6EraZ5AIb6vJqz3L8LDvYhEzPb2SE6eGWP35zXrpwEFVJCpGuER9DKPBUrifKScpF_ENMqwE_OiOZ3FdCV2ra-TXQNxB2sTEL13Zj8HU7U0vbbeF7TnbFiW8gGbcOa5liqmMvw_rghnEB2htMQRCk6A3eyj) pour recevoir un courriel à chaque modification d'un document dans l'ensemble de la base.
 
@@ -96,7 +97,7 @@ Une API permettant de trouver des termes spécifiques dans le dataset Open Terms
 L’outil est construit sous la forme d’un **logiciel libre et collaboratif**, ce qui signifie que chacun peut contribuer à son amélioration et à l’ajout de documents et de fournisseurs de services à suivre.
 
 - Terms of Service Didn’t Read (ToSDR)
-L’association Terms of Service Didn’t Read (ToSDR) avait développé un outil similaire, [TOSBack](https://tosback.org/) et a ainsi transféré ses moyens et documents suivis depuis plusieurs années vers notre outil. 
+L’association Terms of Service Didn’t Read (ToSDR) avait développé un outil similaire, [TOSBack](https://tosback.org/) et a ainsi transféré ses moyens et documents suivis depuis plusieurs années vers notre outil.
 
 - Direction Générale des Entreprises  
 La Direction générale des entreprises (DGE), à travers le pôle d’expertise de la régulation du numérique (PEReN), contribue à l'outil en développant de nouvelles fonctionnalités, comme le suivi des images et des documents au format PDF.
