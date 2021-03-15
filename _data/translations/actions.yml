@@ -1,31 +1,39 @@
 anchor:
   fr: nos-actions
   en: our-actions
+  zh-Hant: our-actions
 title:
   fr: Au sein du ministère de l’Europe et des Affaires étrangères, l'équipe de l'<strong>Ambassadeur pour le numérique</strong> coordonne et valorise les positions de la France pour réduire ces vulnérabilités.
   en: Within the Ministry for Europe and Foreign Affairs the team of the <strong>French Ambassador for Digital Affairs</strong> coordinates and promotes France's positions to reduce these vulnerabilities.
+  zh-Hant: 在法國的歐洲與外交部裡，<strong>數位事務大使</strong>負責協調與促進法國的立場，來減少這些弱點。
 items:
   - item:
     icon: influence
     title:
       fr: Influencer
       en: Influence
+      zh-Hant: 影響
     desc:
       fr: Nous influençons la gouvernance internationale vers une réglementation européenne proportionnée et efficace visant à réduire les vulnérabilités aux manipulations de l'information.
       en: We steer international governance towards proportionate and effective European regulation aimed at reducing such vulnerabilities to information manipulation.
+      zh-Hant: 我們引導國際治理，朝向減少這類與資訊操弄有關的弱點，而建立相稱而有效的歐洲規章。
   - item:
     icon: federate
     title:
       fr: Fédérer
       en: Federate
+      zh-Hant: 結盟
     desc:
       fr: "Nous faisons collaborer les acteurs impliqués dans la lutte contre les manipulations de l'informations et représentons la France au sein des instances européennes et internationales."
       en: "We connect and promote relevant actors countering information manipulation. We also represent France in the various European and international forums."
+      zh-Hant: "我們聯繫和提升對抗資訊操弄的相關角色。我們也在不同的歐洲和國際論壇中代表法國。"
   - item:
     icon: tool
     title:
       fr: Outiller
       en: Empower
+      zh-Hant: 增幅
     desc: 
       fr: Nous construisons des outils libres et ouverts pour renforcer tous les acteurs publics, privés et de la société civile qui luttent contre les manipulations de l’information.
       en: We build open tools to strengthen all public, private and civil society actors countering information manipulation.
+      zh-Hant: 我們建造開放工具來強化公共、私人和公民社會的行動者，共同對抗資訊操弄。

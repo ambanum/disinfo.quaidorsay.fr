@@ -23,6 +23,11 @@ defaults:
       path: _pages/fr
     values:
       lang: fr
+  -
+    scope:
+      path: _pages/zh-Hant
+    values:
+      lang: zh-Hant
 
 exclude:
   - README.md
