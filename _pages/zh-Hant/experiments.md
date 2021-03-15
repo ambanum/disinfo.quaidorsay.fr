@@ -1,6 +1,7 @@
 ---
 permalink: /zh-Hant/open-terms-archive/experiments
-permalink_translated: /fr/open-terms-archive/experimentations
+permalink_en: /en/open-terms-archive/experiments
+permalink_fr: /fr/open-terms-archive/experimentations
 breadcrumb_items:
  - url: /zh-Hant/our-tools
    label: 我們的工具
@@ -12,12 +13,12 @@ navbar_items:
   - <a href="!SITE_URL!/zh-Hant/#our-actions" class="header_mainnav_link">我們的行動</a>
   - <a href="/zh-Hant/our-tools" class="header_mainnav_link">我們的工具</a>
 js_files:
-  - assets/js/vendor/d3/d3.5.16.0.min.js	
-  - assets/js/vendor/c3/c3.0.7.20.min.js	
+  - assets/js/vendor/d3/d3.5.16.0.min.js
+  - assets/js/vendor/c3/c3.0.7.20.min.js
   - assets/js/open-terms-archive/chart.js
   - assets/js/vendor/simple-datatables/simple-datatables.2.1.14.min.js
   - assets/js/open-terms-archive/datatables.js
-css_files:	
+css_files:
   - assets/js/vendor/c3/c3.0.7.20.min.css
 ---
 

@@ -1,6 +1,7 @@
 ---
 permalink: /zh-Hant/our-tools
-permalink_translated: /fr/nos-outils
+permalink_fr: /fr/nos-outils
+permalink_en: /en/our-tools
 title: 我們的工具
 navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>

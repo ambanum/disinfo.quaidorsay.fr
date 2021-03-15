@@ -1,6 +1,7 @@
 ---
 permalink: /mentions-legales
-permalink_translated: /legal-notice
+permalink_en: /legal-notice
+permalink_zh-Hant: /zh-Hant/legal-notice
 title: Mentions légales
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>

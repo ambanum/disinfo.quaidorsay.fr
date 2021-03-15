@@ -17,7 +17,7 @@ link-tracking-label:
 link-tracking-href:
   fr: /suivi-d-audience-et-vie-privee
   en: /tracking.html
-  zh-Hant: /tracking.html
+  zh-Hant: /zh-Hant/tracking
 link-legal-label:
   fr: Mentions légales
   en: Legal notice
@@ -25,7 +25,7 @@ link-legal-label:
 link-legal-href:
   fr: /mentions-legales.html
   en: /legal-notice.html
-  zh-Hant: /legal-notice.html
+  zh-Hant: /zh-Hant/legal-notice.html
 link-code-label:
   fr: Code source
   en: Source Code

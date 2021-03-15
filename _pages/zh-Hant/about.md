@@ -1,5 +1,6 @@
 ---
-permalink: /about
+permalink: /zh-Hant/about
+permalink_en: /about
 title: 關於
 navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>

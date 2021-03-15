@@ -1,6 +1,7 @@
 ---
-permalink: /legal-notice
-permalink_translated: /mentions-legales
+permalink: /zh-Hant/legal-notice
+permalink_fr: /mentions-legales
+permalink_en: /legal-notice
 title: 法律聲明
 navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>

@@ -1,6 +1,7 @@
 ---
-permalink: /tracking
-permalink_translated: /suivi-d-audience-et-vie-privee
+permalink: /zh-Hant/tracking
+permalink_fr: /suivi-d-audience-et-vie-privee
+permalink_en: /tracking
 title: 分析與隱私
 navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>
@@ -20,4 +21,3 @@ navbar_items:
 ## 我為你們提供資料，那我能取用這些資料嗎？
 
 當然可以！本網站的分析資料都能取用，公佈在 <a href="https://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=89&period=range&date=previous30">stats.data.gouv.fr</a>。
-

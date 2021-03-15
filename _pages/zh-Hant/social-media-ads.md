@@ -1,5 +1,6 @@
 ---
 permalink: /zh-Hant/social-media-ads
+permalink_en: /en/social-media-ads
 title: Major social media political ads policies
 navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>
