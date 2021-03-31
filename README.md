@@ -23,23 +23,25 @@ bundle install
 bundle exec jekyll serve
 ```
 
-### Bundle js
+### Scripta Manent
 
-Install parcel
+In order to develop on scripta manent, you will need to install parcel
 ```sh
 npm install -g parcel-bundler
 ```
 
-Watch Scripta Manent file
+#### Development
+Watch Scripta Manent file and dist folder will be rebuilt every time you make a change to the file
 ```
 cd assets
-parcel watch /js/open-terms-archive/scripta-manent.js
+parcel watch ./js/open-terms-archive/scripta-manent.js
 ```
 
-Build Scripta Manent file
+#### Deployment
+When done, you can build Scripta Manent file
 ```
 cd assets
-parcel build /js/open-terms-archive/scripta-manent.js
+parcel build ./js/open-terms-archive/scripta-manent.js
 ```
 
 ## Deployment
