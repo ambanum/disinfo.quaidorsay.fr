@@ -1,8 +1,9 @@
 import 'regenerator-runtime/runtime';
-import DiffMatchPatch from 'diff-match-patch';
-import { Nanostache } from '@solid-js/nanostache';
 import 'better-dom/dist/better-dom';
 import 'better-dateinput-polyfill/dist/better-dateinput-polyfill';
+
+import DiffMatchPatch from 'diff-match-patch';
+import { Nanostache } from '@solid-js/nanostache';
 
 const requestHeaders = {
 	method: 'GET',
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const $form_firstdocumentdate = document.getElementById('form_firstdocumentdate');
 	const $form_seconddocumentdate = document.getElementById('form_seconddocumentdate');
 	const $inputDates = document.querySelectorAll('input[type=date]');
+	const $datasetVersion = document.getElementsByClassName("datasetRelease");
 
 	if (window.fetch) {
 		init();
@@ -53,6 +55,12 @@ document.addEventListener("DOMContentLoaded", () => {
 				window.addEventListener("popstate", popStateHandler)
 				popStateHandler()
 			})
+		getDatasetVersion()
+			.then(data => {
+				const { lang, text } = releaseMsgs;
+				const translatedDate = new Date(data.dataset_date).toLocaleDateString(lang,{ year: 'numeric', month: 'long', day: 'numeric' })
+				$datasetVersion[0].innerHTML = text.replace('{{releaseUrl}}', data.dataset_url).replace("{{releaseDate}}", translatedDate);
+			})
 	}
 
 	async function async_fetch(url) {
@@ -62,7 +70,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function getServices() {
-		const request = new Request(APIBaseURL+'/list_services/v1/?multiple_versions_only=true', requestHeaders);
+		const request = new Request(APIBaseURL + '/list_services/v1/?multiple_versions_only=true', requestHeaders);
+		return async_fetch(request);
+	}
+
+	async function getDatasetVersion() {
+		const request = new Request(APIBaseURL + '/version', requestHeaders);
 		return async_fetch(request);
 	}
 
@@ -74,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function getDoc(service, type, date) {
-		const route = encodeURI(APIBaseURL+'/get_version_at_date/v1/' + service + '/' + type + '/' + date);
+		const route = encodeURI(APIBaseURL + '/get_version_at_date/v1/' + service + '/' + type + '/' + date);
 		const request = new Request(route, requestHeaders);
 		const response = await fetch(request)
 		if (response.ok) {
@@ -260,7 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			service: service,
 			type: type,
 			firstDocumentDate: firstDocumentDate,
-			secondDocumentDate: secondDocumentDate
+			secondDocumentDate: secondDocumentDate,
 		};
 	}
 
@@ -281,11 +294,12 @@ document.addEventListener("DOMContentLoaded", () => {
 			firstDocumentDate: firstDocumentDate,
 			secondDocumentDate: secondDocumentDate,
 			firstDocumentVersionAtDate: firstDocumentVersionAtDate,
-			secondDocumentVersionAtDate: secondDocumentVersionAtDate,Date,
+			secondDocumentVersionAtDate: secondDocumentVersionAtDate,
+			Date,
 		});
 
 		//If dates are the equals
-		if (docs[0].version_at_date == docs[1].version_at_date){
+		if (docs[0].version_at_date == docs[1].version_at_date) {
 			msg = Nanostache(notificationsMsgs.nothingToCompare, {
 				onlyDocumentDate: firstDocumentDate,
 			});;
@@ -307,7 +321,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		if ($form_explorer) insertAfter($diffviewer, $form_explorer)
 	}
 
-	function showLegend(){
+	function showLegend() {
 		removeLegend()
 		const $legend = document.createElement('DIV');
 		$legend.classList.add('legend');
@@ -322,7 +336,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		if ($form_explorer) insertAfter($legend, $form_explorer)
 	}
 
-	function removeLegend(){
+	function removeLegend() {
 		[...document.getElementsByClassName("legend")].map(n => n && n.remove());
 	}
 
