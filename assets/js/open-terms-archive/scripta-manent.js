@@ -1,8 +1,9 @@
 import 'regenerator-runtime/runtime';
-import DiffMatchPatch from 'diff-match-patch';
-import { Nanostache } from '@solid-js/nanostache';
 import 'better-dom/dist/better-dom';
 import 'better-dateinput-polyfill/dist/better-dateinput-polyfill';
+
+import DiffMatchPatch from 'diff-match-patch';
+import { Nanostache } from '@solid-js/nanostache';
 
 const requestHeaders = {
 	method: 'GET',
@@ -54,10 +55,12 @@ document.addEventListener("DOMContentLoaded", () => {
 				window.addEventListener("popstate", popStateHandler)
 				popStateHandler()
 			})
-		// getDatasetVersion()
-		// 	.then(data => {
-		// 		$datasetVersion[0].innerHTML = 'Scripta Manent uses the Open Terms Archive dataset <a href=" ' + data.dataset_url + '">published on ' + data.dataset_date + '</a>.';
-		// 	})
+		getDatasetVersion()
+			.then(data => {
+				const { lang, text } = releaseMsgs;
+				const translatedDate = new Date(data.dataset_date).toLocaleDateString(lang,{ year: 'numeric', month: 'long', day: 'numeric' })
+				$datasetVersion[0].innerHTML = text.replace('{{releaseUrl}}', data.dataset_url).replace("{{releaseDate}}", translatedDate);
+			})
 	}
 
 	async function async_fetch(url) {
@@ -270,7 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			service: service,
 			type: type,
 			firstDocumentDate: firstDocumentDate,
-			secondDocumentDate: secondDocumentDate
+			secondDocumentDate: secondDocumentDate,
 		};
 	}
 
@@ -291,7 +294,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			firstDocumentDate: firstDocumentDate,
 			secondDocumentDate: secondDocumentDate,
 			firstDocumentVersionAtDate: firstDocumentVersionAtDate,
-			secondDocumentVersionAtDate: secondDocumentVersionAtDate, Date,
+			secondDocumentVersionAtDate: secondDocumentVersionAtDate,
+			Date,
 		});
 
 		//If dates are the equals

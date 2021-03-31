@@ -33,6 +33,10 @@ js_files:
 		'add': '{{ site.data.translations.scripta-manent.legend.add[page.lang] }}',
 		'remove': '{{ site.data.translations.scripta-manent.legend.remove[page.lang] }}'
 	};
+	const releaseMsgs = {
+		'text': '{{ site.data.translations.scripta-manent.datasetRelease[page.lang] }}',
+		'lang': '{{ page.lang }}'
+	};
 </script>
 
 <form class="form explorerform" id="form_explorer">
@@ -60,5 +64,5 @@ js_files:
 </form>
 
 <div class="datasetRelease">
-	{{ site.data.translations.scripta-manent.datasetRelease[page.lang] }}
+	...
 </div>
