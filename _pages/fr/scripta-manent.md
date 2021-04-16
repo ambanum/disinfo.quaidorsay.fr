@@ -39,6 +39,9 @@ js_files:
   };
 </script>
 
+Scripta Manent est un outil en ligne qui permet de mesurer les changements entre deux dates d'un document contractuel de son choix. Précieux pour les consommateurs, pour les juristes, pour le régulateur (qui peut mesurer la sincérité des engagements des plateformes), pour le législateur (qui peut analyser la logique par laquelle les entreprises essayent de contourner ses textes), pour les journalistes, les chercheurs en droit et les entreprises de la Legal Tech.
+
+
 <form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_services">{{ site.data.translations.scripta-manent.form.service[page.lang] }}</label>
@@ -66,3 +69,9 @@ js_files:
 <div class="datasetRelease">
 	...
 </div>
+
+### Comment ça marche ?
+
+1. Choissisez le service et le type de document qui vous interesse
+2. Choississez une première et une deuxième date pour lesquelles vous souhaitez effectuer une comparaison
+3. Cliquez sur le bouton "Comparer" et patientez brievement

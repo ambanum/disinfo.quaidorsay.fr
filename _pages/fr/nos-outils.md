@@ -25,7 +25,7 @@ button-href="/fr/open-terms-archive" %}
 icon="tool"
 title="Scripta Manent"
 subtitle="Explorez les documents contractuels des principaux fournisseurs de services en ligne et comparez leur évolution au fil du temps."
-desc="Scripta Manent est un outil en ligne qui permet de mesurer les changements entre deux dates d'un document contractuel de son choix. Précieux pour les consommateurs, pour les juristes, pour le régulateur (qui peut mesurer la sincérité des engagements des plateformes), pour le législateur (qui peut analyser la logique par laquelle les entreprises essayent de contourner ses textes), pour les journalistes, les chercheurs en droit, voire les entreprises de la Legal Tech."
+desc="Scripta Manent est un outil en ligne qui permet de mesurer les changements entre deux dates d'un document contractuel de son choix. Précieux pour les consommateurs, pour les juristes, pour le régulateur (qui peut mesurer la sincérité des engagements des plateformes), pour le législateur (qui peut analyser la logique par laquelle les entreprises essayent de contourner ses textes), pour les journalistes, les chercheurs en droit et les entreprises de la Legal Tech."
 button-label="Essayer"
 button-href="/fr/open-terms-archive/scripta-manent" %}
 
