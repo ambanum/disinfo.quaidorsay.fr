@@ -78,30 +78,17 @@ Scripta Manent est un outil en ligne qui permet de mesurer les changements entre
 		<li>
 			<section class="fr-accordion">
 				<h3 class="fr-accordion__title">
-					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-89">Intitulé accordéon</button>
+					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-89">Comment ça marche ?</button>
 				</h3>
 				<div class="fr-collapse" id="accordion-89">
-					<!-- données de test -->
-				</div>
-			</section>
-		</li>
-		<li>
-			<section class="fr-accordion">
-				<h3 class="fr-accordion__title">
-					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-90">Intitulé accordéon</button>
-				</h3>
-				<div class="fr-collapse" id="accordion-90">
-					<!-- données de test -->
-				</div>
-			</section>
-		</li>
-		<li>
-			<section class="fr-accordion">
-				<h3 class="fr-accordion__title">
-					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-91">Intitulé accordéon</button>
-				</h3>
-				<div class="fr-collapse" id="accordion-91">
-					<!-- données de test -->
+					<video controls width="350">
+						<source src="../../assets/videos/scripta-manent.mp4" type="video/mp4">
+					</video>
+					<ul>
+						<li>1. Choissisez le service et le type de document qui vous intéresse</li>
+						<li>2. Choississez une première et une deuxième date pour lesquelles vous souhaitez effectuer une comparaison</li>
+						<li>3. Cliquez sur le bouton "Comparer" et patientez brievement</li>
+					</ul>
 				</div>
 			</section>
 		</li>
