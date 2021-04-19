@@ -68,9 +68,3 @@ Scripta Manent is an online tool that allows to measure the changes between two 
 <div class="datasetRelease">
 	...
 </div>
-
-### How does it work?
-
-1. Choose the service and the type of document you are interested in
-2. Choose a first and a second date for which you want to make a comparison
-3. Click on the "Compare" button and wait briefly

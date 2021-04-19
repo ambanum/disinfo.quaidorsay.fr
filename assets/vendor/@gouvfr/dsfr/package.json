@@ -1,0 +1,308 @@
+{
+  "_from": "@gouvfr/dsfr",
+  "_id": "@gouvfr/dsfr@1.0.0-rc1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mXfun0FzqeSgfyti6SsdPQHSpNsQBOJNkzZtvoN8KfaUGP3asupaMXe2CbRgrkV3ogqM0n/vToWjYjLzBwPxuQ==",
+  "_location": "/@gouvfr/dsfr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@gouvfr/dsfr",
+    "name": "@gouvfr/dsfr",
+    "escapedName": "@gouvfr%2fdsfr",
+    "scope": "@gouvfr",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@gouvfr/dsfr/-/dsfr-1.0.0-rc1.0.tgz",
+  "_shasum": "a7d0f8e047322f0b63371d9e35ffcfc29c6bb85d",
+  "_spec": "@gouvfr/dsfr",
+  "_where": "/home/clem/www/disinfo.quaidorsay.fr/assets/vendor",
+  "author": {
+    "name": "Service d'Information du Gouvernement",
+    "email": "jean-charles.hourdeaux@pm.gouv.fr"
+  },
+  "bugs": {
+    "url": "https://github.com/GouvernementFR/dsfr-dev/issues"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "prefix": "fr",
+    "namespace": "dsfr",
+    "organisation": "@gouvfr",
+    "styles": [
+      "core",
+      "accordions",
+      "breadcrumb",
+      "cards",
+      "forms",
+      "highlights",
+      "links",
+      "logo",
+      "pagination",
+      "schemes",
+      "sidemenu",
+      "summary",
+      "table",
+      "tabs",
+      "tiles",
+      "utilities",
+      "buttons",
+      "checkboxes",
+      "content",
+      "footer",
+      "inputs",
+      "radios",
+      "selects",
+      "skiplinks",
+      "tags",
+      "toggles",
+      "callouts",
+      "modal",
+      "navigation",
+      "search",
+      "header",
+      "legacy"
+    ],
+    "scripts": [
+      "core",
+      "accordions",
+      "breadcrumb",
+      "buttons",
+      "modal",
+      "navigation",
+      "schemes",
+      "sidemenu",
+      "table",
+      "tabs",
+      "header"
+    ],
+    "usage": {
+      "styles": {
+        "core": [
+          "core"
+        ],
+        "accordions": [
+          "core",
+          "accordions"
+        ],
+        "breadcrumb": [
+          "core",
+          "breadcrumb"
+        ],
+        "cards": [
+          "core",
+          "cards"
+        ],
+        "forms": [
+          "core",
+          "forms"
+        ],
+        "highlights": [
+          "core",
+          "highlights"
+        ],
+        "links": [
+          "core",
+          "links"
+        ],
+        "logo": [
+          "core",
+          "logo"
+        ],
+        "pagination": [
+          "core",
+          "pagination"
+        ],
+        "schemes": [
+          "core",
+          "schemes"
+        ],
+        "sidemenu": [
+          "core",
+          "sidemenu"
+        ],
+        "summary": [
+          "core",
+          "summary"
+        ],
+        "table": [
+          "core",
+          "table"
+        ],
+        "tabs": [
+          "core",
+          "tabs"
+        ],
+        "tiles": [
+          "core",
+          "tiles"
+        ],
+        "utilities": [
+          "core",
+          "utilities"
+        ],
+        "buttons": [
+          "core",
+          "buttons"
+        ],
+        "checkboxes": [
+          "core",
+          "forms",
+          "checkboxes"
+        ],
+        "content": [
+          "core",
+          "links",
+          "content"
+        ],
+        "footer": [
+          "core",
+          "logo",
+          "footer"
+        ],
+        "inputs": [
+          "core",
+          "forms",
+          "inputs"
+        ],
+        "radios": [
+          "core",
+          "forms",
+          "radios"
+        ],
+        "selects": [
+          "core",
+          "forms",
+          "selects"
+        ],
+        "skiplinks": [
+          "core",
+          "links",
+          "skiplinks"
+        ],
+        "tags": [
+          "core",
+          "links",
+          "tags"
+        ],
+        "toggles": [
+          "core",
+          "forms",
+          "toggles"
+        ],
+        "callouts": [
+          "core",
+          "buttons",
+          "callouts"
+        ],
+        "modal": [
+          "core",
+          "links",
+          "buttons",
+          "modal"
+        ],
+        "navigation": [
+          "core",
+          "links",
+          "buttons",
+          "navigation"
+        ],
+        "search": [
+          "core",
+          "forms",
+          "buttons",
+          "inputs",
+          "search"
+        ],
+        "header": [
+          "core",
+          "links",
+          "logo",
+          "buttons",
+          "inputs",
+          "modal",
+          "navigation",
+          "search",
+          "header"
+        ],
+        "legacy": [
+          "core",
+          "legacy"
+        ]
+      },
+      "scripts": {
+        "core": [
+          "core"
+        ],
+        "accordions": [
+          "core",
+          "accordions"
+        ],
+        "breadcrumb": [
+          "core",
+          "breadcrumb"
+        ],
+        "buttons": [
+          "core",
+          "buttons"
+        ],
+        "modal": [
+          "core",
+          "modal"
+        ],
+        "navigation": [
+          "core",
+          "navigation"
+        ],
+        "schemes": [
+          "core",
+          "schemes"
+        ],
+        "sidemenu": [
+          "core",
+          "sidemenu"
+        ],
+        "table": [
+          "core",
+          "table"
+        ],
+        "tabs": [
+          "core",
+          "tabs"
+        ],
+        "header": [
+          "core",
+          "modal",
+          "navigation",
+          "header"
+        ]
+      }
+    }
+  },
+  "deprecated": false,
+  "description": "Système de Design de l'Etat - DSFR",
+  "directories": {
+    "lib": "dist",
+    "example": "example"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "homepage": "https://github.com/GouvernementFR/dsfr-dev#readme",
+  "name": "@gouvfr/dsfr",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GouvernementFR/dsfr-dev.git"
+  },
+  "version": "1.0.0-rc1.0"
+}

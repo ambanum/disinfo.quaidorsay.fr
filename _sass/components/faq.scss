@@ -1,0 +1,58 @@
+
+.fr-accordion .fr-collapse {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+.fr-collapse {
+	overflow: hidden;
+	transition: visibility 0.3s;
+	max-height: 0;
+	--collapse: -99999px;
+	--collapser: '';
+}
+  
+.fr-collapse::before {
+	display: block;
+	content: '';
+	content: var(--collapser);
+	transition: margin-top 0.3s;
+	margin-top: 0;
+}
+  
+.fr-collapse:not(.fr-collapse--expanded) {
+	visibility: hidden;
+}
+
+.fr-collapse:not(.fr-collapse--expanded)::before {
+	margin-top: -99999px;
+	margin-top: var(--collapse);
+}
+
+.faq{
+	margin-top: 88px;
+
+	button {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		font-family: inherit;
+		border: none;
+	}
+}
+
+.faq_title{
+	padding-bottom: 32px;
+}
+
+.fr-accordion{
+
+}
+
+.fr-accordion .fr-accordion__btn{
+	font-size: 1.6rem;
+}
+
+.fr-collapse{
+	font-size: 1.4rem;
+}
