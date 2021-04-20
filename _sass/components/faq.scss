@@ -39,10 +39,18 @@
 		font-family: inherit;
 		border: none;
 	}
+
+	@include responsiveMaxWidth($bpMobile) {
+		margin-top: 44px;
+	}
 }
 
 .faq_title{
 	padding-bottom: 32px;
+
+	@include responsiveMaxWidth($bpMobile) {
+		padding-bottom: 16px;
+	}
 }
 
 .fr-accordion{
