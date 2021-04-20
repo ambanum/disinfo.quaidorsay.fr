@@ -44,9 +44,18 @@ jobs:
           command: test -s _site/index.html
 
       - run:
+          name: Check HTML common mistakes
+          command: bundle exec htmlproofer ./_site --assume-extension --check-html --disable-external --empty-alt-ignore --check-img-http
+      
+      - run:
+          name: Validate HTML spec compliance
+          command: $HOME/.local/bin/html5validator --root _site --ignore 'Bad value "doc-endnote" for attribute "role" on element "li"' --ignore 'A "select" element with a "required" attribute, and without a "multiple" attribute, and without a "size" attribute whose value is greater than "1", must have a child "option" element.'  # https://github.com/validator/validator/issues/793 does not seem to be taken into account, ignoring manually
+
+      - run:
           name: Start server
           command: bundle exec jekyll serve --no-watch --skip-initial-build
           background: true
+          
       - run:
           name: Wait for server to start
           command: |
