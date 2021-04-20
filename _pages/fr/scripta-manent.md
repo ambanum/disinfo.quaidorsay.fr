@@ -87,7 +87,7 @@ Scripta Manent est un outil en ligne qui permet de mesurer les changements entre
 					<ul>
 						<li>1. Choissisez le service et le type de document qui vous intéresse</li>
 						<li>2. Choississez une première et une deuxième date pour lesquelles vous souhaitez effectuer une comparaison</li>
-						<li>3. Cliquez sur le bouton "Comparer" et patientez brievement</li>
+						<li>3. Cliquez sur le bouton "Comparer" et patientez brièvement</li>
 					</ul>
 				</div>
 			</section>
