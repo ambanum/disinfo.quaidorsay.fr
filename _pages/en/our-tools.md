@@ -23,6 +23,14 @@ button-href="/en/open-terms-archive" %}
 
 {% include our-tools/tool.html
 icon="tool"
+title="Scripta Manent"
+subtitle="Explore the contractual documents of the main online service providers and compare their evolution through time."
+desc="Scripta Manent is a first very simple online tool which enables you to compare changes between two dates of your choice. It's a valuable tool to empower consumers, lawyers, regulators (they are able to assess the loyalty of the platforms' commitments), lawmakers (they are able to analyze the rationale used by companies to circumvent their texts), journalists, law researchers, and even Legal Tech companies."
+button-label="Try now"
+button-href="/en/open-terms-archive/scripta-manent" %}
+
+{% include our-tools/tool.html
+icon="tool"
 title="DisEncyclopedia"
 subtitle="Improve your practices and toolset"
 desc="An open and collaborative resource that documents best practices, tools and actors, allowing all of those who counter information manipulation to improve the competence of the entire ecosystem."

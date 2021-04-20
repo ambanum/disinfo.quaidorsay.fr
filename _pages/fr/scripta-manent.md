@@ -14,6 +14,8 @@ navbar_items:
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
 js_files:
  - assets/dist/scripta-manent.js
+ - assets/vendor/@gouvfr/dsfr/dist/js/dsfr.module.min.js
+ - assets/vendor/@gouvfr/dsfr/dist/js/accordions.module.js
 ---
 
 {% capture hero_title %}{{ site.data.translations.scripta-manent.hero.title[page.lang] }}{% endcapture %}
@@ -38,6 +40,9 @@ js_files:
     'lang': '{{ page.lang }}'
   };
 </script>
+
+Scripta Manent est un outil en ligne qui permet de mesurer les changements entre deux dates d'un document contractuel de son choix. Précieux pour les consommateurs, pour les juristes, pour le régulateur (qui peut mesurer la sincérité des engagements des plateformes), pour le législateur (qui peut analyser la logique par laquelle les entreprises essayent de contourner ses textes), pour les journalistes, les chercheurs en droit et les entreprises de la Legal Tech.
+{: .text-lg }
 
 <form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
@@ -65,4 +70,27 @@ js_files:
 
 <div class="datasetRelease">
 	...
+</div>
+
+<div class="faq">
+	<h3 class="faq_title">Foire aux questions</h3>
+	<ul class="fr-accordions-group">
+		<li>
+			<section class="fr-accordion">
+				<h3 class="fr-accordion__title">
+					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-89">Comment ça marche ?</button>
+				</h3>
+				<div class="fr-collapse" id="accordion-89">
+					<video controls width="350">
+						<source src="../../assets/videos/scripta-manent.mp4" type="video/mp4">
+					</video>
+					<ul>
+						<li>1. Choissisez le service et le type de document qui vous intéresse</li>
+						<li>2. Choississez une première et une deuxième date pour lesquelles vous souhaitez effectuer une comparaison</li>
+						<li>3. Cliquez sur le bouton "Comparer" et patientez brièvement</li>
+					</ul>
+				</div>
+			</section>
+		</li>
+		</ul>
 </div>

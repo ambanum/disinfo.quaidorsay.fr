@@ -39,6 +39,8 @@ js_files:
 	};
 </script>
 
+Scripta Manent is an online tool that allows to measure the changes between two dates of a contractual document of your choice. Valuable for consumers, for lawyers, for the regulator (who can measure the sincerity of the platforms' commitments), for the legislator (who can analyze the logic by which companies try to circumvent its texts), for journalists, legal researchers and Legal Tech companies.
+
 <form class="form explorerform" id="form_explorer">
 	<div class="form_field form_field-big">
 		<label class="form_field_label" for="form_services">{{ site.data.translations.scripta-manent.form.service[page.lang] }}</label>
@@ -65,4 +67,27 @@ js_files:
 
 <div class="datasetRelease">
 	...
+</div>
+
+<div class="faq">
+	<h3 class="faq_title">Frequently asked questions</h3>
+	<ul class="fr-accordions-group">
+		<li>
+			<section class="fr-accordion">
+				<h3 class="fr-accordion__title">
+					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-89">How does it work?</button>
+				</h3>
+				<div class="fr-collapse" id="accordion-89">
+					<video controls width="350">
+						<source src="../../assets/videos/scripta-manent.mp4" type="video/mp4">
+					</video>
+					<ul>
+						<li>1. Choose the service and the type of document you are interested in</li>
+						<li>2. Choose a first and a second date for which you want to make a comparison</li>
+						<li>3. Click on the "Compare" button and wait briefly</li>
+					</ul>
+				</div>
+			</section>
+		</li>
+		</ul>
 </div>
