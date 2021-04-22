@@ -63,4 +63,14 @@
 
 .fr-collapse{
 	font-size: 1.4rem;
+
+	video{
+		width: 100%;
+		height: auto;
+	}
+
+	.videoContainer{
+		max-width: 620px;
+	}
 }
+

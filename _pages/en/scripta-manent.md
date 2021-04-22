@@ -14,6 +14,8 @@ navbar_items:
   - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
 js_files:
  - assets/dist/scripta-manent.js
+ - assets/vendor/@gouvfr/dsfr/dist/js/dsfr.module.min.js
+ - assets/vendor/@gouvfr/dsfr/dist/js/accordions.module.js
 ---
 
 {% capture hero_title %}{{ site.data.translations.scripta-manent.hero.title[page.lang] }}{% endcapture %}
@@ -75,19 +77,21 @@ Scripta Manent is an online tool that allows to measure the changes between two 
 		<li>
 			<section class="fr-accordion">
 				<h3 class="fr-accordion__title">
-					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-89">How does it work?</button>
+					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-90">How does it work?</button>
 				</h3>
-				<div class="fr-collapse" id="accordion-89">
-					<video controls width="350">
-						<source src="../../assets/videos/scripta-manent.mp4" type="video/mp4">
-					</video>
+				<div class="fr-collapse" id="accordion-90">
+					<div class="videoContainer">
+						<video controls>
+							<source src="../../assets/videos/scripta-manent.mp4" type="video/mp4">
+						</video>
+					</div>
 					<ul>
-						<li>1. Choose the service and the type of document you are interested in</li>
+						<li>1. Choose the service and the type of document you are interested in.</li>
 						<li>2. Choose a first and a second date for which you want to make a comparison</li>
 						<li>3. Click on the "Compare" button and wait briefly</li>
 					</ul>
 				</div>
 			</section>
 		</li>
-		</ul>
+	</ul>
 </div>

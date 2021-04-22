@@ -278,7 +278,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (= 214)
+  github-pages
   html-proofer
 
 BUNDLED WITH
