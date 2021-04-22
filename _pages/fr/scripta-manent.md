@@ -81,9 +81,11 @@ Scripta Manent est un outil en ligne qui permet de mesurer les changements entre
 					<button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-89">Comment ça marche ?</button>
 				</h3>
 				<div class="fr-collapse" id="accordion-89">
-					<video controls width="350">
-						<source src="../../assets/videos/scripta-manent.mp4" type="video/mp4">
-					</video>
+					<div class="videoContainer">
+						<video controls>
+							<source src="../../assets/videos/scripta-manent.mp4" type="video/mp4">
+						</video>
+					</div>
 					<ul>
 						<li>1. Choissisez le service et le type de document qui vous intéresse</li>
 						<li>2. Choississez une première et une deuxième date pour lesquelles vous souhaitez effectuer une comparaison</li>
@@ -92,5 +94,5 @@ Scripta Manent est un outil en ligne qui permet de mesurer les changements entre
 				</div>
 			</section>
 		</li>
-		</ul>
+	</ul>
 </div>
