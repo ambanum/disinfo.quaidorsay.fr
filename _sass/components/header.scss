@@ -27,6 +27,7 @@
 	align-items: center;
 	width: 194px;
 	height: 97px;
+	box-shadow:none;
 
 	@include responsiveMaxWidth($bpTablet) {
 		width: 31px;
@@ -136,6 +137,7 @@
 
 .header_langnav_item {
 	margin-right: 12px;
+	list-style-type: none;
 	&:last-of-type {
 		margin-right: 0;
 	}

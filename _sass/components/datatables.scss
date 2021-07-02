@@ -47,6 +47,8 @@
 }
 
 .dataTable-sorter {
+	box-shadow:none;
+	text-align:left;
 	position: relative;
 	font-weight: normal;
 	@extend .font-mariannebold;

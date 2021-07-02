@@ -12,7 +12,7 @@ navbar_items:
 # Analytics and privacy
 
 When you visit this website, we leave a small text file (a “cookie”) on your computer. This allows us to measure how many visits we’ve had and which pages are most viewed.  
-<izh-Hantame src="https://stats.data.gouv.fr/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=&fontSize=&fontFamily=helvetica%20neue"></iframe>
+<iframe src="https://stats.data.gouv.fr/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=&fontSize=&fontFamily=helvetica%20neue"></iframe>
 
 ## Why doesn’t this website show a consent banner for cookies?
 

@@ -24,3 +24,8 @@ strong,
 bold {
 	@extend .font-mariannebold;
 }
+
+p{
+	font-size:1.6rem;
+	line-height: $default-line-height;
+}
