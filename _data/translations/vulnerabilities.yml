@@ -62,9 +62,9 @@ items:
       en: Fake news sites can be used to share information while misleading users. These sites often have some superficial markers of authenticity, such as naming and site-design.
       zh-Hant: 在分享資訊時，一面誤導用戶。這些網站常常透過名稱、網站設計等方式，偽造可靠的外表。
 items-context:
-  fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">framework AMITT</a>.
-  en: Our approach is based on the <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">AMITT framework</a>.
-  zh-Hant: 我們的作法奠基於 <a href="https://github.com/misinfosecproject/amitt_framework/blob/master/matrix.md">AMITT 架構</a>。
+  fr: Notre lecture en vulnérabilités s'appuie sur le <a href="https://github.com/cogsec-collaborative/AMITT">framework AMITT</a>.
+  en: Our approach is based on the <a href="htthttps://github.com/cogsec-collaborative/AMITT">AMITT framework</a>.
+  zh-Hant: 我們的作法奠基於 <a href="https://github.com/cogsec-collaborative/AMITT">AMITT 架構</a>。
 desc:
   fr: "L’économie de l’attention favorise la publication de contenus qui <strong>exploitent nos biais et nos croyances</strong> pour créer artificiellement de « l’engagement », une mesure de visibilité trop souvent utilisé à tort pour déterminer <strong>la crédibilité ou l'importance d'une information.</strong>"
   en: The attention economy allows bad actors to gain money and views by publishing content that <strong>exploits our biases and tendencies</strong> to artificially create “engagement”, a metric for visibility that is too often misrepresented as measuring <strong>credibility or importance</strong>. 
