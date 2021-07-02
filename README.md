@@ -12,8 +12,6 @@ This site is built with [Jekyll](https://jekyllrb.com/), a static site generator
 
 To improve it, install [Ruby](https://www.ruby-lang.org/fr/) and [Jekyll](https://jekyllrb.com) in their [production versions](https://pages.github.com/versions/).
 
-If the installation of `nokogiri` is problematic with the system versions of `libxml`, you can try to install [rbenv](https://github.com/rbenv/rbenv) by combining a new installation with the environment variable `NOKOGIRI_USE_SYSTEM_LIBRARIES` set to `true`.
-
 Then clone this repository, install dependencies and run the server:
 ```sh
 git clone https://github.com/AmbaNum/disinfo.quaidorsay.fr.git
@@ -22,14 +20,6 @@ gem install bundler --no-document
 bundle install
 bundle exec jekyll serve
 ```
-
-### Trouleshooting
-Trying `gem install bundler` you get
-```
-ERROR:  While executing gem ... (Gem::FilePermissionError)
-    You don't have write permissions for the /usr/bin directory.
-```
-please do `sudo gem install bundler --no-document -n /usr/local/bin`
 
 ### Scripta Manent
 
@@ -58,6 +48,12 @@ Deployment is done with [GitHub Pages](https://pages.github.com). Just push to t
 
 An Nginx reverse proxy is set up on `disinfo.quaidorsay.fr` to serve the content deployed on `ambanum.github.io`.
 
+## Trouleshooting
+
+If the installation of `nokogiri` is problematic with the system versions of `libxml`, you can try to install [rbenv](https://github.com/rbenv/rbenv) by combining a new installation with the environment variable `NOKOGIRI_USE_SYSTEM_LIBRARIES` set to `true`.
+
+To install Xcode, Homebrew, Git, a Ruby manager (chruby, rbenv, RVM), Rails, Jekyll on macOS (including M1 Apple Silicon) please follow [this tutorial] (https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-2-install-chruby-and-the-latest-ruby-with-ruby-install)
+
 - - -
 
 # License
@@ -65,3 +61,4 @@ An Nginx reverse proxy is set up on `disinfo.quaidorsay.fr` to serve the content
 The code for this software is distributed under the European Union Public Licence (EUPL) v1.2.
 
 Contact the author if you have any specific need or question regarding licensing.
+
