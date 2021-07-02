@@ -18,10 +18,18 @@ Then clone this repository, install dependencies and run the server:
 ```sh
 git clone https://github.com/AmbaNum/disinfo.quaidorsay.fr.git
 cd disinfo.quaidorsay.fr
-gem install bundler --no-ri --no-rdoc
+gem install bundler --no-document
 bundle install
 bundle exec jekyll serve
 ```
+
+### Trouleshooting
+Trying `gem install bundler` you get
+```
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /usr/bin directory.
+```
+please do `sudo gem install bundler --no-document -n /usr/local/bin`
 
 ### Scripta Manent
 
