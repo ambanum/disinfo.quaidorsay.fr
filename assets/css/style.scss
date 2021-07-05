@@ -3,8 +3,11 @@
 # only Main files contain this front matter, not partials.
 ---
 
+//Import dsfr
+@import "../../assets/vendor/@gouvfr/dsfr-v1.0.0/dist/css/dsfr.min.css";
+
 //Reset CSS
-@import "./vendor/minireset.sass";
+//@import "./vendor/minireset.sass";
 
 //Config 
 @import "config.scss";
@@ -43,7 +46,7 @@
 @import "./components/diffviewer.scss";
 @import "./components/legend.scss";
 @import "./components/datasetRelease.scss";
-@import "../../assets/vendor/@gouvfr/dsfr/dist/css/accordions.min.css";
+//@import "../../assets/vendor/@gouvfr/dsfr/dist/css/accordions.min.css";
 @import "./components/faq.scss";
 
 //Utilities

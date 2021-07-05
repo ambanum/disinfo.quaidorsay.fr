@@ -103,6 +103,8 @@
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+		max-width: 100%;
+		width: 100%;
 	}
 
 	>pre {
@@ -134,6 +136,7 @@
 				background-color: $color-g300;
 				@extend .font-mariannebold;
 				font-size: 1.4rem;
+				text-align: left;
 			}
 		}
 
