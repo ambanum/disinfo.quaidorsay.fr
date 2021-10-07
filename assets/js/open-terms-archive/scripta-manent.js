@@ -13,7 +13,7 @@ const requestHeaders = {
 	}
 }
 
-const APIBaseURL = 'https://disinfo.quaidorsay.fr/api/open-terms-archive';
+const APIBaseURL = 'https://opentermsarchive.org/api';
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -54,19 +54,26 @@ document.addEventListener("DOMContentLoaded", () => {
 				//Update form with current state
 				window.addEventListener("popstate", popStateHandler)
 				popStateHandler()
-			})
+			}).catch(error => {
+				showNotification('error', error);
+			  });
 		getDatasetVersion()
 			.then(data => {
 				const { lang, text } = releaseMsgs;
 				const translatedDate = new Date(data.dataset_date).toLocaleDateString(lang,{ year: 'numeric', month: 'long', day: 'numeric' })
 				$datasetVersion[0].innerHTML = text.replace('{{releaseUrl}}', data.dataset_url).replace("{{releaseDate}}", translatedDate);
-			})
+			}).catch(error => {
+				showNotification('error', error);
+			  });
 	}
 
 	async function async_fetch(url) {
 		const response = await fetch(url)
-		if (response.ok) return response.json()
-		throw new Error(response.status)
+		if (!response.ok) { 
+			showNotification('error', response.status);
+			return 
+		}
+		return response.json()
 	}
 
 	async function getServices() {
