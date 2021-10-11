@@ -13,7 +13,7 @@ const requestHeaders = {
 	}
 }
 
-const APIBaseURL = 'https://opentermsarchive.org/api';
+const APIBaseURL = 'https://opentermsarchive.org/data/api';
 
 document.addEventListener("DOMContentLoaded", () => {
 
