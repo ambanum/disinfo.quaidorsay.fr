@@ -88,7 +88,7 @@ Experiments are ongoing so as to produce use cases using Open Terms Archive data
 
 An API endpoint to find specific terms in the Open Terms Archive dataset is available.
 
-[Access the API](https://disinfo.quaidorsay.fr/api/open-terms-archive/){: .button .button-secondary }
+[Access the API](https://opentermsarchive.org/data/api/){: .button .button-secondary }
 
 ## Contributing
 

@@ -90,7 +90,7 @@ Des expérimentations sont en cours afin de produire des premiers cas d'usage à
 
 Une API permettant de trouver des termes spécifiques dans le dataset Open Terms Archive est disponible.
 
-[Accéder à l'API](https://disinfo.quaidorsay.fr/api/open-terms-archive/){: .button .button-secondary }
+[Accéder à l'API](https://opentermsarchive.org/data/api/){: .button .button-secondary }
 
 ## Contribuer
 
