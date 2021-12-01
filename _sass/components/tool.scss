@@ -3,6 +3,10 @@
 	padding: $gridGutterWidth;
 	margin-top: $gridGutterWidth;
 	position: relative;
+
+	&-small{
+		background-color: $color-g100;
+	}
 }
 
 .tool_icon {

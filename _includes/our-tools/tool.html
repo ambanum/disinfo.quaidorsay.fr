@@ -1,4 +1,4 @@
-<div class="tool">
+<div class="tool {%if include.size == 'small'  %}tool-{{ include.size }}{% endif %}">
 	{% if include.icon %}
 		<div class="tool_icon icon_{{ include.icon }}">
 			<svg>
