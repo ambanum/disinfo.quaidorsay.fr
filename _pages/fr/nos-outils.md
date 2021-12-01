@@ -23,19 +23,19 @@ button-href="/fr/open-terms-archive" %}
 
 {% include our-tools/tool.html
 icon="tool"
-title="Bot Finder"
-subtitle="Calculer la probabilité qu'un compte Twitter soit un bot"
-desc="Etiqueter un compte comme « bot » est plus complexe qu’il n’y paraît. Certains comptes sont tour à tour utilisés par des bots et par des humains; ces comptes, baptisés cyborgs, viennent complexifier encore davantage la détection d’un bot pur et simple. Pour aider à l'identification de comptes suspects, nous avons dévelopé un algorithme qui permet de calculer la probabilité qu'un compte donné soit un bot."
-button-label="Voir le code source"
-button-href="https://github.com/ambanum/social-networks-bot-finder" %}
-
-{% include our-tools/tool.html
-icon="tool"
 title="Scripta Manent"
 subtitle="Explorez les documents contractuels des principaux fournisseurs de services en ligne et comparez leur évolution au fil du temps."
 desc="Scripta Manent est un outil en ligne qui permet de mesurer les changements entre deux dates d'un document contractuel de son choix. Précieux pour les consommateurs, pour les juristes, pour le régulateur (qui peut mesurer la sincérité des engagements des plateformes), pour le législateur (qui peut analyser la logique par laquelle les entreprises essayent de contourner ses textes), pour les journalistes, les chercheurs en droit et les entreprises de la Legal Tech."
 button-label="Essayer"
 button-href="/fr/open-terms-archive/scripta-manent" %}
+
+{% include our-tools/tool.html
+icon="tool"
+title="Bot Finder"
+subtitle="Calculer la probabilité qu'un compte Twitter soit un bot"
+desc="Etiqueter un compte comme « bot » est plus complexe qu’il n’y paraît. Certains comptes sont tour à tour utilisés par des bots et par des humains; ces comptes, baptisés cyborgs, viennent complexifier encore davantage la détection d’un bot pur et simple. Pour aider à l'identification de comptes suspects, nous avons dévelopé un algorithme qui permet de calculer la probabilité qu'un compte donné soit un bot."
+button-label="Voir le code source"
+button-href="https://github.com/ambanum/social-networks-bot-finder" %}
 
 {% include our-tools/tool.html
 icon="tool"

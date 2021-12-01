@@ -23,19 +23,19 @@ button-href="/en/open-terms-archive" %}
 
 {% include our-tools/tool.html
 icon="tool"
-title="Bot Finder"
-subtitle="Calculate the probability that a Twitter account is a bot"
-desc="Defining what counts as a bot account is not as direct as it seems. For instance, some accounts are sometimes used by bots and sometimes by humans; these accounts are called cyborg and further complicate the definition. To help identify suspicious accounts, we have developed an algorithm that calculates the probability that a given account is a bot."
-button-label="Voir le code source"
-button-href="https://github.com/ambanum/social-networks-bot-finder" %}
-
-{% include our-tools/tool.html
-icon="tool"
 title="Scripta Manent"
 subtitle="Explore the contractual documents of the main online service providers and compare their evolution through time."
 desc="Scripta Manent is a first very simple online tool which enables you to compare changes between two dates of your choice. It's a valuable tool to empower consumers, lawyers, regulators (they are able to assess the loyalty of the platforms' commitments), lawmakers (they are able to analyze the rationale used by companies to circumvent their texts), journalists, law researchers, and even Legal Tech companies."
 button-label="Try now"
 button-href="/en/open-terms-archive/scripta-manent" %}
+
+{% include our-tools/tool.html
+icon="tool"
+title="Bot Finder"
+subtitle="Calculate the probability that a Twitter account is a bot"
+desc="Defining what counts as a bot account is not as direct as it seems. For instance, some accounts are sometimes used by bots and sometimes by humans; these accounts are called cyborg and further complicate the definition. To help identify suspicious accounts, we have developed an algorithm that calculates the probability that a given account is a bot."
+button-label="Voir le code source"
+button-href="https://github.com/ambanum/social-networks-bot-finder" %}
 
 {% include our-tools/tool.html
 icon="tool"
