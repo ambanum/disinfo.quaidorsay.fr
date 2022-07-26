@@ -12,7 +12,7 @@ jobs:
 
       - run:
           name: Update bundler
-          command: gem install bundle
+          command: gem install bundler:2.2.21
 
       - run:
           name: Install Ruby dependencies
