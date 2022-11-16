@@ -31,14 +31,6 @@ button-href="/en/open-terms-archive/scripta-manent" %}
 
 {% include our-tools/tool.html
 icon="tool"
-title="Bot Finder"
-subtitle="Calculate the probability that a Twitter account is a bot"
-desc="Defining what counts as a bot account is not as direct as it seems. For instance, some accounts are sometimes used by bots and sometimes by humans; these accounts are called cyborg and further complicate the definition. To help identify suspicious accounts, we have developed an algorithm that calculates the probability that a given account is a bot."
-button-label="Voir le code source"
-button-href="https://github.com/ambanum/social-networks-bot-finder" %}
-
-{% include our-tools/tool.html
-icon="tool"
 title="DisEncyclopedia"
 subtitle="Improve your practices and toolset"
 desc="An open and collaborative resource that documents best practices, tools and actors, allowing all of those who counter information manipulation to improve the competence of the entire ecosystem."
@@ -47,6 +39,14 @@ button-href="/encyclopedia" %}
 
 <h3>Our previous work</h3>
 <hr />
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
+subtitle="Bot Finder: calculate the probability that a Twitter account is a bot"
+desc="Defining what counts as a bot account is not as direct as it seems. For instance, some accounts are sometimes used by bots and sometimes by humans; these accounts are called cyborg and further complicate the definition. To help identify suspicious accounts, we have developed an algorithm that calculates the probability that a given account is a bot."
+sublink-label="See"
+sublink-href="https://github.com/ambanum/social-networks-bot-finder" %}
 
 {% include our-tools/tool.html
 size="small"
