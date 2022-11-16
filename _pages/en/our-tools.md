@@ -52,6 +52,15 @@ sublink-href="https://github.com/ambanum/information-manipulation-analyzer"
 {% include our-tools/tool.html
 size="small"
 icon="tool"
+subtitle="Social Networks Graph Generator"
+desc="Recreate the network of interactions of Twitter accounts on a given hashtag or word (or group of words)."
+sublink-label="See"
+sublink-href="https://github.com/ambanum/social-networks-graph-generator"
+%}
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
 subtitle="Bot Finder: calculate the probability that a Twitter account is a bot"
 desc="Defining what counts as a bot account is not as direct as it seems. For instance, some accounts are sometimes used by bots and sometimes by humans; these accounts are called cyborg and further complicate the definition. To help identify suspicious accounts, we have developed an algorithm that calculates the probability that a given account is a bot."
 sublink-label="See"
