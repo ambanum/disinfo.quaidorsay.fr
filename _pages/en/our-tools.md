@@ -69,6 +69,15 @@ sublink-href="https://github.com/ambanum/social-networks-bot-finder" %}
 {% include our-tools/tool.html
 size="small"
 icon="tool"
+subtitle="Open Terms Archive Experiments"
+desc="Experiments are ongoing so as to produce use cases using Open Terms Archive data. To this end, two tools are currently under development : a script allowing to generate a dataset from a Open Terms Archive versions repository, and a python library easing the exploration process for these data."
+sublink-label="See"
+sublink-href="/en/open-terms-archive/experiments"
+%}
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
 subtitle="Illegal Ads: Assess the legality of political ads"
 desc="A crowdsourcing interface that allows citizens to view paid issue-based ads on Facebook and surface actors that do not respect the law. Currently only available for France, our code is open-source and we would be happy to collaborate with you to expand to other countries."
 sublink-label="See"
