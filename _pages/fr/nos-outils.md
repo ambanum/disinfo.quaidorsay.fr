@@ -43,6 +43,15 @@ button-href="/encyclopedia" %}
 {% include our-tools/tool.html
 size="small"
 icon="tool"
+subtitle="Information Manipulation Analyzer: chercher des campagnes de manipulations de l'information sur Twitter."
+desc="Explorer un narratif à travers la volumétrie, les langues utilisées, les utilisateurs actifs, les mots clés associés, les médias, les comportements inauthentiques coordonées et un graphique d'interactions."
+sublink-label="Voir"
+sublink-href="https://github.com/ambanum/information-manipulation-analyzer"
+%}
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
 subtitle="Bot Finder : calculer la probabilité qu'un compte Twitter soit un bot"
 desc="Etiqueter un compte comme « bot » est plus complexe qu’il n’y paraît. Certains comptes sont tour à tour utilisés par des bots et par des humains; ces comptes, baptisés cyborgs, viennent complexifier encore davantage la détection d’un bot pur et simple. Pour aider à l'identification de comptes suspects, nous avons dévelopé un algorithme qui permet de calculer la probabilité qu'un compte donné soit un bot."
 sublink-label="Voir"
