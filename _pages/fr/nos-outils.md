@@ -68,7 +68,7 @@ desc="<p>Un chat qui réunit les acteurs, soutient les bonnes pratiques identifi
 {% include our-tools/tool.html
 size="small"
 icon="tool"
-subtitle="Détection de robots: trouvez des clusters de robots sur Twitter "
+subtitle="Détection de robots : trouvez des clusters de robots sur Twitter "
 desc="<p>Un crawler qui navigue dans les relations d’abonnement de Twitter pour identifier des groupes de comptes suspects à partir d’un compte donné. Il utilise l'API gratuite Twitter et peut donc être facilement déployé. </p><p>Basé sur une annotation manuelle de plus de 400&nbsp;comptes, nous avons également utilisé cet ensemble de données pour <a href=\"/encyclopedia/qualification/tools#reliability-assessment\">évaluer la fiabilité</a> d’outils courants de détection de bots tels que Botometer.</p>"
 sublink-label="Voir"
 sublink-href="/twitter-bot-clusters" %}
