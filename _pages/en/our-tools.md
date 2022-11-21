@@ -19,7 +19,7 @@ title="Open Terms Archive"
 subtitle="Follow the changes to the Terms of Service"
 desc="Services have terms that can change over time. Open Terms Archive enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms."
 button-label="Discover"
-button-href="https://opentermsarchive.org/en" %}
+button-href="https://opentermsarchive.org" %}
 
 {% include our-tools/tool.html
 icon="tool"
@@ -70,7 +70,7 @@ sublink-href="https://github.com/ambanum/social-networks-bot-finder" %}
 size="small"
 icon="tool"
 subtitle="Open Terms Archive Experiments"
-desc="Experiments are ongoing so as to produce use cases using Open Terms Archive data. To this end, two tools are currently under development : a script allowing to generate a dataset from a Open Terms Archive versions repository, and a python library easing the exploration process for these data."
+desc="Experiments are ongoing so as to produce use cases using Open Terms Archive data. To this end, two tools are currently under development : a script allowing to generate a dataset from an Open Terms Archive versions repository, and a python library easing the exploration process for these data."
 sublink-label="See"
 sublink-href="/en/open-terms-archive/experiments"
 %}

@@ -43,8 +43,8 @@ button-href="/encyclopedia" %}
 {% include our-tools/tool.html
 size="small"
 icon="tool"
-subtitle="Information Manipulation Analyzer: chercher des campagnes de manipulations de l'information sur Twitter."
-desc="Explorer un narratif à travers la volumétrie, les langues utilisées, les utilisateurs actifs, les mots clés associés, les médias, les comportements inauthentiques coordonées et un graphique d'interactions."
+subtitle="Information Manipulation Analyzer: chercher des campagnes de manipulation de l'information sur Twitter."
+desc="Explorer un narratif à travers la volumétrie, les langues utilisées, les utilisateurs actifs, les mots clés associés, les médias, les comportements inauthentiques coordonnés et un graphique d'interactions."
 sublink-label="Voir"
 sublink-href="https://github.com/ambanum/information-manipulation-analyzer"
 %}
@@ -53,7 +53,7 @@ sublink-href="https://github.com/ambanum/information-manipulation-analyzer"
 size="small"
 icon="tool"
 subtitle="Social Networks Graph Generator"
-desc="Recréer le réseau d'interactions des comptes Twitter sur un hashtag ou un mot (ou groupe de mots) donné."
+desc="Recréer le réseau d'intéractions des comptes Twitter sur un hashtag ou un mot (ou groupe de mots) donné."
 sublink-label="Voir"
 sublink-href="https://github.com/ambanum/social-networks-graph-generator"
 %}
