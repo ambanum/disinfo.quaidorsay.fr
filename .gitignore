@@ -6,3 +6,5 @@ _site
 node_modules/
 .cache/
 assets/js/open-terms-archive/node_modules/
+
+vendor

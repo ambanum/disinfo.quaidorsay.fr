@@ -19,7 +19,7 @@ title="Open Terms Archive"
 subtitle="Suivre les engagements contractuels des principaux fournisseurs de services en ligne."
 desc="Open Terms Archive est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne. Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions."
 button-label="Découvrir"
-button-href="/fr/open-terms-archive" %}
+button-href="https://opentermsarchive.org/fr" %}
 
 {% include our-tools/tool.html
 icon="tool"
@@ -31,14 +31,6 @@ button-href="/fr/open-terms-archive/scripta-manent" %}
 
 {% include our-tools/tool.html
 icon="tool"
-title="Bot Finder"
-subtitle="Calculer la probabilité qu'un compte Twitter soit un bot"
-desc="Etiqueter un compte comme « bot » est plus complexe qu’il n’y paraît. Certains comptes sont tour à tour utilisés par des bots et par des humains; ces comptes, baptisés cyborgs, viennent complexifier encore davantage la détection d’un bot pur et simple. Pour aider à l'identification de comptes suspects, nous avons dévelopé un algorithme qui permet de calculer la probabilité qu'un compte donné soit un bot."
-button-label="Voir le code source"
-button-href="https://github.com/ambanum/social-networks-bot-finder" %}
-
-{% include our-tools/tool.html
-icon="tool"
 title="Encyclopédie"
 subtitle="Améliorez vos pratiques et outils"
 desc="Une ressource ouverte et collaborative qui documente les meilleures pratiques, outils et acteurs, permettant à toutes les personnes qui luttent contre la manipulation de l'information d'améliorer la compétence de l'écosystème tout entier."
@@ -47,6 +39,42 @@ button-href="/encyclopedia" %}
 
 <h3>Nos travaux précédents</h3>
 <hr />
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
+subtitle="Information Manipulation Analyzer: chercher des campagnes de manipulation de l'information sur Twitter."
+desc="Explorer un narratif à travers la volumétrie, les langues utilisées, les utilisateurs actifs, les mots clés associés, les médias, les comportements inauthentiques coordonnés et un graphique d'interactions."
+sublink-label="Voir"
+sublink-href="https://github.com/ambanum/information-manipulation-analyzer"
+%}
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
+subtitle="Social Networks Graph Generator"
+desc="Recréer le réseau d'intéractions des comptes Twitter sur un hashtag ou un mot (ou groupe de mots) donné."
+sublink-label="Voir"
+sublink-href="https://github.com/ambanum/social-networks-graph-generator"
+%}
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
+subtitle="Bot Finder : calculer la probabilité qu'un compte Twitter soit un bot"
+desc="Etiqueter un compte comme « bot » est plus complexe qu’il n’y paraît. Certains comptes sont tour à tour utilisés par des bots et par des humains; ces comptes, baptisés cyborgs, viennent complexifier encore davantage la détection d’un bot pur et simple. Pour aider à l'identification de comptes suspects, nous avons dévelopé un algorithme qui permet de calculer la probabilité qu'un compte donné soit un bot."
+sublink-label="Voir"
+sublink-href="https://github.com/ambanum/social-networks-bot-finder"
+%}
+
+{% include our-tools/tool.html
+size="small"
+icon="tool"
+subtitle="Expérimentations Open Terms Archive"
+desc="Des expérimentations sont en cours afin de produire des premiers cas d’usage à partir des données générées par l’outil Open Terms Archive. Dans ce cadre, deux outils annexes sont en cours de développement : un script permettant l’extraction d’un jeu de données à partir d’un dépot de versions Open Terms Archive, et un utilitaire facilitant l’exploration de ces données."
+sublink-label="Voir"
+sublink-href="/fr/open-terms-archive/experimentations"
+%}
 
 {% include our-tools/tool.html
 size="small"
@@ -67,7 +95,7 @@ desc="<p>Un chat qui réunit les acteurs, soutient les bonnes pratiques identifi
 {% include our-tools/tool.html
 size="small"
 icon="tool"
-subtitle="Détection de robots: trouvez des clusters de robots sur Twitter "
+subtitle="Détection de robots : trouvez des clusters de robots sur Twitter "
 desc="<p>Un crawler qui navigue dans les relations d’abonnement de Twitter pour identifier des groupes de comptes suspects à partir d’un compte donné. Il utilise l'API gratuite Twitter et peut donc être facilement déployé. </p><p>Basé sur une annotation manuelle de plus de 400&nbsp;comptes, nous avons également utilisé cet ensemble de données pour <a href=\"/encyclopedia/qualification/tools#reliability-assessment\">évaluer la fiabilité</a> d’outils courants de détection de bots tels que Botometer.</p>"
 sublink-label="Voir"
 sublink-href="/twitter-bot-clusters" %}
