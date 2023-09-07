@@ -20,7 +20,7 @@ size="small"
 icon="tool"
 title="Open Terms Archive"
 subtitle="Follow the changes to the Terms of Service"
-desc="Services have terms that can change over time. Open Terms Archive enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms."
+desc="<p>Services have terms that can change over time. Open Terms Archive enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms.</p><p>The tool is now operated by an independent collective.</p>"
 sublink-label="Discover"
 sublink-href="https://opentermsarchive.org" %}
 

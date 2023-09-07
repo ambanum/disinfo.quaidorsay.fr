@@ -20,7 +20,7 @@ size="small"
 icon="tool"
 title="Open Terms Archive"
 subtitle="Suivre les engagements contractuels des principaux fournisseurs de services en ligne."
-desc="Open Terms Archive est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne. Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions."
+desc="<p>Open Terms Archive est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne. Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions.</p><p>L'outil est désormais opéré par un collectif indépendant.</p>"
 sublink-label="Découvrir"
 sublink-href="https://opentermsarchive.org/fr" %}
 
