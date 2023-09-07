@@ -13,32 +13,34 @@ navbar_items:
 
 {% include breadcrumb.html %}
 
+<h3>Nos travaux précédents</h3>
+
 {% include our-tools/tool.html
+size="small"
 icon="tool"
 title="Open Terms Archive"
 subtitle="Suivre les engagements contractuels des principaux fournisseurs de services en ligne."
 desc="Open Terms Archive est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des principaux fournisseurs de services en ligne. Il permet aux défenseurs des droits des utilisateurs, aux régulateurs et à toute personne intéressée de suivre les évolutions de ces conditions."
-button-label="Découvrir"
-button-href="https://opentermsarchive.org/fr" %}
+sublink-label="Découvrir"
+sublink-href="https://opentermsarchive.org/fr" %}
 
 {% include our-tools/tool.html
+size="small"
 icon="tool"
 title="Scripta Manent"
 subtitle="Explorez les documents contractuels des principaux fournisseurs de services en ligne et comparez leur évolution au fil du temps."
 desc="Scripta Manent est un outil en ligne qui permet de mesurer les changements entre deux dates d'un document contractuel de son choix. Précieux pour les consommateurs, pour les juristes, pour le régulateur (qui peut mesurer la sincérité des engagements des plateformes), pour le législateur (qui peut analyser la logique par laquelle les entreprises essayent de contourner ses textes), pour les journalistes, les chercheurs en droit et les entreprises de la Legal Tech."
-button-label="Essayer"
-button-href="/fr/open-terms-archive/scripta-manent" %}
+sublink-label="Essayer"
+sublink-href="/fr/open-terms-archive/scripta-manent" %}
 
 {% include our-tools/tool.html
+size="small"
 icon="tool"
 title="Encyclopédie"
 subtitle="Améliorez vos pratiques et outils"
 desc="Une ressource ouverte et collaborative qui documente les meilleures pratiques, outils et acteurs, permettant à toutes les personnes qui luttent contre la manipulation de l'information d'améliorer la compétence de l'écosystème tout entier."
-button-label="Explorer"
-button-href="/encyclopedia" %}
-
-<h3>Nos travaux précédents</h3>
-<hr />
+sublink-label="Explorer"
+sublink-href="/encyclopedia" %}
 
 {% include our-tools/tool.html
 size="small"

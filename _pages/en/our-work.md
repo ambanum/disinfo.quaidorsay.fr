@@ -13,32 +13,34 @@ navbar_items:
 
 {% include breadcrumb.html %}
 
+<h3>Our previous work</h3>
+
 {% include our-tools/tool.html
+size="small"
 icon="tool"
 title="Open Terms Archive"
 subtitle="Follow the changes to the Terms of Service"
 desc="Services have terms that can change over time. Open Terms Archive enables users rights advocates, regulatory bodies and any interested citizen to follow the changes to these terms."
-button-label="Discover"
-button-href="https://opentermsarchive.org" %}
+sublink-label="Discover"
+sublink-href="https://opentermsarchive.org" %}
 
 {% include our-tools/tool.html
+size="small"
 icon="tool"
 title="Scripta Manent"
 subtitle="Explore the contractual documents of the main online service providers and compare their evolution through time."
 desc="Scripta Manent is a first very simple online tool which enables you to compare changes between two dates of your choice. It's a valuable tool to empower consumers, lawyers, regulators (they are able to assess the loyalty of the platforms' commitments), lawmakers (they are able to analyze the rationale used by companies to circumvent their texts), journalists, law researchers, and even Legal Tech companies."
-button-label="Try now"
-button-href="/en/open-terms-archive/scripta-manent" %}
+sublink-label="Try now"
+sublink-href="/en/open-terms-archive/scripta-manent" %}
 
 {% include our-tools/tool.html
+size="small"
 icon="tool"
 title="DisEncyclopedia"
 subtitle="Improve your practices and toolset"
 desc="An open and collaborative resource that documents best practices, tools and actors, allowing all of those who counter information manipulation to improve the competence of the entire ecosystem."
-button-label="Explore"
-button-href="/encyclopedia" %}
-
-<h3>Our previous work</h3>
-<hr />
+sublink-label="Explore"
+sublink-href="/encyclopedia" %}
 
 {% include our-tools/tool.html
 size="small"
