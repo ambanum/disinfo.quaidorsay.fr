@@ -10,6 +10,7 @@ navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>
   - <a href="!SITE_URL!/zh-Hant#our-actions" class="header_mainnav_link">我們的行動</a>
   - <a href="/zh-Hant/our-tools" class="header_mainnav_link">我們的工具</a>
+redirect_to: https://opentermsarchive.org
 ---
 
 # 服務條款開放資料庫

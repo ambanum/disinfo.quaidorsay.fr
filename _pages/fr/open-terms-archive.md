@@ -10,6 +10,7 @@ navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
   - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
+redirect_to: https://opentermsarchive.org/fr
 ---
 
 # Open Terms Archive
