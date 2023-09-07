@@ -1,15 +1,15 @@
 ---
-permalink: /fr/nos-outils
-permalink_en: /en/our-tools
-permalink_zh-Hant: /zh-Hant/our-tools
-title: Nos outils
+permalink: /fr/nos-travaux
+permalink_en: /en/our-work
+permalink_zh-Hant: /zh-Hant/our-work
+title: Nos travaux
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
-  - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
+  - <a href="/fr/nos-travaux" class="header_mainnav_link">Nos travaux</a>
 ---
 
-# Nos outils
+# Nos travaux
 
 {% include breadcrumb.html %}
 

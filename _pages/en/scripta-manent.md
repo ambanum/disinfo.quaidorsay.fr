@@ -3,15 +3,15 @@ permalink: /en/open-terms-archive/scripta-manent
 permalink_fr: /fr/open-terms-archive/scripta-manent
 permalink_zh-Hant: /zh-Hant/open-terms-archive/scripta-manent
 breadcrumb_items:
- - url: /en/our-tools
-   label: Our tools
+ - url: /en/our-work
+   label: Our work
  - url: /en/open-terms-archive
    label: Open Terms Archive
 title: Scripta Manent
 navbar_items:
   - <a href="/" class="header_mainnav_link">Home</a>
   - <a href="!SITE_URL!/en/#our-actions" class="header_mainnav_link">Our actions</a>
-  - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
+  - <a href="/en/our-work" class="header_mainnav_link">Our work</a>
 js_files:
  - assets/dist/scripta-manent.js
  - assets/vendor/@gouvfr/dsfr/dist/js/dsfr.module.min.js

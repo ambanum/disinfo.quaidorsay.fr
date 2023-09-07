@@ -5,7 +5,7 @@ title: Major social media political ads policies
 navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>
   - <a href="!SITE_URL!/zh-Hant#our-actions" class="header_mainnav_link">我們的行動</a>
-  - <a href="/zh-Hant/our-tools" class="header_mainnav_link">我們的工具</a>
+  - <a href="/zh-Hant/our-work" class="header_mainnav_link">我们的工作</a>
 ---
 
 # 主流社群媒體的政治廣告規範
