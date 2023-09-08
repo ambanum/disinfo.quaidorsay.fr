@@ -11,7 +11,7 @@ title: Scripta Manent
 navbar_items:
   - <a href="/" class="header_mainnav_link">Accueil</a>
   - <a href="!SITE_URL!/fr#nos-actions" class="header_mainnav_link">Nos actions</a>
-  - <a href="/fr/nos-outils" class="header_mainnav_link">Nos outils</a>
+  - <a href="/fr/nos-travaux" class="header_mainnav_link">Nos travaux</a>
 js_files:
  - assets/dist/scripta-manent.js
  - assets/vendor/@gouvfr/dsfr/dist/js/dsfr.module.min.js

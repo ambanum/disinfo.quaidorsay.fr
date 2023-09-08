@@ -4,12 +4,13 @@ permalink_fr: /fr/open-terms-archive
 permalink_en: /en/open-terms-archive
 title: 服務條款開放資料庫
 breadcrumb_items:
- - url: /zh-Hant/our-tools
-   label: 我們的工具
+ - url: /zh-Hant/our-work
+   label: 我们的工作
 navbar_items:
   - <a href="/zh-Hant" class="header_mainnav_link">首頁</a>
   - <a href="!SITE_URL!/zh-Hant#our-actions" class="header_mainnav_link">我們的行動</a>
-  - <a href="/zh-Hant/our-tools" class="header_mainnav_link">我們的工具</a>
+  - <a href="/zh-Hant/our-work" class="header_mainnav_link">我们的工作</a>
+redirect_to: https://opentermsarchive.org
 ---
 
 # 服務條款開放資料庫

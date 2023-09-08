@@ -6,7 +6,7 @@ title: Legal notice
 navbar_items:
   - <a href="/en" class="header_mainnav_link">Home</a>
   - <a href="!SITE_URL!/en#our-actions" class="header_mainnav_link">Our actions</a>
-  - <a href="/en/our-tools" class="header_mainnav_link">Our tools</a>
+  - <a href="/en/our-work" class="header_mainnav_link">Our work</a>
 ---
 
 # Legal notice
